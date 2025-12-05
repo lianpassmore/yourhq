@@ -2,10 +2,26 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+
+// DATA: Testimonials
+const testimonials = [
+  {
+    quote: "Building a website was my barrier to market—I didn't have the skills. You helped me fulfill a dream. You made this come true.",
+    author: "Nicolette, Ember & Ice",
+    role: "Wellness Studio",
+    color: "border-hibiscus" // Pink accent
+  },
+  {
+    quote: "I'm definitely not up to speed on tech stuff. While I was still figuring out Google Drive, Lian had already built the whole thing from our Facebook. My mates reckon it's banging!",
+    author: "Rueben, Johnson & Sons",
+    role: "Commercial Builder",
+    color: "border-signal" // Blue accent
+  }
+];
 ---
 
-<Layout
-  title="YourHQ | Professional Websites for Kiwi Businesses"
+<Layout 
+  title="YourHQ | Professional Websites for Kiwi Businesses" 
   description="Stop renting your business on social media. Professional websites for Kiwi businesses. Built in 5 business days. From $995. Own your digital space."
 >
   
@@ -97,9 +113,9 @@ import Footer from '../components/Footer.astro';
             
             <!-- Left: Visual -->
             <div class="bg-white border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[400px]">
-              <div class="relative w-full aspect-square border-2 border-carbon overflow-hidden bg-gray-50">
-                <div class="absolute top-4 left-4 font-mono text-xs z-10 bg-white/90 px-2 py-1">IMG_01.jpg</div>
-                <img src="/hands.jpeg" alt="Close up of hands working" class="w-full h-full object-cover" />
+              <div class="relative w-full aspect-square border-2 border-carbon overflow-hidden bg-gray-50 shadow-hard-sm">
+                <div class="absolute top-4 left-4 font-mono text-xs z-10 bg-white/90 px-2 py-1 border border-carbon">IMG_01.jpg</div>
+                <img src="/hands.jpeg" alt="Close up of hands working" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
                 <!-- Decorative accent -->
                 <div class="absolute -bottom-2 -right-2 w-full h-full border border-signal -z-10"></div>
               </div>
@@ -257,7 +273,36 @@ import Footer from '../components/Footer.astro';
         </div>
     </section>
 
-    <!-- SECTION 5: PRICING -->
+    <!-- NEW SECTION 5: TESTIMONIALS -->
+    <section class="py-24 bg-carbon text-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-5xl font-extrabold tracking-tighter mb-16 text-center">
+          Real People. <span class="text-signal">Real Results.</span>
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+          {testimonials.map((t) => (
+            <div class={`bg-paper text-carbon p-8 md:p-12 border-l-8 ${t.color} relative shadow-hard-white`}>
+              <div class="mb-6">
+                 <span class="text-4xl text-gray-300">“</span>
+                 <p class="text-lg md:text-xl font-medium leading-relaxed italic relative z-10 -mt-4">
+                  {t.quote}
+                 </p>
+              </div>
+              
+              <div class="flex items-center gap-4 mt-8 border-t border-carbon/10 pt-6">
+                 <div>
+                    <p class="font-extrabold text-lg">{t.author}</p>
+                    <p class="font-mono text-xs text-gray-500 uppercase tracking-widest">{t.role}</p>
+                 </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: PRICING -->
     <section class="py-24 bg-white border-b border-carbon">
         <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="text-center max-w-2xl mx-auto mb-16">
@@ -322,11 +367,11 @@ import Footer from '../components/Footer.astro';
             <div class="grid md:grid-cols-2 gap-8 text-left max-w-lg mx-auto border-t border-white/20 pt-8">
                 <div>
                     <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Text Penny</span>
-                    <span class="text-lg">022 172 5793</span>
+                    <a href="sms:0221725793" class="text-lg hover:text-signal transition-colors">022 172 5793</a>
                 </div>
                 <div>
                     <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Email Us</span>
-                    <span class="text-lg">hello@yourhq.co.nz</span>
+                    <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-signal transition-colors">hello@yourhq.co.nz</a>
                 </div>
             </div>
         </div>
