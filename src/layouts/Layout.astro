@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		
+		<!-- Google Fonts: Inter & Courier Prime -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+		
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="bg-paper text-carbon font-sans selection:bg-frangipani selection:text-carbon">
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+	/* Custom Utilities if needed */
+	html {
+		scroll-behavior: smooth;
+	}
+</style>
+
+<style is:global>
+  /* Your custom global CSS goes here */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Example: Custom scrollbar for that "Technical" feel */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F5F5F7;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #111111;
+    border: 2px solid #F5F5F7;
+  }
+</style>

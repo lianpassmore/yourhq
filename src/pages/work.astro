@@ -1,0 +1,132 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+
+// Placeholder Data - Update this with real content later
+const projects = [
+  {
+    client: "The Iron Yard",
+    type: "Construction & Trades",
+    image: "/images/placeholder-1.jpg", // You'll replace this
+    link: "#",
+    quote: "Building a website was my barrier to market. I didn't have the skills. YourHQ helped me fulfill a dream.",
+    author: "Nicolette, Founder"
+  },
+  {
+    client: "Luna & Soul",
+    type: "Salon & Creative",
+    image: "/images/placeholder-2.jpg", // You'll replace this
+    link: "#",
+    quote: "I've tried Wix three times and quit every time. YourHQ just... did it. And it looks better than anything I could've made.",
+    author: "Sarah, Owner"
+  },
+  {
+    client: "Northland Electrical",
+    type: "Commercial Services",
+    image: "/images/placeholder-3.jpg", // You'll replace this
+    link: "#",
+    quote: "I'm definitely not up to speed on tech stuff. Lian grabbed images from our Facebook and built the whole thing. My mates reckon it's banging.",
+    author: "Rueben, Electrician"
+  },
+  {
+    client: "Move It NZ",
+    type: "Logistics",
+    image: "/images/placeholder-4.jpg", // You'll replace this
+    link: "#",
+    quote: "Fastest turnaround I've ever seen. We needed a site for a tender deadline and they got it live in 4 days.",
+    author: "Mike, Director"
+  }
+];
+---
+
+<Layout 
+  title="Our Work | YourHQ - Real Results" 
+  description="See the digital homes we've built for Kiwi businesses. Real results, real testimonials."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+    
+    <!-- HEADER -->
+    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+          The <span class="text-signal">Work.</span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            We build the structure. You bring the flavor.<br/>
+            See what happens when infrastructure meets warmth.
+        </p>
+      </div>
+    </section>
+
+    <!-- THE GALLERY -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid md:grid-cols-2 gap-x-12 gap-y-24">
+            
+            {projects.map((project) => (
+                <div class="group">
+                    
+                    <!-- 1. The Image Frame (Infrastructure) -->
+                    <!-- Strict border, Hard shadow -->
+                    <a href={project.link} class="block border-2 border-carbon bg-gray-100 p-1 shadow-hard group-hover:shadow-none group-hover:translate-y-[2px] transition-all duration-300 relative aspect-[4/3] mb-8">
+                        <div class="w-full h-full bg-white relative overflow-hidden flex items-center justify-center border border-carbon/10">
+                            
+                            {/* Placeholder Text - Remove when you have images */}
+                            <div class="text-center opacity-30">
+                                <span class="text-4xl block mb-2">📷</span>
+                                <span class="font-mono text-xs uppercase tracking-widest">Project Image</span>
+                            </div>
+
+                            {/* Actual Image Tag */}
+                            {/* <img src={project.image} alt={project.client} class="absolute inset-0 w-full h-full object-cover" /> */}
+                        </div>
+
+                        <!-- The "Live" Badge -->
+                        <div class="absolute top-4 right-4 bg-white border border-carbon px-3 py-1 shadow-sm z-10 flex items-center gap-2">
+                            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                            <span class="font-mono text-[10px] font-bold uppercase tracking-widest text-carbon">Live</span>
+                        </div>
+                    </a>
+
+                    <!-- 2. The Metadata -->
+                    <div class="flex justify-between items-baseline mb-6 border-b border-carbon/10 pb-4">
+                        <h3 class="text-3xl font-extrabold tracking-tight">{project.client}</h3>
+                        <span class="font-mono text-xs font-bold text-gray-400 uppercase tracking-widest">{project.type}</span>
+                    </div>
+
+                    <!-- 3. The Testimonial (The "Caption") -->
+                    <div class="relative pl-6 border-l-4 border-signal">
+                        <p class="text-lg text-carbon font-medium italic mb-3 leading-relaxed">
+                            "{project.quote}"
+                        </p>
+                        <footer class="font-mono text-xs font-bold text-gray-500 uppercase tracking-wider">
+                            — {project.author}
+                        </footer>
+                    </div>
+
+                </div>
+            ))}
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-32 bg-carbon text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">Want to look this good?</h2>
+            <p class="text-xl text-gray-400 mb-10">Join the gallery of owners, not tenants.</p>
+            <a href="/contact" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl">
+              Start Your Build
+            </a>
+        </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

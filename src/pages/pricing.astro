@@ -1,0 +1,193 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+  title="Pricing | YourHQ - Professional Websites from $995" 
+  description="Transparent pricing. $995 or $1,495 setup, then $149-$199/month. No lock-in. Own your website."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+    
+    <!-- HEADER -->
+    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+          Transparent Pricing.<br />
+          <span class="text-signal">No Surprises.</span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Most agencies charge $8k+. We charge $995. <br/>
+          Then a simple monthly fee to keep the lights on.
+        </p>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+            
+            <!-- PACKAGE 1: LAUNCH -->
+            <div class="border-2 border-carbon p-8 md:p-12 relative bg-white hover:shadow-hard transition-all duration-300">
+                <div class="mb-8 border-b border-carbon/10 pb-8">
+                    <h2 class="text-3xl font-extrabold mb-2">The Launch</h2>
+                    <p class="font-mono text-sm text-gray-500 uppercase tracking-widest">For Tradies & Retail</p>
+                </div>
+                
+                <div class="mb-8">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-6xl font-extrabold tracking-tighter">$995</span>
+                        <span class="text-sm font-bold text-gray-400 uppercase">Setup</span>
+                    </div>
+                    <div class="flex items-baseline gap-2 mt-2">
+                        <span class="text-2xl font-bold text-carbon/70">$149</span>
+                        <span class="text-sm font-mono text-gray-400">/ month</span>
+                    </div>
+                </div>
+
+                <ul class="space-y-4 mb-12">
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">5-Page Professional Website</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">Drive-Home Voice Interview</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">Domain & High-Speed Hosting</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">Unlimited Text/Photo Updates</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium"><strong>Annual Design Refresh</strong></span>
+                    </li>
+                </ul>
+
+                <a href="/contact" class="block w-full bg-carbon text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors">
+                    Start Launch Build
+                </a>
+            </div>
+
+            <!-- PACKAGE 2: GROWTH -->
+            <div class="border-2 border-signal p-8 md:p-12 relative bg-paper shadow-hard">
+                <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-4 py-2 uppercase tracking-widest">Most Popular</div>
+                
+                <div class="mb-8 border-b border-carbon/10 pb-8">
+                    <h2 class="text-3xl font-extrabold mb-2 text-signal">The Growth</h2>
+                    <p class="font-mono text-sm text-gray-500 uppercase tracking-widest">For Salons & Consultants</p>
+                </div>
+                
+                <div class="mb-8">
+                    <div class="flex items-baseline gap-2">
+                        <span class="text-6xl font-extrabold tracking-tighter">$1,495</span>
+                        <span class="text-sm font-bold text-gray-400 uppercase">Setup</span>
+                    </div>
+                    <div class="flex items-baseline gap-2 mt-2">
+                        <span class="text-2xl font-bold text-carbon/70">$199</span>
+                        <span class="text-sm font-mono text-gray-400">/ month</span>
+                    </div>
+                </div>
+
+                <ul class="space-y-4 mb-12">
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium"><strong>Everything in Launch, plus:</strong></span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">Booking System Integration</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">Blog / News Section</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">Instagram Feed Integration</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <span class="text-signal font-bold">✓</span>
+                        <span class="font-medium">Priority 24h Support</span>
+                    </li>
+                </ul>
+
+                <a href="/contact" class="block w-full bg-signal text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-blue-700 transition-colors shadow-hard-sm hover:shadow-none hover:translate-y-[1px]">
+                    Start Growth Build
+                </a>
+            </div>
+
+        </div>
+
+        <div class="mt-12 text-center text-gray-500 font-mono text-sm">
+            <p>All prices + GST. Full payment upfront. No lock-in contracts.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY MONTHLY FEE -->
+    <section class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold mb-12 text-center">Why Is There A Monthly Fee?</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 border border-carbon shadow-sm">
+                    <h3 class="font-bold text-lg mb-4 flex items-center gap-2">
+                        <span class="w-3 h-3 bg-frangipani rounded-full"></span> Infrastructure
+                    </h3>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li>• High-speed Vercel hosting</li>
+                        <li>• Daily Backups & Restore</li>
+                        <li>• SSL Security Certificate</li>
+                        <li>• Domain Name Renewal (.co.nz)</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 border border-carbon shadow-sm">
+                    <h3 class="font-bold text-lg mb-4 flex items-center gap-2">
+                        <span class="w-3 h-3 bg-hibiscus rounded-full"></span> Human Support
+                    </h3>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li>• Unlimited "Text Us" updates</li>
+                        <li>• Tech fixes if things break</li>
+                        <li>• <strong>Annual Design Refresh (Value $2k)</strong></li>
+                        <li>• Real humans, based in Whangārei</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-12 p-6 bg-carbon text-white text-center">
+                <p class="font-medium">Think of it like rates or body corporate fees for your digital property.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUARANTEE -->
+    <section class="py-24 bg-white text-center">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-3xl font-extrabold mb-6">The "Love Your Launch" Guarantee</h2>
+            <p class="text-xl text-gray-600 mb-8">
+                We build your site. You see the preview. <br/>
+                <strong>If you don't love it, we refund you.</strong>
+            </p>
+            <p class="text-sm text-gray-400 max-w-lg mx-auto mb-6">
+                (Minus hard costs: ~3% Stripe fees + domain if purchased. You get back ~93-94% of your payment).
+            </p>
+            <p class="text-base text-carbon font-medium mt-8 max-w-xl mx-auto">
+                We've never had to refund anyone. But the option exists because we put our money where our mouth is.
+            </p>
+        </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

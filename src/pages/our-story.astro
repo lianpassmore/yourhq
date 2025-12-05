@@ -1,0 +1,137 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+  title="Our Story | YourHQ - Infrastructure + Warmth" 
+  description="Founded by Lian and Penny in Whangārei. We combine high-tech infrastructure with Pacific warmth."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+    
+    <!-- HEADER -->
+    <section class="pt-32 pb-24 border-b border-carbon bg-white">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-12">
+            Infrastructure <br/>
+            <span class="text-frangipani">& Warmth.</span>
+        </h1>
+        <div class="max-w-2xl border-l-4 border-carbon pl-8 py-2">
+            <p class="text-2xl font-medium leading-relaxed">
+                We bridge the gap between Silicon Valley tech and Pacific hospitality. Between code and conversation.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE ORIGIN -->
+    <section class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-12 gap-12">
+                <div class="md:col-span-4">
+                    <h2 class="text-xs font-mono font-bold uppercase tracking-widest text-gray-400 mb-4 sticky top-24">The Origin Story</h2>
+                </div>
+                <div class="md:col-span-8 space-y-8 text-lg text-carbon/80 leading-relaxed">
+                    <p>
+                        Lian and Penny have known each other for 15 years. We've always bonded over a shared passion: <strong>Storytelling</strong>.
+                    </p>
+                    <p>
+                        Recently, over coffee in Whangārei, we realized something troubling. So many of the local businesses we loved were digitally homeless. The builders, the bakers, the tradies who've been around for 20 years.
+                    </p>
+                    <p>
+                        They were living entirely on Facebook or Instagram — vulnerable to algorithms they couldn't control. 
+                    </p>
+                    <div class="bg-white p-8 border border-carbon my-8 shadow-hard-sm">
+                        <p class="font-bold text-xl text-carbon mb-2">We thought: This isn't right.</p>
+                        <p>It's time for business owners to stop being tenants and start being owners.</p>
+                    </div>
+                    <p>
+                        So we decided to build something about it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE TEAM -->
+    <section class="py-24 bg-white border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16">
+                
+                <!-- Lian -->
+                <div>
+                    <div class="aspect-[4/5] bg-gray-100 border border-carbon mb-8 relative">
+                        <div class="absolute inset-0 flex items-center justify-center text-gray-400 font-mono text-sm">
+                            [PHOTO: Lian]
+                        </div>
+                    </div>
+                    <h3 class="text-3xl font-extrabold mb-2">Lian</h3>
+                    <p class="font-mono text-sm text-signal font-bold uppercase tracking-widest mb-6">The Architect</p>
+                    <p class="text-gray-600 mb-4">
+                        Lian brings the tech. With a background in automation and AI, she ensures the "factory" runs with precision.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li>• Studied technological futures</li>
+                        <li>• Builds the AI agents & automation</li>
+                        <li>• Believes code should be clean and fast</li>
+                    </ul>
+                </div>
+
+                <!-- Penny -->
+                <div>
+                    <div class="aspect-[4/5] bg-gray-100 border border-carbon mb-8 relative">
+                        <div class="absolute inset-0 flex items-center justify-center text-gray-400 font-mono text-sm">
+                            [PHOTO: Penny]
+                        </div>
+                    </div>
+                    <h3 class="text-3xl font-extrabold mb-2">Penny</h3>
+                    <p class="font-mono text-sm text-hibiscus font-bold uppercase tracking-widest mb-6">The Heart</p>
+                    <p class="text-gray-600 mb-4">
+                        Penny brings the warmth. She builds the relationships and ensures every client feels heard, understood, and looked after.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li>• 15+ years in storytelling</li>
+                        <li>• Cook Island & Pacific heritage</li>
+                        <li>• Ensures your site feels like *you*</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PACIFIC ROOTS -->
+    <section class="py-24 bg-carbon text-paper">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-8">Born from the Pacific.</h2>
+                <p class="text-xl text-gray-400 leading-relaxed mb-12">
+                    Like many Pacific people raised in Aotearoa, we grew up disconnected from our heritage languages but deeply connected to the values: <strong>Service, Respect, and Stewardship.</strong>
+                </p>
+                <div class="grid md:grid-cols-3 gap-8 text-left">
+                    <div class="border border-gray-700 p-6">
+                        <strong class="block text-frangipani mb-2 text-lg">Ownership</strong>
+                        <p class="text-sm text-gray-400">You own the house. No landlords.</p>
+                    </div>
+                    <div class="border border-gray-700 p-6">
+                        <strong class="block text-hibiscus mb-2 text-lg">Stewardship</strong>
+                        <p class="text-sm text-gray-400">We care for it, but we don't hold it hostage.</p>
+                    </div>
+                    <div class="border border-gray-700 p-6">
+                        <strong class="block text-signal mb-2 text-lg">Respect</strong>
+                        <p class="text-sm text-gray-400">Tech should serve you, not confuse you.</p>
+                    </div>
+                </div>
+                <p class="text-base text-gray-300 mt-12 font-medium">
+                    These aren't borrowed concepts. They're how we were raised to do business.
+                </p>
+            </div>
+        </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
