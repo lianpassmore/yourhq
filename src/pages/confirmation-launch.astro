@@ -1,0 +1,188 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Payment Confirmed - Launch Package | YourHQ"
+  description="Your Launch package is confirmed. Here's what happens next."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+
+    <!-- SUCCESS HEADER -->
+    <section class="pt-32 pb-16 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        <!-- Success Icon -->
+        <div class="mb-8 flex justify-center">
+          <div class="w-20 h-20 bg-signal rounded-full flex items-center justify-center border-4 border-white shadow-hard">
+            <span class="text-4xl text-white">✓</span>
+          </div>
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-6">
+          Payment Confirmed!
+        </h1>
+        <p class="text-2xl text-gray-600 mb-4">Welcome to The Launch Package</p>
+        <div class="inline-block bg-signal/10 border border-signal px-6 py-3">
+          <p class="font-mono text-sm font-bold text-carbon">Order #: Check your email for confirmation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT'S NEXT -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="mb-16 text-center">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">What Happens Next</h2>
+          <p class="text-xl text-gray-600">Your website journey starts now. Here's the roadmap.</p>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="max-w-3xl mx-auto space-y-0">
+
+          <!-- Step 1 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-signal pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-signal border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-signal text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 1 • Right Now</span>
+              <h3 class="text-2xl font-bold mb-4">Check Your Email</h3>
+              <p class="text-gray-600 mb-4">
+                You should receive:
+              </p>
+              <ul class="space-y-2 text-gray-600">
+                <li>• Payment confirmation from Stripe</li>
+                <li>• Welcome email from YourHQ with your booking details</li>
+                <li>• Calendar invite for your Drive-Home Interview</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 2 • Next 24 Hours</span>
+              <h3 class="text-2xl font-bold mb-4">Complete Your Intake Form Below</h3>
+              <p class="text-gray-600 mb-4">
+                Scroll down to have a korero with our AI Agent. It'll ask you about your business, capture your story, and gather everything we need to build your site.
+              </p>
+              <div class="bg-signal/10 border-l-4 border-signal p-4 mt-4">
+                <p class="font-bold text-sm">⏱️ Takes 15 minutes max</p>
+                <p class="text-sm text-gray-600">You can do this on your drive home, during lunch, or anytime that suits.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 3 • Day 1-5</span>
+              <h3 class="text-2xl font-bold mb-4">We Build Your Site</h3>
+              <p class="text-gray-600 mb-4">
+                Lian gets to work. Using Astro + Tailwind CSS, she'll build your professional website with:
+              </p>
+              <ul class="space-y-2 text-gray-600">
+                <li>• 5 professional pages (Home, About, Services, Contact, etc.)</li>
+                <li>• Mobile-first responsive design</li>
+                <li>• Google-ready SEO foundation</li>
+                <li>• Fast loading (under 1 second)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 4 • Day 5</span>
+              <h3 class="text-2xl font-bold mb-4">Review & Feedback</h3>
+              <p class="text-gray-600 mb-4">
+                We'll send you a preview link. You review, we refine. One round of revisions included.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="flex gap-6 md:gap-10 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-hibiscus border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-hibiscus text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 5 • Day 6-7</span>
+              <h3 class="text-2xl font-bold mb-4">Launch Day 🚀</h3>
+              <p class="text-gray-600 mb-4">
+                Your site goes live. Domain connected. Hosting sorted. Analytics installed. You're officially a digital owner.
+              </p>
+              <div class="bg-white border border-carbon p-6 mt-6">
+                <p class="font-bold text-lg mb-2">What You Get:</p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li>✓ Your website live at your domain</li>
+                  <li>✓ Hosting & security included ($149/mo covers this)</li>
+                  <li>✓ Unlimited text/photo updates</li>
+                  <li>✓ Annual design refresh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AI AGENT FORM SECTION -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
+            Let's Korero About Your Business
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Our AI Agent will have a chat with you about your business. Just answer naturally - no forms, no hassle.
+          </p>
+        </div>
+
+        <!-- CLIENT INTAKE FORM -->
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white border-2 border-carbon shadow-hard-sm p-4 md:p-8">
+            <div style="width:100%;height:700px;" data-fillout-id="hxWefwsCsGus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
+            <script src="https://server.fillout.com/embed/v1/"></script>
+          </div>
+
+          <!-- BACKUP CONTACT -->
+          <div class="mt-8 text-center border-t border-carbon pt-8">
+            <p class="text-sm text-gray-600 mb-4">Prefer to chat directly?</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="sms:0221725793" class="bg-signal text-white px-6 py-3 text-sm font-bold uppercase tracking-widest hover:bg-carbon transition-colors">
+                Text: 022 172 5793
+              </a>
+              <a href="mailto:hello@yourhq.co.nz" class="bg-white text-carbon border-2 border-carbon px-6 py-3 text-sm font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors">
+                Email Us
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- QUESTIONS SECTION -->
+    <section class="py-16 bg-carbon text-white">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h3 class="text-2xl font-bold mb-4">Questions? We're Here.</h3>
+        <p class="text-gray-400 mb-6">Penny monitors texts 7 days a week</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="sms:0221725793" class="text-lg hover:text-signal transition-colors">📱 022 172 5793</a>
+          <span class="hidden sm:inline text-gray-600">|</span>
+          <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-signal transition-colors">✉️ hello@yourhq.co.nz</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
