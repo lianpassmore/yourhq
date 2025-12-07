@@ -1,0 +1,157 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import VoiceAgent from '../components/VoiceAgent.jsx';
+---
+
+<Layout
+  title="Annual Refresh Confirmed | YourHQ"
+  description="Happy Anniversary! Let's get your website refreshed for the year ahead."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen relative">
+
+    <!-- CELEBRATION HEADER -->
+    <section class="pt-32 pb-16 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        <!-- Confetti Icon -->
+        <div class="mb-8 flex justify-center">
+          <div class="w-20 h-20 bg-frangipani rounded-full flex items-center justify-center border-4 border-white shadow-hard animate-bounce">
+            <span class="text-4xl">🎉</span>
+          </div>
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-6">
+          Happy Anniversary!
+        </h1>
+        <p class="text-2xl text-gray-600 mb-4">You've made it to the 12-month mark.</p>
+        <div class="inline-block bg-frangipani/10 border border-frangipani px-6 py-3">
+          <p class="font-mono text-sm font-bold text-carbon">Status: Refresh Unlocked (Free)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT'S NEXT -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="mb-16 text-center">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Let's Freshen Things Up</h2>
+          <p class="text-xl text-gray-600">Your business has evolved. Your website should too. Here's the plan.</p>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="max-w-3xl mx-auto space-y-0">
+
+          <!-- Step 1 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-frangipani pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-frangipani border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-frangipani text-carbon px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 1 • Right Now</span>
+              <h3 class="text-2xl font-bold mb-4">The "Vibe Check" Interview</h3>
+              <p class="text-gray-600 mb-4">
+                We need to know what's changed in your business over the last year.
+              </p>
+              <ul class="space-y-2 text-gray-600">
+                <li>• Any new services?</li>
+                <li>• New team members?</li>
+                <li>• Did you pivot your focus?</li>
+                <li>• Do you hate the color blue now?</li>
+              </ul>
+              <p class="text-sm font-bold mt-4 text-carbon">👇 Scroll down to start the chat.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 2 • Day 1-7</span>
+              <h3 class="text-2xl font-bold mb-4">The Renovation</h3>
+              <p class="text-gray-600 mb-4">
+                Lian goes into the code. We don't just change text; we can update the layout, swap the hero images, and modernize the feel.
+              </p>
+              <div class="bg-white border border-carbon p-4">
+                <p class="text-sm text-gray-500 italic">"It's like a fresh coat of paint and new furniture, but digital."</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex gap-6 md:gap-10 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-deepGreen border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-deepGreen text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 3 • Day 10</span>
+              <h3 class="text-2xl font-bold mb-4">Relaunch 🚀</h3>
+              <p class="text-gray-600 mb-4">
+                Your refreshed site goes live. No downtime. Just a better version of you for the year ahead.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AI AGENT FORM SECTION -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
+            The 12-Month Check-In
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Talk to our AI Assistant to tell us what's new. It takes about 10 minutes.
+          </p>
+        </div>
+
+        <!-- FILLOUT FORM (Placeholder - You might want to create a specific "Refresh" form ID) -->
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white border-2 border-carbon shadow-hard-sm p-4 md:p-8">
+            <!-- Replace 'hxWefwsCsGus' with your specific Refresh Form ID if you have one, or keep standard -->
+            <div style="width:100%;height:700px;" data-fillout-id="hxWefwsCsGus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
+            <script src="https://server.fillout.com/embed/v1/"></script>
+          </div>
+
+          <!-- BACKUP CONTACT -->
+          <div class="mt-8 text-center border-t border-carbon pt-8">
+            <p class="text-sm text-gray-600 mb-4">Rather just email us a list of changes?</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="mailto:hello@yourhq.co.nz?subject=Annual Refresh Info" class="bg-carbon text-white border-2 border-carbon px-6 py-3 text-sm font-bold uppercase tracking-widest hover:bg-white hover:text-carbon transition-colors">
+                Email The List
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- QUESTIONS SECTION -->
+    <section class="py-16 bg-carbon text-white">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h3 class="text-2xl font-bold mb-4">Questions? We're Here.</h3>
+        <p class="text-gray-400 mb-6">Penny monitors texts 7 days a week</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="sms:0221725793" class="text-lg hover:text-frangipani transition-colors">📱 022 172 5793</a>
+          <span class="hidden sm:inline text-gray-600">|</span>
+          <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-frangipani transition-colors">✉️ hello@yourhq.co.nz</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VOICE AGENT -->
+    <!-- Using staticPlan="Refresh" so the Agent knows context (you'll need to update Agent Prompt to handle this) -->
+    <VoiceAgent 
+        client:only="react" 
+        agentId="agent_8801kbr4e3s1f32vwgejq4wdcezp" 
+        staticPlan="Refresh"
+    />
+
+  </main>
+  <Footer />
+</Layout>
