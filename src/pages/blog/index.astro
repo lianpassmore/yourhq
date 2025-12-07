@@ -1,0 +1,73 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.jsx';
+import Footer from '../../components/Footer.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+// Get all posts and sort by date
+const allPosts = await getCollection('blog');
+const posts: CollectionEntry<'blog'>[] = allPosts.sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<Layout title="News & Articles | YourHQ" description="Insights on digital ownership for Kiwi businesses.">
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+    
+    <!-- HEADER -->
+    <section class="pt-32 pb-16 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+        <div class="max-w-screen-xl mx-auto px-4 text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6">
+                The <span class="text-signal">News.</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                Thoughts on owning your digital space, growing your business, and escaping the algorithm.
+            </p>
+        </div>
+    </section>
+
+    <!-- GRID -->
+    <section class="py-24">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+                
+                {posts.map((post) => (
+                    <a href={`/blog/${post.slug}`} class="group block h-full">
+                        <div class="bg-white border-2 border-carbon p-0 shadow-hard group-hover:shadow-none group-hover:translate-y-[2px] transition-all duration-300 h-full flex flex-col">
+                            
+                            <!-- Image -->
+                            {post.data.image && (
+                                <div class="aspect-video border-b-2 border-carbon overflow-hidden relative">
+                                    <img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                                    <div class="absolute top-2 right-2 bg-white border border-carbon px-2 py-1 text-[10px] font-mono font-bold uppercase">
+                                        {post.data.tags[0]}
+                                    </div>
+                                </div>
+                            )}
+
+                            <!-- Content -->
+                            <div class="p-8 flex-1 flex flex-col">
+                                <span class="text-xs font-mono text-gray-400 mb-3 block">
+                                    {post.data.pubDate.toLocaleDateString('en-NZ', { month: 'short', day: 'numeric', year: 'numeric' })}
+                                </span>
+                                <h2 class="text-2xl font-extrabold tracking-tight mb-4 group-hover:text-signal transition-colors">
+                                    {post.data.title}
+                                </h2>
+                                <p class="text-gray-600 line-clamp-3 mb-6 flex-1">
+                                    {post.data.description}
+                                </p>
+                                <span class="text-sm font-bold uppercase tracking-widest text-carbon group-hover:text-signal">Read Article →</span>
+                            </div>
+                        </div>
+                    </a>
+                ))}
+
+            </div>
+        </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

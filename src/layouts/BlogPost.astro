@@ -1,0 +1,56 @@
+---
+import Layout from './Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import type { CollectionEntry } from 'astro:content';
+
+type Props = {
+  frontmatter: CollectionEntry<'blog'>['data'];
+}
+
+const { frontmatter } = Astro.props as Props;
+---
+
+<Layout title={`${frontmatter.title} | YourHQ Blog`} description={frontmatter.description}>
+  <Navbar client:load />
+  
+  <main class="bg-paper min-h-screen pt-32 pb-24">
+    <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Header -->
+      <div class="mb-12 text-center">
+        <div class="flex justify-center gap-2 mb-6">
+            {frontmatter.tags.map((tag) => (
+                <span class="bg-carbon text-white text-xs font-mono px-2 py-1 uppercase tracking-widest">{tag}</span>
+            ))}
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tighter leading-tight mb-6">{frontmatter.title}</h1>
+        <p class="text-gray-500 font-mono text-sm">
+            {frontmatter.pubDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'long', day: 'numeric' })} • By {frontmatter.author}
+        </p>
+      </div>
+
+      <!-- Featured Image -->
+      {frontmatter.image && (
+        <div class="mb-12 border-2 border-carbon p-2 bg-white shadow-hard">
+            <img src={frontmatter.image} alt={frontmatter.title} class="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+        </div>
+      )}
+
+      <!-- Content -->
+      <div class="prose prose-lg prose-headings:font-extrabold prose-headings:tracking-tight prose-a:text-signal prose-img:border-2 prose-img:border-carbon text-gray-700 mx-auto">
+        <slot />
+      </div>
+
+      <!-- Back Button -->
+      <div class="mt-16 pt-16 border-t border-carbon/10 text-center">
+        <a href="/blog" class="inline-block bg-white text-carbon border-2 border-carbon px-8 py-3 font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors shadow-hard-sm hover:translate-y-[2px] hover:shadow-none">
+            ← Back to Articles
+        </a>
+      </div>
+
+    </article>
+  </main>
+
+  <Footer />
+</Layout>
