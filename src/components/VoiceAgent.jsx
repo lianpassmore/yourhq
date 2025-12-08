@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { useConversation } from '@11labs/react';
+import { useConversation } from '@elevenlabs/react';
 
 export default function VoiceAgent({ agentId, staticPlan }) {
   const [hasPermission, setHasPermission] = useState(false);
