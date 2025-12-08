@@ -5,8 +5,8 @@ import Footer from '../components/Footer.astro';
 ---
 
 <Layout 
-  title="Pricing | YourHQ - Professional Websites from $995" 
-  description="Transparent pricing. $995 or $1,495 setup, then $149-$199/month. No lock-in. Own your website."
+  title="Pricing | YourHQ - Professional Websites from $695" 
+  description="Transparent pricing. Packages for every stage of business. No lock-in. Own your website."
 >
   <Navbar client:load />
 
@@ -20,7 +20,7 @@ import Footer from '../components/Footer.astro';
           <span class="text-signal">No Surprises.</span>
         </h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Most agencies charge $8k+. We charge $995. <br/>
+          Most agencies charge $8k+. We start at $695. <br/>
           Then a simple monthly fee to keep the lights on.
         </p>
       </div>
@@ -30,7 +30,8 @@ import Footer from '../components/Footer.astro';
     <section class="py-24 bg-white border-b border-carbon">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+        <!-- MAIN TIERS -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start mb-16">
             
             <!-- PACKAGE 1: LAUNCH -->
             <div class="border-2 border-carbon p-8 md:p-12 relative bg-white hover:shadow-hard transition-all duration-300">
@@ -128,6 +129,48 @@ import Footer from '../components/Footer.astro';
 
         </div>
 
+        <!-- THE STARTER TIER (Budget Option) -->
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-gray-50 border-2 border-carbon/10 p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-8 hover:border-carbon/30 transition-colors">
+                
+                <div class="flex-1">
+                    <div class="flex items-center gap-3 mb-2">
+                        <h3 class="text-2xl font-extrabold">The Starter</h3>
+                        <span class="bg-carbon text-white text-[10px] font-bold px-2 py-1 uppercase tracking-widest">Entry Level</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        Just need a digital business card to get found on Google? This is the bare essentials.
+                    </p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-gray-500 font-medium">
+                        <div class="flex items-center gap-2">
+                            <span class="text-green-600">✓</span> One-Page Scroll Site
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-green-600">✓</span> Domain & Hosting Included
+                        </div>
+                        <div class="flex items-center gap-2 opacity-60">
+                            <span class="text-red-400">×</span> No Content Updates (Pay-as-you-go)
+                        </div>
+                        <div class="flex items-center gap-2 opacity-60">
+                            <span class="text-red-400">×</span> No SEO or Blog
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center md:text-right w-full md:w-auto border-t md:border-t-0 md:border-l border-gray-200 pt-6 md:pt-0 md:pl-8">
+                    <div class="mb-4">
+                        <span class="text-3xl font-extrabold tracking-tighter block">$695 <span class="text-sm text-gray-400 font-normal">Setup</span></span>
+                        <span class="text-lg font-bold text-carbon/70 block">+ $49<span class="text-sm font-mono text-gray-400 font-normal">/mo</span></span>
+                    </div>
+                    <a href="https://buy.stripe.com/dRmbJ0cKC6oMecl2MrdZ602" class="inline-block w-full md:w-auto bg-white text-carbon border-2 border-carbon px-6 py-3 font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors text-sm">
+                        Get The Starter
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
         <div class="mt-12 text-center text-gray-500 font-mono text-sm">
             <p>All prices + GST. Full payment upfront. No lock-in contracts.</p>
         </div>
@@ -157,7 +200,7 @@ import Footer from '../components/Footer.astro';
                         <span class="w-3 h-3 bg-hibiscus rounded-full"></span> Human Support
                     </h3>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• Unlimited "Text Us" updates</li>
+                        <li>• Unlimited "Text Us" updates (Launch/Growth)</li>
                         <li>• Tech fixes if things break</li>
                         <li>• <strong>Annual Design Refresh (Value $2k)</strong></li>
                         <li>• Real humans, based in Whangārei</li>

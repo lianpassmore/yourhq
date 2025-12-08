@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import typography from '@tailwindcss/typography'; // <--- THIS WAS LIKELY MISSING
 
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
@@ -30,5 +31,7 @@ export default {
 			}
 		},
 	},
-	plugins: [  typography(), ],
+	plugins: [
+		typography(), // This requires the import at the top
+	],
 }

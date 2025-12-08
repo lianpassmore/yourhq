@@ -1,0 +1,154 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import VoiceAgent from '../components/VoiceAgent.jsx';
+---
+
+<Layout
+  title="Payment Confirmed - Starter Package | YourHQ"
+  description="Your Starter package is confirmed. Here's what happens next."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen relative">
+
+    <!-- SUCCESS HEADER -->
+    <section class="pt-32 pb-16 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        <!-- Success Icon -->
+        <div class="mb-8 flex justify-center">
+          <div class="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center border-4 border-white shadow-hard text-carbon">
+            <span class="text-4xl">✓</span>
+          </div>
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-6">
+          Payment Confirmed.
+        </h1>
+        <p class="text-2xl text-gray-600 mb-4">Welcome to The Starter Package</p>
+        <div class="inline-block bg-gray-100 border border-gray-300 px-6 py-3">
+          <p class="font-mono text-sm font-bold text-carbon">Order #: Check your email for confirmation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT'S NEXT -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="mb-16 text-center">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">What Happens Next</h2>
+          <p class="text-xl text-gray-600">Let's get your digital business card online.</p>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="max-w-3xl mx-auto space-y-0">
+
+          <!-- Step 1 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 1 • Right Now</span>
+              <h3 class="text-2xl font-bold mb-4">Check Your Email</h3>
+              <p class="text-gray-600 mb-4">
+                You should receive:
+              </p>
+              <ul class="space-y-2 text-gray-600">
+                <li>• Payment confirmation from Stripe</li>
+                <li>• Welcome email from YourHQ</li>
+                <li>• Calendar invite for your Drive-Home Interview</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-gray-400 border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-gray-500 text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 2 • Next 24 Hours</span>
+              <h3 class="text-2xl font-bold mb-4">Complete Your Intake</h3>
+              <p class="text-gray-600 mb-4">
+                Since this is a one-page site, we just need the basics.
+                <br><strong>Option A:</strong> Scroll down and fill out the quick form.
+                <br><strong>Option B:</strong> Tap the blue button to tell our AI Agent what you do.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex gap-6 md:gap-10 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-signal border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-signal text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 3 • Day 5</span>
+              <h3 class="text-2xl font-bold mb-4">Launch Day 🚀</h3>
+              <p class="text-gray-600 mb-4">
+                We build your single-page site and put it live on your domain. You are officially online.
+              </p>
+              
+              <!-- THE BOUNDARY BOX -->
+              <div class="bg-white border-2 border-carbon/10 p-6 mt-6 shadow-sm">
+                <p class="font-bold text-lg mb-2">Your Starter Plan Includes:</p>
+                <ul class="space-y-2 text-sm text-gray-600 font-mono">
+                  <li>✓ One-Page Scroll Layout</li>
+                  <li>✓ Hosting & Security ($49/mo)</li>
+                  <li>✓ Domain Renewal</li>
+                  <li class="text-carbon/60">Note: Future content updates are billed at $75/hr</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AI AGENT FORM SECTION -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
+            Tell Us About Your Business
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Fill out the form below or chat to Penny (bottom right).
+          </p>
+        </div>
+
+        <!-- CLIENT INTAKE FORM -->
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white border-2 border-carbon shadow-hard-sm p-4 md:p-8">
+            <div style="width:100%;height:700px;" data-fillout-id="hxWefwsCsGus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
+            <script src="https://server.fillout.com/embed/v1/"></script>
+          </div>
+
+          <!-- BACKUP CONTACT -->
+          <div class="mt-8 text-center border-t border-carbon pt-8">
+            <p class="text-sm text-gray-600 mb-4">Need help?</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="sms:0221725793" class="bg-carbon text-white px-6 py-3 text-sm font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors">
+                Text: 022 172 5793
+              </a>
+              <a href="mailto:hello@yourhq.co.nz" class="bg-white text-carbon border-2 border-carbon px-6 py-3 text-sm font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors">
+                Email Us
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- THE VOICE AGENT WIDGET -->
+    <!-- We tell Penny the plan is "Starter" so she knows not to ask about extra pages -->
+    <VoiceAgent 
+        client:only="react" 
+        agentId="agent_8801kbr4e3s1f32vwgejq4wdcezp" 
+        staticPlan="Starter"
+    />
+
+  </main>
+  <Footer />
+</Layout>
