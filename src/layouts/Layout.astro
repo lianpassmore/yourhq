@@ -15,8 +15,13 @@ const { title, description } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		
+		<!-- FAVICONS -->
+		<!-- Modern Browsers -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- Safari Pinned Tab (Change color below to match your Signal Red hex code) -->
+		<link rel="mask-icon" href="/favicon.svg" color="ef4444" />
+
 		<!-- Google Fonts: Inter & Courier Prime -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,19 +36,12 @@ const { title, description } = Astro.props;
 </html>
 
 <style is:global>
-	/* Custom Utilities if needed */
-	html {
-		scroll-behavior: smooth;
-	}
-</style>
-
-<style is:global>
-  /* Your custom global CSS goes here */
+  /* Global Styles */
   html {
     scroll-behavior: smooth;
   }
   
-  /* Example: Custom scrollbar for that "Technical" feel */
+  /* Custom Scrollbar for the "Technical" feel */
   ::-webkit-scrollbar {
     width: 10px;
   }
