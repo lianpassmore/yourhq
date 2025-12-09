@@ -23,7 +23,8 @@ export default function Navbar() {
             <a href="/blog" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Blog</a>
             <a href="/our-story" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Our Story</a>
 
-            <a href="/contact" className="bg-carbon text-white px-6 py-2.5 text-sm font-bold tracking-wide hover:bg-signal transition-colors shadow-hard-sm hover:shadow-none hover:translate-y-[2px]">
+            {/* UPDATED LINK HERE -> /pricing */}
+            <a href="/pricing" className="bg-carbon text-white px-6 py-2.5 text-sm font-bold tracking-wide hover:bg-signal transition-colors shadow-hard-sm hover:shadow-none hover:translate-y-[2px]">
               START BUILD
             </a>
           </div>
@@ -47,7 +48,8 @@ export default function Navbar() {
             <a href="/work" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Work</a>
             <a href="/blog" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Blog</a>
             <a href="/our-story" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Our Story</a>
-            <a href="/contact" className="block mt-4 bg-signal text-white text-center py-4 font-bold uppercase tracking-wide">Start Your Build</a>
+            {/* UPDATED LINK HERE -> /pricing */}
+            <a href="/pricing" className="block mt-4 bg-signal text-white text-center py-4 font-bold uppercase tracking-wide">Start Your Build</a>
         </div>
       )}
     </nav>
