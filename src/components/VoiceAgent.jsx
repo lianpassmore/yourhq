@@ -1,19 +1,19 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useConversation } from '@elevenlabs/react';
 
-export default function VoiceAgent({ agentId, staticPlan }) {
+export default function VoiceAgent({ agentId, staticPlan, staticName }) {
   const [hasPermission, setHasPermission] = useState(false);
-  const [urlParams, setUrlParams] = useState({ name: 'Guest', plan: 'Essential' });
+  const [urlParams, setUrlParams] = useState({ name: '', plan: '' });
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       setUrlParams({
-        name: params.get('name') || 'Guest',
-        plan: params.get('plan') || 'Essential',
+        name: params.get('name') || params.get('customer_name') || staticName || '',
+        plan: params.get('plan') || params.get('package') || '',
       });
     }
-  }, []);
+  }, [staticName]);
 
   const conversation = useConversation({
     onConnect: () => console.log('Connected to YourHQ Assistant'),
@@ -42,16 +42,37 @@ export default function VoiceAgent({ agentId, staticPlan }) {
     } else {
       const permitted = await requestMic();
       if (permitted) {
+        // Prepare user data for the agent
+        const userName = urlParams.name || staticName || '';
+        const userPlan = staticPlan || urlParams.plan || '';
+
+        // Build custom greeting based on available data
+        let firstMessage = `Kia ora! Thanks for choosing YourHQ. I'm Lian's AI assistant, and I'm here to learn about your business so we can build you the perfect website.`;
+
+        if (userName && userPlan) {
+          firstMessage = `Kia ora ${userName}! Thanks for choosing the ${userPlan} package. I'm Lian's AI assistant, and I'm here to learn about your business so we can build you the perfect website. This should only take about 15 minutes. Ready to get started?`;
+        } else if (userName) {
+          firstMessage = `Kia ora ${userName}! Thanks for choosing YourHQ. I'm Lian's AI assistant, and I'm here to learn about your business so we can build you the perfect website. This should only take about 15 minutes. Ready to get started?`;
+        } else {
+          firstMessage += ` Before we dive in, what's your name?`;
+        }
+
         await conversation.startSession({
           agentId: agentId,
-          dynamicVariables: {
-            user_name: urlParams.name,
-            user_plan: staticPlan || urlParams.plan 
+          overrides: {
+            agent: {
+              firstMessage: firstMessage,
+              prompt: {
+                prompt: userName && userPlan
+                  ? `You are conducting an intake interview for ${userName} who has purchased the ${userPlan} package. ${userPlan === 'Starter' ? 'This is a one-page website, so keep questions focused on essential information only.' : userPlan === 'Launch' ? 'This is a 5-page website for tradies/retail. Ask about their services, target customers, service areas, and what makes them different.' : userPlan === 'Growth' ? 'This is a premium website with booking system and blog. Ask comprehensive questions about their business, services, booking needs, and content strategy.' : 'Ask about their business needs and help determine what would work best for them.'}`
+                  : 'You are conducting an intake interview for a new YourHQ website client. Start by getting their name if you don\'t have it, then learn about their business.'
+              }
+            }
           }
         });
       }
     }
-  }, [conversation, status, agentId, urlParams, staticPlan]);
+  }, [conversation, status, agentId, urlParams, staticPlan, staticName]);
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
