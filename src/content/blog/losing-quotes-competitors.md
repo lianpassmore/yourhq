@@ -3,7 +3,7 @@ title: "Losing Quotes to Competitors? It Might Be Your Online Presence"
 description: "You know you're the better builder. But if their website looks sharper, the client assumes they are too. Here's the logic behind the 'Perception Gap'."
 pubDate: 2025-12-14
 author: "Lian"
-image: "/images/blog/tradie-laptop.jpg"
+image: "/tradie-laptop.jpg"
 tags: ["Tradies", "Sales Psychology"]
 featured: false
 ---

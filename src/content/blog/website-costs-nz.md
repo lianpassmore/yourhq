@@ -3,7 +3,7 @@ title: "Web Design Prices in NZ: What Should You Actually Pay?"
 description: "From $500 to $15,000—why is website pricing so confusing? We break down the costs."
 pubDate: 2025-12-12
 author: "Lian"
-image: "/images/blog/calculator.jpg"
+image: "/calculator.jpg"
 tags: ["Business", "Money"]
 featured: false
 ---

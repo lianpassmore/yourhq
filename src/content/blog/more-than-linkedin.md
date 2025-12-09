@@ -3,7 +3,7 @@ title: "The 'Digital Business Card': Why Consultants Need More Than LinkedIn"
 description: "LinkedIn is great for networking, but terrible for depth. Here's why you need your own platform."
 pubDate: 2026-01-15
 author: "Lian"
-image: "/images/blog/linkedin-vs-web.jpg"
+image: "/linkedin-vs-web.jpg"
 tags: ["Consulting", "Authority"]
 featured: false
 ---

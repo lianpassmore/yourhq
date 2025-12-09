@@ -3,7 +3,7 @@ title: "Is Your Salon Too Dependent on Instagram?"
 description: "If the algorithm changes tomorrow, does your business disappear? It's time to own your digital space."
 pubDate: 2025-12-10
 author: "Lian"
-image: "/images/blog/salon-phone.jpg"
+image: "/salon-phone.jpg"
 tags: ["Salons", "Digital Ownership"]
 featured: false
 ---

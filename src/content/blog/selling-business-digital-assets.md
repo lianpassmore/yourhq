@@ -3,7 +3,7 @@ title: "Thinking of Selling Your Business? Why Digital Assets Matter"
 description: "A business with documented systems and digital assets is worth more than a business that relies on the owner's head."
 pubDate: 2026-01-12
 author: "Lian"
-image: "/images/blog/handshake-deal.jpg"
+image: "/handshake-deal.jpg"
 tags: ["Exit Strategy", "Business"]
 featured: false
 ---

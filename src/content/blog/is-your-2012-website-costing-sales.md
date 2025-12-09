@@ -3,7 +3,7 @@ title: "Is Your 2012 Website Costing You Sales? 5 Signs It's Time for a Refresh"
 description: "Web standards change fast. If your site hasn't been updated in 5 years, it's likely breaking on modern phones."
 pubDate: 2025-12-10
 author: "Lian"
-image: "/images/blog/old-computer.jpg"
+image: "/old-computer.jpg"
 tags: ["Legacy Business", "Tech"]
 featured: false
 ---

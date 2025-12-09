@@ -3,7 +3,7 @@ title: "Wix vs. Hiring a Pro: The Real Cost for Kiwi Businesses"
 description: "DIY website builders promise to be free and easy. Usually, they are neither. Here's the maths."
 pubDate: 2025-12-11
 author: "Lian"
-image: "/images/blog/laptop-frustration.jpg"
+image: "/laptop-frustration.jpg"
 tags: ["Tech", "Pricing"]
 featured: false
 ---

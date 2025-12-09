@@ -3,7 +3,7 @@ title: "Salon SEO 101: How to Rank for 'Best Balayage in [Suburb]'"
 description: "Hashtags are for Instagram. Keywords are for Google. Here's how to structure your site to capture search traffic."
 pubDate: 2025-12-24
 author: "Lian"
-image: "/images/blog/seo-graph.jpg"
+image: "/seo-graph.jpg"
 tags: ["SEO", "Salons"]
 featured: false
 ---
