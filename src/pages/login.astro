@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Client Login | YourHQ"
+  description="Access your YourHQ client dashboard"
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+
+    <!-- HEADER -->
+    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+          Client Login
+        </h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Access your website dashboard and project files.
+        </p>
+      </div>
+    </section>
+
+    <!-- LOGIN CONTENT -->
+    <section class="py-24 bg-white">
+      <div class="max-w-md mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="bg-paper border-2 border-carbon p-8 shadow-hard">
+          <h2 class="text-2xl font-extrabold mb-6">Need Access?</h2>
+
+          <p class="text-gray-600 mb-6">
+            We're currently setting up our client portal. In the meantime, reach out to us directly for:
+          </p>
+
+          <ul class="space-y-3 mb-8 text-gray-600">
+            <li class="flex items-start gap-3">
+              <span class="text-signal">✓</span>
+              <span>Website updates and changes</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-signal">✓</span>
+              <span>Access to your website files</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-signal">✓</span>
+              <span>Hosting and domain information</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-signal">✓</span>
+              <span>Support requests</span>
+            </li>
+          </ul>
+
+          <div class="border-t border-carbon/20 pt-6">
+            <p class="font-bold mb-4 text-carbon">Get in touch:</p>
+
+            <div class="space-y-3">
+              <a href="sms:0221725793" class="block w-full bg-signal text-white text-center py-4 font-bold uppercase tracking-widest hover:bg-carbon transition-colors">
+                Text Us: 022 172 5793
+              </a>
+
+              <a href="mailto:hello@yourhq.co.nz" class="block w-full bg-white text-carbon border-2 border-carbon text-center py-4 font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors">
+                Email: hello@yourhq.co.nz
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 text-center">
+          <p class="text-sm text-gray-500">
+            Average response time: <strong class="text-carbon">Under 24 hours</strong>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
