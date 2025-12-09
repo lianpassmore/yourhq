@@ -40,11 +40,6 @@ https://yourhq.co.nz/confirmation-launch?name={CUSTOMER_NAME}&plan=Launch
 https://yourhq.co.nz/confirmation-growth?name={CUSTOMER_NAME}&plan=Growth
 ```
 
-#### For Refresh Package:
-```
-https://yourhq.co.nz/confirmation-refresh?name={CUSTOMER_NAME}&plan=Refresh
-```
-
 ### 3. Stripe Variable Substitution
 
 Stripe will automatically replace `{CUSTOMER_NAME}` with the customer's name from the checkout form.
@@ -88,7 +83,8 @@ Use these exact package names in the URLs:
 - `Starter` - One-page website
 - `Launch` - 5-page website for tradies/retail
 - `Growth` - Premium website with booking system
-- `Refresh` - Annual refresh for existing clients
+
+Note: The Refresh package is configured separately and not included in this setup.
 
 ## AI Agent Behavior by Package
 
@@ -104,10 +100,6 @@ Use these exact package names in the URLs:
 ### Growth Package
 - Comprehensive interview (18-20 minutes)
 - Questions: Everything from Launch, plus booking system needs, blog topics, Instagram integration
-
-### Refresh Package
-- Focuses on what's changed
-- Questions: New services, team changes, visual updates, new photos
 
 ## Fallback Behavior
 

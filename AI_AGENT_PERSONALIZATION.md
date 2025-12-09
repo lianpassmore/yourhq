@@ -32,10 +32,6 @@ The agent adjusts its interview questions based on the package:
 - Comprehensive 18-20 minute interview
 - Everything from Launch plus: booking system needs, blog topics, Instagram integration
 
-**Refresh** (Annual update):
-- Focuses on what's changed
-- New services, team members, visual updates
-
 ## Quick Test
 
 To test without a real purchase, visit:
@@ -63,6 +59,8 @@ https://yourhq.co.nz/confirmation-launch?name={CUSTOMER_NAME}&plan=Launch
 ```
 https://yourhq.co.nz/confirmation-growth?name={CUSTOMER_NAME}&plan=Growth
 ```
+
+Note: The Refresh package will be configured separately.
 
 Stripe automatically replaces `{CUSTOMER_NAME}` with the actual customer name from checkout.
 
