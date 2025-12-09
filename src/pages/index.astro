@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import VoiceAgent from '../components/VoiceAgent.jsx';
 
 // DATA: Testimonials
 const testimonials = [
@@ -63,10 +64,10 @@ const testimonials = [
               </div>
               <div class="md:col-span-5 flex flex-col gap-4">
                 <p class="text-gray-600 mb-2">
-                  Professional websites for Kiwi businesses. Built in 5 business days. Managed forever. From $695.
+                  Professional websites for Kiwi businesses. Built in 5 business days. Managed forever. From $995.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                  <a href="/contact" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
+                  <a href="/pricing" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
                     Start Your Build
                   </a>
                   <a href="/how-it-works" class="bg-white text-carbon px-8 py-4 text-center border border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
@@ -114,7 +115,7 @@ const testimonials = [
             <!-- Left: Visual -->
             <div class="bg-white border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[400px]">
               <div class="relative w-full aspect-square border-2 border-carbon overflow-hidden bg-gray-50 shadow-hard-sm">
-                <img src="/hands.jpeg" alt="Close up of hands working" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+                <img src="/images/hands.jpeg" alt="Close up of hands working" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
                 <!-- Decorative accent -->
                 <div class="absolute -bottom-2 -right-2 w-full h-full border border-signal -z-10"></div>
               </div>
@@ -309,7 +310,7 @@ const testimonials = [
             The Caretaker Model <span class="text-gray-400">(Not an Agency)</span>
           </h2>
 
-          <div class="bg-white border-l-4 border-red-400 p-8 mb-12">
+          <div class="bg-white border-l-4 border-red-400 p-8 mb-12 shadow-sm">
             <p class="text-xl font-bold mb-6 text-carbon">Most agencies:</p>
             <div class="space-y-3 text-gray-600 mb-8">
               <p class="flex items-center gap-3">
@@ -328,7 +329,7 @@ const testimonials = [
             <p class="text-xl font-bold text-carbon border-t border-carbon/10 pt-6">We do it differently. We're Caretakers.</p>
           </div>
 
-          <div class="bg-signal/10 border-l-4 border-signal p-8 mb-8">
+          <div class="bg-signal/10 border-l-4 border-signal p-8 mb-8 shadow-sm">
             <div class="grid md:grid-cols-2 gap-6">
               <div class="space-y-4">
                 <div class="flex items-start gap-3">
@@ -365,7 +366,7 @@ const testimonials = [
             </div>
           </div>
 
-          <div class="text-center p-8 bg-frangipani/10">
+          <div class="text-center p-8 bg-frangipani/10 border-l-4 border-frangipani">
             <p class="text-xl font-medium text-carbon">
               You focus on your business. We keep the digital HQ running.
             </p>
@@ -382,7 +383,6 @@ const testimonials = [
              <p class="text-xl text-gray-500">No lock-in contracts. Cancel anytime. You own everything.</p>
           </div>
           
-          <!-- Main Packages Grid -->
           <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
              
              <!-- Launch Package -->
@@ -440,13 +440,13 @@ const testimonials = [
 
         </div>
     </section>
-    
+
     <!-- FINAL CTA -->
     <section class="py-32 bg-carbon text-white text-center">
         <div class="max-w-4xl mx-auto px-4">
             <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">Ready to Own Your Space?</h2>
             
-            <a href="/contact" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl mb-12">
+            <a href="/pricing" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl mb-12">
               Book Your Interview
             </a>
             
@@ -462,6 +462,15 @@ const testimonials = [
             </div>
         </div>
     </section>
+
+    <!-- VOICE AGENT (General Inquiry) -->
+    <!-- We don't pass a plan here, so it acts as a general Q&A bot -->
+    <VoiceAgent
+        client:only="react"
+        agentId="agent_8801kbr4e3s1f32vwgejq4wdcezp"
+        staticPlan=""
+        staticName=""
+    />
 
   </main>
 
