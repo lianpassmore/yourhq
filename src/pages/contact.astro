@@ -10,9 +10,9 @@ import Footer from '../components/Footer.astro';
 >
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
-    
-    <div class="max-w-screen-2xl mx-auto grid md:grid-cols-12 min-h-screen">
+  <main class="bg-paper">
+
+    <div class="max-w-screen-2xl mx-auto grid md:grid-cols-12">
         
         <!-- LEFT: INFO & STATUS -->
         <div class="md:col-span-5 bg-carbon text-white p-8 md:p-16 flex flex-col justify-between">
@@ -57,9 +57,12 @@ import Footer from '../components/Footer.astro';
         <!-- RIGHT: FORM -->
         <div class="md:col-span-7 bg-white p-8 md:p-16 flex flex-col justify-center">
 
+            <h2 class="text-3xl font-extrabold tracking-tight mb-4">Get in Touch</h2>
+            <p class="text-gray-600 mb-8">Have a question? Want to chat before committing? Just reach out.</p>
+
             <div class="mb-8 p-4 bg-signal/10 border-l-4 border-signal">
                 <p class="text-sm font-medium text-carbon">
-                    <strong>What happens next:</strong> We'll text you within 24 hours to book your Drive-Home Interview.
+                    <strong>What happens next:</strong> We'll text you within 24 hours to have a chat.
                 </p>
             </div>
 
@@ -81,27 +84,43 @@ import Footer from '../components/Footer.astro';
                 </div>
 
                 <div class="space-y-2">
-                    <label class="text-xs font-bold uppercase tracking-wide text-gray-500">Package Interest</label>
-                    <select class="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
-                        <option>The Launch ($995)</option>
-                        <option>The Growth ($1,495)</option>
-                         <option>The Starter ($695 - One Page)</option>
-        <option>Not sure yet</option>
-    </select>
-</div>
-
-                <div class="space-y-2">
-                    <label class="text-xs font-bold uppercase tracking-wide text-gray-500">Tell us a bit about your business</label>
-                    <textarea class="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors h-32" placeholder="I'm a..."></textarea>
+                    <label class="text-xs font-bold uppercase tracking-wide text-gray-500">What's your question?</label>
+                    <textarea class="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors h-32" placeholder="I'm wondering about..."></textarea>
                 </div>
 
                 <button type="submit" class="bg-signal text-white px-8 py-4 w-full font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all">
-                    Send Request
+                    Send Message
                 </button>
             </form>
-            
+
         </div>
     </div>
 
+    <!-- READY TO BUILD CTA -->
+    <section class="py-24 bg-white border-t border-carbon">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
+          Ready to Build?
+        </h2>
+        <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+          Skip the questions and go straight to choosing your package. <br/>
+          We'll build your site in 5 business days.
+        </p>
+
+        <a
+          href="/pricing"
+          class="inline-block bg-carbon text-white px-12 py-5 font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all"
+        >
+          View Pricing & Choose Package →
+        </a>
+
+        <p class="text-sm text-gray-500 mt-8">
+          All packages include a 30-minute kickoff interview and unlimited updates
+        </p>
+      </div>
+    </section>
+
   </main>
+
+  <Footer />
 </Layout>
