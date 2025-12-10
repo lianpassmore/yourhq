@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import VoiceAgent from '../components/VoiceAgent.jsx';
+---
+
+<Layout
+  title="Voice Agent Test | YourHQ"
+  description="Test page for the YourHQ AI Voice Agent"
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+
+    <!-- HEADER -->
+    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+          Voice Agent Test
+        </h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Test the AI Voice Agent functionality
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="py-24 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="bg-paper border-2 border-carbon p-8 md:p-12 mb-8 shadow-hard">
+          <h2 class="text-3xl font-extrabold mb-6">General Inquiry Agent</h2>
+          <p class="text-gray-600 mb-4">
+            This agent has no pre-filled information. It acts as a general Q&A bot.
+          </p>
+          <div class="bg-signal/10 p-4 border-l-4 border-signal">
+            <p class="text-sm font-mono">
+              <strong>staticPlan:</strong> "" (empty)<br/>
+              <strong>staticName:</strong> "" (empty)
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-paper border-2 border-hibiscus p-8 md:p-12 mb-8 shadow-hard">
+          <h2 class="text-3xl font-extrabold mb-6">Test Scenarios</h2>
+
+          <div class="space-y-4">
+            <div>
+              <h3 class="font-bold text-lg mb-2">Scenario 1: General Inquiry</h3>
+              <p class="text-gray-600 text-sm">Test with no URL parameters - should give general greeting</p>
+              <a href="/agent-test" class="text-signal text-sm font-mono hover:underline">→ /agent-test</a>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-lg mb-2">Scenario 2: With Customer Name</h3>
+              <p class="text-gray-600 text-sm">Test with name in URL parameter</p>
+              <a href="/agent-test?name=John" class="text-signal text-sm font-mono hover:underline">→ /agent-test?name=John</a>
+            </div>
+
+            <div>
+              <h3 class="font-bold text-lg mb-2">Scenario 3: With Name and Plan</h3>
+              <p class="text-gray-600 text-sm">Test with both name and plan parameters</p>
+              <a href="/agent-test?name=Sarah&plan=Growth" class="text-signal text-sm font-mono hover:underline">→ /agent-test?name=Sarah&plan=Growth</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-frangipani/10 border-l-4 border-frangipani p-6">
+          <p class="text-sm text-gray-600">
+            <strong>Note:</strong> The voice agent will appear at the bottom right of the page.
+            Click the microphone icon to start a conversation. Make sure to allow microphone access when prompted.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+
+  <!-- VOICE AGENT -->
+  <VoiceAgent
+    client:only="react"
+    agentId="agent_8801kbr4e3s1f32vwgejq4wdcezp"
+    staticPlan=""
+    staticName=""
+  />
+</Layout>

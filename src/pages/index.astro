@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
-import VoiceAgent from '../components/VoiceAgent.jsx';
 
 // DATA: Testimonials
 const testimonials = [
@@ -462,15 +461,6 @@ const testimonials = [
             </div>
         </div>
     </section>
-
-    <!-- VOICE AGENT (General Inquiry) -->
-    <!-- We don't pass a plan here, so it acts as a general Q&A bot -->
-    <VoiceAgent
-        client:only="react"
-        agentId="agent_8801kbr4e3s1f32vwgejq4wdcezp"
-        staticPlan=""
-        staticName=""
-    />
 
   </main>
 
