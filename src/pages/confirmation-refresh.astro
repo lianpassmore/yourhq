@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
-import VoiceAgent from '../components/VoiceAgent.jsx';
 ---
 
 <Layout
@@ -113,14 +112,10 @@ import VoiceAgent from '../components/VoiceAgent.jsx';
       </div>
     </section>
 
-    <!-- VOICE AGENT -->
-    <!-- Passing "Refresh" so the agent knows what to ask -->
-    <VoiceAgent 
-        client:only="react" 
-        agentId="agent_8801kbr4e3s1f32vwgejq4wdcezp" 
-        staticPlan="Refresh"
-    />
-
   </main>
   <Footer />
+
+  <!-- ELEVENLABS VOICE AGENT WIDGET -->
+  <elevenlabs-convai agent-id="agent_8801kbr4e3s1f32vwgejq4wdcezp"></elevenlabs-convai>
+  <script is:inline src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
 </Layout>

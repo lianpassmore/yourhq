@@ -47,20 +47,32 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
   };
 
   const toggleConversation = useCallback(async () => {
+    // Prevent rapid clicks
+    if (status === 'connecting' || status === 'disconnecting') {
+      console.log('Connection in progress, please wait...');
+      return;
+    }
+
     if (status === 'connected') {
-      await conversation.endSession();
-      setHasPermission(false);
+      try {
+        await conversation.endSession();
+      } catch (error) {
+        console.error('Error ending session:', error);
+      } finally {
+        setHasPermission(false);
+      }
     } else {
       const permitted = await requestMic();
       if (permitted) {
         try {
-          // Simple startSession call without overrides
+          console.log('Starting session with agent ID:', agentId);
           await conversation.startSession({
             agentId: agentId,
           });
+          console.log('Session started successfully');
         } catch (error) {
           console.error('Failed to start session:', error);
-          alert('Failed to connect to the voice agent. Please try again.');
+          alert('Failed to connect to the voice agent. Please check your internet connection and try again.');
           setHasPermission(false);
         }
       }
