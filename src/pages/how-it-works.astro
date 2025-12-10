@@ -13,16 +13,18 @@ import Footer from '../components/Footer.astro';
   <main class="bg-paper min-h-screen">
     
     <!-- HERO -->
-    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+    <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl">
-          <span class="font-mono text-sm font-bold text-signal tracking-widest uppercase mb-4 block">The Process</span>
+          <span class="inline-block py-1 px-3 rounded-full bg-signal/10 text-signal font-bold text-sm mb-6 tracking-wide uppercase font-mono">
+            The Process
+          </span>
           <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
             How We Build Your <br />
             <span class="text-carbon">Digital HQ in 5 Days.</span>
           </h1>
           <p class="text-xl md:text-2xl text-gray-600 max-w-2xl leading-relaxed">
-            No forms to fill out. No tech jargon. <span class="bg-frangipani/30 px-1">No homework.</span> <br />
+            No forms to fill out. No tech jargon. <span class="bg-frangipani/30 px-1 font-medium text-carbon">No homework.</span> <br />
             Just one phone call and we handle the rest.
           </p>
         </div>
@@ -35,12 +37,12 @@ import Footer from '../components/Footer.astro';
         
         <div class="relative">
             <!-- Vertical Line (The Spine) -->
-            <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-carbon/20 -ml-[1px]"></div>
+            <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-carbon/10 -ml-[1px]"></div>
 
             <!-- STEP 1 -->
             <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center">
                 <div class="pl-16 md:pl-0 md:text-right md:pr-16 order-1">
-                    <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">01</span>
+                    <span class="font-mono text-6xl font-bold text-gray-100 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">01</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">The Drive-Home Interview</h3>
                     <p class="text-lg text-gray-600 mb-4">
                         You hate writing "About Us" pages. So don't. Call our AI Voice Agent while driving home or having a coffee.
@@ -56,7 +58,7 @@ import Footer from '../components/Footer.astro';
                 </div>
                 
                 <!-- Center Dot -->
-                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-signal rounded-full border-4 border-white transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
+                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-signal rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3">
                     <div class="border border-carbon p-6 bg-paper shadow-hard-sm">
@@ -78,10 +80,10 @@ import Footer from '../components/Footer.astro';
                 </div>
                 
                 <!-- Center Dot -->
-                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-carbon rounded-full border-4 border-white transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
+                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-carbon rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3 md:order-1">
-                    <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:-top-14 select-none">02</span>
+                    <span class="font-mono text-6xl font-bold text-gray-100 absolute -top-10 left-12 md:-top-14 select-none">02</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">We Raid Your Content</h3>
                     <p class="text-lg text-gray-600 mb-4">
                         We go hunting on your Facebook, Instagram, and Google Reviews to find photos and info.
@@ -95,10 +97,10 @@ import Footer from '../components/Footer.astro';
             <!-- STEP 3 -->
             <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center">
                 <div class="pl-16 md:pl-0 md:text-right md:pr-16 order-1">
-                    <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">03</span>
+                    <span class="font-mono text-6xl font-bold text-gray-100 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">03</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">The Factory Build</h3>
                     <p class="text-lg text-gray-600 mb-4">
-                        Days 1-4. We build your site using <strong>Astro + Tailwind CSS</strong>.
+                        Days 1-4. We build your site using <strong>Astro + Tailwind CSS</strong> (Silicon Valley tech).
                     </p>
                     <ul class="inline-block text-left space-y-2">
                         <li class="flex items-center gap-2 text-sm font-medium bg-frangipani/10 px-3 py-1 rounded-full"><span class="w-2 h-2 bg-frangipani rounded-full"></span> Under 1 second load time</li>
@@ -108,7 +110,7 @@ import Footer from '../components/Footer.astro';
                 </div>
                 
                 <!-- Center Dot -->
-                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-frangipani rounded-full border-4 border-white transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
+                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-frangipani rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3">
                      <div class="border border-carbon p-6 bg-paper shadow-hard-sm">
@@ -130,10 +132,10 @@ import Footer from '../components/Footer.astro';
                 </div>
                 
                 <!-- Center Dot -->
-                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-hibiscus rounded-full border-4 border-white transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
+                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-hibiscus rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3 md:order-1">
-                    <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:-top-14 select-none">04</span>
+                    <span class="font-mono text-6xl font-bold text-gray-100 absolute -top-10 left-12 md:-top-14 select-none">04</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">The Preview (Day 5)</h3>
                     <p class="text-lg text-gray-600 mb-4">
                         We send you a private link. You view it on your phone.
@@ -146,7 +148,7 @@ import Footer from '../components/Footer.astro';
              <!-- STEP 5 -->
              <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 items-center">
                 <div class="pl-16 md:pl-0 md:text-right md:pr-16 order-1">
-                    <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">05</span>
+                    <span class="font-mono text-6xl font-bold text-gray-100 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">05</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">You Go Live</h3>
                     <p class="text-lg text-gray-600 mb-4">
                         We flip the switch. Your domain is live. Google is notified.
@@ -155,7 +157,7 @@ import Footer from '../components/Footer.astro';
                 </div>
                 
                 <!-- Center Dot -->
-                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-deepGreen rounded-full border-4 border-white transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
+                <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-deepGreen rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3">
                     <a href="/contact" class="inline-block bg-deepGreen text-white px-8 py-4 border border-carbon shadow-hard hover:translate-y-0.5 hover:shadow-none transition-all font-bold uppercase tracking-wider">
@@ -168,8 +170,88 @@ import Footer from '../components/Footer.astro';
       </div>
     </section>
 
+    <!-- NEW SECTION: FUTURE PROOFING / THE ASSET -->
+    <section class="py-24 bg-paper border-b border-carbon overflow-hidden">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Text Content -->
+                <div class="lg:col-span-5">
+                    <span class="font-bold text-hibiscus uppercase tracking-widest text-sm mb-2 block">The Asset Model</span>
+                    <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
+                        The Last Setup Fee You'll Ever Pay.
+                    </h2>
+                    <p class="text-xl text-gray-600 mb-6 leading-relaxed">
+                        Traditional websites are like bananas. They look great on Day 1, but three years later, they're rotten. Then you have to pay another $5,000 to rebuild it.
+                    </p>
+                    <p class="text-xl font-bold text-carbon mb-8">
+                        Not with YourHQ. We refresh your design every year. For free.
+                    </p>
+                    <a href="/pricing" class="text-carbon font-bold border-b-2 border-carbon hover:text-signal hover:border-signal transition-colors">See Pricing Details →</a>
+                </div>
+
+                <!-- Comparison Graphic -->
+                <div class="lg:col-span-7">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        
+                        <!-- THE OLD WAY -->
+                        <div class="bg-gray-100 p-8 border border-gray-200 opacity-75">
+                            <h3 class="font-bold text-gray-500 mb-6 uppercase tracking-wider text-sm">The "3-Year Rot" Cycle</h3>
+                            <ul class="space-y-6">
+                                <li class="flex items-center justify-between">
+                                    <span class="text-gray-600">Year 1</span>
+                                    <span class="font-bold text-red-500">-$5,000 (Build)</span>
+                                </li>
+                                <li class="flex items-center justify-between">
+                                    <span class="text-gray-600">Year 2</span>
+                                    <span class="text-gray-400 italic">Looking dated...</span>
+                                </li>
+                                <li class="flex items-center justify-between">
+                                    <span class="text-gray-600">Year 3</span>
+                                    <span class="text-gray-400 italic">Code breaks...</span>
+                                </li>
+                                <li class="flex items-center justify-between border-t border-gray-300 pt-4">
+                                    <span class="text-gray-600">Year 4</span>
+                                    <span class="font-bold text-red-500">-$5,000 (Rebuild)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- THE YOURHQ WAY -->
+                        <div class="bg-white p-8 border-2 border-carbon shadow-hard relative">
+                            <div class="absolute -top-3 -right-3 bg-hibiscus text-white text-xs font-bold px-3 py-1 uppercase tracking-wider shadow-sm">
+                                Future Proofed
+                            </div>
+                            <h3 class="font-bold text-carbon mb-6 uppercase tracking-wider text-sm">The YourHQ Way</h3>
+                            <ul class="space-y-6">
+                                <li class="flex items-center justify-between">
+                                    <span class="font-medium">Year 1</span>
+                                    <span class="font-bold text-carbon">-$995 (Setup)</span>
+                                </li>
+                                <li class="flex items-center justify-between">
+                                    <span class="font-medium">Year 2</span>
+                                    <span class="font-bold text-signal">Free Refresh ✨</span>
+                                </li>
+                                <li class="flex items-center justify-between">
+                                    <span class="font-medium">Year 3</span>
+                                    <span class="font-bold text-signal">Free Refresh ✨</span>
+                                </li>
+                                <li class="flex items-center justify-between border-t border-gray-200 pt-4">
+                                    <span class="font-medium">Year 4</span>
+                                    <span class="font-bold text-signal">Free Refresh ✨</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- CARETAKER SECTION -->
-    <section class="py-24 bg-paper border-b border-carbon">
+    <section class="py-24 bg-white border-b border-carbon">
         <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-16 items-start">
                 <div>
@@ -179,68 +261,53 @@ import Footer from '../components/Footer.astro';
                         Most websites die a slow death because nobody updates the plugins or fixes the security. We handle all the boring stuff so you don't have to.
                     </p>
                     
-                    <div class="bg-white p-6 border border-carbon shadow-hard-sm">
-                        <h3 class="font-bold text-lg mb-4 text-signal">The "Text Us" Service</h3>
-                        <p class="text-gray-600 mb-4">Need something updated?</p>
-                        <ul class="space-y-2 font-mono text-sm text-gray-500 mb-4 bg-gray-50 p-4 border border-gray-200">
+                    <div class="bg-paper p-6 border border-carbon shadow-sm">
+                        <h3 class="font-bold text-lg mb-4 text-signal flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+                            The "Text Us" Service
+                        </h3>
+                        <p class="text-gray-600 mb-4 text-sm">Need something updated? Just text us.</p>
+                        <ul class="space-y-2 font-mono text-sm text-gray-500 mb-4 bg-white p-4 border border-gray-200">
                             <li>"Hey, change my phone number to..."</li>
                             <li>"Can you add this photo from the job?"</li>
                             <li>"Update my price list."</li>
                         </ul>
-                        <p class="font-bold">Just text me. I do it within 24 hours.</p>
+                        <p class="font-bold text-sm">Turnaround: 24-48 hours. No meetings.</p>
                     </div>
                 </div>
 
-                <div class="space-y-8">
-                    <div>
-                        <h3 class="font-extrabold text-2xl mb-4">What's Included?</h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start gap-4">
-                                <div class="bg-carbon text-white p-1 mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg></div>
-                                <div>
-                                    <strong class="block text-lg">Hosting & Security</strong>
-                                    <p class="text-gray-600 text-sm">Fast servers, SSL certificates, daily backups.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-4">
-                                <div class="bg-carbon text-white p-1 mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg></div>
-                                <div>
-                                    <strong class="block text-lg">Unlimited Updates</strong>
-                                    <p class="text-gray-600 text-sm">Text or email us changes anytime.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start gap-4">
-                                <div class="bg-hibiscus text-white p-1 mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg></div>
-                                <div>
-                                    <strong class="block text-lg">Annual Refresh</strong>
-                                    <p class="text-gray-600 text-sm">Every 12 months, we redesign your site for free.</p>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="space-y-6">
+                    <h3 class="font-extrabold text-2xl mb-2">What's Included?</h3>
+                    
+                    <!-- Standard Features -->
+                    <div class="flex items-start gap-4 p-4 border border-transparent hover:border-gray-200 transition-colors">
+                        <div class="bg-carbon text-white p-2 mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg></div>
+                        <div>
+                            <strong class="block text-lg">Hosting & Security</strong>
+                            <p class="text-gray-600 text-sm">Fast Vercel servers, SSL certificates, daily backups.</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- HOW UPDATES WORK -->
-    <section class="py-24 bg-white border-b border-carbon">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-4xl font-extrabold tracking-tighter mb-6">How Updates Work (No Meetings Required)</h2>
-                <p class="text-xl text-gray-600 leading-relaxed mb-6">
-                    Once you're live, updates are simple.
-                </p>
-                <p class="text-xl text-gray-600 leading-relaxed mb-6">
-                    <strong>Text us a photo or a message.</strong> We add it to our queue. Usually within 2–3 days, it's done.
-                </p>
-                <p class="text-xl text-gray-600 leading-relaxed mb-6">
-                    <strong>No Zoom calls. No back-and-forth emails.</strong> Just text → done.
-                </p>
-                <div class="bg-frangipani/10 border-l-4 border-frangipani p-6 mt-8 inline-block text-left">
-                    <p class="text-lg font-bold text-carbon">
-                        This keeps us sane and keeps your costs down. (That's why $149/mo works.)
-                    </p>
+                    <div class="flex items-start gap-4 p-4 border border-transparent hover:border-gray-200 transition-colors">
+                        <div class="bg-carbon text-white p-2 mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg></div>
+                        <div>
+                            <strong class="block text-lg">Unlimited Updates</strong>
+                            <p class="text-gray-600 text-sm">Text or email us changes anytime.</p>
+                        </div>
+                    </div>
+
+                    <!-- FEATURED: Annual Refresh -->
+                    <div class="flex items-start gap-4 p-6 bg-hibiscus/5 border border-hibiscus relative overflow-hidden">
+                        <div class="absolute top-0 right-0 bg-hibiscus text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-wider">
+                            Forever Fresh
+                        </div>
+                        <div class="bg-hibiscus text-white p-2 mt-1 shadow-sm"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg></div>
+                        <div>
+                            <strong class="block text-lg text-hibiscus">Annual Design Refresh</strong>
+                            <p class="text-gray-800 text-sm font-medium">Every 12 months, we redesign your site for free so it never looks old.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
