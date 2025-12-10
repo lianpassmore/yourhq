@@ -31,7 +31,7 @@ What You Get:
 ✓ Your website live at your domain
 ✓ Booking system fully integrated
 ✓ Blog/News management system
-✓ Hosting & security included ($199/mo covers this)
+✓ Hosting & security included ($249/mo covers this)
 ✓ Priority 24h support
 ✓ Unlimited text/photo updates
 ✓ Annual design refresh
@@ -294,7 +294,7 @@ Recommended
 The Growth
 For Salons & Consultants
 $1,495
-+ $199/mo
++ $249/mo
 ✓ Everything in Launch
 ✓ Booking system integration
 ✓ Blog / News section
@@ -421,7 +421,7 @@ The Growth
 For Salons & Consultants
 $1,495
 Setup
-$199
+$249
 / month
 ✓
 Everything in Launch, plus:

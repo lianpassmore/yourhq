@@ -126,7 +126,7 @@ This is our bread and butter for tradies, retailers, and service businesses.
 
 **Who this works for:** Electricians, plumbers, builders, accountants, physios—anyone who needs a professional site that generates leads.
 
-### The Growth ($1,495 + $199/month)
+### The Growth ($1,495 + $249/month)
 
 For salons, consultants, and businesses that need booking systems.
 
@@ -282,7 +282,7 @@ Get a clear maintenance agreement upfront. Surprise invoices are the worst.
 **Best for:** Tradies, consultants, retailers, service businesses
 
 ### If You Need Booking Systems or Regular Content:
-**Budget:** $1,495 setup + $199/month  
+**Budget:** $1,495 setup + $249/month  
 **Get:** [The Growth](/pricing)  
 **Best for:** Salons, coaches, consultants, wellness businesses
 
@@ -327,7 +327,7 @@ We're not cheaper because we cut corners—we're more efficient. Traditional age
 
 **What happens if I cancel my monthly subscription?**
 
-You own your domain—we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$199/month for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
+You own your domain—we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$249/month for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
 
 **How is this different from Wix or Squarespace?**
 

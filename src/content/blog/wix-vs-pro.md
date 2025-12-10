@@ -240,7 +240,7 @@ You usually have two choices when getting a website built:
 
 **Service Model:**
 - $995 setup fee (gets you a professional site in 5-7 days)
-- $149-$199/month "caretaker" fee (hosting, security, updates, annual refresh)
+- $149-$249/month "caretaker" fee (hosting, security, updates, annual refresh)
 
 **What You Get:**
 - We build it (using your voice interview—no endless meetings)

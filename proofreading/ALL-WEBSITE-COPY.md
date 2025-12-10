@@ -123,7 +123,7 @@ $995 + $149/mo
 ✓ Unlimited text/photo updates
 
 **The Growth** - For Salons & Consultants [RECOMMENDED]
-$1,495 + $199/mo
+$1,495 + $249/mo
 ✓ Everything in Launch
 ✓ Booking system integration
 ✓ Blog / News section
@@ -284,7 +284,7 @@ $995 Setup + $149/month
 ---
 
 **THE GROWTH** (For Salons & Consultants) [MOST POPULAR]
-$1,495 Setup + $199/month
+$1,495 Setup + $249/month
 
 ✓ Everything in Launch, plus:
 ✓ Booking System Integration
