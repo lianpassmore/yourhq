@@ -10,16 +10,26 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
       const params = new URLSearchParams(window.location.search);
       setUrlParams({
         name: params.get('name') || params.get('customer_name') || staticName || '',
-        plan: params.get('plan') || params.get('package') || '',
+        plan: params.get('plan') || params.get('package') || staticPlan || '',
       });
     }
-  }, [staticName]);
+  }, [staticName, staticPlan]);
 
   const conversation = useConversation({
-    onConnect: () => console.log('Connected to YourHQ Assistant'),
-    onDisconnect: () => console.log('Disconnected'),
-    onMessage: (message) => console.log('Message:', message),
-    onError: (error) => console.error('Error:', error),
+    onConnect: () => {
+      console.log('Connected to YourHQ Assistant');
+    },
+    onDisconnect: () => {
+      console.log('Disconnected from YourHQ Assistant');
+      setHasPermission(false);
+    },
+    onMessage: (message) => {
+      console.log('Message:', message);
+    },
+    onError: (error) => {
+      console.error('VoiceAgent Error:', error);
+      setHasPermission(false);
+    },
   });
 
   const { status, isSpeaking } = conversation;
@@ -31,7 +41,7 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
       return true;
     } catch (err) {
       console.error('Mic permission denied:', err);
-      alert('Please allow microphone access to do the interview.');
+      alert('Please allow microphone access to start the interview.');
       return false;
     }
   };
@@ -39,40 +49,23 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
   const toggleConversation = useCallback(async () => {
     if (status === 'connected') {
       await conversation.endSession();
+      setHasPermission(false);
     } else {
       const permitted = await requestMic();
       if (permitted) {
-        // Prepare user data for the agent
-        const userName = urlParams.name || staticName || '';
-        const userPlan = staticPlan || urlParams.plan || '';
-
-        // Build custom greeting based on available data
-        let firstMessage = `Kia ora! Thanks for choosing YourHQ. I'm Lian's AI assistant, and I'm here to learn about your business so we can build you the perfect website.`;
-
-        if (userName && userPlan) {
-          firstMessage = `Kia ora ${userName}! Thanks for choosing the ${userPlan} package. I'm Lian's AI assistant, and I'm here to learn about your business so we can build you the perfect website. This should only take about 15 minutes. Ready to get started?`;
-        } else if (userName) {
-          firstMessage = `Kia ora ${userName}! Thanks for choosing YourHQ. I'm Lian's AI assistant, and I'm here to learn about your business so we can build you the perfect website. This should only take about 15 minutes. Ready to get started?`;
-        } else {
-          firstMessage += ` Before we dive in, what's your name?`;
+        try {
+          // Simple startSession call without overrides
+          await conversation.startSession({
+            agentId: agentId,
+          });
+        } catch (error) {
+          console.error('Failed to start session:', error);
+          alert('Failed to connect to the voice agent. Please try again.');
+          setHasPermission(false);
         }
-
-        await conversation.startSession({
-          agentId: agentId,
-          overrides: {
-            agent: {
-              firstMessage: firstMessage,
-              prompt: {
-                prompt: userName && userPlan
-                  ? `You are conducting an intake interview for ${userName} who has purchased the ${userPlan} package. ${userPlan === 'Starter' ? 'This is a one-page website, so keep questions focused on essential information only.' : userPlan === 'Launch' ? 'This is a 5-page website for tradies/retail. Ask about their services, target customers, service areas, and what makes them different.' : userPlan === 'Growth' ? 'This is a premium website with booking system and blog. Ask comprehensive questions about their business, services, booking needs, and content strategy.' : 'Ask about their business needs and help determine what would work best for them.'}`
-                  : 'You are conducting an intake interview for a new YourHQ website client. Start by getting their name if you don\'t have it, then learn about their business.'
-              }
-            }
-          }
-        });
       }
     }
-  }, [conversation, status, agentId, urlParams, staticPlan, staticName]);
+  }, [conversation, status, agentId]);
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
