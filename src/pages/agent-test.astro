@@ -5,71 +5,91 @@ import Footer from '../components/Footer.astro';
 ---
 
 <Layout
-  title="Voice Agent Test | YourHQ"
-  description="Test page for the YourHQ AI Voice Agent"
+  title="The Drive-Home Interview | YourHQ"
+  description="Start your website build with a simple conversation."
 >
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
+  <main class="bg-paper min-h-screen flex flex-col">
 
     <!-- HEADER -->
-    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-          Voice Agent Test
+    <section class="pt-32 pb-16 border-b border-carbon/10 bg-[size:40px_40px] bg-grid-pattern relative">
+      <!-- Fading overlay for grid -->
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent to-paper pointer-events-none"></div>
+      
+      <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        
+        <!-- Dynamic Greeting Element -->
+        <span class="inline-block py-1 px-3 rounded-full bg-signal/10 text-signal font-bold text-sm mb-6 tracking-wide uppercase">
+          Step 01: Content Gathering
+        </span>
+
+        <h1 id="dynamic-greeting" class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-6 text-carbon">
+          The Drive-Home Interview.
         </h1>
+        
         <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Test the AI Voice Agent functionality
+          No forms. No typing. Just talk. <br class="hidden md:block"/>
+          Your digital assistant is ready to take your brief.
         </p>
       </div>
     </section>
 
-    <!-- CONTENT -->
-    <section class="py-24 bg-white">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- INSTRUCTIONS CONTENT -->
+    <section class="py-12 md:py-20 bg-paper flex-grow">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div class="bg-paper border-2 border-carbon p-8 md:p-12 mb-8 shadow-hard">
-          <h2 class="text-3xl font-extrabold mb-6">General Inquiry Agent</h2>
-          <p class="text-gray-600 mb-4">
-            This agent has no pre-filled information. It acts as a general Q&A bot.
-          </p>
-          <div class="bg-signal/10 p-4 border-l-4 border-signal">
-            <p class="text-sm font-mono">
-              <strong>staticPlan:</strong> "" (empty)<br/>
-              <strong>staticName:</strong> "" (empty)
-            </p>
+        <!-- Instruction Card -->
+        <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-hard relative overflow-hidden">
+          
+          <!-- Decorative accent -->
+          <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-signal via-hibiscus to-frangipani"></div>
+
+          <div class="space-y-8">
+            <div>
+              <h2 class="text-2xl font-bold mb-4 flex items-center gap-3">
+                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm">1</span>
+                How this works
+              </h2>
+              <p class="text-gray-600 leading-relaxed">
+                You are about to speak with <strong>Lian's Digital Twin</strong>. This isn't a live call, but an advanced AI trained to capture your business story. It takes about 10–15 minutes.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-2xl font-bold mb-4 flex items-center gap-3">
+                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm">2</span>
+                Before you start
+              </h2>
+              <ul class="space-y-3 text-gray-600">
+                <li class="flex items-start gap-3">
+                  <span class="text-signal mt-1">✓</span>
+                  <span>Find a relatively quiet spot (or a car with the windows up).</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-signal mt-1">✓</span>
+                  <span>Don't overthink it. Speak naturally, just like you're talking to a mate.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-signal mt-1">✓</span>
+                  <span>Tap the <strong>blue button</strong> in the bottom right corner to begin.</span>
+                </li>
+              </ul>
+            </div>
+            
+            <!-- Privacy Notice (Micro-copy) -->
+            <div class="mt-8 pt-6 border-t border-gray-100 text-xs text-gray-400">
+              <p>
+                <strong>Privacy Notice:</strong> By starting this conversation, you consent to your voice being recorded and processed by AI to generate your website content. We do not clone voices or sell data.
+              </p>
+            </div>
+
           </div>
         </div>
 
-        <div class="bg-paper border-2 border-hibiscus p-8 md:p-12 mb-8 shadow-hard">
-          <h2 class="text-3xl font-extrabold mb-6">Test Scenarios</h2>
-
-          <div class="space-y-4">
-            <div>
-              <h3 class="font-bold text-lg mb-2">Scenario 1: General Inquiry</h3>
-              <p class="text-gray-600 text-sm">Test with no URL parameters - should give general greeting</p>
-              <a href="/agent-test" class="text-signal text-sm font-mono hover:underline">→ /agent-test</a>
-            </div>
-
-            <div>
-              <h3 class="font-bold text-lg mb-2">Scenario 2: With Customer Name</h3>
-              <p class="text-gray-600 text-sm">Test with name in URL parameter</p>
-              <a href="/agent-test?name=John" class="text-signal text-sm font-mono hover:underline">→ /agent-test?name=John</a>
-            </div>
-
-            <div>
-              <h3 class="font-bold text-lg mb-2">Scenario 3: With Name and Plan</h3>
-              <p class="text-gray-600 text-sm">Test with both name and plan parameters</p>
-              <a href="/agent-test?name=Sarah&plan=Growth" class="text-signal text-sm font-mono hover:underline">→ /agent-test?name=Sarah&plan=Growth</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-frangipani/10 border-l-4 border-frangipani p-6">
-          <p class="text-sm text-gray-600">
-            <strong>Note:</strong> The voice agent will appear at the bottom right of the page.
-            Click the microphone icon to start a conversation. Make sure to allow microphone access when prompted.
-          </p>
+        <!-- Help Text -->
+        <div class="text-center mt-8 text-sm text-gray-500">
+          <p>Need help? Text us at <span class="text-carbon font-bold">022 172 5793</span></p>
         </div>
 
       </div>
@@ -82,4 +102,23 @@ import Footer from '../components/Footer.astro';
   <!-- ELEVENLABS VOICE AGENT WIDGET -->
   <elevenlabs-convai agent-id="agent_8801kbr4e3s1f32vwgejq4wdcezp"></elevenlabs-convai>
   <script is:inline src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
+  <!-- DYNAMIC GREETING SCRIPT -->
+  <script is:inline>
+    // This script checks the URL for a ?name= parameter
+    // and updates the H1 tag to welcome them personally.
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const name = urlParams.get('name');
+      const greetingElement = document.getElementById('dynamic-greeting');
+
+      if (name && greetingElement) {
+        // Capitalize first letter just in case
+        const cleanName = name.charAt(0).toUpperCase() + name.slice(1);
+        greetingElement.innerHTML = `Kia ora, ${cleanName}.<br/>Ready for your interview?`;
+      }
+    });
+  </script>
+
 </Layout>

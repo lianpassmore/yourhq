@@ -2,12 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import FAQSchema from '../components/FAQSchema.astro';
 ---
 
-<Layout 
-  title="Pricing | YourHQ - Professional Websites from $695" 
+<Layout
+  title="Pricing | YourHQ - Professional Websites from $695"
   description="Transparent pricing. Packages for every stage of business. No lock-in. Own your website."
 >
+  <FAQSchema slot="head" />
   <Navbar client:load />
 
   <main class="bg-paper min-h-screen">

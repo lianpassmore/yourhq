@@ -1,0 +1,140 @@
+---
+// Structured Data (JSON-LD) for SEO and AEO
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "YourHQ",
+  "legalName": "YourHQ Limited",
+  "url": "https://yourhq.co.nz",
+  "logo": "https://yourhq.co.nz/favicon.svg",
+  "foundingDate": "2024",
+  "description": "Professional websites for Kiwi businesses. Built in 5 business days. Managed forever.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Whangārei",
+    "addressRegion": "Northland",
+    "addressCountry": "NZ"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+64-22-172-5793",
+    "contactType": "Customer Service",
+    "email": "hello@yourhq.co.nz",
+    "availableLanguage": "English"
+  },
+  "sameAs": [
+    "https://www.facebook.com/yourhqnz",
+    "https://www.linkedin.com/company/yourhq"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Lian Passmore"
+  }
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "YourHQ",
+  "image": "https://yourhq.co.nz/og-image.jpg",
+  "priceRange": "$695 - $1,495",
+  "telephone": "+64-22-172-5793",
+  "email": "hello@yourhq.co.nz",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Whangārei",
+    "addressRegion": "Northland",
+    "addressCountry": "New Zealand"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -35.7253,
+    "longitude": 174.3230
+  },
+  "url": "https://yourhq.co.nz",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "17:00"
+  }
+};
+
+const servicesSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Website Design and Development",
+  "provider": {
+    "@type": "Organization",
+    "name": "YourHQ"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "New Zealand"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Website Packages",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "The Starter Package",
+          "description": "One-page professional website"
+        },
+        "price": "695",
+        "priceCurrency": "NZD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "49",
+          "priceCurrency": "NZD",
+          "unitText": "MONTH"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "The Launch Package",
+          "description": "5-page professional website for tradies and retail"
+        },
+        "price": "995",
+        "priceCurrency": "NZD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "149",
+          "priceCurrency": "NZD",
+          "unitText": "MONTH"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "The Growth Package",
+          "description": "Complete website with booking system for salons and consultants"
+        },
+        "price": "1495",
+        "priceCurrency": "NZD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "249",
+          "priceCurrency": "NZD",
+          "unitText": "MONTH"
+        }
+      }
+    ]
+  }
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(servicesSchema)} />

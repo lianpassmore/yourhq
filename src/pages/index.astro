@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import StructuredData from '../components/StructuredData.astro';
 
 // DATA: Testimonials
 const testimonials = [
@@ -20,11 +21,12 @@ const testimonials = [
 ];
 ---
 
-<Layout 
-  title="YourHQ | Professional Websites for Kiwi Businesses" 
+<Layout
+  title="YourHQ | Professional Websites for Kiwi Businesses"
   description="Stop renting your business on social media. Professional websites for Kiwi businesses. Built in 5 business days. From $995. Own your digital space."
 >
-  
+  <StructuredData slot="head" />
+
   <!-- Announcement Bar -->
   <div class="bg-carbon text-white text-center py-2 px-4 text-xs font-mono tracking-widest uppercase border-b border-white/10">
     🚀 Taking bookings for week of Dec 15
@@ -114,7 +116,7 @@ const testimonials = [
             <!-- Left: Visual -->
             <div class="bg-white border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[400px]">
               <div class="relative w-full aspect-square border-2 border-carbon overflow-hidden bg-gray-50 shadow-hard-sm">
-                <img src="/images/hands.jpeg" alt="Close up of hands working" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+                <img src="/hands.webp" alt="Close up of hands working" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
                 <!-- Decorative accent -->
                 <div class="absolute -bottom-2 -right-2 w-full h-full border border-signal -z-10"></div>
               </div>

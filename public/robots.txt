@@ -1,0 +1,13 @@
+# robots.txt for YourHQ
+
+User-agent: *
+Allow: /
+
+# Disallow admin or test pages
+Disallow: /agent-test
+
+# Sitemap location
+Sitemap: https://yourhq.co.nz/sitemap.xml
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1

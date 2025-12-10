@@ -4,9 +4,18 @@ import '../styles/global.css';
 interface Props {
 	title: string;
 	description: string;
+	image?: string;
+	type?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, image, type } = Astro.props;
+
+// Default OG image if none provided
+const ogImage = image || 'https://yourhq.co.nz/og-image.jpg';
+const ogType = type || 'website';
+
+// Get current URL
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.co.nz');
 ---
 
 <!doctype html>
@@ -15,20 +24,47 @@ const { title, description } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
-		
-		<!-- FAVICONS -->
-		<!-- Modern Browsers -->
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<!-- Safari Pinned Tab (Change color below to match your Signal Red hex code) -->
-		<link rel="mask-icon" href="/favicon.svg" color="ef4444" />
 
-		<!-- Google Fonts: Inter & Courier Prime -->
+		<!-- SEO: Canonical URL -->
+		<link rel="canonical" href={canonicalURL} />
+
+		<!-- SEO: Keywords & Author -->
+		<meta name="keywords" content="website design New Zealand, Kiwi business websites, professional website builder, Whangārei web design, small business website, website subscription, NZ web developer" />
+		<meta name="author" content="YourHQ Limited" />
+		<meta name="robots" content="index, follow" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content={ogType} />
+		<meta property="og:url" content={canonicalURL} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:site_name" content="YourHQ" />
+		<meta property="og:locale" content="en_NZ" />
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:url" content={canonicalURL} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImage} />
+
+		<!-- FAVICONS -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="mask-icon" href="/favicon.svg" color="#2563EB" />
+
+		<!-- Preconnect for Performance -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Google Fonts: Inter & Courier Prime -->
 		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
-		
+
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+
+		<!-- Allow pages to add structured data or other head content -->
+		<slot name="head" />
 	</head>
 	<body class="bg-paper text-carbon font-sans selection:bg-frangipani selection:text-carbon">
 		<slot />

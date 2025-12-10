@@ -1,0 +1,75 @@
+---
+// FAQ Schema for Pricing Page - helps Google and AI answer engines
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a website cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "YourHQ offers three packages: The Starter ($695 setup + $49/mo) for one-page sites, The Launch ($995 setup + $149/mo) for 5-page sites, and The Growth ($1,495 setup + $249/mo) for full websites with booking systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's included in the monthly fee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The monthly fee covers unlimited updates via text, hosting, domain management, security, and ongoing maintenance. You get a dedicated caretaker who manages everything for you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to build a website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most websites are built and launched within 5 business days. After a brief kickoff call, your caretaker builds your site while you focus on your business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I cancel anytime?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all packages are month-to-month with no long-term contracts. You can cancel anytime with 30 days notice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I own my website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you own all content and can export your site at any time. The subscription covers hosting, maintenance, and updates - not ownership."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I need changes to my website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just text your caretaker a photo or message. Updates are typically completed within 2-3 business days. Priority support (24-hour turnaround) is available for $50/month extra."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this better than a traditional web agency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional agencies charge $3,000-$10,000 upfront and then disappear. YourHQ provides ongoing support for a fraction of the cost, with no meetings required and unlimited updates included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with businesses outside New Zealand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! While based in Aotearoa New Zealand, YourHQ works with businesses globally. All communication happens via text and email, making location irrelevant."
+      }
+    }
+  ]
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
