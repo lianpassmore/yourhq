@@ -146,7 +146,7 @@ WELLNESS STUDIO
 ### Testimonial 2
 "I'm definitely not up to speed on tech stuff. While I was still figuring out Google Drive, Lian had already built the whole thing from our Facebook. My mates reckon it's banging!"
 
-**— Rueben, Johnson & Sons**
+**— Reuben, Johnson & Sons**
 COMMERCIAL BUILDER
 
 ---
@@ -886,7 +886,7 @@ See what happens when infrastructure meets warmth.
 **Quote:**
 "I'm definitely not up to speed on all this tech stuff. I was blown away by how prompt she was. While I was still trying to upload images, she had already grabbed them from our Facebook and built the whole thing. My mates reckon it's banging!"
 
-**— Rueben, Director**
+**— Reuben, Director**
 
 **Badge:** LIVE
 **Link:** johnsonandsonsltd.site
