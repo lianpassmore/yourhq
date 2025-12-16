@@ -7,6 +7,8 @@ const projects = [
   {
     client: "DreamStorm",
     type: "Creative Studio",
+    location: "Northland, NZ",
+    description: "A creative studio based in Northland specializing in storytelling, design, and digital strategy for purpose-driven businesses.",
     image: "/dreamstorm-site.webp",
     link: "https://dreamstorm.org",
     quote: "This is the site that started it all. I designed a website for myself and fell in love with it - I decided that I wanted to help others build a site that represents them.",
@@ -15,6 +17,8 @@ const projects = [
   {
     client: "Ember & Ice",
     type: "Wellness Studio",
+    location: "Northland, NZ",
+    description: "Ember & Ice is a wellness studio in Northland offering ice bath therapy, sauna sessions, and holistic wellness treatments for recovery and vitality.",
     image: "/emberandice-site.webp",
     link: "https://emberandice.co.nz",
     quote: "You took away my barrier to market. Building a website was something I didn't have the skills for. You helped me fulfill a dream - you made my dreams come true.",
@@ -23,6 +27,8 @@ const projects = [
   {
     client: "Johnson & Sons",
     type: "Commercial Services",
+    location: "Northland, NZ",
+    description: "Johnson & Sons is a commercial building and maintenance company serving businesses across Northland with professional trade services.",
     image: "/johnsonandsons-site.webp",
     link: "https://johnsonandsonsltd.site",
     quote: "I'm definitely not up to speed on all this tech stuff. I was blown away by how prompt she was. While I was still trying to upload images, she had already grabbed them from our Facebook and built the whole thing. My mates reckon it's banging!",
@@ -31,6 +37,8 @@ const projects = [
   {
     client: "Storysmith",
     type: "Storytelling & Media",
+    location: "Northland, NZ",
+    description: "Storysmith is a storytelling and media production service creating compelling narratives and visual content for New Zealand businesses.",
     image: "/storysmith-site.webp",
     link: "https://storysmith.work",
     quote: "My Mum built me an epic website with everything I need to start my own business. I think it's mean!",
@@ -85,9 +93,17 @@ const projects = [
                     </a>
 
                     <!-- 2. The Metadata -->
-                    <div class="flex justify-between items-baseline mb-6 border-b border-carbon/10 pb-4">
-                        <h3 class="text-3xl font-extrabold tracking-tight">{project.client}</h3>
-                        <span class="font-mono text-xs font-bold text-gray-400 uppercase tracking-widest">{project.type}</span>
+                    <div class="mb-6 border-b border-carbon/10 pb-4">
+                        <div class="flex justify-between items-baseline mb-2">
+                            <h3 class="text-3xl font-extrabold tracking-tight">{project.client}</h3>
+                            <span class="font-mono text-xs font-bold text-gray-400 uppercase tracking-widest">{project.type}</span>
+                        </div>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            {project.description}
+                        </p>
+                        <p class="text-xs font-mono text-gray-400 mt-2 uppercase tracking-wider">
+                            📍 {project.location}
+                        </p>
                     </div>
 
                     <!-- 3. The Testimonial (The "Caption") -->

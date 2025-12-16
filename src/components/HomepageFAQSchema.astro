@@ -1,0 +1,51 @@
+---
+// Homepage FAQ Schema for SEO/AEO optimization
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a small business website cost in NZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most NZ tradies, salons and consultants, a professional 5-page site typically costs between $700 and $2,000 upfront, plus ongoing hosting and support. YourHQ's Launch package is $995 setup plus $149 per month, which includes unlimited updates and an annual design refresh."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can my tradie website go live?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most tradie websites go live within 5 business days. After a quick 15-minute phone interview, we build your site while you're on the tools. No meetings, no homework, no tech stress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you build websites for salons outside Auckland?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We're based in Northland but work with businesses across all of New Zealand—Auckland, Wellington, Christchurch, and everywhere in between. All communication happens via text and phone, so location doesn't matter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes YourHQ different from Wix or Squarespace?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With Wix or Squarespace, you do all the work yourself—40+ hours of building, learning, and troubleshooting. With YourHQ, we do everything for you in 5 days using faster, more secure technology. Plus, you get unlimited updates and annual refreshes included, not extra charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my website help me rank on Google?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every YourHQ site is built with SEO fundamentals: fast load times (under 1 second), mobile-first design, clean code, and local business schema markup. We optimize for local searches like 'electrician near me' or 'hair salon [your city]' so customers can actually find you."
+      }
+    }
+  ]
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />

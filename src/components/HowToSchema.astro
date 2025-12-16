@@ -1,0 +1,120 @@
+---
+// HowTo Schema for How It Works page - SEO/AEO optimization
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to get a professional website built in 5 days with YourHQ",
+  "description": "5-day website builds for NZ small businesses. No homework, no tech stress. From initial phone call to going live.",
+  "totalTime": "P5D",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "NZD",
+    "value": "995"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "The Drive-Home Interview",
+      "text": "Call our AI Voice Agent for a 15-minute interview. No writing required. The AI asks: What do you actually do? Who are your customers? What makes you different?",
+      "url": "https://yourhq.co.nz/how-it-works#step-1",
+      "itemListElement": [
+        {
+          "@type": "HowToDirection",
+          "text": "Call the AI Voice Agent while driving home or having a coffee"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "Answer simple questions about your business for 15 minutes"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "No writing, no forms, no preparation needed"
+        }
+      ]
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "We Raid Your Content",
+      "text": "We gather photos and information from your Facebook, Instagram, and Google Reviews. Most businesses already have 90% of the content they need—it's just scattered across platforms.",
+      "url": "https://yourhq.co.nz/how-it-works#step-2",
+      "itemListElement": [
+        {
+          "@type": "HowToDirection",
+          "text": "We hunt through your existing social media and review platforms"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "We collect photos, testimonials, and business information"
+        }
+      ]
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "The Factory Build (Days 1-4)",
+      "text": "We build your site using Astro and Tailwind CSS (Silicon Valley technology). Your site will load in under 1 second, be mobile-first, and include SEO fundamentals.",
+      "url": "https://yourhq.co.nz/how-it-works#step-3",
+      "itemListElement": [
+        {
+          "@type": "HowToDirection",
+          "text": "We code your website using fast, modern technology"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "Under 1 second load time guaranteed"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "Mobile-first design with SEO fundamentals built in"
+        }
+      ]
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "The Preview (Day 5)",
+      "text": "We send you a private link to review your site. If you want changes, we make them in 24 hours. If you hate it, we refund you (minus ~3% processing fees).",
+      "url": "https://yourhq.co.nz/how-it-works#step-4",
+      "itemListElement": [
+        {
+          "@type": "HowToDirection",
+          "text": "View the preview link on your phone or computer"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "Request any changes needed (24-hour turnaround)"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "Approve the final design or request a refund"
+        }
+      ]
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "You Go Live",
+      "text": "We flip the switch, your domain goes live, and Google is notified. You get back to work while we become your ongoing caretakers.",
+      "url": "https://yourhq.co.nz/how-it-works#step-5",
+      "itemListElement": [
+        {
+          "@type": "HowToDirection",
+          "text": "We activate your domain and make the site live"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "Google is notified for indexing"
+        },
+        {
+          "@type": "HowToDirection",
+          "text": "We continue as ongoing caretakers for updates and maintenance"
+        }
+      ]
+    }
+  ]
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />

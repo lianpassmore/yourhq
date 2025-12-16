@@ -2,12 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import HowToSchema from '../components/HowToSchema.astro';
 ---
 
-<Layout 
-  title="How It Works | YourHQ - Website Built in 5 Days" 
+<Layout
+  title="How It Works | YourHQ - Website Built in 5 Days"
   description="No homework. No tech stress. Just a 15-minute phone call. See how YourHQ's process works for Kiwi businesses."
 >
+  <HowToSchema slot="head" />
   <Navbar client:load />
 
   <main class="bg-paper min-h-screen">
@@ -26,6 +28,9 @@ import Footer from '../components/Footer.astro';
           <p class="text-xl md:text-2xl text-gray-600 max-w-2xl leading-relaxed">
             No forms to fill out. No tech jargon. <span class="bg-frangipani/30 px-1 font-medium text-carbon">No homework.</span> <br />
             Just one phone call and we handle the rest.
+          </p>
+          <p class="text-lg text-gray-700 mt-8 max-w-3xl leading-relaxed">
+            Our <strong>5-day website builds for NZ small businesses</strong> take you from initial phone call to live website faster than traditional agencies. Perfect for tradies, salons, and consultants who need a professional online presence without the tech stress.
           </p>
         </div>
       </div>

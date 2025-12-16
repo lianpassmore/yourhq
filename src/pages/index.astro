@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import StructuredData from '../components/StructuredData.astro';
+import HomepageFAQSchema from '../components/HomepageFAQSchema.astro';
 
 // DATA: Testimonials
 const testimonials = [
@@ -22,10 +23,11 @@ const testimonials = [
 ---
 
 <Layout
-  title="YourHQ | Professional Websites for Kiwi Businesses"
-  description="Stop renting your business on social media. Professional websites for Kiwi businesses. Built in 5 business days. From $995. Own your digital space."
+  title="Website Design for Tradies, Salons & Consultants | YourHQ Web Design NZ"
+  description="Fast, done-for-you websites for New Zealand tradies, salons and consultants. Built in 5 days. From $695. Local SEO-friendly websites owned by you, not rented from social media."
 >
   <StructuredData slot="head" />
+  <HomepageFAQSchema slot="head" />
 
   <!-- Announcement Bar -->
   <div class="bg-carbon text-white text-center py-2 px-4 text-xs font-mono tracking-widest uppercase border-b border-white/10">
@@ -53,6 +55,11 @@ const testimonials = [
               <span class="text-signal">Start Owning.</span>
             </h1>
 
+            <!-- SEO H2 -->
+            <h2 class="text-2xl md:text-3xl font-bold text-carbon/80 mb-8 leading-tight">
+              Fast, done-for-you websites for NZ tradies, salons and consultants.
+            </h2>
+
             <!-- Subhead Grid -->
             <div class="grid md:grid-cols-12 gap-8 md:gap-12 mt-12 items-start border-t border-carbon/20 pt-12">
               <div class="md:col-span-7">
@@ -64,8 +71,8 @@ const testimonials = [
                 </p>
               </div>
               <div class="md:col-span-5 flex flex-col gap-4">
-                <p class="text-gray-600 mb-2">
-                  Professional websites for Kiwi businesses. Built in 5 business days. Managed forever. From $695.
+                <p class="text-gray-700 mb-4 leading-relaxed">
+                  We build <strong>local SEO-friendly websites for New Zealand small businesses</strong>, especially tradies, salons, and professional services. Professional websites built in 5 business days. Managed forever. From $695.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                   <a href="/pricing" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
@@ -488,6 +495,59 @@ const testimonials = [
           </div>
 
         </div>
+    </section>
+
+    <!-- FAQ SECTION (SEO/AEO) -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 text-center">
+            Common <span class="text-signal">Questions</span>
+          </h2>
+
+          <div class="space-y-8">
+            <!-- FAQ 1 -->
+            <div class="border-l-4 border-signal pl-6 py-4">
+              <h3 class="text-xl font-bold mb-3 text-carbon">How much does a small business website cost in NZ?</h3>
+              <p class="text-gray-700 leading-relaxed">
+                For most NZ tradies, salons and consultants, a professional 5-page site typically costs between $700 and $2,000 upfront, plus ongoing hosting and support. YourHQ's Launch package is $995 setup plus $149 per month, which includes unlimited updates and an annual design refresh.
+              </p>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="border-l-4 border-hibiscus pl-6 py-4">
+              <h3 class="text-xl font-bold mb-3 text-carbon">How quickly can my tradie website go live?</h3>
+              <p class="text-gray-700 leading-relaxed">
+                Most tradie websites go live within 5 business days. After a quick 15-minute phone interview, we build your site while you're on the tools. No meetings, no homework, no tech stress.
+              </p>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="border-l-4 border-frangipani pl-6 py-4">
+              <h3 class="text-xl font-bold mb-3 text-carbon">Do you build websites for salons outside Auckland?</h3>
+              <p class="text-gray-700 leading-relaxed">
+                Yes! We're based in Northland but work with businesses across all of New Zealand—Auckland, Wellington, Christchurch, and everywhere in between. All communication happens via text and phone, so location doesn't matter.
+              </p>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="border-l-4 border-signal pl-6 py-4">
+              <h3 class="text-xl font-bold mb-3 text-carbon">What makes YourHQ different from Wix or Squarespace?</h3>
+              <p class="text-gray-700 leading-relaxed">
+                With Wix or Squarespace, you do all the work yourself—40+ hours of building, learning, and troubleshooting. With YourHQ, we do everything for you in 5 days using faster, more secure technology. Plus, you get unlimited updates and annual refreshes included, not extra charges.
+              </p>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="border-l-4 border-hibiscus pl-6 py-4">
+              <h3 class="text-xl font-bold mb-3 text-carbon">Will my website help me rank on Google?</h3>
+              <p class="text-gray-700 leading-relaxed">
+                Yes. Every YourHQ site is built with SEO fundamentals: fast load times (under 1 second), mobile-first design, clean code, and local business schema markup. We optimize for local searches like "electrician near me" or "hair salon [your city]" so customers can actually find you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FINAL CTA -->
