@@ -1,0 +1,189 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="5 Signs You Need a Website | Free Guide by YourHQ"
+  description="A free guide for Kiwi business owners who suspect they're losing customers to competitors with better online presence."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen">
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern relative">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        
+        <div class="inline-block bg-frangipani/20 border border-frangipani px-4 py-1 mb-6 rounded-full">
+            <span class="font-mono text-xs font-bold uppercase tracking-widest text-carbon">Free Resource</span>
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+          5 Signs You Need a Website<br />
+          <span class="text-gray-400 text-3xl md:text-5xl block mt-2 font-bold tracking-tight">(And You're Not Just Being Paranoid)</span>
+        </h1>
+        
+        <p class="text-xl text-carbon/80 max-w-2xl mx-auto mb-10 leading-relaxed">
+          A free guide for Kiwi business owners who suspect they're losing customers to competitors with a better online presence.
+        </p>
+
+        <a href="#get-the-guide" class="inline-block bg-signal text-white px-10 py-4 border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-widest text-lg">
+            Get the Free Guide →
+        </a>
+        
+        <p class="text-xs text-gray-500 mt-4 font-mono">No spam. Just one helpful email. Unsubscribe anytime.</p>
+
+      </div>
+    </section>
+
+    <!-- THE PROBLEM (High Contrast) -->
+    <section class="py-24 bg-carbon text-white">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-extrabold mb-8 text-frangipani">Here's the truth nobody tells you:</h2>
+            <div class="space-y-6 text-lg md:text-xl font-light leading-relaxed text-gray-200">
+                <p>You're brilliant at what you do. Your customers love you. Your reputation is solid.</p>
+                <p class="font-bold text-white">But online? You might as well be invisible.</p>
+                <p>Meanwhile, competitors with half your experience are winning jobs simply because they show up on Google and you don't.</p>
+                <div class="pt-8 border-t border-white/20 mt-8">
+                    <p>This guide will help you figure out if that's actually happening to you—and exactly what to do about it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT'S INSIDE -->
+    <section class="py-24 bg-white border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                
+                <!-- Left: The "Book" Visual -->
+                <div class="relative">
+                    <div class="aspect-[3/4] bg-paper border-2 border-carbon shadow-hard p-8 flex flex-col justify-center text-center">
+                        <span class="text-6xl mb-4">📄</span>
+                        <h3 class="text-3xl font-extrabold tracking-tighter mb-2">5 Signs</h3>
+                        <p class="font-mono text-sm text-gray-500 uppercase">YourHQ Guide v1.0</p>
+                    </div>
+                    <!-- Decorative elements -->
+                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-signal/10 rounded-full blur-xl -z-10"></div>
+                    <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-hibiscus/10 rounded-full blur-xl -z-10"></div>
+                </div>
+
+                <!-- Right: The List -->
+                <div>
+                    <h2 class="text-3xl font-extrabold mb-8">Inside the guide, you'll discover:</h2>
+                    <ul class="space-y-6">
+                        <li class="flex gap-4 items-start">
+                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <p class="text-lg text-gray-700">The <strong>"Google Test"</strong> that reveals if you're losing customers right now.</p>
+                        </li>
+                        <li class="flex gap-4 items-start">
+                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <p class="text-lg text-gray-700">Why your <strong>Facebook page</strong> isn't the safety net you think it is.</p>
+                        </li>
+                        <li class="flex gap-4 items-start">
+                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <p class="text-lg text-gray-700">The <strong>one specific question</strong> customers ask that should make you nervous.</p>
+                        </li>
+                        <li class="flex gap-4 items-start">
+                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <p class="text-lg text-gray-700">How to spot if younger competitors are <strong>eating your lunch</strong>.</p>
+                        </li>
+                        <li class="flex gap-4 items-start">
+                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <p class="text-lg text-gray-700">The simple math that shows what invisibility is <strong>actually costing you</strong>.</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO THIS IS FOR -->
+    <section class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-sm">
+                <h2 class="text-2xl font-bold mb-8 text-center uppercase tracking-widest text-gray-400">This guide is for you if...</h2>
+                <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
+                    <p class="flex gap-3 text-carbon font-medium">
+                        <span class="text-hibiscus font-bold">→</span>
+                        You've been meaning to "sort out the website thing" for months (or years).
+                    </p>
+                    <p class="flex gap-3 text-carbon font-medium">
+                        <span class="text-hibiscus font-bold">→</span>
+                        You're relying on word-of-mouth but notice it's slowing down.
+                    </p>
+                    <p class="flex gap-3 text-carbon font-medium">
+                        <span class="text-hibiscus font-bold">→</span>
+                        You've tried Wix or Squarespace and quit halfway through.
+                    </p>
+                    <p class="flex gap-3 text-carbon font-medium">
+                        <span class="text-hibiscus font-bold">→</span>
+                        You suspect you're losing jobs but can't prove it.
+                    </p>
+                    <p class="flex gap-3 text-carbon font-medium md:col-span-2">
+                        <span class="text-hibiscus font-bold">→</span>
+                        You're tired of answering "do you have a website?" with an excuse.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM SECTION -->
+    <section id="get-the-guide" class="py-24 bg-white">
+        <div class="max-w-xl mx-auto px-4">
+            
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-extrabold tracking-tighter mb-4">Get Your Free Copy</h2>
+                <p class="text-gray-600">Enter your details and we'll email it to you instantly.</p>
+            </div>
+
+            <!-- FORM START -->
+            <!-- Note: You will need to hook this form action up to your email provider (e.g. Formspree / Mailchimp) -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6 bg-paper p-8 border-2 border-carbon shadow-hard">
+                
+                <div class="space-y-2">
+                    <label for="name" class="text-xs font-bold uppercase tracking-wide text-gray-500">Name</label>
+                    <input type="text" name="name" id="name" placeholder="e.g., Sarah" required 
+                        class="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+                </div>
+
+                <div class="space-y-2">
+                    <label for="email" class="text-xs font-bold uppercase tracking-wide text-gray-500">Email</label>
+                    <input type="email" name="email" id="email" placeholder="e.g., sarah@email.com" required 
+                        class="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+                </div>
+
+                <div class="space-y-2">
+                    <label for="business" class="text-xs font-bold uppercase tracking-wide text-gray-500">What kind of business do you run?</label>
+                    <input type="text" name="business" id="business" placeholder="e.g., Plumber, Salon, Physio clinic" 
+                        class="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+                </div>
+
+                <button type="submit" class="w-full bg-signal text-white px-8 py-4 font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all">
+                    Send Me The Guide
+                </button>
+
+                <p class="text-xs text-center text-gray-400 pt-2">
+                    We respect your inbox. You'll get the guide + a few helpful emails. No spam, ever.
+                </p>
+
+            </form>
+            <!-- FORM END -->
+
+            <!-- ABOUT SECTION -->
+            <div class="mt-16 text-center border-t border-gray-100 pt-12">
+                <p class="text-sm text-gray-500 leading-relaxed max-w-lg mx-auto">
+                    This guide is brought to you by <strong>YourHQ</strong>—we build professional websites for Kiwi businesses in 5 days, with zero homework required. But no pressure. Read the guide first, and reach out if it resonates.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
