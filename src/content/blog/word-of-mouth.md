@@ -20,7 +20,7 @@ Even when someone recommends you, the first thing a potential client does is pul
 
 They type your name into Google.
 
-**97% of people learn about local businesses online first** [web:295]. That includes tradies, builders, sparkies, plumbers—all of it.
+**97% of people learn about local businesses online first**. That includes tradies, builders, sparkies, plumbers—all of it.
 
 ### Scenario A: You Have a Professional Web Presence
 
@@ -34,7 +34,7 @@ They find... nothing. Maybe an old Yellow Pages listing. Maybe a Facebook page y
 
 They start to wonder: *"Are they still in business? Are they cowboy operators? Why don't they have a website?"*
 
-**62% of customers will ignore a business without a website or web presence** [web:295].
+**62% of customers will ignore a business without a website or web presence**.
 
 Not "consider them less." Not "prefer someone else if possible."
 
@@ -46,13 +46,13 @@ They move on to the next name on the list—the one WITH a website.
 
 Let's look at what's actually happening in Aotearoa in 2025.
 
-**Only 53% of NZ businesses have a website** [web:301][web:302]. That means 47% of Kiwi businesses are operating without a dedicated website.
+**Only 53% of NZ businesses have a website**. That means 47% of Kiwi businesses are operating without a dedicated website.
 
-And among sole traders (which includes most tradies)? The gap is even wider [web:302].
+And among sole traders (which includes most tradies)? The gap is even wider.
 
 But here's what makes this dangerous:
 
-**56% of people stated they wouldn't trust a business without a website** [web:303].
+**56% of people stated they wouldn't trust a business without a website**.
 
 Let me spell that out: **Half of NZ businesses don't have websites, but more than half of customers won't trust a business without one.**
 
@@ -73,9 +73,9 @@ Let's say Barry recommends you to his mate Steve.
 - Steve Googles: "Johnno electrician Hamilton"
 - **If he finds nothing credible, he doesn't call.**
 
-**91% of homeowners rely on online reviews before choosing a contractor** [web:291]. Even if you were recommended by a mate.
+**91% of homeowners rely on online reviews before choosing a contractor**. Even if you were recommended by a mate.
 
-**81% of consumers research a business online before making a purchase** [web:308].
+**81% of consumers research a business online before making a purchase**.
 
 The recommendation gets you ON the list. But the online presence is what gets you the CALL.
 
@@ -98,7 +98,7 @@ The ones who:
 - Refer you to their mates (who also become good clients)
 - Value quality over lowest price
 
-**These clients expect professionalism at every touchpoint** [web:304].
+**These clients expect professionalism at every touchpoint**.
 
 When they Google you and find nothing—or worse, find an outdated Facebook page—it triggers doubt.
 
@@ -145,9 +145,9 @@ This worked when:
 
 ### Why This Shift Happened:
 
-**Mobile search explosion:** 46% of all Google searches have local intent [web:299][web:307]. "Electrician near me." "Plumber Hamilton." "Deck builder Waikato."
+**Mobile search explosion:** 46% of all Google searches have local intent. "Electrician near me." "Plumber Hamilton." "Deck builder Waikato."
 
-**Review culture:** People expect to see reviews before hiring anyone for anything. **98% of consumers read online reviews for local businesses** [web:295].
+**Review culture:** People expect to see reviews before hiring anyone for anything. **98% of consumers read online reviews for local businesses**.
 
 **Instant verification:** In 2005, you had to trust Barry's recommendation. In 2025, you can Google Johnno, check his reviews, see his work, and verify he's legit—all in 3 minutes while sitting on the couch.
 
@@ -157,14 +157,14 @@ This worked when:
 
 Here's something that's completely changed the game for local tradies:
 
-**"Near me" mobile searches have increased 900%+ in just two years** [web:299].
+**"Near me" mobile searches have increased 900%+ in just two years**.
 
 Searches like:
 - "Plumber near me"
 - "Electrician near me open now"
 - "Builder near me today"
 
-**78% of location-based mobile searches result in an offline purchase** [web:295].
+**78% of location-based mobile searches result in an offline purchase**.
 
 Translation: When someone searches for a tradie on their phone, they're READY to book. They're not browsing. They're not researching. They need someone NOW.
 
@@ -176,7 +176,7 @@ Translation: When someone searches for a tradie on their phone, they're READY to
 2. **A website** (so Google knows you're legitimate and active)
 3. **Reviews** (signals to Google that you're trustworthy)
 
-**64% of consumers use Google Business Profiles to find contact details** [web:299]. And **48% of Google Business Profile interactions are website visits** [web:296][web:299].
+**64% of consumers use Google Business Profiles to find contact details**. And **48% of Google Business Profile interactions are website visits**.
 
 They find you on Google Maps. They click through to your website. They book.
 
@@ -204,7 +204,7 @@ So the clients who find you are the ones who are just looking for "a sparkie" or
 
 ### 2. You Can't Scale Beyond Your Personal Network
 
-**Word of mouth is limited in reach** [web:297]. It works only with people who know you, and the people who know *them*. Once you're more than two degrees removed from the source, word of mouth rapidly fades [web:297].
+**Word of mouth is limited in reach**. It works only with people who know you, and the people who know *them*. Once you're more than two degrees removed from the source, word of mouth rapidly fades.
 
 You're stuck at a certain size because your network only extends so far.
 
@@ -215,17 +215,17 @@ Meanwhile, a tradie with a strong online presence can:
 
 ### 3. You Miss After-Hours Bookings
 
-Remember: **46% of service bookings happen outside business hours** [web:73][web:230].
+Remember: **46% of service bookings happen outside business hours**.
 
 Someone's couch-surfing at 8pm. Their hot water cylinder is leaking. They Google "plumber Hamilton."
 
 If you don't have a website with contact info and a booking form? They're calling someone else.
 
-**64% of consumers have used Google Business Profiles to find contact details** [web:299]. But if your GBP doesn't link to a website with clear service info? They move on.
+**64% of consumers have used Google Business Profiles to find contact details**. But if your GBP doesn't link to a website with clear service info? They move on.
 
 ### 4. You Lose Trust Before You Even Get the Call
 
-**56% of people won't trust a business without a website** [web:303].
+**56% of people won't trust a business without a website**.
 
 Even if Barry recommended you. Even if you're the best in the business.
 
@@ -233,7 +233,7 @@ If they Google you and find nothing, doubt creeps in.
 
 ### 5. You're Invisible to the Next Generation
 
-Millennials and Gen Z (who are now in their 30s and buying homes) **expect businesses to have an online presence** [web:223].
+Millennials and Gen Z (who are now in their 30s and buying homes) **expect businesses to have an online presence**.
 
 They don't use the Yellow Pages. They don't ask around at the pub. They Google, they check reviews, they look at websites.
 
@@ -275,9 +275,9 @@ You don't need to post on Instagram daily. You don't need TikTok. You don't need
 
 Let's talk money.
 
-**A local restaurant saw a 30% increase in reservations after launching their website with online ordering** [web:305].
+**A local restaurant saw a 30% increase in reservations after launching their website with online ordering**.
 
-**Construction contractors using local SEO see more high-intent traffic, shorter sales cycles, and better client identification** [web:307].
+**Construction contractors using local SEO see more high-intent traffic, shorter sales cycles, and better client identification**.
 
 ### Real Example: Hamilton Tradie
 
@@ -335,23 +335,23 @@ We get it sorted in 5-7 days so you can get back on the tools.
 
 **How many NZ businesses don't have websites?**
 
-As of 2025, only 53% of NZ businesses have a website, meaning 47% operate without one [web:301][web:302]. Among sole traders (including most tradies), the gap is even wider. However, 56% of people won't trust a business without a website [web:303], and 62% of customers will ignore businesses with no web presence entirely [web:295]—creating a dangerous credibility gap for businesses without professional online presence.
+As of 2025, only 53% of NZ businesses have a website, meaning 47% operate without one. Among sole traders (including most tradies), the gap is even wider. However, 56% of people won't trust a business without a website, and 62% of customers will ignore businesses with no web presence entirely—creating a dangerous credibility gap for businesses without professional online presence.
 
 **Do people really Google businesses even when they're recommended?**
 
-Yes. 91% of homeowners rely on online reviews before choosing a contractor—even when recommended [web:291], and 81% of consumers research a business online before making any purchase [web:308]. Word of mouth now starts the process, but online presence closes it. The recommendation gets you on the list, but if potential clients can't verify your legitimacy online, they move to the next name.
+Yes. 91% of homeowners rely on online reviews before choosing a contractor—even when recommended, and 81% of consumers research a business online before making any purchase. Word of mouth now starts the process, but online presence closes it. The recommendation gets you on the list, but if potential clients can't verify your legitimacy online, they move to the next name.
 
 **How much business am I losing without a website?**
 
-97% of people learn about local businesses online first [web:295], and 62% of customers ignore businesses without web presence [web:295]. Additionally, 46% of service bookings happen outside business hours [web:73][web:230], meaning you're missing half of potential bookings if customers can't find your info and book online. Conservative estimates show tradies with professional websites get 3-4 extra jobs weekly—translating to $72K-$96K additional annual revenue.
+97% of people learn about local businesses online first, and 62% of customers ignore businesses without web presence. Additionally, 46% of service bookings happen outside business hours, meaning you're missing half of potential bookings if customers can't find your info and book online. Conservative estimates show tradies with professional websites get 3-4 extra jobs weekly—translating to $72K-$96K additional annual revenue.
 
 **What do I actually need for my tradie business online?**
 
-Three essentials: (1) A professional website (fast-loading, mobile-responsive, with services, photos, and contact form), (2) Claimed and optimized Google Business Profile (complete info, photos, reviews, linked to website), and (3) Consistency across platforms. You don't need social media posting or fancy marketing—just the basics done properly. 48% of Google Business Profile interactions are website visits [web:296][web:299], so your GBP drives traffic to your site where conversions happen.
+Three essentials: (1) A professional website (fast-loading, mobile-responsive, with services, photos, and contact form), (2) Claimed and optimized Google Business Profile (complete info, photos, reviews, linked to website), and (3) Consistency across platforms. You don't need social media posting or fancy marketing—just the basics done properly. 48% of Google Business Profile interactions are website visits, so your GBP drives traffic to your site where conversions happen.
 
 **Why are "near me" searches important for tradies?**
 
-"Near me" mobile searches increased 900%+ in two years [web:299], with 78% resulting in offline purchases [web:295]. When someone searches "plumber near me" or "electrician near me open now," they're ready to book immediately—not browsing. 46% of all Google searches have local intent [web:299][web:307]. If you're not showing up in these searches (via Google Business Profile + website), you're invisible to nearly half of potential customers actively looking for your services right now.
+"Near me" mobile searches increased 900%+ in two years, with 78% resulting in offline purchases. When someone searches "plumber near me" or "electrician near me open now," they're ready to book immediately—not browsing. 46% of all Google searches have local intent. If you're not showing up in these searches (via Google Business Profile + website), you're invisible to nearly half of potential customers actively looking for your services right now.
 
 ---
 

@@ -14,7 +14,7 @@ But deep down, you've got a nagging worry.
 
 **You don't own your followers.** Mark Zuckerberg does.
 
-And here's the thing that keeps me up at night (well, one of many things): **87% of businesses report significant reach decline on Instagram over the past 18 months** [web:62].
+And here's the thing that keeps me up at night (well, one of many things): **87% of businesses report significant reach decline on Instagram over the past 18 months**.
 
 That's not just a dip. That's a death spiral for organic content.
 
@@ -28,21 +28,21 @@ Right now, you're a **digital tenant**. You're building your castle on rented la
 
 The landlord (Meta) sets the rules.  
 The landlord decides who sees your posts.  
-The landlord can evict you (ban your account) whenever they want—with no warning, no explanation, and often no successful appeal [web:67][web:78].
+The landlord can evict you (ban your account) whenever they want—with no warning, no explanation, and often no successful appeal.
 
 ### The Real Cost of Algorithm Changes
 
 Let's talk numbers.
 
-In 2020, if you had 10,000 followers, you'd reach about 1,000-1,500 people per post organically. Today? You're reaching 200-300 people [web:62].
+In 2020, if you had 10,000 followers, you'd reach about 1,000-1,500 people per post organically. Today? You're reaching 200-300 people.
 
 That's an 80-85% drop in reach.
 
-And it's not just about numbers. It's about your livelihood. Australian small business owner Kellie Johnson watched her Instagram account get suspended without warning in July 2024. Her sales dropped from $133,000 in June to an estimated $50,000 in July—a loss of over $80,000 in a single month [web:67].
+And it's not just about numbers. It's about your livelihood. Australian small business owner Kellie Johnson watched her Instagram account get suspended without warning in July 2024. Her sales dropped from $133,000 in June to an estimated $50,000 in July—a loss of over $80,000 in a single month.
 
 No warning. No explanation. Just digital silence where her business used to thrive.
 
-Another business owner, Rochelle Marinato, had her accounts suspended after posting a video of three dogs looking out a window. Her revenue dropped 75%, costing her an estimated $50,000 [web:67].
+Another business owner, Rochelle Marinato, had her accounts suspended after posting a video of three dogs looking out a window. Her revenue dropped 75%, costing her an estimated $50,000.
 
 Think about that. One algorithm mistake, one AI moderation error, and your entire business revenue can disappear overnight.
 
@@ -66,11 +66,11 @@ You're playing ping-pong in your DMs all day:
 *"Actually, can we do Wednesday instead?"*  
 *"Wait, which Wednesday?"*
 
-Meanwhile, **46% of salon bookings happen outside business hours** [web:73]. That means nearly half your potential clients are trying to book when you're asleep, at home with your family, or actually living your life.
+Meanwhile, **46% of salon bookings happen outside business hours**. That means nearly half your potential clients are trying to book when you're asleep, at home with your family, or actually living your life.
 
 And if they can't book instantly? They're booking with your competitor who has online booking sorted.
 
-**43% of Gen Z clients expect salons to offer online booking** [web:73]. Not prefer. *Expect.* If you don't have it, you're not even in the running.
+**43% of Gen Z clients expect salons to offer online booking**. Not prefer. *Expect.* If you don't have it, you're not even in the running.
 
 ## What Happens When You Don't Own Your Platform
 
@@ -82,7 +82,7 @@ You try to log in. "Account suspended for violating community guidelines."
 
 What guidelines? No idea. They don't tell you.
 
-You submit an appeal. You wait. And wait. According to Instagram's process, you have 180 days before permanent deletion, but only 30 days to submit your initial appeal [web:78]. And even then, there's no guarantee they'll respond, let alone reinstate your account.
+You submit an appeal. You wait. And wait. According to Instagram's process, you have 180 days before permanent deletion, but only 30 days to submit your initial appeal. And even then, there's no guarantee they'll respond, let alone reinstate your account.
 
 In the meantime:
 - Your bookings dry up
@@ -115,7 +115,7 @@ When someone wants to see examples of your colour correction work, they shouldn'
 
 ### 3. You Look Less Established
 
-Here's the uncomfortable truth: **75% of consumers judge a business's credibility based on their website** [web:77].
+Here's the uncomfortable truth: **75% of consumers judge a business's credibility based on their website**.
 
 When someone Googles your salon name and only finds your Instagram? It sends a message (whether you intend it or not):
 
@@ -139,7 +139,7 @@ No ads for competitors popping up next to your work. No algorithm deciding who s
 
 ### 2. Booking Is Seamless
 
-No more DM ping-pong. **85% of salon bookings happen on mobile devices** [web:76], and clients want to book instantly, on their time, without having to message back and forth.
+No more DM ping-pong. **85% of salon bookings happen on mobile devices**, and clients want to book instantly, on their time, without having to message back and forth.
 
 Online booking means someone can book you at 11pm on a Sunday while they're lying in bed scrolling. They don't have to wait for you to respond. They just book, and you wake up to a confirmed appointment.
 
@@ -155,7 +155,7 @@ Here's what a proper salon website gives you:
 
 ### Credibility
 
-**81% of consumers research businesses online before booking** [web:77]. If they can't find a website, they'll assume you're either brand new, unprofessional, or not taking bookings.
+**81% of consumers research businesses online before booking**. If they can't find a website, they'll assume you're either brand new, unprofessional, or not taking bookings.
 
 ### Control
 
@@ -183,11 +183,11 @@ You don't need 20 pages. You need:
 
 ### 2. Online Booking
 
-This is non-negotiable in 2025. If 46% of bookings happen outside business hours [web:73], you need a system that works when you're not available.
+This is non-negotiable in 2025. If 46% of bookings happen outside business hours, you need a system that works when you're not available.
 
 ### 3. Mobile-First Design
 
-Remember: 85% of bookings happen on mobile [web:76]. Your website needs to look gorgeous and function perfectly on a phone.
+Remember: 85% of bookings happen on mobile. Your website needs to look gorgeous and function perfectly on a phone.
 
 ### 4. Fast Load Times
 
@@ -213,23 +213,23 @@ Because when the algorithm changes tomorrow (and it will), your business shouldn
 
 **Can I run a salon business with just Instagram?**
 
-Technically yes, but it's extremely risky. 87% of businesses report significant reach decline on Instagram over the past 18 months, and accounts can be suspended without warning [web:62][web:67]. Without a website, you have no control over your digital presence, no way to capture bookings when clients search Google, and no backup if your Instagram account gets restricted or banned.
+Technically yes, but it's extremely risky. 87% of businesses report significant reach decline on Instagram over the past 18 months, and accounts can be suspended without warning. Without a website, you have no control over your digital presence, no way to capture bookings when clients search Google, and no backup if your Instagram account gets restricted or banned.
 
 **What percentage of salon bookings happen outside business hours?**
 
-46% of salon bookings happen when salons are closed—28% in the evening and 18% early in the morning before opening [web:73]. Without online booking, you're potentially missing out on nearly half your bookings because clients can't reach you via DM when they're ready to book.
+46% of salon bookings happen when salons are closed—28% in the evening and 18% early in the morning before opening. Without online booking, you're potentially missing out on nearly half your bookings because clients can't reach you via DM when they're ready to book.
 
 **Why is "DM to book" bad for business?**
 
-"DM to book" creates friction that kills conversions. Clients have to wait for your response, which might take hours if you're with clients. By the time you reply, they've often moved on to a competitor with easier booking. Additionally, 43% of Gen Z clients expect online booking—they won't even consider salons that require DMing [web:73].
+"DM to book" creates friction that kills conversions. Clients have to wait for your response, which might take hours if you're with clients. By the time you reply, they've often moved on to a competitor with easier booking. Additionally, 43% of Gen Z clients expect online booking—they won't even consider salons that require DMing.
 
 **How much does a salon website cost compared to losing Instagram reach?**
 
-While a professional salon website might cost $2,000-5,000 to build, the cost of relying solely on Instagram can be devastating. Australian businesses have reported losses of $50,000-80,000 when Instagram accounts were suspended [web:67]. Even without suspension, the 80-85% drop in organic reach means you're losing potential clients daily [web:62].
+While a professional salon website might cost $2,000-5,000 to build, the cost of relying solely on Instagram can be devastating. Australian businesses have reported losses of $50,000-80,000 when Instagram accounts were suspended. Even without suspension, the 80-85% drop in organic reach means you're losing potential clients daily.
 
 **Do people judge my business based on having a website?**
 
-Absolutely. 75% of consumers judge a business's credibility based on their website, and 81% research businesses online before booking [web:77]. Having only an Instagram presence can make you appear less established, less professional, and less trustworthy—which directly affects your ability to charge premium prices.
+Absolutely. 75% of consumers judge a business's credibility based on their website, and 81% research businesses online before booking. Having only an Instagram presence can make you appear less established, less professional, and less trustworthy—which directly affects your ability to charge premium prices.
 
 ---
 

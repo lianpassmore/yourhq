@@ -24,9 +24,9 @@ Lunchtime. Phone rings. Someone wants a quote. He asks their budget. "Oh, I don'
 
 Let's do some maths.
 
-**The average tradie receives 10-15 phone calls per day** [web:253]. Not all of them are from qualified leads.
+**The average tradie receives 10-15 phone calls per day**. Not all of them are from qualified leads.
 
-Research shows that **60% of inbound sales calls are unqualified leads** [web:254]. That means 6-9 calls per day are time-wasters.
+Research shows that **60% of inbound sales calls are unqualified leads**. That means 6-9 calls per day are time-wasters.
 
 Let's say each call takes 5 minutes (being conservative):
 - **9 unqualified calls × 5 minutes = 45 minutes per day**
@@ -74,7 +74,7 @@ Put up an FAQ page. Be explicit about:
 - Your availability and response times
 - Your qualifications and insurance
 
-**Companies with comprehensive FAQ sections reduce support calls by 30-40%** [web:255].
+**Companies with comprehensive FAQ sections reduce support calls by 30-40%**.
 
 That's 3-4 fewer phone calls per day you have to answer while you're trying to work.
 
@@ -112,7 +112,7 @@ Compare that to:
 
 That's a 10-minute phone call, and you're still not sure if they're serious or just price shopping.
 
-**Qualified leads convert at 7-10x the rate of unqualified leads** [web:256]. Why waste time on the 90% who aren't going to book?
+**Qualified leads convert at 7-10x the rate of unqualified leads**. Why waste time on the 90% who aren't going to book?
 
 ### 3. Filter Leads Through Smart Contact Forms
 
@@ -136,7 +136,7 @@ Brief description of the work:
 Approximate budget: [Under $500 / $500-$2,000 / $2,000-$5,000 / $5,000+]
 
 
-**Businesses that use detailed contact forms see 40% fewer unqualified leads** [web:257].
+**Businesses that use detailed contact forms see 40% fewer unqualified leads**.
 
 Why? Because tyre-kickers won't fill out a detailed form. They'll just move on to the next tradie.
 
@@ -154,7 +154,7 @@ Think about it:
 - Cold-calling 10 tradies from Google? Low effort. Low commitment.
 - Going to a website, reading about services, filling out a detailed form? Higher effort. Higher commitment.
 
-**Leads who complete detailed forms are 3-4x more likely to convert than leads who just send a quick email or leave a voicemail** [web:258].
+**Leads who complete detailed forms are 3-4x more likely to convert than leads who just send a quick email or leave a voicemail**.
 
 Why? Because they've invested time. They're serious. They're not just shopping around—they're ready to book.
 
@@ -170,7 +170,7 @@ Watch what happens:
 - People with tiny jobs that aren't worth your time won't contact you
 - People who ARE willing to pay for professional work will contact you
 
-**Displaying pricing information upfront reduces unqualified enquiries by 25-35%** [web:259].
+**Displaying pricing information upfront reduces unqualified enquiries by 25-35%**.
 
 You'll get fewer enquiries. But they'll be BETTER enquiries.
 
@@ -187,7 +187,7 @@ Let's revisit our earlier maths.
 - $18,000 in lost billable time (at $100/hour)
 
 **With a website filtering leads:**
-- 3-4 unqualified calls per day (reduced by 60% [web:255])
+- 3-4 unqualified calls per day (reduced by 60%)
 - 15-20 minutes lost per day
 - 60-80 hours per year
 - $6,000-$8,000 in lost billable time
@@ -199,7 +199,7 @@ That's 100-120 hours you can spend:
 - With your family
 - Actually having a day off
 
-**Small businesses that implement lead qualification systems report 30-50% productivity gains** [web:260].
+**Small businesses that implement lead qualification systems report 30-50% productivity gains**.
 
 That's not a marginal improvement. That's transformative.
 
@@ -209,7 +209,7 @@ Here's another massive benefit of a website with clear information and a contact
 
 **People can qualify themselves and book enquiries when you're OFF THE CLOCK.**
 
-Remember: **46% of people try to book services outside business hours** [web:73][web:230].
+Remember: **46% of people try to book services outside business hours**.
 
 What happens if you don't have a website?
 
@@ -249,7 +249,7 @@ Compare that to a voicemail:
 
 Now you're going in blind. You have to ask all the questions. You're wasting time gathering information you could've had upfront.
 
-**Businesses with structured lead capture see 35% faster sales cycles** [web:261] because they're not wasting time gathering basic information.
+**Businesses with structured lead capture see 35% faster sales cycles** because they're not wasting time gathering basic information.
 
 ## The "Professional Signal" Effect
 
@@ -272,7 +272,7 @@ When they call a number from Google and get:
 
 They think: *"Is this person even insured? Are they going to show up?"*
 
-**84% of consumers trust a business with a website more than one with only a social media presence** [web:262].
+**84% of consumers trust a business with a website more than one with only a social media presence**.
 
 This means you can charge more. You attract better clients. You get fewer tyre-kickers.
 
@@ -323,9 +323,9 @@ Every minute you spend on the phone with an unqualified lead is a minute you can
 - Being with your family
 - Having a life outside work
 
-**60% of inbound calls are unqualified** [web:254]. That's 60% of your phone time wasted.
+**60% of inbound calls are unqualified**. That's 60% of your phone time wasted.
 
-A professional website with clear information and smart contact forms can filter out 60-70% of those time-wasters [web:255][web:257].
+A professional website with clear information and smart contact forms can filter out 60-70% of those time-wasters.
 
 **That's 100-150 hours back in your year.**
 
@@ -339,23 +339,23 @@ What would you do with an extra 100 hours?
 
 **How much time do tradies waste on unqualified enquiries?**
 
-The average tradie receives 10-15 phone calls per day, with 60% being unqualified leads [web:253][web:254]. At 5 minutes per call, that's 45 minutes daily or 180 hours annually—equivalent to $18,000 in lost billable time at $100/hour rates. Businesses with comprehensive FAQ sections reduce support calls by 30-40%, saving 100-120 hours per year [web:255].
+The average tradie receives 10-15 phone calls per day, with 60% being unqualified leads. At 5 minutes per call, that's 45 minutes daily or 180 hours annually—equivalent to $18,000 in lost billable time at $100/hour rates. Businesses with comprehensive FAQ sections reduce support calls by 30-40%, saving 100-120 hours per year.
 
 **Does displaying pricing on my website hurt my business?**
 
-No—it helps. Displaying pricing information upfront reduces unqualified enquiries by 25-35%, meaning fewer time-wasters and more serious leads [web:259]. While you'll get fewer total enquiries, qualified leads convert at 7-10x the rate of unqualified leads [web:256]. You're optimising for quality over quantity, which increases efficiency and profitability.
+No—it helps. Displaying pricing information upfront reduces unqualified enquiries by 25-35%, meaning fewer time-wasters and more serious leads. While you'll get fewer total enquiries, qualified leads convert at 7-10x the rate of unqualified leads. You're optimising for quality over quantity, which increases efficiency and profitability.
 
 **Will a detailed contact form scare away potential clients?**
 
-Only the tyre-kickers—which is exactly what you want. Businesses using detailed contact forms see 40% fewer unqualified leads, and leads who complete detailed forms are 3-4x more likely to convert than those who send quick emails [web:257][web:258]. Serious clients don't mind providing information; they understand it helps you serve them better and provide accurate quotes.
+Only the tyre-kickers—which is exactly what you want. Businesses using detailed contact forms see 40% fewer unqualified leads, and leads who complete detailed forms are 3-4x more likely to convert than those who send quick emails. Serious clients don't mind providing information; they understand it helps you serve them better and provide accurate quotes.
 
 **What information should I include on my website to filter leads?**
 
-At minimum: (1) Clear service descriptions stating what you DO and DON'T do, (2) Service areas (specific suburbs/towns), (3) Pricing structure (even rough ranges like "$150 minimum callout" or "typical jobs $500-$2,000"), (4) Availability/response times, and (5) Qualifications and insurance. Companies with comprehensive information reduce unqualified enquiries by 30-40% [web:255].
+At minimum: (1) Clear service descriptions stating what you DO and DON'T do, (2) Service areas (specific suburbs/towns), (3) Pricing structure (even rough ranges like "$150 minimum callout" or "typical jobs $500-$2,000"), (4) Availability/response times, and (5) Qualifications and insurance. Companies with comprehensive information reduce unqualified enquiries by 30-40%.
 
 **How much productivity can I gain from having a lead-filtering website?**
 
-Small businesses implementing lead qualification systems report 30-50% productivity gains [web:260]. For tradies, this typically means saving 100-150 hours per year currently spent on unqualified phone calls. Additionally, businesses with structured lead capture see 35% faster sales cycles because they're not wasting time gathering basic information [web:261]. This translates to more billable hours and better work-life balance.
+Small businesses implementing lead qualification systems report 30-50% productivity gains. For tradies, this typically means saving 100-150 hours per year currently spent on unqualified phone calls. Additionally, businesses with structured lead capture see 35% faster sales cycles because they're not wasting time gathering basic information. This translates to more billable hours and better work-life balance.
 
 ---
 

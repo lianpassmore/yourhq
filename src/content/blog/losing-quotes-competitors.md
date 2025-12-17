@@ -20,7 +20,7 @@ Imagine two builders quote on a $80,000 renovation.
 
 Why? It's not about who swings a better hammer. It's about the **Perception Gap**.
 
-And here's the uncomfortable truth: **75% of consumers judge a company's credibility based on their website design alone** [web:110].
+And here's the uncomfortable truth: **75% of consumers judge a company's credibility based on their website design alone**.
 
 Not your experience. Not your references. Not even your quote. Your *website*.
 
@@ -32,7 +32,7 @@ Let's talk about what's actually happening in a homeowner's brain when they're c
 
 They're about to spend $50,000. $80,000. Maybe $150,000 on a renovation or new build. That's terrifying. They're scared of cowboys. They're scared of getting ripped off. They're scared of hiring someone who'll do a dodgy job and disappear.
 
-**In the absence of other data, humans use visuals as a proxy for competence** [web:110].
+**In the absence of other data, humans use visuals as a proxy for competence**.
 
 A broken or non-existent website signals "outdated" or "risky."  
 A structured, professional site signals "organised" and "safe."
@@ -41,13 +41,13 @@ It's not fair. You might be the most experienced builder in Northland. But if yo
 
 ### The Numbers Don't Lie
 
-**97% of buyers say a service provider's website influences their purchase decision** [web:109].
+**97% of buyers say a service provider's website influences their purchase decision**.
 
 Let me repeat that: **Ninety-seven percent.**
 
 That means only 3% of people hiring tradies *don't* factor your website into their decision. Everyone else? They're Googling you, landing on your site (or not finding one), and making judgements.
 
-**74% of buyers say a provider's website holds at least "some influence" over their decision** [web:109]. And for professional services (which includes trades, building, and renovation work), that influence has increased by 23% over the past decade.
+**74% of buyers say a provider's website holds at least "some influence" over their decision**. And for professional services (which includes trades, building, and renovation work), that influence has increased by 23% over the past decade.
 
 Your website isn't just a nice-to-have. It's the single most powerful tool in your sales process—whether you realise it or not.
 
@@ -66,11 +66,11 @@ Be honest. You know the answer.
 
 ### Why Professional Email Domains Matter
 
-A Gmail address says (whether you intend it or not): *"This is a side hustle. I'm not serious. I haven't invested in my business."* [web:112][web:114]
+A Gmail address says (whether you intend it or not): *"This is a side hustle. I'm not serious. I haven't invested in my business."*
 
-A custom domain email says: *"I'm established. I'm professional. I've got infrastructure."* [web:114][web:116]
+A custom domain email says: *"I'm established. I'm professional. I've got infrastructure."*
 
-Here's what clients are thinking when they see a Gmail address [web:116]:
+Here's what clients are thinking when they see a Gmail address:
 
 - *"Are they even a real business?"*
 - *"Will they still be around in six months?"*
@@ -78,11 +78,11 @@ Here's what clients are thinking when they see a Gmail address [web:116]:
 
 It's brutal. But it's true.
 
-**A custom domain email instantly boosts your credibility** [web:113][web:119]. It shows you take your business seriously. It reinforces your brand with every single email you send. And it makes you look established—even if you only started last year.
+**A custom domain email instantly boosts your credibility**. It shows you take your business seriously. It reinforces your brand with every single email you send. And it makes you look established—even if you only started last year.
 
 ## The Eight Factors That Build Trust in Construction (And How Your Website Covers Half of Them)
 
-Research into the construction industry has identified eight key factors that build trust between clients and contractors [web:117][web:120]:
+Research into the construction industry has identified eight key factors that build trust between clients and contractors:
 
 1. **Competence** — Can you actually do the work?
 2. **Reputation** — What do other people say about you?
@@ -121,9 +121,9 @@ But if your competitor has a better *website*, the homeowner assumes *they're* t
 
 It's not logical. But it's human nature.
 
-**When people spend significant money, risk is the enemy** [web:106][web:121]. They're not just hiring you to build a deck—they're trusting you with their home, their savings, their family's comfort.
+**When people spend significant money, risk is the enemy**. They're not just hiring you to build a deck—they're trusting you with their home, their savings, their family's comfort.
 
-And in the absence of personal recommendations or previous experience with you, they use your website as the primary indicator of whether you're trustworthy [web:110].
+And in the absence of personal recommendations or previous experience with you, they use your website as the primary indicator of whether you're trustworthy.
 
 ### What Homeowners Are Actually Looking For When They Google You
 
@@ -170,7 +170,7 @@ Not a Facebook page. Not a landing page someone's nephew built in 2014. A real, 
 - **About page** explaining who you are and what you do
 - **Testimonials** from real clients (with names and photos if possible)
 - **Contact information** that's easy to find
-- **Mobile-responsive design** (63.8% of traffic is mobile [web:84])
+- **Mobile-responsive design** (63.8% of traffic is mobile)
 
 ### 2. A Custom Email Domain
 
@@ -210,23 +210,23 @@ If your work is solid, your website should be too.
 
 **Do tradies really need a website in 2025?**
 
-Yes. 97% of buyers say a service provider's website influences their purchase decision, and 75% of consumers judge a company's credibility based on website design alone [web:109][web:110]. Even if you get most of your work through word-of-mouth, potential clients will Google you before hiring—and if they find nothing (or something outdated), they'll hire someone else.
+Yes. 97% of buyers say a service provider's website influences their purchase decision, and 75% of consumers judge a company's credibility based on website design alone. Even if you get most of your work through word-of-mouth, potential clients will Google you before hiring—and if they find nothing (or something outdated), they'll hire someone else.
 
 **What's wrong with using Gmail for my business email?**
 
-A Gmail address signals to clients that your business is either a side hustle or not established [web:112][web:114]. Professional email addresses using your own domain (like yourname@yourbusiness.co.nz) instantly boost credibility and show you've invested in your business infrastructure [web:113][web:119]. It's a small change that makes a significant difference in how clients perceive you.
+A Gmail address signals to clients that your business is either a side hustle or not established. Professional email addresses using your own domain (like yourname@yourbusiness.co.nz) instantly boost credibility and show you've invested in your business infrastructure. It's a small change that makes a significant difference in how clients perceive you.
 
 **How much does a professional tradie website cost?**
 
-A quality tradie website typically costs $3,000-7,000 for initial build, with ongoing hosting around $30-50/month. While this might seem expensive, consider that losing even 2-3 jobs per year due to poor online presence can cost you $20,000-50,000+ in lost revenue. A website is an investment that pays for itself quickly [web:97].
+A quality tradie website typically costs $3,000-7,000 for initial build, with ongoing hosting around $30-50/month. While this might seem expensive, consider that losing even 2-3 jobs per year due to poor online presence can cost you $20,000-50,000+ in lost revenue. A website is an investment that pays for itself quickly.
 
 **What should I include on my tradie website?**
 
-At minimum: a portfolio gallery with before/after photos, client testimonials, clear service descriptions, your contact information, and proof of licensing/insurance. Add a simple "About" page explaining your experience and approach. Make sure it's mobile-responsive—63.8% of website traffic comes from mobile devices [web:84]. Don't overcomplicate it; simple and professional beats fancy and confusing.
+At minimum: a portfolio gallery with before/after photos, client testimonials, clear service descriptions, your contact information, and proof of licensing/insurance. Add a simple "About" page explaining your experience and approach. Make sure it's mobile-responsive—63.8% of website traffic comes from mobile devices. Don't overcomplicate it; simple and professional beats fancy and confusing.
 
 **Will a website actually help me win more jobs?**
 
-Yes. Research shows that websites influence 97% of service provider purchase decisions, with 74% saying it has at least "some influence" [web:109]. When homeowners are choosing between similar quotes, your website becomes the deciding factor. A professional online presence signals competence, reliability, and legitimacy—key factors in building trust with potential clients [web:110][web:117][web:120].
+Yes. Research shows that websites influence 97% of service provider purchase decisions, with 74% saying it has at least "some influence". When homeowners are choosing between similar quotes, your website becomes the deciding factor. A professional online presence signals competence, reliability, and legitimacy—key factors in building trust with potential clients.
 
 ---
 

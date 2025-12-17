@@ -34,7 +34,7 @@ Which salon feels more premium?
 
 Be honest. You already know the answer.
 
-**And here's the uncomfortable truth: 94% of first impressions are design-related** [web:150][web:155].
+**And here's the uncomfortable truth: 94% of first impressions are design-related**.
 
 Not your actual skill. Not your years of experience. Not even your prices.
 
@@ -53,9 +53,9 @@ If you hesitated for even a second, you've failed the Premium Perception Test.
 
 ### What Premium Actually Signals
 
-Premium pricing isn't just about charging more. It's about creating a perception of quality, exclusivity, and value [web:138].
+Premium pricing isn't just about charging more. It's about creating a perception of quality, exclusivity, and value.
 
-**54% of consumers say premium products are made with high-quality materials or ingredients** [web:140]. They're not just paying for the product—they're paying for the experience, the expertise, the care, the attention to detail.
+**54% of consumers say premium products are made with high-quality materials or ingredients**. They're not just paying for the product—they're paying for the experience, the expertise, the care, the attention to detail.
 
 When you charge $350 for a colour, you're not just charging for the product in the bowl. You're charging for:
 - Your years of training and experience
@@ -65,7 +65,7 @@ When you charge $350 for a colour, you're not just charging for the product in t
 - The beautiful space you've created
 - The coffee, the music, the vibe
 
-**But if your website doesn't reflect that level of care and investment, you're undermining your own pricing** [web:139].
+**But if your website doesn't reflect that level of care and investment, you're undermining your own pricing**.
 
 A low-quality website signals (whether you intend it or not): *"I don't value presentation. I cut corners. I'm not serious about my business."*
 
@@ -73,27 +73,27 @@ A low-quality website signals (whether you intend it or not): *"I don't value pr
 
 Let's talk about the brutal reality of first impressions online.
 
-**It takes 0.05 seconds—that's 50 milliseconds—for users to form an opinion about your website** [web:150][web:152].
+**It takes 0.05 seconds—that's 50 milliseconds—for users to form an opinion about your website**.
 
 You don't get time to explain. You don't get to walk them through your process. You don't get to justify why your Linktree page looks the way it does.
 
 They see it. They judge. They decide.
 
-And **88% of users are less likely to return to a website after a poor user experience** [web:152].
+And **88% of users are less likely to return to a website after a poor user experience**.
 
 That means if someone lands on your messy link page or your broken website once, they're probably not coming back. You've lost them.
 
 ### What's Happening in Those First 0.05 Seconds
 
-**75% of users judge a company's credibility based on website design alone** [web:143][web:151].
+**75% of users judge a company's credibility based on website design alone**.
 
 Not your Instagram feed. Not your reviews (though those matter too). Your *website design*.
 
-Research shows that when the same content is presented with different levels of aesthetic treatment, the content with higher aesthetic quality is judged as more credible [web:156].
+Research shows that when the same content is presented with different levels of aesthetic treatment, the content with higher aesthetic quality is judged as more credible.
 
 Translation? Even if your work is brilliant, if your website looks cheap, people assume you're less skilled than you actually are.
 
-**The amelioration effect of visual design** [web:156] means that good design makes your content—your services, your prices, your expertise—seem more credible.
+**The amelioration effect of visual design** means that good design makes your content—your services, your prices, your expertise—seem more credible.
 
 Bad design does the opposite.
 
@@ -101,11 +101,11 @@ Bad design does the opposite.
 
 Look—I get it. Linktree is convenient. It's free (or cheap). It takes five minutes to set up.
 
-But here's what Linktree actually signals to potential clients [web:143][web:146]:
+But here's what Linktree actually signals to potential clients:
 
 ### 1. You're Not Established
 
-**75% of users judge a company's credibility based on website design** [web:143]. When they see a Linktree page instead of a proper website, they think: *"Are they even a real business?"*
+**75% of users judge a company's credibility based on website design**. When they see a Linktree page instead of a proper website, they think: *"Are they even a real business?"*
 
 Linktree pages feel generic. They look like everyone else's. There's no personalisation, no branding depth, no story.
 
@@ -119,13 +119,13 @@ And if *you* don't take your business seriously, why should they trust you with 
 
 ### 3. You're Still Amateur
 
-Linktree is associated with influencers, creators, and side hustles [web:143]. There's nothing wrong with that—but it's not the vibe a premium salon should be giving off.
+Linktree is associated with influencers, creators, and side hustles. There's nothing wrong with that—but it's not the vibe a premium salon should be giving off.
 
-**A custom website instantly communicates professionalism and authority** [web:143]. It shows you're established. You're legit. You've built something real.
+**A custom website instantly communicates professionalism and authority**. It shows you're established. You're legit. You've built something real.
 
 ### The Actual Cost of Using Linktree
 
-One business case study showed that a coach using Linktree noticed potential clients hesitating to book because of lack of information about expertise and credentials. **After switching to a custom website with testimonials, blog posts, and an FAQ section, bookings increased by 30%** [web:143].
+One business case study showed that a coach using Linktree noticed potential clients hesitating to book because of lack of information about expertise and credentials. **After switching to a custom website with testimonials, blog posts, and an FAQ section, bookings increased by 30%**.
 
 30%.
 
@@ -137,7 +137,7 @@ The maths isn't hard.
 
 ## High Tech, High Touch: The Digital Foyer Concept
 
-Your website should function as a **digital foyer**—the first room clients enter before they physically walk into your salon [web:153][web:156].
+Your website should function as a **digital foyer**—the first room clients enter before they physically walk into your salon.
 
 Think about your actual salon foyer. You've probably spent time making it beautiful:
 - Good lighting
@@ -156,11 +156,11 @@ A properly designed website acts as a curated, premium entry point that:
 
 #### 1. Reflects Your Physical Space
 
-**Consistent design across all touchpoints builds familiarity and trust** [web:153]. Your website's colours, fonts, imagery, and tone should match your salon's vibe.
+**Consistent design across all touchpoints builds familiarity and trust**. Your website's colours, fonts, imagery, and tone should match your salon's vibe.
 
 If your salon is modern and minimalist, your website should be too. If it's warm and bohemian, that aesthetic should translate digitally.
 
-Inconsistent experiences confuse customers and make them question whether they can trust your brand [web:153].
+Inconsistent experiences confuse customers and make them question whether they can trust your brand.
 
 #### 2. Showcases Your Work Properly
 
@@ -170,15 +170,15 @@ Before and after photos. Different angles. Different lighting. Real examples of 
 
 #### 3. Builds Credibility Through Social Proof
 
-**Displaying testimonials, reviews, and case studies plays a powerful role in building trust** [web:153]. Potential clients want to know others have had positive experiences.
+**Displaying testimonials, reviews, and case studies plays a powerful role in building trust**. Potential clients want to know others have had positive experiences.
 
-Social proof is a psychological phenomenon—people trust the actions and opinions of others [web:153].
+Social proof is a psychological phenomenon—people trust the actions and opinions of others.
 
 Your website is where you showcase that proof in a permanent, searchable, indexed format (unlike Instagram Stories that disappear after 24 hours).
 
 #### 4. Makes Booking Seamless
 
-**Over 50% of salon online bookings happen outside standard operating hours** [web:154][web:157].
+**Over 50% of salon online bookings happen outside standard operating hours**.
 
 That means if someone can't book instantly through your website at 9pm on a Wednesday, you're losing that booking.
 
@@ -188,19 +188,19 @@ That means if someone can't book instantly through your website at 9pm on a Wedn
 
 Let's get nerdy for a second about pricing psychology.
 
-**Premium pricing creates a perception of quality and exclusivity** [web:138][web:142]. When something costs more, our brains assume it's worth more.
+**Premium pricing creates a perception of quality and exclusivity**. When something costs more, our brains assume it's worth more.
 
-But here's the catch: **Premium pricing only works when it's backed by a strong brand identity, outstanding quality, and a seamless customer experience** [web:142].
+But here's the catch: **Premium pricing only works when it's backed by a strong brand identity, outstanding quality, and a seamless customer experience**.
 
-The Ritz-Carlton hotel chain is a perfect example. They charge premium prices, and people pay happily because every touchpoint—from the elegant ambience to the high-end service to the website—reinforces that premium positioning [web:142].
+The Ritz-Carlton hotel chain is a perfect example. They charge premium prices, and people pay happily because every touchpoint—from the elegant ambience to the high-end service to the website—reinforces that premium positioning.
 
-**If your pricing is premium but your website is budget, you've created a mismatch** [web:139].
+**If your pricing is premium but your website is budget, you've created a mismatch**.
 
 And when there's a mismatch, potential clients don't think *"Wow, what a deal!"* They think *"Something's off here."*
 
 ### The Cognitive Dissonance Problem
 
-**If your target audience expects premium quality, pricing too low (or presenting too cheaply) may hurt credibility** [web:139].
+**If your target audience expects premium quality, pricing too low (or presenting too cheaply) may hurt credibility**.
 
 The opposite is also true: If you *price* like a premium salon but *present* like a budget one, people won't trust your pricing. They'll assume you're overcharging for mediocre service.
 
@@ -214,7 +214,7 @@ You need a clean, professional digital foyer that:
 
 ### 1. Loads Fast on Mobile
 
-**74% of users are more likely to return to a mobile-friendly website** [web:155]. And 38% will stop engaging if the content or layout is unattractive [web:155].
+**74% of users are more likely to return to a mobile-friendly website**. And 38% will stop engaging if the content or layout is unattractive.
 
 Your website needs to load in under 3 seconds. It needs to look beautiful on a phone. It needs to be easy to navigate with one thumb.
 
@@ -234,15 +234,15 @@ Online booking integrated into your site. Choose your stylist, choose your servi
 
 Testimonials from real clients. Your credentials and training. Your salon's story. Why you do what you do.
 
-**Transparency builds trust** [web:153]. The more information you provide—your values, your process, your expertise—the more confident people feel choosing you.
+**Transparency builds trust**. The more information you provide—your values, your process, your expertise—the more confident people feel choosing you.
 
 ### 5. Looks As Premium As Your Salon
 
 High-quality imagery. Clean design. Consistent branding. Professional copy.
 
-**When content is presented with higher aesthetic treatment, it's judged as more credible** [web:156].
+**When content is presented with higher aesthetic treatment, it's judged as more credible**.
 
-Your website should immediately invoke confidence, enjoyment, and positive emotions that make people want to stay—and book [web:156].
+Your website should immediately invoke confidence, enjoyment, and positive emotions that make people want to stay—and book.
 
 ## The Bottom Line: Don't Let Your Digital Infrastructure Undervalue Your Artistic Skill
 
@@ -254,7 +254,7 @@ Your digital presence should justify your premium pricing, not contradict it.
 
 If you're charging $350 for a colour, your website should feel like a $350 experience.
 
-Because **75% of people are judging your credibility based on your website design alone** [web:143][web:151].
+Because **75% of people are judging your credibility based on your website design alone**.
 
 Make sure they're judging you correctly.
 
@@ -266,23 +266,23 @@ Make sure they're judging you correctly.
 
 **Why does my salon need a website if I have Instagram?**
 
-Instagram is brilliant for visibility, but 94% of first impressions are design-related, and it takes just 0.05 seconds for users to form an opinion about your credibility [web:150][web:152]. When potential clients research salons, 75% judge your credibility based on website design alone [web:143][web:151]. A Linktree or Instagram profile doesn't convey the same premium positioning as a custom website, especially when you're charging premium prices.
+Instagram is brilliant for visibility, but 94% of first impressions are design-related, and it takes just 0.05 seconds for users to form an opinion about your credibility. When potential clients research salons, 75% judge your credibility based on website design alone. A Linktree or Instagram profile doesn't convey the same premium positioning as a custom website, especially when you're charging premium prices.
 
 **What's wrong with using Linktree for my salon?**
 
-Linktree signals "not established" or "side hustle" rather than professional business [web:143][web:146]. It lacks personalisation and can make clients question your legitimacy—if you're charging $350 for colour but won't invest in a proper website, it creates cognitive dissonance. Case studies show businesses increased bookings by 30% after switching from Linktree to custom websites [web:143].
+Linktree signals "not established" or "side hustle" rather than professional business. It lacks personalisation and can make clients question your legitimacy—if you're charging $350 for colour but won't invest in a proper website, it creates cognitive dissonance. Case studies show businesses increased bookings by 30% after switching from Linktree to custom websites.
 
 **How much does a professional salon website cost compared to lost bookings?**
 
-A professional salon website typically costs $3,000-5,000. However, over 50% of salon bookings happen outside business hours when clients can't DM you [web:154][web:157], and poor UX causes 88% of users not to return [web:152]. If a proper website with online booking increases your monthly bookings by even 20%, that's potentially $20,000-30,000+ in additional annual revenue for a premium salon.
+A professional salon website typically costs $3,000-5,000. However, over 50% of salon bookings happen outside business hours when clients can't DM you, and poor UX causes 88% of users not to return. If a proper website with online booking increases your monthly bookings by even 20%, that's potentially $20,000-30,000+ in additional annual revenue for a premium salon.
 
 **Does website design actually affect how clients perceive my pricing?**
 
-Yes. Research shows that when identical content is presented with different aesthetic treatments, higher aesthetic design is judged as more credible—this is called "the amelioration effect" [web:156]. Premium pricing only works when backed by strong brand identity and seamless customer experience [web:142]. If your pricing is premium but your website looks budget, clients assume something's "off" and may not book.
+Yes. Research shows that when identical content is presented with different aesthetic treatments, higher aesthetic design is judged as more credible—this is called "the amelioration effect". Premium pricing only works when backed by strong brand identity and seamless customer experience. If your pricing is premium but your website looks budget, clients assume something's "off" and may not book.
 
 **What should a premium salon website include?**
 
-At minimum: fast mobile-responsive design, curated portfolio organised by service type, client testimonials and social proof, integrated online booking system (50%+ of bookings happen outside business hours [web:154]), clear service descriptions and pricing, high-quality imagery matching your salon aesthetic, and professional branding consistent with your physical space [web:153][web:156]. The website should function as a "digital foyer" that reflects the same care and investment as your physical salon.
+At minimum: fast mobile-responsive design, curated portfolio organised by service type, client testimonials and social proof, integrated online booking system (50%+ of bookings happen outside business hours), clear service descriptions and pricing, high-quality imagery matching your salon aesthetic, and professional branding consistent with your physical space. The website should function as a "digital foyer" that reflects the same care and investment as your physical salon.
 
 ---
 

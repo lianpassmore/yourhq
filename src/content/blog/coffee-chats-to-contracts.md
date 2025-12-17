@@ -22,7 +22,7 @@ What the hell happened?
 
 Here's what I learned the hard way: **The meeting is only half the sale.**
 
-The other half? It happens when they pull out their phone before they've even left the car park [web:9].
+The other half? It happens when they pull out their phone before they've even left the car park.
 
 They liked *you*. But now their logical brain is kicking in. They're looking for evidence to back up that gut feeling. Something concrete they can show their business partner, their spouse, their finance person when they get back to the office.
 
@@ -40,7 +40,7 @@ Let's talk about what's actually happening in that car park moment.
 
 ### The Psychology of Post-Meeting Research
 
-77% of B2B buyers research vendors before they even speak to sales [web:18]. But here's the thing—**91% of buyers also come to initial meetings already familiar with the vendor** [web:11].
+77% of B2B buyers research vendors before they even speak to sales. But here's the thing—**91% of buyers also come to initial meetings already familiar with the vendor**.
 
 That means they've *already* Googled you once before the meeting. So why do they do it again after?
 
@@ -48,7 +48,7 @@ Because emotions and logic happen in different parts of the brain.
 
 In the meeting, they connected with *you*—the human. They felt your energy, saw your expertise, trusted your vibe. That's the emotional sale, and it's powerful.
 
-But when they walk away, the rational brain switches on. Now they need to *justify* that emotional decision with facts. Evidence. Proof that you're not just charismatic—you're credible [web:20].
+But when they walk away, the rational brain switches on. Now they need to *justify* that emotional decision with facts. Evidence. Proof that you're not just charismatic—you're credible.
 
 ### The Story That Made Me Think Differently
 
@@ -78,7 +78,7 @@ But here's the thing: **Your website's biggest job isn't bringing people to you.
 
 It's the thing that validates you when you're not in the room.
 
-76% of people check your online presence before deciding whether to work with you [web:9]. They're not just browsing—they're actively looking for reasons to trust you or reasons to walk away.
+76% of people check your online presence before deciding whether to work with you. They're not just browsing—they're actively looking for reasons to trust you or reasons to walk away.
 
 Your website is the silent partner in every sales conversation you have. Make sure it's working *for* you, not against you.
 
@@ -114,7 +114,7 @@ If your digital self matches your physical self? You've got them.
 
 If there's a mismatch—or worse, if they can't find you at all? You've lost them.
 
-And here's the kicker: **You have about 15 seconds to make that impression** [web:7]. That's how long it takes for someone to decide whether your website is credible or not.
+And here's the kicker: **You have about 15 seconds to make that impression**. That's how long it takes for someone to decide whether your website is credible or not.
 
 ## The Three Types of Consulting Websites (And Which One Closes Deals)
 
@@ -183,15 +183,15 @@ Because you're too good at what you do to lose deals in a car park.
 
 **Why do prospects research consultants after meetings?**
 
-Prospects research consultants after meetings because they need logical evidence to support their emotional decision. While face-to-face meetings create trust and connection, buyers need concrete proof—like testimonials, case studies, and clear methodologies—to justify their choice to partners, stakeholders, or themselves [web:18][web:20].
+Prospects research consultants after meetings because they need logical evidence to support their emotional decision. While face-to-face meetings create trust and connection, buyers need concrete proof—like testimonials, case studies, and clear methodologies—to justify their choice to partners, stakeholders, or themselves.
 
 **What percentage of B2B buyers research vendors online?**
 
-77% of B2B buyers conduct their own research before speaking to sales representatives, and 91% arrive at meetings already familiar with the vendor [web:11][web:18]. Additionally, 76% of consumers check a business's online presence before deciding to engage with them [web:9].
+77% of B2B buyers conduct their own research before speaking to sales representatives, and 91% arrive at meetings already familiar with the vendor. Additionally, 76% of consumers check a business's online presence before deciding to engage with them.
 
 **How long do prospects spend reviewing consultant websites?**
 
-Most prospects spend approximately 15 seconds deciding whether a website is credible [web:7]. They scan quickly for specific elements: testimonials, clear service descriptions, and authentic voice. This means your website needs to communicate expertise and credibility immediately—not after visitors dig through multiple pages.
+Most prospects spend approximately 15 seconds deciding whether a website is credible. They scan quickly for specific elements: testimonials, clear service descriptions, and authentic voice. This means your website needs to communicate expertise and credibility immediately—not after visitors dig through multiple pages.
 
 **What's more important for consultants: SEO or website credibility?**
 
@@ -199,7 +199,7 @@ Both matter, but for consultants, **credibility is more critical**. While SEO he
 
 **What should be on a consulting website to close more deals?**
 
-A deal-closing consultant website needs three core elements: (1) proof of credibility through client testimonials and case studies with real results, (2) clear explanation of your methodology and process, and (3) authentic voice that matches how you show up in person. These elements work together to validate the emotional connection made during in-person meetings [web:20].
+A deal-closing consultant website needs three core elements: (1) proof of credibility through client testimonials and case studies with real results, (2) clear explanation of your methodology and process, and (3) authentic voice that matches how you show up in person. These elements work together to validate the emotional connection made during in-person meetings.
 
 ---
 

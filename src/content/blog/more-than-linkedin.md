@@ -16,7 +16,7 @@ And that land comes with severe limitations.
 
 Think about it: Your profile looks identical to every other consultant in your field. Your brilliant thought leadership post disappears from the feed within days. And while a potential client is reading about your expertise, LinkedIn is actively serving them ads for your competitors.
 
-Here's what most consultants don't realise: **77% of B2B buyers do their own research before they'll even speak to a salesperson** [web:18]. And **B2B buyers review an average of 11 pieces of content before contacting a vendor** [web:135].
+Here's what most consultants don't realise: **77% of B2B buyers do their own research before they'll even speak to a salesperson**. And **B2B buyers review an average of 11 pieces of content before contacting a vendor**.
 
 If all your content lives on LinkedIn—where it disappears after a few days, where you have zero control over design, and where distractions are built into the platform—you're making it bloody hard for people to hire you.
 
@@ -40,17 +40,17 @@ When a potential client is choosing between you and two other consultants, your 
 
 ### 2. Short Content Lifespan: Your Best Work Disappears
 
-LinkedIn's algorithm has evolved. Posts used to have a 24-hour window, but now the platform is extending content lifespan to 2-3 weeks for posts that generate meaningful engagement [web:125][web:129].
+LinkedIn's algorithm has evolved. Posts used to have a 24-hour window, but now the platform is extending content lifespan to 2-3 weeks for posts that generate meaningful engagement.
 
 That sounds better, right?
 
-But here's the catch: **Your post still relies entirely on the algorithm deciding to show it** [web:124][web:126].
+But here's the catch: **Your post still relies entirely on the algorithm deciding to show it**.
 
 If the algorithm determines your post isn't getting early engagement, it gets buried. Forever. Even if it's your most valuable content—a detailed case study, a methodology breakdown, a lesson you learned from 15 years of consulting experience—it can disappear without reaching your audience.
 
 On your website? That content lives permanently. It's indexed by Google. People can find it six months, two years, five years later when they're researching your area of expertise.
 
-**90% of B2B content marketers use websites to distribute content** [web:131]. Why? Because it's the foundation. It's owned media. It doesn't disappear when an algorithm changes.
+**90% of B2B content marketers use websites to distribute content**. Why? Because it's the foundation. It's owned media. It doesn't disappear when an algorithm changes.
 
 ### 3. Built-In Distractions: LinkedIn Is Designed to Keep People on LinkedIn
 
@@ -60,7 +60,7 @@ Then they get a notification.
 
 Someone commented on their post. Someone messaged them. There's a "People You May Know" suggestion. An ad for a different consultant. A sponsored post about a completely unrelated topic.
 
-**LinkedIn is designed to keep people engaged with LinkedIn, not with you** [web:127].
+**LinkedIn is designed to keep people engaged with LinkedIn, not with you**.
 
 Your profile is one piece of content in an endless scroll of distractions. And every single one of those distractions is pulling attention away from you.
 
@@ -83,7 +83,7 @@ Deep content like:
 - Video walkthroughs of your process
 - Testimonials and results from past clients
 
-**B2B buyers are 57-70% through their buying research before they even contact sales** [web:12][web:13]. That means by the time someone reaches out to you, they've already formed an opinion about whether you're the right fit.
+**B2B buyers are 57-70% through their buying research before they even contact sales**. That means by the time someone reaches out to you, they've already formed an opinion about whether you're the right fit.
 
 If all they can find is your LinkedIn profile and a few posts? They don't have enough information to choose you confidently.
 
@@ -93,15 +93,15 @@ Deep content isn't just about showing off your expertise (though it does that). 
 
 #### 1. It Builds Trust Through Demonstrated Expertise
 
-**Thought leadership content is one of the most effective strategies for building brand trust** [web:133]. When prospects read your in-depth analysis of an industry problem, when they see your unique framework for solving complex challenges, when they learn from a detailed case study—they trust you before you've even spoken.
+**Thought leadership content is one of the most effective strategies for building brand trust**. When prospects read your in-depth analysis of an industry problem, when they see your unique framework for solving complex challenges, when they learn from a detailed case study—they trust you before you've even spoken.
 
-**White papers position your company as a thought leader by addressing industry issues with research-backed insights** [web:134]. They signal that you're not just a consultant—you're someone who thinks deeply about your field and has original perspectives worth sharing.
+**White papers position your company as a thought leader by addressing industry issues with research-backed insights**. They signal that you're not just a consultant—you're someone who thinks deeply about your field and has original perspectives worth sharing.
 
 #### 2. It Attracts Qualified Leads
 
-**White papers generate leads with higher consideration intent** [web:137]. People don't download a 15-page white paper or read a detailed case study unless they're serious about solving the problem you address.
+**White papers generate leads with higher consideration intent**. People don't download a 15-page white paper or read a detailed case study unless they're serious about solving the problem you address.
 
-**Leads generated through white papers tend to be more likely to convert**, because they've already engaged deeply with your content and understand your approach [web:134].
+**Leads generated through white papers tend to be more likely to convert**, because they've already engaged deeply with your content and understand your approach.
 
 Compare that to LinkedIn engagement, where someone might like your post because it showed up in their feed, not because they're actively looking to hire a consultant.
 
@@ -111,7 +111,7 @@ Here's something most consultants miss: **Deep content on your website ranks in 
 
 When someone Googles "change management consultant Wellington" or "leadership development framework," your LinkedIn profile might show up. But your website—with detailed service pages, case studies, and thought leadership content—has a much better chance of ranking.
 
-**72% of B2B buyers start their research online** [web:135]. If your content isn't findable through search engines, you're invisible to the majority of potential clients.
+**72% of B2B buyers start their research online**. If your content isn't findable through search engines, you're invisible to the majority of potential clients.
 
 ## Owned Media vs Rented Media: The Sovereignty Question
 
@@ -120,7 +120,7 @@ Let's talk about the concept of **owned media** versus **rented media**.
 ### Rented Media (LinkedIn, Facebook, Instagram, Twitter)
 
 - You don't control the platform
-- The algorithm decides who sees your content [web:126]
+- The algorithm decides who sees your content
 - Your content disappears or gets buried
 - You have no say in design or user experience
 - The platform can change the rules anytime
@@ -128,13 +128,13 @@ Let's talk about the concept of **owned media** versus **rented media**.
 
 ### Owned Media (Your Website, Email List)
 
-- **You have total control of content and design** [web:128]
-- **It's always driving ROI as long as it's live** [web:128]
-- **Investment is for resources, not ad dollars** [web:128]
-- **You build trust and relationships with your audience** [web:128]
-- **It's the biggest contributor to organic search rankings**, which is where most B2B buyers start their journey [web:128]
+- **You have total control of content and design**
+- **It's always driving ROI as long as it's live**
+- **Investment is for resources, not ad dollars**
+- **You build trust and relationships with your audience**
+- **It's the biggest contributor to organic search rankings**, which is where most B2B buyers start their journey
 
-**69% of content marketers are investing in owned-media assets** [web:131]. Why? Because it's the foundation of your digital presence. Everything else—LinkedIn, social media, paid ads—drives traffic *to* your owned media.
+**69% of content marketers are investing in owned-media assets**. Why? Because it's the foundation of your digital presence. Everything else—LinkedIn, social media, paid ads—drives traffic *to* your owned media.
 
 ### The Sovereignty Signal
 
@@ -144,7 +144,7 @@ It shows you're not just an employee looking for a job. You're not just someone 
 
 You're a business entity with your own infrastructure. Someone who's invested in building something lasting. A consultant who's serious enough about their practice to create a home base for their expertise.
 
-**91% of buyers come to sales meetings already familiar with the vendor** [web:11]. They've Googled you. They've read your content. They've explored your website.
+**91% of buyers come to sales meetings already familiar with the vendor**. They've Googled you. They've read your content. They've explored your website.
 
 If you don't have one? You're starting every sales conversation at a disadvantage.
 
@@ -164,7 +164,7 @@ This is where you differentiate. LinkedIn gives you 2,600 characters in your Abo
 
 Case studies. Client testimonials. Before-and-after stories. Results you've achieved.
 
-**77% of B2B buyers consult user reviews during their purchasing journey** [web:135]. They want evidence that you can deliver what you promise.
+**77% of B2B buyers consult user reviews during their purchasing journey**. They want evidence that you can deliver what you promise.
 
 Your website is where you showcase that evidence in detail—not just a vague "increased productivity by 30%," but the full story of the challenge, your approach, the results, and what the client said about working with you.
 
@@ -172,7 +172,7 @@ Your website is where you showcase that evidence in detail—not just a vague "i
 
 White papers. Frameworks. Guides. Video content. Podcast episodes.
 
-**B2B buyers review an average of 11 pieces of content before contacting a vendor** [web:135]. Your website is where you house those 11 pieces so they can consume them on their timeline, at their pace.
+**B2B buyers review an average of 11 pieces of content before contacting a vendor**. Your website is where you house those 11 pieces so they can consume them on their timeline, at their pace.
 
 And here's the beautiful part: Every piece of deep content on your website works for you 24/7. Someone can discover your methodology breakdown at 11pm on a Sunday, read it, and decide you're the consultant they need—all without you lifting a finger.
 
@@ -180,7 +180,7 @@ And here's the beautiful part: Every piece of deep content on your website works
 
 Clear service descriptions. Pricing (if you offer it). Your process. What to expect.
 
-**80% of B2B buyers initiate first contact once they're 70% through their buying journey, and 81% already have a preferred vendor at that point** [web:13].
+**80% of B2B buyers initiate first contact once they're 70% through their buying journey, and 81% already have a preferred vendor at that point**.
 
 By the time someone reaches out to you, they've already decided you're the likely choice. Your website is what got them there.
 
@@ -194,7 +194,7 @@ LinkedIn is brilliant for:
 - Engaging with your industry community
 - Staying top-of-mind with warm connections
 
-But **LinkedIn should drive traffic to your website, not replace it** [web:127].
+But **LinkedIn should drive traffic to your website, not replace it**.
 
 Here's the strategy:
 
@@ -218,7 +218,7 @@ If you're a consultant, coach, or expert relying solely on LinkedIn, you're:
 - Missing the opportunity to showcase deep expertise that builds trust
 - Signalling that you're not serious enough to invest in owned infrastructure
 
-**97% of buyers check vendor websites before engaging** [web:11]. If you don't have a professional website with deep content that demonstrates your expertise, you're losing opportunities you don't even know exist.
+**97% of buyers check vendor websites before engaging**. If you don't have a professional website with deep content that demonstrates your expertise, you're losing opportunities you don't even know exist.
 
 LinkedIn is a brilliant tool. But it's not a strategy. It's a tactic.
 
@@ -232,23 +232,23 @@ Your website? That's the foundation.
 
 **Is LinkedIn enough for building a consulting business?**
 
-No. While LinkedIn is valuable for networking and visibility, 77% of B2B buyers do independent research before contacting consultants, and they review an average of 11 pieces of content before making decisions [web:18][web:135]. LinkedIn posts disappear from feeds within 2-3 weeks maximum [web:125], meaning your best thought leadership content has a limited lifespan. A website provides permanent, searchable content that works 24/7 to attract and convert clients.
+No. While LinkedIn is valuable for networking and visibility, 77% of B2B buyers do independent research before contacting consultants, and they review an average of 11 pieces of content before making decisions. LinkedIn posts disappear from feeds within 2-3 weeks maximum, meaning your best thought leadership content has a limited lifespan. A website provides permanent, searchable content that works 24/7 to attract and convert clients.
 
 **What's the difference between owned media and rented media?**
 
-Owned media (your website, email list) gives you total control over content, design, and user experience, with investment in resources rather than ad spend [web:128]. Rented media (LinkedIn, social platforms) is controlled by the platform's algorithm, can change rules without notice, and your content visibility depends entirely on algorithmic decisions [web:126]. 69% of content marketers now prioritise owned-media assets because they're the foundation of organic search rankings [web:131].
+Owned media (your website, email list) gives you total control over content, design, and user experience, with investment in resources rather than ad spend. Rented media (LinkedIn, social platforms) is controlled by the platform's algorithm, can change rules without notice, and your content visibility depends entirely on algorithmic decisions. 69% of content marketers now prioritise owned-media assets because they're the foundation of organic search rankings.
 
 **Can't I just use LinkedIn for thought leadership content?**
 
-You can, but it's limiting. B2B buyers are 57-70% through their research before contacting consultants [web:12][web:13], and they need deep content like case studies, white papers, and detailed methodologies to make confident decisions. LinkedIn's format doesn't support this depth well, and posts are subject to algorithm visibility [web:129]. Your website allows unlimited depth, permanent accessibility, and SEO discoverability that LinkedIn can't match.
+You can, but it's limiting. B2B buyers are 57-70% through their research before contacting consultants, and they need deep content like case studies, white papers, and detailed methodologies to make confident decisions. LinkedIn's format doesn't support this depth well, and posts are subject to algorithm visibility. Your website allows unlimited depth, permanent accessibility, and SEO discoverability that LinkedIn can't match.
 
 **What type of content should I put on my website vs LinkedIn?**
 
-Use LinkedIn for short-form thought leadership, timely insights, and conversation starters that drive traffic to your website [web:127]. Reserve your website for deep content: comprehensive case studies, white papers, detailed methodology breakdowns, video content, and downloadable resources [web:134][web:136]. This strategy captures leads at different stages—LinkedIn for awareness, your website for consideration and decision-making [web:137].
+Use LinkedIn for short-form thought leadership, timely insights, and conversation starters that drive traffic to your website. Reserve your website for deep content: comprehensive case studies, white papers, detailed methodology breakdowns, video content, and downloadable resources. This strategy captures leads at different stages—LinkedIn for awareness, your website for consideration and decision-making.
 
 **How important is having a website for B2B consulting sales?**
 
-Critical. 97% of buyers check vendor websites before engaging, and 91% come to sales meetings already familiar with the vendor through online research [web:11]. Additionally, 72% of B2B buyers start their research online, and 90% turn to online channels as their primary way to find suppliers [web:135]. Without a professional website housing deep content that demonstrates expertise, you're invisible to the majority of potential high-value clients.
+Critical. 97% of buyers check vendor websites before engaging, and 91% come to sales meetings already familiar with the vendor through online research. Additionally, 72% of B2B buyers start their research online, and 90% turn to online channels as their primary way to find suppliers. Without a professional website housing deep content that demonstrates expertise, you're invisible to the majority of potential high-value clients.
 
 ---
 

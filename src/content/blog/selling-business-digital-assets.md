@@ -14,11 +14,11 @@ A machine that generates revenue. A machine that attracts customers. A machine t
 
 Investors and buyers look for systems. They want to know: **If the owner leaves, does the marketing stop working?**
 
-And here's the brutal reality: **The most common valuation obstacle isn't poor financials—it's founder dependency** [web:185].
+And here's the brutal reality: **The most common valuation obstacle isn't poor financials—it's founder dependency**.
 
 If your business relies on you showing up every day to make it work? You don't have a business. You have a job. And jobs don't sell for much.
 
-But businesses with documented systems, digital assets, and automated processes? Those sell for **20-40% more than owner-dependent businesses** [web:183].
+But businesses with documented systems, digital assets, and automated processes? Those sell for **20-40% more than owner-dependent businesses**.
 
 Let me show you why your digital presence isn't just marketing—it's a tangible asset that directly affects your business valuation.
 
@@ -46,11 +46,11 @@ The broker's response? **"Your business valuation will be significantly lower be
 
 ### Why This Matters
 
-**Buyers heavily discount businesses where critical operations revolve around the owner's personal involvement** [web:185]. They view these as risky investments that could deteriorate post-acquisition.
+**Buyers heavily discount businesses where critical operations revolve around the owner's personal involvement**. They view these as risky investments that could deteriorate post-acquisition.
 
 If your marketing strategy is *"I post on my personal Facebook page"*—that's not a transferable asset. That's your personal network. When you leave, that network doesn't automatically transfer to the new owner.
 
-But a professional website that ranks on Google? An email list with 5,000 engaged subscribers? Automated booking and payment systems? **Those are tangible, transferable assets** [web:184].
+But a professional website that ranks on Google? An email list with 5,000 engaged subscribers? Automated booking and payment systems? **Those are tangible, transferable assets**.
 
 ## The Three Types of Digital Assets That Increase Business Value
 
@@ -58,17 +58,17 @@ When buyers evaluate your business, they're looking at what they're actually buy
 
 ### 1. Lead Generation Systems (Marketing That Works Without You)
 
-A well-ranking, professional website is a **lead generation system** [web:190].
+A well-ranking, professional website is a **lead generation system**.
 
 It attracts customers automatically through search engine visibility. It converts visitors into bookings through online forms and clear calls-to-action. It works 24/7, whether you're at the office or on holiday in Fiji.
 
-**Marketing automation delivers an average ROI of $5.44 for every $1 invested** [web:192]. And most companies recover that investment in under 6 months [web:192].
+**Marketing automation delivers an average ROI of $5.44 for every $1 invested**. And most companies recover that investment in under 6 months.
 
 That's not just efficiency—that's a measurable, quantifiable asset that a buyer can see will continue generating revenue after you're gone.
 
 ### Example: Website Valuation in Real Terms
 
-Websites themselves are bought and sold as assets. According to Empire Flippers, who facilitate website sales, **content-based websites are selling for 30-35x monthly profit multiples** [web:190].
+Websites themselves are bought and sold as assets. According to Empire Flippers, who facilitate website sales, **content-based websites are selling for 30-35x monthly profit multiples**.
 
 Let's do the maths:
 
@@ -78,7 +78,7 @@ Now imagine you're selling your entire business. A buyer sees that your website 
 
 ### 2. Brand Value and Intellectual Property
 
-Your website houses your **brand identity**—your visual design, your voice, your positioning [web:184].
+Your website houses your **brand identity**—your visual design, your voice, your positioning.
 
 But more importantly, it contains your intellectual property:
 - Your unique methodology or service frameworks
@@ -86,7 +86,7 @@ But more importantly, it contains your intellectual property:
 - Client testimonials and case studies
 - Your company story and values
 
-**This is transferable knowledge** [web:191]. When a buyer purchases your business, they're not just buying your customer list—they're buying the systems, processes, and expertise that made the business successful.
+**This is transferable knowledge**. When a buyer purchases your business, they're not just buying your customer list—they're buying the systems, processes, and expertise that made the business successful.
 
 Without documentation? That knowledge lives in your head. And when you leave, it leaves with you.
 
@@ -94,7 +94,7 @@ With a well-structured website? That knowledge is documented, searchable, and re
 
 ### 3. Customer Data and Analytics
 
-Your website captures valuable data [web:184]:
+Your website captures valuable data:
 - Who visits your site (demographics, location, interests)
 - What services they're interested in
 - How they found you (SEO, social media, referral)
@@ -105,7 +105,7 @@ This data allows the new owner to:
 - Continue investing in what works (e.g., if 60% of leads come from Google, keep investing in SEO)
 - Make informed marketing decisions without guessing
 
-**Businesses with well-documented data and analytics sell faster and command higher multiples** [web:191].
+**Businesses with well-documented data and analytics sell faster and command higher multiples**.
 
 ## The Founder Dependency Problem (And How Systems Solve It)
 
@@ -113,11 +113,11 @@ Let's talk about the elephant in the room: **Most small businesses are built aro
 
 The owner makes all the decisions. The owner maintains the key relationships. The owner does the marketing. The owner holds all the institutional knowledge.
 
-**This is the #1 reason businesses get discounted in valuation** [web:185].
+**This is the #1 reason businesses get discounted in valuation**.
 
 ### Founder Dependency Red Flags That Reduce Valuations
 
-According to business valuation experts, these are the red flags that make buyers nervous [web:185]:
+According to business valuation experts, these are the red flags that make buyers nervous:
 
 ❌ **Key relationships maintained exclusively by the owner** (e.g., "I've been friends with all my suppliers for 20 years")  
 ❌ **Critical decisions requiring founder approval at every level** (e.g., "My team always checks with me before making big calls")  
@@ -137,11 +137,11 @@ Compare the red flags above to a systems-driven business:
 ✅ **Decision-making authority is delegated** (clear policies and procedures)  
 ✅ **Quality is maintained through systems, not personal oversight** (checklists, templates, automated workflows)
 
-**A business brokerage firm listed "dependence on owner" as one of the five most critical factors in calculating business value** [web:182]. The less dependent your business is on you personally, the higher the valuation.
+**A business brokerage firm listed "dependence on owner" as one of the five most critical factors in calculating business value**. The less dependent your business is on you personally, the higher the valuation.
 
 ### The "Make Yourself Redundant" Test
 
-Business exit advisors recommend this exercise: **Take a 2-3 week holiday and don't check in** [web:183].
+Business exit advisors recommend this exercise: **Take a 2-3 week holiday and don't check in**.
 
 Seriously. Turn off your phone. Don't answer emails. See what happens.
 
@@ -149,11 +149,11 @@ If your business continues to generate leads, serve customers, and operate smoot
 
 If things fall apart, or your team is texting you frantically asking what to do? You've built an owner-dependent business.
 
-The difference in valuation between those two scenarios? **20-40%** [web:183].
+The difference in valuation between those two scenarios? **20-40%**.
 
 ## The Exit Strategy Timeline: Why You Need to Start Now
 
-Here's the uncomfortable truth: **You should start planning your exit strategy 3-5 years before you actually intend to sell** [web:183][web:186].
+Here's the uncomfortable truth: **You should start planning your exit strategy 3-5 years before you actually intend to sell**.
 
 Not next year. Not when you're "ready to retire." Now.
 
@@ -182,7 +182,7 @@ Why so long? Because building systems, documenting processes, and creating trans
 - Demonstrate consistent revenue without owner involvement
 - Market the business to potential buyers
 
-**The result? Businesses that follow this timeline sell for 20-40% more than businesses without proper preparation** [web:183].
+**The result? Businesses that follow this timeline sell for 20-40% more than businesses without proper preparation**.
 
 ## What Buyers Actually Look For (And How Your Website Delivers)
 
@@ -199,7 +199,7 @@ A website with strong SEO rankings shows:
 - Diverse lead sources (not just word-of-mouth)
 - Growth potential (ability to scale marketing without owner involvement)
 
-**Buyers want to see the numbers.** Your Google Analytics, conversion rates, and traffic sources are part of your due diligence package [web:191].
+**Buyers want to see the numbers.** Your Google Analytics, conversion rates, and traffic sources are part of your due diligence package.
 
 ### 2. Operational Independence
 
@@ -212,7 +212,7 @@ Your website demonstrates operational independence by showing:
 - FAQ sections that handle common customer questions
 - Email automation that nurtures leads without manual intervention
 
-**Businesses with robust documentation get higher offers and close deals faster** [web:191].
+**Businesses with robust documentation get higher offers and close deals faster**.
 
 ### 3. Competitive Positioning
 
@@ -233,13 +233,13 @@ Your digital infrastructure answers this question. If you're already ranking #1 
 - Invest in paid ads knowing the website converts well
 - Scale email marketing to existing database
 
-**A well-structured website gives buyers confidence in the business's growth potential** [web:184].
+**A well-structured website gives buyers confidence in the business's growth potential**.
 
 ## The Real Cost of Not Having Digital Assets
 
 Let's talk numbers.
 
-Say you're selling a salon business that generates $300,000 in annual revenue. A typical multiple for a small service-based business is 2-3x SDE (Seller Discretionary Earnings) [web:190][web:193].
+Say you're selling a salon business that generates $300,000 in annual revenue. A typical multiple for a small service-based business is 2-3x SDE (Seller Discretionary Earnings).
 
 ### Scenario A: Owner-Dependent Business
 
@@ -294,7 +294,7 @@ Your website should be:
 - Documenting your services, methodology, and expertise
 - Operating 24/7 without your involvement
 
-**This is your foundational asset** [web:184]. Everything else builds from here.
+**This is your foundational asset**. Everything else builds from here.
 
 ### 3. Document Your Systems
 
@@ -305,7 +305,7 @@ Start writing down:
 - Your quality standards
 - Your employee training procedures
 
-**Companies with strong documentation get better valuation multiples and face fewer price negotiations** [web:191].
+**Companies with strong documentation get better valuation multiples and face fewer price negotiations**.
 
 ### 4. Automate What You Can
 
@@ -314,13 +314,13 @@ Start writing down:
 - Analytics dashboards instead of gut feelings
 - Payment processing instead of manual invoicing
 
-**The average marketing automation ROI is $5.44 for every $1 invested** [web:192]. This isn't just about efficiency—it's about building transferable value.
+**The average marketing automation ROI is $5.44 for every $1 invested**. This isn't just about efficiency—it's about building transferable value.
 
 ### 5. Measure Everything
 
 Set up Google Analytics. Track where leads come from. Monitor conversion rates. Document your ROI.
 
-**Buyers want data** [web:191]. If you can show exactly how much revenue your website generates, how your SEO performs, and where your customers come from, you've significantly de-risked the purchase.
+**Buyers want data**. If you can show exactly how much revenue your website generates, how your SEO performs, and where your customers come from, you've significantly de-risked the purchase.
 
 ## The Bottom Line: Your Business Is Worth More With Digital Assets
 
@@ -334,7 +334,7 @@ Your website isn't just a marketing tool. It's:
 - A data asset showing exactly how customers find and book with you
 - A transferable, scalable foundation the new owner can build on
 
-**Businesses with strong digital infrastructure sell for 20-40% more and close deals faster** [web:183][web:191].
+**Businesses with strong digital infrastructure sell for 20-40% more and close deals faster**.
 
 So whether you're planning to sell in 5 years or 15 years, the time to build your digital assets is now.
 
@@ -348,23 +348,23 @@ Because when you're ready to exit? You want to sell a machine, not a job.
 
 **How much does a website add to business valuation?**
 
-Websites that generate consistent organic leads can be valued at 30-35x monthly profit multiples as standalone assets [web:190]. For the overall business, having a professional, high-ranking website with documented lead generation increases valuation by 20-40% compared to owner-dependent marketing [web:183]. Marketing automation systems deliver an average ROI of $5.44 per $1 invested, making them highly valuable transferable assets [web:192].
+Websites that generate consistent organic leads can be valued at 30-35x monthly profit multiples as standalone assets. For the overall business, having a professional, high-ranking website with documented lead generation increases valuation by 20-40% compared to owner-dependent marketing. Marketing automation systems deliver an average ROI of $5.44 per $1 invested, making them highly valuable transferable assets.
 
 **What is founder dependency and why does it lower business value?**
 
-Founder dependency occurs when critical operations, relationships, and decision-making revolve around the owner personally [web:185]. It's the #1 valuation obstacle because buyers view these businesses as high-risk—if the owner leaves, revenue could plummet. Red flags include: key relationships maintained exclusively by owner, institutional knowledge existing only in founder's head, and quality dependent on personal oversight [web:185]. Eliminating founder dependency through documented systems can increase sale price by 20-40% [web:183].
+Founder dependency occurs when critical operations, relationships, and decision-making revolve around the owner personally. It's the #1 valuation obstacle because buyers view these businesses as high-risk—if the owner leaves, revenue could plummet. Red flags include: key relationships maintained exclusively by owner, institutional knowledge existing only in founder's head, and quality dependent on personal oversight. Eliminating founder dependency through documented systems can increase sale price by 20-40%.
 
 **When should I start planning my business exit strategy?**
 
-Start 3-5 years before you intend to sell [web:183][web:186]. This timeline allows you to: build digital infrastructure (years 1-2), reduce owner involvement through delegation and systems (years 2-3), and prepare for handover with professional valuation and organised documentation (years 3-5). Proper preparation can increase your business value by 20-40%, and businesses with documented systems sell faster with higher multiples [web:183][web:191].
+Start 3-5 years before you intend to sell. This timeline allows you to: build digital infrastructure (years 1-2), reduce owner involvement through delegation and systems (years 2-3), and prepare for handover with professional valuation and organised documentation (years 3-5). Proper preparation can increase your business value by 20-40%, and businesses with documented systems sell faster with higher multiples.
 
 **What digital assets do buyers look for when purchasing a business?**
 
-Buyers evaluate three main categories: (1) Lead generation systems (SEO-optimised website, marketing automation, online booking) that work without owner involvement, (2) Brand value and intellectual property (documented methodology, content, testimonials), and (3) Customer data and analytics showing acquisition channels and conversion metrics [web:184][web:191]. Well-documented digital assets reduce buyer risk and directly increase valuation multiples [web:185][web:191].
+Buyers evaluate three main categories: (1) Lead generation systems (SEO-optimised website, marketing automation, online booking) that work without owner involvement, (2) Brand value and intellectual property (documented methodology, content, testimonials), and (3) Customer data and analytics showing acquisition channels and conversion metrics. Well-documented digital assets reduce buyer risk and directly increase valuation multiples.
 
 **How do I make my business less owner-dependent?**
 
-Test your business by taking 2-3 weeks off without checking in [web:183]. To reduce dependency: document all core processes (SOPs, training materials), delegate decision-making authority to team members, implement automated marketing systems (SEO, email, booking), transition client relationships to staff, and create knowledge transfer materials [web:183][web:191]. Businesses with robust documentation sell for higher multiples and face fewer price negotiations [web:191].
+Test your business by taking 2-3 weeks off without checking in. To reduce dependency: document all core processes (SOPs, training materials), delegate decision-making authority to team members, implement automated marketing systems (SEO, email, booking), transition client relationships to staff, and create knowledge transfer materials. Businesses with robust documentation sell for higher multiples and face fewer price negotiations.
 
 ---
 

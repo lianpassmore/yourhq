@@ -14,7 +14,7 @@ One freelancer said $500. A local agency said $12,000. Your mate's nephew said h
 
 Why is the gap so massive? And what's a fair price for a small business in Aotearoa?
 
-Here's the truth: **Web design prices in NZ can range from $500 to $75,000+** [web:238]. That's not a typo. The same "thing" (a website) can cost 150 times more depending on who you ask.
+Here's the truth: **Web design prices in NZ can range from $500 to $75,000+**. That's not a typo. The same "thing" (a website) can cost 150 times more depending on who you ask.
 
 But here's what nobody tells you: They're not actually selling the same thing.
 
@@ -43,7 +43,7 @@ This is usually someone offshore, a student, or your mate's nephew who "knows a 
 - Zero support after handover (good luck when something breaks)
 - Poor SEO (won't rank on Google)
 - No mobile optimisation (or poorly done)
-- Security vulnerabilities (39.1% of hacked websites were running outdated software [web:240])
+- Security vulnerabilities (39.1% of hacked websites were running outdated software)
 
 **Who this works for:** Testing a business idea with literally no budget.
 
@@ -59,7 +59,7 @@ This is the "old way" of building websites. Big teams. Long timelines. Expensive
 - Project manager and dedicated team
 - 6-12 week timeline (sometimes longer)
 
-**NZ market reality:** Most agencies charge $8,000-$30,000 for small business sites, with annual maintenance costing $2,000-$10,000 [web:238].
+**NZ market reality:** Most agencies charge $8,000-$30,000 for small business sites, with annual maintenance costing $2,000-$10,000.
 
 #### Pros:
 - Professional result (if you can afford to wait)
@@ -91,7 +91,7 @@ We use AI to help write copy, structure content, and speed up the build process.
 (Traditional agencies will tell you "AI can't write good copy." They're wrong. AI can't *replace* human judgement, but it can massively accelerate the process when used properly.)
 
 **Modern Frameworks (Astro)**  
-We build on static site generators that are faster, more secure, and easier to maintain than WordPress or traditional CMS platforms [web:60].
+We build on static site generators that are faster, more secure, and easier to maintain than WordPress or traditional CMS platforms.
 
 Sites load in under 2 seconds. No bloated plugins. No security nightmares. No monthly WordPress maintenance hell.
 
@@ -152,19 +152,19 @@ Websites aren't "set and forget." They need:
 - SEO maintenance
 - Performance optimisation
 
-**Annual website maintenance in NZ costs $400-$10,000 depending on complexity** [web:238].
+**Annual website maintenance in NZ costs $400-$10,000 depending on complexity**.
 
 But here's the problem: **Most small business owners don't budget for this.** They pay the upfront cost, launch the site, and then... nothing. The site sits there, slowly decaying.
 
 ### The Real Cost of Neglect
 
-**Security breaches:** 39.1% of hacked websites were running outdated software [web:240]. The average cost of a data breach in 2024 is $4.88 million [web:245].
+**Security breaches:** 39.1% of hacked websites were running outdated software. The average cost of a data breach in 2024 is $4.88 million.
 
-**Downtime:** Website downtime costs businesses an average of $5,600 per minute [web:245][web:247].
+**Downtime:** Website downtime costs businesses an average of $5,600 per minute.
 
-**Lost rankings:** Neglected websites drop in Google rankings. Companies lacking systematic website maintenance see marketing effectiveness drop by up to 20% [web:245].
+**Lost rankings:** Neglected websites drop in Google rankings. Companies lacking systematic website maintenance see marketing effectiveness drop by up to 20%.
 
-**Reputation damage:** 75% of consumers judge your credibility based on your website [web:110]. If your site looks outdated or broken? They're booking with your competitor.
+**Reputation damage:** 75% of consumers judge your credibility based on your website. If your site looks outdated or broken? They're booking with your competitor.
 
 ### What the Monthly Fee Actually Covers
 
@@ -228,7 +228,7 @@ We've stripped all that out:
 
 ## The ROI Question: What Should a Website Generate?
 
-**A small improvement in conversion rate from 2% to 3% equals a 50% increase in ROI** [web:249].
+**A small improvement in conversion rate from 2% to 3% equals a 50% increase in ROI**.
 
 ### Example: Local Tradie
 
@@ -311,7 +311,7 @@ Traditional agencies will charge you $8,000-$30,000 and take 12 weeks because th
 
 We charge $995-$1,495 and deliver in 7 days because we've embraced modern tools that make us faster without sacrificing quality.
 
-**A well-maintained website can generate 100% ROI within 12 months** [web:249]. But only if it's professional, fast, secure, and kept up-to-date.
+**A well-maintained website can generate 100% ROI within 12 months**. But only if it's professional, fast, secure, and kept up-to-date.
 
 That's why we include maintenance, updates, and annual refreshes in the monthly fee. Because a $995 website that gets abandoned and hacked 2 years later isn't an asset. It's a liability.
 

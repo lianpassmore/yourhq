@@ -26,7 +26,7 @@ DIY platforms pitch themselves as cheap. Wix's marketing makes it look affordabl
 
 **Professional Email:** $6/month = **$144** (over 2 years)
 
-**Total 2-year cost: $945** when paying annually upfront—more if paid monthly [web:272].
+**Total 2-year cost: $945** when paying annually upfront—more if paid monthly.
 
 So much for "free."
 
@@ -38,7 +38,7 @@ But that's just the dollar cost. Let's talk about the real cost.
 
 Most business owners estimate it will take a weekend—maybe 10-15 hours—to build their site.
 
-**The reality? Building a DIY website typically takes 60-80 hours** when you account for the complete process [web:277]:
+**The reality? Building a DIY website typically takes 60-80 hours** when you account for the complete process:
 
 - Learning the platform
 - Choosing and customizing a template
@@ -48,15 +48,15 @@ Most business owners estimate it will take a weekend—maybe 10-15 hours—to bu
 - Troubleshooting problems (and there WILL be problems)
 - Making ongoing updates and tweaks
 
-That's not even counting ongoing maintenance, security updates, and improvements your site will need over time [web:277].
+That's not even counting ongoing maintenance, security updates, and improvements your site will need over time.
 
 ### Let's Do the Maths
 
 If you charge $80/hour for your services (plumber, electrician, consultant, salon owner), and you spend 60 hours fighting with a drag-and-drop builder:
 
-**That "cheap" website just cost you $4,800 in lost billable time** [web:277].
+**That "cheap" website just cost you $4,800 in lost billable time**.
 
-Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**—time you could have spent serving clients, developing new products, or actually growing your business [web:277].
+Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**—time you could have spent serving clients, developing new products, or actually growing your business.
 
 ### The Real Comparison (2025 Numbers)
 
@@ -76,7 +76,7 @@ Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**�
 
 **You save $1,000-$2,500+ and get a better website. And you get your time back.**
 
-Similar UK analysis shows professional builds costing £564 vs Wix's £946.90 over 2 years—saving nearly £400 PLUS 20-40 hours of time [web:272].
+Similar UK analysis shows professional builds costing £564 vs Wix's £946.90 over 2 years—saving nearly £400 PLUS 20-40 hours of time.
 
 ## The "Template" Look: You're Not Special
 
@@ -88,27 +88,27 @@ It doesn't look like *you*. It looks like everyone else.
 
 ### The Customization Trap
 
-Wix offers a range of templates, but these templates are not easily customizable [web:286]. Users are limited to the layout and design of the templates, which can be a problem if you're looking for a unique and personalized website.
+Wix offers a range of templates, but these templates are not easily customizable. Users are limited to the layout and design of the templates, which can be a problem if you're looking for a unique and personalized website.
 
-With Wix, you cannot fully customize the HTML and CSS codes, which restricts your ability to modify your website to suit your needs [web:286].
+With Wix, you cannot fully customize the HTML and CSS codes, which restricts your ability to modify your website to suit your needs.
 
 **Translation:** You're stuck with what Wix gives you. If the template doesn't do exactly what you need? Too bad.
 
 ### The Professional Signal
 
-**84% of consumers say a business is more credible if it has a website** [web:80]. But not just ANY website—a PROFESSIONAL website.
+**84% of consumers say a business is more credible if it has a website**. But not just ANY website—a PROFESSIONAL website.
 
 When potential clients land on your site and it looks identical to a hundred other Wix templates, you lose that credibility edge.
 
 They think: *"Did they build this themselves? Are they actually a professional business?"*
 
-Compare that to a custom-designed site that reflects your actual brand, your values, your aesthetic. **Small businesses with modern, professional websites report 15-50% revenue increases** [web:80].
+Compare that to a custom-designed site that reflects your actual brand, your values, your aesthetic. **Small businesses with modern, professional websites report 15-50% revenue increases**.
 
 ## The Speed Penalty: Google Hates Slow Websites
 
 Here's where DIY builders really hurt you: **Performance.**
 
-In 2025, independent testing of 14 major website builders found that most DIY platforms are embarrassingly slow [web:278]:
+In 2025, independent testing of 14 major website builders found that most DIY platforms are embarrassingly slow:
 
 ### Lighthouse Performance Scores (2025):
 
@@ -131,7 +131,7 @@ In 2025, independent testing of 14 major website builders found that most DIY pl
 **Squarespace sites:**
 - Load in 8.79 seconds
 - Take 6.97 seconds to become interactive
-- Process 994 KB of data [web:278]
+- Process 994 KB of data
 
 **Professional Astro/Next.js sites:**
 - Load in under 2 seconds
@@ -140,11 +140,11 @@ In 2025, independent testing of 14 major website builders found that most DIY pl
 
 ### Why This Matters
 
-**Google hates slow websites** [web:60][web:278]. Page speed is a ranking factor.
+**Google hates slow websites**. Page speed is a ranking factor.
 
 If your site takes 6-8 seconds to load, you're getting penalized in search rankings. Your competitors with faster sites will rank higher.
 
-**And users hate slow websites too.** 40% of users abandon sites that take longer than 3 seconds to load [web:90].
+**And users hate slow websites too.** 40% of users abandon sites that take longer than 3 seconds to load.
 
 So your slow DIY site isn't just hurting your SEO—it's literally costing you customers who give up waiting for your site to load.
 
@@ -154,23 +154,23 @@ Let's talk about SEO—because this is where DIY builders really fall short.
 
 ### Wix SEO Limitations (2025):
 
-**Limited flexibility for website customization:** While Wix offers many customization options, its closed platform can limit your flexibility to customize your website entirely. This restricts your ability to optimize your website for search engines [web:282].
+**Limited flexibility for website customization:** While Wix offers many customization options, its closed platform can limit your flexibility to customize your website entirely. This restricts your ability to optimize your website for search engines.
 
-**Can't fully customize technical SEO:** You obviously can't customize or even analyze the server, and don't have control over your own logs. There are so many options to improve the speed and availability of custom websites that Wix barely scratches the surface [web:286].
+**Can't fully customize technical SEO:** You obviously can't customize or even analyze the server, and don't have control over your own logs. There are so many options to improve the speed and availability of custom websites that Wix barely scratches the surface.
 
-**Slower loading speeds hurt rankings:** Wix is built on previous-generation technologies. Slower loading speed contributes to weaker SEO performance [web:283].
+**Slower loading speeds hurt rankings:** Wix is built on previous-generation technologies. Slower loading speed contributes to weaker SEO performance.
 
-**Limited control over site architecture:** You can edit permalinks, but you can't develop an advanced site architecture the way you can with a modern CMS [web:286].
+**Limited control over site architecture:** You can edit permalinks, but you can't develop an advanced site architecture the way you can with a modern CMS.
 
 ### What Professional SEO Experts Say
 
 From Elite Strategies' 2025 SEO assessment:
 
-*"If you are a technical SEO you will be let down... It just isn't as fun; with a modern CMS or custom CMS there are so many options to improve the speed and availability of your website and Wix barely scratches the surface."* [web:286]
+*"If you are a technical SEO you will be let down... It just isn't as fun; with a modern CMS or custom CMS there are so many options to improve the speed and availability of your website and Wix barely scratches the surface."*
 
 From Redshark Digital:
 
-*"While Wix offers some SEO features, its closed platform and limitations in technical SEO, customization, and website speed can be a disadvantage for those looking to optimize their website for search engines entirely."* [web:282]
+*"While Wix offers some SEO features, its closed platform and limitations in technical SEO, customization, and website speed can be a disadvantage for those looking to optimize their website for search engines entirely."*
 
 **Translation:** Wix is fine for basic SEO. But if you actually want to RANK on Google and drive traffic? You're handicapped from day one.
 
@@ -185,7 +185,7 @@ Here's something most small businesses don't think about when they choose Wix:
 - Want to connect to your CRM or other business tools? May not be supported.
 - Want to migrate to a better platform? Good luck exporting your data.
 
-**As your business grows, you'll face challenges with scalability that affect future growth and adaptability** [web:288].
+**As your business grows, you'll face challenges with scalability that affect future growth and adaptability**.
 
 You'll eventually need to rebuild from scratch on a proper platform. So that $945 you spent on Wix? Wasted. You're starting over.
 
@@ -193,17 +193,17 @@ You'll eventually need to rebuild from scratch on a proper platform. So that $94
 
 Let's talk about what matters: **Return on investment.**
 
-**Small businesses with professional websites report 15-50% revenue increases** [web:80].
+**Small businesses with professional websites report 15-50% revenue increases**.
 
-**Over 70% of small businesses report increased revenue after launching a professional website** [web:80].
+**Over 70% of small businesses report increased revenue after launching a professional website**.
 
 ### Real-World ROI Examples (2025 Data):
 
-**Local service business:** $3,000 investment generating $2,000 monthly in new leads [web:290]
+**Local service business:** $3,000 investment generating $2,000 monthly in new leads
 
-**Small retailer:** $8,000 e-commerce site producing $5,000 monthly in online sales [web:290]
+**Small retailer:** $8,000 e-commerce site producing $5,000 monthly in online sales
 
-**Professional services:** $5,000 website resulting in 3 new clients worth $15,000 annually [web:290]
+**Professional services:** $5,000 website resulting in 3 new clients worth $15,000 annually
 
 ### The YourHQ Math:
 
@@ -233,7 +233,7 @@ You usually have two choices when getting a website built:
 ### The YourHQ Approach:
 
 **Modern Tech Stack (Astro):**
-- We use professional code—the same frameworks Silicon Valley uses [web:60]
+- We use professional code—the same frameworks Silicon Valley uses
 - Sites load in under 2 seconds (vs 6-8 seconds for Wix/Squarespace)
 - Built for SEO from the ground up
 - Clean, efficient code (no bloat)
@@ -283,23 +283,23 @@ You have a business to run.
 
 **How long does it really take to build a DIY website?**
 
-Building a DIY website typically takes 60-80 hours when you account for learning the platform, customizing templates, creating content, troubleshooting, and ongoing updates [web:277]. Most business owners estimate 10-15 hours initially, but the reality includes significant time spent on platform learning curves and fixing issues that professionals would avoid.
+Building a DIY website typically takes 60-80 hours when you account for learning the platform, customizing templates, creating content, troubleshooting, and ongoing updates. Most business owners estimate 10-15 hours initially, but the reality includes significant time spent on platform learning curves and fixing issues that professionals would avoid.
 
 **Is Wix actually cheaper than hiring a professional?**
 
-No. Wix costs $945 over 2 years in direct costs, plus 60-80 hours of your time [web:272][web:277]. At $80/hour, that's $4,800-$6,400 in opportunity cost—totaling $5,745-$7,345. A professional build at YourHQ costs $995 + $149/month (24 months) = $4,571, saving you $1,000-$2,500+ and giving you a faster, more professional site.
+No. Wix costs $945 over 2 years in direct costs, plus 60-80 hours of your time. At $80/hour, that's $4,800-$6,400 in opportunity cost—totaling $5,745-$7,345. A professional build at YourHQ costs $995 + $149/month (24 months) = $4,571, saving you $1,000-$2,500+ and giving you a faster, more professional site.
 
 **How much slower are DIY website builders compared to professional sites?**
 
-2025 testing shows Wix sites score 72/100 on Lighthouse performance and load in 5.24 seconds, while Squarespace scores 31/100 and loads in 8.79 seconds [web:278]. Professional Astro/Next.js sites score 95-100 and load in under 2 seconds. Since 40% of users abandon sites taking over 3 seconds to load [web:90], DIY builders lose nearly half of potential visitors due to speed alone.
+2025 testing shows Wix sites score 72/100 on Lighthouse performance and load in 5.24 seconds, while Squarespace scores 31/100 and loads in 8.79 seconds. Professional Astro/Next.js sites score 95-100 and load in under 2 seconds. Since 40% of users abandon sites taking over 3 seconds to load, DIY builders lose nearly half of potential visitors due to speed alone.
 
 **Can I actually rank on Google with a Wix website?**
 
-Wix has improved SEO capabilities, but it still has significant limitations: restricted customization, no server control, slower loading speeds, limited technical SEO options, and inability to develop advanced site architecture [web:282][web:286]. While you CAN rank with Wix, you're fighting with one hand tied behind your back compared to professionally coded sites with full SEO control.
+Wix has improved SEO capabilities, but it still has significant limitations: restricted customization, no server control, slower loading speeds, limited technical SEO options, and inability to develop advanced site architecture. While you CAN rank with Wix, you're fighting with one hand tied behind your back compared to professionally coded sites with full SEO control.
 
 **What ROI should I expect from a professional website?**
 
-Small businesses with professional websites report 15-50% revenue increases, with 70%+ reporting increased revenue after launch [web:80]. Real examples from 2025: local service businesses generating $2,000 monthly in new leads from a $3,000 investment, and professional services getting 3 new clients worth $15,000 annually from a $5,000 website [web:290]. Even conservatively, 2 extra clients per month at $200 each = 172% ROI in Year 1.
+Small businesses with professional websites report 15-50% revenue increases, with 70%+ reporting increased revenue after launch. Real examples from 2025: local service businesses generating $2,000 monthly in new leads from a $3,000 investment, and professional services getting 3 new clients worth $15,000 annually from a $5,000 website. Even conservatively, 2 extra clients per month at $200 each = 172% ROI in Year 1.
 
 ---
 
