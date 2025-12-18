@@ -77,7 +77,7 @@ This is the "old way" of building websites. Big teams. Long timelines. Expensive
 
 **Who this doesn't work for:** Small businesses that need results fast without spending their entire marketing budget on a website.
 
-### Tier 3: The Modern Disruptor ($695 - $1,495 setup + monthly)
+### Tier 3: The Modern Disruptor ($695 - $1,495 + GST setup + monthly)
 
 This is where YourHQ sits. **Same quality. Faster delivery. Lower price.**
 
@@ -102,7 +102,7 @@ Traditional agencies need multiple meetings, brand workshops, and approval stage
 
 ## What You Actually Get at YourHQ
 
-### The Starter ($695 + $49/month)
+### The Starter ($695 + GST + $49/month + GST)
 
 Perfect for "I just need something online."
 
@@ -113,7 +113,7 @@ Perfect for "I just need something online."
 
 **Who this works for:** Absolute minimum online presence. You're testing an idea or need a digital business card.
 
-### The Launch ($995 + $149/month)
+### The Launch ($995 + GST + $149/month + GST)
 
 This is our bread and butter for tradies, retailers, and service businesses.
 
@@ -126,7 +126,7 @@ This is our bread and butter for tradies, retailers, and service businesses.
 
 **Who this works for:** Electricians, plumbers, builders, accountants, physios—anyone who needs a professional site that generates leads.
 
-### The Growth ($1,495 + $249/month)
+### The Growth ($1,495 + GST + $249/month + GST)
 
 For salons, consultants, and businesses that need booking systems.
 
@@ -197,8 +197,8 @@ Let's do the actual maths:
 **Total 3-year cost:** $17,400
 
 ### YourHQ Launch Model:
-- **Setup:** $995
-- **Monthly fee:** $149/month × 36 months = $5,364
+- **Setup:** $995 + GST
+- **Monthly fee:** $149/month + GST × 36 months = $5,364 + GST
 - **Annual refresh included:** $0
 - **Emergency fixes:** $0
 - **Updates:** $0
@@ -244,7 +244,7 @@ Now with a proper website:
 - **Additional monthly revenue:** $7,500
 - **Additional annual revenue:** $90,000
 
-**Your website costs you $149/month ($1,788/year).** It generates an extra $90,000/year.
+**Your website costs you $149/month + GST ($1,788/year + GST).** It generates an extra $90,000/year.
 
 **That's a 5,000% ROI.**
 
@@ -272,17 +272,17 @@ Get a clear maintenance agreement upfront. Surprise invoices are the worst.
 ## What You Should Actually Pay (Our Honest Recommendation)
 
 ### If You Just Need Something Online Fast:
-**Budget:** $695 setup + $49/month  
+**Budget:** $695 + GST setup + $49/month + GST
 **Get:** [The Starter](/pricing)  
 **Best for:** Testing ideas, bare minimum presence
 
 ### If You Need a Professional Site That Generates Leads:
-**Budget:** $995 setup + $149/month  
+**Budget:** $995 + GST setup + $149/month + GST
 **Get:** [The Launch](/pricing)  
 **Best for:** Tradies, consultants, retailers, service businesses
 
 ### If You Need Booking Systems or Regular Content:
-**Budget:** $1,495 setup + $249/month  
+**Budget:** $1,495 + GST setup + $249/month + GST
 **Get:** [The Growth](/pricing)  
 **Best for:** Salons, coaches, consultants, wellness businesses
 
@@ -309,11 +309,11 @@ It's your 24/7 salesperson. Your portfolio. Your booking system. Your credibilit
 
 Traditional agencies will charge you $8,000-$30,000 and take 12 weeks because their process is stuck in 2015.
 
-We charge $995-$1,495 and deliver in 7 days because we've embraced modern tools that make us faster without sacrificing quality.
+We charge $995-$1,495 + GST and deliver in 7 days because we've embraced modern tools that make us faster without sacrificing quality.
 
 **A well-maintained website can generate 100% ROI within 12 months**. But only if it's professional, fast, secure, and kept up-to-date.
 
-That's why we include maintenance, updates, and annual refreshes in the monthly fee. Because a $995 website that gets abandoned and hacked 2 years later isn't an asset. It's a liability.
+That's why we include maintenance, updates, and annual refreshes in the monthly fee. Because a $995 + GST website that gets abandoned and hacked 2 years later isn't an asset. It's a liability.
 
 **[View Our Transparent Pricing](/pricing)**
 
@@ -327,7 +327,7 @@ We're not cheaper because we cut corners—we're more efficient. Traditional age
 
 **What happens if I cancel my monthly subscription?**
 
-You own your domain—we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$249/month for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
+You own your domain—we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$249/month + GST for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
 
 **How is this different from Wix or Squarespace?**
 

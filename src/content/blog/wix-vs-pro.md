@@ -68,10 +68,10 @@ Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**�
 - **Result:** A website you built yourself (with limitations)
 
 **Professional Build (YourHQ):**
-- **Hard costs:** $995 setup + $149/month × 24 months = $4,571
+- **Hard costs:** $995 + GST setup + $149/month + GST × 24 months = $4,571 + GST
 - **Your time:** 2-3 hours (for a voice interview and feedback)
 - **Opportunity cost:** $160-$240
-- **Total actual cost:** $4,731-$4,811
+- **Total actual cost:** $4,731-$4,811 + GST
 - **Result:** A website built by professionals
 
 **You save $1,000-$2,500+ and get a better website. And you get your time back.**
@@ -207,7 +207,7 @@ Let's talk about what matters: **Return on investment.**
 
 ### The YourHQ Math:
 
-**Investment:** $995 setup + $149/month = $2,783 in Year 1
+**Investment:** $995 + GST setup + $149/month + GST = $2,783 + GST in Year 1
 
 **If your website generates just 2 extra clients per month at $200 average:**
 - Monthly additional revenue: $400
@@ -239,8 +239,8 @@ You usually have two choices when getting a website built:
 - Clean, efficient code (no bloat)
 
 **Service Model:**
-- $995 setup fee (gets you a professional site in 5-7 days)
-- $149-$249/month "caretaker" fee (hosting, security, updates, annual refresh)
+- $995 + GST setup fee (gets you a professional site in 5-7 days)
+- $149-$249/month + GST "caretaker" fee (hosting, security, updates, annual refresh)
 
 **What You Get:**
 - We build it (using your voice interview—no endless meetings)
@@ -253,7 +253,7 @@ You usually have two choices when getting a website built:
 
 **Faster than DIY:** 5-7 days vs 60-80 hours of your time
 
-**Cheaper than agencies:** $995 vs $8,000-$30,000
+**Cheaper than agencies:** $995 + GST vs $8,000-$30,000
 
 **Better performance:** 2-second load times vs 6-8 seconds
 
@@ -287,7 +287,7 @@ Building a DIY website typically takes 60-80 hours when you account for learning
 
 **Is Wix actually cheaper than hiring a professional?**
 
-No. Wix costs $945 over 2 years in direct costs, plus 60-80 hours of your time. At $80/hour, that's $4,800-$6,400 in opportunity cost—totaling $5,745-$7,345. A professional build at YourHQ costs $995 + $149/month (24 months) = $4,571, saving you $1,000-$2,500+ and giving you a faster, more professional site.
+No. Wix costs $945 over 2 years in direct costs, plus 60-80 hours of your time. At $80/hour, that's $4,800-$6,400 in opportunity cost—totaling $5,745-$7,345. A professional build at YourHQ costs $995 + GST + $149/month + GST (24 months) = $4,571 + GST, saving you $1,000-$2,500+ and giving you a faster, more professional site.
 
 **How much slower are DIY website builders compared to professional sites?**
 

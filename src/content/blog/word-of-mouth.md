@@ -299,7 +299,7 @@ Let's say you're a sparkie in Hamilton.
 
 **That's $6,000-$8,000 extra per month. $72,000-$96,000 per year.**
 
-Your website costs you $995 setup + $149/month = $2,783 in Year 1.
+Your website costs you $995 + GST setup + $149/month + GST = $2,783 + GST in Year 1.
 
 **ROI: 2,590-3,450%**
 
@@ -327,7 +327,7 @@ At YourHQ, we build sites for sparkies, builders, and chippies who hate admin.
 
 We get it sorted in 5-7 days so you can get back on the tools.
 
-**[Start Your Build - $995 Setup + $149/month](/contact)**
+**[Start Your Build - $995 + GST Setup + $149/month + GST](/contact)**
 
 ---
 
