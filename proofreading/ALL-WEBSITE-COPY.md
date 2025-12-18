@@ -1,6 +1,6 @@
 # YourHQ Website Copy - Complete Proofreading Document
 
-**Last Updated:** December 11, 2025
+**Last Updated:** December 18, 2024
 **Purpose:** Comprehensive text copy for proofreading across all website pages
 
 ---
@@ -710,133 +710,140 @@ All packages include a 30-minute kickoff interview and unlimited updates
 ## OUR STORY PAGE (our-story.astro)
 
 ### Page Title
-The Accidental
-Web Developer.
+Two Mates.
+One Mission.
 
 **Subtitle:**
-Or: What Happens When a Storyteller Falls in Love With Code
+Friends first. Business partners second. Here to help you own your digital space.
 
 ---
 
-## NARRATIVE PART 1: The Journey
-
-### Introduction
-Kia ora, I'm Lian and I've spent 15 years helping people communicate better. Building learning experiences. Designing systems. Translating complexity into clarity. But I never thought I'd be building websites.
-
-Here's how it actually happened.
-
-### The Wix Era (aka "This Should Be Easy, Right?")
-Like most people, I started with Wix. Drag, drop, done. Except it wasn't done. It never looked quite right. The templates felt generic. And every time I wanted something specific, I'd hit a wall. But hey, at least I had a website.
-
-### The WordPress Year (aka "I Can Learn Anything")
-Then I thought, "Right. WordPress. That's what the professionals use." So I taught myself WordPress. Spent a year getting comfortable with themes, plugins, and that particular brand of frustration that comes with trying to customize something that really doesn't want to be customized.
-
-It was better. But still... not quite there.
-
-### The Canva Pivot (aka "Wait, Canva Does Websites Now?")
-When Canva launched websites, I was intrigued. As someone who already loved Canva for design, it seemed like the perfect middle ground. Quick. Visual. Easy to update.
-
-And for a while, it was great. But I kept bumping into the same limitation: I could make it look nice, but I couldn't make it do what I actually needed it to do.
-
----
-
-## NARRATIVE PART 2: The Pivot
-
-### The Plot Twist: Learning to Code
-Here's where things got interesting.
-
-I was building AI agents for my Master's research—voice assistants, automated systems, tools to help businesses scale without losing their humanity. I needed these agents to talk to websites, to collect data, to integrate with systems.
-
-So I learned to code. Not to build websites. To build infrastructure.
-
-But then I had this thought: "If I can build web apps... why not try building an actual website?"
-
-### The Moment Everything Changed (Callout Box)
-I'm a storyteller. It's what I've always done—taking complex ideas and turning them into something people can see themselves in. Something that moves them to action.
-
-When I started coding my own sites, something clicked.
-
-For the first time, I could take a message—a real human message—and translate it exactly into digital form. No templates. No compromises. Just pure translation: from heart to code to screen.
-
-And I absolutely loved it. The problem-solving. The logic puzzles. The satisfaction of making something work. As someone who thrives on learning and growth (it's literally my top value), coding felt like coming home.
-
-### The Pilot Programme (aka "The Joy on Their Faces")
-I started building websites for small business owners I knew. People like my dad, who ran a small business and was brilliant at the work but frustrated by the admin. People like my husband, who's in the trades. Real people doing real work.
-
-I'd sit down with them, listen to their story, understand their business. Then I'd go away and build them something that felt authentically them.
-
-When I delivered those websites, the reactions floored me.
-
-- "This is exactly us."
-- "How did you know?"
-- "This feels like me, but better."
-
-**That joy—that moment when someone sees themselves properly represented online for the first time—that's what hooked me.**
-
----
-
-## NARRATIVE PART 3: The Mission & Bio
-
-### The Coffee Shop Revelation
-One day I was having coffee in Whangārei, scrolling through my phone, checking in on local businesses I loved. The baker who makes the best sourdough. The builder who renovated our house. The café where I'm writing this.
-
-And I realised: most of them were in a digital void.
-
-Living on Facebook. Or Instagram. Or both. Entirely at the mercy of algorithms they couldn't control. One platform policy change away from losing their entire digital presence.
-
-These were businesses that had been around for 20 years. Businesses with loyal customers, excellent reputations, real value to offer. But online? They were tenants. Not owners.
-
-**And I thought: This isn't right.**
-
-### The Mission: From Tenants to Owners
-That's when YourHQ was born.
-
-I want to make owning your own space online accessible for small to medium businesses in Aotearoa. Not renting space on someone else's platform. Not being subject to someone else's rules. Owning your digital home.
-
-My mission is simple: translate you—and your business—into YourHQ online.
-
-When someone sees your website, reads your content, and then meets you in person, I want them to feel like your website was a real, authentic representation of you. Not a template. Not a cookie-cutter design. You.
-
-### Why I'm Qualified to Do This (Beyond the Obvious)
-Yes, I can code. Yes, I understand AI and automation and all the technical stuff.
-
-But here's what really matters: I'm studying Technological Futures. I'm fascinated by where technology is taking us and how we can make our digital experiences richer, more meaningful, more human.
-
-And I'm a storyteller through and through. Someone who prides herself on the ability to turn information into story—authentic, honest, engaging.
-
-### Closing Callout
-**That combination? That's what makes YourHQ different.**
-
-I bring Silicon Valley infrastructure with Pacific hospitality. Code with conversation. Technical precision with genuine warmth.
-
-Because at the end of the day, your website isn't just a digital brochure. It's the bridge between your business and your customers. Between who you are and who you're meant to serve.
-
-And that bridge deserves to be built properly.
-
----
-
-## SECTION: What This Means for You
+## SECTION 1: How YourHQ Started
 
 ### Headline
-What This Means for You
+How YourHQ Started
+
+### Opening
+Here's a stat that stuck in my head from my entrepreneurship studies: only 50% of small to medium businesses in New Zealand have a website.
+
+**Half. In 2025.**
 
 ### Body Copy
-If you're a small or medium business owner in New Zealand, tired of:
+And I kept thinking about it. Especially as I watched friends build up these incredible profiles on Instagram and Facebook — years of work, thousands of followers, their whole customer base — and then poof. Banned. Hacked. Algorithm changed. Everything gone.
 
-✕ Being in an algorithmic void
-✕ Fighting with website builders that don't quite work
-✕ Feeling like your online presence doesn't represent who you really are
-✕ Spending hours on tech when you should be doing what you're actually good at
+All that work. All those contacts. Just... vanished.
 
-**Then YourHQ might be for you.**
+### Quote Box
+"I'm also the kind of person who checks websites before I hire anyone. If I'm picking between two tradies and one's got a beautiful website? I go with that tradie. Every time. It's not rational — but it's real."
 
-### Closing Paragraph
-I don't just build websites. I translate your business into digital form. I create infrastructure that works while you sleep. And I make sure that when someone lands on your site, they meet you—not some generic template version of you.
+### The Mission
+So when I started learning to code and building AI systems for my Master's, I kept coming back to this question: **How do I create something that actually gets these business owners online?** Not another DIY tool they'll never finish. A system that does the hard part for them.
 
-Because you deserve to own your digital space.
-And I've learned just enough code to make that happen.
+### Dad's Story
+**And honestly? I think about my dad.**
 
-**CTA Button:** Ready to move from tenant to owner? Let's talk.
+He ran a small business — *Maungi Tanks*. He's not with us anymore. But I imagine what it would've been like to build him a website. To see his face when he saw himself on the internet for the first time.
+
+He would have loved it. It would have made him proud.
+
+### Mission Statement Box
+**That's why YourHQ exists.**
+
+For the tradies. The salon owners. The consultants. The small business people who are brilliant at what they do — but never got around to the website part.
+
+I want to give them what I wish I could've given my dad.
+
+---
+
+## SECTION 2 & 3: Meet The Team
+
+### Section Title
+Meet The Team
+
+### Lian - Founder & Lead Developer
+
+**What I bring:**
+I've spent 15 years helping people communicate better — building learning experiences, designing systems, translating complexity into clarity.
+
+When I started building AI agents for my Master's research, I accidentally taught myself to code. Then I had a thought: If I can build web apps... why not build websites?
+
+Turns out, I loved it. The problem-solving. The logic puzzles. Taking someone's story and translating it exactly into digital form.
+
+**What I bring:**
+Silicon Valley infrastructure with Pacific warmth. I handle the builds, the tech, the design — and making sure your website actually sounds like you.
+
+---
+
+### Nic - Business Development Manager
+
+I'm Nic — your first point of contact and biggest cheerleader.
+
+**Here's the thing: I didn't just join YourHQ. I used YourHQ.**
+
+When Lian asked if I'd pilot the service, I'd spent that morning wrestling with Wix, drowning in templates and decisions. Then she asked me a few questions, went away, and built me a website that actually looked like my business.
+
+I nearly cried. Building a website was my barrier to market — the thing holding me back from launching my dream. And just like that, the blocker was gone. Now I'm here to help you do the same.
+
+**What I bring:**
+I'm not a pushy salesperson. I'm someone who listens, understands where you're coming from, and helps you figure out if this is right for you. Think of me as a friendly guide who happens to believe in this service because it changed my own trajectory.
+
+---
+
+## SECTION 4: Friends First. Always.
+
+### Headline
+Friends First. Always.
+
+### Body Copy
+We've been mates for over 12 years.
+
+We've played rugby together. We've raised kids the same age. We've been each other's hype girls through every wild idea, every hard season, every "what if I just..." conversation.
+
+The kind of friends who don't need to talk every day, but when we get together, it feels like yesterday.
+
+When Lian knew she needed someone to handle the people side of YourHQ — someone who could walk into any room and make everyone feel at ease — Nic was the only person she asked.
+
+**Not because we wanted to work together.**
+**Because we trust each other completely.**
+
+### Closing Box
+**And that's what you get when you work with us:**
+
+Two people who genuinely care. Who've been in the small business hustle ourselves. Who want to see you thrive — not just sell you something.
+
+---
+
+## SECTION 5: The Best of Both Worlds
+
+### Headline
+The Best of Both Worlds
+
+### With Lian
+You get someone who obsesses over getting your message right. Who builds infrastructure that works while you sleep. Who won't rest until your website actually sounds like you.
+
+### With Nic
+You get someone who makes you feel heard. Who answers your questions without jargon. Who you'll walk away from thinking, "I think I just made a new friend."
+
+### Closing
+**We're not a faceless agency.**
+
+We're two Kiwis who believe you deserve to own your digital space.
+
+And we're pretty good at making that happen.
+
+---
+
+## SECTION 6: CTA
+
+### Headline
+Ready to Meet Us?
+
+### Body Copy
+Have questions? Want to chat before committing? **Nic's your person.**
+
+Ready to start your build? **Let's go.**
+
+**CTA Button:** Let's Chat
 
 ---
 
@@ -922,5 +929,5 @@ Join the gallery of owners, not tenants.
 # END OF DOCUMENT
 
 **Total Pages:** 6
-**Last Updated:** December 11, 2025
+**Last Updated:** December 18, 2024
 **Document Compiled By:** YourHQ Team
