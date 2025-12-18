@@ -5,8 +5,8 @@ import Footer from '../components/Footer.astro';
 ---
 
 <Layout 
-  title="The Accidental Web Developer | YourHQ" 
-  description="How a storyteller fell in love with code and built YourHQ."
+  title="Our Story | YourHQ" 
+  description="Friends first. Business partners second. Here to help you own your digital space."
 >
   <Navbar client:load />
 
@@ -15,175 +15,288 @@ import Footer from '../components/Footer.astro';
     <!-- HEADER -->
     <section class="pt-32 pb-20 border-b border-carbon bg-white">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-            The Accidental <br/>
-            <span class="text-signal">Web Developer.</span>
-        </h1>
-        <div class="max-w-3xl border-l-4 border-carbon pl-8 py-2">
-            <h2 class="text-xl md:text-2xl font-medium leading-relaxed text-carbon">
-                Or: What Happens When a Storyteller Falls in Love With Code
-            </h2>
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Header Text -->
+            <div class="lg:col-span-7">
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+                    Two Mates. <br/>
+                    <span class="text-signal">One Mission.</span>
+                </h1>
+                <div class="max-w-xl border-l-4 border-carbon pl-8 py-2">
+                    <h2 class="text-xl md:text-2xl font-medium leading-relaxed text-carbon">
+                        Friends first. Business partners second. Here to help you own your digital space.
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Header Image: Laughter/Warmth -->
+            <div class="lg:col-span-5">
+                <div class="aspect-[4/3] bg-gray-100 border-2 border-carbon shadow-hard transform rotate-2 hover:rotate-0 transition-transform duration-500 overflow-hidden rounded-sm">
+                    <img
+                        src="/nic-lian-laugh.webp"
+                        alt="Nic and Lian laughing together"
+                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                    />
+                </div>
+            </div>
+
         </div>
       </div>
     </section>
 
-    <!-- NARRATIVE PART 1: The Journey -->
+    <!-- SECTION 1: HOW YOURHQ STARTED -->
     <section class="py-20 bg-paper border-b border-carbon">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 leading-relaxed text-lg text-carbon/90 space-y-8">
             
-            <p class="font-medium text-xl">
-                Kia ora, I'm Lian and I've spent 15 years helping people communicate better. Building learning experiences. Designing systems. Translating complexity into clarity. But I never thought I'd be building websites.
-            </p>
-            <p>Here's how it actually happened.</p>
-
-            <div class="my-12 space-y-12">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4 text-carbon">The Wix Era (aka "This Should Be Easy, Right?")</h3>
-                    <p>Like most people, I started with Wix. Drag, drop, done. Except it wasn't done. It never looked quite right. The templates felt generic. And every time I wanted something specific, I'd hit a wall. But hey, at least I had a website.</p>
-                </div>
-
-                <div>
-                    <h3 class="text-2xl font-bold mb-4 text-carbon">The WordPress Year (aka "I Can Learn Anything")</h3>
-                    <p>Then I thought, "Right. WordPress. That's what the professionals use." So I taught myself WordPress. Spent a year getting comfortable with themes, plugins, and that particular brand of frustration that comes with trying to customize something that really doesn't want to be customized.</p>
-                    <p class="mt-2">It was better. But still... not quite there.</p>
-                </div>
-
-                <div>
-                    <h3 class="text-2xl font-bold mb-4 text-carbon">The Canva Pivot (aka "Wait, Canva Does Websites Now?")</h3>
-                    <p>When Canva launched websites, I was intrigued. As someone who already loved Canva for design, it seemed like the perfect middle ground. Quick. Visual. Easy to update.</p>
-                    <p class="mt-2">And for a while, it was great. But I kept bumping into the same limitation: I could make it look nice, but I couldn't make it do what I actually needed it to do.</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- NARRATIVE PART 2: The Pivot -->
-    <section class="py-20 bg-white border-b border-carbon">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 leading-relaxed text-lg text-carbon/90 space-y-8">
-            
-            <div>
-                <h3 class="text-2xl font-bold mb-4 text-signal">The Plot Twist: Learning to Code</h3>
-                <p>Here's where things got interesting.</p>
-                <p class="mt-4">I was building AI agents for my Master's research—voice assistants, automated systems, tools to help businesses scale without losing their humanity. I needed these agents to talk to websites, to collect data, to integrate with systems.</p>
-                <p class="mt-4">So I learned to code. Not to build websites. To build <em>infrastructure</em>.</p>
-                <p class="mt-4">But then I had this thought: "If I can build web apps... why not try building an actual website?"</p>
-            </div>
-
-            <div class="bg-paper p-8 border-l-4 border-signal shadow-sm my-8">
-                <h3 class="text-xl font-bold mb-4">The Moment Everything Changed</h3>
-                <p class="mb-4">I'm a storyteller. It's what I've always done—taking complex ideas and turning them into something people can see themselves in. Something that moves them to action.</p>
-                <p class="mb-4">When I started coding my own sites, something clicked.</p>
-                <p class="mb-4 font-medium">For the first time, I could take a message—a real human message—and translate it <em>exactly</em> into digital form. No templates. No compromises. Just pure translation: from heart to code to screen.</p>
-                <p>And I absolutely loved it. The problem-solving. The logic puzzles. The satisfaction of making something work. As someone who thrives on learning and growth (it's literally my top value), coding felt like coming home.</p>
-            </div>
-
-            <div>
-                <h3 class="text-2xl font-bold mb-4 text-carbon">The Pilot Programme (aka "The Joy on Their Faces")</h3>
-                <p>I started building websites for small business owners I knew. People like my dad, who ran a small business and was brilliant at the work but frustrated by the admin. People like my husband, who's in the trades. Real people doing real work.</p>
-                <p class="mt-4">I'd sit down with them, listen to their story, understand their business. Then I'd go away and build them something that felt authentically <em>them</em>.</p>
-                <p class="mt-4">When I delivered those websites, the reactions floored me.</p>
-                <ul class="list-disc list-inside mt-4 space-y-2 pl-4 italic text-gray-600">
-                    <li>"This is exactly us."</li>
-                    <li>"How did you know?"</li>
-                    <li>"This feels like me, but better."</li>
-                </ul>
-                <p class="mt-4 font-bold">That joy—that moment when someone sees themselves properly represented online for the first time—that's what hooked me.</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- NARRATIVE PART 3: The Mission & Bio -->
-    <section class="py-24 bg-paper border-b border-carbon">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <!-- Coffee Shop Revelation -->
-            <div class="max-w-3xl mx-auto mb-20 text-lg leading-relaxed text-carbon/90">
-                <h3 class="text-3xl font-extrabold mb-6">The Coffee Shop Revelation</h3>
-                <p class="mb-4">One day I was having coffee in Whangārei, scrolling through my phone, checking in on local businesses I loved. The baker who makes the best sourdough. The builder who renovated our house. The café where I'm writing this.</p>
-                <p class="mb-4">And I realised: most of them were in a digital void.</p>
-                <p class="mb-4">Living on Facebook. Or Instagram. Or both. Entirely at the mercy of algorithms they couldn't control. One platform policy change away from losing their entire digital presence.</p>
-                <p class="mb-8">These were businesses that had been around for 20 years. Businesses with loyal customers, excellent reputations, real value to offer. But online? They were tenants. Not owners.</p>
-                
-                <p class="font-bold text-xl text-center border-y-2 border-carbon py-6 my-8">
-                    And I thought: <em>This isn't right.</em>
+            <div class="mb-12">
+                <span class="text-sm font-bold tracking-widest uppercase text-signal mb-2 block">How YourHQ Started</span>
+                <p class="font-medium text-xl">
+                    Here's a stat that stuck in my head from my entrepreneurship studies: only 50% of small to medium businesses in New Zealand have a website.
                 </p>
-
-                <h3 class="text-2xl font-bold mb-4 mt-12">The Mission: From Tenants to Owners</h3>
-                <p class="mb-4">That's when YourHQ was born.</p>
-                <p class="mb-4">I want to make owning your own space online accessible for small to medium businesses in Aotearoa. Not renting space on someone else's platform. Not being subject to someone else's rules. <em>Owning</em> your digital home.</p>
-                <p class="mb-4">My mission is simple: translate you—and your business—into YourHQ online.</p>
-                <p>When someone sees your website, reads your content, and then meets you in person, I want them to feel like your website was a real, authentic representation of you. Not a template. Not a cookie-cutter design. <em>You.</em></p>
+                <p class="text-3xl font-extrabold text-carbon mt-4">Half. In 2025.</p>
             </div>
 
-            <!-- BIO / QUALIFICATIONS -->
-            <div class="grid md:grid-cols-12 gap-12 items-start pt-12 border-t border-gray-200">
+            <p>
+                And I kept thinking about it. Especially as I watched friends build up these incredible profiles on Instagram and Facebook — years of work, thousands of followers, their whole customer base — and then poof. Banned. Hacked. Algorithm changed. Everything gone.
+            </p>
+            <p>
+                All that work. All those contacts. Just... vanished.
+            </p>
+
+            <div class="bg-white p-8 border border-carbon shadow-sm my-8">
+                <p class="italic text-lg">
+                    "I'm also the kind of person who checks websites before I hire anyone. If I'm picking between two tradies and one's got a beautiful website? I go with that tradie. Every time. It's not rational — but it's real."
+                </p>
+            </div>
+
+            <p>
+                So when I started learning to code and building AI systems for my Master's, I kept coming back to this question: <strong>How do I create something that actually gets these business owners online?</strong> Not another DIY tool they'll never finish. A system that does the hard part for them.
+            </p>
+
+            <h3 class="text-2xl font-bold mt-12 mb-4 text-carbon">And honestly? I think about my dad.</h3>
+            <p>
+                He ran a small business — <em>Maungi Tanks</em>. He's not with us anymore. But I imagine what it would've been like to build him a website. To see his face when he saw himself on the internet for the first time.
+            </p>
+            <p>
+                He would have loved it. It would have made him proud.
+            </p>
+            
+            <div class="border-l-4 border-signal pl-6 py-2 mt-8">
+                <p class="font-bold text-xl text-carbon mb-2">That's why YourHQ exists.</p>
+                <p>For the tradies. The salon owners. The consultants. The small business people who are brilliant at what they do — but never got around to the website part.</p>
+                <p class="mt-4">I want to give them what I wish I could've given my dad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2 & 3: MEET THE TEAM -->
+    <section class="py-20 bg-white border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold mb-16 text-center">Meet The Team</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
                 
-                <!-- Headshot -->
-                <div class="md:col-span-4 lg:col-span-3">
-                    <div class="aspect-[4/5] bg-gray-100 border border-carbon shadow-hard relative overflow-hidden">
-                        <img src="/lian-headshot.webp" alt="Lian Passmore" class="w-full h-full object-cover" />
+                <!-- LIAN -->
+                <div class="space-y-6">
+                    <div class="aspect-[4/5] bg-gray-100 border border-carbon shadow-hard relative overflow-hidden mb-6 group">
+                         <img 
+                            src="/lian-headshot.webp" 
+                            alt="Lian Passmore" 
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                        />
+                    </div>
+
+                    <div>
+                        <h3 class="text-3xl font-bold text-carbon">Lian</h3>
+                        <span class="text-signal font-bold tracking-wide uppercase text-sm">Founder & Lead Developer</span>
+                    </div>
+
+                    <div class="text-lg text-carbon/90 space-y-4 leading-relaxed">
+                        <p>
+                            I've spent 15 years helping people communicate better — building learning experiences, designing systems, translating complexity into clarity.
+                        </p>
+                        <p>
+                            When I started building AI agents for my Master's research, I accidentally taught myself to code. Then I had a thought: If I can build web apps... why not build websites?
+                        </p>
+                        <p>
+                            Turns out, I loved it. The problem-solving. The logic puzzles. Taking someone's story and translating it exactly into digital form.
+                        </p>
+                        <div class="bg-paper p-4 border-l-2 border-carbon">
+                            <span class="font-bold block mb-1">What I bring:</span>
+                            Silicon Valley infrastructure with Pacific warmth. I handle the builds, the tech, the design — and making sure your website actually sounds like you.
+                        </div>
                     </div>
                 </div>
 
-                <!-- Text -->
-                <div class="md:col-span-8 lg:col-span-9 space-y-6 text-lg text-carbon/90">
-                    <h3 class="text-3xl font-extrabold">Why I'm Qualified to Do This <span class="text-gray-400 font-normal text-xl block sm:inline sm:ml-2">(Beyond the Obvious)</span></h3>
-                    
-                    <p>Yes, I can code. Yes, I understand AI and automation and all the technical stuff.</p>
-                    
-                    <p>But here's what really matters: I'm studying Technological Futures. I'm fascinated by where technology is taking us and how we can make our digital experiences richer, more meaningful, more human.</p>
-                    
-                    <p>And I'm a storyteller through and through. Someone who prides herself on the ability to turn information into story—authentic, honest, engaging.</p>
+                <!-- NIC -->
+                <div class="space-y-6">
+                    <div class="aspect-[4/5] bg-gray-100 border border-carbon shadow-hard relative overflow-hidden mb-6 group">
+                        <img 
+                            src="/nic-headshot.png" 
+                            alt="Nic" 
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                        />
+                    </div>
 
-                    <div class="bg-white p-6 border-l-4 border-frangipani mt-6">
-                        <p class="font-bold text-lg mb-2">That combination? That's what makes YourHQ different.</p>
-                        <p>I bring Silicon Valley infrastructure with Pacific hospitality. Code with conversation. Technical precision with genuine warmth.</p>
-                        <p class="mt-4">Because at the end of the day, your website isn't just a digital brochure. It's the bridge between your business and your customers. Between who you are and who you're meant to serve.</p>
-                        <p class="mt-2 font-medium">And that bridge deserves to be built properly.</p>
+                    <div>
+                        <h3 class="text-3xl font-bold text-carbon">Nic</h3>
+                        <span class="text-signal font-bold tracking-wide uppercase text-sm">Business Development Manager</span>
+                    </div>
+
+                    <div class="text-lg text-carbon/90 space-y-4 leading-relaxed">
+                        <p>
+                            I'm Nic — your first point of contact and biggest cheerleader.
+                        </p>
+                        <p class="font-bold">
+                            Here's the thing: I didn't just join YourHQ. I used YourHQ.
+                        </p>
+                        <p>
+                            When Lian asked if I'd pilot the service, I'd spent that morning wrestling with Wix, drowning in templates and decisions. Then she asked me a few questions, went away, and built me a website that actually looked like my business.
+                        </p>
+                        <p>
+                            I nearly cried. Building a website was my barrier to market — the thing holding me back from launching my dream. And just like that, the blocker was gone. Now I'm here to help you do the same.
+                        </p>
+                        <div class="bg-paper p-4 border-l-2 border-carbon">
+                            <span class="font-bold block mb-1">What I bring:</span>
+                            I'm not a pushy salesperson. I'm someone who listens, understands where you're coming from, and helps you figure out if this is right for you. Think of me as a friendly guide who happens to believe in this service because it changed my own trajectory.
+                        </div>
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: FRIENDS FIRST -->
+    <section class="py-24 bg-paper border-b border-carbon relative overflow-hidden">
+        <!-- Decorative background element -->
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-64 h-64 bg-signal/5 rounded-full blur-3xl"></div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold mb-12 text-center">Friends First. Always.</h2>
+
+            <div class="grid md:grid-cols-12 gap-12 items-center mb-16">
+
+                <!-- Polaroid Photos Scatter -->
+                <div class="md:col-span-5 order-2 md:order-1 relative">
+                    <!-- Rugby Photo - Main/Largest -->
+                    <div class="bg-white p-3 shadow-xl transform -rotate-3 hover:rotate-0 transition-transform duration-500 border border-gray-200 relative z-10">
+                        <div class="aspect-[4/5] bg-gray-200 overflow-hidden">
+                             <img
+                                src="/nic-lian-rugby.webp"
+                                alt="Nic and Lian playing rugby together"
+                                class="w-full h-full object-cover sepia-[.3]"
+                            />
+                        </div>
+                        <div class="pt-3 pb-1 text-center font-handwriting text-gray-500 text-sm">
+                            The Rugby Days
+                        </div>
+                    </div>
+
+                    <!-- Christmas Photo - Top Right -->
+                    <div class="absolute -top-4 -right-8 w-32 bg-white p-2 shadow-xl transform rotate-12 hover:rotate-6 transition-transform duration-500 border border-gray-200 z-20">
+                        <div class="aspect-[3/4] bg-gray-200 overflow-hidden">
+                            <img
+                                src="/nic-lian-xmas.webp"
+                                alt="Nic and Lian at Christmas"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="pt-1 pb-1 text-center font-handwriting text-gray-500 text-[10px]">
+                            Christmas
+                        </div>
+                    </div>
+
+                    <!-- Food Photo - Bottom Left -->
+                    <div class="absolute -bottom-6 -left-6 w-32 bg-white p-2 shadow-xl transform -rotate-6 hover:rotate-0 transition-transform duration-500 border border-gray-200 z-20">
+                        <div class="aspect-[3/4] bg-gray-200 overflow-hidden">
+                            <img
+                                src="/nic-lian-food.webp"
+                                alt="Nic and Lian enjoying food together"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="pt-1 pb-1 text-center font-handwriting text-gray-500 text-[10px]">
+                            Good Times
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Narrative Text -->
+                <div class="md:col-span-7 order-1 md:order-2 text-lg leading-relaxed text-carbon/90 space-y-6">
+                    <p>
+                        We've been mates for over 12 years.
+                    </p>
+                    <p>
+                        We've played rugby together. We've raised kids the same age. We've been each other's hype girls through every wild idea, every hard season, every "what if I just..." conversation.
+                    </p>
+                    <p>
+                        The kind of friends who don't need to talk every day, but when we get together, it feels like yesterday.
+                    </p>
+                    <p>
+                        When Lian knew she needed someone to handle the people side of YourHQ — someone who could walk into any room and make everyone feel at ease — Nic was the only person she asked.
+                    </p>
+                    <p class="font-medium italic">
+                        Not because we wanted to work together. <br/>
+                        Because we trust each other completely.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="max-w-2xl mx-auto text-center pt-12 mt-12 border-t border-carbon/20">
+                <p class="font-bold text-xl mb-4">And that's what you get when you work with us:</p>
+                <p class="text-lg">Two people who genuinely care. Who've been in the small business hustle ourselves. Who want to see you thrive — not just sell you something.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: BEST OF BOTH WORLDS -->
+    <section class="py-20 bg-carbon text-paper">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-12 text-white text-center">The Best of Both Worlds</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <!-- With Lian -->
+                <div class="bg-gray-800 p-8 rounded-sm border border-gray-700 hover:border-signal transition-colors duration-300">
+                    <h3 class="text-2xl font-bold text-signal mb-4">With Lian</h3>
+                    <p class="text-lg text-gray-300">
+                        You get someone who obsesses over getting your message right. Who builds infrastructure that works while you sleep. Who won't rest until your website actually sounds like you.
+                    </p>
+                </div>
+
+                <!-- With Nic -->
+                <div class="bg-gray-800 p-8 rounded-sm border border-gray-700 hover:border-signal transition-colors duration-300">
+                    <h3 class="text-2xl font-bold text-signal mb-4">With Nic</h3>
+                    <p class="text-lg text-gray-300">
+                        You get someone who makes you feel heard. Who answers your questions without jargon. Who you'll walk away from thinking, "I think I just made a new friend."
+                    </p>
+                </div>
+            </div>
+
+            <div class="max-w-3xl mx-auto text-center space-y-4">
+                <p class="text-2xl font-bold text-white">We're not a faceless agency.</p>
+                <p class="text-xl text-gray-400">We're two Kiwis who believe you deserve to own your digital space.</p>
+                <p class="text-xl text-gray-400">And we're pretty good at making that happen.</p>
             </div>
 
         </div>
     </section>
 
-    <!-- CONCLUSION / CTA -->
-    <section class="py-24 bg-carbon text-paper">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl md:text-5xl font-extrabold mb-8 text-white">What This Means for You</h2>
+    <!-- SECTION 6: CTA -->
+    <section class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-extrabold mb-8 text-carbon">Ready to Meet Us?</h2>
             
-            <div class="text-left bg-gray-800 p-8 rounded-sm mb-12 border border-gray-700 shadow-xl">
-                <p class="text-xl text-gray-300 mb-6">If you're a small or medium business owner in New Zealand, tired of:</p>
-                <ul class="space-y-4 mb-8 text-gray-300">
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">✕</span> Being in an algorithmic void
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">✕</span> Fighting with website builders that don't quite work
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">✕</span> Feeling like your online presence doesn't represent who you really are
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">✕</span> Spending hours on tech when you should be doing what you're actually good at
-                    </li>
-                </ul>
-                <p class="text-xl text-white font-bold">Then YourHQ might be for you.</p>
+            <div class="space-y-4 mb-12 text-lg text-carbon/80">
+                <p>Have questions? Want to chat before committing? <strong>Nic's your person.</strong></p>
+                <p>Ready to start your build? <strong>Let's go.</strong></p>
             </div>
 
-            <p class="text-lg text-gray-400 mb-12 leading-relaxed">
-                I don't just build websites. I translate your business into digital form. I create infrastructure that works while you sleep. And I make sure that when someone lands on your site, they meet <em>you</em>—not some generic template version of you.
-                <br/><br/>
-                Because you deserve to own your digital space.
-                <br/>
-                And I've learned just enough code to make that happen.
-            </p>
-
-            <div class="inline-block p-1 border-2 border-dashed border-gray-600 rounded-full">
-                <a href="/contact" class="inline-block bg-signal hover:bg-red-600 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105">
-                    Ready to move from tenant to owner? Let's talk.
+            <div class="inline-block p-1 border-2 border-dashed border-gray-400 rounded-full">
+                <a href="/contact" class="inline-block bg-signal hover:bg-red-600 text-white font-bold py-4 px-12 rounded-full transition-all transform hover:scale-105 shadow-hard">
+                    Let's Chat
                 </a>
             </div>
         </div>
