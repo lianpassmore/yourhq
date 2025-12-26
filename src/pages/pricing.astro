@@ -21,9 +21,12 @@ import FAQSchema from '../components/FAQSchema.astro';
           Transparent Pricing.<br />
           <span class="text-signal">No Surprises.</span>
         </h1>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Most agencies charge $8k+. We start at $695. <br/>
-          Then a simple monthly fee to keep the lights on.
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed mb-6">
+          Most agencies charge $8k+ upfront. We start at $695.<br/>
+          Then a simple monthly fee — claimable as a business expense.
+        </p>
+        <p class="text-sm text-gray-500 max-w-xl mx-auto">
+          Your accountant will love this. It's a regular business expense, just like your phone bill or Xero subscription.
         </p>
       </div>
     </section>
@@ -72,7 +75,7 @@ import FAQSchema from '../components/FAQSchema.astro';
                     </li>
                     <li class="flex gap-4 items-start">
                         <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium"><strong>Annual Design Refresh</strong></span>
+                        <span class="font-medium"><strong>Annual Design Refresh (Included)</strong></span>
                     </li>
                 </ul>
 
@@ -189,13 +192,110 @@ import FAQSchema from '../components/FAQSchema.astro';
       </div>
     </section>
 
-    <!-- WHAT YOU'RE ACTUALLY COMPARING -->
+    <!-- WHAT YOUR MONTHLY FEE ACTUALLY COVERS -->
     <section class="py-24 bg-paper border-b border-carbon">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-extrabold mb-6 tracking-tighter">What You're Actually Comparing</h2>
-            <p class="text-2xl font-bold text-carbon mb-12">WHY $995 + $149/MO ISN'T CHEAP. IT'S FAIR.</p>
+            <h2 class="text-4xl font-extrabold mb-6 tracking-tighter text-center">What Your Monthly Fee Actually Covers</h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-2xl mx-auto">It's not just hosting. It's your next website, already paid for.</p>
+            
+            <div class="space-y-12">
+                
+                <!-- REASON 1: ANNUAL REFRESH -->
+                <div class="bg-signal/10 border-2 border-signal p-8 md:p-10 shadow-hard">
+                    <div class="flex items-start gap-4">
+                        <span class="text-4xl">🔄</span>
+                        <div>
+                            <h3 class="text-2xl font-extrabold mb-4 text-carbon">1. Your Next Website Is Already Paid For</h3>
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Most businesses pay $5,000 every few years to rebuild their site when it starts looking tired. That's $1,666 per year just to stay current.
+                            </p>
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                With YourHQ, your <strong>Annual Design Refresh</strong> is included in your monthly fee. When your 12-month anniversary rolls around, we update your fonts, layout, and hero section. You get a fresh-looking website every year — no surprise invoice.
+                            </p>
+                            <div class="bg-white border border-signal/30 p-4 mt-6">
+                                <p class="font-bold text-carbon">Think of your monthly fee as a website savings account.</p>
+                                <p class="text-sm text-gray-600 mt-1">Every month, you're putting away a little so your refresh is already covered when the time comes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <p class="text-lg text-gray-600 mb-12">Here's what the alternatives actually cost:</p>
+                <!-- REASON 2: TAX DEDUCTIBLE -->
+                <div class="bg-frangipani/10 border-2 border-frangipani p-8 md:p-10">
+                    <div class="flex items-start gap-4">
+                        <span class="text-4xl">🧾</span>
+                        <div>
+                            <h3 class="text-2xl font-extrabold mb-4 text-carbon">2. It's a Claimable Business Expense</h3>
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Just like your phone bill, your insurance, or your Xero subscription — your accountant can generally claim this back as a regular business expense.
+                            </p>
+                            <ul class="space-y-2 text-gray-700 mb-4">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-frangipani mt-1">✓</span>
+                                    <span>No complicated depreciation schedules</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-frangipani mt-1">✓</span>
+                                    <span>No massive upfront cash hit</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-frangipani mt-1">✓</span>
+                                    <span>Simple monthly expense your accountant will recognise</span>
+                                </li>
+                            </ul>
+                            <p class="text-sm text-gray-500 italic">
+                                (Tax situations vary — check with your accountant, but most business owners can claim this.)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- REASON 3: CARETAKERS -->
+                <div class="bg-white border-2 border-carbon p-8 md:p-10">
+                    <div class="flex items-start gap-4">
+                        <span class="text-4xl">🛠️</span>
+                        <div>
+                            <h3 class="text-2xl font-extrabold mb-4 text-carbon">3. We Keep the Lights On</h3>
+                            <p class="text-gray-700 leading-relaxed mb-6">
+                                It also covers all the stuff you'll never think about (until it breaks):
+                            </p>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 class="font-bold text-sm uppercase tracking-wider text-gray-500 mb-3">Infrastructure</h4>
+                                    <ul class="space-y-2 text-sm text-gray-600">
+                                        <li>• High-speed Vercel hosting</li>
+                                        <li>• Daily backups & restore</li>
+                                        <li>• SSL security certificate</li>
+                                        <li>• Domain name renewal (.co.nz)</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm uppercase tracking-wider text-gray-500 mb-3">Human Support</h4>
+                                    <ul class="space-y-2 text-sm text-gray-600">
+                                        <li>• Unlimited "Text Us" updates</li>
+                                        <li>• Tech fixes when things break</li>
+                                        <li>• Real humans in Northland</li>
+                                        <li>• No chatbots, no runarounds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="mt-12 p-6 bg-carbon text-white text-center">
+                <p class="font-medium">Think of it like rates for your digital property. You pay to keep it maintained, secure, and looking fresh.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT YOU'RE ACTUALLY COMPARING -->
+    <section class="py-24 bg-white border-b border-carbon">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-extrabold mb-6 tracking-tighter">What You're Actually Comparing</h2>
+            <p class="text-2xl font-bold text-carbon mb-12">Here's what the alternatives actually cost:</p>
 
             <div class="border-t-2 border-carbon mb-12"></div>
 
@@ -239,7 +339,7 @@ import FAQSchema from '../components/FAQSchema.astro';
                         <ul class="space-y-2 text-gray-600 mb-6">
                             <li class="flex items-start gap-3">
                                 <span class="text-carbon mt-1">•</span>
-                                <span>$5,000–15,000 setup</span>
+                                <span>$5,000–15,000 upfront (big cash hit)</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-carbon mt-1">•</span>
@@ -251,7 +351,7 @@ import FAQSchema from '../components/FAQSchema.astro';
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-carbon mt-1">•</span>
-                                <span>You're often abandoned after launch</span>
+                                <span>Abandoned after launch — rebuild in 3 years</span>
                             </li>
                         </ul>
                         <div class="bg-red-50 border-l-4 border-red-400 p-4">
@@ -270,24 +370,24 @@ import FAQSchema from '../components/FAQSchema.astro';
                         <ul class="space-y-2 text-gray-600 mb-6">
                             <li class="flex items-start gap-3">
                                 <span class="text-signal mt-1">•</span>
-                                <span>$995 + GST setup (5 days)</span>
+                                <span>$995 + GST setup (live in 5 days)</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-signal mt-1">•</span>
-                                <span>$149/mo + GST (forever support + annual refresh)</span>
+                                <span>$149/mo + GST (includes your next refresh)</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-signal mt-1">•</span>
-                                <span>First 2 years = $4,573 + GST</span>
+                                <span>Claimable as a business expense</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="text-signal mt-1">•</span>
-                                <span><strong>You own it. We handle it.</strong></span>
+                                <span><strong>You own it. We handle it. Forever.</strong></span>
                             </li>
                         </ul>
                         <div class="bg-signal/10 border-l-4 border-signal p-6">
                             <p class="font-bold text-xl text-carbon">Professional build + 2 years support = $4,573 + GST</p>
-                            <p class="text-sm text-gray-600 mt-2">That's less than half what most agencies charge just to build it.</p>
+                            <p class="text-sm text-gray-600 mt-2">That's less than half what most agencies charge just to build it — and your accountant can claim it.</p>
                         </div>
                     </div>
                 </div>
@@ -296,45 +396,8 @@ import FAQSchema from '../components/FAQSchema.astro';
         </div>
     </section>
 
-    <!-- WHY MONTHLY FEE -->
-    <section class="py-24 bg-paper border-b border-carbon">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-extrabold mb-12 text-center">Why Is There A Monthly Fee?</h2>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-8 border border-carbon shadow-sm">
-                    <h3 class="font-bold text-lg mb-4 flex items-center gap-2">
-                        <span class="w-3 h-3 bg-hibiscus rounded-full"></span> Human Support
-                    </h3>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• Unlimited "Text Us" updates (Launch/Growth)</li>
-                        <li>• Tech fixes if things break</li>
-                        <li>• <strong>Annual Design Refresh (Value $2k)</strong></li>
-                        <li>• Real humans, based in Northland</li>
-                    </ul>
-                </div>
-
-                <div class="bg-white p-8 border border-carbon shadow-sm">
-                    <h3 class="font-bold text-lg mb-4 flex items-center gap-2">
-                        <span class="w-3 h-3 bg-frangipani rounded-full"></span> Infrastructure
-                    </h3>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• High-speed Vercel hosting</li>
-                        <li>• Daily Backups & Restore</li>
-                        <li>• SSL Security Certificate</li>
-                        <li>• Domain Name Renewal (.co.nz)</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="mt-12 p-6 bg-carbon text-white text-center">
-                <p class="font-medium">Think of it like rates or body corporate fees for your digital property.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- THE 3-YEAR ROT CYCLE -->
-    <section class="py-24 bg-white border-b border-carbon">
+    <section class="py-24 bg-paper border-b border-carbon">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl md:text-5xl font-extrabold mb-6 tracking-tighter text-center">
                 The "3-Year Rot" Cycle <span class="text-gray-400">(The Old Way)</span>
@@ -411,7 +474,7 @@ import FAQSchema from '../components/FAQSchema.astro';
                     <div class="mt-8 pt-6 border-t-2 border-signal">
                         <p class="text-sm uppercase tracking-wider font-bold text-signal mb-2">Total Rebuild Fees:</p>
                         <p class="text-4xl font-extrabold text-carbon">$0</p>
-                        <p class="text-sm text-gray-600 mt-2">Just the monthly caretaker fee.</p>
+                        <p class="text-sm text-gray-600 mt-2">Your monthly fee already covers it.</p>
                     </div>
                 </div>
             </div>
@@ -427,7 +490,7 @@ import FAQSchema from '../components/FAQSchema.astro';
     </section>
 
     <!-- WHY SUBSCRIPTION NOT PROJECT-BASED -->
-    <section class="py-24 bg-paper border-b border-carbon">
+    <section class="py-24 bg-white border-b border-carbon">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-extrabold mb-8 tracking-tighter">Why We Do Subscription, Not Project-Based</h2>
 
@@ -454,6 +517,10 @@ import FAQSchema from '../components/FAQSchema.astro';
                         <span class="text-signal mt-1">•</span>
                         <span><strong>The odd fix</strong> when something breaks</span>
                     </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-signal mt-1">•</span>
+                        <span><strong>A refresh</strong> before it starts looking old</span>
+                    </li>
                 </ul>
             </div>
 
@@ -473,6 +540,7 @@ import FAQSchema from '../components/FAQSchema.astro';
 
             <div class="bg-signal/10 border-l-4 border-signal p-8 mb-8">
                 <p class="text-xl font-bold text-carbon mb-3">Subscription fixes this. It's predictable. It's fair.</p>
+                <p class="text-gray-600">And because it's a regular monthly expense, your accountant can generally claim it back — unlike a big upfront agency fee.</p>
             </div>
 
             <div class="text-center mt-12 p-6 bg-frangipani/10">
@@ -482,7 +550,7 @@ import FAQSchema from '../components/FAQSchema.astro';
     </section>
 
     <!-- GUARANTEE -->
-    <section class="py-24 bg-white text-center">
+    <section class="py-24 bg-paper text-center">
         <div class="max-w-3xl mx-auto px-4">
             <h2 class="text-3xl font-extrabold mb-6">The "Love Your Launch" Guarantee</h2>
             <p class="text-xl text-gray-600 mb-8">
@@ -518,31 +586,39 @@ import FAQSchema from '../components/FAQSchema.astro';
           <div class="border-l-4 border-hibiscus pl-6 py-4">
             <h3 class="text-xl font-bold mb-3 text-carbon">What's included in the monthly fee?</h3>
             <p class="text-gray-700 leading-relaxed">
-              The monthly fee covers unlimited text and photo updates, high-speed hosting on Vercel, SSL security, daily backups, domain renewal, tech support when things break, and an annual design refresh (valued at $2,000). Think of it like body corporate fees for your digital property—everything needed to keep it running smoothly.
+              The monthly fee covers unlimited text and photo updates, high-speed hosting on Vercel, SSL security, daily backups, domain renewal, tech support when things break, and an annual design refresh (valued at $2,000). Think of it as pre-paying for your next website — when your 12-month anniversary comes around, your refresh is already covered. No surprise invoices.
             </p>
           </div>
 
           <!-- FAQ 3 -->
           <div class="border-l-4 border-frangipani pl-6 py-4">
+            <h3 class="text-xl font-bold mb-3 text-carbon">Is the monthly fee tax deductible?</h3>
+            <p class="text-gray-700 leading-relaxed">
+              Generally, yes. Because it's a regular monthly subscription (like your phone bill or Xero), your accountant can usually claim it as a business expense. This is simpler than a big upfront agency fee, which often needs to be depreciated over time. Check with your accountant for your specific situation, but most business owners find this structure more tax-friendly.
+            </p>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="border-l-4 border-signal pl-6 py-4">
             <h3 class="text-xl font-bold mb-3 text-carbon">Do you work with clients outside Northland?</h3>
             <p class="text-gray-700 leading-relaxed">
               Yes! We're based in Northland but work with businesses across all of New Zealand—Auckland, Wellington, Christchurch, Queenstown, and everywhere in between. All communication happens via text, phone, and email, so location doesn't matter. We've built sites for clients nationwide.
             </p>
           </div>
 
-          <!-- FAQ 4 -->
-          <div class="border-l-4 border-signal pl-6 py-4">
+          <!-- FAQ 5 -->
+          <div class="border-l-4 border-hibiscus pl-6 py-4">
             <h3 class="text-xl font-bold mb-3 text-carbon">Can I cancel anytime?</h3>
             <p class="text-gray-700 leading-relaxed">
               Yes. All packages are month-to-month with no lock-in contracts. You can cancel anytime with 30 days' notice. You own all content and can export your site. The subscription covers hosting, maintenance, and updates—not ownership.
             </p>
           </div>
 
-          <!-- FAQ 5 -->
-          <div class="border-l-4 border-hibiscus pl-6 py-4">
+          <!-- FAQ 6 -->
+          <div class="border-l-4 border-frangipani pl-6 py-4">
             <h3 class="text-xl font-bold mb-3 text-carbon">Is this cheaper than hiring a traditional agency?</h3>
             <p class="text-gray-700 leading-relaxed">
-              Yes, significantly. Traditional NZ agencies charge $5,000–$15,000 upfront, then $100–$250/hour for updates, often totaling $10,000–$20,000 over two years. YourHQ charges $995 + GST setup + $149/month + GST = $4,573 + GST over two years, including unlimited updates and annual refreshes. That's less than half the cost with better ongoing support.
+              Yes, significantly. Traditional NZ agencies charge $5,000–$15,000 upfront, then $100–$250/hour for updates, often totaling $10,000–$20,000 over two years. YourHQ charges $995 + GST setup + $149/month + GST = $4,573 + GST over two years, including unlimited updates and annual refreshes. That's less than half the cost with better ongoing support — and it's easier to claim as a business expense.
             </p>
           </div>
         </div>

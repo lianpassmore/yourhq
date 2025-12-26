@@ -70,7 +70,7 @@ But then someone Googles you... And they find nothing. Or worse — a broken web
 Your website is your Digital Handshake. It's the first thing people experience before they meet you.
 
 ### Footer Note
-// If the carpet doesn't match the drapes? People notice.
+// First impressions still matter.
 
 ---
 
@@ -722,6 +722,7 @@ Friends first. Business partners second. Here to help you own your digital space
 
 ### Headline
 How YourHQ Started
+-
 
 ### Opening
 Here's a stat that stuck in my head from my entrepreneurship studies: only 50% of small to medium businesses in New Zealand have a website.
