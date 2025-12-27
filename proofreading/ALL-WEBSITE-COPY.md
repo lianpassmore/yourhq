@@ -1,6 +1,6 @@
 # YourHQ Website Copy - Complete Proofreading Document
 
-**Last Updated:** December 18, 2024
+**Last Updated:** December 27, 2025
 **Purpose:** Comprehensive text copy for proofreading across all website pages
 
 ---
@@ -18,12 +18,12 @@ Stop Renting.
 Start Owning.
 
 ### Hero Subheadline
-You built your business with your own hands. You've done the late nights and the hard mahi.
+You built your business with your own hands.
 
 **So why are you paying rent to Instagram?**
 
 ### Hero Description
-Professional websites for Kiwi businesses. Built in 5 business days. Managed forever. From $695.
+Professional websites for Kiwi businesses. Built in 5 business days. Managed forever.
 
 ### Hero CTAs
 - Start Your Build
@@ -46,6 +46,7 @@ Here's what nobody tells you:
 
 ### Callout Box
 **Right now, you're a Digital Tenant.**
+(Even if business is good.)
 
 The landlord sets the rules. The landlord takes the profit. The landlord can evict you whenever they want.
 
@@ -116,12 +117,14 @@ No Homework.
 No Jargon.
 
 ### Step 01: The Drive-Home Interview (15 Minutes)
-You hate writing "About Us" pages. That's why we don't make you. You call our AI Voice Agent while driving home. You just talk. We capture everything.
+You hate writing "About Us" pages. That's why we don't make you. You call our Voice Agent while driving home. You just talk. We capture everything.
+
+Do it while driving home, having a coffee, or after putting the kids to bed. We designed this because we know you have zero brainpower left after a full day.
 
 **Badge:** NO TYPING REQUIRED
 
 ### Step 02: The Factory Build
-We build it in 5 days using Astro & Tailwind CSS (Silicon Valley tech). It loads instantly, ranks high, and is impossible to hack.
+We build it in 5 days using modern, lightning-fast tech used by top startups. It loads instantly, ranks high, and is impossible to hack.
 
 **Badges:**
 - UNDER 1 SECOND LOAD
@@ -273,8 +276,10 @@ hello@yourhq.co.nz
 Transparent Pricing.
 No Surprises.
 
-Most agencies charge $8k+. We start at $695.
-Then a simple monthly fee to keep the lights on.
+Most agencies charge $8k+ upfront. We start at $695.
+Then a simple monthly fee — claimable as a business expense.
+
+Your accountant will love this. It's a regular business expense, just like your phone bill or Xero subscription.
 
 ---
 
@@ -291,7 +296,7 @@ Then a simple monthly fee to keep the lights on.
 - Drive-Home Voice Interview
 - Domain & High-Speed Hosting
 - Unlimited Text/Photo Updates
-- **Annual Design Refresh**
+- **Annual Design Refresh (Included)**
 
 **CTA:** Start Launch Build
 
@@ -338,22 +343,47 @@ All prices + GST. Full payment upfront. No lock-in contracts.
 
 ---
 
-## SECTION: Why Is There A Monthly Fee?
+## SECTION: What Your Monthly Fee Actually Covers
 
-### Infrastructure
+### Headline
+What Your Monthly Fee Actually Covers
+
+It's not just hosting. It's your next website, already paid for.
+
+### Reason 1: Your Next Website Is Already Paid For
+Most businesses pay $5,000 every few years to rebuild their site when it starts looking tired. That's $1,666 per year just to stay current.
+
+With YourHQ, your **Annual Design Refresh** is included in your monthly fee. When your 12-month anniversary rolls around, we update your fonts, layout, and hero section. You get a fresh-looking website every year — no surprise invoice.
+
+**Think of your monthly fee as a website savings account.**
+Every month, you're putting away a little so your refresh is already covered when the time comes.
+
+### Reason 2: It's a Claimable Business Expense
+Just like your phone bill, your insurance, or your Xero subscription — your accountant can generally claim this back as a regular business expense.
+
+✓ No complicated depreciation schedules
+✓ No massive upfront cash hit
+✓ Simple monthly expense your accountant will recognise
+
+(Tax situations vary — check with your accountant, but most business owners can claim this.)
+
+### Reason 3: We Keep the Lights On
+It also covers all the stuff you'll never think about (until it breaks):
+
+**Infrastructure**
 - High-speed Vercel hosting
-- Daily Backups & Restore
-- SSL Security Certificate
-- Domain Name Renewal (.co.nz)
+- Daily backups & restore
+- SSL security certificate
+- Domain name renewal (.co.nz)
 
-### Human Support
-- Unlimited "Text Us" updates (Launch/Growth)
-- Tech fixes if things break
-- **Annual Design Refresh (Value $2k)**
-- Real humans, based in Whangārei
+**Human Support**
+- Unlimited "Text Us" updates
+- Tech fixes when things break
+- Real humans in Northland
+- No chatbots, no runarounds
 
 ### Closing Line
-Think of it like rates or body corporate fees for your digital property.
+Think of it like rates for your digital property. You pay to keep it maintained, secure, and looking fresh.
 
 ---
 
@@ -374,13 +404,13 @@ Most businesses get stuck in an expensive rebuild loop. Here's how it works:
 Plus stress. Plus downtime.
 
 ### The YourHQ Way (Blue Box)
-**Year 1:** Pay $995 setup. Site goes live in 5 days.
+**Year 1:** Pay $995 + GST setup. Site goes live in 5 days.
 **Year 2:** Free Design Refresh. Site looks new.
 **Year 3:** Free Design Refresh. Site looks new.
 **Year 4:** Free Design Refresh. Site looks new.
 
 **Total Rebuild Fees:** $0
-Just the monthly caretaker fee.
+Your monthly fee already covers it.
 
 ### Closing Statement
 **The math is undeniable.**
@@ -403,6 +433,7 @@ Your website is alive. It needs:
 - **Performance tweaks** (ongoing)
 - **Hosting** (always on)
 - **The odd fix** when something breaks
+- **A refresh** before it starts looking old
 
 ### The Problem with Pay-Per-Fix
 If you're paying per fix, you either:
@@ -412,6 +443,8 @@ B) Overpay for simple changes
 
 ### The Solution
 **Subscription fixes this. It's predictable. It's fair.**
+
+And because it's a regular monthly expense, your accountant can generally claim it back — unlike a big upfront agency fee.
 
 Think of it like your phone plan vs. paying per text.
 
@@ -436,8 +469,6 @@ We've never had to refund anyone. But the option exists because we put our money
 ### Headline
 What You're Actually Comparing
 
-**WHY $995 + $149/MO ISN'T CHEAP. IT'S FAIR.**
-
 Here's what the alternatives actually cost:
 
 ### DIY (Wix/Shopify/Squarespace)
@@ -449,22 +480,47 @@ Here's what the alternatives actually cost:
 **= $2,600–3,000 + your sanity**
 
 ### Traditional Agency
-- $5,000–15,000 setup
+- $5,000–15,000 upfront (big cash hit)
 - $100–250/hr for changes
 - 6–12 week build time
-- You're often abandoned after launch
+- Abandoned after launch — rebuild in 3 years
 
 **= $10,000–20,000+ over 2 years**
 
 ### YourHQ
-- $995 setup (5 days)
-- $149/mo (forever support + annual refresh)
-- First 2 years = $4,573
-- **You own it. We handle it.**
+- $995 + GST setup (live in 5 days)
+- $149/mo + GST (includes your next refresh)
+- Claimable as a business expense
+- **You own it. We handle it. Forever.**
 
-**Professional build + 2 years support = $4,573**
+**Professional build + 2 years support = $4,573 + GST**
 
-That's less than half what most agencies charge just to build it.
+That's less than half what most agencies charge just to build it — and your accountant can claim it.
+
+---
+
+## SECTION: Pricing Questions (FAQ)
+
+### Section Title
+Pricing Questions
+
+### FAQ 1: What does a website cost in New Zealand?
+Professional website costs in NZ range from $700 to $15,000+ depending on complexity and who builds it. YourHQ offers three packages: The Starter ($695 + GST setup + $49/mo + GST) for basic one-page sites, The Launch ($995 + GST + $149/mo + GST) for 5-page professional sites, and The Growth ($1,495 + GST + $249/mo + GST) for full-featured sites with booking systems.
+
+### FAQ 2: What's included in the monthly fee?
+The monthly fee covers unlimited text and photo updates, high-speed hosting on Vercel, SSL security, daily backups, domain renewal, tech support when things break, and an annual design refresh (valued at $2,000). Think of it as pre-paying for your next website — when your 12-month anniversary comes around, your refresh is already covered. No surprise invoices.
+
+### FAQ 3: Is the monthly fee tax deductible?
+Generally, yes. Because it's a regular monthly subscription (like your phone bill or Xero), your accountant can usually claim it as a business expense. This is simpler than a big upfront agency fee, which often needs to be depreciated over time. Check with your accountant for your specific situation, but most business owners find this structure more tax-friendly.
+
+### FAQ 4: Do you work with clients outside Northland?
+Yes! We're based in Northland but work with businesses across all of New Zealand—Auckland, Wellington, Christchurch, Queenstown, and everywhere in between. All communication happens via text, phone, and email, so location doesn't matter. We've built sites for clients nationwide.
+
+### FAQ 5: Can I cancel anytime?
+Yes. All packages are month-to-month with no lock-in contracts. You can cancel anytime with 30 days' notice. You own all content and can export your site. The subscription covers hosting, maintenance, and updates—not ownership.
+
+### FAQ 6: Is this cheaper than hiring a traditional agency?
+Yes, significantly. Traditional NZ agencies charge $5,000–$15,000 upfront, then $100–$250/hour for updates, often totaling $10,000–$20,000 over two years. YourHQ charges $995 + GST setup + $149/month + GST = $4,573 + GST over two years, including unlimited updates and annual refreshes. That's less than half the cost with better ongoing support — and it's easier to claim as a business expense.
 
 ---
 
@@ -930,5 +986,5 @@ Join the gallery of owners, not tenants.
 # END OF DOCUMENT
 
 **Total Pages:** 6
-**Last Updated:** December 18, 2024
+**Last Updated:** December 27, 2025
 **Document Compiled By:** YourHQ Team
