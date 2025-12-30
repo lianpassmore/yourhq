@@ -508,7 +508,7 @@ Pricing Questions
 Professional website costs in NZ range from $700 to $15,000+ depending on complexity and who builds it. YourHQ offers three packages: The Starter ($695 + GST setup + $49/mo + GST) for basic one-page sites, The Launch ($995 + GST + $149/mo + GST) for 5-page professional sites, and The Growth ($1,495 + GST + $249/mo + GST) for full-featured sites with booking systems.
 
 ### FAQ 2: What's included in the monthly fee?
-The monthly fee covers unlimited text and photo updates, high-speed hosting on Vercel, SSL security, daily backups, domain renewal, tech support when things break, and an annual design refresh (valued at $2,000). Think of it as pre-paying for your next website — when your 12-month anniversary comes around, your refresh is already covered. No surprise invoices.
+The monthly fee covers unlimited text and photo updates, high-speed hosting on Vercel, SSL security, daily backups, domain renewal, tech support when things break, and an annual design refresh (valued at $1,000-$1,500). Think of it as pre-paying for your next website — when your 12-month anniversary comes around, your refresh is already covered. No surprise invoices.
 
 ### FAQ 3: Is the monthly fee tax deductible?
 Generally, yes. Because it's a regular monthly subscription (like your phone bill or Xero), your accountant can usually claim it as a business expense. This is simpler than a big upfront agency fee, which often needs to be depreciated over time. Check with your accountant for your specific situation, but most business owners find this structure more tax-friendly.

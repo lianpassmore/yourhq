@@ -1,0 +1,439 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import StructuredData from '../components/StructuredData.astro';
+
+// You can add specific schema for this page later if needed
+---
+
+<Layout
+  title="Websites for Tradies NZ | Get Found on Google | YourHQ"
+  description="Professional websites for NZ electricians, plumbers, builders & painters. Built in 5 days. No Wix homework. You talk for 15 minutes—we do the rest. From $995."
+>
+  <StructuredData slot="head" />
+
+  <!-- Announcement Bar -->
+  <div class="bg-signal text-white text-center py-2 px-4 text-xs font-mono tracking-widest uppercase border-b border-white/10">
+    🔧 Founding Member Build Rate — 26 total spots. Retires March 31.
+  </div>
+
+  <!-- Navbar -->
+  <Navbar client:load />
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="relative pt-20 pb-24 md:pt-32 md:pb-40 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="max-w-5xl">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-2 px-3 py-1 border border-carbon bg-white shadow-hard-sm mb-8">
+              <span class="w-2 h-2 bg-signal rounded-full animate-pulse"></span>
+              <span class="text-xs font-mono font-bold uppercase tracking-wider">FOR ELECTRICIANS • PLUMBERS • BUILDERS • PAINTERS</span>
+            </div>
+
+            <!-- Headline -->
+            <h1 class="text-5xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+              Stop Losing Jobs to Blokes Who <span class="text-signal">Just Show Up on Google.</span>
+            </h1>
+
+            <!-- Subhead -->
+            <p class="text-xl md:text-2xl font-medium leading-relaxed text-carbon/90 max-w-3xl mb-8">
+              You've got 4.8 stars and 15 years experience. But when customers Google "electrician near me"—they find your competitor.
+            </p>
+
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed max-w-2xl">
+              Professional websites for Kiwi tradies. Built in 5 days. No Wix. No homework. You talk for 15 minutes. We do everything else.
+            </p>
+
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/pricing" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
+                Get Found on Google
+              </a>
+              <a href="#process" class="bg-white text-carbon px-8 py-4 text-center border border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
+                See How It Works
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 1: THE PROBLEM -->
+    <section class="py-24 bg-carbon text-paper border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-2 gap-16">
+            <div>
+              <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight mb-6">
+                You're Fully Booked. <br/>
+                <span class="text-frangipani">So Why Does It Feel Like You're Leaving Money on the Table?</span>
+              </h2>
+            </div>
+            <div class="space-y-8 text-lg md:text-xl font-light text-gray-300">
+              <p>Here's the truth no one tells you:</p>
+              <ul class="space-y-4 border-l-2 border-signal pl-6">
+                <li><strong class="text-white">46 people</strong> Googled "electrician [your suburb]" this week</li>
+                <li><strong class="text-white">43 of them</strong> called your competitor (because HE showed up)</li>
+                <li><strong class="text-white">You got zero</strong> of those calls</li>
+              </ul>
+              
+              <p>Even missing 1-2 jobs per week adds up fast. That's potentially $5,000-$10,000 walking out the door. Every week.</p>
+              <p>Not because you're bad at your job. Because you're invisible where it counts.</p>
+
+              <!-- Callout -->
+              <div class="bg-white/10 p-8 border border-white/20 mt-8">
+                <p class="text-signal font-bold uppercase tracking-widest text-sm mb-2">Your Facebook Page Isn't Enough</p>
+                <p class="text-white font-medium mb-4">84% of customers trust a website MORE than social media.</p>
+                <p class="text-sm text-gray-400">When someone's choosing between you and another sparky, they Google both names. One of you has a professional site. One of you looks like a bloke working out of his ute. <br/><br/><strong class="text-white">Which one are you?</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: OLD MATE DAVE TEST -->
+    <section class="bg-paper border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto">
+          <div class="grid md:grid-cols-2">
+            
+            <!-- Left: Visual -->
+            <div class="bg-white border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[400px]">
+              <div class="relative w-full aspect-square border-2 border-carbon overflow-hidden bg-gray-50 shadow-hard-sm group">
+                <img src="/tradie-phone.webp" alt="Tradie checking phone on job site" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                <div class="absolute -bottom-2 -right-2 w-full h-full border border-signal -z-10"></div>
+              </div>
+            </div>
+
+            <!-- Right: The Content -->
+            <div class="p-8 md:p-24 flex flex-col justify-center">
+              <h2 class="text-3xl md:text-5xl font-extrabold tracking-tighter mb-8 leading-tight">
+                Would You Hire a Tradie With <span class="text-signal">No Website?</span>
+              </h2>
+              
+              <div class="prose text-carbon space-y-6 text-lg">
+                <p class="font-bold">Be honest.</p>
+                <p>If your mate Dave recommended a plumber, you'd still Google him first. And if you found nothing—or worse, a dodgy Facebook page from 2019—you'd think twice.</p>
+                <p>Your customers are doing the same thing to you. Right now.</p>
+                
+                <div class="py-6 border-t border-carbon/20 mt-6">
+                    <p class="font-bold text-xl mb-2">The good news?</p>
+                    <p>You don't need to spend 40 hours on Wix. You just need 15 minutes on the phone.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: THE PROCESS -->
+    <section id="process" class="py-24 bg-white border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+               <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight sticky top-24">
+                Built in 5 Days.<br/>
+                Zero Homework.<br/>
+                <span class="text-gray-400">(Seriously.)</span>
+              </h2>
+            </div>
+            
+            <div class="md:col-span-8 space-y-0">
+              <!-- Step 1 -->
+              <div class="flex gap-6 md:gap-10 pb-16 border-l border-carbon pl-8 md:pl-12 relative">
+                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-signal border-4 border-white"></div>
+                <div>
+                  <span class="font-mono text-sm font-bold text-signal mb-2 block">STEP 01</span>
+                  <h3 class="text-2xl font-bold mb-4">The Drive-Home Interview (15 mins)</h3>
+                  <p class="text-gray-600 mb-4 max-w-xl">
+                    Call us while you're driving home. We ask 10 questions. You talk. We capture everything. No forms. No typing. No "About Us" pages to write.
+                  </p>
+                  <p class="text-gray-600 mb-4 max-w-xl">
+                    Do it while stuck in traffic on SH1. That's the whole point.
+                  </p>
+                  <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">NO WIXING REQUIRED</span>
+                </div>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="flex gap-6 md:gap-10 pb-16 border-l border-carbon pl-8 md:pl-12 relative">
+                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
+                <div>
+                  <span class="font-mono text-sm font-bold text-carbon mb-2 block">STEP 02</span>
+                  <h3 class="text-2xl font-bold mb-4">We Raid Your Socials (0 mins)</h3>
+                  <p class="text-gray-600 mb-4 max-w-xl">
+                    We grab your photos from Facebook, your reviews from Google, and your logo from that invoice you sent last week. You don't lift a finger.
+                  </p>
+                  <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">WE DO THE DIGGING</span>
+                </div>
+              </div>
+
+              <!-- Step 3 -->
+              <div class="flex gap-6 md:gap-10 pb-16 border-l border-carbon pl-8 md:pl-12 relative">
+                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-hibiscus border-4 border-white"></div>
+                <div>
+                  <span class="font-mono text-sm font-bold text-hibiscus mb-2 block">STEP 03</span>
+                  <h3 class="text-2xl font-bold mb-4">The Factory Build (5 Days)</h3>
+                  <p class="text-gray-600 mb-4 max-w-xl">
+                    We build it using the same tech as Silicon Valley startups. Loads in under 1 second. Shows up when people Google you. Impossible to hack. You keep doing jobs. We keep building your site.
+                  </p>
+                  <div class="flex gap-2 flex-wrap">
+                    <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">MOBILE FIRST</span>
+                    <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">SEO & AEO READY</span>
+                  </div>
+                  <p class="text-xs text-gray-500 mt-3 max-w-xl">
+                    <strong>What's SEO & AEO?</strong> SEO = shows up in Google search results. AEO = shows up when people ask Google Assistant or Siri "electrician near me." Both mean more people find you.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Step 4 -->
+              <div class="flex gap-6 md:gap-10 border-l border-carbon pl-8 md:pl-12 relative">
+                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-frangipani border-4 border-white"></div>
+                <div>
+                  <span class="font-mono text-sm font-bold text-frangipani mb-2 block">STEP 04</span>
+                  <h3 class="text-2xl font-bold mb-4">You Go Live</h3>
+                  <p class="text-gray-600 mb-4 max-w-xl">
+                    We send you a link. You check it on your phone. Love it? We flip the switch. Hate it? We refund you. Then we stay on as caretakers—hosting, updates, refreshes. You never think about it again.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: THE MATH -->
+    <section class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-hard">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-8">
+                    One Extra Job Per Week = <span class="bg-signal text-white px-2">$130,000 Per Year</span>
+                </h2>
+                
+                <div class="space-y-6 text-lg text-carbon/90 border-b-2 border-dashed border-gray-200 pb-8 mb-8">
+                    <p class="font-bold">Let's do the maths:</p>
+                    <ul class="space-y-3 font-mono text-sm md:text-base">
+                        <li class="flex justify-between">
+                            <span>Average tradie job:</span>
+                            <span class="font-bold">$2,500</span>
+                        </li>
+                        <li class="flex justify-between items-center text-signal font-bold">
+                            <span>One extra job/week from Google:</span>
+                            <span>$2,500 × 52 = $130,000/yr</span>
+                        </li>
+                        <li class="flex justify-between text-gray-500">
+                            <span>YourHQ investment:</span>
+                            <span>$995 + $149/mo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-center space-y-6">
+                    <p class="text-xl font-bold">Payback period? One job.</p>
+                    <p class="text-gray-600 leading-relaxed">
+                        We can't guarantee you'll rank #1 tomorrow—that depends on your location and competition. But every tradie we've built for shows up more clearly and gets more calls than before.
+                    </p>
+                    <p class="font-medium text-carbon">
+                        You go from invisible on Google to actually showing up. Phones ring more. Better jobs come in.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: TESTIMONIALS -->
+    <section class="py-24 bg-carbon text-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-5xl font-extrabold tracking-tighter mb-16 text-center">
+          "My Mates Reckon It's Banging."
+        </h2>
+        
+        <!-- Main Feature Testimonial -->
+        <div class="bg-paper text-carbon p-8 md:p-12 border-l-8 border-signal relative shadow-hard-white mb-16 max-w-4xl mx-auto">
+            <div class="mb-6">
+                <span class="text-6xl text-gray-200 font-serif absolute top-4 left-4 -z-10">“</span>
+                <p class="text-xl md:text-2xl font-medium leading-relaxed italic relative z-10">
+                "I'm definitely not up to speed on all this tech stuff. While I was still trying to figure out how to upload images to Google Drive, Lian had already grabbed them from our Facebook and built the whole thing. My mates reckon it's banging!"
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row md:items-center justify-between mt-8 border-t border-carbon/10 pt-6 gap-4">
+                <div>
+                    <p class="font-extrabold text-lg">Reuben, Johnson & Sons</p>
+                    <p class="font-mono text-xs text-gray-500 uppercase tracking-widest">Commercial Builder</p>
+                </div>
+                <div class="flex gap-2 text-xs font-bold uppercase tracking-wider text-signal">
+                    <span>✓ Built in 3 Days</span>
+                    <span class="text-gray-300">|</span>
+                    <span>✓ Zero Homework</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mini Strip -->
+        <div class="grid md:grid-cols-2 gap-8 text-center md:text-left max-w-4xl mx-auto">
+            <div class="bg-white/10 p-6 rounded-sm">
+                <p class="italic text-gray-300 mb-3">"Stress free, quick, foolproof and fun. Busy people need to know how easy this is."</p>
+                <p class="font-bold text-sm text-frangipani">— Katie, Rumours on Rust</p>
+            </div>
+            <div class="bg-white/10 p-6 rounded-sm">
+                <p class="italic text-gray-300 mb-3">"You took away my barrier to market. You helped me fulfill a dream."</p>
+                <p class="font-bold text-sm text-hibiscus">— Nicolette, Ember & Ice</p>
+            </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: WHY WE EXIST -->
+    <section class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Based in Northland. For Tradies Who Don't Have Time for This Stuff.</h2>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                We started YourHQ because half of NZ small businesses still don't have a website. Not because they're lazy—because they're busy actually doing their job.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed font-medium">
+                We're not a big agency. We're two people who believe tradies deserve to show up on Google without spending 40 hours on Wix or $15K on an agency that ghosts them.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION: FAQ (YEAH, BUT...) -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 text-center">
+            Yeah, <span class="text-signal">But...</span>
+          </h2>
+
+          <div class="space-y-8">
+            <!-- FAQ 1 -->
+            <div class="bg-gray-50 border-l-4 border-signal p-6">
+              <h3 class="text-xl font-bold mb-3 text-carbon">"I'm already fully booked. Why do I need a website?"</h3>
+              <p class="text-gray-700 leading-relaxed mb-4">
+                That's exactly why you need one. Right now, you're saying yes to every job because you don't have enough inbound. When it slows down, you'll panic.
+              </p>
+              <p class="text-carbon font-bold">
+                A website lets you choose better work, not just more work. Charge premium rates. Say no to nightmare customers. Go from $90/hr to $120/hr—because you're not desperate.
+              </p>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="bg-gray-50 border-l-4 border-hibiscus p-6">
+              <h3 class="text-xl font-bold mb-3 text-carbon">"I don't have time for this."</h3>
+              <p class="text-gray-700 leading-relaxed">
+                Neither does any tradie we've worked with. <strong>Total time from you: one 15-minute phone call while driving home.</strong> That's it. We do everything else. You've already spent more time reading this page.
+              </p>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="bg-gray-50 border-l-4 border-frangipani p-6">
+              <h3 class="text-xl font-bold mb-3 text-carbon">"My nephew can build me one for free."</h3>
+              <p class="text-gray-700 leading-relaxed">
+                Give it a go! Just ask yourself: <strong>Will he be around when it breaks at 11pm on a Friday?</strong> Will he refresh it when it looks dated in 3 years? Will he optimise it for Google so customers actually find you? If it doesn't work out, we're here.
+              </p>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="bg-gray-50 border-l-4 border-signal p-6">
+              <h3 class="text-xl font-bold mb-3 text-carbon">"Websites are expensive."</h3>
+              <p class="text-gray-700 leading-relaxed">
+                Bad websites are expensive. Traditional agencies charge $10-15K and disappear. We charge $995 and stay forever. <strong>The real question: can you afford to keep losing jobs to competitors who show up on Google?</strong> The website pays for itself in one job.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: PRICING -->
+    <section class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-16">
+             <p class="text-signal font-bold uppercase tracking-widest text-sm mb-4">This isn't a 'marketing expense'. It's infrastructure—like your van or tools.</p>
+             <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Simple Pricing. No Lock-In.</h2>
+          </div>
+          
+          <div class="max-w-lg mx-auto">
+             <!-- Launch Package -->
+             <div class="p-8 border-2 border-carbon bg-white flex flex-col relative shadow-hard">
+                <div class="mb-8 border-b border-gray-100 pb-8">
+                    <h3 class="text-3xl font-extrabold mb-2">The Launch</h3>
+                    <p class="text-gray-500 font-mono uppercase tracking-widest text-sm">Built for Tradies</p>
+                </div>
+                
+                <div class="flex items-baseline gap-2 mb-2">
+                    <span class="text-5xl font-extrabold tracking-tighter">$995</span>
+                    <span class="text-gray-500 font-mono text-sm">+ GST (Setup)</span>
+                </div>
+                <div class="flex items-baseline gap-2 mb-8">
+                    <span class="text-2xl font-bold text-gray-700">$149</span>
+                    <span class="text-gray-500 font-mono text-sm">/mo + GST</span>
+                </div>
+
+                <ul class="space-y-4 mb-8 flex-1">
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> 5-page professional website</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Drive-Home Interview (no homework)</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Domain & hosting included</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Unlimited text/photo updates</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Annual design refresh (free)</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> SEO & AEO ready from Day 1</li>
+                </ul>
+                <p class="text-xs text-gray-500 mb-8 leading-relaxed">
+                    <strong>SEO & AEO ready?</strong> Your site shows up when people Google "electrician [your suburb]" and when they ask their phone "plumber near me". That's how you get found.
+                </p>
+                <a href="/pricing" class="w-full block bg-signal text-white text-center py-4 font-bold uppercase tracking-widest hover:bg-carbon transition-colors shadow-lg hover:shadow-none hover:translate-y-[1px]">Get Found on Google</a>
+             </div>
+
+             <!-- Founding Member Box -->
+             <div class="mt-8 bg-carbon text-white p-6 border-l-4 border-frangipani">
+                <p class="font-bold text-frangipani uppercase tracking-widest text-xs mb-2">🔧 Founding Member Deal (26 spots)</p>
+                <div class="flex justify-between items-center mb-2">
+                    <span>Half-price build:</span>
+                    <span class="font-bold text-xl">$497.50 + GST</span>
+                </div>
+                <div class="flex justify-between items-center text-gray-400 text-sm">
+                    <span>Rate locked for life:</span>
+                    <span>$149/mo forever</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-4 italic">Only available until March 31 or 26 members—whichever comes first.</p>
+             </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-32 bg-carbon text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-5xl md:text-6xl font-extrabold tracking-tighter mb-6">Get Found on Google.<br/>Book More Jobs.</h2>
+            <p class="text-xl text-gray-400 mb-12">15 minutes on the phone. Live in 5 days. No Wix. No homework. No BS.</p>
+            
+            <a href="/pricing" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl mb-12">
+              Book Your Interview
+            </a>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-8 text-center md:text-left max-w-2xl mx-auto border-t border-white/20 pt-8">
+                <div>
+                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Text Us</span>
+                    <a href="sms:0221725793" class="text-lg hover:text-signal transition-colors">022 172 5793</a>
+                </div>
+                <div>
+                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Email Us</span>
+                    <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-signal transition-colors">hello@yourhq.co.nz</a>
+                </div>
+                <div class="md:ml-auto">
+                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Location</span>
+                    <span class="text-lg text-gray-300">Based in Northland, servicing NZ-wide</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Layout>
