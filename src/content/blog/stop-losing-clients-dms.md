@@ -3,7 +3,7 @@ title: "Stop Losing Clients in the DMs: The Case for Online Booking"
 description: "DM-to-book is not a strategy; it's a bottleneck. Here's why integrating a booking system is critical for scaling."
 pubDate: 2025-12-22
 author: "Lian"
-image: "/booking-screen.jpg"
+image: "/booking-screen.webp"
 tags: ["Salons", "Automation"]
 featured: false
 ---

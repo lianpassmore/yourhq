@@ -3,7 +3,7 @@ title: "Stop Renting. Start Owning."
 description: "Why relying solely on Instagram is a dangerous game for Kiwi businesses."
 pubDate: 2025-12-08
 author: "Lian"
-image: "/hands.jpeg"
+image: "/hands.webp"
 tags: ["Business", "Digital Ownership"]
 featured: true
 ---

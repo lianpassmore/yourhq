@@ -3,7 +3,7 @@ title: "Stop Being a 24/7 Receptionist: How a Website Filters Tyre Kickers"
 description: "Your time is your inventory. Stop wasting it on phone calls that go nowhere. Let your website do the filtering."
 pubDate: 2025-12-18
 author: "Lian"
-image: "/time-money.jpg"
+image: "/time-money.webp"
 tags: ["Productivity", "Tradies"]
 featured: false
 ---

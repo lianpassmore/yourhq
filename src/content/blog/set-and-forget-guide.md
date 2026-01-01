@@ -3,7 +3,7 @@ title: "The 'Set and Forget' Website Guide for Business Owners Who Hate Tech"
 description: "You run a business, not an IT department. Why the 'Caretaker' model is the only way to truly set and forget."
 pubDate: 2026-01-08
 author: "Lian"
-image: "/relaxing.jpg"
+image: "/relaxing.webp"
 tags: ["Business", "Maintenance"]
 featured: false
 ---

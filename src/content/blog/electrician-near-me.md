@@ -3,7 +3,7 @@ title: "How to Get Found When Locals Search 'Electrician Near Me'"
 description: "Google isn't magic; it's a filing cabinet. Here's how to make sure your business file is in the front drawer."
 pubDate: 2025-12-16
 author: "Lian"
-image: "/google-maps.jpg"
+image: "/google-maps.webp"
 tags: ["SEO", "Local Business"]
 featured: false
 ---

@@ -3,7 +3,7 @@ title: "Does Your Online Presence Match Your Salon's Prices?"
 description: "If you're charging premium rates but using a free Linktree, you're sending mixed signals. Here's the 'Premium Perception Test'."
 pubDate: 2025-12-20
 author: "Lian"
-image: "/salon-interior.jpg"
+image: "/salon-interior.webp"
 tags: ["Salons", "Branding"]
 featured: false
 ---

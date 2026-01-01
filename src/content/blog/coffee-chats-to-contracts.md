@@ -3,7 +3,7 @@ title: "The Car Park Google: Why Your Website Matters More Than The Meeting"
 description: "You shake hands. They smile. Then they sit in their car and Google you. What happens next decides everything."
 pubDate: 2026-01-18
 author: "Lian"
-image: "/coffee-meeting.jpg"
+image: "/coffee-meeting.webp"
 tags: ["Sales", "Consulting"]
 featured: false
 ---

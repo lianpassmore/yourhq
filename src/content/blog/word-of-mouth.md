@@ -3,7 +3,7 @@ title: "Why 'Word of Mouth' Isn't Enough for NZ Tradies Anymore"
 description: "The phone used to ring just because you did good work. Here's why that stopped, and how to fix it."
 pubDate: 2025-12-09
 author: "Lian"
-image: "/tradie-phone.jpg"
+image: "/tradie-phone.webp"
 tags: ["Tradies", "Business Growth"]
 featured: true
 ---
