@@ -63,6 +63,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 
+		<!-- Plausible Analytics -->
+		<script defer data-domain="yourhq.co.nz" src="https://plausible.io/js/script.js"></script>
+
 		<!-- Allow pages to add structured data or other head content -->
 		<slot name="head" />
 	</head>

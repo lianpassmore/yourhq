@@ -1,6 +1,6 @@
 # YourHQ Website Copy - Complete Proofreading Document
 
-**Last Updated:** December 27, 2025
+**Last Updated:** January 1, 2026
 **Purpose:** Comprehensive text copy for proofreading across all website pages
 
 ---
@@ -11,7 +11,7 @@
 🚀 Taking bookings for week of Dec 15
 
 ### Hero Badge
-Based in Aotearoa NZ — Working Globally
+Based in Northland — Servicing NZ-Wide
 
 ### Hero Headline
 Stop Renting.
@@ -43,6 +43,7 @@ Here's what nobody tells you:
 - If Instagram changes the algorithm tomorrow, does your business disappear?
 - If your Facebook account gets hacked, do you lose all your customers?
 - If Google shuts down your Business Profile, can anyone find you?
+- If you're not on Google Maps, do you even exist to the 86% searching "tradie near me"?
 
 ### Callout Box
 **Right now, you're a Digital Tenant.**
@@ -87,7 +88,9 @@ Who We Built This For
 You're flat out on the tools. You hate admin. The last thing you want is to spend hours figuring out Wix.
 
 **The Fix:**
-A site that ranks locally on Google and gets the phone ringing. No homework required.
+A site that ranks locally on Google search and voice assistants, getting the phone ringing. No homework required.
+
+**Link:** Learn More for Tradies →
 
 ### Card 2: The Creatives
 **Category:** Salons / Tattoo / Artists
@@ -124,11 +127,13 @@ Do it while driving home, having a coffee, or after putting the kids to bed. We 
 **Badge:** NO TYPING REQUIRED
 
 ### Step 02: The Factory Build
-We build it in 5 days using modern, lightning-fast tech used by top startups. It loads instantly, ranks high, and is impossible to hack.
+We build it in 5 days using modern, lightning-fast tech used by top startups. It loads instantly, ranks high, and is impossible to hack. Plus, we set up your Google Maps listing so people actually find you when they search.
 
 **Badges:**
 - UNDER 1 SECOND LOAD
 - MOBILE FIRST
+- SEO & AEO READY
+- GOOGLE MAPS READY
 
 ### Step 03: The Caretakers
 We hand you the keys, but we stay on as caretakers. Hosting, security, updates — sorted. Plus a full design refresh every year.
@@ -225,6 +230,7 @@ No lock-in contracts. Cancel anytime. You own everything.
 - Drive-home voice interview
 - Domain & Hosting included
 - Unlimited text/photo updates
+- Google Maps setup included
 
 **CTA:** Start Launch Build
 
@@ -240,6 +246,7 @@ No lock-in contracts. Cancel anytime. You own everything.
 - Booking system integration
 - Blog / News section
 - Priority 24h Support
+- Google Maps optimization + review system
 
 **CTA:** Start Growth Build
 
@@ -297,6 +304,7 @@ Your accountant will love this. It's a regular business expense, just like your 
 - Domain & High-Speed Hosting
 - Unlimited Text/Photo Updates
 - **Annual Design Refresh (Included)**
+- **Google Maps Setup (So customers find you)**
 
 **CTA:** Start Launch Build
 
@@ -314,6 +322,7 @@ Your accountant will love this. It's a regular business expense, just like your 
 - Blog / News Section
 - Instagram Feed Integration
 - Priority 24h Support
+- **Google Maps Optimization + Review System**
 
 **CTA:** Start Growth Build
 
@@ -381,6 +390,7 @@ It also covers all the stuff you'll never think about (until it breaks):
 - Tech fixes when things break
 - Real humans in Northland
 - No chatbots, no runarounds
+- Google Maps monitoring & updates
 
 ### Closing Line
 Think of it like rates for your digital property. You pay to keep it maintained, secure, and looking fresh.
@@ -490,6 +500,7 @@ Here's what the alternatives actually cost:
 ### YourHQ
 - $995 + GST setup (live in 5 days)
 - $149/mo + GST (includes your next refresh)
+- Google Maps setup included
 - Claimable as a business expense
 - **You own it. We handle it. Forever.**
 
@@ -521,6 +532,9 @@ Yes. All packages are month-to-month with no lock-in contracts. You can cancel a
 
 ### FAQ 6: Is this cheaper than hiring a traditional agency?
 Yes, significantly. Traditional NZ agencies charge $5,000–$15,000 upfront, then $100–$250/hour for updates, often totaling $10,000–$20,000 over two years. YourHQ charges $995 + GST setup + $149/month + GST = $4,573 + GST over two years, including unlimited updates and annual refreshes. That's less than half the cost with better ongoing support — and it's easier to claim as a business expense.
+
+### FAQ 7: What's included in the Google Maps setup?
+For Launch clients: We claim and verify your Google Maps listing, write your business description, set your service areas, upload your logo and 3-5 photos, and link it to your new website. For Growth clients: We also optimize your listing with all service categories, set up a simple review request system, and create your first Google Post. Most tradies start ranking in local search within 30-60 days.
 
 ---
 
@@ -566,7 +580,10 @@ Days 1-4. We build your site using Astro + Tailwind CSS (Silicon Valley tech).
 **Features:**
 - Under 1 second load time
 - Mobile-first design
-- SEO Fundamentals
+- SEO & AEO ready
+
+**Plus: Google Maps Setup**
+While we're building your website, we also claim and set up your Google Maps listing. We write the description, upload photos, set your service areas, and connect everything. By the time your site goes live, you're ready to be found.
 
 **Action:** We Build
 You run your business.
@@ -713,8 +730,7 @@ OPEN
 hello@yourhq.co.nz
 
 ### Location
-Whangārei, Aotearoa New Zealand.
-Working nationwide.
+Based in Northland, servicing NZ-wide
 
 ---
 
@@ -726,7 +742,7 @@ Get in Touch
 Have a question? Want to chat before committing? Just reach out.
 
 ### Information Box
-**What happens next:** We'll text you within 24 hours to have a chat.
+**What happens next:** We'll text you within 24 hours to have a chat. We'll ask a few questions about your business and check if you already have a Google Maps listing we can optimize.
 
 ### Form Labels
 - **Name**
@@ -983,8 +999,152 @@ Join the gallery of owners, not tenants.
 
 ---
 
+---
+
+---
+
+## TRADIES PAGE (tradies.astro)
+
+### Page Meta Description
+Fast, done-for-you websites for New Zealand tradies. Built in 5 days. From $695. SEO & AEO optimized. No homework required.
+
+### Hero Headline
+Would You Hire a Tradie With No Website?
+
+### Hero Body Copy
+Your customers Google you before they call. If they can't find you online—or worse, find a broken 2012 website—they're calling someone else.
+
+We build professional tradie websites in 5 days. No homework. No tech headaches. Just one phone call and we handle the rest.
+
+Plus, we put you on Google Maps — so when someone searches "electrician near me," you actually show up.
+
+### How It Works Section
+
+#### Step 03: The Factory Build (5 Days)
+We build it using the same tech as Silicon Valley startups. Loads in under 1 second. Shows up when people Google you. Impossible to hack. You keep doing jobs. We keep building your site.
+
+**Badges:**
+- MOBILE FIRST
+- SEO & AEO READY
+
+**Explainer:**
+What's SEO & AEO? SEO = shows up in Google search results. AEO = shows up when people ask Google Assistant or Siri "electrician near me." Both mean more people find you.
+
+### Why We Exist Section
+
+#### Headline
+Based in Northland. For Tradies Who Don't Have Time for This Stuff.
+
+#### Body Copy
+We started YourHQ because half of NZ small businesses still don't have a website. Not because they're lazy—because they're busy actually doing their job.
+
+We're not a big agency. We're two people who believe tradies deserve to show up on Google without spending 40 hours on Wix or $15K on an agency that ghosts them.
+
+---
+
+## SECTION: Get Found on Google Maps (Tradies Page)
+
+### Headline
+86% of Kiwis Use Google Maps to Find Tradies.
+Are You Even On There?
+
+### Body Copy
+Here's what happens when someone needs an electrician:
+
+They don't type your name. They type "electrician near me."
+
+Google shows them 3 businesses. If you're not one of them, you don't exist.
+
+**We don't just build your website. We put you on the map. Literally.**
+
+Your Google Maps listing gets set up, optimized, and linked to your website. Photos uploaded. Description written. Ready for reviews.
+
+So when someone in your area searches, you show up.
+
+### Feature Box: What's included with every tradie website:
+
+✓ Claim & verify your Google Maps listing
+✓ Write your business description (so you don't have to)
+✓ Upload your logo + job photos
+✓ Set your service areas across Auckland/Northland/wherever you work
+✓ Link everything to your new website
+✓ Set you up to collect 5-star reviews
+
+**Why does this matter?** Google Maps is where 86% of people look first when they need a tradie. If you're not there — or your listing is empty and sad — they're calling your competitor. We fix that on Day 1.
+
+---
+
+### Pricing - The Launch Package
+
+**Setup:** $995 + GST
+**Monthly:** $149/mo + GST
+
+**Includes:**
+✓ 5-page professional website
+✓ Drive-Home Interview (no homework)
+✓ Domain & hosting included
+✓ Unlimited text/photo updates
+✓ Annual design refresh (free)
+✓ SEO & AEO ready from Day 1
+
+**Explainer:**
+SEO & AEO ready? Your site shows up when people Google "electrician [your suburb]" and when they ask their phone "plumber near me". That's how you get found.
+
+**CTA:** Get Found on Google
+
+### Founding Member Deal
+🔧 Founding Member Deal (26 spots)
+Half-price build: $497.50 + GST (save $497.50)
+Same monthly fee: $149/mo + GST
+
+### Contact Section
+**Location:** Based in Northland, servicing NZ-wide
+
+---
+
+---
+
+## HOMEPAGE FAQ ADDITIONS
+
+### FAQ 5: Will my website help me rank on Google and voice search?
+Yes. Every YourHQ site is built with SEO & AEO fundamentals: fast load times (under 1 second), mobile-first design, clean code, and local business schema markup. We optimize for local searches like "electrician near me" or "hair salon [your city]" so customers can actually find you.
+
+**Explainer Box:**
+What's SEO & AEO? SEO (Search Engine Optimization) = showing up in Google search results when people type. AEO (Answer Engine Optimization) = showing up when people ask Siri, Google Assistant, or Alexa questions like "plumber near me." Both help more customers find you.
+
+### FAQ 6: Do you set up Google Maps for me?
+Yes. Every Launch and Growth package includes Google Maps setup. We claim your listing, write your description, upload photos, and connect it to your website. For Growth clients, we also help you start collecting reviews. This is how 86% of customers find local tradies — so you start getting calls from Google, not just from word of mouth.
+
+### FAQ 3: Do you build websites for salons outside Auckland?
+Yes! We're based in Northland but service businesses across all of New Zealand. All communication happens via text and phone, so location doesn't matter.
+
+---
+
+---
+
+## FOOTER (All Pages)
+
+### Company Links
+- How It Works
+- Pricing
+- For Tradies *(NEW)*
+- Our Story
+- Refer a Friend
+
+### Contact Section
+**Email:** hello@yourhq.co.nz
+**Phone:** 022 172 5793
+**Location:** Based in Northland, servicing NZ-wide
+
+### Footer Tagline
+Infrastructure + Warmth.
+
+---
+
+---
+
 # END OF DOCUMENT
 
-**Total Pages:** 6
-**Last Updated:** December 27, 2025
+**Total Pages:** 7 (added Tradies page)
+**Last Updated:** January 1, 2026
 **Document Compiled By:** YourHQ Team
