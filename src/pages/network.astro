@@ -84,7 +84,10 @@ const partnerProgramSchema = {
     
     <!-- HERO SECTION -->
     <section class="relative pt-32 pb-24 md:pt-48 md:pb-32 border-b border-carbon bg-white">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Decorative subtle gradient blob -->
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-signal/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4 pointer-events-none"></div>
+
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div class="max-w-4xl">
             <!-- Badge -->
             <div class="inline-flex items-center gap-2 px-3 py-1 border border-carbon bg-paper shadow-hard-sm mb-8">
@@ -125,30 +128,31 @@ const partnerProgramSchema = {
               <p class="text-lg text-gray-600 mb-6">
                 You see this all the time. The tradie doing great work but losing jobs to competitors. The salon owner whose whole business lives on Instagram.
               </p>
-              <p class="text-lg font-bold text-carbon">
+              <p class="text-lg font-bold text-carbon border-l-4 border-signal pl-4">
                 They ask you for advice. You tell them they need a website. Then comes the awkward part.
               </p>
             </div>
 
             <div class="space-y-6">
               <!-- Problem Cards -->
-              <div class="bg-white p-6 border-l-4 border-carbon shadow-sm">
-                <h3 class="font-bold text-lg mb-2">Option A: Wix / DIY</h3>
+              <div class="bg-white p-6 border-l-4 border-gray-300 shadow-sm">
+                <h3 class="font-bold text-lg mb-2 text-gray-500">Option A: Wix / DIY</h3>
                 <p class="text-gray-600">Means 40 hours of your client's time, frustration, and usually no result.</p>
               </div>
               
-              <div class="bg-white p-6 border-l-4 border-carbon shadow-sm">
-                <h3 class="font-bold text-lg mb-2">Option B: Agencies</h3>
+              <div class="bg-white p-6 border-l-4 border-gray-300 shadow-sm">
+                <h3 class="font-bold text-lg mb-2 text-gray-500">Option B: Agencies</h3>
                 <p class="text-gray-600">Means big money ($5k+) and long delays. Often overkill for what they need.</p>
               </div>
 
-              <div class="bg-white p-6 border-l-4 border-carbon shadow-sm">
-                <h3 class="font-bold text-lg mb-2">Option C: Doing Nothing</h3>
+              <div class="bg-white p-6 border-l-4 border-gray-300 shadow-sm">
+                <h3 class="font-bold text-lg mb-2 text-gray-500">Option C: Doing Nothing</h3>
                 <p class="text-gray-600">Means having the exact same conversation next quarter. Your client stays stuck.</p>
               </div>
 
-              <div class="p-6 bg-signal/10 border border-signal mt-8">
-                <p class="font-bold text-signal text-lg">
+              <!-- Solution Pop -->
+              <div class="p-8 bg-signal text-white border-2 border-carbon mt-8 shadow-hard transform rotate-1">
+                <p class="font-bold text-xl text-center">
                   That's the gap the YourHQ Network fills.
                 </p>
               </div>
@@ -172,29 +176,29 @@ const partnerProgramSchema = {
         </div>
 
         <div class="grid md:grid-cols-3 gap-8 text-carbon">
-          <!-- Feature 1 -->
-          <div class="bg-paper p-8">
+          <!-- Feature 1 - Signal -->
+          <div class="bg-paper p-8 border-t-8 border-signal relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">Built in 5 Days</h3>
             <p class="text-gray-600">One short phone call. Website live within a week. We move at the speed of business.</p>
           </div>
-          <!-- Feature 2 -->
-          <div class="bg-paper p-8">
+          <!-- Feature 2 - Hibiscus -->
+          <div class="bg-paper p-8 border-t-8 border-hibiscus relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">No Homework</h3>
             <p class="text-gray-600">We don't ask clients to write copy. We interview them, pull what we need, and build it.</p>
           </div>
-          <!-- Feature 3 -->
-          <div class="bg-paper p-8">
+          <!-- Feature 3 - Frangipani -->
+          <div class="bg-paper p-8 border-t-8 border-frangipani relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">Small Biz Pricing</h3>
             <p class="text-gray-600">Setup from <strong>$695</strong>. Ongoing care from <strong>$49/mo</strong>. Not agency pricing. Not DIY pain.</p>
           </div>
-          <!-- Feature 4 -->
-          <div class="bg-paper p-8">
+          <!-- Feature 4 - Signal -->
+          <div class="bg-paper p-8 border-t-8 border-signal relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">The Caretaker Model</h3>
             <p class="text-gray-600">We don't build and disappear. We host, maintain, and update the site so it stays current.</p>
           </div>
-          <!-- Feature 5 -->
-          <div class="bg-paper p-8 border-2 border-signal relative">
-            <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-2 py-1 uppercase">Crucial</div>
+          <!-- Feature 5 - Hibiscus -->
+          <div class="bg-paper p-8 border-t-8 border-hibiscus relative shadow-hard-white">
+            <div class="absolute top-0 right-0 bg-hibiscus text-white text-xs font-bold px-2 py-1 uppercase">Crucial</div>
             <h3 class="font-extrabold text-xl mb-3">Simple Guarantee</h3>
             <p class="text-gray-600">If they don't like the preview, we refund them. Your reputation stays intact.</p>
           </div>
@@ -208,9 +212,9 @@ const partnerProgramSchema = {
         <div class="grid md:grid-cols-2 gap-12">
           
           <!-- Good Fit -->
-          <div>
+          <div class="bg-paper p-8 border border-gray-100">
             <h3 class="text-2xl font-extrabold mb-6 flex items-center gap-3">
-              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-700 text-sm">✓</span>
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-signal text-white text-sm">✓</span>
               Good Fit Clients
             </h3>
             <ul class="space-y-3 text-lg text-gray-700">
@@ -223,9 +227,9 @@ const partnerProgramSchema = {
           </div>
 
           <!-- Not a Fit -->
-          <div>
+          <div class="bg-paper p-8 border border-gray-100">
             <h3 class="text-2xl font-extrabold mb-6 flex items-center gap-3">
-              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-700 text-sm">✕</span>
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-hibiscus text-white text-sm">✕</span>
               Not a Fit
             </h3>
             <ul class="space-y-3 text-lg text-gray-700">
@@ -246,23 +250,23 @@ const partnerProgramSchema = {
         
         <div class="grid md:grid-cols-2 gap-8">
           
-          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
-            <h3 class="text-xl font-bold mb-4">You Look Good</h3>
+          <div class="bg-white p-8 border-t-4 border-signal shadow-sm">
+            <h3 class="text-xl font-bold mb-4 text-signal">You Look Good</h3>
             <p class="text-gray-600">Your client gets sorted quickly, properly, and without drama. That reflects well on you as their advisor.</p>
           </div>
 
-          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
-            <h3 class="text-xl font-bold mb-4">Referrals Flow Both Ways</h3>
+          <div class="bg-white p-8 border-t-4 border-hibiscus shadow-sm">
+            <h3 class="text-xl font-bold mb-4 text-hibiscus">Referrals Flow Both Ways</h3>
             <p class="text-gray-600">Every new client onboarding includes a simple question: <em>"Who do you trust for accounting, finance, or insurance?"</em> When your name fits, we send the introduction.</p>
           </div>
 
-          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
-            <h3 class="text-xl font-bold mb-4">Practical Tools</h3>
+          <div class="bg-white p-8 border-t-4 border-frangipani shadow-sm">
+            <h3 class="text-xl font-bold mb-4 text-frangipani">Practical Tools</h3>
             <p class="text-gray-600">We provide co-branded resources you can actually use — guides and checklists with your logo on them. Helpful, not salesy.</p>
           </div>
 
-          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
-            <h3 class="text-xl font-bold mb-4">Credible Network</h3>
+          <div class="bg-white p-8 border-t-4 border-signal shadow-sm">
+            <h3 class="text-xl font-bold mb-4 text-signal">Credible Network</h3>
             <p class="text-gray-600">Network members are listed on our internal directory and featured when relevant. No black holes. No random hand-offs.</p>
           </div>
 
@@ -274,9 +278,9 @@ const partnerProgramSchema = {
     <section class="py-20 bg-signal/5 border-b border-carbon">
       <div class="max-w-3xl mx-auto px-4 text-center">
         <h2 class="text-3xl font-extrabold mb-8">The Value Exchange</h2>
-        <p class="text-lg font-medium text-carbon mb-8">This is <span class="underline decoration-signal decoration-4">not</span> a commission program.</p>
+        <p class="text-lg font-medium text-gray-300 mb-8">This is <span class="text-signal font-bold underline decoration-signal decoration-4">not</span> a commission program.</p>
         
-        <div class="bg-white border-2 border-carbon p-8 shadow-hard">
+        <div class="bg-white text-carbon border-2 border-white p-8 shadow-hard">
           <div class="grid md:grid-cols-2 gap-8 text-left">
             <div>
               <p class="font-bold text-signal uppercase tracking-widest text-xs mb-4">You Get</p>
@@ -306,17 +310,17 @@ const partnerProgramSchema = {
             
             <div class="grid md:grid-cols-4 gap-8">
                 <!-- Step 1 -->
-                <div class="relative">
-                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">01</span>
+                <div class="relative group">
+                    <span class="text-8xl font-black text-signal/10 absolute -top-8 -left-4 z-0 group-hover:text-signal/20 transition-colors">01</span>
                     <div class="relative z-10">
                         <h3 class="font-bold text-xl mb-3">Join the Network</h3>
-                        <p class="text-gray-600 text-sm">Fill out the form below. We'll send you a short welcome kit and get you set up.</p>
+                        <p class="text-gray-600 text-sm">Send us an email. We'll send you a short welcome kit and get you set up.</p>
                     </div>
                 </div>
 
                 <!-- Step 2 -->
-                <div class="relative">
-                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">02</span>
+                <div class="relative group">
+                    <span class="text-8xl font-black text-hibiscus/10 absolute -top-8 -left-4 z-0 group-hover:text-hibiscus/20 transition-colors">02</span>
                     <div class="relative z-10">
                         <h3 class="font-bold text-xl mb-3">Make the Intro</h3>
                         <p class="text-gray-600 text-sm">When a client mentions needing a website, just say: <em>"I'm part of the YourHQ Network. Want me to connect you?"</em></p>
@@ -324,8 +328,8 @@ const partnerProgramSchema = {
                 </div>
 
                 <!-- Step 3 -->
-                <div class="relative">
-                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">03</span>
+                <div class="relative group">
+                    <span class="text-8xl font-black text-frangipani/20 absolute -top-8 -left-4 z-0 group-hover:text-frangipani/30 transition-colors">03</span>
                     <div class="relative z-10">
                         <h3 class="font-bold text-xl mb-3">We Take Over</h3>
                         <p class="text-gray-600 text-sm">We contact them, run the call, build the site, and keep you out of the weeds completely.</p>
@@ -333,8 +337,8 @@ const partnerProgramSchema = {
                 </div>
 
                 <!-- Step 4 -->
-                <div class="relative">
-                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">04</span>
+                <div class="relative group">
+                    <span class="text-8xl font-black text-signal/10 absolute -top-8 -left-4 z-0 group-hover:text-signal/20 transition-colors">04</span>
                     <div class="relative z-10">
                         <h3 class="font-bold text-xl mb-3">Everyone Wins</h3>
                         <p class="text-gray-600 text-sm">Your client moves forward. You strengthen the relationship. We grow together.</p>
@@ -349,11 +353,11 @@ const partnerProgramSchema = {
         <div class="max-w-3xl mx-auto px-4 text-center">
             <h2 class="text-2xl font-bold mb-8">Who We Are Looking For</h2>
             <div class="flex flex-wrap justify-center gap-4">
-                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Accountants & Bookkeepers</span>
-                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Mortgage Brokers</span>
-                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Bank BDMs</span>
-                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Insurance Brokers</span>
-                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Business Coaches</span>
+                <span class="px-4 py-2 bg-white border-l-4 border-signal shadow-sm font-medium">Accountants & Bookkeepers</span>
+                <span class="px-4 py-2 bg-white border-l-4 border-hibiscus shadow-sm font-medium">Mortgage Brokers</span>
+                <span class="px-4 py-2 bg-white border-l-4 border-frangipani shadow-sm font-medium">Bank BDMs</span>
+                <span class="px-4 py-2 bg-white border-l-4 border-signal shadow-sm font-medium">Insurance Brokers</span>
+                <span class="px-4 py-2 bg-white border-l-4 border-hibiscus shadow-sm font-medium">Business Coaches</span>
             </div>
             <p class="mt-8 text-gray-600">
                 Based in <span class="font-bold text-carbon">Whangārei / Northland</span>, serving clients <span class="font-bold text-carbon">NZ-wide</span>.
@@ -367,8 +371,8 @@ const partnerProgramSchema = {
         <h2 class="text-3xl font-extrabold mb-12 text-center">Frequently Asked</h2>
         <div class="space-y-8">
           {faqs.map((faq) => (
-            <div class="border-b border-gray-100 pb-6 last:border-0">
-              <h3 class="text-lg font-bold text-carbon mb-2">{faq.question}</h3>
+            <div class="border-b border-gray-100 pb-6 last:border-0 group">
+              <h3 class="text-lg font-bold text-carbon mb-2 group-hover:text-signal transition-colors">{faq.question}</h3>
               <p class="text-gray-600 leading-relaxed">{faq.answer}</p>
             </div>
           ))}
@@ -376,40 +380,23 @@ const partnerProgramSchema = {
       </div>
     </section>
 
-    <!-- SECTION 9: JOIN FORM / CTA -->
+    <!-- SECTION 9: JOIN VIA EMAIL CTA -->
     <section id="join" class="py-24 bg-carbon text-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-8">Join the Network</h2>
             <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-                Fill out the form and we'll send you your welcome kit, resources, and everything you need to make clean introductions.
+                Send us a quick email and we'll send you your welcome kit, resources, and everything you need to make clean introductions.
             </p>
             
-            <!-- Replace with actual form logic/component -->
-            <div class="bg-white text-carbon p-8 max-w-xl mx-auto rounded-sm mb-12 text-left">
-                <form name="network-join" method="POST" data-netlify="true" class="space-y-4">
-                    <div>
-                        <label class="block text-sm font-bold mb-1">Name</label>
-                        <input type="text" name="name" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none" placeholder="Your Name" required />
-                    </div>
-                    <div>
-                        <label class="block text-sm font-bold mb-1">Business / Firm</label>
-                        <input type="text" name="business" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none" placeholder="e.g. ABC Accounting" required />
-                    </div>
-                    <div>
-                        <label class="block text-sm font-bold mb-1">Email</label>
-                        <input type="email" name="email" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none" placeholder="you@example.com" required />
-                    </div>
-                    <div>
-                        <label class="block text-sm font-bold mb-1">Role</label>
-                        <select name="role" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none bg-white">
-                            <option>Accountant / Bookkeeper</option>
-                            <option>Banker / Broker</option>
-                            <option>Coach / Advisor</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="w-full bg-signal text-white font-bold uppercase tracking-widest py-4 mt-4 hover:bg-carbon border border-transparent hover:border-white transition-all">Join Network</button>
-                </form>
+            <!-- Email Action Box -->
+            <div class="bg-white text-carbon p-8 max-w-xl mx-auto rounded-sm mb-12 text-center shadow-hard-white">
+                <h3 class="text-2xl font-bold mb-4">Ready to connect?</h3>
+                <p class="text-gray-600 mb-8">
+                    Send Nic an email with your name, firm, and role. We'll handle the rest.
+                </p>
+                <a href="mailto:nic@yourhq.co.nz?subject=Joining%20the%20YourHQ%20Network" class="inline-block w-full bg-signal text-white font-bold uppercase tracking-widest py-4 hover:bg-carbon border border-transparent hover:border-white transition-all shadow-hard-sm hover:shadow-none hover:translate-y-[1px]">
+                    Email Nic to Join
+                </a>
             </div>
 
             <div class="border-t border-white/20 pt-12">
