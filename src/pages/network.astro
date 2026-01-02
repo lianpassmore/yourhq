@@ -1,0 +1,430 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+
+// FAQ Data
+const faqs = [
+  {
+    question: "Do I get paid for referrals?",
+    answer: "No. We focus on long-term value exchange, not transactional kickbacks. We reciprocate by sending our clients to you when they need your specific services."
+  },
+  {
+    question: "What if my client has a bad experience?",
+    answer: "We fix it — or refund them. Protecting your trust is non-negotiable. We offer a 'Love Your Launch' guarantee where if they don't like the preview, they get their money back."
+  },
+  {
+    question: "How do I make a referral?",
+    answer: "It's simple. Text or email Nic with their name and number (after getting their permission). We take it from there."
+  },
+  {
+    question: "Do I need to commit to anything?",
+    answer: "No contracts. No minimums. Just refer when it makes sense for your client."
+  },
+  {
+    question: "Can I refer clients outside Northland?",
+    answer: "Yes. While we are based in Whangārei, we work with Kiwi businesses nationwide. Our process is fully remote-capable."
+  }
+];
+
+// Schema markup for FAQs (for SEO & AEO)
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+
+// Schema markup for the Partner Program
+const partnerProgramSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Website Referral Partnership Program",
+  "provider": {
+    "@type": "Organization",
+    "name": "YourHQ",
+    "url": "https://yourhq.co.nz",
+    "logo": "https://yourhq.co.nz/icon.svg",
+    "areaServed": {
+      "@type": "Country",
+      "name": "New Zealand"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Northland",
+      "addressCountry": "NZ"
+    }
+  },
+  "description": "Join the YourHQ Network. A trusted referral partnership for accountants, mortgage brokers, bank BDMs, insurance brokers, and business coaches to help their clients get professional websites without the stress. No commissions, just reciprocal value exchange.",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": ["Accountant", "Bookkeeper", "Mortgage Broker", "Bank BDM", "Insurance Broker", "Business Coach"]
+  }
+};
+---
+
+<Layout
+  title="YourHQ Network | Trusted Referral Circle for NZ Business Pros"
+  description="Join the YourHQ Network. A trusted circle for accountants, brokers, and advisors to help their clients get online without the stress. No commissions, just reciprocity."
+>
+  <!-- Schema Markup for SEO & AEO -->
+  <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(faqSchema)} />
+  <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(partnerProgramSchema)} />
+
+  <!-- Navbar -->
+  <Navbar client:load />
+
+  <main class="bg-paper">
+    
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-24 md:pt-48 md:pb-32 border-b border-carbon bg-white">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-4xl">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-2 px-3 py-1 border border-carbon bg-paper shadow-hard-sm mb-8">
+              <span class="w-2 h-2 bg-signal rounded-full animate-pulse"></span>
+              <span class="text-xs font-mono font-bold uppercase tracking-wider text-carbon">Partner Program</span>
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] mb-8 text-carbon">
+              Your Clients Need Websites.<br />
+              <span class="text-signal">We've Got You Covered.</span>
+            </h1>
+
+            <p class="text-xl md:text-2xl font-medium leading-relaxed text-carbon/80 mb-8 max-w-2xl">
+              When a client asks, <em>"Do you know anyone who does websites?"</em> — now you do.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="#join" class="bg-carbon text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
+                Join the Network
+              </a>
+              <a href="#how-it-works" class="bg-white text-carbon px-8 py-4 text-center border border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
+                How It Works
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 1: THE PROBLEM -->
+    <section class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-2 gap-16 items-start">
+            
+            <div class="sticky top-24">
+              <h2 class="text-4xl font-extrabold tracking-tighter mb-6 text-carbon">
+                The Problem <br/><span class="text-gray-400 font-normal text-2xl">(From your side of the desk)</span>
+              </h2>
+              <p class="text-lg text-gray-600 mb-6">
+                You see this all the time. The tradie doing great work but losing jobs to competitors. The salon owner whose whole business lives on Instagram.
+              </p>
+              <p class="text-lg font-bold text-carbon">
+                They ask you for advice. You tell them they need a website. Then comes the awkward part.
+              </p>
+            </div>
+
+            <div class="space-y-6">
+              <!-- Problem Cards -->
+              <div class="bg-white p-6 border-l-4 border-carbon shadow-sm">
+                <h3 class="font-bold text-lg mb-2">Option A: Wix / DIY</h3>
+                <p class="text-gray-600">Means 40 hours of your client's time, frustration, and usually no result.</p>
+              </div>
+              
+              <div class="bg-white p-6 border-l-4 border-carbon shadow-sm">
+                <h3 class="font-bold text-lg mb-2">Option B: Agencies</h3>
+                <p class="text-gray-600">Means big money ($5k+) and long delays. Often overkill for what they need.</p>
+              </div>
+
+              <div class="bg-white p-6 border-l-4 border-carbon shadow-sm">
+                <h3 class="font-bold text-lg mb-2">Option C: Doing Nothing</h3>
+                <p class="text-gray-600">Means having the exact same conversation next quarter. Your client stays stuck.</p>
+              </div>
+
+              <div class="p-6 bg-signal/10 border border-signal mt-8">
+                <p class="font-bold text-signal text-lg">
+                  That's the gap the YourHQ Network fills.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: WHAT WE DO -->
+    <section class="py-24 bg-carbon text-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center mb-16">
+          <h2 class="text-3xl md:text-5xl font-extrabold tracking-tighter mb-6">
+            Websites for Small Biz.<br/>
+            <span class="text-signal">Fast. Zero Homework.</span>
+          </h2>
+          <p class="text-xl text-gray-400">
+            We fix the problem without creating more work for you or your clients.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 text-carbon">
+          <!-- Feature 1 -->
+          <div class="bg-paper p-8">
+            <h3 class="font-extrabold text-xl mb-3">Built in 5 Days</h3>
+            <p class="text-gray-600">One short phone call. Website live within a week. We move at the speed of business.</p>
+          </div>
+          <!-- Feature 2 -->
+          <div class="bg-paper p-8">
+            <h3 class="font-extrabold text-xl mb-3">No Homework</h3>
+            <p class="text-gray-600">We don't ask clients to write copy. We interview them, pull what we need, and build it.</p>
+          </div>
+          <!-- Feature 3 -->
+          <div class="bg-paper p-8">
+            <h3 class="font-extrabold text-xl mb-3">Small Biz Pricing</h3>
+            <p class="text-gray-600">Setup from <strong>$695</strong>. Ongoing care from <strong>$49/mo</strong>. Not agency pricing. Not DIY pain.</p>
+          </div>
+          <!-- Feature 4 -->
+          <div class="bg-paper p-8">
+            <h3 class="font-extrabold text-xl mb-3">The Caretaker Model</h3>
+            <p class="text-gray-600">We don't build and disappear. We host, maintain, and update the site so it stays current.</p>
+          </div>
+          <!-- Feature 5 -->
+          <div class="bg-paper p-8 border-2 border-signal relative">
+            <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-2 py-1 uppercase">Crucial</div>
+            <h3 class="font-extrabold text-xl mb-3">Simple Guarantee</h3>
+            <p class="text-gray-600">If they don't like the preview, we refund them. Your reputation stays intact.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: WHO WE HELP -->
+    <section class="py-20 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12">
+          
+          <!-- Good Fit -->
+          <div>
+            <h3 class="text-2xl font-extrabold mb-6 flex items-center gap-3">
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-700 text-sm">✓</span>
+              Good Fit Clients
+            </h3>
+            <ul class="space-y-3 text-lg text-gray-700">
+              <li>Tradies and service businesses</li>
+              <li>Salons and beauty professionals</li>
+              <li>Health & wellness practitioners</li>
+              <li>Consultants and coaches</li>
+              <li>Creatives needing professional presence</li>
+            </ul>
+          </div>
+
+          <!-- Not a Fit -->
+          <div>
+            <h3 class="text-2xl font-extrabold mb-6 flex items-center gap-3">
+              <span class="flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-700 text-sm">✕</span>
+              Not a Fit
+            </h3>
+            <ul class="space-y-3 text-lg text-gray-700">
+              <li>E-commerce or online stores</li>
+              <li>DIYers who want to build it themselves</li>
+              <li>Businesses needing complex custom systems</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: WHY JOIN -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tighter mb-16 text-center">Why Join The Network?</h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+          
+          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
+            <h3 class="text-xl font-bold mb-4">You Look Good</h3>
+            <p class="text-gray-600">Your client gets sorted quickly, properly, and without drama. That reflects well on you as their advisor.</p>
+          </div>
+
+          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
+            <h3 class="text-xl font-bold mb-4">Referrals Flow Both Ways</h3>
+            <p class="text-gray-600">Every new client onboarding includes a simple question: <em>"Who do you trust for accounting, finance, or insurance?"</em> When your name fits, we send the introduction.</p>
+          </div>
+
+          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
+            <h3 class="text-xl font-bold mb-4">Practical Tools</h3>
+            <p class="text-gray-600">We provide co-branded resources you can actually use — guides and checklists with your logo on them. Helpful, not salesy.</p>
+          </div>
+
+          <div class="bg-white p-8 border border-carbon shadow-hard-sm">
+            <h3 class="text-xl font-bold mb-4">Credible Network</h3>
+            <p class="text-gray-600">Network members are listed on our internal directory and featured when relevant. No black holes. No random hand-offs.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: VALUE EXCHANGE -->
+    <section class="py-20 bg-signal/5 border-b border-carbon">
+      <div class="max-w-3xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-extrabold mb-8">The Value Exchange</h2>
+        <p class="text-lg font-medium text-carbon mb-8">This is <span class="underline decoration-signal decoration-4">not</span> a commission program.</p>
+        
+        <div class="bg-white border-2 border-carbon p-8 shadow-hard">
+          <div class="grid md:grid-cols-2 gap-8 text-left">
+            <div>
+              <p class="font-bold text-signal uppercase tracking-widest text-xs mb-4">You Get</p>
+              <ul class="space-y-2 text-sm">
+                <li>• Warm referrals back</li>
+                <li>• Co-branded resources</li>
+                <li>• Visibility in our network</li>
+                <li>• A reliable solution</li>
+              </ul>
+            </div>
+            <div class="md:border-l md:border-gray-200 md:pl-8">
+              <p class="font-bold text-carbon uppercase tracking-widest text-xs mb-4">We Get</p>
+              <ul class="space-y-2 text-sm">
+                <li>• Quality introductions to clients who actually need help</li>
+              </ul>
+            </div>
+          </div>
+          <p class="mt-8 text-center font-bold border-t border-gray-100 pt-6">Simple. Clean. Sustainable.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: HOW IT WORKS -->
+    <section id="how-it-works" class="py-24 bg-white border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-extrabold tracking-tighter mb-16 text-center">How It Works (Practically)</h2>
+            
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="relative">
+                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">01</span>
+                    <div class="relative z-10">
+                        <h3 class="font-bold text-xl mb-3">Join the Network</h3>
+                        <p class="text-gray-600 text-sm">Fill out the form below. We'll send you a short welcome kit and get you set up.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative">
+                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">02</span>
+                    <div class="relative z-10">
+                        <h3 class="font-bold text-xl mb-3">Make the Intro</h3>
+                        <p class="text-gray-600 text-sm">When a client mentions needing a website, just say: <em>"I'm part of the YourHQ Network. Want me to connect you?"</em></p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative">
+                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">03</span>
+                    <div class="relative z-10">
+                        <h3 class="font-bold text-xl mb-3">We Take Over</h3>
+                        <p class="text-gray-600 text-sm">We contact them, run the call, build the site, and keep you out of the weeds completely.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative">
+                    <span class="text-6xl font-bold text-gray-100 absolute -top-8 -left-4 z-0">04</span>
+                    <div class="relative z-10">
+                        <h3 class="font-bold text-xl mb-3">Everyone Wins</h3>
+                        <p class="text-gray-600 text-sm">Your client moves forward. You strengthen the relationship. We grow together.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: WHO IS IT FOR -->
+    <section class="py-20 bg-paper border-b border-carbon">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-8">Who We Are Looking For</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Accountants & Bookkeepers</span>
+                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Mortgage Brokers</span>
+                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Bank BDMs</span>
+                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Insurance Brokers</span>
+                <span class="px-4 py-2 bg-white border border-carbon shadow-sm">Business Coaches</span>
+            </div>
+            <p class="mt-8 text-gray-600">
+                Based in <span class="font-bold text-carbon">Whangārei / Northland</span>, serving clients <span class="font-bold text-carbon">NZ-wide</span>.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 8: FAQ -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold mb-12 text-center">Frequently Asked</h2>
+        <div class="space-y-8">
+          {faqs.map((faq) => (
+            <div class="border-b border-gray-100 pb-6 last:border-0">
+              <h3 class="text-lg font-bold text-carbon mb-2">{faq.question}</h3>
+              <p class="text-gray-600 leading-relaxed">{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: JOIN FORM / CTA -->
+    <section id="join" class="py-24 bg-carbon text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-8">Join the Network</h2>
+            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+                Fill out the form and we'll send you your welcome kit, resources, and everything you need to make clean introductions.
+            </p>
+            
+            <!-- Replace with actual form logic/component -->
+            <div class="bg-white text-carbon p-8 max-w-xl mx-auto rounded-sm mb-12 text-left">
+                <form name="network-join" method="POST" data-netlify="true" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Name</label>
+                        <input type="text" name="name" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none" placeholder="Your Name" required />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Business / Firm</label>
+                        <input type="text" name="business" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none" placeholder="e.g. ABC Accounting" required />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Email</label>
+                        <input type="email" name="email" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none" placeholder="you@example.com" required />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Role</label>
+                        <select name="role" class="w-full border-2 border-gray-200 p-3 focus:border-signal outline-none bg-white">
+                            <option>Accountant / Bookkeeper</option>
+                            <option>Banker / Broker</option>
+                            <option>Coach / Advisor</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-signal text-white font-bold uppercase tracking-widest py-4 mt-4 hover:bg-carbon border border-transparent hover:border-white transition-all">Join Network</button>
+                </form>
+            </div>
+
+            <div class="border-t border-white/20 pt-12">
+                <p class="text-sm font-mono text-gray-400 mb-4">QUESTIONS?</p>
+                <p class="text-lg font-bold">Nic Bates</p>
+                <p class="text-gray-400 mb-4">Network Relationships</p>
+                <p class="text-xl">
+                    <a href="mailto:nic@yourhq.co.nz" class="hover:text-signal transition-colors">nic@yourhq.co.nz</a>
+                    <span class="mx-2 text-gray-600">|</span>
+                    <a href="tel:0221725793" class="hover:text-signal transition-colors">022 172 5793</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
