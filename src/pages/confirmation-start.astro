@@ -1,0 +1,115 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="You're In | YourHQ"
+  description="Payment confirmed. Welcome to the Founding Members."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen relative">
+
+    <!-- SUCCESS HEADER -->
+    <section class="pt-32 pb-16 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        <!-- Success Icon -->
+        <div class="mb-8 flex justify-center">
+          <div class="w-20 h-20 bg-signal rounded-full flex items-center justify-center border-4 border-white shadow-hard">
+            <span class="text-4xl text-white">✓</span>
+          </div>
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-6">
+          Payment Confirmed.
+        </h1>
+        <p class="text-2xl text-carbon/80 mb-6 font-medium">Welcome to the Founding Members.</p>
+        
+        <div class="inline-block bg-carbon text-white px-6 py-3 shadow-hard-sm">
+          <p class="font-mono text-sm font-bold uppercase tracking-widest">Status: Your Spot is Locked In</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT'S NEXT -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="mb-16 text-center">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">What Happens Now?</h2>
+          <p class="text-xl text-gray-600">Short answer: We handle it.</p>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="max-w-3xl mx-auto space-y-0">
+
+          <!-- Step 1 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-signal pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-signal border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-signal text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 1 • Right Now</span>
+              <h3 class="text-2xl font-bold mb-4">Check Your Email</h3>
+              <p class="text-gray-600 mb-4">
+                You'll receive a receipt from Stripe and a personal welcome email from us shortly.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex gap-6 md:gap-10 pb-16 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 2 • The Human Touch</span>
+              <h3 class="text-2xl font-bold mb-4">We Will Contact You</h3>
+              <p class="text-gray-600 mb-4">
+                Because you are a Founding Member, you skip the automated queues. <br/>
+                <strong>Lian or Nic will reach out to you personally</strong> (via text or email) within 24 hours to arrange your 15-minute Drive-Home Interview.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex gap-6 md:gap-10 border-l-4 border-carbon pl-8 md:pl-12 relative">
+            <div class="absolute -left-[13px] top-0 w-6 h-6 rounded-full bg-hibiscus border-4 border-white"></div>
+            <div>
+              <span class="inline-block bg-hibiscus text-white px-3 py-1 text-xs font-bold mb-3 uppercase tracking-widest">Step 3 • Relax</span>
+              <h3 class="text-2xl font-bold mb-4">No Homework Required</h3>
+              <p class="text-gray-600 mb-4">
+                You don't need to fill out forms, write copy, or find photos right now. <br>
+                Close this tab. Go back to work (or the couch). We've got it from here.
+              </p>
+              
+              <!-- THE PROMISE BOX -->
+              <div class="bg-white border-2 border-carbon p-6 mt-6 shadow-hard-sm">
+                <p class="font-bold text-lg mb-2">The "No Homework" Promise:</p>
+                <p class="text-gray-600">We meant it when we said we handle everything. Wait for our text. That's it.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MANUAL CONTACT (Just in case) -->
+    <section class="py-16 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h3 class="text-2xl font-bold mb-6">Need to talk to us right now?</h3>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="sms:0221725793" class="bg-carbon text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors shadow-hard-sm">
+            Text Nic: 022 172 5793
+          </a>
+          <a href="mailto:hello@yourhq.co.nz" class="bg-white text-carbon border-2 border-carbon px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors shadow-hard-sm">
+            Email Lian
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+
+</Layout>
