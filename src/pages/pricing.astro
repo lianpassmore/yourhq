@@ -17,6 +17,13 @@ import FAQSchema from '../components/FAQSchema.astro';
     <!-- HEADER -->
     <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+        <!-- Capacity Badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-2 border border-carbon bg-white shadow-hard-sm mb-6">
+          <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+          <span class="text-xs font-mono font-bold uppercase tracking-wider text-carbon">Limited to 5 Quality Builds Per Week</span>
+        </div>
+
         <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
           Transparent Pricing.<br />
           <span class="text-signal">No Surprises.</span>
@@ -28,6 +35,84 @@ import FAQSchema from '../components/FAQSchema.astro';
         <p class="text-sm text-gray-500 max-w-xl mx-auto">
           Your accountant will love this. It's a regular business expense, just like your phone bill or Xero subscription.
         </p>
+      </div>
+    </section>
+
+    <!-- FOUNDING MEMBER OFFER -->
+    <section class="py-24 bg-signal text-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-12">
+          <div class="inline-block bg-white text-signal px-4 py-1 font-mono text-xs font-bold uppercase tracking-widest mb-6">
+            26 Spots Only — Expires March 31, 2026
+          </div>
+          <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-4">
+            Founding Member Offer
+          </h2>
+          <p class="text-xl text-white/90 max-w-2xl mx-auto">
+            Lock in the 2026 rate for life. As features get added, the price for new members will go up. Yours never moves.
+          </p>
+        </div>
+
+        <!-- COMPARISON TABLE -->
+        <div class="max-w-3xl mx-auto">
+          <div class="bg-white text-carbon border-2 border-white shadow-hard overflow-hidden">
+            <table class="w-full">
+              <thead class="bg-carbon text-white">
+                <tr>
+                  <th class="py-4 px-6 text-left font-bold uppercase tracking-wider text-sm">Normal Price</th>
+                  <th class="py-4 px-6 text-left font-bold uppercase tracking-wider text-sm">Founding Member</th>
+                  <th class="py-4 px-6 text-left font-bold uppercase tracking-wider text-sm">Savings</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-carbon/10">
+                  <td class="py-6 px-6 text-lg">$995 setup</td>
+                  <td class="py-6 px-6 text-2xl font-extrabold text-signal">$497 setup</td>
+                  <td class="py-6 px-6 text-lg font-bold">$498 off</td>
+                </tr>
+                <tr>
+                  <td class="py-6 px-6 text-lg">$149/mo<br/><span class="text-sm text-gray-500">(may increase)</span></td>
+                  <td class="py-6 px-6 text-2xl font-extrabold text-signal">$149/mo<br/><span class="text-base font-normal text-carbon">locked for life</span></td>
+                  <td class="py-6 px-6 text-lg font-bold">Protected from<br/>future increases</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- VALUE MESSAGING -->
+          <div class="mt-12 space-y-6">
+            <div class="bg-white/10 border border-white/20 p-6 text-center">
+              <p class="text-xl font-bold mb-2">50% off setup. Rate locked forever. 26 spots.</p>
+              <p class="text-white/80">Same website. Half the setup cost. Because you're in early.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="bg-white/5 border border-white/20 p-6">
+                <p class="font-bold mb-2">The Timing Push:</p>
+                <p class="text-white/80 text-sm italic">"This either gets handled now or it keeps sitting there. Which way are you leaning?"</p>
+              </div>
+              <div class="bg-white/5 border border-white/20 p-6">
+                <p class="font-bold mb-2">The Effort Reframe:</p>
+                <p class="text-white/80 text-sm italic">"Most guys don't do this because it feels like effort. We've removed the effort—the only decision left is timing."</p>
+              </div>
+            </div>
+
+            <div class="bg-frangipani text-carbon p-8 text-center shadow-hard-sm">
+              <p class="text-2xl font-extrabold mb-3">Not fake scarcity—real capacity.</p>
+              <p class="text-lg">We're capping at 26 because that's what we can build properly in Q1.<br/>When they're gone, price goes back to $995.</p>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="mt-12 text-center">
+            <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="inline-block bg-white text-signal px-12 py-6 border-2 border-white hover:bg-signal hover:text-white hover:border-white transition-all font-bold uppercase tracking-widest text-xl shadow-hard-white">
+              Claim Your Founding Member Spot
+            </a>
+            <p class="text-sm text-white/60 mt-4">Join the first 26 and own this rate forever</p>
+          </div>
+        </div>
+
       </div>
     </section>
 

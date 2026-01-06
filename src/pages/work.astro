@@ -5,132 +5,170 @@ import Footer from '../components/Footer.astro';
 
 const projects = [
   {
-    client: "DreamStorm",
-    type: "Creative Studio",
-    location: "Northland, NZ",
-    description: "A creative studio based in Northland specializing in storytelling, design, and digital strategy for purpose-driven businesses.",
-    image: "/dreamstorm-site.webp",
-    link: "https://dreamstorm.org",
-    quote: "This is the site that started it all. I designed a website for myself and fell in love with it - I decided that I wanted to help others build a site that represents them.",
-    author: "Lian, Founder"
+    client: "Rumours on Rust",
+    type: "Cafe & Hospitality",
+    location: "Whangārei, NZ",
+    description: "Whangārei's newest little cafe with Turning Point Organic Coffee and modern tech.",
+    image: "/rumours-site.webp",
+    link: "https://rumours-on-rust.site",
+    quote: "The AI agent was a breeze—stress-free, quick, and foolproof. Other busy people need to know how easy this is.",
+    author: "Katie, Owner",
+    color: "signal", // Blue for tech/interactive vibe
+    hasAI: true
   },
   {
     client: "Ember & Ice",
     type: "Wellness Studio",
     location: "Northland, NZ",
-    description: "Ember & Ice is a wellness studio in Northland offering ice bath therapy, sauna sessions, and holistic wellness treatments for recovery and vitality.",
+    description: "Ice bath therapy and sauna sessions for recovery and vitality.",
     image: "/emberandice-site.webp",
     link: "https://emberandice.co.nz",
-    quote: "You took away my barrier to market. Building a website was something I didn't have the skills for. You helped me fulfill a dream - you made my dreams come true.",
-    author: "Nicolette, Owner"
+    quote: "Building a website was my barrier to market. You helped me fulfill a dream and take that next step.",
+    author: "Nicolette, Owner",
+    color: "deepGreen" // Wellness vibe
   },
   {
     client: "Johnson & Sons",
     type: "Commercial Services",
     location: "Northland, NZ",
-    description: "Johnson & Sons is a commercial building and maintenance company serving businesses across Northland with professional trade services.",
+    description: "Commercial building and maintenance company serving all of Northland.",
     image: "/johnsonandsons-site.webp",
     link: "https://johnsonandsonsltd.site",
-    quote: "I'm definitely not up to speed on all this tech stuff. I was blown away by how prompt she was. While I was still trying to upload images, she had already grabbed them from our Facebook and built the whole thing. My mates reckon it's banging!",
-    author: "Reuben, Director"
+    quote: "I'm not up to speed on tech stuff and was blown away. My mates reckon the site is banging!",
+    author: "Reuben, Director",
+    color: "frangipani" // Industrial/Warning orange vibe
+  },
+  {
+    client: "DreamStorm",
+    type: "Creative Studio",
+    location: "Northland, NZ",
+    description: "Storytelling, design, and digital strategy for purpose-driven businesses.",
+    image: "/dreamstorm-site.webp",
+    link: "https://dreamstorm.org",
+    quote: "I designed a website for myself and fell in love. I decided I wanted to help others build homes that represent them.",
+    author: "Lian, Founder",
+    color: "hibiscus" // Creative/Pop vibe
   },
   {
     client: "Storysmith",
-    type: "Storytelling & Media",
+    type: "Media Production",
     location: "Northland, NZ",
-    description: "Storysmith is a storytelling and media production service creating compelling narratives and visual content for New Zealand businesses.",
+    description: "Creating compelling narratives and visual content for NZ businesses.",
     image: "/storysmith-site.webp",
     link: "https://storysmith.work",
-    quote: "My Mum built me an epic website with everything I need to start my own business. I think it's mean!",
-    author: "Tai, Lian's 16 year old son"
+    quote: "My Mum built me an epic website with everything I need to start my own business. It's mean!",
+    author: "Tai, Producer",
+    color: "carbon" // Neutral/Pro vibe
   }
 ];
 ---
 
-<Layout 
-  title="Our Work | YourHQ - Real Results" 
-  description="See the digital homes we've built for Kiwi businesses. Real results, real testimonials."
+<Layout
+  title="Our Work | YourHQ"
+  description="View our portfolio of websites built for Northland businesses. From cafes to wellness studios, see how we help Kiwi businesses own their digital space."
 >
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
-    
+  <main class="bg-paper min-h-screen font-sans selection:bg-hibiscus selection:text-white">
+
     <!-- HEADER -->
-    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-          The <span class="text-signal">Work.</span>
+    <section class="pt-32 pb-20 border-b-2 border-carbon bg-grid-pattern relative overflow-hidden">
+      <div class="max-w-screen-2xl mx-auto px-6 relative z-10">
+        <h1 class="text-[12vw] font-black tracking-tighter leading-[0.8] uppercase text-carbon mb-4">
+          The <span class="text-signal italic">Work.</span>
         </h1>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            We build the structure. You bring the flavor.<br/>
-            See what happens when infrastructure meets warmth.
+        <p class="font-mono text-sm md:text-base text-carbon/60 uppercase tracking-widest max-w-xl">
+          // Building digital infrastructure for Northland <br/>
+          // {projects.length} Projects Deployed
         </p>
       </div>
     </section>
 
-    <!-- THE GALLERY -->
-    <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div class="grid md:grid-cols-2 gap-x-12 gap-y-24">
-            
-            {projects.map((project) => (
-                <div class="group">
-                    
-                    <!-- 1. The Image Frame (Infrastructure) -->
-                    <!-- Strict border, Hard shadow -->
-                    <a href={project.link} class="block border-2 border-carbon bg-gray-100 p-1 shadow-hard group-hover:shadow-none group-hover:translate-y-[2px] transition-all duration-300 relative aspect-[9/14] mb-8">
-                        <div class="w-full h-full bg-white relative overflow-hidden flex items-center justify-center border border-carbon/10">
+    <!-- PROJECT FEED -->
+    <section class="py-12 md:py-24 bg-paper bg-grid-pattern">
+      <div class="max-w-6xl mx-auto px-6">
 
-                            <img src={project.image} alt={project.client} class="absolute inset-0 w-full h-full object-cover object-top" />
-                        </div>
+        {projects.map((project, index) => (
+          <div class={`flex flex-col md:flex-row items-center gap-12 mb-32 md:mb-56 relative group ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
 
-                        <!-- The "Live" Badge -->
-                        <div class="absolute top-4 right-4 bg-white border border-carbon px-3 py-1 shadow-sm z-10 flex items-center gap-2">
-                            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                            <span class="font-mono text-[10px] font-bold uppercase tracking-widest text-carbon">Live</span>
-                        </div>
-                    </a>
+            <!-- BACKGROUND DECOR (The large number) -->
+            <span class="absolute -top-20 -left-10 md:left-auto md:-top-32 text-[20rem] font-black text-carbon/[0.03] select-none pointer-events-none group-hover:text-hibiscus/[0.05] transition-colors duration-700">
+              0{index + 1}
+            </span>
 
-                    <!-- 2. The Metadata -->
-                    <div class="mb-6 border-b border-carbon/10 pb-4">
-                        <div class="flex justify-between items-baseline mb-2">
-                            <h3 class="text-3xl font-extrabold tracking-tight">{project.client}</h3>
-                            <span class="font-mono text-xs font-bold text-gray-400 uppercase tracking-widest">{project.type}</span>
-                        </div>
-                        <p class="text-sm text-gray-600 leading-relaxed">
-                            {project.description}
-                        </p>
-                        <p class="text-xs font-mono text-gray-400 mt-2 uppercase tracking-wider">
-                            📍 {project.location}
-                        </p>
-                    </div>
+            <!-- THE MOCKUP (The "Lazy" Scroll Card) -->
+            <div class="w-full md:w-3/5 relative">
+              <a href={project.link} target="_blank" class="block border-2 border-carbon bg-white shadow-hard group-hover:-translate-y-2 transition-all duration-500 overflow-hidden rounded-sm">
+                <!-- The magic scrolling image: just 1 long screenshot needed -->
+                <img
+                  src={project.image}
+                  alt={project.client}
+                  class="w-full h-[500px] object-cover object-top hover:object-bottom transition-all duration-[6000ms] ease-in-out"
+                />
+              </a>
 
-                    <!-- 3. The Testimonial (The "Caption") -->
-                    <div class="relative pl-6 border-l-4 border-signal">
-                        <p class="text-lg text-carbon font-medium italic mb-3 leading-relaxed">
-                            "{project.quote}"
-                        </p>
-                        <footer class="font-mono text-xs font-bold text-gray-500 uppercase tracking-wider">
-                            — {project.author}
-                        </footer>
-                    </div>
-
+              <!-- AI Feature Badge (conditional) -->
+              {project.hasAI && (
+                <div class="absolute -top-4 -right-4 bg-hibiscus text-white font-mono text-[10px] px-2 py-1 border border-carbon rotate-3 shadow-hard-sm">
+                  FEATURE: AI_RECEPTIONIST
                 </div>
-            ))}
+              )}
 
-        </div>
+              <!-- Annotation Tag -->
+              <div class="absolute -bottom-4 -right-2 bg-carbon text-white font-mono text-[10px] px-3 py-1 shadow-hard-white">
+                VERIFIED_BUILD_0{index + 1}
+              </div>
+            </div>
+
+            <!-- THE CONTENT -->
+            <div class="w-full md:w-2/5 space-y-6">
+              <div class="space-y-2">
+                <span class="font-mono text-xs font-bold text-signal uppercase tracking-widest">{project.type}</span>
+                <h3 class="text-5xl font-black text-carbon tracking-tighter leading-none uppercase">{project.client}</h3>
+                <p class="text-xs font-mono text-carbon/40 uppercase italic">📍 {project.location}</p>
+              </div>
+
+              <!-- The "Sticky Note" Testimonial with tape effect -->
+              <div class="bg-pureWhite border-2 border-carbon p-6 shadow-hard-sm relative">
+                <!-- Accent color bar on right edge -->
+                <div class={`absolute top-0 right-0 w-2 h-full bg-${project.color}`}></div>
+
+                <p class="text-lg font-medium italic leading-snug mb-4 text-carbon">
+                  "{project.quote}"
+                </p>
+                <p class="font-mono text-[10px] uppercase font-bold text-carbon/60">
+                  — {project.author}
+                </p>
+              </div>
+
+              <!-- Tech Swatch (Visual detail) -->
+              <div class="flex items-center gap-4 pt-4 border-t border-carbon/10">
+                <p class="font-mono text-[10px] uppercase text-carbon/40">Build Details:</p>
+                <div class="flex h-3 w-20 border border-carbon rounded-full overflow-hidden">
+                  <div class="flex-1 bg-carbon"></div>
+                  <div class="flex-1 bg-signal"></div>
+                  <div class={`flex-1 bg-${project.color}`}></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        ))}
 
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="py-32 bg-carbon text-white text-center">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">Want to look this good?</h2>
-            <p class="text-xl text-gray-400 mb-10">Join the gallery of owners, not tenants.</p>
-            <a href="/contact" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl">
-              Start Your Build
+    <!-- FOOTER CTA -->
+    <section class="py-24 bg-carbon text-white relative overflow-hidden">
+       <!-- Large background text -->
+       <div class="absolute inset-0 flex items-center justify-center opacity-5 select-none pointer-events-none">
+          <span class="text-[30vw] font-black uppercase tracking-tighter">YourHQ</span>
+       </div>
+
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-8 uppercase">Ready for <br/> <span class="text-hibiscus">your</span> build?</h2>
+            <a href="/contact" class="inline-block bg-pureWhite text-carbon px-10 py-5 border-2 border-pureWhite hover:bg-transparent hover:text-white transition-all font-black uppercase tracking-tighter text-2xl shadow-hard group">
+              Start Project →
             </a>
         </div>
     </section>
