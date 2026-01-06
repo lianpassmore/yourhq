@@ -104,8 +104,20 @@ import FAQSchema from '../components/FAQSchema.astro';
             </div>
           </div>
 
-          <!-- CTA -->
+          <!-- CTA WITH COUPON -->
           <div class="mt-12 text-center">
+            
+            <!-- COUPON CODE BOX -->
+            <div class="bg-white/10 border-2 border-dashed border-white/40 p-6 inline-block mb-8 rounded-sm">
+                <p class="font-mono text-xs font-bold uppercase tracking-widest text-white/80 mb-2">Copy This Coupon Code:</p>
+                <div class="text-4xl md:text-5xl font-black text-white tracking-wider select-all cursor-pointer hover:text-frangipani transition-colors" onclick="navigator.clipboard.writeText('FOUNDING26'); alert('Coupon code copied!');" title="Click to copy">
+                    FOUNDING26
+                </div>
+                <p class="text-xs text-white/60 mt-2">Enter this at checkout to unlock the 50% discount</p>
+            </div>
+            
+            <br/>
+
             <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="inline-block bg-white text-signal px-12 py-6 border-2 border-white hover:bg-signal hover:text-white hover:border-white transition-all font-bold uppercase tracking-widest text-xl shadow-hard-white">
               Claim Your Founding Member Spot
             </a>

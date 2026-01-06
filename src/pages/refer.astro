@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 
 <Layout
   title="Refer a Friend | YourHQ"
-  description="Give $100, Get $100. The YourHQ Referral Program."
+  description="Give a Month, Get a Month. The YourHQ Referral Program."
 >
   <Navbar client:load />
 
@@ -21,13 +21,13 @@ import Footer from '../components/Footer.astro';
         </div>
 
         <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-          Give $100.<br/>
-          <span class="text-signal">Get $100.</span>
+          Give a Month.<br/>
+          <span class="text-signal">Get a Month.</span>
         </h1>
         
         <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
           Know a business owner who is still renting their digital home? 
-          Send them our way. If they sign up, you both win.
+          Send them our way. If they sign up, you both get a month of hosting on the house.
         </p>
 
         <!-- THE CARD -->
@@ -42,11 +42,11 @@ import Footer from '../components/Footer.astro';
                 </div>
                 <div class="flex items-start gap-3">
                     <span class="bg-carbon text-white w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold mt-1">2</span>
-                    <p class="text-gray-600 text-sm">They get <strong>$100 off</strong> their setup fee instantly.</p>
+                    <p class="text-gray-600 text-sm">They get their <strong>1st Month Free</strong> (save up to $249).</p>
                 </div>
                 <div class="flex items-start gap-3">
                     <span class="bg-carbon text-white w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold mt-1">3</span>
-                    <p class="text-gray-600 text-sm">You get <strong>$100 credit</strong> on your next monthly bill.</p>
+                    <p class="text-gray-600 text-sm">You get your <strong>Next Month Free</strong> automatically.</p>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@ import Footer from '../components/Footer.astro';
             <div class="max-w-2xl mx-auto grid md:grid-cols-2 gap-6">
                 
                 <!-- Email Template -->
-                <div class="p-6 border border-gray-200 hover:border-signal transition-colors group cursor-pointer" onclick="navigator.clipboard.writeText('Hey! I just got my website sorted by YourHQ. Highly recommend. If you use my name when you sign up, you get $100 off the build cost. Check them out: yourhq.co.nz'); alert('Message copied to clipboard!')">
+                <div class="p-6 border border-gray-200 hover:border-signal transition-colors group cursor-pointer" onclick="navigator.clipboard.writeText('Hey! I just got my website sorted by YourHQ. Highly recommend. If you use my name when you sign up, you get your first month of hosting free. Check them out: yourhq.co.nz'); alert('Message copied to clipboard!')">
                     <span class="text-4xl mb-4 block">📋</span>
                     <h3 class="font-bold mb-2">Copy a Message</h3>
                     <p class="text-sm text-gray-500 mb-4">Click to copy a pre-written text you can send to a mate.</p>
@@ -70,7 +70,7 @@ import Footer from '../components/Footer.astro';
                 </div>
 
                 <!-- Direct Link -->
-                <a href="mailto:?subject=Check out YourHQ&body=Hey! I reckon you should check out YourHQ for your website. I used them and it was super easy. If you mention my name, you get $100 off the build. https://yourhq.co.nz" class="p-6 border border-gray-200 hover:border-hibiscus transition-colors group">
+                <a href="mailto:?subject=Check out YourHQ&body=Hey! I reckon you should check out YourHQ for your website. I used them and it was super easy. If you mention my name, you get your first month of hosting free. https://yourhq.co.nz" class="p-6 border border-gray-200 hover:border-hibiscus transition-colors group">
                     <span class="text-4xl mb-4 block">✉️</span>
                     <h3 class="font-bold mb-2">Send an Email</h3>
                     <p class="text-sm text-gray-500 mb-4">Open your email app with a pre-filled message ready to go.</p>
@@ -88,11 +88,11 @@ import Footer from '../components/Footer.astro';
             <div class="space-y-4 text-sm text-gray-500">
                 <details class="bg-white border border-gray-200 p-4 cursor-pointer">
                     <summary class="font-bold text-carbon">Is there a limit to how many people I can refer?</summary>
-                    <p class="mt-2 pl-4 border-l-2 border-signal">Nope. Refer 5 people, get $500 credit. That's nearly 4 months of hosting for free.</p>
+                    <p class="mt-2 pl-4 border-l-2 border-signal">Nope. Refer 12 people, and you don't pay us a cent for a whole year.</p>
                 </details>
                 <details class="bg-white border border-gray-200 p-4 cursor-pointer">
-                    <summary class="font-bold text-carbon">When do I get my credit?</summary>
-                    <p class="mt-2 pl-4 border-l-2 border-signal">As soon as your friend pays their setup fee, we apply the credit to your next month's invoice automatically.</p>
+                    <summary class="font-bold text-carbon">When do I get my free month?</summary>
+                    <p class="mt-2 pl-4 border-l-2 border-signal">As soon as your friend pays their setup fee, we credit your account for the next billing cycle.</p>
                 </details>
                 <details class="bg-white border border-gray-200 p-4 cursor-pointer">
                     <summary class="font-bold text-carbon">Can I refer myself for a second business?</summary>

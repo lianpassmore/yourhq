@@ -3,19 +3,17 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import StructuredData from '../components/StructuredData.astro';
-
-// You can add specific schema for this page later if needed
 ---
 
 <Layout
   title="Websites for Tradies NZ | Get Found on Google | YourHQ"
-  description="Professional websites for NZ electricians, plumbers, builders & painters. Built in 5 days. No Wix homework. You talk for 15 minutes—we do the rest. From $995."
+  description="Professional websites for NZ electricians, plumbers, builders & painters. Built in 5 days. No Wix homework. You talk for 15 minutes—we do the rest. From $497 (Founding Offer)."
 >
   <StructuredData slot="head" />
 
   <!-- Announcement Bar -->
-  <div class="bg-signal text-white text-center py-2 px-4 text-xs font-mono tracking-widest uppercase border-b border-white/10">
-    🔧 Founding Member Build Rate — 26 total spots. Retires March 31.
+  <div class="bg-signal text-white text-center py-3 px-4 text-sm font-mono tracking-widest uppercase border-b border-white/10">
+    Founding Member Deal: 50% Off Setup + Rate Locked for Life — 26 Spots Only
   </div>
 
   <!-- Navbar -->
@@ -47,14 +45,10 @@ import StructuredData from '../components/StructuredData.astro';
               Professional websites for Kiwi tradies. Built in 5 days. No Wix. No homework. You talk for 15 minutes. We do everything else.
             </p>
 
-            <p class="text-lg text-gray-700 mb-8 leading-relaxed max-w-2xl font-medium">
-              Plus, we put you on Google Maps — so when someone searches "electrician near me," you actually show up.
-            </p>
-
             <!-- CTAs -->
             <div class="flex flex-col sm:flex-row gap-4">
-              <a href="/pricing" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
-                Get Found on Google
+              <a href="#offer" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
+                Get The Deal (50% Off)
               </a>
               <a href="#process" class="bg-white text-carbon px-8 py-4 text-center border border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
                 See How It Works
@@ -186,9 +180,6 @@ import StructuredData from '../components/StructuredData.astro';
                     <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">MOBILE FIRST</span>
                     <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">SEO & AEO READY</span>
                   </div>
-                  <p class="text-xs text-gray-500 mt-3 max-w-xl">
-                    <strong>What's SEO & AEO?</strong> SEO = shows up in Google search results. AEO = shows up when people ask Google Assistant or Siri "electrician near me." Both mean more people find you.
-                  </p>
                 </div>
               </div>
 
@@ -239,9 +230,6 @@ import StructuredData from '../components/StructuredData.astro';
                     <p class="text-xl font-bold">Payback period? One job.</p>
                     <p class="text-gray-600 leading-relaxed">
                         We can't guarantee you'll rank #1 tomorrow—that depends on your location and competition. But every tradie we've built for shows up more clearly and gets more calls than before.
-                    </p>
-                    <p class="font-medium text-carbon">
-                        You go from invisible on Google to actually showing up. Phones ring more. Better jobs come in.
                     </p>
                 </div>
             </div>
@@ -442,29 +430,49 @@ import StructuredData from '../components/StructuredData.astro';
       </div>
     </section>
 
-    <!-- SECTION 6: PRICING -->
-    <section class="py-24 bg-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center max-w-2xl mx-auto mb-16">
-             <p class="text-signal font-bold uppercase tracking-widest text-sm mb-4">This isn't a 'marketing expense'. It's infrastructure—like your van or tools.</p>
-             <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Simple Pricing. No Lock-In.</h2>
+    <!-- SECTION: PRICING WITH FOUNDING MEMBER OFFER -->
+    <section id="offer" class="py-24 bg-white border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-2xl mx-auto mb-12">
+             <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Founding Member Offer</h2>
+             <p class="text-xl text-signal font-bold">26 Spots Only. Rate Locked For Life.</p>
           </div>
           
-          <div class="max-w-lg mx-auto">
+          <div class="max-w-xl mx-auto">
              <!-- Launch Package -->
-             <div class="p-8 border-2 border-carbon bg-white flex flex-col relative shadow-hard">
-                <div class="mb-8 border-b border-gray-100 pb-8">
+             <div class="p-8 border-4 border-signal bg-white flex flex-col relative shadow-hard transform md:scale-105 z-10">
+                
+                <!-- Badge -->
+                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-signal text-white px-6 py-2 font-mono font-bold uppercase tracking-widest text-sm shadow-sm whitespace-nowrap">
+                    Most Popular For Tradies
+                </div>
+
+                <div class="mb-8 mt-4 text-center">
                     <h3 class="text-3xl font-extrabold mb-2">The Launch</h3>
-                    <p class="text-gray-500 font-mono uppercase tracking-widest text-sm">Built for Tradies</p>
+                    <p class="text-gray-500">Professional 5-Page Site</p>
                 </div>
                 
-                <div class="flex items-baseline gap-2 mb-2">
-                    <span class="text-5xl font-extrabold tracking-tighter">$995</span>
-                    <span class="text-gray-500 font-mono text-sm">+ GST (Setup)</span>
+                <!-- PRICING STACK -->
+                <div class="text-center mb-8 bg-gray-50 p-6 border border-gray-200">
+                    <div class="flex flex-col items-center justify-center gap-1 mb-2">
+                        <span class="text-gray-400 line-through text-lg font-bold">$995 Setup</span>
+                        <span class="text-6xl font-extrabold tracking-tighter text-signal">$497<span class="text-3xl">.50</span></span>
+                        <span class="text-gray-500 font-mono text-xs uppercase tracking-widest">+ GST (One-Off)</span>
+                    </div>
+                    <div class="w-full h-px bg-gray-200 my-4"></div>
+                    <div class="flex items-baseline justify-center gap-2">
+                        <span class="text-2xl font-bold text-gray-700">$149</span>
+                        <span class="text-gray-500 font-mono text-sm">/mo + GST (Locked for Life)</span>
+                    </div>
                 </div>
-                <div class="flex items-baseline gap-2 mb-8">
-                    <span class="text-2xl font-bold text-gray-700">$149</span>
-                    <span class="text-gray-500 font-mono text-sm">/mo + GST</span>
+
+                <!-- COUPON CODE -->
+                <div class="mb-8 text-center">
+                    <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">Use Coupon Code at Checkout:</p>
+                    <div class="bg-carbon text-white text-2xl font-mono font-bold py-3 px-4 inline-block cursor-pointer hover:bg-gray-800 transition-colors border-2 border-dashed border-white/20 select-all" onclick="navigator.clipboard.writeText('FOUNDING26'); alert('Code Copied!');">
+                        FOUNDING26
+                    </div>
                 </div>
 
                 <ul class="space-y-4 mb-8 flex-1">
@@ -472,28 +480,14 @@ import StructuredData from '../components/StructuredData.astro';
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Drive-Home Interview (no homework)</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Domain & hosting included</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Unlimited text/photo updates</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Annual design refresh (free)</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> SEO & AEO ready from Day 1</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Google Maps setup (so you actually get found)</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> <strong>Annual design refresh (Included)</strong></li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> <strong>Google Maps Setup (So you get found)</strong></li>
                 </ul>
-                <p class="text-xs text-gray-500 mb-8 leading-relaxed">
-                    <strong>SEO & AEO ready?</strong> Your site shows up when people Google "electrician [your suburb]" and when they ask their phone "plumber near me". That's how you get found.
-                </p>
-                <a href="/pricing" class="w-full block bg-signal text-white text-center py-4 font-bold uppercase tracking-widest hover:bg-carbon transition-colors shadow-lg hover:shadow-none hover:translate-y-[1px]">Get Found on Google</a>
-             </div>
-
-             <!-- Founding Member Box -->
-             <div class="mt-8 bg-carbon text-white p-6 border-l-4 border-frangipani">
-                <p class="font-bold text-frangipani uppercase tracking-widest text-xs mb-2">🔧 Founding Member Deal (26 spots)</p>
-                <div class="flex justify-between items-center mb-2">
-                    <span>Half-price build:</span>
-                    <span class="font-bold text-xl">$497.50 + GST</span>
-                </div>
-                <div class="flex justify-between items-center text-gray-400 text-sm">
-                    <span>Rate locked for life:</span>
-                    <span>$149/mo forever</span>
-                </div>
-                <p class="text-xs text-gray-500 mt-4 italic">Only available until March 31 or 26 members—whichever comes first.</p>
+                
+                <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="w-full block bg-signal text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-carbon transition-colors text-lg shadow-hard-sm hover:shadow-none hover:translate-y-[1px]">
+                    Claim 50% Off Build
+                </a>
+                <p class="text-center text-xs text-gray-400 mt-4">100% Money Back "Love Your Launch" Guarantee</p>
              </div>
 
           </div>
@@ -503,14 +497,13 @@ import StructuredData from '../components/StructuredData.astro';
     <!-- FINAL CTA -->
     <section class="py-32 bg-carbon text-white text-center">
         <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-5xl md:text-6xl font-extrabold tracking-tighter mb-6">Get Found on Google.<br/>Book More Jobs.</h2>
-            <p class="text-xl text-gray-400 mb-12">15 minutes on the phone. Live in 5 days. No Wix. No homework. No BS.</p>
+            <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">Ready to Own Your Space?</h2>
             
-            <a href="/pricing" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl mb-12">
-              Book Your Interview
+            <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl mb-12">
+              Start Your Build
             </a>
             
-            <div class="flex flex-col md:flex-row justify-center gap-8 text-center md:text-left max-w-2xl mx-auto border-t border-white/20 pt-8">
+            <div class="grid md:grid-cols-2 gap-8 text-left max-w-lg mx-auto border-t border-white/20 pt-8">
                 <div>
                     <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Text Us</span>
                     <a href="sms:0221725793" class="text-lg hover:text-signal transition-colors">022 172 5793</a>
@@ -518,10 +511,6 @@ import StructuredData from '../components/StructuredData.astro';
                 <div>
                     <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Email Us</span>
                     <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-signal transition-colors">hello@yourhq.co.nz</a>
-                </div>
-                <div class="md:ml-auto">
-                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Location</span>
-                    <span class="text-lg text-gray-300">Based in Northland, servicing NZ-wide</span>
                 </div>
             </div>
         </div>
