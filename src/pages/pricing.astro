@@ -12,218 +12,190 @@ import FAQSchema from '../components/FAQSchema.astro';
   <FAQSchema slot="head" />
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
+  <main class="bg-paper min-h-screen font-sans">
     
     <!-- HEADER -->
-    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
         <!-- Capacity Badge -->
-        <div class="inline-flex items-center gap-2 px-4 py-2 border border-carbon bg-white shadow-hard-sm mb-6">
+        <div class="inline-flex items-center gap-2 px-4 py-2 border-2 border-carbon bg-white shadow-hard-sm mb-8 transform -rotate-1">
           <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-          <span class="text-xs font-mono font-bold uppercase tracking-wider text-carbon">Limited to 5 Quality Builds Per Week</span>
+          <span class="text-xs font-mono font-bold uppercase tracking-wider text-carbon">Limited to 5 Builds / Week</span>
         </div>
 
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-          Transparent Pricing.
+        <h1 class="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] mb-8 text-carbon">
+          Transparent <br class="md:hidden" /> Pricing.
         </h1>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed mb-6">
-          Some agencies charge $8k+ upfront. We start at $695 + GST.<br/>
-          Monthly fees are claimable as a business expense.
+        <p class="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed mb-6 font-medium">
+          Most agencies charge $8k+ upfront. <br class="hidden md:block"/> We start at <strong>$695 + GST.</strong>
+        </p>
+        <p class="text-sm font-mono text-gray-500 uppercase tracking-widest">
+          Claimable as a business expense.
         </p>
       </div>
     </section>
 
-    <!-- FOUNDING MEMBER OFFER -->
-    <section class="py-24 bg-signal text-white border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- FOUNDING MEMBER OFFER (The "Ticket" Layout) -->
+    <section class="py-24 bg-signal text-white border-b border-carbon relative overflow-hidden">
+      <!-- Background Texture -->
+      <div class="absolute inset-0 opacity-10 bg-[linear-gradient(45deg,#ffffff_1px,transparent_1px)] bg-[length:20px_20px]"></div>
 
-        <div class="text-center mb-12">
-          <div class="inline-block bg-white text-signal px-4 py-1 font-mono text-xs font-bold uppercase tracking-widest mb-6">
-            26 Spots Only — Expires March 31, 2026
-          </div>
-          <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-4">
-            Founding Member Offer
-          </h2>
-          <p class="text-xl text-white/90 max-w-2xl mx-auto">
-            Lock in the 2026 rate for life. As features get added, the price for new members will go up. Yours never moves.
-          </p>
-        </div>
-
-        <!-- COMPARISON TABLE -->
-        <div class="max-w-3xl mx-auto">
-          <div class="bg-white text-carbon border-2 border-white shadow-hard overflow-hidden">
-            <table class="w-full">
-              <thead class="bg-carbon text-white">
-                <tr>
-                  <th class="py-4 px-6 text-left font-bold uppercase tracking-wider text-sm">Normal Price</th>
-                  <th class="py-4 px-6 text-left font-bold uppercase tracking-wider text-sm">Founding Member</th>
-                  <th class="py-4 px-6 text-left font-bold uppercase tracking-wider text-sm">Savings</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-b border-carbon/10">
-                  <td class="py-6 px-6 text-lg">$995 setup</td>
-                  <td class="py-6 px-6 text-2xl font-extrabold text-signal">$497 setup</td>
-                  <td class="py-6 px-6 text-lg font-bold">$498 off</td>
-                </tr>
-                <tr>
-                  <td class="py-6 px-6 text-lg">$149/mo<br/><span class="text-sm text-gray-500">(may increase)</span></td>
-                  <td class="py-6 px-6 text-2xl font-extrabold text-signal">$149/mo<br/><span class="text-base font-normal text-carbon">locked for life</span></td>
-                  <td class="py-6 px-6 text-lg font-bold">Protected from<br/>future increases</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <!-- VALUE MESSAGING -->
-          <div class="mt-12 space-y-6">
-            <div class="bg-white/10 border border-white/20 p-6 text-center">
-              <p class="text-xl font-bold mb-2">50% off setup. Rate locked forever. 26 spots.</p>
-              <p class="text-white/80">Same website. Half the setup cost. Because you're in early.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6">
-              <div class="bg-white/5 border border-white/20 p-6">
-                <p class="font-bold mb-2">The only decision left is timing.</p>
-              </div>
-            </div>
-
-            <div class="bg-frangipani text-carbon p-8 text-center shadow-hard-sm">
-              <p class="text-2xl font-extrabold mb-3">Not fake scarcity—real capacity.</p>
-              <p class="text-lg">26 spots for 2026. When they're gone, price goes back to $995 + GST.</p>
-            </div>
-          </div>
-
-          <!-- CTA WITH COUPON -->
-          <div class="mt-12 text-center">
+      <div class="max-w-5xl mx-auto px-4 relative z-10">
+        
+        <!-- THE TICKET CONTAINER -->
+        <div class="bg-white border-4 border-carbon shadow-hard-white grid md:grid-cols-2">
             
-            <!-- COUPON CODE BOX -->
-            <div class="bg-white/10 border-2 border-dashed border-white/40 p-6 inline-block mb-8 rounded-sm">
-                <p class="font-mono text-xs font-bold uppercase tracking-widest text-white/80 mb-2">Copy This Coupon Code:</p>
-                <div class="text-4xl md:text-5xl font-black text-white tracking-wider select-all cursor-pointer hover:text-frangipani transition-colors" onclick="navigator.clipboard.writeText('FOUNDING26'); alert('Coupon code copied!');" title="Click to copy">
-                    FOUNDING26
+            <!-- LEFT: The Value Prop -->
+            <div class="p-8 md:p-12 flex flex-col justify-center border-b md:border-b-0 md:border-r-2 border-gray-100">
+                <div class="inline-block bg-carbon text-white px-3 py-1 font-mono text-xs font-bold uppercase tracking-widest mb-6 w-max">
+                    26 Spots Only
                 </div>
-                <p class="text-xs text-white/60 mt-2">Enter this at checkout to unlock the 50% discount</p>
+                <h2 class="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-carbon">
+                    Founding Member Offer
+                </h2>
+                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                    Lock in the 2026 rate for life. As we add features, the price for new members will go up. Yours never moves.
+                </p>
+                
+                <!-- Scarcity Note -->
+                <div class="bg-frangipani/10 p-4 border-l-4 border-frangipani">
+                    <p class="text-xs font-bold text-carbon uppercase tracking-wider mb-1">Real Capacity</p>
+                    <p class="text-sm text-gray-600">We limit this to 26 spots so we can over-deliver for our first group. Offer ends March 31.</p>
+                </div>
             </div>
-            
-            <br/>
 
-            <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="inline-block bg-white text-signal px-12 py-6 border-2 border-white hover:bg-signal hover:text-white hover:border-white transition-all font-bold uppercase tracking-widest text-xl shadow-hard-white">
-              Claim Your Founding Member Spot
-            </a>
-            <p class="text-sm text-white/60 mt-4">Join the first 26 and own this rate forever</p>
-          </div>
+            <!-- RIGHT: The Deal & Action -->
+            <div class="p-8 md:p-12 bg-gray-50 flex flex-col justify-center">
+                
+                <!-- Price Comparison -->
+                <div class="flex items-center gap-4 mb-8">
+                    <div>
+                        <span class="block text-gray-400 line-through text-lg font-bold decoration-red-500 decoration-2">$995</span>
+                        <span class="text-xs text-gray-400 font-mono uppercase">Standard Setup</span>
+                    </div>
+                    <div class="text-2xl text-gray-300">→</div>
+                    <div>
+                        <span class="block text-4xl font-black text-signal">$497 <span class="text-lg text-carbon font-bold">+ GST</span></span>
+                        <span class="text-xs text-signal font-mono uppercase font-bold">Founding Rate</span>
+                    </div>
+                </div>
+
+                <!-- Coupon Code Box -->
+                <div class="bg-white border-2 border-dashed border-carbon/20 p-6 mb-8 text-center cursor-pointer group hover:border-signal transition-colors relative" onclick="navigator.clipboard.writeText('FOUNDING26'); alert('Code Copied!');">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gray-50 px-2 text-[10px] text-gray-400 font-bold uppercase tracking-widest group-hover:text-signal transition-colors">Tap to copy code</div>
+                    <p class="text-3xl font-mono font-black tracking-widest text-carbon group-hover:text-signal transition-colors">FOUNDING26</p>
+                </div>
+
+                <!-- CTA -->
+                <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="block w-full bg-carbon text-white text-center py-4 font-black uppercase tracking-widest hover:bg-signal transition-all shadow-hard-sm hover:shadow-none hover:translate-y-0.5">
+                    Claim Your Spot
+                </a>
+                
+                <p class="text-center text-xs text-gray-400 mt-4">
+                    Includes "Love Your Launch" 100% Refund Guarantee
+                </p>
+            </div>
+
         </div>
 
       </div>
     </section>
 
     <!-- PACKAGES -->
-    <section class="py-24 bg-white border-b border-carbon">
+    <section class="py-24 bg-paper border-b border-carbon">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <!-- MAIN TIERS -->
-        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-start mb-16">
+        <div class="grid md:grid-cols-2 gap-8 items-start mb-8 max-w-5xl mx-auto">
             
             <!-- PACKAGE 1: LAUNCH -->
-            <div class="border-2 border-carbon p-8 md:p-12 relative bg-white hover:shadow-hard transition-all duration-300">
-                <div class="mb-8 border-b border-carbon/10 pb-8">
-                    <h2 class="text-3xl font-extrabold mb-2">The Launch</h2>
-                    <p class="text-sm text-gray-700 leading-relaxed">For Tradies & Retailers — Get found on Google. Get your evenings back.</p>
+            <div class="bg-white border-2 border-carbon p-8 md:p-12 relative shadow-hard group hover:-translate-y-1 transition-transform duration-300">
+                <div class="mb-8 border-b-2 border-carbon/5 pb-8">
+                    <h2 class="text-4xl font-black mb-2 text-carbon">The Launch</h2>
+                    <p class="text-gray-500 font-medium">For Tradies & Retailers</p>
                 </div>
                 
                 <div class="mb-8">
-                    <div class="flex items-baseline gap-2">
-                        <span class="text-6xl font-extrabold tracking-tighter">$995</span>
-                        <span class="text-sm font-bold text-gray-400 uppercase">+ GST Setup</span>
+                    <div class="flex items-end gap-2 mb-1">
+                        <span class="text-5xl font-black tracking-tighter text-carbon">$995</span>
+                        <span class="text-xs font-bold text-gray-400 uppercase mb-2">+ GST Setup</span>
                     </div>
-                    <div class="flex items-baseline gap-2 mt-2">
-                        <span class="text-2xl font-bold text-carbon/70">$149</span>
-                        <span class="text-sm font-mono text-gray-400">+ GST / month</span>
+                    <div class="flex items-end gap-2">
+                        <span class="text-2xl font-bold text-gray-600">$149</span>
+                        <span class="text-xs font-mono text-gray-400 mb-1">+ GST / month</span>
                     </div>
                 </div>
 
-                <ul class="space-y-4 mb-12">
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">5-Page Professional Website</span>
+                <ul class="space-y-4 mb-10 text-left">
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> 5-Page Professional Website
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">Drive-Home Voice Interview</span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> Drive-Home Voice Interview
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">Domain & High-Speed Hosting</span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> Domain & High-Speed Hosting
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">Unlimited Text/Photo Updates</span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> Unlimited Text/Photo Updates
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium"><strong>Annual Design Refresh (Included)</strong></span>
+                    <li class="flex gap-3 text-base text-carbon bg-frangipani/10 -mx-2 px-2 py-1 rounded">
+                        <span class="text-signal font-black">✓</span> <strong>Annual Design Refresh</strong>
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium"><strong>Google Maps Setup (So customers find you)</strong></span>
+                    <li class="flex gap-3 text-base text-carbon bg-frangipani/10 -mx-2 px-2 py-1 rounded">
+                        <span class="text-signal font-black">✓</span> <strong>Google Maps Setup</strong>
                     </li>
                 </ul>
 
-                <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="block w-full bg-carbon text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors">
+                <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="block w-full bg-carbon text-white text-center py-4 font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors border-2 border-carbon">
                     Start Launch Build
                 </a>
             </div>
 
             <!-- PACKAGE 2: GROWTH -->
-            <div class="border-2 border-signal p-8 md:p-12 relative bg-paper shadow-hard">
-                <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-4 py-2 uppercase tracking-widest">Most Popular</div>
+            <div class="bg-paper border-2 border-signal p-8 md:p-12 relative shadow-hard">
+                <div class="absolute top-0 right-0 bg-signal text-white text-[10px] font-bold px-3 py-1 uppercase tracking-widest border-l-2 border-b-2 border-signal">
+                    Most Popular
+                </div>
 
-                <div class="mb-8 border-b border-carbon/10 pb-8">
-                    <h2 class="text-3xl font-extrabold mb-2 text-signal">The Growth</h2>
-                    <p class="text-sm text-gray-700 leading-relaxed">For Salons & Consultants — Stop being a DM receptionist. Own your bookings.</p>
+                <div class="mb-8 border-b-2 border-carbon/5 pb-8">
+                    <h2 class="text-4xl font-black mb-2 text-signal">The Growth</h2>
+                    <p class="text-gray-500 font-medium">For Salons & Consultants</p>
                 </div>
 
                 <div class="mb-8">
-                    <div class="flex items-baseline gap-2">
-                        <span class="text-6xl font-extrabold tracking-tighter">$1,495</span>
-                        <span class="text-sm font-bold text-gray-400 uppercase">+ GST Setup</span>
+                    <div class="flex items-end gap-2 mb-1">
+                        <span class="text-5xl font-black tracking-tighter text-carbon">$1,495</span>
+                        <span class="text-xs font-bold text-gray-400 uppercase mb-2">+ GST Setup</span>
                     </div>
-                    <div class="flex items-baseline gap-2 mt-2">
-                        <span class="text-2xl font-bold text-carbon/70">$249</span>
-                        <span class="text-sm font-mono text-gray-400">+ GST / month</span>
+                    <div class="flex items-end gap-2">
+                        <span class="text-2xl font-bold text-gray-600">$249</span>
+                        <span class="text-xs font-mono text-gray-400 mb-1">+ GST / month</span>
                     </div>
                 </div>
 
-                <ul class="space-y-4 mb-12">
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium"><strong>Everything in Launch, plus:</strong></span>
+                <ul class="space-y-4 mb-10 text-left">
+                    <li class="flex gap-3 text-base text-carbon font-bold">
+                        <span class="text-signal">✓</span> Everything in Launch, plus:
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">Booking System Integration</span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> Booking System Integration
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">Blog / News Section</span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> Blog / News Section
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">Instagram Feed Integration</span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> Instagram Feed Integration
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium">Priority 24h Support</span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> Priority 24h Support
                     </li>
-                    <li class="flex gap-4 items-start">
-                        <span class="text-signal font-bold">✓</span>
-                        <span class="font-medium"><strong>Google Maps Optimization + Review System</strong></span>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">✓</span> <strong>Review Collection System</strong>
                     </li>
                 </ul>
 
-                <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="block w-full bg-signal text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-blue-700 transition-colors shadow-hard-sm hover:shadow-none hover:translate-y-[1px]">
+                <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="block w-full bg-signal text-white text-center py-4 font-bold uppercase tracking-widest hover:bg-blue-600 transition-colors border-2 border-signal shadow-hard-sm hover:shadow-none hover:translate-y-[1px]">
                     Start Growth Build
                 </a>
             </div>
@@ -231,110 +203,85 @@ import FAQSchema from '../components/FAQSchema.astro';
         </div>
 
         <!-- PRIORITY SUPPORT ADD-ON -->
-        <div class="max-w-5xl mx-auto mt-8 text-center">
-            <div class="bg-frangipani/10 border border-frangipani/30 p-6 inline-block">
-                <p class="font-bold text-lg text-carbon mb-2">Need faster turnarounds?</p>
-                <p class="text-gray-600">
-                    Add <strong>Priority Support (+$50/mo)</strong>: 24h on most updates.
+        <div class="max-w-2xl mx-auto mb-16 text-center">
+            <div class="bg-frangipani/10 border-2 border-frangipani p-6 rounded-sm inline-block">
+                <p class="font-black text-lg text-carbon mb-1">Need faster turnarounds?</p>
+                <p class="text-gray-600 text-sm">
+                    Add <strong>Priority Support (+$50/mo)</strong>: 24h turnaround on most updates.
                 </p>
             </div>
         </div>
 
         <!-- THE STARTER TIER (Budget Option) -->
-        <div class="max-w-4xl mx-auto">
-            <div class="bg-gray-50 border-2 border-carbon/10 p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-8 hover:border-carbon/30 transition-colors">
+        <div class="max-w-3xl mx-auto">
+            <div class="bg-gray-50 border-2 border-dashed border-gray-300 p-8 flex flex-col md:flex-row items-center justify-between gap-8 hover:border-carbon transition-colors group">
                 
-                <div class="flex-1">
-                    <div class="flex items-center gap-3 mb-2">
-                        <h3 class="text-2xl font-extrabold">The Starter</h3>
-                        <span class="bg-carbon text-white text-[10px] font-bold px-2 py-1 uppercase tracking-widest">Entry Level</span>
+                <div class="flex-1 text-center md:text-left">
+                    <div class="flex items-center justify-center md:justify-start gap-3 mb-2">
+                        <h3 class="text-2xl font-black text-gray-400 group-hover:text-carbon transition-colors">The Starter</h3>
+                        <span class="bg-gray-200 text-gray-600 text-[10px] font-bold px-2 py-1 uppercase tracking-widest">Entry Level</span>
                     </div>
-                    <p class="text-gray-600 mb-4">
-                        The bare essentials. One page. Google-ready.
+                    <p class="text-sm text-gray-500 mb-4">
+                        Just need a digital business card? One page. Google-ready. No updates included.
                     </p>
-                    
-                    <div class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-gray-500 font-medium">
-                        <div class="flex items-center gap-2">
-                            <span class="text-green-600">✓</span> One-Page Scroll Site
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <span class="text-green-600">✓</span> Domain & Hosting Included
-                        </div>
-                        <div class="flex items-center gap-2 opacity-60">
-                            <span class="text-red-400">×</span> No Content Updates (Pay-as-you-go)
-                        </div>
-                        <div class="flex items-center gap-2 opacity-60">
-                            <span class="text-red-400">×</span> No SEO or Blog
-                        </div>
-                    </div>
                 </div>
 
-                <div class="text-center md:text-right w-full md:w-auto border-t md:border-t-0 md:border-l border-gray-200 pt-6 md:pt-0 md:pl-8">
-                    <div class="mb-4">
-                        <span class="text-3xl font-extrabold tracking-tighter block">$695 <span class="text-sm text-gray-400 font-normal">+ GST Setup</span></span>
-                        <span class="text-lg font-bold text-carbon/70 block">+ $49<span class="text-sm font-mono text-gray-400 font-normal"> + GST/mo</span></span>
+                <div class="text-center md:text-right">
+                    <div class="mb-3">
+                        <span class="text-2xl font-black tracking-tighter block text-gray-700">$695 <span class="text-xs text-gray-400 font-normal">+ GST Setup</span></span>
+                        <span class="text-sm font-bold text-gray-400 block">+ $49<span class="text-[10px] font-mono font-normal">/mo</span></span>
                     </div>
-                    <a href="https://buy.stripe.com/dRmbJ0cKC6oMecl2MrdZ602" class="inline-block w-full md:w-auto bg-white text-carbon border-2 border-carbon px-6 py-3 font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors text-sm">
-                        Get The Starter
+                    <a href="https://buy.stripe.com/dRmbJ0cKC6oMecl2MrdZ602" class="text-xs font-bold uppercase tracking-widest border-b-2 border-gray-300 hover:border-carbon hover:text-carbon text-gray-400 transition-colors pb-1">
+                        Get The Starter →
                     </a>
                 </div>
 
             </div>
         </div>
 
-        <div class="mt-12 text-center text-gray-500 font-mono text-sm">
-            <p>All prices + GST. Full payment upfront. No lock-in contracts.</p>
-        </div>
       </div>
     </section>
 
-    <!-- WHAT YOUR MONTHLY FEE ACTUALLY COVERS -->
+    <!-- WHAT YOUR MONTHLY FEE COVERS (Restored & Cleaned) -->
     <section class="py-24 bg-paper border-b border-carbon">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-extrabold mb-6 tracking-tighter text-center">What Your Monthly Fee Actually Covers</h2>
-            <p class="text-xl text-gray-600 text-center mb-16 max-w-2xl mx-auto">It's not just hosting. It's your next website, already paid for.</p>
+            <h2 class="text-4xl font-extrabold mb-12 tracking-tighter text-center">What Your Monthly Fee Actually Covers</h2>
             
-            <div class="space-y-12">
+            <div class="space-y-8">
                 
                 <!-- REASON 1: ANNUAL REFRESH -->
-                <div class="bg-signal/10 border-2 border-signal p-8 md:p-10 shadow-hard">
-                    <div class="flex items-start gap-4">
+                <div class="bg-white border-2 border-carbon p-8 md:p-10 shadow-hard-sm">
+                    <div class="flex items-start gap-6">
                         <span class="text-4xl">🔄</span>
                         <div>
                             <h3 class="text-2xl font-extrabold mb-4 text-carbon">1. Your Next Website Is Already Paid For</h3>
                             <p class="text-gray-700 leading-relaxed mb-4">
-                                Most businesses pay $5,000 every 3 years to rebuild. That's $1,700/year just to stay current.
-                            </p>
-                            <p class="text-gray-700 leading-relaxed mb-4">
-                                With YourHQ, your <strong>Annual Design Refresh</strong> is included. Fresh website every year. No surprise invoice.
+                                Most businesses pay $5,000 every 3 years to rebuild. With YourHQ, your <strong>Annual Design Refresh</strong> is included. Fresh website every year. No surprise invoice.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- REASON 2: TAX DEDUCTIBLE -->
-                <div class="bg-frangipani/10 border-2 border-frangipani p-8 md:p-10">
-                    <div class="flex items-start gap-4">
+                <div class="bg-white border-2 border-carbon p-8 md:p-10 shadow-hard-sm">
+                    <div class="flex items-start gap-6">
                         <span class="text-4xl">🧾</span>
                         <div>
                             <h3 class="text-2xl font-extrabold mb-4 text-carbon">2. It's a Claimable Business Expense</h3>
                             <p class="text-gray-700 leading-relaxed mb-4">
-                                Your accountant can claim this as a business expense. Simple monthly fee, not a big upfront hit. Check with your accountant for your specific situation.
+                                Your accountant can claim this as a business expense. Simple monthly fee, not a big upfront hit.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- REASON 3: CARETAKERS -->
-                <div class="bg-white border-2 border-carbon p-8 md:p-10">
-                    <div class="flex items-start gap-4">
+                <div class="bg-white border-2 border-carbon p-8 md:p-10 shadow-hard-sm">
+                    <div class="flex items-start gap-6">
                         <span class="text-4xl">🛠️</span>
                         <div>
                             <h3 class="text-2xl font-extrabold mb-4 text-carbon">3. We Keep the Lights On</h3>
-                            <p class="text-gray-700 leading-relaxed mb-6">
-                                It also covers all the stuff you'll never think about (until it breaks):
-                            </p>
-                            <div class="grid md:grid-cols-2 gap-6">
+                            <div class="grid md:grid-cols-2 gap-6 mt-4">
                                 <div>
                                     <h4 class="font-bold text-sm uppercase tracking-wider text-gray-500 mb-3">Infrastructure</h4>
                                     <ul class="space-y-2 text-sm text-gray-600">
@@ -359,190 +306,113 @@ import FAQSchema from '../components/FAQSchema.astro';
                 </div>
 
             </div>
-            
-            <div class="mt-12 p-6 bg-carbon text-white text-center">
-                <p class="font-medium">Think of it like rates for your digital property. You pay to keep it maintained, secure, and looking fresh.</p>
-            </div>
         </div>
     </section>
 
     <!-- WHAT YOU'RE ACTUALLY COMPARING -->
     <section class="py-24 bg-white border-b border-carbon">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-extrabold mb-6 tracking-tighter">What You're Actually Comparing</h2>
-            <p class="text-2xl font-bold text-carbon mb-12">Here's what the alternatives actually cost:</p>
+            <h2 class="text-4xl font-extrabold mb-12 tracking-tighter text-center">What You're Actually Comparing</h2>
 
-            <div class="border-t-2 border-carbon mb-12"></div>
+            <div class="space-y-8">
 
-            <!-- DIY Option -->
-            <div class="mb-12 pb-12 border-b border-gray-200">
-                <div class="flex items-start gap-4 mb-4">
-                    <span class="text-3xl">❌</span>
-                    <div class="flex-1">
-                        <h3 class="text-2xl font-extrabold mb-4">DIY (Wix/Shopify/Squarespace)</h3>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>$30–50/mo for tool</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>40+ hours of your time</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>Generic result</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>You're the support desk</span>
-                            </li>
+                <!-- DIY Option -->
+                <div class="flex flex-col md:flex-row gap-6 p-6 border-l-4 border-red-200 bg-red-50/50">
+                    <div class="w-12 h-12 bg-red-100 flex items-center justify-center rounded-full shrink-0 text-2xl">❌</div>
+                    <div>
+                        <h3 class="text-xl font-black text-carbon mb-2">DIY (Wix/Squarespace)</h3>
+                        <ul class="text-sm text-gray-600 space-y-2 mb-4 font-mono">
+                            <li>• $30–50/mo for tool</li>
+                            <li>• 40+ hours of your time</li>
+                            <li>• Generic template result</li>
+                            <li>• You are the tech support</li>
                         </ul>
-                        <div class="bg-red-50 border-l-4 border-red-400 p-4">
-                            <p class="font-bold text-lg text-carbon">= $2,500+ and your sanity</p>
+                        <p class="font-bold text-red-600">= $2,500+ in lost time & sanity</p>
+                    </div>
+                </div>
+
+                <!-- Traditional Agency -->
+                <div class="flex flex-col md:flex-row gap-6 p-6 border-l-4 border-red-200 bg-red-50/50">
+                    <div class="w-12 h-12 bg-red-100 flex items-center justify-center rounded-full shrink-0 text-2xl">❌</div>
+                    <div>
+                        <h3 class="text-xl font-black text-carbon mb-2">Traditional Agency</h3>
+                        <ul class="text-sm text-gray-600 space-y-2 mb-4 font-mono">
+                            <li>• $5,000–15,000 upfront</li>
+                            <li>• $100–250/hr for changes</li>
+                            <li>• 6–12 week build time</li>
+                            <li>• Paid once? Ghosted forever.</li>
+                        </ul>
+                        <p class="font-bold text-red-600">= up to $20,000 over 2 years</p>
+                    </div>
+                </div>
+
+                <!-- YourHQ -->
+                <div class="flex flex-col md:flex-row gap-6 p-8 border-4 border-signal bg-white shadow-hard relative transform md:scale-105">
+                    <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-3 py-1 uppercase tracking-widest">
+                        Smart Choice
+                    </div>
+                    <div class="w-12 h-12 bg-signal text-white flex items-center justify-center rounded-full shrink-0 text-2xl">✓</div>
+                    <div>
+                        <h3 class="text-xl font-black text-signal mb-2">YourHQ</h3>
+                        <ul class="text-sm text-gray-600 space-y-2 mb-4 font-medium">
+                            <li>• $995 + GST setup (live in 5 days)</li>
+                            <li>• $149 + GST/month</li>
+                            <li>• <strong>You own it. We handle it.</strong></li>
+                        </ul>
+                        <div class="text-carbon">
+                            <p class="text-2xl font-black">2-Year Total: $4,573</p>
+                            <p class="text-xs text-gray-500 uppercase tracking-widest mt-1">Less than half agency cost.</p>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Traditional Agency -->
-            <div class="mb-12 pb-12 border-b border-gray-200">
-                <div class="flex items-start gap-4 mb-4">
-                    <span class="text-3xl">❌</span>
-                    <div class="flex-1">
-                        <h3 class="text-2xl font-extrabold mb-4">Traditional Agency</h3>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>$5,000–15,000 upfront</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>$100–250/hr for changes</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>6–12 week build time</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-carbon mt-1">•</span>
-                                <span>Rebuild in 3 years</span>
-                            </li>
-                        </ul>
-                        <div class="bg-red-50 border-l-4 border-red-400 p-4">
-                            <p class="font-bold text-lg text-carbon">= up to $10,000–20,000 over 2 years</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-
-            <!-- YourHQ -->
-            <div class="mb-8">
-                <div class="flex items-start gap-4 mb-4">
-                    <span class="text-3xl">✓</span>
-                    <div class="flex-1">
-                        <h3 class="text-2xl font-extrabold mb-4 text-signal">YourHQ</h3>
-                        <ul class="space-y-2 text-gray-600 mb-6">
-                            <li class="flex items-start gap-3">
-                                <span class="text-signal mt-1">•</span>
-                                <span>$995 + GST setup (live in 5 days)</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-signal mt-1">•</span>
-                                <span>$149 + GST/month</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-signal mt-1">•</span>
-                                <span>Google Maps setup included</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-signal mt-1">•</span>
-                                <span>Claimable as a business expense</span>
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="text-signal mt-1">•</span>
-                                <span><strong>You own it. We handle it.</strong></span>
-                            </li>
-                        </ul>
-                        <div class="bg-signal/10 border-l-4 border-signal p-6">
-                            <p class="font-bold text-xl text-carbon">2-year total: $4,573 + GST</p>
-                            <p class="text-sm text-gray-600 mt-2">Less than half what some agencies charge to build it.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 
-    <!-- WHY SUBSCRIPTION NOT PROJECT-BASED -->
-    <section class="py-24 bg-white border-b border-carbon">
+    <!-- WHY SUBSCRIPTION (Restored & Cleaned) -->
+    <section class="py-24 bg-paper border-b border-carbon">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-extrabold mb-8 tracking-tighter">Why We Do Subscription, Not Project-Based</h2>
+            <h2 class="text-4xl font-extrabold mb-8 tracking-tighter text-center">Why We Do Subscription</h2>
 
-            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-                Most web designers build a site, then ghost you.
-            </p>
-
-            <div class="bg-paper border-l-4 border-signal p-8 mb-8">
-                <p class="text-lg font-bold mb-6 text-carbon">Your Website Needs:</p>
-                <ul class="space-y-3 text-gray-600">
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">•</span>
-                        <span>Security updates</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">•</span>
-                        <span>Performance tweaks</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">•</span>
-                        <span>Hosting</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-signal mt-1">•</span>
-                        <span>Fixes when something breaks</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="bg-red-50 border border-red-200 p-8 mb-8">
-                <p class="text-lg font-bold mb-4 text-carbon">The Problem with Pay-Per-Fix</p>
-                <div class="space-y-4">
-                    <p class="text-gray-700">Pay-per-fix means broken sites you can't afford to repair, or overpaying for simple changes.</p>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 border-2 border-carbon">
+                    <h3 class="text-xl font-bold mb-4">Your Website Needs:</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• Security updates</li>
+                        <li>• Performance tweaks</li>
+                        <li>• Hosting</li>
+                        <li>• Fixes when something breaks</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 border-2 border-carbon">
+                    <h3 class="text-xl font-bold mb-4">The Problem with Pay-Per-Fix</h3>
+                    <p class="text-gray-600">Pay-per-fix means broken sites you can't afford to repair, or overpaying for simple changes.</p>
                 </div>
             </div>
 
-            <div class="bg-signal/10 border-l-4 border-signal p-8 mb-8">
-                <p class="text-xl font-bold text-carbon mb-3">Subscription = predictable. Fair.</p>
-                <p class="text-gray-600">And because it's a regular monthly expense, your accountant can generally claim it back — unlike a big upfront agency fee.</p>
-            </div>
-
-            <div class="text-center mt-12 p-6 bg-frangipani/10">
-                <p class="text-lg font-medium text-carbon italic">Think of it like your phone plan vs. paying per text.</p>
+            <div class="mt-12 text-center">
+                <p class="text-xl font-bold text-signal">Subscription = Predictable. Fair.</p>
             </div>
         </div>
     </section>
 
     <!-- GUARANTEE -->
-    <section class="py-24 bg-paper text-center">
-        <div class="max-w-3xl mx-auto px-4">
+    <section class="py-24 bg-white text-center">
+        <div class="max-w-2xl mx-auto px-4">
             <h2 class="text-3xl font-extrabold mb-6">The "Love Your Launch" Guarantee</h2>
-            <p class="text-xl text-gray-600 mb-8">
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
                 We build your site. You see the preview. <br/>
                 <strong>Don't love it? Full refund.</strong>
             </p>
-            <p class="text-sm text-gray-400 max-w-lg mx-auto mb-6">
-                (Minus ~3% Stripe fees + domain if purchased)
-            </p>
-            <p class="text-base text-carbon font-medium mt-8 max-w-xl mx-auto">
-                We've never had to refund anyone. But the option exists because we put our money where our mouth is.
+            <p class="text-xs text-gray-400 uppercase tracking-widest">
+                (Minus ~3% Stripe fees + domain cost if purchased)
             </p>
         </div>
     </section>
 
     <!-- PRICING FAQ SECTION (SEO/AEO) -->
-    <section class="py-24 bg-white border-b border-carbon">
+    <section class="py-24 bg-paper border-b border-carbon">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-4xl font-extrabold mb-12 text-center tracking-tighter">
           Pricing <span class="text-signal">Questions</span>
@@ -550,9 +420,9 @@ import FAQSchema from '../components/FAQSchema.astro';
 
         <div class="space-y-8">
           <!-- FAQ 1 -->
-          <div class="border-l-4 border-signal pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3 text-carbon">What does a website cost in New Zealand?</h3>
-            <p class="text-gray-700 leading-relaxed">
+          <div class="border-l-4 border-signal pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">What does a website cost in New Zealand?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
               Starter: $695 + GST setup / $49 + GST/month<br/>
               Launch: $995 + GST setup / $149 + GST/month<br/>
               Growth: $1,495 + GST setup / $249 + GST/month
@@ -560,49 +430,49 @@ import FAQSchema from '../components/FAQSchema.astro';
           </div>
 
           <!-- FAQ 2 -->
-          <div class="border-l-4 border-hibiscus pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3 text-carbon">What's included in the monthly fee?</h3>
-            <p class="text-gray-700 leading-relaxed">
+          <div class="border-l-4 border-hibiscus pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">What's included in the monthly fee?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
               Unlimited updates, Vercel hosting, SSL, daily backups, domain renewal, tech support, and annual design refresh. Everything handled.
             </p>
           </div>
 
           <!-- FAQ 3 -->
-          <div class="border-l-4 border-frangipani pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3 text-carbon">Is the monthly fee tax deductible?</h3>
-            <p class="text-gray-700 leading-relaxed">
+          <div class="border-l-4 border-frangipani pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">Is the monthly fee tax deductible?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
               Generally yes—it's a regular monthly expense your accountant can claim. Check with them for your specific situation.
             </p>
           </div>
 
           <!-- FAQ 4 -->
-          <div class="border-l-4 border-signal pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3 text-carbon">Do you work with clients outside Northland?</h3>
-            <p class="text-gray-700 leading-relaxed">
+          <div class="border-l-4 border-signal pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">Do you work with clients outside Northland?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
               Yes. Based in Northland, servicing all of NZ. Everything happens via text, phone, and email.
             </p>
           </div>
 
           <!-- FAQ 5 -->
-          <div class="border-l-4 border-hibiscus pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3 text-carbon">Can I cancel anytime?</h3>
-            <p class="text-gray-700 leading-relaxed">
+          <div class="border-l-4 border-hibiscus pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">Can I cancel anytime?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
               Yes. Month-to-month, 30 days' notice. You own all content and can export your site.
             </p>
           </div>
 
           <!-- FAQ 6 -->
-          <div class="border-l-4 border-frangipani pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3 text-carbon">Is this cheaper than hiring a traditional agency?</h3>
-            <p class="text-gray-700 leading-relaxed">
+          <div class="border-l-4 border-frangipani pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">Is this cheaper than hiring a traditional agency?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
               Yes. Some agencies charge $10,000–20,000 over two years. YourHQ: $4,573 + GST for the same period, including unlimited updates and annual refreshes.
             </p>
           </div>
 
           <!-- FAQ 7 -->
-          <div class="border-l-4 border-signal pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3 text-carbon">What's included in the Google Maps setup?</h3>
-            <p class="text-gray-700 leading-relaxed">
+          <div class="border-l-4 border-signal pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">What's included in the Google Maps setup?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
               Launch: We claim your listing, write description, upload photos, set service areas, link to website.<br/>
               Growth: All the above plus review system and Google Posts.
             </p>
