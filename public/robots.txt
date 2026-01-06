@@ -3,8 +3,14 @@
 User-agent: *
 Allow: /
 
-# Disallow admin or test pages
+# Disallow admin, test, and confirmation pages
 Disallow: /agent-test
+Disallow: /test
+Disallow: /confirmation-launch
+Disallow: /confirmation-growth
+Disallow: /confirmation-starter
+Disallow: /confirmation-start
+Disallow: /confirmation-refresh
 
 # Sitemap location
 Sitemap: https://yourhq.co.nz/sitemap.xml
