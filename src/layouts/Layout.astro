@@ -49,8 +49,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 		<meta name="twitter:description" content={description} />
 		<meta name="twitter:image" content={ogImage} />
 
-		<!-- FAVICONS -->
+		<!-- Favicon for Browsers -->
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<!-- Favicon for Google & High Res -->
+		<link rel="icon" type="image/png" sizes="512x512" href="/icon.png" />
+
+		<!-- Apple Touch Icon (Mobile home screens) -->
+		<link rel="apple-touch-icon" href="/icon.png" />
+
+		<!-- Safari Pinned Tab -->
 		<link rel="mask-icon" href="/favicon.svg" color="#2563EB" />
 
 		<!-- Preconnect for Performance -->
