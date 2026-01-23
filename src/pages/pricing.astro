@@ -52,16 +52,16 @@ import FAQSchema from '../components/FAQSchema.astro';
                     26 Spots Only
                 </div>
                 <h2 class="text-4xl md:text-5xl font-black tracking-tighter mb-4 text-carbon">
-                    Founding Member Offer
+                    Founding Member Offer <span class="text-signal">(Ends March 31, 2026)</span>
                 </h2>
                 <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    Lock in the 2026 rate for life. As we add features, the price for new members will go up. Yours never moves.
+                    Launch Package: $497.50 setup (50% off) + $149/mo locked for life. As we add features, the price for new members will go up. Yours never moves.
                 </p>
-                
+
                 <!-- Scarcity Note -->
                 <div class="bg-frangipani/10 p-4 border-l-4 border-frangipani">
-                    <p class="text-xs font-bold text-carbon uppercase tracking-wider mb-1">Real Capacity</p>
-                    <p class="text-sm text-gray-600">We limit this to 26 spots so we can over-deliver for our first group. Offer ends March 31.</p>
+                    <p class="text-xs font-bold text-carbon uppercase tracking-wider mb-1">26 Spots Only | Use Code: FOUNDING26</p>
+                    <p class="text-sm text-gray-600">We limit this to 26 spots so we can over-deliver for our first group. Offer ends March 31, 2026.</p>
                 </div>
             </div>
 
@@ -92,8 +92,9 @@ import FAQSchema from '../components/FAQSchema.astro';
                     Claim Your Spot
                 </a>
                 
-                <p class="text-center text-xs text-gray-400 mt-4">
-                    Includes "Love Your Launch" 100% Refund Guarantee
+                <p class="text-center text-xs text-gray-500 mt-4 leading-relaxed">
+                    "Love Your Launch" Guarantee: Full refund if you don't love the preview.<br/>
+                    <span class="text-gray-400">(Minus ~3% processing + any domain costs)</span>
                 </p>
             </div>
 
@@ -143,7 +144,7 @@ import FAQSchema from '../components/FAQSchema.astro';
                         <span class="text-signal font-black">✓</span> <strong>Annual Design Refresh</strong>
                     </li>
                     <li class="flex gap-3 text-base text-carbon bg-frangipani/10 -mx-2 px-2 py-1 rounded">
-                        <span class="text-signal font-black">✓</span> <strong>Google Maps Setup</strong>
+                        <span class="text-signal font-black">✓</span> <strong>Google Maps Listing Setup & Optimization</strong>
                     </li>
                 </ul>
 
@@ -316,62 +317,56 @@ import FAQSchema from '../components/FAQSchema.astro';
 
     <!-- WHAT YOU'RE ACTUALLY COMPARING -->
     <section class="py-24 bg-white border-b border-carbon">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-extrabold mb-12 tracking-tighter text-center">What You're Actually Comparing</h2>
 
-            <div class="space-y-8">
-
-                <!-- DIY Option -->
-                <div class="flex flex-col md:flex-row gap-6 p-6 border-l-4 border-red-200 bg-red-50/50">
-                    <div class="w-12 h-12 bg-red-100 flex items-center justify-center rounded-full shrink-0 text-2xl">❌</div>
-                    <div>
-                        <h3 class="text-xl font-black text-carbon mb-2">DIY (Wix/Squarespace)</h3>
-                        <ul class="text-sm text-gray-600 space-y-2 mb-4 font-mono">
-                            <li>• $30–50/mo for tool</li>
-                            <li>• 40+ hours of your time</li>
-                            <li>• Generic template result</li>
-                            <li>• You are the tech support</li>
-                        </ul>
-                        <p class="font-bold text-red-600">= $2,500+ in lost time & sanity</p>
-                    </div>
-                </div>
-
-                <!-- Traditional Agency -->
-                <div class="flex flex-col md:flex-row gap-6 p-6 border-l-4 border-red-200 bg-red-50/50">
-                    <div class="w-12 h-12 bg-red-100 flex items-center justify-center rounded-full shrink-0 text-2xl">❌</div>
-                    <div>
-                        <h3 class="text-xl font-black text-carbon mb-2">Traditional Agency</h3>
-                        <ul class="text-sm text-gray-600 space-y-2 mb-4 font-mono">
-                            <li>• $5,000–15,000 upfront</li>
-                            <li>• $100–250/hr for changes</li>
-                            <li>• 6–12 week build time</li>
-                            <li>• Paid once? Ghosted forever.</li>
-                        </ul>
-                        <p class="font-bold text-red-600">= up to $20,000 over 2 years</p>
-                    </div>
-                </div>
-
-                <!-- YourHQ -->
-                <div class="flex flex-col md:flex-row gap-6 p-8 border-4 border-signal bg-white shadow-hard relative transform md:scale-105">
-                    <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-3 py-1 uppercase tracking-widest">
-                        Smart Choice
-                    </div>
-                    <div class="w-12 h-12 bg-signal text-white flex items-center justify-center rounded-full shrink-0 text-2xl">✓</div>
-                    <div>
-                        <h3 class="text-xl font-black text-signal mb-2">YourHQ</h3>
-                        <ul class="text-sm text-gray-600 space-y-2 mb-4 font-medium">
-                            <li>• $995 + GST setup (live in 5 days)</li>
-                            <li>• $149 + GST/month</li>
-                            <li>• <strong>You own it. We handle it.</strong></li>
-                        </ul>
-                        <div class="text-carbon">
-                            <p class="text-2xl font-black">2-Year Total: $4,573</p>
-                            <p class="text-xs text-gray-500 uppercase tracking-widest mt-1">Less than half agency cost.</p>
-                        </div>
-                    </div>
-                </div>
-
+            <!-- Comparison Table -->
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse text-left">
+                    <thead>
+                        <tr class="border-b-2 border-carbon">
+                            <th class="py-4 px-4 font-bold text-carbon"></th>
+                            <th class="py-4 px-4 font-bold text-gray-500 text-center">DIY (Wix)</th>
+                            <th class="py-4 px-4 font-bold text-gray-500 text-center">Agency</th>
+                            <th class="py-4 px-4 font-bold text-signal text-center bg-signal/5 border-2 border-signal border-b-0">YourHQ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm">
+                        <tr class="border-b border-gray-200">
+                            <td class="py-4 px-4 font-bold text-carbon">Upfront Cost</td>
+                            <td class="py-4 px-4 text-center text-gray-600">$0</td>
+                            <td class="py-4 px-4 text-center text-gray-600">$5,000–15,000</td>
+                            <td class="py-4 px-4 text-center font-bold text-signal bg-signal/5 border-l-2 border-r-2 border-signal">$995 + GST</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-4 px-4 font-bold text-carbon">Monthly Cost</td>
+                            <td class="py-4 px-4 text-center text-gray-600">$30–50</td>
+                            <td class="py-4 px-4 text-center text-gray-600">$0–250/update</td>
+                            <td class="py-4 px-4 text-center font-bold text-signal bg-signal/5 border-l-2 border-r-2 border-signal">$149 + GST</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-4 px-4 font-bold text-carbon">Your Time</td>
+                            <td class="py-4 px-4 text-center text-red-500 font-bold">40+ hours</td>
+                            <td class="py-4 px-4 text-center text-gray-600">6–12 weeks</td>
+                            <td class="py-4 px-4 text-center font-bold text-signal bg-signal/5 border-l-2 border-r-2 border-signal">15 minutes</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-4 px-4 font-bold text-carbon">Updates</td>
+                            <td class="py-4 px-4 text-center text-red-500">You do it</td>
+                            <td class="py-4 px-4 text-center text-red-500">Pay per change</td>
+                            <td class="py-4 px-4 text-center font-bold text-signal bg-signal/5 border-l-2 border-r-2 border-signal">Unlimited included</td>
+                        </tr>
+                        <tr class="border-b-2 border-carbon">
+                            <td class="py-4 px-4 font-bold text-carbon text-lg">2-Year Total</td>
+                            <td class="py-4 px-4 text-center text-gray-600">$2,500+<br/><span class="text-xs text-gray-400">(your time)</span></td>
+                            <td class="py-4 px-4 text-center text-gray-600">$8,000–20,000</td>
+                            <td class="py-4 px-4 text-center font-black text-signal text-lg bg-signal/5 border-l-2 border-r-2 border-b-2 border-signal">$4,573 + GST</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+
+            <p class="text-center text-gray-500 mt-8 text-sm">YourHQ: Less than half agency cost, with ongoing support included.</p>
         </div>
     </section>
 
@@ -406,12 +401,13 @@ import FAQSchema from '../components/FAQSchema.astro';
     <section class="py-24 bg-white text-center">
         <div class="max-w-2xl mx-auto px-4">
             <h2 class="text-3xl font-extrabold mb-6">The "Love Your Launch" Guarantee</h2>
-            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-                We build your site. You see the preview. <br/>
+            <p class="text-xl text-gray-600 mb-6 leading-relaxed">
+                We build your site. You see the preview on Day 5.<br/>
                 <strong>Don't love it? Full refund.</strong>
             </p>
-            <p class="text-xs text-gray-400 uppercase tracking-widest">
-                (Minus ~3% Stripe fees + domain cost if purchased)
+            <p class="text-base text-gray-500 leading-relaxed bg-gray-50 px-6 py-4 inline-block border border-gray-200">
+                Your setup fee back, minus payment processing (~3%)<br/>
+                and any domain costs already registered for you.
             </p>
         </div>
     </section>
@@ -437,8 +433,16 @@ import FAQSchema from '../components/FAQSchema.astro';
           <!-- FAQ 2 -->
           <div class="border-l-4 border-hibiscus pl-6 py-2">
             <h3 class="text-lg font-bold mb-2 text-carbon">What's included in the monthly fee?</h3>
-            <p class="text-gray-600 text-sm leading-relaxed">
-              Unlimited updates, Vercel hosting, SSL, daily backups, domain renewal, tech support, and annual design refresh. Everything handled.
+            <p class="text-gray-600 text-sm leading-relaxed mb-3">
+              Vercel hosting, SSL, daily backups, domain renewal, tech support, annual design refresh, plus <strong>unlimited updates</strong>:
+            </p>
+            <ul class="text-gray-600 text-sm space-y-1 mb-3">
+              <li>✓ Text changes (phone, hours, pricing, descriptions)</li>
+              <li>✓ Photo swaps (update your gallery anytime)</li>
+              <li>✓ Content edits (keep your site current)</li>
+            </ul>
+            <p class="text-gray-500 text-xs italic">
+              Not included: New pages, new integrations, or major scope changes (quoted separately).
             </p>
           </div>
 
@@ -478,8 +482,8 @@ import FAQSchema from '../components/FAQSchema.astro';
           <div class="border-l-4 border-signal pl-6 py-2">
             <h3 class="text-lg font-bold mb-2 text-carbon">What's included in the Google Maps setup?</h3>
             <p class="text-gray-600 text-sm leading-relaxed">
-              Launch: We claim your listing, write description, upload photos, set service areas, link to website.<br/>
-              Growth: All the above plus review system and Google Posts.
+              <strong>Launch & Growth:</strong> Google Maps listing setup & optimization—we claim your listing, write description, upload photos, set service areas, and link to your website.<br/>
+              <strong>Growth only:</strong> Review collection system to help you gather customer reviews.
             </p>
           </div>
         </div>

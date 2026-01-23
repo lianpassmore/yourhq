@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import StructuredData from '../components/StructuredData.astro';
+import ContactInfo from '../components/ContactInfo.astro';
 ---
 
 <Layout
@@ -13,7 +14,7 @@ import StructuredData from '../components/StructuredData.astro';
 
   <!-- Announcement Bar -->
   <div class="bg-signal text-white text-center py-3 px-4 text-sm font-mono tracking-widest uppercase border-b border-white/10">
-    Founding Member Deal: 50% Off Setup + Rate Locked for Life — 26 Spots Only
+    Founding Member Offer (Ends March 31, 2026): $497.50 Setup (50% Off) + $149/mo Locked for Life — 26 Spots | Code: FOUNDING26
   </div>
 
   <!-- Navbar -->
@@ -142,9 +143,8 @@ import StructuredData from '../components/StructuredData.astro';
                   <span class="font-mono text-sm font-bold text-signal mb-2 block">STEP 01</span>
                   <h3 class="text-2xl font-bold mb-4">The Drive-Home Interview (15 mins)</h3>
                   <p class="text-gray-600 mb-4 max-w-xl">
-                    Call us while driving home. You talk. We capture everything.
+                    Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
                   </p>
-                  <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">NO WIXING REQUIRED</span>
                 </div>
               </div>
 
@@ -179,9 +179,10 @@ import StructuredData from '../components/StructuredData.astro';
                 <div>
                   <span class="font-mono text-sm font-bold text-frangipani mb-2 block">STEP 04</span>
                   <h3 class="text-2xl font-bold mb-4">You Go Live</h3>
-                  <p class="text-gray-600 mb-4 max-w-xl">
-                    We send you a link. Love it? Live. Hate it? Refund. Then we stay on as caretakers.
+                  <p class="text-gray-600 mb-2 max-w-xl">
+                    We send you a link on Day 5. Love it? Live. Hate it? Full refund.
                   </p>
+                  <p class="text-sm text-gray-500">(Your setup fee back, minus ~3% processing + any domain costs)</p>
                 </div>
               </div>
 
@@ -195,29 +196,28 @@ import StructuredData from '../components/StructuredData.astro';
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-hard">
                 <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-8">
-                    One Extra Job Per Week = <span class="bg-signal text-white px-2">$130,000 Per Year</span>
+                    The Math That <span class="text-signal">Matters</span>
                 </h2>
-                
+
                 <div class="space-y-6 text-lg text-carbon/90 border-b-2 border-dashed border-gray-200 pb-8 mb-8">
-                    <p class="font-bold">Let's do the maths:</p>
-                    <ul class="space-y-3 font-mono text-sm md:text-base">
+                    <ul class="space-y-4 font-mono text-sm md:text-base">
                         <li class="flex justify-between">
                             <span>Average tradie job:</span>
                             <span class="font-bold">$2,500</span>
                         </li>
                         <li class="flex justify-between items-center text-signal font-bold">
-                            <span>One extra job/week:</span>
-                            <span>$130,000/yr</span>
+                            <span>Even ONE extra job per month:</span>
+                            <span>$30,000/yr</span>
                         </li>
                         <li class="flex justify-between text-gray-500">
-                            <span>YourHQ:</span>
-                            <span>$995 + GST setup / $149 + GST/month</span>
+                            <span>YourHQ cost:</span>
+                            <span>$995 setup + $1,788/yr</span>
                         </li>
                     </ul>
                 </div>
 
                 <div class="text-center space-y-6">
-                    <p class="text-xl font-bold">Payback: One job.</p>
+                    <p class="text-xl font-bold">Payback: Your first job covers the entire first year.</p>
                     <p class="text-gray-600 leading-relaxed">
                         We can't guarantee you'll rank #1 tomorrow—that depends on your location and competition. But every tradie we've built for shows up more clearly and gets more calls than before.
                     </p>
@@ -403,8 +403,9 @@ import StructuredData from '../components/StructuredData.astro';
         <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div class="text-center max-w-2xl mx-auto mb-12">
-             <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Founding Member Offer</h2>
-             <p class="text-xl text-signal font-bold">26 Spots Only. Rate Locked For Life.</p>
+             <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Founding Member Offer <span class="text-signal">(Ends March 31, 2026)</span></h2>
+             <p class="text-xl text-signal font-bold">Launch Package: $497.50 setup (50% off) + $149/mo locked for life</p>
+             <p class="text-lg text-gray-600 mt-2">26 spots only | Use code: FOUNDING26</p>
           </div>
           
           <div class="max-w-xl mx-auto">
@@ -449,13 +450,16 @@ import StructuredData from '../components/StructuredData.astro';
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Domain & hosting included</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Unlimited text/photo updates</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> <strong>Annual design refresh (Included)</strong></li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> <strong>Google Maps Setup (So you get found)</strong></li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> <strong>Google Maps Listing Setup & Optimization</strong></li>
                 </ul>
                 
                 <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="w-full block bg-signal text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-carbon transition-colors text-lg shadow-hard-sm hover:shadow-none hover:translate-y-[1px]">
                     Claim 50% Off Build
                 </a>
-                <p class="text-center text-xs text-gray-400 mt-4">100% Money Back "Love Your Launch" Guarantee</p>
+                <p class="text-center text-xs text-gray-500 mt-4 leading-relaxed">
+                    "Love Your Launch" Guarantee: Full refund if you don't love the preview.<br/>
+                    <span class="text-gray-400">(Minus ~3% processing + any domain costs)</span>
+                </p>
              </div>
 
           </div>
@@ -471,16 +475,7 @@ import StructuredData from '../components/StructuredData.astro';
               Start Your Build
             </a>
             
-            <div class="grid md:grid-cols-2 gap-8 text-left max-w-lg mx-auto border-t border-white/20 pt-8">
-                <div>
-                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Text Us</span>
-                    <a href="sms:0221725793" class="text-lg hover:text-signal transition-colors">022 172 5793</a>
-                </div>
-                <div>
-                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Email Us</span>
-                    <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-signal transition-colors">hello@yourhq.co.nz</a>
-                </div>
-            </div>
+            <ContactInfo variant="cta" class="border-t border-white/20 pt-8" showLocation={false} />
         </div>
     </section>
 

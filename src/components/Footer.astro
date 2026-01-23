@@ -1,3 +1,7 @@
+---
+import ContactInfo from './ContactInfo.astro';
+---
+
 <footer class="bg-carbon text-paper py-20 border-t-4 border-signal">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
@@ -5,7 +9,7 @@
         <!-- Brand -->
         <div class="col-span-1 md:col-span-1">
           <h3 class="text-2xl font-extrabold tracking-tight mb-4">YourHQ<span class="text-signal">.</span></h3>
-          <p class="text-gray-400 text-sm leading-relaxed">Own Your Digital Space. Built in Northland, servicing NZ-wide.</p>
+          <p class="text-gray-400 text-sm leading-relaxed">Own Your Digital Space. Built in Whangārei, servicing NZ-wide.</p>
         </div>
 
         <!-- Links -->
@@ -34,11 +38,7 @@
         <!-- Contact -->
         <div>
           <h4 class="text-sm font-bold font-mono uppercase tracking-widest mb-6 text-gray-500">Contact</h4>
-          <div class="text-gray-400 text-sm space-y-2">
-            <a href="mailto:hello@yourhq.co.nz" class="text-white hover:text-signal transition-colors block">hello@yourhq.co.nz</a>
-            <a href="sms:0221725793" class="hover:text-white transition-colors block">022 172 5793</a>
-            <p>Based in Northland, servicing NZ-wide</p>
-          </div>
+          <ContactInfo variant="footer" />
         </div>
       </div>
 

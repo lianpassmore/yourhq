@@ -1,0 +1,66 @@
+---
+// ContactInfo.astro - Reusable contact information component
+// Standard format: Phone, Email, Location
+
+interface Props {
+  variant?: 'default' | 'compact' | 'footer' | 'cta';
+  showLocation?: boolean;
+  class?: string;
+}
+
+const { variant = 'default', showLocation = true, class: className = '' } = Astro.props;
+
+// Standardized contact details
+const phone = '022 172 5793';
+const phoneLink = 'sms:0221725793';
+const email = 'hello@yourhq.co.nz';
+const location = 'Based in Whangārei, servicing NZ-wide';
+---
+
+{variant === 'default' && (
+  <div class={`space-y-2 ${className}`}>
+    <div class="flex items-center gap-3">
+      <span class="text-lg">📞</span>
+      <a href={phoneLink} class="text-lg hover:text-signal transition-colors font-medium">{phone}</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-lg">✉️</span>
+      <a href={`mailto:${email}`} class="text-lg hover:text-signal transition-colors">{email}</a>
+    </div>
+    {showLocation && (
+      <div class="flex items-center gap-3">
+        <span class="text-lg">📍</span>
+        <span class="text-gray-600">{location}</span>
+      </div>
+    )}
+  </div>
+)}
+
+{variant === 'compact' && (
+  <div class={`flex flex-wrap gap-4 text-sm ${className}`}>
+    <a href={phoneLink} class="hover:text-signal transition-colors">📞 {phone}</a>
+    <a href={`mailto:${email}`} class="hover:text-signal transition-colors">✉️ {email}</a>
+    {showLocation && <span class="text-gray-500">📍 {location}</span>}
+  </div>
+)}
+
+{variant === 'footer' && (
+  <div class={`space-y-1 text-sm ${className}`}>
+    <a href={`mailto:${email}`} class="text-white hover:text-signal transition-colors block">{email}</a>
+    <a href={phoneLink} class="hover:text-white transition-colors block">{phone}</a>
+    {showLocation && <p class="text-gray-400">{location}</p>}
+  </div>
+)}
+
+{variant === 'cta' && (
+  <div class={`grid md:grid-cols-2 gap-8 text-left max-w-lg mx-auto ${className}`}>
+    <div>
+      <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Text Us</span>
+      <a href={phoneLink} class="text-lg hover:text-signal transition-colors">{phone}</a>
+    </div>
+    <div>
+      <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Email Us</span>
+      <a href={`mailto:${email}`} class="text-lg hover:text-signal transition-colors">{email}</a>
+    </div>
+  </div>
+)}

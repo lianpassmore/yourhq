@@ -1,6 +1,6 @@
 # YourHQ Website Copy - Complete Proofreading Document
 
-**Last Updated:** January 7, 2026
+**Last Updated:** January 23, 2026
 **Purpose:** Comprehensive text copy for proofreading across all website pages
 
 ---
@@ -8,10 +8,10 @@
 ## HOMEPAGE (index.astro)
 
 ### Announcement Bar
-Founding Member Offer: $497 Setup + $149/mo Locked for Life — 26 Spots Only
+Founding Member Offer (Ends March 31, 2026): $497.50 Setup (50% Off) + $149/mo Locked for Life — 26 Spots | Code: FOUNDING26
 
 ### Hero Badge
-Based in Northland — Servicing NZ-Wide
+Based in Whangārei — Servicing NZ-Wide
 
 ### Hero Headline
 Stop Renting.
@@ -121,7 +121,7 @@ No Homework.
 No Jargon.
 
 ### Step 01: The Drive-Home Interview (15 Minutes)
-Call our Voice Agent while driving home. You talk. We capture everything.
+Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
 
 **Badge:** NO TYPING REQUIRED
 
@@ -207,7 +207,12 @@ You focus on your business. We keep the digital HQ running.
 ### Section Title
 Simple Pricing.
 
-You own everything.
+You own your domain, content, and design from day one.
+
+### Founding Member Callout
+**Founding Member Offer (Ends March 31, 2026)**
+Launch Package: $497.50 setup (50% off) + $149/mo locked for life
+26 spots only | Use code: FOUNDING26
 
 ### Package 1: The Launch
 **Perfect for Tradies & Retail**
@@ -219,7 +224,7 @@ You own everything.
 - Drive-home voice interview
 - Domain & Hosting included
 - Unlimited text/photo updates
-- Google Maps setup included
+- Google Maps Listing Setup & Optimization
 
 **CTA:** Start Launch Build
 
@@ -235,7 +240,7 @@ You own everything.
 - Booking system integration
 - Blog / News section
 - Priority 24h Support
-- Google Maps optimization + review system
+- Google Maps optimization + Review Collection System
 
 **CTA:** Start Growth Build
 
@@ -260,7 +265,7 @@ Professional websites in NZ typically cost $2,000–$5,000 upfront with agencies
 5 business days once we have everything we need. One 15-minute phone interview, plus any photos or logos you want included. No meetings, no homework.
 
 ### FAQ 3: Do you build websites outside Auckland?
-Yes. Based in Northland, servicing all of NZ. All communication via text and phone.
+Yes. Based in Whangārei, servicing all of NZ. All communication via text and phone.
 
 ### FAQ 4: What makes YourHQ different from Wix or Squarespace?
 With Wix or Squarespace, you do all the work yourself—40+ hours of building, learning, and troubleshooting. With YourHQ, we do everything for you in 5 days using faster, more secure technology. Plus, you get unlimited updates and annual refreshes included, not extra charges.
@@ -283,7 +288,7 @@ The questions you're actually thinking
 Will he be around when it breaks at 11pm? Will he refresh it in 3 years? If it doesn't work out, give us a call.
 
 ### Real Talk 2: "I've been burned by web designers before"
-'Love Your Launch' guarantee: Preview on Day 5. Don't love it? Full refund.
+'Love Your Launch' guarantee: Preview on Day 5. Don't love it? Full refund. (Your setup fee back, minus ~3% processing + any domain costs)
 
 ### Real Talk 3: "I don't have time for this right now"
 Total time from you: one 15-minute phone call. We grab everything else from your socials.
@@ -300,7 +305,7 @@ Ready to Own Your Space?
 
 **CTA Button:** Book Your Interview
 
-### Contact Info
+### Contact Info (via ContactInfo component - cta variant)
 **Text Us**
 022 172 5793
 
@@ -330,14 +335,14 @@ Most agencies charge $8k+ upfront. We start at **$695 + GST.**
 26 Spots Only
 
 ### Headline
-Founding Member Offer
+Founding Member Offer (Ends March 31, 2026)
 
 ### Body Copy
-Lock in the 2026 rate for life. As we add features, the price for new members will go up. Yours never moves.
+Launch Package: $497.50 setup (50% off) + $149/mo locked for life. As we add features, the price for new members will go up. Yours never moves.
 
-### Real Capacity Box
-**Real Capacity**
-We limit this to 26 spots so we can over-deliver for our first group. Offer ends March 31.
+### Scarcity Box
+**26 Spots Only | Use Code: FOUNDING26**
+We limit this to 26 spots so we can over-deliver for our first group. Offer ends March 31, 2026.
 
 ### Price Comparison
 ~~$995~~ Standard Setup
@@ -349,7 +354,7 @@ FOUNDING26
 
 **CTA:** Claim Your Spot
 
-**Footer:** Includes "Love Your Launch" 100% Refund Guarantee
+**Footer:** "Love Your Launch" Guarantee: Full refund if you don't love the preview. (Minus ~3% processing + any domain costs)
 
 ---
 
@@ -367,7 +372,7 @@ FOUNDING26
 - Domain & High-Speed Hosting
 - Unlimited Text/Photo Updates
 - **Annual Design Refresh**
-- **Google Maps Setup**
+- **Google Maps Listing Setup & Optimization**
 
 **CTA:** Start Launch Build
 
@@ -430,41 +435,25 @@ Your monthly subscription ($149–$249/mo) is a fully deductible business expens
 **Human Support**
 - Unlimited "Text Us" updates
 - Tech fixes when things break
-- Real humans in Northland
+- Real humans in Whangārei
 - Google Maps monitoring
 
 ---
 
-## SECTION: What You're Actually Comparing
+## SECTION: What You're Actually Comparing (Table Format)
 
 ### Headline
 What You're Actually Comparing
 
-### DIY Option (Wix/Squarespace)
-- $30–50/mo for tool
-- 40+ hours of your time
-- Generic template result
-- You are the tech support
+| | DIY (Wix) | Agency | YourHQ |
+|---|---|---|---|
+| **Upfront Cost** | $0 | $5,000–15,000 | **$995 + GST** |
+| **Monthly Cost** | $30–50 | $0–250/update | **$149 + GST** |
+| **Your Time** | 40+ hours | 6–12 weeks | **15 minutes** |
+| **Updates** | You do it | Pay per change | **Unlimited included** |
+| **2-Year Total** | $2,500+ (your time) | $8,000–20,000 | **$4,573 + GST** |
 
-**= $2,500+ in lost time & sanity**
-
-### Traditional Agency
-- $5,000–15,000 upfront
-- $100–250/hr for changes
-- 6–12 week build time
-- Paid once? Ghosted forever.
-
-**= up to $20,000 over 2 years**
-
-### YourHQ
-**Badge:** Smart Choice
-
-- $995 + GST setup (live in 5 days)
-- $149 + GST/month
-- **You own it. We handle it.**
-
-**2-Year Total: $4,573**
-Less than half agency cost.
+YourHQ: Less than half agency cost, with ongoing support included.
 
 ---
 
@@ -491,10 +480,11 @@ Pay-per-fix means broken sites you can't afford to repair, or overpaying for sim
 ### Headline
 The "Love Your Launch" Guarantee
 
-We build your site. You see the preview.
+We build your site. You see the preview on Day 5.
 **Don't love it? Full refund.**
 
-(Minus ~3% Stripe fees + domain cost if purchased)
+Your setup fee back, minus payment processing (~3%)
+and any domain costs already registered for you.
 
 ---
 
@@ -509,23 +499,28 @@ Launch: $995 + GST setup / $149 + GST/month
 Growth: $1,495 + GST setup / $249 + GST/month
 
 ### FAQ 2: What's included in the monthly fee?
-Unlimited updates, Vercel hosting, SSL, daily backups, domain renewal, tech support, and annual design refresh. Everything handled.
+Vercel hosting, SSL, daily backups, domain renewal, tech support, annual design refresh, plus **unlimited updates**:
+- ✓ Text changes (phone, hours, pricing, descriptions)
+- ✓ Photo swaps (update your gallery anytime)
+- ✓ Content edits (keep your site current)
+
+*Not included: New pages, new integrations, or major scope changes (quoted separately).*
 
 ### FAQ 3: Is the monthly fee tax deductible?
 Yes—your monthly subscription is a fully tax-deductible business expense. It's claimable as a regular operating cost, just like your internet or phone bill. The upfront setup fee may have limited deductibility, but your ongoing monthly fees are fully deductible. Check with your accountant for your specific situation.
 
 ### FAQ 4: Do you work with clients outside Northland?
-Yes. Based in Northland, servicing all of NZ. Everything happens via text, phone, and email.
+Yes. Based in Whangārei, servicing all of NZ. Everything happens via text, phone, and email.
 
 ### FAQ 5: Can I cancel anytime?
-Yes. Month-to-month, 30 days' notice. You own all content and can export your site.
+Yes. Month-to-month, 30 days' notice. You own your domain, content, and design from day one—we'll help you move to any provider you choose.
 
 ### FAQ 6: Is this cheaper than hiring a traditional agency?
 Yes. Some agencies charge $10,000–20,000 over two years. YourHQ: $4,573 + GST for the same period, including unlimited updates and annual refreshes.
 
 ### FAQ 7: What's included in the Google Maps setup?
-Launch: We claim your listing, write description, upload photos, set service areas, link to website.
-Growth: All the above plus review system and Google Posts.
+**Launch & Growth:** Google Maps listing setup & optimization—we claim your listing, write description, upload photos, set service areas, and link to your website.
+**Growth only:** Review collection system to help you gather customer reviews.
 
 ---
 
@@ -534,7 +529,7 @@ Growth: All the above plus review system and Google Posts.
 ## TRADIES PAGE (tradies.astro)
 
 ### Announcement Bar
-Founding Member Deal: 50% Off Setup + Rate Locked for Life — 26 Spots Only
+Founding Member Offer (Ends March 31, 2026): $497.50 Setup (50% Off) + $149/mo Locked for Life — 26 Spots | Code: FOUNDING26
 
 ### Hero Badge
 FOR ELECTRICIANS • PLUMBERS • BUILDERS • PAINTERS
@@ -602,7 +597,7 @@ Zero Homework.
 (Seriously.)
 
 ### Step 01: The Drive-Home Interview (15 mins)
-Call us while driving home. You talk. We capture everything.
+Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
 
 **Badge:** NO WIXING REQUIRED
 
@@ -615,23 +610,22 @@ We grab photos from Facebook, reviews from Google. You don't lift a finger.
 Loads in under 1 second. Shows up on Google. You keep doing jobs. We build your site.
 
 ### Step 04: You Go Live
-We send you a link. Love it? Live. Hate it? Refund. Then we stay on as caretakers.
+We send you a link on Day 5. Love it? Live. Hate it? Full refund.
+(Your setup fee back, minus ~3% processing + any domain costs)
 
 ---
 
 ## SECTION: The Math
 
 ### Headline
-One Extra Job Per Week = $130,000 Per Year
+The Math That Matters
 
-### Body Copy
-**Let's do the maths:**
+### Body Copy (Softened)
+- Average tradie job: **$2,500**
+- Even ONE extra job per month: **$30,000/yr**
+- YourHQ cost: **$995 setup + $1,788/yr**
 
-- Average tradie job: $2,500
-- One extra job/week: $130,000/yr
-- YourHQ: $995 + GST setup / $149 + GST/month
-
-**Payback: One job.**
+**Payback: Your first job covers the entire first year.**
 
 We can't guarantee you'll rank #1 tomorrow—that depends on your location and competition. But every tradie we've built for shows up more clearly and gets more calls than before.
 
@@ -657,11 +651,11 @@ COMMERCIAL BUILDER
 ## SECTION: Why We Exist
 
 ### Headline
-Based in Northland. For Tradies Who Don't Have Time for This Stuff.
+Based in Whangārei. For Tradies Who Don't Have Time for This Stuff.
 
 Half of NZ small businesses don't have a website. Not because they're lazy—because they're busy.
 
-Two people. Northland-based. We believe tradies deserve to show up on Google without 40 hours on Wix or $15K on an agency.
+Two people. Whangārei-based. We believe tradies deserve to show up on Google without 40 hours on Wix or $15K on an agency.
 
 ---
 
@@ -723,7 +717,9 @@ We set you up with a simple system. Send customers a link. They click, review, d
 ## SECTION: Pricing (Tradies Page)
 
 ### Founding Member Offer
-**26 Spots Only. Rate Locked For Life.**
+**Founding Member Offer (Ends March 31, 2026)**
+Launch Package: $497.50 setup (50% off) + $149/mo locked for life
+26 spots only | Use code: FOUNDING26
 
 ### The Launch Package
 
@@ -742,9 +738,9 @@ We set you up with a simple system. Send customers a link. They click, review, d
 ✓ Domain & hosting included
 ✓ Unlimited text/photo updates
 ✓ **Annual design refresh (Included)**
-✓ **Google Maps Setup (So you get found)**
+✓ **Google Maps Listing Setup & Optimization**
 
-**Guarantee:** 100% Money Back "Love Your Launch" Guarantee
+**Guarantee:** "Love Your Launch" Guarantee: Full refund if you don't love the preview. (Minus ~3% processing + any domain costs)
 
 **CTA:** Claim 50% Off Build
 
@@ -757,7 +753,7 @@ Ready to Own Your Space?
 
 **CTA Button:** Start Your Build
 
-### Contact Info
+### Contact Info (via ContactInfo component - cta variant)
 **Text Us**
 022 172 5793
 
@@ -786,7 +782,7 @@ One phone call. We handle the rest.
 ### Step 01: The Drive-Home Interview
 **Time Required:** 15 Mins
 
-Call our Voice Agent while driving home. You talk. We capture everything.
+Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
 
 **Badge:** No writing. No forms.
 
@@ -813,6 +809,7 @@ By the time your site goes live, you're ready to be found.
 We send you a private link.
 
 Changes? 24 hours. Don't love it? Full refund.
+(Your setup fee back, minus ~3% processing + any domain costs)
 
 **Badge:** Refund if you hate it.
 
@@ -1465,13 +1462,18 @@ Terms & FAQ
 ## FREQUENTLY ASKED QUESTIONS
 
 ### FAQ 1: Do I own my website?
-Yes. You own the domain name, the content, and the design. If you cancel, we transfer the domain and provide a ZIP file of your site code.
+Yes. You own your domain, content, and design from day one. We register domains in your name and manage hosting while you're a customer. If you cancel, you keep everything—we'll help you move it to any provider you choose.
 
 ### FAQ 2: What happens if I cancel?
-No lock-in contracts. You can cancel anytime. We will transfer your domain to your own account and give you your files. However, you will lose the hosting, security updates, and "text us" support.
+No lock-in contracts. You can cancel anytime with 30 days' notice. You keep your domain, content, and design—we'll help you move to any provider you choose. You'll lose the managed hosting, security updates, and "text us" support that's included in your subscription.
 
 ### FAQ 3: Can I update the site myself?
-**Launch & Growth Plans:** No need! Unlimited text/photo updates are included in your monthly fee. Just text us.
+**Launch & Growth Plans:** No need! Unlimited updates included—just text us:
+- ✓ Text changes (phone, hours, pricing, descriptions)
+- ✓ Photo swaps (update your gallery anytime)
+- ✓ Content edits (keep your site current)
+
+*Not included: New pages, new integrations, or major scope changes (quoted separately).*
 
 **Starter Plan:** Updates are pay-as-you-go ($145/hr +GST). Since it's a simple one-page site, most people rarely need changes.
 
@@ -1499,7 +1501,7 @@ We strive for 99.9% uptime, but we are not liable for loss of business due to te
 ### Brand
 YourHQ.
 
-Own Your Digital Space. Built in Northland, servicing NZ-wide.
+Own Your Digital Space. Built in Whangārei, servicing NZ-wide.
 
 ### Company Links
 - How It Works
@@ -1514,10 +1516,10 @@ Own Your Digital Space. Built in Northland, servicing NZ-wide.
 - Privacy Policy
 - Client Login
 
-### Contact Section
+### Contact Section (via ContactInfo component - footer variant)
 **Email:** hello@yourhq.co.nz
 **Phone:** 022 172 5793
-**Location:** Based in Northland, servicing NZ-wide
+**Location:** Based in Whangārei, servicing NZ-wide
 
 ### Footer Tagline
 Infrastructure + Warmth.
@@ -1526,9 +1528,73 @@ Infrastructure + Warmth.
 
 ---
 
+# CHANGELOG (January 23, 2026)
+
+## Summary of Changes Made
+
+### 1. Founding Member Pricing - Standardized Format
+- Added expiry date: "Ends March 31, 2026"
+- Clarified pricing: "$497.50 setup (50% off) + $149/mo locked for life"
+- Added spot count and code: "26 spots only | Use code: FOUNDING26"
+- Updated on: Homepage, Pricing Page, Tradies Page
+
+### 2. Domain Ownership Language - Clarified
+- Old: "You own everything" + "we'll transfer your domain"
+- New: "You own your domain, content, and design from day one. We register domains in your name and manage hosting while you're a customer. If you cancel, you keep everything—we'll help you move it to any provider you choose."
+- Updated on: Legal Page, Homepage, Pricing Page FAQs, FAQSchema
+
+### 3. Google Maps Features - Standardized
+- Starter: No Google Maps included
+- Launch: "Google Maps Listing Setup & Optimization"
+- Growth: Google Maps setup + "Review Collection System"
+- Updated on: Pricing Page, Homepage, Tradies Page, How It Works
+
+### 4. Refund Fine Print - Made Visible
+- Moved from hidden legal page to visible position under guarantee
+- Format: "(Minus ~3% processing + any domain costs)"
+- Updated on: All guarantee mentions across site
+
+### 5. "Unlimited Updates" - Clarified
+- Added explicit inclusions:
+  - ✓ Text changes (phone, hours, pricing, descriptions)
+  - ✓ Photo swaps (update your gallery anytime)
+  - ✓ Content edits (keep your site current)
+- Added explicit exclusions:
+  - *Not included: New pages, new integrations, or major scope changes (quoted separately)*
+- Updated on: Pricing FAQ, Legal Page, FAQSchema
+
+### 6. Voice Agent Language - Simplified
+- Old: "Call our Voice Agent while driving home"
+- New: "Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk."
+- Updated on: Homepage, How It Works, Tradies Page, NZ Website Design, HowToSchema
+
+### 7. Tradies Math - Softened
+- Old: "One Extra Job Per Week = $130,000 Per Year"
+- New: "The Math That Matters" with "Even ONE extra job per month = $30,000/yr"
+- Added: "Payback: Your first job covers the entire first year."
+- Updated on: Tradies Page
+
+### 8. Pricing Comparison - Visual Table
+- Replaced card-based comparison with proper HTML table
+- Columns: DIY (Wix), Agency, YourHQ
+- Rows: Upfront Cost, Monthly Cost, Your Time, Updates, 2-Year Total
+- Updated on: Pricing Page
+
+### 9. Contact Information - Standardized
+- Created reusable ContactInfo.astro component with 4 variants (default, compact, footer, cta)
+- Standard format: Phone 022 172 5793, Email hello@yourhq.co.nz
+- Location: "Based in Whangārei, servicing NZ-wide"
+- Updated on: Footer, Homepage CTA, Tradies CTA
+
+### 10. Location References - Updated
+- Changed "Built in Northland" to "Built in Whangārei"
+- Consistent across Footer and all location mentions
+
+---
+
 # END OF DOCUMENT
 
 **Total Pages:** 11 pages documented (Homepage, Pricing, Tradies, How It Works, Work, Our Story, Contact, Refer, Network, Legal, Footer)
-**Last Updated:** January 7, 2026
+**Last Updated:** January 23, 2026
 **Document Compiled By:** YourHQ Team
-**Status:** Ready for Proofreading ✅
+**Status:** Updated with all copy changes ✅

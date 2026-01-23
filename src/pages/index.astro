@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import StructuredData from '../components/StructuredData.astro';
 import HomepageFAQSchema from '../components/HomepageFAQSchema.astro';
+import ContactInfo from '../components/ContactInfo.astro';
 
 // DATA: Testimonials
 const testimonials = [
@@ -31,7 +32,7 @@ const testimonials = [
 
   <!-- Announcement Bar -->
   <div class="bg-signal text-white text-center py-3 px-4 text-sm font-mono tracking-widest uppercase border-b border-white/10">
-    Founding Member Offer: $497 Setup + $149/mo Locked for Life — 26 Spots Only
+    Founding Member Offer (Ends March 31, 2026): $497.50 Setup (50% Off) + $149/mo Locked for Life — 26 Spots | Code: FOUNDING26
   </div>
 
   <!-- Navbar (Hydrated React Component) -->
@@ -250,9 +251,8 @@ const testimonials = [
                   <span class="font-mono text-sm font-bold text-signal mb-2 block">STEP 01</span>
                   <h3 class="text-2xl font-bold mb-4">The Drive-Home Interview (15 Minutes)</h3>
                   <p class="text-gray-600 mb-4 max-w-xl">
-                    Call our Voice Agent while driving home. You talk. We capture everything.
+                    Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
                   </p>
-                  <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">NO TYPING REQUIRED</span>
                 </div>
               </div>
 
@@ -424,7 +424,10 @@ const testimonials = [
         <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="text-center max-w-2xl mx-auto mb-16">
              <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Simple Pricing.</h2>
-             <p class="text-xl text-gray-500">You own everything.</p>
+             <p class="text-xl text-gray-500 mb-4">You own your domain, content, and design from day one.</p>
+             <div class="bg-signal/10 border-2 border-signal px-6 py-3 inline-block">
+               <p class="text-signal font-bold">Founding Member Offer (Ends March 31, 2026): 50% off setup with code <span class="font-mono bg-signal text-white px-2 py-1">FOUNDING26</span></p>
+             </div>
           </div>
           
           <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -444,7 +447,7 @@ const testimonials = [
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Drive-home voice interview</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Domain & Hosting included</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Unlimited text/photo updates</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Google Maps setup included</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Google Maps listing setup & optimization</li>
                 </ul>
                 <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="w-full block bg-carbon text-white text-center py-4 font-bold uppercase tracking-widest hover:bg-signal transition-colors">Start Launch Build</a>
              </div>
@@ -465,7 +468,7 @@ const testimonials = [
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Booking system integration</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Blog / News section</li>
                     <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Priority 24h Support</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Google Maps optimization + review system</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Review collection system</li>
                 </ul>
                 <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="w-full block bg-signal text-white text-center py-4 font-bold uppercase tracking-widest shadow-hard-sm hover:shadow-none hover:translate-y-[1px] transition-all">Start Growth Build</a>
              </div>
@@ -568,9 +571,10 @@ const testimonials = [
             <!-- Real Talk 2 -->
             <div class="bg-white border-l-4 border-hibiscus p-6 shadow-sm">
               <h3 class="text-lg font-bold mb-3 text-carbon">"I've been burned by web designers before"</h3>
-              <p class="text-gray-700 leading-relaxed">
+              <p class="text-gray-700 leading-relaxed mb-2">
                 'Love Your Launch' guarantee: Preview on Day 5. Don't love it? Full refund.
               </p>
+              <p class="text-sm text-gray-500">(Minus ~3% processing + any domain costs)</p>
             </div>
 
             <!-- Real Talk 3 -->
@@ -602,16 +606,7 @@ const testimonials = [
               Book Your Interview
             </a>
             
-            <div class="grid md:grid-cols-2 gap-8 text-left max-w-lg mx-auto border-t border-white/20 pt-8">
-                <div>
-                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Text Us</span>
-                    <a href="sms:0221725793" class="text-lg hover:text-signal transition-colors">022 172 5793</a>
-                </div>
-                <div>
-                    <span class="block text-xs font-mono text-gray-500 uppercase mb-1">Email Us</span>
-                    <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-signal transition-colors">hello@yourhq.co.nz</a>
-                </div>
-            </div>
+            <ContactInfo variant="cta" class="border-t border-white/20 pt-8" showLocation={false} />
         </div>
     </section>
 
