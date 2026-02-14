@@ -1,6 +1,6 @@
 ---
 title: "How to Get More Google Reviews for Your Tradie Business (Without Feeling Awkward)"
-description: "Stuck at 12 reviews while your competitor has 100? Here is the exact script and system to get 5-star reviews on autopilot."
+description: "Exact scripts and systems to get more Google reviews for your tradie business. Go from 12 to 100 reviews without feeling awkward."
 pubDate: 2026-01-25
 author: "Lian"
 image: "/google-reviews.webp"
@@ -69,20 +69,27 @@ You literally never think about it. The system handles everything. Businesses us
 
 The tradie who starts today and gets 5 reviews a month wins. The tradie who puts it off stays invisible.
 
+**[Get a website that automates review requests →](/pricing)**
+
 ---
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
-**How many Google reviews do I need?**
-Top 3 results average 47 reviews. Aim for 40-50 to compete, then keep building.
+**How many Google reviews does a tradie need to rank?**
+The top 3 local search results on Google have an average of 47 reviews. To compete for visibility in the Map Pack, aim for 40-50 reviews as a starting target. But don't stop there—more reviews mean higher rankings, more trust, and a bigger buffer against the occasional negative review.
 
-**What's the best time to ask?**
-Within 24 hours of finishing the job. Response rates drop by half if you wait a week.
+**When is the best time to ask for a Google review?**
+Within 24 hours of finishing the job, while the experience is fresh. Response rates drop by roughly half if you wait a week. The ideal approach is to mention it face-to-face at job completion, then follow up with a direct review link via text within 2 hours. Making it easy is the key—one tap, not six steps.
 
-**What if I get a bad review?**
-Respond professionally. Volume is your protection—one 1-star review ruins a 10-review profile, but barely touches a 100-review profile.
+**What should I do if I get a bad Google review?**
+Respond professionally and promptly. Acknowledge the concern, offer to resolve it offline, and keep your tone calm. Volume is your best protection—one 1-star review is devastating on a 10-review profile but barely moves the needle on a 100-review profile. Focus on consistently generating positive reviews rather than stressing over the occasional negative one.
+
+**Can I pay for or incentivise Google reviews?**
+No. Google's terms of service prohibit offering incentives for reviews, and they actively detect and remove fake reviews. The best approach is to make the process easy (direct link, one tap) and ask consistently after every job. Authentic reviews from real customers are what build lasting trust and rankings.
+
+---
 
 ### References
-1. BrightLocal Local Consumer Review Survey 2024
-2. Podium Consumer Research
-3. Search Engine Journal Ranking Factors
+1. BrightLocal Local Consumer Review Survey 2024 — 98% of consumers read reviews; top 3 results average 47 reviews
+2. Podium Consumer Research — Automated review systems generate 4-5x more reviews
+3. Search Engine Journal — Google review count as a local ranking factor

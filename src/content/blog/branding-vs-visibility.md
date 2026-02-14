@@ -1,6 +1,6 @@
 ---
 title: "Should You Rebrand Your Tradie Business? (When It's Worth It vs Waste of Money)"
-description: "Thinking of spending $10k on a new logo and van wrap? Read this. If you're invisible on Google, a pretty logo won't save you."
+description: "Thinking of spending $10k on a rebrand? If you're invisible on Google, a pretty logo won't save you. Here's what to invest in first."
 pubDate: 2026-02-12
 author: "Lian"
 image: "/branding-van.webp"
@@ -65,20 +65,24 @@ Spend time getting Google Reviews. They build trust.
 
 Then, and only then, spend the money on the fancy van wrap. Don't put the cart before the horse.
 
+**[See what a lead-generating website costs →](/pricing)**
+
 ---
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
 **Should I get a website or rebrand first?**
-Website first. Always. It makes you visible to the 97% of people searching online. Branding is just polish.
+Website first. Always. A website makes you visible to the 97% of people who search online before hiring a tradie. Branding is polish—it enhances an existing presence but can't create one. Until you're showing up on Google, no amount of logo redesign will generate leads.
 
 **Does my logo actually matter to customers?**
-Less than you think. Customers hire based on trust, reputation, and availability. Very few choose a plumber because of a nice logo.
+Less than you think. Research shows customers hire based on trust signals like reviews, response time, and professional presentation—not logo design. Very few people choose a plumber because of a nice logo. A clean, consistent look helps, but it's nowhere near as important as being findable online.
 
-**How much should I spend on branding?**
-Focus your budget on visibility (Website/SEO) first. Save the big branding spend ($5k+) for when you are scaling and have cash flow to burn.
+**How much should a tradie spend on branding?**
+Focus your first $3,000 on visibility—a professional website and Google Business Profile. Save the big branding spend ($5,000+) for when you're scaling, have consistent lead flow, and want to match your image to your premium pricing. Branding before visibility is money wasted.
+
+---
 
 ### References
-1. Consumer Search Behaviour Studies (97% search online)
-2. Stanford Web Credibility Research
-3. Trade Business Benchmarks
+1. BrightLocal Local Consumer Review Survey — 97% of consumers search online for local businesses
+2. Stanford Web Credibility Research — First impressions and trust signals
+3. Trade Business Growth Benchmarks NZ

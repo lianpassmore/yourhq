@@ -1,6 +1,6 @@
 ---
 title: "How to Stop Customers Ghosting After Quotes (The Tradie's Guide)"
-description: "You spend hours quoting, send it off, and then... silence. Here is why customers ghost and the 3-step system to fix it."
+description: "Why customers ghost after quotes and the 3-step system to fix it. Pre-qualify, build credibility, and follow up like a pro."
 pubDate: 2026-01-30
 author: "Lian"
 image: "/ghosting-phone.webp"
@@ -75,20 +75,27 @@ Ghosting happens because:
 
 A professional website handles the first two automatically.
 
+**[Build credibility that wins quotes →](/pricing)**
+
 ---
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
-**What's a normal quote conversion rate?**
-Average is 25-35%. Top performers with good websites convert 50-60%.
+**What's a normal quote conversion rate for tradies?**
+The average quote-to-job conversion rate for trade businesses sits around 25-35%. However, tradies with professional websites and strong Google reviews consistently convert at 50-60%, because customers have already built trust before the quote arrives. The difference isn't your pricing—it's your perceived credibility.
 
-**Why do customers ghost instead of saying no?**
-Usually to avoid an awkward conversation about price. It's human nature to avoid conflict.
+**Why do customers ghost instead of just saying no?**
+It's human nature to avoid awkward conversations, especially about money. When a customer chooses a cheaper competitor, they feel guilty telling you—so they say nothing. A structured follow-up sequence gives them a low-pressure way to respond and keeps you in control of the conversation.
 
-**How does a website help win quotes?**
-It builds trust before you arrive. 75% of consumers judge credibility based on web design. If you look established, they trust your pricing.
+**How does having a website help me win more quotes?**
+A website builds trust before you even arrive on site. 75% of consumers judge a business's credibility based on web design alone. When a customer receives your quote and then Googles you, finding a professional site with reviews, portfolio photos, and clear service descriptions makes them far more likely to accept your price—even if it's higher than competitors.
+
+**What should I include on my website to improve quote conversions?**
+Focus on trust signals: portfolio photos of completed work, Google reviews prominently displayed, qualifications and insurance details, clear service descriptions, and a professional contact form that pre-qualifies leads. These elements do the selling before you arrive, so you're quoting warm leads instead of cold ones.
+
+---
 
 ### References
-1. HubSpot Sales Statistics
-2. BrightLocal Consumer Research
-3. Lead Qualification Research
+1. HubSpot Sales Research — 48% of salespeople never follow up; conversion rate benchmarks
+2. BrightLocal Consumer Review Survey — 81% research businesses online before purchasing
+3. Stanford Web Credibility Research — 75% of consumers judge credibility on web design

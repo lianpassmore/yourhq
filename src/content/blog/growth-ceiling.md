@@ -1,7 +1,7 @@
 ---
 title: "Why 'Word of Mouth' Has a Ceiling (And How to Break Through It)"
-description: "You've built a great reputation, but your revenue has been flat for two years. Here is why reliance on referrals is the invisible cap on your business."
-pubDate: 2026-03-05
+description: "Revenue flat for two years? You've hit the word of mouth ceiling. Here's why referrals alone cap your growth and how to break through."
+pubDate: 2026-02-13
 author: "Lian"
 image: "/glass-ceiling.webp"
 tags: ["Tradies", "Growth"]
@@ -93,20 +93,27 @@ But if you want to grow? You need to stop waiting for your phone to ring and sta
 
 It's time to meet some strangers.
 
+**[Start reaching strangers with a pro website →](/pricing)**
+
 ---
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
-**Is word of mouth dead?**
-No, it's still the highest *quality* lead source. But it's low *volume*. You should absolutely nurture word of mouth, but you shouldn't rely on it as your ONLY source of work if you want to grow.
+**Is word of mouth dead for tradies?**
+No—word of mouth is still the highest-quality lead source. Referred customers trust you more and convert faster. But it's a low-volume channel. Your referral network is mathematically limited by how many people you know and how often they happen to mention your trade. You should nurture word of mouth, but relying on it as your only growth strategy puts a hard cap on revenue.
 
-**Why do "stranger" leads pay more?**
-Because they are hiring a business, not a person. When someone hires "Dave," they negotiate with a person. When they hire "Northland Electrical," they accept the price list of a company. A website shifts you from "Dave" to "Northland Electrical."
+**Why do leads from Google pay more than referrals?**
+Because strangers hire a business, not a mate. When someone finds "Northland Electrical" on Google, they accept the company's price list. When someone hires "Dave" through a referral, they negotiate with a person—and often expect mates rates. A website shifts your positioning from individual tradie to professional business, which supports premium pricing.
 
-**How do I get work from strangers if I don't have a website?**
-You basically can't. Strangers rely on trust signals (Reviews, Website, Photos) to assess risk. If you don't have those, a stranger will view you as "high risk" and choose someone else.
+**How do I start getting work from strangers without a website?**
+You essentially can't—at least not at scale. Strangers have zero existing trust with you, so they rely entirely on digital trust signals: Google reviews, a professional website, portfolio photos, and verified qualifications. Without these, a stranger sees you as high-risk and chooses the competitor who looks more established online. A website is the minimum entry requirement for winning work outside your network.
+
+**How long does it take to break through the word of mouth ceiling?**
+Most tradies start seeing Google leads within 1-3 months of launching a professional website, with significant momentum building by month 6 as reviews accumulate and search rankings improve. The key is consistency—every new review, every month of ranking, compounds your visibility to the 99% of the market you're currently invisible to.
+
+---
 
 ### References
-1. Dunbar's Number (Social circle limits)
-2. Small Business Growth Statistics NZ
-3. Consumer Trust Signals Research
+1. Dunbar's Number Research — Social network size limits (~150 active connections)
+2. Stats NZ Small Business Growth Data — Revenue benchmarks for NZ trade businesses
+3. BrightLocal Consumer Trust Research — How strangers evaluate businesses online

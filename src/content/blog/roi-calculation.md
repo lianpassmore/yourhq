@@ -1,7 +1,7 @@
 ---
 title: "How Long Does a Tradie Website Actually Take to Pay Off?"
-description: "Is a website an expense or an investment? We run the numbers on payback periods for plumbers, electricians, and builders."
-pubDate: 2026-02-25
+description: "A tradie website pays for itself in 2-4 weeks. Here's the ROI maths for plumbers, electricians, and builders in NZ."
+pubDate: 2026-02-11
 author: "Lian"
 image: "/roi-graph.webp"
 tags: ["Tradies", "ROI"]
@@ -77,20 +77,27 @@ At 6 jobs a month, you're losing **$3,750 per week**.
 
 Stop leaving money on the table.
 
+**[See what a website costs for your trade →](/pricing)**
+
 ---
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
-**What if the website doesn't bring in any work?**
-For a website to lose money, it would need to bring in fewer than 0.4 jobs in a year. Given 97% of people search online, generating zero leads is statistically almost impossible.
+**What if a tradie website doesn't bring in any work?**
+For a website to lose money, it would need to generate fewer than 0.4 jobs in an entire year—less than one job. Given that 97% of people search online for local services and hundreds of people Google your trade in your area every month, generating zero leads from a properly built website is statistically near-impossible. Even the most conservative scenarios show payback within weeks.
 
-**How does this compare to Google Ads?**
-Google Ads stop working the second you stop paying. A website is an asset you own that builds authority and ranks organically over time. The ROI is significantly higher long-term.
+**How does a website compare to Google Ads for tradies?**
+Google Ads stop generating leads the moment you stop paying. A website is a digital asset you own that builds authority and organic rankings over time. While Google Ads can deliver quick leads at $20-$50+ per click, a website generates free organic leads month after month. Long-term, the ROI of a website is significantly higher—typically 30-50x your investment annually.
 
 **Will a website help if I'm already fully booked?**
-Yes. It allows you to be selective. You take the highest-paying jobs and drop the low-value ones. You earn more money in the same hours.
+Yes—arguably even more so. When you're fully booked, a website gives you lead abundance, which gives you selectivity. Instead of taking every job, you cherry-pick the highest-value work, decline low-margin jobs, and raise your rates. Tradies with websites and lead abundance consistently earn more while working fewer hours.
+
+**How long does it take for a tradie website to start generating leads?**
+Most professionally built websites start generating enquiries within the first 1-4 weeks. Initial leads come from improved credibility (people Googling you after a referral). Organic Google search leads build over 3-6 months as your site gains authority and reviews accumulate. By month 6-12, a well-optimised site typically generates 10+ leads per month.
+
+---
 
 ### References
-1. Google Consumer Insights
-2. Search Engine Journal (Click-through rates)
-3. Aussite Tradie ROI Study 2025
+1. Google Consumer Insights — 97% of consumers search online for local businesses
+2. Search Engine Journal — Organic vs paid click-through rates and cost-per-lead benchmarks
+3. BrightLocal Consumer Review Survey — Local search conversion data for trade businesses
