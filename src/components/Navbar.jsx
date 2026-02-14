@@ -19,7 +19,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <a href="/how-it-works" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">How It Works</a>
             <a href="/pricing" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Pricing</a>
-            <a href="/work" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Work</a>
+            <a href="/portfolio" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Portfolio</a>
             <a href="/blog" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Blog</a>
             <a href="/our-story" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Our Story</a>
 
@@ -45,7 +45,7 @@ export default function Navbar() {
         <div className="md:hidden bg-paper border-b border-carbon/10 absolute w-full left-0 px-4 pt-2 pb-6 space-y-2 shadow-xl">
             <a href="/how-it-works" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">How It Works</a>
             <a href="/pricing" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Pricing</a>
-            <a href="/work" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Work</a>
+            <a href="/portfolio" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Portfolio</a>
             <a href="/blog" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Blog</a>
             <a href="/our-story" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Our Story</a>
             {/* UPDATED LINK HERE -> /pricing */}

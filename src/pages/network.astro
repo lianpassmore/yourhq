@@ -7,23 +7,23 @@ import Footer from '../components/Footer.astro';
 const faqs = [
   {
     question: "Do I get paid for referrals?",
-    answer: "No. We focus on long-term value exchange, not transactional kickbacks. We reciprocate by sending our clients to you when they need your specific services."
+    answer: "No. We focus on long-term value exchange, not transactional kickbacks. We reciprocate by introducing our clients to trusted professionals when it fits."
   },
   {
     question: "What if my client has a bad experience?",
-    answer: "We fix it — or refund them. Protecting your trust is non-negotiable. We offer a 'Love Your Launch' guarantee where if they don't like the preview, they get their money back."
+    answer: "We fix it — or we refund them. Protecting your trust is non-negotiable."
   },
   {
     question: "How do I make a referral?",
-    answer: "It's simple. Text or email Nic with their name and number (after getting their permission). We take it from there."
+    answer: "Text or email Nic after getting your client's permission. We take it from there."
   },
   {
     question: "Do I need to commit to anything?",
-    answer: "No contracts. No minimums. Just refer when it makes sense for your client."
+    answer: "No contracts. No minimums. Refer when it makes sense."
   },
   {
     question: "Can I refer clients outside Northland?",
-    answer: "Yes. While we are based in Whangārei, we work with Kiwi businesses nationwide. Our process is fully remote-capable."
+    answer: "Yes. We work NZ-wide — fully remote process."
   }
 ];
 
@@ -100,8 +100,12 @@ const partnerProgramSchema = {
               <span class="text-signal">We've Got You Covered.</span>
             </h1>
 
-            <p class="text-xl md:text-2xl font-medium leading-relaxed text-carbon/80 mb-8 max-w-2xl">
+            <p class="text-xl md:text-2xl font-medium leading-relaxed text-carbon/80 mb-4 max-w-2xl">
               When a client asks, <em>"Do you know anyone who does websites?"</em> — now you do.
+            </p>
+
+            <p class="text-lg font-semibold text-carbon/70 mb-8 max-w-2xl">
+              Founder-led. Built in Whangārei. Servicing NZ-wide.
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4">
@@ -125,11 +129,14 @@ const partnerProgramSchema = {
               <h2 class="text-4xl font-extrabold tracking-tighter mb-6 text-carbon">
                 The Problem <br/><span class="text-gray-400 font-normal text-2xl">(From your side of the desk)</span>
               </h2>
-              <p class="text-lg text-gray-600 mb-6">
-                You see this all the time. The tradie doing great work but losing jobs to competitors. The salon owner whose whole business lives on Instagram.
-              </p>
+              <div class="text-lg text-gray-600 mb-6 space-y-3">
+                <p>You see it all the time:</p>
+                <p>The tradie doing great work but losing jobs because they don't show up on Google.</p>
+                <p>The salon owner whose whole business lives on Instagram.</p>
+                <p>The consultant who's solid — but fails the "Google Test."</p>
+              </div>
               <p class="text-lg font-bold text-carbon border-l-4 border-signal pl-4">
-                They ask you for advice. You tell them they need a website. Then comes the awkward part.
+                They ask you for advice. You tell them they need a website. Then comes the awkward part: who do you send them to?
               </p>
             </div>
 
@@ -137,17 +144,17 @@ const partnerProgramSchema = {
               <!-- Problem Cards -->
               <div class="bg-white p-6 border-l-4 border-gray-300 shadow-sm">
                 <h3 class="font-bold text-lg mb-2 text-gray-500">Option A: Wix / DIY</h3>
-                <p class="text-gray-600">Means 40 hours of your client's time, frustration, and usually no result.</p>
+                <p class="text-gray-600">40 hours of your client's time, frustration, and usually no finished result.</p>
               </div>
               
               <div class="bg-white p-6 border-l-4 border-gray-300 shadow-sm">
                 <h3 class="font-bold text-lg mb-2 text-gray-500">Option B: Agencies</h3>
-                <p class="text-gray-600">Means big money ($5k+) and long delays. Often overkill for what they need.</p>
+                <p class="text-gray-600">Big money ($5k+) and long delays — often overkill for what they actually need.</p>
               </div>
 
               <div class="bg-white p-6 border-l-4 border-gray-300 shadow-sm">
                 <h3 class="font-bold text-lg mb-2 text-gray-500">Option C: Doing Nothing</h3>
-                <p class="text-gray-600">Means having the exact same conversation next quarter. Your client stays stuck.</p>
+                <p class="text-gray-600">Means having the exact same conversation again next quarter.</p>
               </div>
 
               <!-- Solution Pop -->
@@ -171,7 +178,7 @@ const partnerProgramSchema = {
             <span class="text-signal">Fast. Zero Homework.</span>
           </h2>
           <p class="text-xl text-gray-400">
-            We fix the problem without creating more work for you or your clients.
+            We fix the problem without creating more work for you or your client.
           </p>
         </div>
 
@@ -179,22 +186,22 @@ const partnerProgramSchema = {
           <!-- Feature 1 - Signal -->
           <div class="bg-paper p-8 border-t-8 border-signal relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">Built in 5 Days</h3>
-            <p class="text-gray-600">One short phone call. Website live within a week. We move at the speed of business.</p>
+            <p class="text-gray-600">One short phone call. Live within a week.</p>
           </div>
           <!-- Feature 2 - Hibiscus -->
           <div class="bg-paper p-8 border-t-8 border-hibiscus relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">No Homework</h3>
-            <p class="text-gray-600">We don't ask clients to write copy. We interview them, pull what we need, and build it.</p>
+            <p class="text-gray-600">We interview them, pull what we need, and build it. No copywriting tasks.</p>
           </div>
           <!-- Feature 3 - Frangipani -->
           <div class="bg-paper p-8 border-t-8 border-frangipani relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">Small Biz Pricing</h3>
-            <p class="text-gray-600">Setup from <strong>$695</strong>. Ongoing care from <strong>$49/mo</strong>. Not agency pricing. Not DIY pain.</p>
+            <p class="text-gray-600">Setup from <strong>$695 + GST</strong>. Ongoing care from <strong>$49/mo + GST</strong>.</p>
           </div>
           <!-- Feature 4 - Signal -->
           <div class="bg-paper p-8 border-t-8 border-signal relative shadow-hard-white">
             <h3 class="font-extrabold text-xl mb-3">The Caretaker Model</h3>
-            <p class="text-gray-600">We don't build and disappear. We host, maintain, and update the site so it stays current.</p>
+            <p class="text-gray-600">We don't build and disappear — we host, maintain, update, and refresh yearly so the site doesn't rot.</p>
           </div>
           <!-- Feature 5 - Hibiscus -->
           <div class="bg-paper p-8 border-t-8 border-hibiscus relative shadow-hard-white">
@@ -222,7 +229,7 @@ const partnerProgramSchema = {
               <li>Salons and beauty professionals</li>
               <li>Health & wellness practitioners</li>
               <li>Consultants and coaches</li>
-              <li>Creatives needing professional presence</li>
+              <li>Creatives needing a professional presence</li>
             </ul>
           </div>
 
@@ -236,7 +243,7 @@ const partnerProgramSchema = {
               <li>E-commerce or online stores</li>
               <li>DIYers who want to build it themselves</li>
               <li>Businesses needing complex custom systems</li>
-              <li>Businesses looking for the cheapest option</li>
+              <li>People shopping for the absolute cheapest option</li>
             </ul>
           </div>
 
@@ -253,12 +260,12 @@ const partnerProgramSchema = {
           
           <div class="bg-white p-8 border-t-4 border-signal shadow-sm">
             <h3 class="text-xl font-bold mb-4 text-signal">You Look Good</h3>
-            <p class="text-gray-600">Your client gets sorted quickly, properly, and without drama. That reflects well on you as their advisor.</p>
+            <p class="text-gray-600">Your client gets sorted quickly, properly, and without drama. That reflects well on you.</p>
           </div>
 
           <div class="bg-white p-8 border-t-4 border-hibiscus shadow-sm">
             <h3 class="text-xl font-bold mb-4 text-hibiscus">Referrals Flow Both Ways</h3>
-            <p class="text-gray-600">Every new client onboarding includes a simple question: <em>"Who do you trust for accounting, finance, or insurance?"</em> When your name fits, we send the introduction.</p>
+            <p class="text-gray-600">We ask every new client: <em>"Who do you trust for accounting, finance, insurance, coaching?"</em> When you're the right fit, we make the intro.</p>
           </div>
 
           <div class="bg-white p-8 border-t-4 border-frangipani shadow-sm">
@@ -267,8 +274,8 @@ const partnerProgramSchema = {
           </div>
 
           <div class="bg-white p-8 border-t-4 border-signal shadow-sm">
-            <h3 class="text-xl font-bold mb-4 text-signal">Credible Network</h3>
-            <p class="text-gray-600">Network members are listed on our internal directory and featured when relevant. No black holes. No random hand-offs.</p>
+            <h3 class="text-xl font-bold mb-4 text-signal">Founder-led & Built to Last</h3>
+            <p class="text-gray-600">Your clients aren't getting handed into a black hole. YourHQ is founder-led and designed for long-term care.</p>
           </div>
 
         </div>
@@ -280,8 +287,11 @@ const partnerProgramSchema = {
       <div class="max-w-3xl mx-auto px-4 text-center">
         <h2 class="text-3xl font-extrabold mb-8 text-carbon">The Value Exchange</h2>
         
-        <p class="text-lg font-medium text-carbon mb-8">
+        <p class="text-lg font-medium text-carbon mb-4">
             This is <span class="text-signal font-bold underline decoration-signal decoration-4">not</span> a commission program.
+        </p>
+        <p class="text-lg text-carbon/80 mb-8">
+            We don't do kickbacks. We do relationships.
         </p>
         
         <div class="bg-white text-carbon border-2 border-white p-8 shadow-hard">
@@ -290,9 +300,9 @@ const partnerProgramSchema = {
               <p class="font-bold text-signal uppercase tracking-widest text-xs mb-4">You Get</p>
               <ul class="space-y-2 text-sm">
                 <li>• Warm referrals back</li>
-                <li>• Co-branded resources</li>
-                <li>• Visibility in our network</li>
-                <li>• A reliable solution</li>
+                <li>• Co-branded tools</li>
+                <li>• A reliable solution for clients</li>
+                <li>• Confidence your client will be cared for</li>
               </ul>
             </div>
             <div class="md:border-l md:border-gray-200 md:pl-8">
@@ -355,7 +365,7 @@ const partnerProgramSchema = {
     <!-- SECTION 7: WHO IS IT FOR -->
     <section class="py-20 bg-paper border-b border-carbon">
         <div class="max-w-3xl mx-auto px-4 text-center">
-            <h2 class="text-2xl font-bold mb-8">Who We Are Looking For</h2>
+            <h2 class="text-2xl font-bold mb-8">Who We're Looking For</h2>
             <div class="flex flex-wrap justify-center gap-4">
                 <span class="px-4 py-2 bg-white border-l-4 border-signal shadow-sm font-medium">Accountants & Bookkeepers</span>
                 <span class="px-4 py-2 bg-white border-l-4 border-hibiscus shadow-sm font-medium">Mortgage Brokers</span>
@@ -389,14 +399,14 @@ const partnerProgramSchema = {
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-8">Join the Network</h2>
             <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-                Send us a quick email and we'll send you your welcome kit, resources, and everything you need to make clean introductions.
+                Send a quick email and we'll send your welcome kit and referral tools.
             </p>
             
             <!-- Email Action Box -->
             <div class="bg-white text-carbon p-8 max-w-xl mx-auto rounded-sm mb-12 text-center shadow-hard-white">
                 <h3 class="text-2xl font-bold mb-4">Ready to connect?</h3>
                 <p class="text-gray-600 mb-8">
-                    Send Nic an email with your name, firm, and role. We'll handle the rest.
+                    Email Nic with your name, firm, and role — we'll handle the rest.
                 </p>
                 <a href="mailto:nic@yourhq.co.nz?subject=Joining%20the%20YourHQ%20Network" class="inline-block w-full bg-signal text-white font-bold uppercase tracking-widest py-4 hover:bg-carbon border border-transparent hover:border-white transition-all shadow-hard-sm hover:shadow-none hover:translate-y-[1px]">
                     Email Nic to Join
@@ -405,8 +415,8 @@ const partnerProgramSchema = {
 
             <div class="border-t border-white/20 pt-12">
                 <p class="text-sm font-mono text-gray-400 mb-4">QUESTIONS?</p>
-                <p class="text-lg font-bold">Nic Bates</p>
-                <p class="text-gray-400 mb-4">Network Relationships</p>
+                <p class="text-lg font-bold">Nic</p>
+                <p class="text-gray-400 mb-4">Client Partnerships</p>
                 <p class="text-xl">
                     <a href="mailto:nic@yourhq.co.nz" class="hover:text-signal transition-colors">nic@yourhq.co.nz</a>
                     <span class="mx-2 text-gray-600">|</span>

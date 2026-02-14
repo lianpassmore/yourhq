@@ -13,7 +13,7 @@ import HowToSchema from '../components/HowToSchema.astro';
   <Navbar client:load />
 
   <main class="bg-paper min-h-screen">
-    
+
     <!-- HERO -->
     <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,17 +26,32 @@ import HowToSchema from '../components/HowToSchema.astro';
             <span class="text-carbon">Digital HQ in 5 Days.</span>
           </h1>
           <p class="text-xl md:text-2xl text-gray-600 max-w-2xl leading-relaxed">
-            No forms to fill out. No tech jargon. <span class="bg-frangipani/30 px-1 font-medium text-carbon">No homework.</span> <br />
-            One phone call. We handle the rest.
+            No forms. No tech jargon. <span class="bg-frangipani/30 px-1 font-medium text-carbon">No homework.</span> <br />
+            One 15-minute call &mdash; we handle the rest.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- THE PROCESS (TIMELINE) -->
+    <!-- THE PROMISE -->
     <section class="py-24 bg-white border-b border-carbon">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
+            This Should Feel Like <span class="text-signal">Relief.</span>
+          </h2>
+          <p class="text-xl text-gray-600 leading-relaxed mb-6">
+            Most business owners don't need "a website project." They need the website problem <em>gone</em>. So we built a process that's fast, simple, and doesn't steal your evenings.
+          </p>
+          <p class="text-2xl font-extrabold text-carbon">Your total time: 15 minutes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE PROCESS (TIMELINE) -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <div class="relative">
             <!-- Vertical Line (The Spine) -->
             <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-carbon/10 -ml-[1px]"></div>
@@ -48,17 +63,17 @@ import HowToSchema from '../components/HowToSchema.astro';
                     <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">01</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">The Drive-Home Interview</h3>
                     <p class="text-lg text-gray-600 mb-4">
-                        Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
+                        Call us for a quick chat while you're driving home (or between jobs). Hands-free, records automatically, captures everything we need &mdash; your services, your story, your tone. No typing. No forms. No awkward meetings.
                     </p>
                 </div>
-                
+
                 <!-- Center Dot -->
                 <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-signal rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3">
                     <div class="border border-carbon p-6 bg-paper shadow-hard-sm">
                         <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-signal">Time Required</strong>
-                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">15 Mins</p>
+                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">15 Minutes</p>
                         <p class="text-sm text-gray-600 mt-2">No writing. No forms.</p>
                     </div>
                 </div>
@@ -69,20 +84,20 @@ import HowToSchema from '../components/HowToSchema.astro';
                 <div class="pl-16 md:pl-0 md:text-right md:pr-16 order-1 md:order-3">
                     <div class="border border-carbon p-6 bg-paper shadow-hard-sm">
                         <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-carbon">Time Required</strong>
-                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">0 Mins</p>
-                        <p class="text-sm text-gray-600 mt-2">We do this ourselves.</p>
+                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">0 Minutes</p>
+                        <p class="text-sm text-gray-600 mt-2">Zero homework.</p>
                     </div>
                 </div>
-                
+
                 <!-- Center Dot -->
                 <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-carbon rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3 md:order-1">
                     <!-- DARKENED NUMBER HERE -->
                     <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:-top-14 select-none">02</span>
-                    <h3 class="text-3xl font-extrabold mb-4 relative z-10">We Raid Your Content</h3>
+                    <h3 class="text-3xl font-extrabold mb-4 relative z-10">We Pull the Pieces Together</h3>
                     <p class="text-lg text-gray-600 mb-4">
-                        We grab photos and content from your Facebook, Instagram, and Google Reviews.
+                        We gather what we need from your existing footprint: photos, reviews, logos, socials, business details. If you've got a logo or a few favourite photos you want included &mdash; sweet, send them. If not, we'll work with what's already there and make it look intentional.
                     </p>
                 </div>
             </div>
@@ -94,21 +109,27 @@ import HowToSchema from '../components/HowToSchema.astro';
                     <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">03</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">The Factory Build</h3>
                     <p class="text-lg text-gray-600 mb-4">
-                        Days 1-4. We build. Under 1 second load time. Mobile-first. SEO-ready.
+                        We build your full website &mdash; structure, design, copy, mobile layout, SEO basics &mdash; the whole lot. Fast load times. Clean design. Easy for customers to call, enquire, or book.
                     </p>
                     <div class="mt-6 bg-gray-50 border border-gray-200 p-4 text-left text-sm text-gray-700">
-                        <strong class="text-carbon block mb-2">Google Maps Listing Setup & Optimization Included</strong>
-                        <p>By the time your site goes live, you're ready to be found on Google Maps.</p>
+                        <strong class="text-carbon block mb-2">Google Maps Setup Included (Launch + Growth)</strong>
+                        <p>We set up or optimise your Google Maps listing and connect it properly to your site &mdash; so you're ready to be found.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-6">
+                        <span class="inline-block py-1 px-3 rounded-full bg-signal/10 text-signal font-bold text-xs tracking-wide uppercase font-mono">Under 1 second load</span>
+                        <span class="inline-block py-1 px-3 rounded-full bg-frangipani/20 text-carbon font-bold text-xs tracking-wide uppercase font-mono">Mobile first</span>
+                        <span class="inline-block py-1 px-3 rounded-full bg-hibiscus/10 text-hibiscus font-bold text-xs tracking-wide uppercase font-mono">SEO & AEO ready</span>
+                        <span class="inline-block py-1 px-3 rounded-full bg-deepGreen/10 text-deepGreen font-bold text-xs tracking-wide uppercase font-mono">Google Maps ready</span>
                     </div>
                 </div>
-                
+
                 <!-- Center Dot -->
                 <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-frangipani rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3">
                      <div class="border border-carbon p-6 bg-paper shadow-hard-sm">
                         <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-frangipani">Action</strong>
-                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">We Build</p>
+                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">Days 1&ndash;4: We Build</p>
                         <p class="text-sm text-gray-600 mt-2">You run your business.</p>
                     </div>
                 </div>
@@ -119,12 +140,11 @@ import HowToSchema from '../components/HowToSchema.astro';
                 <div class="pl-16 md:pl-0 md:text-right md:pr-16 order-1 md:order-3">
                      <div class="border border-carbon p-6 bg-paper shadow-hard-sm">
                         <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-hibiscus">Decision</strong>
-                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">Love/Hate</p>
-                        <p class="text-sm text-gray-600 mt-2">Hate it? Full refund.</p>
-                        <p class="text-xs text-gray-400 mt-1">(Minus ~3% processing + domain costs)</p>
+                        <p class="text-4xl font-extrabold tracking-tighter text-carbon">Love It / Tweak It / Refund It</p>
+                        <p class="text-sm text-gray-600 mt-2">Refund if you hate it.</p>
                     </div>
                 </div>
-                
+
                 <!-- Center Dot -->
                 <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-hibiscus rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
@@ -133,10 +153,9 @@ import HowToSchema from '../components/HowToSchema.astro';
                     <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:-top-14 select-none">04</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">The Preview (Day 5)</h3>
                     <p class="text-lg text-gray-600 mb-4">
-                        We send you a private link.
+                        On Day 5, we send you a private preview link. Want changes? We sort them quickly. Don't love it? You can request a full refund of your setup fee before go-live.
                     </p>
-                    <p class="mb-2 text-gray-700">Changes? 24 hours. Don't love it? Full refund.</p>
-                    <p class="text-sm text-gray-500">(Your setup fee back, minus ~3% processing + any domain costs)</p>
+                    <p class="text-sm text-gray-500">(Minus ~3% processing + any domain costs.)</p>
                 </div>
             </div>
 
@@ -147,15 +166,15 @@ import HowToSchema from '../components/HowToSchema.astro';
                     <span class="font-mono text-6xl font-bold text-gray-200 absolute -top-10 left-12 md:left-auto md:right-12 md:-top-14 select-none">05</span>
                     <h3 class="text-3xl font-extrabold mb-4 relative z-10">You Go Live</h3>
                     <p class="text-lg text-gray-600 mb-4">
-                        We flip the switch. We become the caretakers.
+                        We flip the switch. Your site goes live. And here's the part most designers don't do: <strong class="text-carbon">We stay.</strong>
                     </p>
                 </div>
-                
+
                 <!-- Center Dot -->
                 <div class="absolute left-4 md:left-1/2 w-4 h-4 bg-deepGreen rounded-full border-4 border-white ring-4 ring-paper transform -translate-x-1/2 z-10 mt-1.5 md:mt-0 order-2"></div>
 
                 <div class="pl-16 md:pl-16 order-3">
-                    <a href="/contact" class="inline-block bg-deepGreen text-white px-8 py-4 border border-carbon shadow-hard hover:translate-y-0.5 hover:shadow-none transition-all font-bold uppercase tracking-wider">
+                    <a href="/pricing" class="inline-block bg-deepGreen text-white px-8 py-4 border border-carbon shadow-hard hover:translate-y-0.5 hover:shadow-none transition-all font-bold uppercase tracking-wider">
                         Start Your Build
                     </a>
                 </div>
@@ -165,36 +184,104 @@ import HowToSchema from '../components/HowToSchema.astro';
       </div>
     </section>
 
-    <!-- AFTER GO LIVE: THE CARETAKER RELATIONSHIP -->
+    <!-- WHAT WE NEED -->
     <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 text-center">
+            What We Need From You <span class="text-signal">(and what we don't)</span>
+          </h2>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- What we need -->
+            <div class="border border-carbon p-8 bg-paper shadow-hard-sm">
+              <h3 class="text-xl font-extrabold mb-6 text-carbon uppercase tracking-wider">What we need</h3>
+              <ul class="space-y-4">
+                <li class="flex items-start gap-3">
+                  <span class="text-signal font-bold text-lg leading-tight mt-0.5">&#10003;</span>
+                  <span class="text-gray-700 text-lg">A 15-minute phone chat</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-signal font-bold text-lg leading-tight mt-0.5">&#10003;</span>
+                  <span class="text-gray-700 text-lg">Business name + contact details</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-signal font-bold text-lg leading-tight mt-0.5">&#10003;</span>
+                  <span class="text-gray-700 text-lg">Service area (where you want to be found)</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-signal font-bold text-lg leading-tight mt-0.5">&#10003;</span>
+                  <span class="text-gray-700 text-lg">Any logo/photos you want included (optional)</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- What we don't need -->
+            <div class="border border-carbon p-8 bg-paper shadow-hard-sm">
+              <h3 class="text-xl font-extrabold mb-6 text-carbon uppercase tracking-wider">What we don't need</h3>
+              <ul class="space-y-4">
+                <li class="flex items-start gap-3">
+                  <span class="text-hibiscus font-bold text-lg leading-tight mt-0.5">&#10007;</span>
+                  <span class="text-gray-700 text-lg">You writing website copy</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-hibiscus font-bold text-lg leading-tight mt-0.5">&#10007;</span>
+                  <span class="text-gray-700 text-lg">You learning Wix/Squarespace</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-hibiscus font-bold text-lg leading-tight mt-0.5">&#10007;</span>
+                  <span class="text-gray-700 text-lg">Weekly meetings</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-hibiscus font-bold text-lg leading-tight mt-0.5">&#10007;</span>
+                  <span class="text-gray-700 text-lg">A "website project" dragging on for months</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-12 bg-carbon text-white p-8 text-center">
+            <p class="text-2xl font-bold">You run the business. We handle the website.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AFTER GO LIVE: THE CARETAKER RELATIONSHIP -->
+    <section class="py-24 bg-paper border-b border-carbon">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto">
           <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6 text-center">
             After Go Live: <span class="text-signal">The Caretaker Relationship</span>
           </h2>
           <p class="text-xl text-gray-600 text-center mb-12 leading-relaxed">
-            Most web designers ghost you after launch. We stick around.
+            Most web designers ghost you after launch. We don't. You get ongoing hosting, security, fixes, and updates &mdash; and a full design refresh every year so your site doesn't rot.
           </p>
 
           <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-paper border-l-4 border-signal p-8">
+            <div class="bg-white border-l-4 border-signal p-8">
               <h3 class="font-bold text-lg mb-4 text-carbon">Phone number changed?</h3>
               <p class="text-gray-700">Text us.</p>
             </div>
 
-            <div class="bg-paper border-l-4 border-hibiscus p-8">
-              <h3 class="font-bold text-lg mb-4 text-carbon">Photo from a job?</h3>
+            <div class="bg-white border-l-4 border-frangipani p-8">
+              <h3 class="font-bold text-lg mb-4 text-carbon">New service?</h3>
               <p class="text-gray-700">Text us.</p>
             </div>
 
-            <div class="bg-paper border-l-4 border-frangipani p-8">
+            <div class="bg-white border-l-4 border-hibiscus p-8">
+              <h3 class="font-bold text-lg mb-4 text-carbon">New photos from a job?</h3>
+              <p class="text-gray-700">Text us.</p>
+            </div>
+
+            <div class="bg-white border-l-4 border-carbon p-8">
               <h3 class="font-bold text-lg mb-4 text-carbon">Something breaks?</h3>
               <p class="text-gray-700">We fix it.</p>
             </div>
 
-            <div class="bg-paper border-l-4 border-deepGreen p-8">
+            <div class="bg-white border-l-4 border-deepGreen p-8 md:col-span-2">
               <h3 class="font-bold text-lg mb-4 text-carbon">Refresh due?</h3>
-              <p class="text-gray-700">Free.</p>
+              <p class="text-gray-700">Included.</p>
             </div>
           </div>
 
@@ -212,12 +299,12 @@ import HowToSchema from '../components/HowToSchema.astro';
             <h2 class="text-3xl font-extrabold mb-12 text-center">What They Say About The Process</h2>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-paper text-carbon p-8 border border-white shadow-[8px_8px_0px_0px_#2563EB]">
-                    <p class="text-lg leading-relaxed mb-6">"Stress free, quick, foolproof and fun. Busy people need to know how easy this is."</p>
-                    <p class="font-bold font-mono text-signal uppercase tracking-wider">— Katie, Rumours on Rust</p>
+                    <p class="text-lg leading-relaxed mb-6">"Creating a website wasn't something I was looking forward to &mdash; but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."</p>
+                    <p class="font-bold font-mono text-signal uppercase tracking-wider">&mdash; Brad, Earthworks Company</p>
                 </div>
                 <div class="bg-paper text-carbon p-8 border border-white shadow-[8px_8px_0px_0px_#F2547D]">
-                    <p class="text-lg leading-relaxed mb-6">"You took away my barrier to market. You helped me fulfill a dream."</p>
-                    <p class="font-bold font-mono text-hibiscus uppercase tracking-wider">— Nicolette, Ember & Ice</p>
+                    <p class="text-lg leading-relaxed mb-6">"The AI agent was a breeze &mdash; stress-free, quick, foolproof and fun. Other busy people need to know how easy setting this up can be."</p>
+                    <p class="font-bold font-mono text-hibiscus uppercase tracking-wider">&mdash; Katie, Rumours On Rust</p>
                 </div>
             </div>
         </div>
@@ -226,11 +313,16 @@ import HowToSchema from '../components/HowToSchema.astro';
     <!-- CTA -->
     <section class="py-32 bg-white text-center">
         <div class="max-w-3xl mx-auto px-4">
-            <h2 class="text-5xl font-extrabold tracking-tighter mb-8 text-carbon">Ready to Start?</h2>
-            <p class="text-xl text-gray-500 mb-10">Live in 5 days.</p>
-            <a href="/contact" class="inline-block bg-carbon text-white px-12 py-5 border border-carbon hover:bg-signal transition-colors font-bold uppercase tracking-widest text-lg shadow-hard">
-                Start Your Build
-            </a>
+            <h2 class="text-5xl font-extrabold tracking-tighter mb-8 text-carbon">Ready to Get Sorted?</h2>
+            <p class="text-xl text-gray-500 mb-10">Live in 5 days. No homework.</p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="/pricing" class="inline-block bg-carbon text-white px-12 py-5 border border-carbon hover:bg-signal transition-colors font-bold uppercase tracking-widest text-lg shadow-hard">
+                    Start Your Build
+                </a>
+                <a href="/pricing" class="inline-block bg-white text-carbon px-12 py-5 border border-carbon hover:bg-gray-50 transition-colors font-bold uppercase tracking-widest text-lg">
+                    View Pricing
+                </a>
+            </div>
         </div>
     </section>
 

@@ -1,7 +1,31 @@
 # YourHQ Website Copy - Complete Proofreading Document
 
-**Last Updated:** January 23, 2026
+**Last Updated:** February 14, 2026
 **Purpose:** Comprehensive text copy for proofreading across all website pages
+
+---
+
+## NAVIGATION (Navbar.jsx)
+
+### Desktop Menu Links
+- How It Works
+- Pricing
+- Portfolio
+- Blog
+- Our Story
+
+### CTA Button
+START BUILD
+
+### Mobile Menu Links
+- How It Works
+- Pricing
+- Portfolio
+- Blog
+- Our Story
+- Start Your Build (CTA)
+
+---
 
 ---
 
@@ -14,19 +38,17 @@ Founding Member Offer (Ends March 31, 2026): $497.50 Setup (50% Off) + $149/mo L
 Based in Whangārei — Servicing NZ-Wide
 
 ### Hero Headline
-Stop Renting.
-Start Owning.
+Your Business Deserves
+to Be Seen. Properly.
 
 ### Hero H2 (SEO)
-Fast, done-for-you websites for NZ tradies, salons and consultants.
+Not just on Instagram. Not just when the algorithm feels generous.
+On Google. On Maps. On the screen right before someone decides who to call.
 
-### Hero Subheadline
-You built your business with your own hands.
+### Hero Subhead Grid (Left)
+Fast, done-for-you websites for Kiwi tradies, salons and consultants — live in 5 days, and kept sorted.
 
-**So why are you paying rent to Instagram?**
-
-### Hero Description
-Websites for Kiwi businesses. Built in 5 days. Managed forever.
+No homework. No tech jargon. Just a 15-minute chat and we handle the rest.
 
 ### Hero CTAs
 - Start Your Build
@@ -34,46 +56,78 @@ Websites for Kiwi businesses. Built in 5 days. Managed forever.
 
 ---
 
-## SECTION: The Truth
+## SECTION: The Truth (You're Brilliant)
 
 ### Headline
-You're Building Your
-Castle on Rented Land.
+You're Brilliant at What You Do.
+But Online? It's Messy.
 
 ### Body Copy
-Here's what nobody tells you:
+You can be the best in town — years of experience, great word-of-mouth, solid reviews.
 
-- If Instagram changes the algorithm tomorrow, does your business disappear?
-- If your Facebook account gets hacked, do you lose all your customers?
-- If Google shuts down your Business Profile, can anyone find you?
+But when someone goes to check you out, they hit one of these:
 
-You have 8,000 Instagram followers. But you can't export them. They're not YOUR followers—they're Instagram's users who happen to follow you.
+- No website (so they move on)
+- Something old and broken
+- A Facebook page that hasn't been updated in years
+- An Instagram that looks good… but doesn't help them take the next step
+
+And here's the part that stings:
+
+**Your work is premium. Your online presence looks optional.**
 
 ### Callout Box
-**Right now, you're a Digital Tenant.**
+**This is the "Google Test."**
 
-The landlord sets the rules. The landlord can evict you whenever they want.
+When someone's choosing between you and a competitor, they Google both names. One of you looks established. One of you looks like a risk.
 
-**It's time to become an Owner.**
+### Closing
+And it's not because you're not good.
+It's because you're busy — and the website thing is a pain.
 
 ---
 
 ## SECTION: Digital Handshake
 
 ### Headline
-Your Handshake Is Firm.
-Your Work Is Solid.
-But Your Website?
+In Person, You're Solid.
+Online… It Should Match.
 
 ### Body Copy
-In person, you're the real deal. Reputation. Years of hard-earned trust.
+People don't hire you from your website.
+They hire you from *what they feel* after checking you out.
 
-But then someone Googles you... and finds a broken website from 2012. Or nothing at all.
+In real life, you're the real deal — reputation, experience, trust.
 
-Your website is your Digital Handshake.
+But online? If it looks messy or outdated, people hesitate.
+
+### Key Statement
+**Your website is your digital handshake.**
+It should feel firm. Clean. Professional. Like you've got your act together.
 
 ### Footer Note
-// First impressions still matter.
+// First impressions still matter — especially when money's on the line.
+
+---
+
+## SECTION: Rented Land
+
+### Headline
+Plus, You Don't Even Own It.
+
+### Body Copy
+Instagram and Facebook are great tools — but they're not home.
+
+If the algorithm changes, your reach drops.
+If your account gets hacked, your whole presence can disappear.
+And you can't export your followers like they're yours — because they're not.
+
+### Callout Box
+**Right now, most business owners are Digital Tenants.**
+
+The landlord sets the rules. The landlord can change them anytime.
+
+**A website is how you become an Owner.**
 
 ---
 
@@ -82,14 +136,17 @@ Your website is your Digital Handshake.
 ### Section Title
 Who We Built This For
 
+### Section Subtitle
+If you're good at what you do but sick of the online side feeling messy — you're our people.
+
 ### Card 1: The Tradies
 **Category:** Electricians / Plumbers / Builders
 
 **The Pain:**
-You're flat out on the tools. You hate admin. Wix isn't happening.
+You're flat out. You don't want another admin job. And you're not spending 40 hours "learning Wix."
 
 **The Fix:**
-A site that gets you found locally. Phone starts ringing. No homework required.
+A site that gets you found locally, looks legit, and makes it dead-easy for people to call or request a quote.
 
 **Link:** Learn More for Tradies →
 
@@ -97,19 +154,22 @@ A site that gets you found locally. Phone starts ringing. No homework required.
 **Category:** Salons / Tattoo / Artists
 
 **The Pain:**
-You've built a beautiful Instagram. But you need bookings.
+Your Instagram looks beautiful… but it doesn't run your bookings. And it doesn't help new clients trust you fast.
 
 **The Fix:**
-A portfolio site you actually own. Platform-proof.
+A portfolio + booking-ready website you actually own — so clients can browse, trust, and book without back-and-forth DMs.
 
 ### Card 3: The Professionals
 **Category:** Consultants / Legal / Coaches
 
 **The Pain:**
-You need to pass the "Google Test" to win contracts. Clients are choosing competitors who look more established.
+You can do the work — but you need to *look established* to win contracts. Right now, you're losing to people who simply appear more credible online.
 
 **The Fix:**
-A corporate-grade website that builds authority and makes you look like the expert you actually are.
+A corporate-grade site that passes the Google Test, builds authority, and makes it obvious you're the safe choice.
+
+### Closing Line
+No matter what kind of business you run, the goal is the same: **get you online properly — without adding more work to your plate.**
 
 ---
 
@@ -119,14 +179,27 @@ A corporate-grade website that builds authority and makes you look like the expe
 Live in 5 Days.
 No Homework.
 No Jargon.
+Just Sorted.
+
+### Section Subtitle
+You don't need to write copy, chase designers, or learn a platform.
+You talk for 15 minutes — we build your digital HQ.
 
 ### Step 01: The Drive-Home Interview (15 Minutes)
-Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
+**You Talk. We Listen.**
+Call us for a quick chat while you're driving home (or between jobs). It's hands-free, records automatically, and captures everything we need.
 
 **Badge:** NO TYPING REQUIRED
 
-### Step 02: The Factory Build
-We build it in 5 days. Loads in under 1 second. Ranks high. Stays secure. We set up your Google Maps listing so people actually find you.
+### Step 02: We Pull the Pieces Together (0 Minutes from you)
+**We Do the Digging.**
+We pull what we need from your existing footprint — photos, reviews, logos, socials — so you don't have to hunt through your camera roll at midnight.
+
+**Badge:** ZERO HOMEWORK
+
+### Step 03: The Factory Build (5 Days)
+**We Build the Whole Thing. Fast.**
+Days 1–4: we build your site — structure, copy, design, mobile, SEO basics — the whole lot.
 
 **Badges:**
 - UNDER 1 SECOND LOAD
@@ -134,27 +207,48 @@ We build it in 5 days. Loads in under 1 second. Ranks high. Stays secure. We set
 - SEO & AEO READY
 - GOOGLE MAPS READY
 
-### Step 03: The Caretakers
-We hand you the keys, but we stay on as caretakers. Hosting, security, updates — sorted. Plus a full design refresh every year.
+### Step 04: Preview on Day 5 (Love It / Fix It / Refund It)
+**You See It Before It Goes Live.**
+We send you a private preview link. Want tweaks? We sort them quickly. Don't love it? Full refund of your setup fee (minus ~3% processing + any domain costs).
+
+**Badge:** LOVE YOUR LAUNCH GUARANTEE
+
+### Step 05: The Caretakers (Ongoing)
+**You Don't Get Ghosted.**
+Hosting, security, updates, fixes — and a full design refresh every year so your site doesn't rot.
+
+Phone number changed? Text us.
+New service? Text us.
+Fresh job photos? Text us.
+
+**You focus on your business. We keep the digital HQ running.**
 
 ---
 
 ## SECTION: Testimonials
 
 ### Section Title
-Real People. Real Results.
+Real People. Real Relief.
+
+### Section Subtitle
+Busy owners, fast builds, zero drama — here's what it's like working with YourHQ.
 
 ### Testimonial 1
-"Building a website was my barrier to market—I didn't have the skills. You helped me fulfill a dream. You made this come true."
+"Creating a website wasn't something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
 
-**— Nicolette, Ember & Ice**
-WELLNESS STUDIO
+**— Brad, Earthworks Company**
 
 ### Testimonial 2
-"I'm definitely not up to speed on tech stuff. While I was still figuring out Google Drive, Lian had already built the whole thing from our Facebook. My mates reckon it's banging!"
+"While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready. My mates reckon it's banging."
 
 **— Reuben, Johnson & Sons**
 COMMERCIAL BUILDER
+
+### Testimonial 3
+"The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can't believe how good it is."
+
+**— Katie, Rumours On Rust**
+CAFE • WHANGĀREI
 
 ---
 
@@ -261,20 +355,20 @@ Common Questions
 ### FAQ 1: How much does a small business website cost in NZ?
 Professional websites in NZ typically cost $2,000–$5,000 upfront with agencies, plus ongoing fees. YourHQ's Launch package is $995 + GST setup / $149 + GST/month — includes unlimited updates and annual design refresh. Starter starts at $695 + GST setup.
 
-### FAQ 2: How quickly can my tradie website go live?
-5 business days once we have everything we need. One 15-minute phone interview, plus any photos or logos you want included. No meetings, no homework.
+### FAQ 2: How quickly can my website go live?
+5 business days once we have everything we need. One 15-minute phone chat, plus any photos or logos you want included. No meetings, no homework.
 
 ### FAQ 3: Do you build websites outside Auckland?
 Yes. Based in Whangārei, servicing all of NZ. All communication via text and phone.
 
 ### FAQ 4: What makes YourHQ different from Wix or Squarespace?
-With Wix or Squarespace, you do all the work yourself—40+ hours of building, learning, and troubleshooting. With YourHQ, we do everything for you in 5 days using faster, more secure technology. Plus, you get unlimited updates and annual refreshes included, not extra charges.
+With Wix or Squarespace, you do all the work yourself — 40+ hours of building, learning, and troubleshooting. With YourHQ, we do everything for you in 5 days. Plus you get unlimited updates and annual refreshes included.
 
 ### FAQ 5: Will my website help me rank on Google and voice search?
 Yes. Fast load times, mobile-first design, local business schema. You show up when people search "electrician near me."
 
 ### FAQ 6: Do you set up Google Maps for me?
-Yes. We claim your listing, write your description, upload photos, and connect it to your website. If you already have a listing, we'll give you recommendations on how to optimise it.
+Yes. We claim your listing, write your description, upload photos, and connect it to your website. If you already have a listing, we'll give recommendations on how to optimise it.
 
 ---
 
@@ -284,17 +378,18 @@ Yes. We claim your listing, write your description, upload photos, and connect i
 Real Talk
 The questions you're actually thinking
 
-### Real Talk 1: "My nephew can build me a website for free"
+### Real Talk 1: "My nephew can build me a website for free."
 Will he be around when it breaks at 11pm? Will he refresh it in 3 years? If it doesn't work out, give us a call.
 
-### Real Talk 2: "I've been burned by web designers before"
-'Love Your Launch' guarantee: Preview on Day 5. Don't love it? Full refund. (Your setup fee back, minus ~3% processing + any domain costs)
+### Real Talk 2: "I've been burned by web designers before."
+'Love Your Launch' guarantee: Preview on Day 5. Don't love it? Full refund.
+*(Your setup fee back, minus ~3% processing + any domain costs.)*
 
-### Real Talk 3: "I don't have time for this right now"
+### Real Talk 3: "I don't have time for this right now."
 Total time from you: one 15-minute phone call. We grab everything else from your socials.
 
 ### Real Talk 4: "It seems too cheap. What's the catch?"
-We use a productised model—same site type, same process, every time. Some agencies charge $10-15k for bespoke work. We've streamlined it.
+We use a productised model — same site type, same process, every time. Some agencies charge $10–15k for bespoke work. We've streamlined it.
 
 ---
 
@@ -325,7 +420,7 @@ Transparent Pricing.
 
 Most agencies charge $8k+ upfront. We start at **$695 + GST.**
 
-**Monthly fees are tax deductible.**
+**Monthly fees are typically tax deductible (check with your accountant)**
 
 ---
 
@@ -338,15 +433,15 @@ Most agencies charge $8k+ upfront. We start at **$695 + GST.**
 Founding Member Offer (Ends March 31, 2026)
 
 ### Body Copy
-Launch Package: $497.50 setup (50% off) + $149/mo locked for life. As we add features, the price for new members will go up. Yours never moves.
+Get the Launch package for $497.50 + GST setup (50% off) and $149 + GST/month locked for life. As we add features, the price for new members will go up. Yours never moves.
 
 ### Scarcity Box
 **26 Spots Only | Use Code: FOUNDING26**
-We limit this to 26 spots so we can over-deliver for our first group. Offer ends March 31, 2026.
+We cap this so we can over-deliver for our first group. Offer ends March 31, 2026.
 
 ### Price Comparison
-~~$995~~ Standard Setup
-→ **$497 + GST** Founding Rate
+~~$995 + GST~~ Standard Setup
+→ **$497.50 + GST** Founding Rate
 
 ### Coupon Code Box
 **Tap to copy code**
@@ -354,7 +449,8 @@ FOUNDING26
 
 **CTA:** Claim Your Spot
 
-**Footer:** "Love Your Launch" Guarantee: Full refund if you don't love the preview. (Minus ~3% processing + any domain costs)
+**Footer:** "Love Your Launch" Guarantee: Full refund if you don't love the preview.
+(Minus ~3% processing + any domain costs.)
 
 ---
 
@@ -368,11 +464,11 @@ FOUNDING26
 
 **Includes:**
 - 5-Page Professional Website
-- Drive-Home Voice Interview
-- Domain & High-Speed Hosting
+- Drive-Home Interview (15 mins)
+- Domain + High-Speed Hosting
 - Unlimited Text/Photo Updates
-- **Annual Design Refresh**
-- **Google Maps Listing Setup & Optimization**
+- **Annual Design Refresh (Included)**
+- **Google Maps Listing Setup & Optimisation**
 
 **CTA:** Start Launch Build
 
@@ -394,15 +490,12 @@ FOUNDING26
 
 **CTA:** Start Growth Build
 
-### Priority Support Add-On
-**Need faster turnarounds?**
-
-Add **Priority Support (+$50/mo)**: 24h turnaround on most updates.
-
 ### Package 3: The Starter
 **Badge:** Entry Level
 
-Just need a digital business card? One page. Google-ready. No updates included.
+Just need a digital business card? One page. Google-ready.
+
+Starter doesn't include ongoing updates. (Updates are pay-as-you-go at $145/hr + GST.)
 
 **Setup:** $695 + GST Setup
 **Monthly:** + $49/mo
@@ -416,27 +509,41 @@ Just need a digital business card? One page. Google-ready. No updates included.
 ### Headline
 What Your Monthly Fee Actually Covers
 
+### Sub-headline
+**You're Not Paying For "Hosting."**
+You're paying for never dealing with the website problem again.
+
 ### Reason 1: Your Next Website Is Already Paid For
-Most businesses pay $5,000 every 3 years to rebuild. With YourHQ, your **Annual Design Refresh** is included. Fresh website every year. No surprise invoice.
+Most websites rot after a few years. Then you pay again. With YourHQ, your **annual design refresh is included** — new layout, new fonts, new vibe — no rebuild invoice.
 
-### Reason 2: Monthly Fees Are Tax Deductible
-Your monthly subscription ($149–$249/mo) is a fully deductible business expense. Talk to your accountant about claiming it as a regular operating cost—just like your internet or phone bill.
+### Reason 2: Unlimited Updates (Launch + Growth)
+Phone number change? Text us. New service? Text us. Fresh photos? Text us.
 
-**Note:** The upfront setup fee may have limited deductibility. Monthly fees? Fully deductible as ongoing business expenses.
+**Included:**
+- ✓ Text changes (hours, pricing, services, descriptions)
+- ✓ Photo swaps (gallery updates anytime)
+- ✓ Content edits (keep it current)
 
-### Reason 3: We Keep the Lights On
+**Not Included:**
+- New pages
+- New integrations
+- Major scope changes
+
+*Quoted separately so it stays fair.*
+
+### Reason 3: The Infrastructure + Humans
 
 **Infrastructure**
 - Vercel hosting
-- Daily backups
 - SSL security
+- Daily backups
 - Domain renewal
 
 **Human Support**
-- Unlimited "Text Us" updates
-- Tech fixes when things break
+- "Text us" updates
+- Fixes when something breaks
 - Real humans in Whangārei
-- Google Maps monitoring
+- Google Maps monitoring (Launch + Growth)
 
 ---
 
@@ -444,6 +551,9 @@ Your monthly subscription ($149–$249/mo) is a fully deductible business expens
 
 ### Headline
 What You're Actually Comparing
+
+### Sub-headline
+The real cost isn't dollars — it's time, stress, and what it costs you to look invisible.
 
 | | DIY (Wix) | Agency | YourHQ |
 |---|---|---|---|
@@ -453,7 +563,9 @@ What You're Actually Comparing
 | **Updates** | You do it | Pay per change | **Unlimited included** |
 | **2-Year Total** | $2,500+ (your time) | $8,000–20,000 | **$4,573 + GST** |
 
-YourHQ: Less than half agency cost, with ongoing support included.
+YourHQ: Less than half agency cost, with ongoing care included.
+
+*Time estimates vary, but most DIY sites take weeks of "after hours" and still don't feel finished.*
 
 ---
 
@@ -462,16 +574,20 @@ YourHQ: Less than half agency cost, with ongoing support included.
 ### Headline
 Why We Do Subscription
 
-### Your Website Needs:
+### Body Copy
+Websites aren't "set and forget."
+They need:
+
+- Hosting
 - Security updates
 - Performance tweaks
-- Hosting
 - Fixes when something breaks
+- Content updates as your business changes
 
 ### The Problem with Pay-Per-Fix
-Pay-per-fix means broken sites you can't afford to repair, or overpaying for simple changes.
+Pay-per-fix leads to broken sites you can't justify repairing — or overpriced invoices for small changes.
 
-**Subscription = Predictable. Fair.**
+**Subscription = predictable. Fair. Sorted.**
 
 ---
 
@@ -480,7 +596,7 @@ Pay-per-fix means broken sites you can't afford to repair, or overpaying for sim
 ### Headline
 The "Love Your Launch" Guarantee
 
-We build your site. You see the preview on Day 5.
+We send you a private preview link on Day 5.
 **Don't love it? Full refund.**
 
 Your setup fee back, minus payment processing (~3%)
@@ -499,28 +615,23 @@ Launch: $995 + GST setup / $149 + GST/month
 Growth: $1,495 + GST setup / $249 + GST/month
 
 ### FAQ 2: What's included in the monthly fee?
-Vercel hosting, SSL, daily backups, domain renewal, tech support, annual design refresh, plus **unlimited updates**:
-- ✓ Text changes (phone, hours, pricing, descriptions)
-- ✓ Photo swaps (update your gallery anytime)
-- ✓ Content edits (keep your site current)
-
-*Not included: New pages, new integrations, or major scope changes (quoted separately).*
+Hosting, backups, SSL, domain renewal, ongoing support — plus unlimited updates on Launch and Growth. You can text us changes anytime. We keep the site secure, fast, and current.
 
 ### FAQ 3: Is the monthly fee tax deductible?
-Yes—your monthly subscription is a fully tax-deductible business expense. It's claimable as a regular operating cost, just like your internet or phone bill. The upfront setup fee may have limited deductibility, but your ongoing monthly fees are fully deductible. Check with your accountant for your specific situation.
+Monthly fees are typically deductible business expenses (like internet or phone). Your setup fee may have different treatment. Check with your accountant for your situation.
 
 ### FAQ 4: Do you work with clients outside Northland?
-Yes. Based in Whangārei, servicing all of NZ. Everything happens via text, phone, and email.
+Yes. Based in Whangārei, servicing NZ-wide. Everything happens via text, phone, and email.
 
 ### FAQ 5: Can I cancel anytime?
-Yes. Month-to-month, 30 days' notice. You own your domain, content, and design from day one—we'll help you move to any provider you choose.
+Yes — month-to-month with 30 days' notice. You own your domain, content, and design from day one — we'll help you move to any provider you choose.
 
-### FAQ 6: Is this cheaper than hiring a traditional agency?
-Yes. Some agencies charge $10,000–20,000 over two years. YourHQ: $4,573 + GST for the same period, including unlimited updates and annual refreshes.
+### FAQ 6: Is this cheaper than a traditional agency?
+Usually, yes. Agencies often cost $10,000–$20,000 over two years. YourHQ is $4,573 + GST for Launch over the same period — including updates and annual refresh.
 
 ### FAQ 7: What's included in the Google Maps setup?
-**Launch & Growth:** Google Maps listing setup & optimization—we claim your listing, write description, upload photos, set service areas, and link to your website.
-**Growth only:** Review collection system to help you gather customer reviews.
+**Launch & Growth:** We claim/verify your listing (where needed), write the description, set service areas, add photos, and link it to your website.
+**Growth only:** Includes a review collection system to help you build your ratings over time.
 
 ---
 
@@ -538,13 +649,13 @@ FOR ELECTRICIANS • PLUMBERS • BUILDERS • PAINTERS
 Stop Losing Jobs to Blokes Who Just Show Up on Google.
 
 ### Hero Subhead
-You've got 4.8 stars and 15 years experience. But when customers Google "electrician near me"—they find your competitor.
+You can have 15 years' experience and a 4.8-star reputation — but when someone searches "electrician near me", Google decides who gets the call.
 
 ### Hero Body
-Professional websites for Kiwi tradies. Built in 5 days. No Wix. No homework. You talk for 15 minutes. We do everything else.
+Done-for-you websites for Kiwi tradies — built in 5 days. No Wix. No homework. One 15-minute chat. We do the rest.
 
 ### Hero CTAs
-- Get The Deal (50% Off)
+- Claim the Founding Deal (50% Off)
 - See How It Works
 
 ---
@@ -552,22 +663,20 @@ Professional websites for Kiwi tradies. Built in 5 days. No Wix. No homework. Yo
 ## SECTION: The Problem
 
 ### Headline
-You're Fully Booked.
-So Why Does It Feel Like You're Leaving Money on the Table?
+You're Flat Out on the Tools.
+So Why Does It Still Feel Like Money's Slipping Through?
 
 ### Body Copy
-- **46 people** Googled "electrician [your suburb]" this week
-- **43 of them** called your competitor
-- **You got zero**
+Here's what happens every day: Someone needs a tradie. They grab their phone and search: "[trade] + near me" or "[trade] + [suburb]".
 
-That's $5,000-$10,000 walking out the door. Every week. Because you're invisible.
+Google shows a short list. They call the one that looks legit.
+
+If your online presence is messy — or you're not showing up at all — you don't even get a chance.
 
 ### Callout Box
-**Your Facebook Page Isn't Enough**
+**Most Customers Trust a Website More Than Social Media**
 
-84% of customers trust a website MORE than social media.
-
-When someone's choosing between you and another tradie, they Google both names. One of you has a professional site. One of you doesn't.
+When someone's choosing between you and another tradie, they Google both names. One of you looks established. One of you looks like a risk.
 
 **Which one are you?**
 
@@ -576,16 +685,14 @@ When someone's choosing between you and another tradie, they Google both names. 
 ## SECTION: Old Mate Dave Test
 
 ### Headline
-Would You Hire a Tradie With No Website?
+Be Honest: Would You Hire a Tradie With No Website?
 
 ### Body Copy
-**Be honest.**
+Even if Dave recommends a plumber, you're still going to Google them first. If you find: no website, an outdated one, or a dodgy page from years ago …you hesitate.
 
-If Dave recommended a plumber, you'd still Google him first. Find a dodgy Facebook page from 2019? You'd think twice.
+Your customers are doing the same thing to you. Right now.
 
-Your customers are doing the same to you. Right now.
-
-**15 minutes on the phone. That's all it takes.**
+**Total time from you: one 15-minute phone call.**
 
 ---
 
@@ -597,21 +704,20 @@ Zero Homework.
 (Seriously.)
 
 ### Step 01: The Drive-Home Interview (15 mins)
-Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
+Call us for a quick chat while you're driving home (or between jobs). Hands-free, records automatically, captures everything we need. No forms. No typing. No meetings.
 
 **Badge:** NO WIXING REQUIRED
 
-### Step 02: We Raid Your Socials (0 mins)
-We grab photos from Facebook, reviews from Google. You don't lift a finger.
+### Step 02: We Do the Digging (0 mins)
+We pull photos, reviews, logos, and details from your socials and Google — so you don't have to chase files.
 
 **Badge:** WE DO THE DIGGING
 
 ### Step 03: The Factory Build (5 Days)
-Loads in under 1 second. Shows up on Google. You keep doing jobs. We build your site.
+We build your site — structure, copy, design, mobile, SEO basics — the whole lot. Fast-loading. Modern. Built to convert.
 
-### Step 04: You Go Live
-We send you a link on Day 5. Love it? Live. Hate it? Full refund.
-(Your setup fee back, minus ~3% processing + any domain costs)
+### Step 04: Preview on Day 5 (Love it / Fix it / Refund it)
+We send a private preview link. Want tweaks? We sort them. Don't love it? Full refund of your setup fee (minus ~3% processing + any domain costs).
 
 ---
 
@@ -620,69 +726,72 @@ We send you a link on Day 5. Love it? Live. Hate it? Full refund.
 ### Headline
 The Math That Matters
 
-### Body Copy (Softened)
-- Average tradie job: **$2,500**
-- Even ONE extra job per month: **$30,000/yr**
-- YourHQ cost: **$995 setup + $1,788/yr**
+### Body Copy
+You don't need 100 new leads. You need the right people to find you — and trust you — when they're ready to spend.
 
-**Payback: Your first job covers the entire first year.**
+- Average job value (varies, but often): **$1,000–$5,000**
+- Even one extra job a month: **$12k–$60k/yr**
+- YourHQ cost (Launch): **$995 setup + $149/mo**
 
-We can't guarantee you'll rank #1 tomorrow—that depends on your location and competition. But every tradie we've built for shows up more clearly and gets more calls than before.
+**Payback: one decent job can cover the whole first year.**
 
----
-
-## SECTION: Testimonials
-
-### Section Title
-"My Mates Reckon It's Banging."
-
-### Main Testimonial
-"I'm definitely not up to speed on all this tech stuff. While I was still trying to figure out how to upload images to Google Drive, Lian had already grabbed them from our Facebook and built the whole thing. My mates reckon it's banging!"
-
-**— Reuben, Johnson & Sons**
-COMMERCIAL BUILDER
-
-**Badges:**
-✓ Built in 3 Days
-✓ Zero Homework
-
----
-
-## SECTION: Why We Exist
-
-### Headline
-Based in Whangārei. For Tradies Who Don't Have Time for This Stuff.
-
-Half of NZ small businesses don't have a website. Not because they're lazy—because they're busy.
-
-Two people. Whangārei-based. We believe tradies deserve to show up on Google without 40 hours on Wix or $15K on an agency.
+We can't promise you'll rank #1 overnight — it depends on your area and competition. But we build sites that load fast, look legit, and help you show up more clearly on Google.
 
 ---
 
 ## SECTION: Get Found on Google Maps
 
 ### Headline
-86% of Kiwis Use Google Maps to Find Tradies.
+Most Tradie Work Starts on Google Maps.
 Are You Even On There?
 
 ### Body Copy
-Someone needs an electrician. They type **"electrician near me."**
-
-Google shows 3 businesses. If you're not there, you don't exist.
+Someone needs a tradie. They search **"electrician near me."** Google shows the map pack — usually 3 businesses. If you're not in that mix, you're invisible.
 
 **We put you on the map. Literally.**
 
-Your Google Maps listing gets set up, optimized, and linked to your website. Photos uploaded. Description written. Ready for reviews.
-
-So when someone in your area searches, you show up.
+We set up (or tidy up) your Google Maps listing and link it properly to your website — so when people search in your area, you show up like a real business.
 
 ### What's Included:
-✓ Claim & verify your Google Maps listing
+✓ Claim & verify your Google Maps listing (where needed)
 ✓ Write your business description
 ✓ Upload job photos
 ✓ Set your service areas
 ✓ Link to your website
-✓ Set you up to collect reviews
+✓ Basic optimisation so it actually works for you
+
+---
+
+## SECTION: Testimonials
+
+### Section Title
+Real Tradies. Real Speed.
+
+### Main Testimonial
+"While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready. My mates reckon it's banging."
+
+**— Reuben, Johnson & Sons**
+COMMERCIAL BUILDER
+
+**Badges:**
+✓ Fast Turnaround
+✓ Zero Homework
+
+### Extra Proof
+"Smooth, easy and stress-free — with a clean professional outcome."
+
+**— Brad, Earthworks Company**
+
+---
+
+## SECTION: Why We Exist
+
+### Headline
+Based in Whangārei. Built for Tradies Who Don't Have Time for This Stuff.
+
+Half of NZ small businesses still don't have a website. Not because they're lazy — because they're busy.
+
+DIY tools take weeks of after-hours stress. Agencies charge $10–15k and move slow. We built YourHQ for tradies who just want it sorted: fast build, no homework, ongoing support, and a website that doesn't rot.
 
 ---
 
@@ -692,25 +801,25 @@ So when someone in your area searches, you show up.
 Yeah, But...
 
 ### FAQ 1: "I'm already fully booked. Why do I need a website?"
-A website lets you choose better work, not just more work. Charge premium rates. Say no to nightmare customers.
+So you can choose better work — not just more work. A good site helps you look premium, attract higher-quality enquiries, and charge accordingly.
 
 ### FAQ 2: "I don't have time for this."
-Total time from you: 15-minute phone call. We do everything else.
+You don't need time. Total input from you: one 15-minute call. We handle the rest.
 
 ### FAQ 3: "My nephew can build me one for free."
-Will he be around when it breaks at 11pm? Will he refresh it in 3 years? Will he optimise it for Google?
+Will he be around when it breaks? Will he update it? Will he keep it secure and fast? Free websites often get expensive later.
 
 ### FAQ 4: "Websites are expensive."
-Some agencies charge $10-15K and disappear. We charge $995 + GST and stay. Can you afford to keep losing jobs to competitors who show up on Google?
+Some agencies charge $10–15k and disappear. We charge $995 + GST and stay on as caretakers.
 
-### FAQ 5: Will this help me show up on Google Maps?
-Yes. Most tradies start appearing in local search within 30-60 days.
+### FAQ 5: "Will this help me show up on Google Maps?"
+Yes — we set up or optimise your Google Maps listing and connect it properly to your site. Results vary by area, but most businesses start seeing improvement over time as Google re-indexes.
 
-### FAQ 6: I already have a Google listing but it's a mess. Can you fix it?
-If you've claimed it, we optimise it. If it's unclaimed, we sort it. Ready to bring in leads.
+### FAQ 6: "I already have a Google listing but it's a mess. Can you fix it?"
+Yes. If it's claimed, we optimise it. If it's unclaimed, we help get it sorted.
 
-### FAQ 7: How do I get more Google reviews?
-We set you up with a simple system. Send customers a link. They click, review, done. Reviews are the #1 factor in Google Maps rankings.
+### FAQ 7: "How do I get more Google reviews?"
+On Growth, we include a review collection system. On Launch, we'll still point you in the right direction to make it easy for customers to leave reviews.
 
 ---
 
@@ -734,13 +843,14 @@ Launch Package: $497.50 setup (50% off) + $149/mo locked for life
 
 **Includes:**
 ✓ 5-page professional website
-✓ Drive-Home Interview (no homework)
-✓ Domain & hosting included
+✓ 15-minute drive-home interview (no homework)
+✓ Domain + hosting included
 ✓ Unlimited text/photo updates
-✓ **Annual design refresh (Included)**
-✓ **Google Maps Listing Setup & Optimization**
+✓ **Annual design refresh (included)**
+✓ **Google Maps listing setup & optimisation**
 
-**Guarantee:** "Love Your Launch" Guarantee: Full refund if you don't love the preview. (Minus ~3% processing + any domain costs)
+**Guarantee:** "Love Your Launch" Guarantee: Full refund if you don't love the preview.
+(Minus ~3% processing + any domain costs.)
 
 **CTA:** Claim 50% Off Build
 
@@ -749,7 +859,7 @@ Launch Package: $497.50 setup (50% off) + $149/mo locked for life
 ## SECTION: Final CTA (Tradies Page)
 
 ### Headline
-Ready to Own Your Space?
+Ready to Get Found — and Look Legit Online?
 
 **CTA Button:** Start Your Build
 
@@ -772,52 +882,91 @@ hello@yourhq.co.nz
 How We Build Your
 Digital HQ in 5 Days.
 
-No forms to fill out. No tech jargon. No homework.
-One phone call. We handle the rest.
+No forms. No tech jargon. No homework.
+One 15-minute call — we handle the rest.
+
+---
+
+## SECTION: The Promise
+
+### Headline
+This Should Feel Like Relief.
+
+### Body Copy
+Most business owners don't need "a website project." They need the website problem *gone*. So we built a process that's fast, simple, and doesn't steal your evenings.
+
+**Your total time: 15 minutes.**
 
 ---
 
 ## SECTION: The Process (Timeline)
 
 ### Step 01: The Drive-Home Interview
-**Time Required:** 15 Mins
+**Time Required:** 15 Minutes
 
-Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk.
+Call us for a quick chat while you're driving home (or between jobs). Hands-free, records automatically, captures everything we need — your services, your story, your tone. No typing. No forms. No awkward meetings.
 
 **Badge:** No writing. No forms.
 
-### Step 02: We Raid Your Content
-**Time Required:** 0 Mins
+### Step 02: We Pull the Pieces Together
+**Time Required:** 0 Minutes
 
-We grab photos and content from your Facebook, Instagram, and Google Reviews.
+We gather what we need from your existing footprint: photos, reviews, logos, socials, business details. If you've got a logo or a few favourite photos you want included — sweet, send them. If not, we'll work with what's already there and make it look intentional.
 
-**Badge:** We do this ourselves.
+**Badge:** Zero homework.
 
 ### Step 03: The Factory Build
-**Action:** We Build
+**Action:** Days 1–4: We Build
 
-Days 1-4. We build. Under 1 second load time. Mobile-first. SEO-ready.
+We build your full website — structure, design, copy, mobile layout, SEO basics — the whole lot. Fast load times. Clean design. Easy for customers to call, enquire, or book.
 
-**Google Maps Setup Included**
-By the time your site goes live, you're ready to be found.
+**Google Maps Setup Included (Launch + Growth)**
+We set up or optimise your Google Maps listing and connect it properly to your site — so you're ready to be found.
+
+**Badges:**
+- Under 1 second load
+- Mobile first
+- SEO & AEO ready
+- Google Maps ready
 
 **Badge:** You run your business.
 
 ### Step 04: The Preview (Day 5)
-**Decision:** Love/Hate
+**Decision:** Love It / Tweak It / Refund It
 
-We send you a private link.
+On Day 5, we send you a private preview link. Want changes? We sort them quickly. Don't love it? You can request a full refund of your setup fee before go-live.
 
-Changes? 24 hours. Don't love it? Full refund.
-(Your setup fee back, minus ~3% processing + any domain costs)
+(Minus ~3% processing + any domain costs.)
 
 **Badge:** Refund if you hate it.
 
 ### Step 05: You Go Live
 
-We flip the switch. We become the caretakers.
+We flip the switch. Your site goes live. And here's the part most designers don't do: **We stay.**
 
 **CTA:** Start Your Build
+
+---
+
+## SECTION: What We Need (and what we don't)
+
+### Headline
+What We Need From You (and what we don't)
+
+### What We Need:
+- ✓ A 15-minute phone chat
+- ✓ Business name + contact details
+- ✓ Service area (where you want to be found)
+- ✓ Any logo/photos you want included (optional)
+
+### What We Don't Need:
+- ✗ You writing website copy
+- ✗ You learning Wix/Squarespace
+- ✗ Weekly meetings
+- ✗ A "website project" dragging on for months
+
+### Closing:
+**You run the business. We handle the website.**
 
 ---
 
@@ -826,13 +975,14 @@ We flip the switch. We become the caretakers.
 ### Headline
 After Go Live: The Caretaker Relationship
 
-Most web designers ghost you after launch. We stick around.
+Most web designers ghost you after launch. We don't. You get ongoing hosting, security, fixes, and updates — and a full design refresh every year so your site doesn't rot.
 
 ### Examples:
 - **Phone number changed?** Text us.
-- **Photo from a job?** Text us.
+- **New service?** Text us.
+- **New photos from a job?** Text us.
 - **Something breaks?** We fix it.
-- **Refresh due?** Free.
+- **Refresh due?** Included.
 
 ### Closing:
 **You focus on your business.**
@@ -846,54 +996,73 @@ We keep the digital HQ running.
 What They Say About The Process
 
 ### Testimonial 1
-"Stress free, quick, foolproof and fun. Busy people need to know how easy this is."
+"Creating a website wasn't something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
 
-**— Katie, Rumours on Rust**
+**— Brad, Earthworks Company**
 
 ### Testimonial 2
-"You took away my barrier to market. You helped me fulfill a dream."
+"The AI agent was a breeze — stress-free, quick, foolproof and fun. Other busy people need to know how easy setting this up can be."
 
-**— Nicolette, Ember & Ice**
+**— Katie, Rumours On Rust**
 
 ---
 
 ## SECTION: CTA
 
 ### Headline
-Ready to Start?
+Ready to Get Sorted?
 
-Live in 5 days.
+Live in 5 days. No homework.
 
-**CTA Button:** Start Your Build
+**CTA Buttons:**
+- Start Your Build
+- View Pricing
 
 ---
 
 ---
 
-## WORK PAGE (work.astro)
+## PORTFOLIO PAGE (portfolio.astro)
 
 ### Page Header
-The Work.
+The Portfolio.
 
-**Subtitle:** // Building digital infrastructure for Northland // 5 Projects Deployed
+**Subtitle:** // Built in Whangārei • Servicing NZ-wide • Fast builds, kept sorted
+
+**Sub-subtitle:** Here are a few businesses we've helped get seen properly — without the homework.
+
+---
+
+## SECTION: Quick Proof
+
+### Headline
+What these projects have in common
+
+- Built fast (days, not months)
+- Designed to pass the "Google Test"
+- Easy for customers to call, enquire, or book
+- Ongoing care included (we don't disappear)
 
 ---
 
 ## PROJECT GALLERY
 
-### Project 1: Rumours on Rust
-**Type:** Cafe & Hospitality
+### Project 1: Rumours On Rust
+**Type:** Café & Hospitality
 **Location:** Whangārei, NZ
 
-**Description:**
-Whangārei's newest little cafe with Turning Point Organic Coffee and modern tech.
+**What we solved:**
+They needed a modern, professional web presence — fast — without admin overload during launch season.
+
+**Result:**
+A sleek, interactive site that matches the vibe in-store and makes it easy for customers to find them and take action.
 
 **Quote:**
-"The AI agent was a breeze—stress-free, quick, and foolproof. Other busy people need to know how easy this is."
+"The process was stress-free, quick, foolproof and fun… The website is sleek and professional — I can't believe how good it is."
 
 **— Katie, Owner**
 
-**Badge:** FEATURE: AI_RECEPTIONIST
+**Badges:** FEATURE: AI_RECEPTIONIST / FAST BUILD / MOBILE-FIRST
 **Link:** rumours-on-rust.site
 
 ---
@@ -902,14 +1071,18 @@ Whangārei's newest little cafe with Turning Point Organic Coffee and modern tec
 **Type:** Wellness Studio
 **Location:** Northland, NZ
 
-**Description:**
-Ice bath therapy and sauna sessions for recovery and vitality.
+**What we solved:**
+They needed a clean, credible website that made the business feel established — not "just an Instagram."
+
+**Result:**
+A premium-feeling site that builds trust fast and turns curiosity into bookings/enquiries.
 
 **Quote:**
-"Building a website was my barrier to market. You helped me fulfill a dream and take that next step."
+"A website was created in no time — exceptional and exactly what we wanted. No hassle."
 
-**— Nicolette, Owner**
+**— Ross, Ember & Ice**
 
+**Badges:** PREMIUM LOOK / TRUST-BUILDER / GOOGLE-READY
 **Link:** emberandice.co.nz
 
 ---
@@ -918,46 +1091,58 @@ Ice bath therapy and sauna sessions for recovery and vitality.
 **Type:** Commercial Services
 **Location:** Northland, NZ
 
-**Description:**
-Commercial building and maintenance company serving all of Northland.
+**What we solved:**
+They needed to look legit online quickly — without getting stuck in file uploads, copy writing, or platform headaches.
+
+**Result:**
+A fast build that pulled photos from socials, presented the business professionally, and made it easy for customers to enquire.
 
 **Quote:**
-"I'm not up to speed on tech stuff and was blown away. My mates reckon the site is banging!"
+"While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready… My mates reckon it's banging."
 
 **— Reuben, Director**
 
+**Badges:** ZERO HOMEWORK / FAST TURNAROUND / TRADIE-PROOF
 **Link:** johnsonandsonsltd.site
 
 ---
 
 ### Project 4: DreamStorm
-**Type:** Creative Studio (Internal Project)
+**Type:** Creative Studio
 **Location:** Northland, NZ
 
-**Description:**
-Storytelling, design, and digital strategy for purpose-driven businesses.
+**What we solved:**
+A home for the brand story — a site that feels intentional and makes the offering clear.
+
+**Result:**
+A storytelling-led website that sets the tone and positions the studio like a real player.
 
 **Quote:**
-"I designed a website for myself and fell in love. I decided I wanted to help others build homes that represent them."
+"I designed a website for myself and fell in love… I wanted to help others build homes that represent them."
 
 **— Lian, Founder**
 
+**Badges:** STORY-LED / BRAND CLARITY / MODERN DESIGN
 **Link:** dreamstorm.org
 
 ---
 
 ### Project 5: Storysmith
-**Type:** Media Production (Family Project)
+**Type:** Media Production
 **Location:** Northland, NZ
 
-**Description:**
-Creating compelling narratives and visual content for NZ businesses.
+**What we solved:**
+A clean launchpad for a new business — something that looks professional from day one.
+
+**Result:**
+A sharp, simple site that makes it easy to understand the offer and get in touch.
 
 **Quote:**
 "My Mum built me an epic website with everything I need to start my own business. It's mean!"
 
 **— Tai, Producer**
 
+**Badges:** LAUNCH-READY / SIMPLE + CLEAN / CONTACT-FOCUSED
 **Link:** storysmith.work
 
 ---
@@ -965,9 +1150,14 @@ Creating compelling narratives and visual content for NZ businesses.
 ## SECTION: CTA
 
 ### Headline
-Ready for your build?
+Want Yours Next?
 
-**CTA Button:** Start Project →
+### Body
+If you're busy, good at what you do, and sick of the online side feeling messy — we can get you sorted. Built in 5 days. No homework. We stay on as caretakers.
+
+**CTA Buttons:**
+- Start Your Build
+- View Pricing →
 
 ---
 
@@ -976,129 +1166,153 @@ Ready for your build?
 ## OUR STORY PAGE (our-story.astro)
 
 ### Page Header
-Two Mates.
-One Mission.
+Founder-led.
+Built in Whangārei.
 
-**Subtitle:** Friends first. Business partners second. Here to help you own your digital space.
+**Subtitle:** We help Kiwi business owners own their digital space — without the homework.
 
 ---
 
-## SECTION 1: How YourHQ Started
+## SECTION 1: Why YourHQ Exists
+
+### Label
+The Problem
 
 ### Headline
-How YourHQ Started
-
-Here's a stat that stuck: only 53% of small to medium businesses in New Zealand have a website.
-
-**Half. In 2025.**
+Why YourHQ Exists
 
 ### Body Copy
-I kept thinking about it. I watched friends build up profiles on Instagram and Facebook — years of work, thousands of followers, their whole customer base — and then poof. Banned. Hacked. Algorithm changed. Everything gone.
+YourHQ exists because too many brilliant small business owners are doing everything right… except the online part.
 
-All that work. All those contacts. Just... vanished.
+Not because they don't care — because they're busy.
 
-### Quote Box
-"I'm also the kind of person who checks websites before I hire anyone. If I'm picking between two tradies and one's got a beautiful website? I go with that tradie. Every time. It's not rational — but it's real."
+And the options out there are rough:
+- DIY tools that turn into a months-long after-hours project
+- Agencies that cost a fortune, take forever, and often disappear after launch
 
-### The Mission
-When I started learning to code for my Master's, I kept coming back to this question: **How do I actually get these business owners online?** Not another DIY tool they'll never finish. A system that does the hard part for them.
+So I built a system that makes this feel like relief:
 
-### Dad's Story
-**And honestly? I think about my dad.**
-
-He ran a small business — *Maungi Tanks*. He's not with us anymore. But I imagine what it would've been like to build him a website. To see his face when he saw himself on the internet for the first time.
-
-He would have loved it. It would have made him proud.
-
-### Mission Statement Box
-**That's why YourHQ exists.**
-
-For the tradies. The salon owners. The consultants. The small business people who are brilliant at what they do — but never got around to the website part.
-
-I want to give them what I wish I could've given my dad.
+**Websites built fast. Kept sorted. Looked after long-term.**
+Built in 5 days. No homework. No tech jargon.
 
 ---
 
-## SECTION 2 & 3: Meet The Team
+## SECTION 2: The Google Test
+
+### Label
+The Truth
+
+### Headline
+The Google Test Is Real.
+
+### Body Copy
+When someone's choosing between two businesses, they Google both names.
+
+One looks established. One looks risky.
+
+It's not fair — but it's real.
+
+### Callout Box
+YourHQ exists to make sure your online presence matches the quality of your work — so you don't lose jobs to businesses that simply look bigger online.
+
+---
+
+## SECTION 3: How It Started
+
+### Label
+Origin
+
+### Headline
+How It Started
+
+### Body Copy
+I started learning to code while doing my Master's and kept coming back to one question:
+
+**How do we get busy, capable business owners online — properly — without adding more work to their plate?**
+
+Most people don't need "a website project." They need the website problem gone.
+
+So I productised the process:
+- One short phone chat
+- We pull what we need from your existing footprint
+- We build it in 5 days
+- Then we stay on as caretakers so it doesn't rot
+
+**That's the whole model.**
+
+---
+
+## SECTION 4: What We Care About
+
+### Label
+Values
+
+### Headline
+What We Care About
+
+### Body Copy
+We're not here to impress other designers. We're here to help you win.
+
+That means:
+- **No homework** — you're not writing website copy at midnight
+- **No ghosting** — we stay on after launch
+- **Ownership** — you own your domain, content, and design from day one
+- **Care** — your site stays fast, current, and looked after
+
+---
+
+## SECTION 5: Meet The Team
 
 ### Section Title
 Meet The Team
 
 ### Lian - Founder & Lead Developer
 
-15 years helping people communicate better — building learning experiences, designing systems, translating complexity into clarity.
+I own YourHQ and lead the builds — strategy, copy, design, infrastructure, performance.
 
-When I started building AI agents for my Master's, I accidentally taught myself to code. If I can build web apps... why not build websites?
-
-Taking someone's story and translating it into digital form.
+If it's on your site, I'm accountable for it.
 
 **What I bring:**
-Enterprise infrastructure. I handle the builds, the tech, the design — making sure your website sounds like you.
+A calm, capable process that turns your story into a website that feels like you — and works while you sleep.
 
 ---
 
-### Nic - Business Development Manager
+### Nic - Client Partnerships & First Contact
 
-I'm Nic — your first point of contact.
+Nic is your first point of contact — questions, pricing, bookings, and making sure the process feels simple from day one.
 
-**I didn't just join YourHQ. I used YourHQ.**
+She'll help you figure out which package fits, and she'll keep you out of the weeds.
 
-Lian asked that morning — I'd been wrestling with Wix. She asked me a few questions, went away, and built me a website that looked like my business.
-
-Building a website was my barrier to market. Blocker gone. Now I'm here to help you do the same.
-
-**What I bring:**
-I listen, understand where you're coming from, and help you figure out if this is right for you.
+**What she brings:**
+Clarity, warmth, and straight answers — without the jargon.
 
 ---
 
-## SECTION 4: Friends First. Always.
+## SECTION 6: Based in Whangārei
 
 ### Headline
-Friends First. Always.
+Based in Whangārei. Built for NZ-wide.
 
-Mates for over 12 years.
+We're based in Whangārei, and we work with businesses all over New Zealand.
 
-We've been each other's hype girls through every wild idea, every hard season.
+Because the process doesn't require meetings or travel — just a phone call and a few texts.
 
-Nic was the only person I asked.
-
-**Because we trust each other completely.**
-
-### Closing Box
-**And that's what you get when you work with us:**
-
-Two people who genuinely care. Who want to see you thrive — not just sell you something.
+**Same speed. Same care. Same outcome.**
 
 ---
 
-## SECTION 5: The Best of Both Worlds
-
-### Headline
-The Best of Both Worlds
-
-### With Lian
-Obsesses over getting your message right. Builds infrastructure that works while you sleep. Won't rest until your website sounds like you.
-
-### With Nic
-Makes you feel heard. Answers questions without jargon.
-
-### Closing
-**We're not a faceless agency.**
-
-We're two Kiwis who believe you deserve to own your digital space.
-
----
-
-## SECTION 6: CTA
+## SECTION 7: CTA
 
 ### Headline
 Ready to Meet Us?
 
-Questions? Chat with Nic.
-Ready to build? **Let's go.**
+Questions? Chat with Nic. Ready to build? **Let's get you sorted.**
 
-**CTA Button:** Let's Chat
+**CTA Buttons:**
+- Let's Chat
+- View Pricing →
+
+**Footer:** Founder-led, supported by real humans — and built to last.
 
 ---
 
@@ -1109,30 +1323,24 @@ Ready to build? **Let's go.**
 ### Page Title
 Let's Get Sorted.
 
-5 builds per week. Check availability below.
+We do 5 builds per week. If you're ready, reach out — we'll confirm the next available slot.
 
 ---
 
 ## LEFT COLUMN: Info & Status
 
 ### Current Availability
-**Week of Jan 17**
-OPEN
-
-**Week of Jan 24**
-OPEN
-
-**Week of Jan 31**
-OPEN
+Next Available Build Slots: OPEN
 
 ### Contact Info
-**Speak to One of Us at YourHQ**
+**Talk to Nic (Client Partnerships)**
+Nic is your first point of contact — questions, pricing, and booking your interview.
 
 022 172 5793
 hello@yourhq.co.nz
 
 ### Location
-Whangārei, Aotearoa New Zealand.
+Based in Whangārei, Aotearoa New Zealand.
 Working nationwide.
 
 ---
@@ -1145,7 +1353,7 @@ Get in Touch
 Have a question? Want to chat before committing? Just reach out.
 
 ### Information Box
-**What happens next:** We'll text you within 48 business hours.
+**What happens next:** Nic (or the team) will text you within 48 business hours.
 
 ### Form Labels
 - **Name**
@@ -1175,7 +1383,222 @@ We'll build your site in 5 business days.
 **CTA Button:** View Pricing & Choose Package →
 
 **Footer Note:**
-All packages include a 15-minute drive-home interview and unlimited updates
+All packages include a 15-minute drive-home interview. Launch + Growth include unlimited updates.
+
+---
+
+---
+
+## YOURHQ NETWORK PAGE (network.astro)
+
+### Page Header
+**Badge:** Partner Program
+
+Your Clients Need Websites.
+We've Got You Covered.
+
+When a client asks, *"Do you know anyone who does websites?"* — now you do.
+
+Founder-led. Built in Whangārei. Servicing NZ-wide.
+
+**CTA Buttons:**
+- Join the Network
+- How It Works
+
+---
+
+## SECTION 1: The Problem (From your side of the desk)
+
+### Headline
+The Problem
+(From your side of the desk)
+
+You see it all the time:
+
+The tradie doing great work but losing jobs because they don't show up on Google.
+
+The salon owner whose whole business lives on Instagram.
+
+The consultant who's solid — but fails the "Google Test."
+
+**They ask you for advice. You tell them they need a website. Then comes the awkward part: who do you send them to?**
+
+### Problem Cards:
+
+**Option A: Wix / DIY**
+40 hours of your client's time, frustration, and usually no finished result.
+
+**Option B: Agencies**
+Big money ($5k+) and long delays — often overkill for what they actually need.
+
+**Option C: Doing Nothing**
+Means having the exact same conversation again next quarter.
+
+### Solution Pop:
+**That's the gap the YourHQ Network fills.**
+
+---
+
+## SECTION 2: What We Do
+
+### Headline
+Websites for Small Biz.
+Fast. Zero Homework.
+
+We fix the problem without creating more work for you or your client.
+
+### Features:
+
+**Built in 5 Days**
+One short phone call. Live within a week.
+
+**No Homework**
+We interview them, pull what we need, and build it. No copywriting tasks.
+
+**Small Biz Pricing**
+Setup from **$695 + GST**. Ongoing care from **$49/mo + GST**.
+
+**The Caretaker Model**
+We don't build and disappear — we host, maintain, update, and refresh yearly so the site doesn't rot.
+
+**Simple Guarantee** (Badge: Crucial)
+If they don't like the preview, we refund them. Your reputation stays intact.
+
+---
+
+## SECTION 3: Who We Help
+
+### Good Fit Clients:
+- Tradies and service businesses
+- Salons and beauty professionals
+- Health & wellness practitioners
+- Consultants and coaches
+- Creatives needing a professional presence
+
+### Not a Fit:
+- E-commerce or online stores
+- DIYers who want to build it themselves
+- Businesses needing complex custom systems
+- People shopping for the absolute cheapest option
+
+---
+
+## SECTION 4: Why Join The Network?
+
+### Headline
+Why Join The Network?
+
+### Benefits:
+
+**You Look Good**
+Your client gets sorted quickly, properly, and without drama. That reflects well on you.
+
+**Referrals Flow Both Ways**
+We ask every new client: *"Who do you trust for accounting, finance, insurance, coaching?"* When you're the right fit, we make the intro.
+
+**Practical Tools**
+We provide co-branded resources you can actually use — guides and checklists with your logo on them. Helpful, not salesy.
+
+**Founder-led & Built to Last**
+Your clients aren't getting handed into a black hole. YourHQ is founder-led and designed for long-term care.
+
+---
+
+## SECTION 5: The Value Exchange
+
+### Headline
+The Value Exchange
+
+This is **not** a commission program.
+We don't do kickbacks. We do relationships.
+
+### You Get:
+- Warm referrals back
+- Co-branded tools
+- A reliable solution for clients
+- Confidence your client will be cared for
+
+### We Get:
+- Quality introductions to clients who actually need help
+
+**Simple. Clean. Sustainable.**
+
+---
+
+## SECTION 6: How It Works (Practically)
+
+### Headline
+How It Works (Practically)
+
+### Step 01: Join the Network
+Send us an email. We'll send you a short welcome kit and get you set up.
+
+### Step 02: Make the Intro
+When a client mentions needing a website, just say: *"I'm part of the YourHQ Network. Want me to connect you?"*
+
+### Step 03: We Take Over
+We contact them, run the call, build the site, and keep you out of the weeds completely.
+
+### Step 04: Everyone Wins
+Your client moves forward. You strengthen the relationship. We grow together.
+
+---
+
+## SECTION 7: Who We're Looking For
+
+### Headline
+Who We're Looking For
+
+- Accountants & Bookkeepers
+- Mortgage Brokers
+- Bank BDMs
+- Insurance Brokers
+- Business Coaches
+
+**Based in Whangārei / Northland, serving clients NZ-wide.**
+
+---
+
+## SECTION 8: FAQ
+
+### FAQ 1: Do I get paid for referrals?
+No. We focus on long-term value exchange, not transactional kickbacks. We reciprocate by introducing our clients to trusted professionals when it fits.
+
+### FAQ 2: What if my client has a bad experience?
+We fix it — or we refund them. Protecting your trust is non-negotiable.
+
+### FAQ 3: How do I make a referral?
+Text or email Nic after getting your client's permission. We take it from there.
+
+### FAQ 4: Do I need to commit to anything?
+No contracts. No minimums. Refer when it makes sense.
+
+### FAQ 5: Can I refer clients outside Northland?
+Yes. We work NZ-wide — fully remote process.
+
+---
+
+## SECTION 9: Join Via Email CTA
+
+### Headline
+Join the Network
+
+Send a quick email and we'll send your welcome kit and referral tools.
+
+### Email Action Box:
+**Ready to connect?**
+
+Email Nic with your name, firm, and role — we'll handle the rest.
+
+**CTA Button:** Email Nic to Join
+
+### Contact:
+**QUESTIONS?**
+
+**Nic**
+Client Partnerships
+
+nic@yourhq.co.nz | 022 172 5793
 
 ---
 
@@ -1246,207 +1669,368 @@ Nice try! But actually... yes. If you own a second business, we'll treat it as a
 
 ---
 
-## YOURHQ NETWORK PAGE (network.astro)
+## NZ WEBSITE DESIGN PAGE (nz-website-design.astro)
 
 ### Page Header
-**Badge:** Partner Program
+**Badge:** Nationwide Service
 
-Your Clients Need Websites.
-We've Got You Covered.
+Website Design NZ:
+Fast, Done-For-You Sites
 
-When a client asks, *"Do you know anyone who does websites?"* — now you do.
+### Hero H2 (SEO)
+Professional websites for New Zealand tradies, salons, and consultants. Built in 5 days. Managed forever.
 
-**CTA Buttons:**
-- Join the Network
+### Hero Body
+We build **local SEO-friendly websites for New Zealand small businesses** from Northland to Southland. Whether you're in Auckland, Wellington, Christchurch, or anywhere in between—we deliver professional websites that get you found on Google and look great on every device.
+
+### Hero CTAs
+- View Pricing
 - How It Works
 
 ---
 
-## SECTION 1: The Problem (From your side of the desk)
+## SECTION: Areas We Serve
 
 ### Headline
-The Problem
-(From your side of the desk)
+Website Design Across New Zealand
 
-You see this all the time. The tradie doing great work but losing jobs to competitors. The salon owner whose whole business lives on Instagram.
+Based in Northland, serving businesses nationwide. All communication happens via text, phone, and email—location doesn't matter.
 
-**They ask you for advice. You tell them they need a website. Then comes the awkward part.**
+### Card 1: Auckland & Northland
+**Website design for tradies in Auckland** and across the upper North Island. We serve electricians, plumbers, builders, salons, and consultants with 5-day builds and unlimited updates.
 
-### Problem Cards:
+- Auckland CBD & Suburbs
+- North Shore
+- Whangārei & Northland
+- Hamilton & Waikato
+- Tauranga & Bay of Plenty
 
-**Option A: Wix / DIY**
-Means 40 hours of your client's time, frustration, and usually no result.
+### Card 2: Wellington & Central
+**Salon website design in Wellington** and the lower North Island. Professional sites for beauty businesses, consultants, and service providers with booking system integration.
 
-**Option B: Agencies**
-Means big money ($5k+) and long delays. Often overkill for what they need.
+- Wellington City & Region
+- Palmerston North
+- Napier & Hastings
+- New Plymouth & Taranaki
+- Nelson & Marlborough
 
-**Option C: Doing Nothing**
-Means having the exact same conversation next quarter. Your client stays stuck.
+### Card 3: Christchurch & South Island
+**Professional website design in Christchurch** and throughout the South Island. Fast, mobile-first sites for trades, retail, and professional services across Canterbury, Otago, and Southland.
 
-### Solution Pop:
-**That's the gap the YourHQ Network fills.**
+- Christchurch & Canterbury
+- Dunedin & Otago
+- Queenstown & Central Otago
+- Invercargill & Southland
+- Timaru & South Canterbury
 
 ---
 
-## SECTION 2: What We Do
+## SECTION: Who We Build Websites For
+
+### Card 1: NZ Tradies
+**Website design for electricians, plumbers, and builders** across New Zealand. Get found on Google for "electrician near me" and local searches.
+
+✓ Local SEO optimization
+✓ Mobile-first design
+✓ Fast load times (<1 second)
+✓ Contact forms & phone links
+
+### Card 2: Salons & Beauty
+**Salon website design with booking systems** for hair salons, beauty therapists, and wellness studios throughout NZ.
+
+✓ Online booking integration
+✓ Instagram feed display
+✓ Price list & services
+✓ Portfolio galleries
+
+### Card 3: Professional Services
+**Corporate-grade websites for consultants, coaches, and legal professionals** who need to pass the "Google Test" to win contracts.
+
+✓ Authority-building design
+✓ Testimonials & case studies
+✓ Blog & content sections
+✓ Professional credibility
+
+---
+
+## SECTION: Why Location Doesn't Matter
 
 ### Headline
-Websites for Small Biz.
-Fast. Zero Homework.
+Why Location Doesn't Matter
 
-We fix the problem without creating more work for you or your clients.
+We're based in Northland, but we've built websites for businesses across New Zealand—from Kaitaia to Invercargill. Here's how it works:
 
-### Features:
+### The Drive-Home Interview
+Call us for a quick 15-minute chat while driving home. It's hands-free, records automatically, and captures everything we need. No in-person meeting. No travel required.
 
-**Built in 5 Days**
-One short phone call. Website live within a week. We move at the speed of business.
+### All Communication via Text
+Updates, changes, questions—everything happens via text or email. Fast, convenient, no meetings.
 
-**No Homework**
-We don't ask clients to write copy. We interview them, pull what we need, and build it.
+### Built in 5 Days
+Whether you're in Auckland or Queenstown, your site goes live in 5 business days. Same speed, same quality.
 
-**Small Biz Pricing**
-Setup from **$695**. Ongoing care from **$49/mo**. Not agency pricing. Not DIY pain.
+### Managed Forever
+Hosting, security, updates—all handled remotely. You never need to visit an office or meet in person.
 
-**The Caretaker Model**
-We don't build and disappear. We host, maintain, and update the site so it stays current.
-
-**Simple Guarantee** (Featured - Badge: Crucial)
-If they don't like the preview, we refund them. Your reputation stays intact.
+### Closing Line
+Location-independent service. Nationwide reach. Local SEO for every region.
 
 ---
 
-## SECTION 3: Who We Help
-
-### Good Fit Clients:
-- Tradies and service businesses
-- Salons and beauty professionals
-- Health & wellness practitioners
-- Consultants and coaches
-- Creatives needing professional presence
-
-### Not a Fit:
-- E-commerce or online stores
-- DIYers who want to build it themselves
-- Businesses needing complex custom systems
-- Businesses looking for the cheapest option
-
----
-
-## SECTION 4: Why Join The Network?
+## SECTION: Pricing Teaser (NZ Website Design)
 
 ### Headline
-Why Join The Network?
+Simple Pricing for NZ Businesses
 
-### Benefits:
+No lock-in contracts. Cancel anytime. You own your domain, content, and design from day one.
 
-**You Look Good**
-Your client gets sorted quickly, properly, and without drama. That reflects well on you as their advisor.
+### The Starter
+Perfect for getting found on Google
+$695 + GST + $49/mo + GST
 
-**Referrals Flow Both Ways**
-Every new client onboarding includes a simple question: *"Who do you trust for accounting, finance, or insurance?"* When your name fits, we send the introduction.
+✓ One-page website
+✓ Domain & hosting
+✓ Mobile-first design
 
-**Practical Tools**
-We provide co-branded resources you can actually use — guides and checklists with your logo on them. Helpful, not salesy.
+**CTA:** Learn More
 
-**Credible Network**
-Network members are listed on our internal directory and featured when relevant. No black holes. No random hand-offs.
+### The Launch
+**Badge:** Popular
+
+For tradies & retail
+$995 + GST + $149/mo + GST
+
+✓ 5-page professional site
+✓ Unlimited updates
+✓ Annual design refresh
+
+**CTA:** Get Started
+
+### The Growth
+For salons & consultants
+$1,495 + GST + $249/mo + GST
+
+✓ Everything in Launch
+✓ Booking system
+✓ Priority 24h support
+
+**CTA:** Learn More
 
 ---
 
-## SECTION 5: The Value Exchange
+## SECTION: FAQ (NZ Website Design)
+
+### Section Title
+Common Questions
+
+### FAQ 1: Do you only work with businesses in Northland?
+No! We're based in Northland but work with businesses across all of New Zealand—Auckland, Wellington, Christchurch, Queenstown, and everywhere in between. All communication happens via text, phone, and email, so your location doesn't matter. We optimize your site for local SEO in your specific city or region.
+
+### FAQ 2: How do you optimize for local search in my city?
+We implement local business schema markup with your specific location, optimize your content for local keywords (e.g., "electrician Wellington" or "salon Christchurch"), set up your Google Business Profile integration, and ensure fast load times for mobile users searching in your area. This helps you rank for "near me" searches and local service queries.
+
+### FAQ 3: What's the difference between YourHQ and a local web designer?
+Local designers often charge $5,000–$15,000 upfront, take 6–12 weeks to build, then disappear after launch. YourHQ delivers in 5 days for $695–$1,495 + GST, includes unlimited updates, provides ongoing support, and gives you a free design refresh every year. Plus, you can cancel anytime—no long-term contracts.
+
+### FAQ 4: Can you help with Google Business Profile setup?
+Yes! While we don't manage your Google Business Profile directly, we ensure your website is optimized to support it—consistent NAP (Name, Address, Phone) across all pages, local business schema markup, and integration with your GBP listing. This helps you rank higher in local map results.
+
+---
+
+## SECTION: CTA (NZ Website Design)
 
 ### Headline
-The Value Exchange
+Ready to Get Found on Google?
 
-This is **not** a commission program.
+Professional website design for New Zealand businesses.
+Built in 5 days. Managed forever. From $695 + GST.
 
-### You Get:
-- Warm referrals back
-- Co-branded resources
-- Visibility in our network
-- A reliable solution
-
-### We Get:
-- Quality introductions to clients who actually need help
-
-**Simple. Clean. Sustainable.**
+**CTA Button:** View Pricing & Packages
 
 ---
 
-## SECTION 6: How It Works (Practically)
+---
+
+## GUIDE PAGE (guide.astro)
+
+### Page Header
+**Badge:** Free Resource
+
+5 Signs You Need a Website
+(And You're Not Just Being Paranoid)
+
+### Hero Description
+A free guide for Kiwi business owners who suspect they're losing customers to competitors with a better online presence.
+
+### Hero CTA
+Get the Free Guide →
+
+### Hero Fine Print
+No spam. Just one helpful email. Unsubscribe anytime.
+
+---
+
+## SECTION: The Problem (Dark Background)
 
 ### Headline
-How It Works (Practically)
+Here's the truth nobody tells you:
 
-### Step 01: Join the Network
-Send us an email. We'll send you a short welcome kit and get you set up.
+### Body Copy
+You're brilliant at what you do. Your customers love you. Your reputation is solid.
 
-### Step 02: Make the Intro
-When a client mentions needing a website, just say: *"I'm part of the YourHQ Network. Want me to connect you?"*
+**But online? You might as well be invisible.**
 
-### Step 03: We Take Over
-We contact them, run the call, build the site, and keep you out of the weeds completely.
+Meanwhile, competitors with half your experience are winning jobs simply because they show up on Google and you don't.
 
-### Step 04: Everyone Wins
-Your client moves forward. You strengthen the relationship. We grow together.
+This guide will help you figure out if that's actually happening to you—and exactly what to do about it.
 
 ---
 
-## SECTION 7: Who We Are Looking For
+## SECTION: What's Inside
 
 ### Headline
-Who We Are Looking For
+Inside the guide, you'll discover:
 
-- Accountants & Bookkeepers
-- Mortgage Brokers
-- Bank BDMs
-- Insurance Brokers
-- Business Coaches
-
-**Based in Whangārei / Northland, serving clients NZ-wide.**
+- The **"Google Test"** that reveals if you're losing customers right now.
+- Why your **Facebook page** isn't the safety net you think it is.
+- The **one specific question** customers ask that should make you nervous.
+- How to spot if younger competitors are **eating your lunch**.
+- The simple math that shows what invisibility is **actually costing you**.
 
 ---
 
-## SECTION 8: FAQ
-
-### FAQ 1: Do I get paid for referrals?
-No. We focus on long-term value exchange, not transactional kickbacks. We reciprocate by sending our clients to you when they need your specific services.
-
-### FAQ 2: What if my client has a bad experience?
-We fix it — or refund them. Protecting your trust is non-negotiable. We offer a 'Love Your Launch' guarantee where if they don't like the preview, they get their money back.
-
-### FAQ 3: How do I make a referral?
-It's simple. Text or email Nic with their name and number (after getting their permission). We take it from there.
-
-### FAQ 4: Do I need to commit to anything?
-No contracts. No minimums. Just refer when it makes sense for your client.
-
-### FAQ 5: Can I refer clients outside Northland?
-Yes. While we are based in Whangārei, we work with Kiwi businesses nationwide. Our process is fully remote-capable.
-
----
-
-## SECTION 9: Join Via Email CTA
+## SECTION: Who This Is For
 
 ### Headline
-Join the Network
+This guide is for you if...
 
-Send us a quick email and we'll send you your welcome kit, resources, and everything you need to make clean introductions.
+- You've been meaning to "sort out the website thing" for months (or years).
+- You're relying on word-of-mouth but notice it's slowing down.
+- You've tried Wix or Squarespace and quit halfway through.
+- You suspect you're losing jobs but can't prove it.
+- You're tired of answering "do you have a website?" with an excuse.
 
-### Email Action Box:
-**Ready to connect?**
+---
 
-Send Nic an email with your name, firm, and role. We'll handle the rest.
+## SECTION: Form
 
-**CTA Button:** Email Nic to Join
+### Headline
+Get Your Free Copy
 
-### Contact:
-**QUESTIONS?**
+Enter your details and we'll email it to you instantly.
 
-**Nic Bates**
-Network Relationships
+### Form Labels
+- **Name**
+  Placeholder: e.g., Sarah
 
-nic@yourhq.co.nz | 022 172 5793
+- **Email**
+  Placeholder: e.g., sarah@email.com
+
+- **What kind of business do you run?**
+  Placeholder: e.g., Plumber, Salon, Physio clinic
+
+**Submit Button:** Send Me The Guide
+
+**Fine Print:** We respect your inbox. You'll get the guide + a few helpful emails. No spam, ever.
+
+---
+
+## SECTION: About (Guide Page)
+
+This guide is brought to you by **YourHQ**—we build professional websites for Kiwi businesses in 5 days, with zero homework required. But no pressure. Read the guide first, and reach out if it resonates.
+
+---
+
+---
+
+## DISCOVERY INTERVIEW PAGE (discovery-interview.astro)
+
+### Page Header
+**Badge:** Step 01: Content Gathering
+
+The Drive-Home Interview.
+
+No forms. No typing. Just talk.
+Your digital assistant is ready to take your brief.
+
+---
+
+## SECTION: Instructions
+
+### Step 1: How this works
+You are about to speak with our **YourHQ Assistant aka. Lian's Digital Voice**. This isn't a live call, but an advanced AI trained to capture your business story. It takes about 10–15 minutes.
+
+### Step 2: Before you start
+✓ Find a relatively quiet spot (or a car with the windows up).
+✓ Don't overthink it. Speak naturally, just like you're talking to a mate.
+✓ Tap the **blue button** in the bottom right corner to begin.
+
+### Privacy Notice
+**Privacy Notice:** By starting this conversation, you consent to your voice being recorded and processed by AI to generate your website content. We do not clone voices or sell data.
+
+### Help Text
+Need help? Text us at **022 172 5793**
+
+---
+
+---
+
+## PRIVACY PAGE (privacy.astro)
+
+### Page Header
+Privacy & Sovereignty
+
+We believe you should own your digital home and the data inside it. Here is how we protect that right.
+
+---
+
+## SECTION: Privacy Policy Content
+
+### Core Philosophy
+YourHQ operates under the New Zealand Privacy Act 2020. Beyond legal compliance, our core philosophy is **Data Sovereignty**: We are the caretakers of your digital assets, but you remain the owner.
+
+---
+
+### 1. Information We Collect
+To build and maintain your website, we collect:
+- **Business Identity:** Name, contact details, and business descriptions.
+- **Website Content:** Images, text, logos, and files you upload to our Shared Drive.
+- **Voice Data:** Audio recordings from your "Drive-Home Interview" with our AI agent.
+- **Technical Data:** Analytics on how your website performs (if on the Growth plan).
+
+### 2. Our Technology Stack & Data Storage
+We believe in radical transparency regarding where your data lives. We use best-in-class infrastructure to ensure speed and security.
+
+- **Supabase:** We use Supabase for our database. We implement **Row Level Security (RLS)** policies, meaning your data is cryptographically segregated. Only authorized users (you and our admins) can access your specific records.
+- **Stripe:** We use Stripe for all payments. YourHQ never sees or stores your credit card numbers. Stripe adheres to the highest level of PCI Service Provider Level 1 standards.
+- **ElevenLabs:** Used for our AI Interview Agent. Your voice data is processed solely to transcribe information for your website build. We do not use your voice to clone your identity.
+- **Vercel:** Your website files are hosted on Vercel's global edge network to ensure 99.9% uptime and lightning-fast loading speeds for your customers.
+
+### 3. Data Sovereignty (Ownership)
+This is where we differ from platforms like Facebook or Instagram:
+- **You own your content.** We claim no intellectual property rights over the text and images you provide.
+- **You own your customer list.** Any leads generated by your website belong 100% to you. We do not mine, sell, or share your customer data.
+- **Portability.** If you choose to leave YourHQ (after the minimum term), we provide you with a static export of your website files. We do not hold your digital presence hostage.
+
+### 4. How We Use Voice Data
+When you speak with our AI Agent (Penny/Lian's Digital Twin):
+- The conversation is recorded and transcribed to generate website copy.
+- These recordings are stored securely within our private logs.
+- We do not share these recordings with third parties for marketing purposes.
+
+### 5. Your Rights
+Under the NZ Privacy Act, you have the right to:
+- Ask for a copy of any personal information we hold about you.
+- Ask for it to be corrected if you think it is wrong.
+- Request that your data be deleted from our servers (subject to us needing to keep billing records for tax purposes).
+
+### Privacy Officer Contact
+**YourHQ Limited**
+Email: hello@yourhq.co.nz
+Phone: 022 172 5793
+Northland, New Zealand
+
+*Last updated: December 2025*
 
 ---
 
@@ -1496,12 +2080,27 @@ We strive for 99.9% uptime, but we are not liable for loss of business due to te
 
 ---
 
+## BLOG INDEX PAGE (blog/index.astro)
+
+### Page Header
+The News.
+
+Thoughts on owning your digital space, growing your business, and escaping the algorithm.
+
+### Article Link Text
+Read Article →
+
+---
+
+---
+
 ## FOOTER (All Pages)
 
 ### Brand
 YourHQ.
 
-Own Your Digital Space. Built in Whangārei, servicing NZ-wide.
+Founder-led websites for Kiwi small businesses.
+Built in Whangārei, servicing NZ-wide.
 
 ### Company Links
 - How It Works
@@ -1522,79 +2121,104 @@ Own Your Digital Space. Built in Whangārei, servicing NZ-wide.
 **Location:** Based in Whangārei, servicing NZ-wide
 
 ### Footer Tagline
-Infrastructure + Warmth.
+Fast builds. Long-term care.
 
 ---
 
 ---
 
-# CHANGELOG (January 23, 2026)
+# CHANGELOG (February 14, 2026)
 
-## Summary of Changes Made
+## Major Copy Rewrite (February 14, 2026)
 
-### 1. Founding Member Pricing - Standardized Format
-- Added expiry date: "Ends March 31, 2026"
-- Clarified pricing: "$497.50 setup (50% off) + $149/mo locked for life"
-- Added spot count and code: "26 spots only | Use code: FOUNDING26"
-- Updated on: Homepage, Pricing Page, Tradies Page
+### Homepage (index.astro) - Full Rewrite
+- **Hero**: Changed from "Stop Renting. Start Owning." to "Your Business Deserves to Be Seen. Properly."
+- **SEO H2**: New copy about Google, Maps, and being seen before someone decides who to call
+- **Section 1 ("The Truth")**: Rewritten from "Castle on Rented Land" to "You're Brilliant at What You Do. But Online? It's Messy." with Google Test callout
+- **Digital Handshake section**: Rewritten to "In Person, You're Solid. Online… It Should Match."
+- **New "Rented Land" section** added: "Plus, You Don't Even Own It" — about digital tenancy
+- **"Who We Built This For" cards**: Rewritten with new pain/fix copy and closing line
+- **"How It Works"**: Expanded from 3 to 5 steps — added "We Pull the Pieces Together" (Step 02) and "Preview on Day 5" (Step 04) and "The Caretakers" (Step 05)
+- **Testimonials**: Now 3 testimonials (Brad/Earthworks, Reuben/Johnson & Sons, Katie/Rumours) — title changed to "Real People. Real Relief."
+- **Real Talk 2**: Now includes refund fine print
 
-### 2. Domain Ownership Language - Clarified
-- Old: "You own everything" + "we'll transfer your domain"
-- New: "You own your domain, content, and design from day one. We register domains in your name and manage hosting while you're a customer. If you cancel, you keep everything—we'll help you move it to any provider you choose."
-- Updated on: Legal Page, Homepage, Pricing Page FAQs, FAQSchema
+### Tradies Page (tradies.astro) - Significant Rewrite
+- **Hero CTA**: Changed from "Get The Deal (50% Off)" to "Claim the Founding Deal (50% Off)"
+- **Problem section**: Rewritten — "You're Flat Out on the Tools. So Why Does It Still Feel Like Money's Slipping Through?"
+- **Dave Test**: Rewritten — "Be Honest: Would You Hire a Tradie With No Website?"
+- **Process**: Step 03 description updated, Step 04 updated
+- **Math section**: Completely rewritten — now shows job value range $1,000–$5,000, one extra job/month = $12k–$60k/yr
+- **Google Maps section**: Rewritten — "Most Tradie Work Starts on Google Maps"
+- **Testimonials**: Title changed to "Real Tradies. Real Speed." Added Brad from Earthworks
+- **Why We Exist**: Rewritten with expanded content
+- **FAQ wording**: Multiple answers softened/reworded
+- **Final CTA**: Changed to "Ready to Get Found — and Look Legit Online?"
 
-### 3. Google Maps Features - Standardized
-- Starter: No Google Maps included
-- Launch: "Google Maps Listing Setup & Optimization"
-- Growth: Google Maps setup + "Review Collection System"
-- Updated on: Pricing Page, Homepage, Tradies Page, How It Works
+### How It Works Page (how-it-works.astro) - Added Sections
+- **New "The Promise" section**: "This Should Feel Like Relief"
+- **New "What We Need" section**: Two-column layout of what's needed vs not needed
+- Step 02 renamed from "We Raid Your Content" to "We Pull the Pieces Together"
+- **Testimonials**: Changed to Brad (Earthworks) and Katie (Rumours On Rust) with new quotes
+- **CTA**: Changed from "Ready to Start?" to "Ready to Get Sorted?" with dual buttons
 
-### 4. Refund Fine Print - Made Visible
-- Moved from hidden legal page to visible position under guarantee
-- Format: "(Minus ~3% processing + any domain costs)"
-- Updated on: All guarantee mentions across site
+### Our Story Page (our-story.astro) - Complete Rewrite
+- **Header**: Changed from "Two Mates. One Mission." to "Founder-led. Built in Whangārei."
+- **Structure**: Completely new sections — Why YourHQ Exists, The Google Test, How It Started, What We Care About, Meet The Team, Based in Whangārei
+- **Lian's bio**: Rewritten — now focuses on ownership, accountability, and calm process
+- **Nic's title**: Changed from "Business Development Manager" to "Client Partnerships & First Contact"
+- **Nic's bio**: Rewritten — focuses on first contact, clarity, warmth
+- Removed personal stories (dad's story, "friends first" section)
+- Added new values section: No homework, No ghosting, Ownership, Care
 
-### 5. "Unlimited Updates" - Clarified
-- Added explicit inclusions:
-  - ✓ Text changes (phone, hours, pricing, descriptions)
-  - ✓ Photo swaps (update your gallery anytime)
-  - ✓ Content edits (keep your site current)
-- Added explicit exclusions:
-  - *Not included: New pages, new integrations, or major scope changes (quoted separately)*
-- Updated on: Pricing FAQ, Legal Page, FAQSchema
+### Contact Page (contact.astro) - Updates
+- **Availability**: Simplified to "Next Available Build Slots: OPEN"
+- **Contact person**: Now specifies "Talk to Nic (Client Partnerships)" with description
+- **Footer note**: Updated — "All packages include a 15-minute drive-home interview. Launch + Growth include unlimited updates."
 
-### 6. Voice Agent Language - Simplified
-- Old: "Call our Voice Agent while driving home"
-- New: "Call us for a quick chat while driving home. It's hands-free, records automatically, and captures everything we need. No forms. No typing. Just talk."
-- Updated on: Homepage, How It Works, Tradies Page, NZ Website Design, HowToSchema
+### Portfolio Page (portfolio.astro) - Replaces work.astro
+- Completely new format with project cards showing "What we solved" and "Result"
+- New "Quick Proof" section: What these projects have in common
+- Updated project descriptions and quotes (Ember & Ice quote now from Ross)
+- New CTA: "Want Yours Next?"
+- Added badges per project (e.g., ZERO HOMEWORK, FAST TURNAROUND, TRADIE-PROOF)
 
-### 7. Tradies Math - Softened
-- Old: "One Extra Job Per Week = $130,000 Per Year"
-- New: "The Math That Matters" with "Even ONE extra job per month = $30,000/yr"
-- Added: "Payback: Your first job covers the entire first year."
-- Updated on: Tradies Page
+### Pricing Page (pricing.astro) - Wording Updates
+- **Tax deductible**: Softened to "Monthly fees are typically tax deductible (check with your accountant)"
+- **Monthly Fee section**: New sub-headlines — "You're Not Paying For 'Hosting.' You're paying for never dealing with the website problem again."
+- **Reason headings**: Simplified numbering — "1) Your next website is already paid for", "2) Unlimited updates", "3) The infrastructure + humans"
+- **Comparison table**: Added sub-headline about real cost being time and stress
+- **FAQ 2**: Simplified wording about monthly fee
+- **FAQ 3**: Softened tax deductible language
+- **FAQ 6**: Reworded to "Usually, yes" instead of "Yes"
 
-### 8. Pricing Comparison - Visual Table
-- Replaced card-based comparison with proper HTML table
-- Columns: DIY (Wix), Agency, YourHQ
-- Rows: Upfront Cost, Monthly Cost, Your Time, Updates, 2-Year Total
-- Updated on: Pricing Page
+### Network Page (network.astro) - Updates
+- Added "Founder-led. Built in Whangārei. Servicing NZ-wide." to hero
+- Benefit 4 changed from "Credible Network" to "Founder-led & Built to Last"
+- Value Exchange: Added "We don't do kickbacks. We do relationships."
+- FAQ wording simplified
+- Nic's title changed to "Client Partnerships"
 
-### 9. Contact Information - Standardized
-- Created reusable ContactInfo.astro component with 4 variants (default, compact, footer, cta)
-- Standard format: Phone 022 172 5793, Email hello@yourhq.co.nz
-- Location: "Based in Whangārei, servicing NZ-wide"
-- Updated on: Footer, Homepage CTA, Tradies CTA
+### Footer (Footer.astro) - Updates
+- Brand description changed to "Founder-led websites for Kiwi small businesses."
+- Tagline changed from "Infrastructure + Warmth." to "Fast builds. Long-term care."
 
-### 10. Location References - Updated
-- Changed "Built in Northland" to "Built in Whangārei"
-- Consistent across Footer and all location mentions
+### Navbar (Navbar.jsx) - Updates
+- Links now: How It Works, Pricing, Portfolio, Blog, Our Story
+- "Portfolio" replaces "Work"
+- CTA: "START BUILD"
+
+---
+
+## Previous Changelogs
+
+### January 23, 2026 Changes
+*(See previous version of this document for full details)*
 
 ---
 
 # END OF DOCUMENT
 
-**Total Pages:** 11 pages documented (Homepage, Pricing, Tradies, How It Works, Work, Our Story, Contact, Refer, Network, Legal, Footer)
-**Last Updated:** January 23, 2026
+**Total Pages:** 16+ pages documented (Homepage, Pricing, Tradies, How It Works, Portfolio, Our Story, Contact, Refer, Network, Legal, NZ Website Design, Guide, Discovery Interview, Privacy, Blog Index, Footer, Navbar)
+**Last Updated:** February 14, 2026
 **Document Compiled By:** YourHQ Team
-**Status:** Updated with all copy changes ✅
+**Status:** Fully updated to match current source code

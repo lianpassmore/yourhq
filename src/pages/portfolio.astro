@@ -1,0 +1,243 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+
+const projects = [
+  {
+    client: "Rumours On Rust",
+    type: "Café & Hospitality",
+    location: "Whangārei, NZ",
+    description: "They needed a modern, professional web presence — fast — without admin overload during launch season.",
+    result: "A sleek, interactive site that matches the vibe in-store and makes it easy for customers to find them and take action.",
+    image: "/rumoursonrust-site.webp",
+    link: "https://rumours-on-rust.site",
+    quote: "The process was stress-free, quick, foolproof and fun… The website is sleek and professional — I can't believe how good it is.",
+    author: "Katie, Owner",
+    color: "signal",
+    hasAI: true,
+    badges: ["FEATURE: AI_RECEPTIONIST", "FAST BUILD", "MOBILE-FIRST"]
+  },
+  {
+    client: "Ember & Ice",
+    type: "Wellness Studio",
+    location: "Northland, NZ",
+    description: "They needed a clean, credible website that made the business feel established — not \"just an Instagram.\"",
+    result: "A premium-feeling site that builds trust fast and turns curiosity into bookings/enquiries.",
+    image: "/emberandice-site.webp",
+    link: "https://emberandice.co.nz",
+    quote: "A website was created in no time — exceptional and exactly what we wanted. No hassle.",
+    author: "Ross, Ember & Ice",
+    color: "deepGreen",
+    hasAI: false,
+    badges: ["PREMIUM LOOK", "TRUST-BUILDER", "GOOGLE-READY"]
+  },
+  {
+    client: "Johnson & Sons",
+    type: "Commercial Services",
+    location: "Northland, NZ",
+    description: "They needed to look legit online quickly — without getting stuck in file uploads, copy writing, or platform headaches.",
+    result: "A fast build that pulled photos from socials, presented the business professionally, and made it easy for customers to enquire.",
+    image: "/johnsonandsons-site.webp",
+    link: "https://johnsonandsonsltd.site",
+    quote: "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready… My mates reckon it's banging.",
+    author: "Reuben, Director",
+    color: "frangipani",
+    hasAI: false,
+    badges: ["ZERO HOMEWORK", "FAST TURNAROUND", "TRADIE-PROOF"]
+  },
+  {
+    client: "DreamStorm",
+    type: "Creative Studio",
+    location: "Northland, NZ",
+    description: "A home for the brand story — a site that feels intentional and makes the offering clear.",
+    result: "A storytelling-led website that sets the tone and positions the studio like a real player.",
+    image: "/dreamstorm-site.png",
+    link: "https://dreamstorm.org",
+    quote: "I designed a website for myself and fell in love… I wanted to help others build homes that represent them.",
+    author: "Lian, Founder",
+    color: "hibiscus",
+    hasAI: false,
+    badges: ["STORY-LED", "BRAND CLARITY", "MODERN DESIGN"]
+  },
+  {
+    client: "Storysmith",
+    type: "Media Production",
+    location: "Northland, NZ",
+    description: "A clean launchpad for a new business — something that looks professional from day one.",
+    result: "A sharp, simple site that makes it easy to understand the offer and get in touch.",
+    image: "/storysmith-site.webp",
+    link: "https://storysmith.work",
+    quote: "My Mum built me an epic website with everything I need to start my own business. It's mean!",
+    author: "Tai, Producer",
+    color: "carbon",
+    hasAI: false,
+    badges: ["LAUNCH-READY", "SIMPLE + CLEAN", "CONTACT-FOCUSED"]
+  }
+];
+---
+
+<Layout
+  title="Our Portfolio | YourHQ"
+  description="View our portfolio of websites built for Northland businesses. From cafes to wellness studios, see how we help Kiwi businesses own their digital space."
+>
+  <Navbar client:load />
+
+  <main class="bg-paper min-h-screen font-sans selection:bg-hibiscus selection:text-white">
+
+    <!-- HEADER -->
+    <section class="pt-32 pb-20 border-b-2 border-carbon bg-grid-pattern relative overflow-hidden">
+      <div class="max-w-screen-2xl mx-auto px-6 relative z-10">
+        <h1 class="text-[12vw] font-black tracking-tighter leading-[0.8] uppercase text-carbon mb-4">
+          The <span class="text-signal italic">Portfolio.</span>
+        </h1>
+        <p class="font-mono text-sm md:text-base text-carbon/60 uppercase tracking-widest max-w-xl">
+          // Built in Whangārei &bull; Servicing NZ-wide &bull; Fast builds, kept sorted
+        </p>
+        <p class="font-mono text-xs text-carbon/40 mt-4 max-w-lg leading-relaxed">
+          Here are a few businesses we've helped get seen properly — without the homework.
+        </p>
+      </div>
+    </section>
+
+    <!-- QUICK PROOF -->
+    <section class="py-16 md:py-20 bg-pureWhite border-b-2 border-carbon">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-2xl md:text-3xl font-black text-carbon tracking-tighter uppercase mb-8">
+          What these projects have in common
+        </h2>
+        <ul class="space-y-4">
+          <li class="flex items-start gap-3">
+            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
+            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Built fast (days, not months)</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
+            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Designed to pass the "Google Test"</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
+            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Easy for customers to call, enquire, or book</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
+            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Ongoing care included (we don't disappear)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECT FEED -->
+    <section class="py-12 md:py-24 bg-paper bg-grid-pattern">
+      <div class="max-w-6xl mx-auto px-6">
+
+        {projects.map((project, index) => (
+          <div class={`flex flex-col md:flex-row items-center gap-12 mb-32 md:mb-56 relative group ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
+
+            <!-- BACKGROUND DECOR (The large number) -->
+            <span class="absolute -top-20 -left-10 md:left-auto md:-top-32 text-[20rem] font-black text-carbon/[0.03] select-none pointer-events-none group-hover:text-hibiscus/[0.05] transition-colors duration-700">
+              0{index + 1}
+            </span>
+
+            <!-- THE MOCKUP (The "Lazy" Scroll Card) -->
+            <div class="w-full md:w-3/5 relative">
+              <a href={project.link} target="_blank" class="block border-2 border-carbon bg-white shadow-hard group-hover:-translate-y-2 transition-all duration-500 overflow-hidden rounded-sm">
+                <!-- The magic scrolling image: just 1 long screenshot needed -->
+                <img
+                  src={project.image}
+                  alt={project.client}
+                  class="w-full h-[500px] object-cover object-top hover:object-bottom transition-all duration-[6000ms] ease-in-out"
+                />
+              </a>
+
+              <!-- Badge Tags -->
+              <div class="absolute -top-4 -right-4 flex flex-col gap-1 items-end">
+                {project.badges.map((badge) => (
+                  <div class={`${badge.includes('AI_RECEPTIONIST') ? 'bg-hibiscus' : 'bg-carbon'} text-white font-mono text-[10px] px-2 py-1 border border-carbon rotate-3 shadow-hard-sm`}>
+                    {badge}
+                  </div>
+                ))}
+              </div>
+
+              <!-- Annotation Tag -->
+              <div class="absolute -bottom-4 -right-2 bg-carbon text-white font-mono text-[10px] px-3 py-1 shadow-hard-white">
+                VERIFIED_BUILD_0{index + 1}
+              </div>
+            </div>
+
+            <!-- THE CONTENT -->
+            <div class="w-full md:w-2/5 space-y-6">
+              <div class="space-y-2">
+                <span class="font-mono text-xs font-bold text-signal uppercase tracking-widest">{project.type}</span>
+                <h3 class="text-5xl font-black text-carbon tracking-tighter leading-none uppercase">{project.client}</h3>
+                <p class="text-xs font-mono text-carbon/40 uppercase italic">{project.location}</p>
+              </div>
+
+              <!-- What we solved & Result -->
+              <div class="space-y-3">
+                <div>
+                  <p class="font-mono text-[10px] uppercase font-bold text-signal tracking-widest mb-1">What we solved:</p>
+                  <p class="text-sm text-carbon/70 leading-relaxed">{project.description}</p>
+                </div>
+                <div>
+                  <p class="font-mono text-[10px] uppercase font-bold text-signal tracking-widest mb-1">Result:</p>
+                  <p class="text-sm text-carbon/70 leading-relaxed">{project.result}</p>
+                </div>
+              </div>
+
+              <!-- The "Sticky Note" Testimonial with tape effect -->
+              <div class="bg-pureWhite border-2 border-carbon p-6 shadow-hard-sm relative">
+                <!-- Accent color bar on right edge -->
+                <div class={`absolute top-0 right-0 w-2 h-full bg-${project.color}`}></div>
+
+                <p class="text-lg font-medium italic leading-snug mb-4 text-carbon">
+                  "{project.quote}"
+                </p>
+                <p class="font-mono text-[10px] uppercase font-bold text-carbon/60">
+                  — {project.author}
+                </p>
+              </div>
+
+              <!-- Tech Swatch (Visual detail) -->
+              <div class="flex items-center gap-4 pt-4 border-t border-carbon/10">
+                <p class="font-mono text-[10px] uppercase text-carbon/40">Build Details:</p>
+                <div class="flex h-3 w-20 border border-carbon rounded-full overflow-hidden">
+                  <div class="flex-1 bg-carbon"></div>
+                  <div class="flex-1 bg-signal"></div>
+                  <div class={`flex-1 bg-${project.color}`}></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        ))}
+
+      </div>
+    </section>
+
+    <!-- FOOTER CTA -->
+    <section class="py-24 bg-carbon text-white relative overflow-hidden">
+       <!-- Large background text -->
+       <div class="absolute inset-0 flex items-center justify-center opacity-5 select-none pointer-events-none">
+          <span class="text-[30vw] font-black uppercase tracking-tighter">YourHQ</span>
+       </div>
+
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-8 uppercase">Want <span class="text-hibiscus">Yours</span> Next?</h2>
+            <p class="font-mono text-sm md:text-base text-white/60 max-w-xl mx-auto mb-10 leading-relaxed">
+              If you're busy, good at what you do, and sick of the online side feeling messy — we can get you sorted. Built in 5 days. No homework. We stay on as caretakers.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <a href="/pricing" class="inline-block bg-pureWhite text-carbon px-10 py-5 border-2 border-pureWhite hover:bg-transparent hover:text-white transition-all font-black uppercase tracking-tighter text-2xl shadow-hard group">
+                Start Your Build
+              </a>
+              <a href="/pricing" class="inline-block font-mono text-sm text-white/60 hover:text-white transition-colors uppercase tracking-widest">
+                View Pricing →
+              </a>
+            </div>
+        </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
