@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Redirecting... | YourHQ" description="Redirecting to the right page.">
+  <script is:inline>window.location.replace('/tradies');</script>
+  <meta slot="head" http-equiv="refresh" content="0;url=/tradies" />
+  <main class="bg-paper min-h-screen flex items-center justify-center font-sans">
+    <p class="font-mono text-sm text-carbon/50 uppercase tracking-widest">Redirecting...</p>
+  </main>
+</Layout>
