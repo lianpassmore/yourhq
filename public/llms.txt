@@ -1,0 +1,55 @@
+# YourHQ
+
+> Done-for-you websites for tradies, salons, and consultants in New Zealand. Your business deserves to be seen. Properly.
+
+YourHQ is a web design agency based in Whangārei, New Zealand, that builds professional websites in 5 days with zero homework required from clients. We handle everything — design, copywriting, hosting, maintenance, and an annual design refresh — so business owners can focus on what they do best.
+
+## Pages
+
+- [Home](https://yourhq.co.nz/): Overview of YourHQ's done-for-you website service, value propositions, testimonials, and calls to action.
+- [Pricing](https://yourhq.co.nz/pricing): Three tiers — Starter ($695 setup + $49/mo), Launch ($995 setup + $149/mo), and Growth ($1,495 setup + $249/mo). Includes founding member offer.
+- [How It Works](https://yourhq.co.nz/how-it-works): 5-step process from discovery interview to launch day.
+- [Portfolio](https://yourhq.co.nz/portfolio): Showcase of completed client websites.
+- [Blog](https://yourhq.co.nz/blog): 25+ articles on web design, SEO, business growth for trades, salons, and consultants.
+- [Our Story](https://yourhq.co.nz/our-story): Company background and founders.
+- [Tradies](https://yourhq.co.nz/tradies): Specialised landing page for electricians, plumbers, and builders.
+- [Contact](https://yourhq.co.nz/contact): Get in touch with the YourHQ team.
+- [Refer](https://yourhq.co.nz/refer): Referral programme details.
+- [Discovery Interview](https://yourhq.co.nz/discovery-interview): Book a free consultation to kick off your website project.
+- [NZ Website Design](https://yourhq.co.nz/nz-website-design): Local SEO page targeting New Zealand web design searches.
+- [Privacy Policy](https://yourhq.co.nz/privacy): How we handle your data.
+- [Legal Terms](https://yourhq.co.nz/legal): Terms and conditions.
+
+## Key Information
+
+### What We Do
+We build fast, professional websites for small businesses across New Zealand. Our caretaker model means clients pay a small monthly fee and never worry about hosting, security, updates, or redesigns again.
+
+### Who We Serve
+- **Tradies**: Electricians, plumbers, builders, and other trades professionals
+- **Salons & Creatives**: Hair salons, beauty studios, and creative businesses
+- **Consultants & Professionals**: Business consultants, coaches, and service providers
+
+### Pricing Model
+- Setup fee (one-time) + monthly caretaker fee
+- All plans include hosting, SSL, maintenance, and unlimited content updates
+- Annual design refresh included at no extra cost
+- "Love Your Launch Guarantee" — full refund if unhappy with preview
+
+### What's Included
+- Custom design (no templates)
+- Copywriting from a drive-home voice interview
+- Domain and hosting setup
+- Google Maps listing setup
+- Mobile-responsive design
+- Ongoing maintenance and security
+- SEO fundamentals
+
+### Location
+Based in Whangārei, servicing all of New Zealand.
+
+## Tech Stack
+- Built with Astro, React, and Tailwind CSS
+- Static site generation for fast load times
+- Image optimisation with Sharp
+- ElevenLabs voice agent integration
