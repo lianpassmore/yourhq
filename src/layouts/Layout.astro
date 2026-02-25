@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import MailingListPopup from '../components/MailingListPopup.jsx';
 
 interface Props {
 	title: string;
@@ -88,6 +89,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 	</head>
 	<body class="bg-paper text-carbon font-sans selection:bg-frangipani selection:text-carbon">
 		<slot />
+		<MailingListPopup client:load excludePaths={['/google-guide']} />
 	</body>
 </html>
 

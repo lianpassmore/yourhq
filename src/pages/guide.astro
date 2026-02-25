@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import GuideForm from '../components/GuideForm.jsx';
 ---
 
 <Layout
@@ -140,38 +141,7 @@ import Footer from '../components/Footer.astro';
                 <p class="text-gray-600">Enter your details and we'll email it to you instantly.</p>
             </div>
 
-            <!-- FORM START -->
-            <!-- Note: You will need to hook this form action up to your email provider (e.g. Formspree / Mailchimp) -->
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6 bg-paper p-8 border-2 border-carbon shadow-hard">
-                
-                <div class="space-y-2">
-                    <label for="name" class="text-xs font-bold uppercase tracking-wide text-gray-500">Name</label>
-                    <input type="text" name="name" id="name" placeholder="e.g., Sarah" required 
-                        class="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
-                </div>
-
-                <div class="space-y-2">
-                    <label for="email" class="text-xs font-bold uppercase tracking-wide text-gray-500">Email</label>
-                    <input type="email" name="email" id="email" placeholder="e.g., sarah@email.com" required 
-                        class="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
-                </div>
-
-                <div class="space-y-2">
-                    <label for="business" class="text-xs font-bold uppercase tracking-wide text-gray-500">What kind of business do you run?</label>
-                    <input type="text" name="business" id="business" placeholder="e.g., Plumber, Salon, Physio clinic" 
-                        class="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
-                </div>
-
-                <button type="submit" class="w-full bg-signal text-white px-8 py-4 font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all">
-                    Send Me The Guide
-                </button>
-
-                <p class="text-xs text-center text-gray-400 pt-2">
-                    We respect your inbox. You'll get the guide + a few helpful emails. No spam, ever.
-                </p>
-
-            </form>
-            <!-- FORM END -->
+            <GuideForm client:load />
 
             <!-- ABOUT SECTION -->
             <div class="mt-16 text-center border-t border-gray-100 pt-12">

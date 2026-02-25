@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import ContactForm from '../components/ContactForm.jsx';
 ---
 
 <Layout
@@ -59,39 +60,7 @@ import Footer from '../components/Footer.astro';
                 </p>
             </div>
 
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="max-w-lg w-full space-y-6">
-                <input type="hidden" name="form-name" value="contact" />
-
-                <!-- Honeypot field for spam protection -->
-                <p class="hidden">
-                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                </p>
-
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div class="space-y-2">
-                        <label for="name" class="text-xs font-bold uppercase tracking-wide text-gray-500">Name</label>
-                        <input type="text" id="name" name="name" required class="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" placeholder="Jane Doe" />
-                    </div>
-                    <div class="space-y-2">
-                        <label for="business" class="text-xs font-bold uppercase tracking-wide text-gray-500">Business Name</label>
-                        <input type="text" id="business" name="business" required class="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" placeholder="Jane's Electrical" />
-                    </div>
-                </div>
-
-                <div class="space-y-2">
-                    <label for="email" class="text-xs font-bold uppercase tracking-wide text-gray-500">Email</label>
-                    <input type="email" id="email" name="email" required class="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" placeholder="jane@example.com" />
-                </div>
-
-                <div class="space-y-2">
-                    <label for="message" class="text-xs font-bold uppercase tracking-wide text-gray-500">What's your question?</label>
-                    <textarea id="message" name="message" required class="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors h-32" placeholder="I'm wondering about..."></textarea>
-                </div>
-
-                <button type="submit" class="bg-signal text-white px-8 py-4 w-full font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all">
-                    Send Message
-                </button>
-            </form>
+            <ContactForm client:load />
 
         </div>
     </div>
