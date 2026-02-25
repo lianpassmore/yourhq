@@ -14,23 +14,28 @@ import LeadMagnetForm from '../components/LeadMagnetForm.jsx';
   <main class="bg-paper min-h-screen">
 
     <!-- HERO SECTION -->
-    <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern relative">
+    <section class="pt-32 pb-20 border-b border-carbon relative overflow-hidden">
+      <!-- Colourful background blobs -->
+      <div class="absolute top-0 left-1/4 w-96 h-96 bg-signal/15 rounded-full blur-3xl -z-10"></div>
+      <div class="absolute bottom-0 right-1/4 w-80 h-80 bg-hibiscus/15 rounded-full blur-3xl -z-10"></div>
+      <div class="absolute top-1/2 right-10 w-64 h-64 bg-frangipani/20 rounded-full blur-3xl -z-10"></div>
+
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
-        <div class="inline-block bg-frangipani/20 border border-frangipani px-4 py-1 mb-6 rounded-full">
-            <span class="font-mono text-xs font-bold uppercase tracking-widest text-carbon">Free Guide</span>
+        <div class="inline-block bg-signal/10 border border-signal px-4 py-1 mb-6 rounded-full">
+            <span class="font-mono text-xs font-bold uppercase tracking-widest text-signal">Free Guide</span>
         </div>
 
         <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-          Get Found on Google<br />
-          <span class="text-gray-400 text-3xl md:text-5xl block mt-2 font-bold tracking-tight">The No-Nonsense Setup Guide</span>
+          Get Found on <span class="text-signal">Google</span><br />
+          <span class="text-hibiscus text-3xl md:text-5xl block mt-2 font-bold tracking-tight">The No-Nonsense Setup Guide</span>
         </h1>
 
         <p class="text-xl text-carbon/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Half of NZ businesses still don't have a proper Google presence. Not because they don't want one — because every guide makes it sound harder than it is. This one's different.
+          Half of NZ businesses still don't have a proper Google presence. Not because they don't want one — because every guide makes it sound harder than it is. <strong>This one's different.</strong>
         </p>
 
-        <a href="#get-the-guide" class="inline-block bg-signal text-white px-10 py-4 border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-widest text-lg">
+        <a href="#get-the-guide" class="inline-block bg-hibiscus text-white px-10 py-4 border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-widest text-lg">
             Get the Free Guide →
         </a>
 
@@ -40,34 +45,41 @@ import LeadMagnetForm from '../components/LeadMagnetForm.jsx';
     </section>
 
     <!-- THE PROBLEM (Dark) -->
-    <section class="py-24 bg-carbon text-white">
-        <div class="max-w-3xl mx-auto px-4 text-center">
+    <section class="py-24 bg-carbon text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-72 h-72 bg-signal/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-60 h-60 bg-hibiscus/10 rounded-full blur-3xl"></div>
+        <div class="max-w-3xl mx-auto px-4 text-center relative z-10">
             <h2 class="text-3xl font-extrabold mb-8 text-frangipani">You're Invisible to New Customers.</h2>
             <div class="space-y-6 text-lg md:text-xl font-light leading-relaxed text-gray-200">
                 <p>When someone Googles "plumber near me" or "best café in [your town]" — do you show up?</p>
-                <p class="font-bold text-white">If you don't have a Google Business Profile, the answer is no. And that's work walking straight to your competitor.</p>
+                <p class="font-bold text-white">If you don't have a Google Business Profile, the answer is <span class="text-hibiscus">no</span>. And that's work walking straight to your competitor.</p>
                 <div class="pt-8 border-t border-white/20 mt-8">
-                    <p>The good news? Setting it up is free, takes about 20 minutes, and this guide walks you through every step.</p>
+                    <p>The good news? Setting it up is <span class="text-frangipani font-medium">free</span>, takes about <span class="text-frangipani font-medium">20 minutes</span>, and this guide walks you through every step.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- WHAT'S INSIDE -->
-    <section class="py-24 bg-white border-b border-carbon">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 bg-white border-b border-carbon relative overflow-hidden">
+        <div class="absolute -top-20 -left-20 w-80 h-80 bg-frangipani/10 rounded-full blur-3xl"></div>
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid md:grid-cols-2 gap-16 items-center">
 
                 <!-- Left: The "Book" Visual -->
                 <div class="relative">
-                    <div class="aspect-[3/4] bg-paper border-2 border-carbon shadow-hard p-8 flex flex-col justify-center text-center">
-                        <span class="text-6xl mb-4">📍</span>
-                        <h3 class="text-3xl font-extrabold tracking-tighter mb-2">Get Found<br/>on Google</h3>
+                    <div class="aspect-[3/4] bg-gradient-to-br from-signal/5 via-paper to-hibiscus/5 border-2 border-carbon shadow-hard p-8 flex flex-col justify-center text-center">
+                        <span class="text-7xl mb-4">📍</span>
+                        <h3 class="text-3xl font-extrabold tracking-tighter mb-2">Get Found<br/>on <span class="text-signal">Google</span></h3>
                         <p class="font-mono text-sm text-gray-500 uppercase mt-2">YourHQ Setup Guide</p>
+                        <div class="mt-4 inline-block mx-auto bg-hibiscus/10 border border-hibiscus px-3 py-1 rounded-full">
+                            <span class="font-mono text-xs font-bold uppercase tracking-widest text-hibiscus">Free PDF</span>
+                        </div>
                     </div>
                     <!-- Decorative elements -->
-                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-signal/10 rounded-full blur-xl -z-10"></div>
-                    <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-hibiscus/10 rounded-full blur-xl -z-10"></div>
+                    <div class="absolute -top-6 -right-6 w-32 h-32 bg-signal/20 rounded-full blur-2xl -z-10"></div>
+                    <div class="absolute -bottom-6 -left-6 w-40 h-40 bg-hibiscus/20 rounded-full blur-2xl -z-10"></div>
+                    <div class="absolute top-1/2 -right-4 w-20 h-20 bg-frangipani/30 rounded-full blur-xl -z-10"></div>
                 </div>
 
                 <!-- Right: The List -->
@@ -75,23 +87,23 @@ import LeadMagnetForm from '../components/LeadMagnetForm.jsx';
                     <h2 class="text-3xl font-extrabold mb-8">What you'll get:</h2>
                     <ul class="space-y-6">
                         <li class="flex gap-4 items-start">
-                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <div class="w-8 h-8 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">1</div>
                             <p class="text-lg text-gray-700"><strong>Step-by-step setup instructions</strong> that actually make sense</p>
                         </li>
                         <li class="flex gap-4 items-start">
-                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <div class="w-8 h-8 bg-hibiscus text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">2</div>
                             <p class="text-lg text-gray-700"><strong>Category recommendations</strong> for tradies, salons, and service businesses</p>
                         </li>
                         <li class="flex gap-4 items-start">
-                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <div class="w-8 h-8 bg-frangipani text-carbon rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">3</div>
                             <p class="text-lg text-gray-700"><strong>Verification tips</strong> so you don't get stuck at the tricky part</p>
                         </li>
                         <li class="flex gap-4 items-start">
-                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <div class="w-8 h-8 bg-deepGreen text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">4</div>
                             <p class="text-lg text-gray-700"><strong>What to do once you're live</strong> — the maintenance is lighter than you think</p>
                         </li>
                         <li class="flex gap-4 items-start">
-                            <div class="w-6 h-6 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                            <div class="w-8 h-8 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">5</div>
                             <p class="text-lg text-gray-700"><strong>Photo and description tips</strong> that make your listing stand out</p>
                         </li>
                     </ul>
@@ -102,29 +114,29 @@ import LeadMagnetForm from '../components/LeadMagnetForm.jsx';
     </section>
 
     <!-- WHO THIS IS FOR -->
-    <section class="py-24 bg-paper border-b border-carbon">
+    <section class="py-24 bg-gradient-to-br from-paper via-signal/5 to-hibiscus/5 border-b border-carbon">
         <div class="max-w-4xl mx-auto px-4">
-            <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-sm">
-                <h2 class="text-2xl font-bold mb-8 text-center uppercase tracking-widest text-gray-400">This guide is for you if...</h2>
+            <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-hard">
+                <h2 class="text-2xl font-bold mb-8 text-center uppercase tracking-widest text-signal">This guide is for you if...</h2>
                 <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
                     <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-hibiscus font-bold">→</span>
+                        <span class="text-hibiscus font-bold text-lg">→</span>
                         You don't show up when people Google your business name
                     </p>
                     <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-hibiscus font-bold">→</span>
+                        <span class="text-signal font-bold text-lg">→</span>
                         You've been meaning to "do the Google thing" but haven't got round to it
                     </p>
                     <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-hibiscus font-bold">→</span>
+                        <span class="text-frangipani font-bold text-lg">→</span>
                         You tried setting it up once and got stuck on verification
                     </p>
                     <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-hibiscus font-bold">→</span>
+                        <span class="text-deepGreen font-bold text-lg">→</span>
                         Your competitors show up on Google Maps and you don't
                     </p>
                     <p class="flex gap-3 text-carbon font-medium md:col-span-2">
-                        <span class="text-hibiscus font-bold">→</span>
+                        <span class="text-hibiscus font-bold text-lg">→</span>
                         You want new customers to find you without relying 100% on word-of-mouth
                     </p>
                 </div>
@@ -133,11 +145,13 @@ import LeadMagnetForm from '../components/LeadMagnetForm.jsx';
     </section>
 
     <!-- FORM SECTION -->
-    <section id="get-the-guide" class="py-24 bg-paper">
-        <div class="max-w-xl mx-auto px-4">
+    <section id="get-the-guide" class="py-24 bg-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-72 h-72 bg-signal/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-0 w-60 h-60 bg-hibiscus/10 rounded-full blur-3xl"></div>
+        <div class="max-w-xl mx-auto px-4 relative z-10">
 
             <div class="text-center mb-10">
-                <h2 class="text-4xl font-extrabold tracking-tighter mb-4">Get Your Free Copy</h2>
+                <h2 class="text-4xl font-extrabold tracking-tighter mb-4">Get Your <span class="text-signal">Free</span> Copy</h2>
                 <p class="text-gray-600">Enter your details and the guide will open straight away.</p>
             </div>
 
