@@ -5,7 +5,7 @@ export default function LeadMagnetForm({
   source = 'lead-magnet',
   buttonText = 'Send Me The Guide',
   successTitle = 'Sorted!',
-  successMessage = 'Check your inbox — the guide is on its way.',
+  successMessage = 'Your guide should have opened in a new tab.',
   pdfUrl = null,
 }) {
   const [status, setStatus] = useState('idle'); // idle | sending | success | error
@@ -31,6 +31,9 @@ export default function LeadMagnetForm({
     } else {
       setStatus('success');
       form.reset();
+      if (pdfUrl) {
+        window.open(pdfUrl, '_blank');
+      }
     }
   }
 
@@ -40,9 +43,9 @@ export default function LeadMagnetForm({
         <h3 className="text-2xl font-extrabold mb-4">{successTitle}</h3>
         <p className="text-gray-600">{successMessage}</p>
         {pdfUrl && (
-          <a href={pdfUrl} download
+          <a href={pdfUrl} target="_blank" rel="noopener noreferrer"
             className="inline-block mt-6 bg-signal text-white px-8 py-4 font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all">
-            Download the Guide
+            Open the Guide
           </a>
         )}
       </div>
@@ -91,7 +94,7 @@ export default function LeadMagnetForm({
       )}
 
       <p className="text-xs text-center text-gray-400 pt-2">
-        We'll email you the PDF. No spam. Unsubscribe anytime. Promise.
+        Your guide will open straight away. No spam. Unsubscribe anytime.
       </p>
     </form>
   );
