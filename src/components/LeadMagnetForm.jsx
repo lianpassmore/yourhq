@@ -29,6 +29,9 @@ export default function LeadMagnetForm({
       console.error('Supabase error:', error);
       setStatus('error');
     } else {
+      if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+        window.fbq('track', 'CompleteRegistration');
+      }
       setStatus('success');
       form.reset();
       if (pdfUrl) {
