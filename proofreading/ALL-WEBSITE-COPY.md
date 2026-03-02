@@ -1,6 +1,6 @@
 # YourHQ Website Copy - Complete Proofreading Document
 
-**Last Updated:** February 14, 2026
+**Last Updated:** March 2, 2026
 **Purpose:** Comprehensive text copy for proofreading across all website pages
 
 ---
@@ -325,7 +325,7 @@ Launch Package: $497.50 setup (50% off) + $149/mo locked for life
 ### Package 2: The Growth
 **For Salons & Consultants**
 
-**Badge:** Recommended
+**Badge:** Most Popular
 
 **Price:** $1,495 + GST setup / $249 + GST/month (monthly fees tax deductible)
 
@@ -333,7 +333,7 @@ Launch Package: $497.50 setup (50% off) + $149/mo locked for life
 - Everything in Launch
 - Booking system integration
 - Blog / News section
-- Priority 24h Support
+- Priority Support (1 Business Day Response)
 - Google Maps optimization + Review Collection System
 
 **CTA:** Start Growth Build
@@ -485,7 +485,7 @@ FOUNDING26
 - Booking System Integration
 - Blog / News Section
 - Instagram Feed Integration
-- Priority 24h Support
+- Priority Support (1 Business Day Response)
 - **Review Collection System**
 
 **CTA:** Start Growth Build
@@ -530,6 +530,8 @@ Phone number change? Text us. New service? Text us. Fresh photos? Text us.
 - Major scope changes
 
 *Quoted separately so it stays fair.*
+
+Growth: 1 business day response. Launch: 2 business days. Fair use applies — see Terms.
 
 ### Reason 3: The Infrastructure + Humans
 
@@ -1067,7 +1069,27 @@ A sleek, interactive site that matches the vibe in-store and makes it easy for c
 
 ---
 
-### Project 2: Ember & Ice
+### Project 2: Carve Earthworks
+**Type:** Earthworks & Civil
+**Location:** Northland, NZ
+
+**What we solved:**
+A small earthworks company that needed a clean, professional website — without the hassle of building it themselves.
+
+**Result:**
+A smooth, stress-free build that delivered a professional site complementing their business.
+
+**Quote:**
+"The whole process was smooth, easy and stress free with a clean professional outcome that compliments our business."
+
+**— Brad, Owner**
+
+**Badges:** ZERO HOMEWORK / TRADIE-PROOF / FAST TURNAROUND
+**Link:** carveearthworks.co.nz
+
+---
+
+### Project 3: Ember & Ice
 **Type:** Wellness Studio
 **Location:** Northland, NZ
 
@@ -1087,7 +1109,7 @@ A premium-feeling site that builds trust fast and turns curiosity into bookings/
 
 ---
 
-### Project 3: Johnson & Sons
+### Project 4: Johnson & Sons
 **Type:** Commercial Services
 **Location:** Northland, NZ
 
@@ -1107,7 +1129,7 @@ A fast build that pulled photos from socials, presented the business professiona
 
 ---
 
-### Project 4: DreamStorm
+### Project 5: DreamStorm
 **Type:** Creative Studio
 **Location:** Northland, NZ
 
@@ -1127,7 +1149,7 @@ A storytelling-led website that sets the tone and positions the studio like a re
 
 ---
 
-### Project 5: Storysmith
+### Project 6: Storysmith
 **Type:** Media Production
 **Location:** Northland, NZ
 
@@ -1812,7 +1834,7 @@ $1,495 + GST + $249/mo + GST
 
 ✓ Everything in Launch
 ✓ Booking system
-✓ Priority 24h support
+✓ Priority Support (1 Business Day Response)
 
 **CTA:** Learn More
 
@@ -1832,8 +1854,8 @@ We implement local business schema markup with your specific location, optimize 
 ### FAQ 3: What's the difference between YourHQ and a local web designer?
 Local designers often charge $5,000–$15,000 upfront, take 6–12 weeks to build, then disappear after launch. YourHQ delivers in 5 days for $695–$1,495 + GST, includes unlimited updates, provides ongoing support, and gives you a free design refresh every year. Plus, you can cancel anytime—no long-term contracts.
 
-### FAQ 4: Can you help with Google Business Profile setup?
-Yes! While we don't manage your Google Business Profile directly, we ensure your website is optimized to support it—consistent NAP (Name, Address, Phone) across all pages, local business schema markup, and integration with your GBP listing. This helps you rank higher in local map results.
+### FAQ 4: Do you set up Google Business Profile for me?
+Yes! On Launch and Growth plans, we set up or optimise your Google Business Profile — we claim and verify your listing (where needed), write your business description, set your service areas, upload photos, and link it to your website. We also ensure your site supports your listing with consistent NAP data and local business schema markup. Growth plans also include a review collection system.
 
 ---
 
@@ -2013,7 +2035,7 @@ This is where we differ from platforms like Facebook or Instagram:
 - **Portability.** If you choose to leave YourHQ (after the minimum term), we provide you with a static export of your website files. We do not hold your digital presence hostage.
 
 ### 4. How We Use Voice Data
-When you speak with our AI Agent (Penny/Lian's Digital Twin):
+When you speak with our AI Agent (Lian's Digital Voice):
 - The conversation is recorded and transcribed to generate website copy.
 - These recordings are stored securely within our private logs.
 - We do not share these recordings with third parties for marketing purposes.
@@ -2030,7 +2052,7 @@ Email: hello@yourhq.co.nz
 Phone: 022 172 5793
 Northland, New Zealand
 
-*Last updated: December 2025*
+*Last updated: March 2026*
 
 ---
 
@@ -2078,6 +2100,118 @@ We strive for 99.9% uptime, but we are not liable for loss of business due to te
 
 ---
 
+## FAIR USE & UPDATE POLICY
+
+**Last Updated:** March 2, 2026
+
+### 1. What's Included in "Unlimited Updates"
+
+Launch and Growth plans include unlimited *reasonable* updates to your existing website content. This means you can text us changes as often as you need — and we'll get them done within the response times below.
+
+### Included Updates (Text Us Anytime)
+
+- Text changes: phone numbers, hours, pricing, service descriptions
+- Photo swaps: new job photos, team photos, gallery updates
+- Content edits: updating existing page copy to keep things current
+- Minor layout tweaks within your existing site structure
+- Seasonal messaging updates (e.g. holiday hours, promotions)
+
+### Not Included (Quoted Separately)
+
+- New pages beyond your original site structure
+- New integrations (e.g. adding a booking system to a Launch site)
+- Major design changes outside your annual refresh
+- Custom functionality or features not in your package
+- Blog post writing or content creation (we update what you provide)
+
+If you're not sure whether something's included, just ask. We'll always tell you before any additional costs apply.
+
+---
+
+### 2. Response Times
+
+Business days are Monday–Friday, 9am–5pm NZST, excluding public holidays.
+
+| Plan | Response Time |
+|---|---|
+| **Growth** | Within **1 business day** |
+| **Launch** | Within **2 business days** |
+| **Starter** | No included updates — available at $145/hr + GST |
+
+Requests sent outside business hours (evenings, weekends, public holidays) will be picked up on the next business day.
+
+**Note:** Complex updates that require design or development work may take longer to complete. We'll let you know the expected timeframe when you send through the request.
+
+---
+
+### 3. Fair Use
+
+We say "unlimited" and we mean it — for normal business use. Most clients send through a handful of updates per month, and that's exactly what this is built for.
+
+**Fair Use Guideline**
+
+Each Launch and Growth subscription includes up to **2 hours of update work per month** as part of your plan. This covers the vast majority of clients comfortably — most use well under an hour.
+
+**What Happens If You Go Over**
+
+If your update requests consistently exceed 2 hours per month over a rolling 3-month period, we'll have a conversation with you. No surprises, no sudden charges. We'll work together to find a solution that keeps things fair — whether that's batching requests, upgrading your plan, or quoting additional hours.
+
+We will never charge you extra without discussing it first.
+
+---
+
+### 4. Additional Work & Hourly Rate
+
+Any work that falls outside your included updates — new pages, new features, major changes, or consistently exceeding fair use — is available at:
+
+**$145/hr + GST**
+
+This rate applies consistently across all plans (Starter pay-as-you-go, and Launch/Growth above-and-beyond work).
+
+**How Additional Work Is Handled**
+
+1. **You request it** — text or email us with what you need.
+2. **We provide a written estimate** — including estimated hours and total cost — before any work begins.
+3. **You approve it** — we don't start until you say go.
+4. **We complete and invoice** — billed on your next monthly cycle.
+
+No surprises. No bill shock. You're always in control.
+
+---
+
+### 5. Annual Design Refresh (Launch & Growth)
+
+Your annual design refresh is a separate commitment included in your monthly fee. This is not deducted from your monthly fair use allowance.
+
+Once per year (on or around your 12-month anniversary), we refresh your site's visual design — fonts, layout, hero section, colour updates — to keep it looking current and modern.
+
+The refresh is a **design update to existing content**, not a full rebuild. It does not include adding new pages, new integrations, or expanding your site's scope (these can be quoted separately at $145/hr + GST).
+
+---
+
+### 6. Summary Table
+
+| | Starter | Launch | Growth |
+|---|---|---|---|
+| **Included updates** | None (pay-as-you-go) | Unlimited (fair use) | Unlimited (fair use) |
+| **Response time** | N/A | 2 business days | 1 business day |
+| **Fair use allowance** | N/A | 2 hrs/month | 2 hrs/month |
+| **Annual design refresh** | Not included | Included | Included |
+| **Additional work rate** | $145/hr + GST | $145/hr + GST | $145/hr + GST |
+| **Quoting process** | Estimate before work | Estimate before work | Estimate before work |
+
+---
+
+### Plain English Version (For Website / Terms Page)
+
+> **Updates are unlimited for Launch and Growth — with a fair use guideline of up to 2 hours of update work per month.** That covers the vast majority of changes any business needs. If you regularly need more, we'll have a chat and sort it out together. Growth clients hear back within 1 business day; Launch within 2. Any work outside your plan — new pages, new features, or major changes — is quoted at $145/hr + GST, and we always give you a written estimate before we start. No surprises.
+
+---
+
+*This policy is designed to protect both our clients and our capacity to deliver quality work for everyone. It will be reviewed quarterly as the business scales.*
+
+---
+
 ---
 
 ## BLOG INDEX PAGE (blog/index.astro)
@@ -2089,6 +2223,100 @@ Thoughts on owning your digital space, growing your business, and escaping the a
 
 ### Article Link Text
 Read Article →
+
+---
+
+---
+
+## GOOGLE GUIDE PAGE (google-guide.astro)
+
+### Page Meta
+**Title:** Get Found on Google - Free Setup Guide | YourHQ
+**Description:** A free step-by-step guide to setting up your Google Business Profile. No jargon. No homework. Just the steps. For NZ small businesses.
+
+---
+
+### Hero Badge
+Free Guide
+
+### Hero Headline
+Get Found on Google
+The No-Nonsense Setup Guide
+
+### Hero Body
+Half of NZ businesses still don't have a proper Google presence. Not because they don't want one — because every guide makes it sound harder than it is. **This one's different.**
+
+**CTA:** Get the Free Guide →
+
+**Sub-note:** Takes 20 minutes. You'll need your phone and a coffee. That's it.
+
+---
+
+### Section: The Problem
+
+**Headline:** You're Invisible to New Customers.
+
+When someone Googles "plumber near me" or "best café in [your town]" — do you show up?
+
+If you don't have a Google Business Profile, the answer is **no**. And that's work walking straight to your competitor.
+
+The good news? Setting it up is **free**, takes about **20 minutes**, and this guide walks you through every step.
+
+---
+
+### Section: What's Inside
+
+**Guide Cover Visual:**
+📍
+Get Found on Google
+YourHQ Setup Guide
+Free PDF
+
+**What you'll get:**
+1. Step-by-step setup instructions that actually make sense
+2. Category recommendations for tradies, salons, and service businesses
+3. Verification tips so you don't get stuck at the tricky part
+4. What to do once you're live — the maintenance is lighter than you think
+5. Photo and description tips that make your listing stand out
+
+---
+
+### Section: Who This Is For
+
+**Headline:** This guide is for you if...
+
+- You don't show up when people Google your business name
+- You've been meaning to "do the Google thing" but haven't got round to it
+- You tried setting it up once and got stuck on verification
+- Your competitors show up on Google Maps and you don't
+- You want new customers to find you without relying 100% on word-of-mouth
+
+---
+
+### Section: Form (Get Your Free Copy)
+
+**Headline:** Get Your **Free** Copy
+
+**Subtext:** Enter your details and the guide will open straight away.
+
+**Form Fields:**
+- Name * (Placeholder: e.g., Sarah)
+- Email * (Placeholder: e.g., sarah@email.com)
+- Company (optional) (Placeholder: e.g., Smith Electrical Ltd)
+- Role (optional) (Placeholder: e.g., Owner, Manager)
+- Phone (optional) (Placeholder: e.g., 021 123 4567)
+
+**Button:** Get The Guide
+
+**Fine print:** Your guide will open straight away. No spam. Unsubscribe anytime.
+
+**PDF:** /get-found-google-maps-tradie-guide.pdf
+
+---
+
+### Section: About YourHQ (below form)
+
+This guide is brought to you by **YourHQ** — founder-led websites for Kiwi small businesses. Built in 5 days, no homework, and looked after long-term. Need more than just a Google listing? [See what we do](/)
 
 ---
 
@@ -2109,6 +2337,11 @@ Built in Whangārei, servicing NZ-wide.
 - Our Story
 - YourHQ Network
 - Refer a Friend
+
+### Free Resources Links
+- Get Found on Google — Free Guide (/google-guide)
+- 5 Signs You Need a Website (/guide)
+- Blog (/blog)
 
 ### Legal Links
 - Terms & FAQ
@@ -2211,6 +2444,26 @@ Fast builds. Long-term care.
 
 ## Previous Changelogs
 
+### March 2, 2026 Changes
+
+### Legal Page (legal.astro) - Fair Use Policy Added
+- **New "Fair Use & Update Policy" section** added with: included vs excluded updates, response times by plan, 2hr/month fair use guideline, additional work process at $145/hr + GST, annual refresh clarification, summary table
+
+### Portfolio Page (portfolio.astro) - Added Project
+- **Project 2: Carve Earthworks** added (was previously missing from document)
+- Projects renumbered: Ember & Ice → 3, Johnson & Sons → 4, DreamStorm → 5, Storysmith → 6
+
+### Footer (Footer.astro) - Added Section
+- **Free Resources** section added: Get Found on Google (Free Guide), 5 Signs You Need a Website, Blog
+
+### Google Guide Page (google-guide.astro) - New Page Added
+- Full page copy documented for the first time
+
+---
+
+### February 14, 2026 Changes
+*(See CHANGELOG section above for full details)*
+
 ### January 23, 2026 Changes
 *(See previous version of this document for full details)*
 
@@ -2218,7 +2471,7 @@ Fast builds. Long-term care.
 
 # END OF DOCUMENT
 
-**Total Pages:** 16+ pages documented (Homepage, Pricing, Tradies, How It Works, Portfolio, Our Story, Contact, Refer, Network, Legal, NZ Website Design, Guide, Discovery Interview, Privacy, Blog Index, Footer, Navbar)
-**Last Updated:** February 14, 2026
+**Total Pages:** 17+ pages documented (Homepage, Pricing, Tradies, How It Works, Portfolio, Our Story, Contact, Refer, Network, Legal, NZ Website Design, Guide, Google Guide, Discovery Interview, Privacy, Blog Index, Footer, Navbar)
+**Last Updated:** March 2, 2026
 **Document Compiled By:** YourHQ Team
 **Status:** Fully updated to match current source code
