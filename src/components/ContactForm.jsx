@@ -13,10 +13,11 @@ export default function ContactForm() {
     const email = form.email.value.trim();
     const business = form.business.value.trim();
     const message = form.message.value.trim();
+    const referral_source = form.referral_source.value || null;
 
     const { error } = await supabase
       .from('leads')
-      .insert({ name, email, business, message, source: 'contact' });
+      .insert({ name, email, business, message, source: 'contact', referral_source });
 
     if (error) {
       console.error('Supabase error:', error);
@@ -66,6 +67,19 @@ export default function ContactForm() {
         <label htmlFor="message" className="text-xs font-bold uppercase tracking-wide text-gray-500">What's your question?</label>
         <textarea id="message" name="message" required
           className="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors h-32" placeholder="I'm wondering about..."></textarea>
+      </div>
+
+      <div className="space-y-2">
+        <label htmlFor="referral_source" className="text-xs font-bold uppercase tracking-wide text-gray-500">How did you hear about us? <span className="normal-case font-normal">(optional)</span></label>
+        <select id="referral_source" name="referral_source"
+          className="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
+          <option value="">— Select one —</option>
+          <option value="Google / Search">Google / Search</option>
+          <option value="Facebook / Instagram">Facebook / Instagram</option>
+          <option value="Word of mouth">Word of mouth</option>
+          <option value="Network partner (accountant, bookkeeper, broker etc.)">Network partner (accountant, bookkeeper, broker etc.)</option>
+          <option value="Other">Other</option>
+        </select>
       </div>
 
       <button type="submit" disabled={status === 'sending'}

@@ -20,10 +20,11 @@ export default function LeadMagnetForm({
     const company = form.company.value.trim();
     const role = form.role.value.trim();
     const phone = form.phone.value.trim();
+    const referral_source = form.referral_source.value || null;
 
     const { error } = await supabase
       .from('leads')
-      .insert({ name, email, company: company || null, role: role || null, phone: phone || null, source });
+      .insert({ name, email, company: company || null, role: role || null, phone: phone || null, source, referral_source });
 
     if (error) {
       console.error('Supabase error:', error);
@@ -85,6 +86,19 @@ export default function LeadMagnetForm({
         <label htmlFor="phone" className="text-xs font-bold uppercase tracking-wide text-gray-500">Phone <span className="normal-case font-normal">(optional)</span></label>
         <input type="tel" name="phone" id="phone" placeholder="e.g., 021 123 4567"
           className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+      </div>
+
+      <div className="space-y-2">
+        <label htmlFor="referral_source" className="text-xs font-bold uppercase tracking-wide text-gray-500">How did you hear about us? <span className="normal-case font-normal">(optional)</span></label>
+        <select id="referral_source" name="referral_source"
+          className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
+          <option value="">— Select one —</option>
+          <option value="Google / Search">Google / Search</option>
+          <option value="Facebook / Instagram">Facebook / Instagram</option>
+          <option value="Word of mouth">Word of mouth</option>
+          <option value="Network partner (accountant, bookkeeper, broker etc.)">Network partner (accountant, bookkeeper, broker etc.)</option>
+          <option value="Other">Other</option>
+        </select>
       </div>
 
       <button type="submit" disabled={status === 'sending'}
