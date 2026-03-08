@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import DiscoveryForm from '../components/DiscoveryForm.jsx';
 ---
 
 <Layout
@@ -94,17 +95,43 @@ import Footer from '../components/Footer.astro';
       </div>
     </section>
 
+    <!-- OPTIONAL WRITTEN FORM -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
+            Want to Get a Head Start?
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Totally optional — fill this in now and we'll have everything ready before we even call you.
+            Or do nothing and wait for us to reach out. Both are fine.
+          </p>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white border-2 border-carbon shadow-hard-sm p-6 md:p-10">
+            <div class="mb-8 pb-6 border-b-2 border-gray-100">
+              <span class="inline-block bg-signal/10 border border-signal text-signal text-xs font-bold uppercase tracking-widest px-3 py-1 mb-3">Written Intake Form</span>
+              <h3 class="text-2xl font-extrabold tracking-tighter">Discovery Questions</h3>
+              <p class="text-gray-500 text-sm mt-2">All fields optional. Fill in what you can — we'll cover the rest when we chat.</p>
+            </div>
+            <DiscoveryForm client:load tier="launch" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <!-- MANUAL CONTACT (Just in case) -->
-    <section class="py-16 bg-white border-b border-carbon">
+    <section class="py-16 bg-carbon text-white">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h3 class="text-2xl font-bold mb-6">Need to talk to us right now?</h3>
+        <h3 class="text-2xl font-bold mb-4">Need to talk to us right now?</h3>
+        <p class="text-gray-400 mb-6">We monitor messages 7 days a week.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="sms:0221725793" class="bg-carbon text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-gray-800 transition-colors shadow-hard-sm">
-            Text Nic: 022 172 5793
-          </a>
-          <a href="mailto:hello@yourhq.co.nz" class="bg-white text-carbon border-2 border-carbon px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors shadow-hard-sm">
-            Email Lian
-          </a>
+          <a href="sms:0221725793" class="text-lg hover:text-signal transition-colors">📱 Text Nic: 022 172 5793</a>
+          <span class="hidden sm:inline text-gray-600">|</span>
+          <a href="mailto:hello@yourhq.co.nz" class="text-lg hover:text-signal transition-colors">✉️ hello@yourhq.co.nz</a>
         </div>
       </div>
     </section>

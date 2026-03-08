@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import DiscoveryForm from '../components/DiscoveryForm.jsx';
 ---
 
 <Layout
@@ -139,29 +140,48 @@ import Footer from '../components/Footer.astro';
       </div>
     </section>
 
-    <!-- AI AGENT FORM SECTION -->
+    <!-- INTAKE SECTION -->
     <section class="py-24 bg-white border-b border-carbon">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div class="text-center mb-12">
           <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
-            Let's Korero About Your Business
+            Tell Us About Your Business
           </h2>
           <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-            Our AI Agent will have a chat with you about your business, services, and booking needs. Just answer naturally - no forms, no hassle.
+            Choose how you'd like to share your info. Both end up in the same place.
           </p>
         </div>
 
-        <!-- CLIENT INTAKE FORM -->
+        <!-- TWO OPTIONS -->
+        <div class="max-w-3xl mx-auto mb-16 grid md:grid-cols-2 gap-6">
+          <div class="bg-carbon text-white p-8 border-2 border-carbon shadow-hard relative">
+            <span class="absolute -top-3 left-4 bg-hibiscus text-white text-xs font-bold uppercase tracking-widest px-3 py-1">Recommended</span>
+            <div class="text-3xl mb-4">🎙️</div>
+            <h3 class="text-xl font-extrabold tracking-tighter mb-2">Chat with our AI Agent</h3>
+            <p class="text-gray-300 text-sm">Tap the button in the bottom-right corner. Talk naturally — 15–20 minutes, done. We capture your voice directly.</p>
+          </div>
+          <div class="bg-paper p-8 border-2 border-carbon">
+            <div class="text-3xl mb-4">✍️</div>
+            <h3 class="text-xl font-extrabold tracking-tighter mb-2">Prefer to type?</h3>
+            <p class="text-gray-600 text-sm">Fill in the written form below at your own pace. All fields are optional — answer what you can.</p>
+          </div>
+        </div>
+
+        <!-- WRITTEN FORM -->
         <div class="max-w-4xl mx-auto">
-          <div class="bg-white border-2 border-carbon shadow-hard-sm p-4 md:p-8">
-            <div style="width:100%;height:700px;" data-fillout-id="hxWefwsCsGus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
-            <script src="https://server.fillout.com/embed/v1/"></script>
+          <div class="bg-white border-2 border-carbon shadow-hard-sm p-6 md:p-10">
+            <div class="mb-8 pb-6 border-b-2 border-gray-100">
+              <span class="inline-block bg-hibiscus/10 border border-hibiscus text-hibiscus text-xs font-bold uppercase tracking-widest px-3 py-1 mb-3">Written Intake Form</span>
+              <h3 class="text-2xl font-extrabold tracking-tighter">Growth Package — Discovery Questions</h3>
+              <p class="text-gray-500 text-sm mt-2">All fields optional. The more you fill in, the better your site.</p>
+            </div>
+            <DiscoveryForm client:load tier="growth" />
           </div>
 
           <!-- BACKUP CONTACT -->
           <div class="mt-8 text-center border-t border-carbon pt-8">
-            <p class="text-sm text-gray-600 mb-4">Prefer to chat directly? (Priority Support)</p>
+            <p class="text-sm text-gray-600 mb-4">Rather chat directly? (Priority Support)</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="sms:0221725793" class="bg-hibiscus text-white px-6 py-3 text-sm font-bold uppercase tracking-widest hover:bg-carbon transition-colors">
                 Text: 022 172 5793
