@@ -37,10 +37,11 @@ export default function MailingListPopup({ excludePaths = [] }) {
     const form = e.target;
     const name = form.name.value.trim();
     const email = form.email.value.trim();
+    const referral_source = form.referral_source.value || null;
 
     const { error } = await supabase
       .from('leads')
-      .insert({ name, email, source: 'mailing-list-popup' });
+      .insert({ name, email, source: 'mailing-list-popup', referral_source });
 
     if (error) {
       console.error('Supabase error:', error);
@@ -95,6 +96,22 @@ export default function MailingListPopup({ excludePaths = [] }) {
                 <label htmlFor="popup-email" className="text-xs font-bold uppercase tracking-wide text-gray-500">Email</label>
                 <input type="email" name="email" id="popup-email" placeholder="e.g., sarah@email.com" required
                   className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="popup-referral" className="text-xs font-bold uppercase tracking-wide text-gray-500">How did you find us? <span className="text-gray-400 normal-case font-normal">(optional)</span></label>
+                <select name="referral_source" id="popup-referral"
+                  className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
+                  <option value="">Select an option...</option>
+                  <option value="Google Search">Google Search</option>
+                  <option value="Google Maps">Google Maps</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="Word of Mouth">Word of Mouth</option>
+                  <option value="Referral">Referral / Partner</option>
+                  <option value="Blog / Article">Blog / Article</option>
+                  <option value="Other">Other</option>
+                </select>
               </div>
 
               <button type="submit" disabled={status === 'sending'}

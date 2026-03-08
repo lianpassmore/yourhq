@@ -2150,11 +2150,11 @@ We say "unlimited" and we mean it — for normal business use. Most clients send
 
 **Fair Use Guideline**
 
-Each Launch and Growth subscription includes up to **2 hours of update work per month** as part of your plan. This covers the vast majority of clients comfortably — most use well under an hour.
+Launch subscriptions include up to **2 hours of update work per month**, and Growth subscriptions include up to **3 hours of update work per month** as part of your plan. This covers the vast majority of clients comfortably — most use well under their allowance.
 
 **What Happens If You Go Over**
 
-If your update requests consistently exceed 2 hours per month over a rolling 3-month period, we'll have a conversation with you. No surprises, no sudden charges. We'll work together to find a solution that keeps things fair — whether that's batching requests, upgrading your plan, or quoting additional hours.
+If your update requests consistently exceed your monthly allowance over a rolling 3-month period, we'll have a conversation with you. No surprises, no sudden charges. We'll work together to find a solution that keeps things fair — whether that's batching requests, upgrading your plan, or quoting additional hours.
 
 We will never charge you extra without discussing it first.
 
@@ -2195,7 +2195,7 @@ The refresh is a **design update to existing content**, not a full rebuild. It d
 |---|---|---|---|
 | **Included updates** | None (pay-as-you-go) | Unlimited (fair use) | Unlimited (fair use) |
 | **Response time** | N/A | 2 business days | 1 business day |
-| **Fair use allowance** | N/A | 2 hrs/month | 2 hrs/month |
+| **Fair use allowance** | N/A | 2 hrs/month | 3 hrs/month |
 | **Annual design refresh** | Not included | Included | Included |
 | **Additional work rate** | $145/hr + GST | $145/hr + GST | $145/hr + GST |
 | **Quoting process** | Estimate before work | Estimate before work | Estimate before work |
@@ -2204,7 +2204,7 @@ The refresh is a **design update to existing content**, not a full rebuild. It d
 
 ### Plain English Version (For Website / Terms Page)
 
-> **Updates are unlimited for Launch and Growth — with a fair use guideline of up to 2 hours of update work per month.** That covers the vast majority of changes any business needs. If you regularly need more, we'll have a chat and sort it out together. Growth clients hear back within 1 business day; Launch within 2. Any work outside your plan — new pages, new features, or major changes — is quoted at $145/hr + GST, and we always give you a written estimate before we start. No surprises.
+> **Updates are unlimited for Launch and Growth — with a fair use guideline of up to 2 hours/month for Launch and 3 hours/month for Growth.** That covers the vast majority of changes any business needs. If you regularly need more, we'll have a chat and sort it out together. Growth clients hear back within 1 business day; Launch within 2. Any work outside your plan — new pages, new features, or major changes — is quoted at $145/hr + GST, and we always give you a written estimate before we start. No surprises.
 
 ---
 
