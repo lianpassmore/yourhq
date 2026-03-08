@@ -317,7 +317,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 <label className={LABEL}>If a customer was telling a mate about you, what would you want them to say?</label>
                 <textarea
                   name="Word of mouth ideal quote" rows={3}
-                  placeholder='"Just ring Jane — she'll sort it out, no dramas."'
+                  placeholder={'"Just ring Jane — she\'ll sort it out, no dramas."'}
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
