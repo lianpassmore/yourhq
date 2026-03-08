@@ -16,6 +16,7 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.16.4",
+    "esbuild": "^0.27.3",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "tailwind": "^4.0.0",
