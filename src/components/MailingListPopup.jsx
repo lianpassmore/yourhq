@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
+import { notifyNtfy } from '../lib/notify';
 
 const STORAGE_KEY = 'yourhq_popup_dismissed';
 const DISMISS_DAYS = 7;
@@ -48,6 +49,10 @@ export default function MailingListPopup({ excludePaths = [] }) {
       setStatus('error');
     } else {
       setStatus('success');
+      notifyNtfy(
+        `${name || 'Someone'} signed up to the mailing list.`,
+        'New Mailing List Signup'
+      );
       setTimeout(() => {
         localStorage.setItem(STORAGE_KEY, Date.now().toString());
         setVisible(false);

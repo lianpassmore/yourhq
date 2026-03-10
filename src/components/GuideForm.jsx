@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
+import { notifyNtfy } from '../lib/notify';
 
 export default function GuideForm() {
   const [status, setStatus] = useState('idle'); // idle | sending | success | error
@@ -24,6 +25,10 @@ export default function GuideForm() {
     } else {
       setStatus('success');
       form.reset();
+      notifyNtfy(
+        `${name || 'Someone'} requested the guide.`,
+        'New Guide Request'
+      );
     }
   }
 

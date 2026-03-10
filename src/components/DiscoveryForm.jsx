@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
+import { notifyNtfy } from '../lib/notify';
 
 const INPUT = "w-full border-2 border-gray-200 p-3 text-carbon focus:outline-none transition-colors bg-white";
 const TEXTAREA = "w-full border-2 border-gray-200 p-3 text-carbon focus:outline-none transition-colors resize-none bg-white";
@@ -66,6 +67,10 @@ export default function DiscoveryForm({ tier = 'launch' }) {
       setStatus('error');
     } else {
       setStatus('success');
+      notifyNtfy(
+        `${name || 'Someone'} submitted the discovery form. (${tier})`,
+        'Discovery Form Submitted'
+      );
     }
   }
 

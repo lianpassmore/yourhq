@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
+import { notifyNtfy } from '../lib/notify';
 
 export default function ContactForm() {
   const [status, setStatus] = useState('idle'); // idle | sending | success | error
@@ -25,6 +26,10 @@ export default function ContactForm() {
     } else {
       setStatus('success');
       form.reset();
+      notifyNtfy(
+        `${name || 'Someone'} sent a contact message.`,
+        'New Contact Form'
+      );
     }
   }
 

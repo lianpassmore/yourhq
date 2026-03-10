@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
+import { notifyNtfy } from '../lib/notify';
 
 export default function LeadMagnetForm({
   source = 'lead-magnet',
@@ -35,6 +36,10 @@ export default function LeadMagnetForm({
       }
       setStatus('success');
       form.reset();
+      notifyNtfy(
+        `${name || 'Someone'} submitted a lead magnet form. (${source})`,
+        'New Lead Magnet Signup'
+      );
       if (pdfUrl) {
         window.open(pdfUrl, '_blank');
       }

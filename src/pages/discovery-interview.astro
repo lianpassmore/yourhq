@@ -133,18 +133,35 @@ import DiscoveryForm from '../components/DiscoveryForm.jsx';
 
   <!-- DYNAMIC GREETING SCRIPT -->
   <script is:inline>
-    // This script checks the URL for a ?name= parameter
-    // and updates the H1 tag to welcome them personally.
-    
     document.addEventListener('DOMContentLoaded', () => {
       const urlParams = new URLSearchParams(window.location.search);
       const name = urlParams.get('name');
       const greetingElement = document.getElementById('dynamic-greeting');
 
       if (name && greetingElement) {
-        // Capitalize first letter just in case
         const cleanName = name.charAt(0).toUpperCase() + name.slice(1);
         greetingElement.innerHTML = `Kia ora, ${cleanName}.<br/>Ready for your interview?`;
+      }
+
+      // Notify via ntfy.sh when the ElevenLabs interview ends
+      const widget = document.querySelector('elevenlabs-convai');
+      if (widget) {
+        widget.addEventListener('elevenlabs-convai:call-ended', () => {
+          const name = new URLSearchParams(window.location.search).get('name');
+          const message = name
+            ? `${name.charAt(0).toUpperCase() + name.slice(1)} just completed their discovery interview.`
+            : 'Someone just completed their discovery interview.';
+
+          fetch('https://ntfy.sh/yourhq-discovery', {
+            method: 'POST',
+            body: message,
+            headers: {
+              'Title': 'Discovery Interview Completed',
+              'Priority': 'high',
+              'Tags': 'tada',
+            },
+          }).catch(() => {});
+        });
       }
     });
   </script>

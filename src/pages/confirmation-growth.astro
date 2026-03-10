@@ -215,4 +215,23 @@ import DiscoveryForm from '../components/DiscoveryForm.jsx';
   <!-- ELEVENLABS VOICE AGENT WIDGET -->
   <elevenlabs-convai agent-id="agent_8801kbr4e3s1f32vwgejq4wdcezp"></elevenlabs-convai>
   <script is:inline src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      const widget = document.querySelector('elevenlabs-convai');
+      if (widget) {
+        widget.addEventListener('elevenlabs-convai:call-ended', () => {
+          const name = new URLSearchParams(window.location.search).get('name');
+          const message = name
+            ? `${name.charAt(0).toUpperCase() + name.slice(1)} just completed their discovery interview. (Growth)`
+            : 'Someone just completed their discovery interview. (Growth)';
+          fetch('https://ntfy.sh/yourhq-discovery', {
+            method: 'POST',
+            body: message,
+            headers: { 'Title': 'Discovery Interview Completed', 'Priority': 'high', 'Tags': 'tada' },
+          }).catch(() => {});
+        });
+      }
+    });
+  </script>
 </Layout>
