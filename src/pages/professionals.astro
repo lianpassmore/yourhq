@@ -1,0 +1,464 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import StructuredData from '../components/StructuredData.astro';
+import ContactInfo from '../components/ContactInfo.astro';
+---
+
+<Layout
+  title="Websites for Professional Services NZ | Built in 5 Days | YourHQ"
+  description="Done-for-you websites for NZ physios, accountants, lawyers & consultants. Built in 5 days. No homework. Pass the Google Test. From $347.50 (Founding Offer)."
+>
+  <StructuredData slot="head" />
+
+  <!-- Announcement Bar -->
+  <div class="bg-signal text-white text-center py-3 px-4 text-sm font-mono tracking-widest uppercase border-b border-white/10 relative overflow-hidden">
+    <div class="absolute inset-0 bg-white/20 animate-pulse"></div>
+    <span class="relative z-10">⏳ Founding Offer Ends March 31: <strong>50% Off All Builds</strong> + Rate Locked for Life | Code: <strong>FOUNDING26</strong></span>
+  </div>
+
+  <!-- Navbar -->
+  <Navbar client:load />
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="relative pt-20 pb-24 md:pt-32 md:pb-40 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div class="max-w-5xl">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-3 px-4 py-2 border-2 border-carbon bg-white shadow-hard-sm mb-8">
+              <span class="flex h-3 w-3 relative">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-signal opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-signal"></span>
+              </span>
+              <span class="text-xs font-mono font-bold uppercase tracking-widest text-carbon">Physios • Accountants • Lawyers • Consultants</span>
+            </div>
+
+            <!-- Headline -->
+            <h1 class="text-5xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+              They Google You Before They Book. <br/>
+              <span class="text-signal">What Do They Find?</span>
+            </h1>
+
+            <!-- Subhead -->
+            <div class="border-l-4 border-carbon pl-6 mb-10 max-w-3xl">
+                <p class="text-xl md:text-2xl font-medium leading-relaxed text-carbon/90 mb-4">
+                  You studied for years to be a practitioner, not a web designer. But your online presence currently decides whether they call you — or your competitor.
+                </p>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                  Corporate-grade websites for independent professionals. Built in 5 days. Pass the Google Test without a single hour of homework.
+                </p>
+            </div>
+
+            <!-- CTAs -->
+            <div class="flex flex-col sm:flex-row gap-4 items-start">
+              <a href="#offer" class="bg-signal text-white px-8 py-5 text-center border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[4px] transition-all font-bold uppercase tracking-widest text-sm md:text-base">
+                Claim Founding Deal (50% Off)
+              </a>
+              <a href="#process" class="bg-white text-carbon px-8 py-5 text-center border-2 border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-widest text-sm md:text-base">
+                See How It Works
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- TRUSTED BY NZ PROFESSIONALS -->
+    <section class="py-10 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-8">
+        <p class="text-sm font-mono font-bold uppercase tracking-widest text-gray-400">Trusted by NZ Professionals</p>
+        <div class="flex flex-wrap items-center justify-center gap-10 md:gap-16">
+          <img src="/ember-and-ice-logo.webp" alt="Ember and Ice" class="h-8 md:h-10 object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+          <img src="/carve-logo.webp" alt="Carve" class="h-8 md:h-10 object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: THE PROBLEM -->
+    <section class="py-24 bg-carbon text-paper border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter leading-tight mb-6">
+                You're Brilliant at What You Do.<br/>
+                <span class="text-frangipani">Why Does Your Website Say Otherwise?</span>
+              </h2>
+              <div class="space-y-6 text-lg font-light text-gray-300 mt-8">
+                <p>Here's what happens every day: Someone needs a professional. They ask around, get a name — then they Google that name before they ever pick up the phone.</p>
+                <p>If they find nothing, a broken Wix site, or a directory listing with no photos, <strong class="text-white font-medium">they hesitate</strong>. They keep scrolling until they find someone who looks established.</p>
+                <p>Corporate referral partners, ACC case managers, and insurance companies check websites before adding practitioners to approved panels. Without a professional digital footprint, you are invisible to the systems that feed your practice.</p>
+              </div>
+            </div>
+            
+            <!-- Google Test UI Card -->
+            <div class="bg-white text-carbon p-1 rounded-sm shadow-hard-white transform rotate-1 hover:rotate-0 transition-transform duration-500">
+              <div class="border border-gray-200 bg-gray-50 px-6 py-4 border-b-0 flex items-center gap-4">
+                <div class="w-8 h-8 rounded-full bg-blue-100 text-signal flex items-center justify-center font-bold">G</div>
+                <div class="h-4 w-48 bg-gray-200 rounded-full"></div>
+              </div>
+              <div class="bg-white p-8 border border-gray-200">
+                <p class="text-signal font-mono font-bold uppercase tracking-widest text-xs mb-4 flex items-center gap-2">
+                  <span class="w-2 h-2 bg-signal rounded-full animate-pulse"></span>
+                  The Google Test
+                </p>
+                <h3 class="text-2xl font-bold mb-4">The gap between your reputation and your revenue.</h3>
+                <p class="text-gray-600 mb-6">
+                  When someone Googles your practice, what they find determines whether they call you or your competitor. If the answer is "not much" — you are losing money to professionals who are less qualified than you, but look better online.
+                </p>
+                <div class="bg-carbon text-white text-sm font-bold px-4 py-3 inline-block">
+                  We close that gap in 5 days.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: THE CREDIBILITY GAP -->
+    <section class="bg-paper border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto">
+          <div class="grid md:grid-cols-2">
+
+            <!-- Left: Visual -->
+            <div class="bg-carbon border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[500px] relative overflow-hidden">
+              <div class="absolute inset-0 bg-[size:20px_20px] bg-grid-pattern opacity-20"></div>
+              <div class="relative w-full aspect-square border-4 border-white overflow-hidden bg-gray-50 shadow-hard-white group z-10">
+                <img src="/hands.webp" alt="Professional services" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100" />
+                <div class="absolute inset-0 border-8 border-transparent group-hover:border-signal/20 transition-all duration-500 z-20"></div>
+              </div>
+            </div>
+
+            <!-- Right: The Content -->
+            <div class="p-8 md:p-24 flex flex-col justify-center bg-white">
+              <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-8 leading-tight">
+                Your Work Is World-Class. <br/>
+                <span class="text-signal">Does Your Website Say That?</span>
+              </h2>
+
+              <div class="prose text-carbon space-y-6 text-lg">
+                <p>You studied for 4–7 years. You carry professional indemnity insurance. You're registered with your professional body. Your clients trust you with their health, finances, and futures.</p>
+                <p><strong>And then someone Googles you and finds an embarrassing old site that actively undermines the credibility you've spent a career building.</strong></p>
+                <p class="text-gray-500">Less qualified practitioners are winning clients right now simply because they look more professional online. That's the credibility gap. And it's entirely fixable.</p>
+
+                <div class="p-6 border-l-4 border-signal bg-paper mt-8">
+                    <p class="font-extrabold text-xl mb-2">We don't build and disappear.</p>
+                    <p class="text-base text-gray-700">Your website stays current, secure, and professionally maintained — so you never have to think about it again.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: THE MATH (ROI RECEIPT) -->
+    <section class="py-24 bg-carbon border-b border-carbon relative overflow-hidden">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-white tracking-tighter mb-4">
+                    The Math That Matters
+                </h2>
+                <p class="text-xl text-gray-400">Your barrier to a website isn't budget — it's priority. <br/>Let's look at what inaction actually costs.</p>
+            </div>
+
+            <!-- The Receipt UI -->
+            <div class="bg-white p-8 md:p-12 shadow-hard-white border-t-8 border-signal relative">
+                <!-- Receipt Jagged Top (CSS trick) -->
+                <div class="absolute top-[-8px] left-0 right-0 h-2 bg-[radial-gradient(circle,white_4px,transparent_4px)] bg-[size:12px_12px] -mt-2 hidden"></div>
+                
+                <div class="text-center mb-8 border-b-2 border-dashed border-gray-300 pb-8">
+                    <p class="font-mono text-sm text-gray-500 uppercase tracking-widest mb-2">ROI Calculation</p>
+                    <p class="font-bold text-2xl text-carbon">Professional Services</p>
+                    <p class="font-mono text-xs text-gray-400 mt-2">DATE: {new Date().toLocaleDateString()}</p>
+                </div>
+
+                <div class="space-y-4 font-mono text-sm md:text-base text-carbon border-b-2 border-dashed border-gray-300 pb-8 mb-8">
+                    <div class="flex justify-between items-end">
+                        <span class="text-gray-600">Avg. Consultation Fee</span>
+                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
+                        <span class="font-bold">$80–$150</span>
+                    </div>
+                    <div class="flex justify-between items-end">
+                        <span class="text-gray-600">1 Client Lost Per Week (Annually)</span>
+                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
+                        <span class="font-bold text-hibiscus">-$5,200</span>
+                    </div>
+                    <div class="flex justify-between items-end">
+                        <span class="text-gray-600">Lost ACC / Corporate Panel (One-off)</span>
+                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
+                        <span class="font-bold text-hibiscus">-$10,000+</span>
+                    </div>
+                    
+                    <div class="pt-6 mt-6 border-t border-gray-100"></div>
+                    
+                    <div class="flex justify-between items-end text-lg">
+                        <span class="font-bold text-signal">YourHQ Launch (Year 1 Total)</span>
+                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
+                        <span class="font-bold text-signal">$2,783</span>
+                    </div>
+                </div>
+
+                <div class="bg-paper p-6 text-center border border-carbon/10">
+                    <p class="text-xl font-extrabold text-carbon mb-2">Breakeven = ~1 new client a month.</p>
+                    <p class="text-sm text-gray-600">One corporate referral you would have otherwise lost covers the entire year. Everything else is profit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: THE PROCESS -->
+    <section id="process" class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-12 gap-16">
+            <div class="md:col-span-5">
+               <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter leading-tight sticky top-24">
+                Built in 5 Days.<br/>
+                Zero Homework.<br/>
+                <span class="text-gray-400">Seriously.</span>
+              </h2>
+              <p class="text-xl text-gray-600 mt-6 leading-relaxed">
+                You didn't spend years becoming an expert to spend your weekends fighting with a website builder. We handle the entire process.
+              </p>
+            </div>
+
+            <div class="md:col-span-7 space-y-0 mt-8 md:mt-0">
+              <!-- Step 1 -->
+              <div class="flex gap-6 md:gap-8 pb-16 border-l-2 border-carbon pl-8 md:pl-12 relative">
+                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-signal border-4 border-paper flex items-center justify-center text-white font-bold text-xs">1</div>
+                <div>
+                  <h3 class="text-2xl font-extrabold mb-3">The Discovery Call (15 mins)</h3>
+                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
+                    A quick 15-minute conversation — between patients, over lunch, or driving home. We ask the right questions and capture everything we need. No forms. No writing your own copy.
+                  </p>
+                  <span class="inline-block bg-white px-3 py-1 text-xs font-mono font-bold uppercase border border-carbon shadow-hard-sm">Zero Typing Required</span>
+                </div>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="flex gap-6 md:gap-8 pb-16 border-l-2 border-carbon pl-8 md:pl-12 relative">
+                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-carbon border-4 border-paper flex items-center justify-center text-white font-bold text-xs">2</div>
+                <div>
+                  <h3 class="text-2xl font-extrabold mb-3">We Do the Research (0 mins)</h3>
+                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
+                    We pull your credentials, reviews, photos, and practice details from your socials, Google, and professional body listings. We write the copy. You don't chase files.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Step 3 -->
+              <div class="flex gap-6 md:gap-8 pb-16 border-l-2 border-carbon pl-8 md:pl-12 relative">
+                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-hibiscus border-4 border-paper flex items-center justify-center text-white font-bold text-xs">3</div>
+                <div>
+                  <h3 class="text-2xl font-extrabold mb-3">The Factory Build (Days 1-4)</h3>
+                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
+                    We build your site — professional design, credibility signals, mobile-optimised, SEO-ready. Fast, clean, and built to reflect the quality of your actual work.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Step 4 -->
+              <div class="flex gap-6 md:gap-8 border-l-2 border-transparent pl-8 md:pl-12 relative">
+                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-frangipani border-4 border-paper flex items-center justify-center text-carbon font-bold text-xs">4</div>
+                <div>
+                  <h3 class="text-2xl font-extrabold mb-3">Preview on Day 5 (Love it or Refund)</h3>
+                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
+                    We send a private preview link. Want tweaks? We sort them. Don't love it? Full refund of your setup fee (minus ~3% processing + any domain costs).
+                  </p>
+                  <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-mono font-bold uppercase border border-carbon shadow-hard-sm">Risk-Free Launch</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION: PROFESSIONAL PRESENCE SETUP -->
+    <section class="py-24 bg-white border-b border-carbon">
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight mb-8">
+                Your Google Presence Is Your New Front Door. <br/>
+                <span class="text-signal">We Set It Up Properly.</span>
+              </h2>
+
+              <div class="prose text-carbon space-y-6 text-lg">
+                <p>When someone Googles your specialty and your suburb, Google shows a short list of businesses in the Map Pack. A professional website tied to a properly configured Google Business Profile is what gets you there.</p>
+                <p class="font-extrabold text-2xl text-carbon pt-6 border-t border-carbon/10">
+                  We build the website. We set up the Google presence. We connect both.
+                </p>
+                <p>So when a potential client, a referral partner, or an insurance panel Googles you — they find a practitioner who looks as credible online as they are in person.</p>
+              </div>
+            </div>
+
+            <div class="bg-paper p-8 md:p-12 border-2 border-carbon shadow-hard">
+                <p class="font-mono font-bold text-sm uppercase tracking-widest text-signal mb-8">What We Handle For You</p>
+                <ul class="space-y-5">
+                    <li class="flex gap-4 items-start">
+                        <div class="w-6 h-6 rounded bg-signal text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
+                        <span class="font-medium text-lg">Professional website — clean, credible, fast</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <div class="w-6 h-6 rounded bg-signal text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
+                        <span class="font-medium text-lg">Qualifications & memberships displayed properly</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <div class="w-6 h-6 rounded bg-signal text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
+                        <span class="font-medium text-lg">Booking system integration (Cliniko, Halaxy, etc.)</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <div class="w-6 h-6 rounded bg-signal text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
+                        <span class="font-medium text-lg">Google Business Profile setup & optimisation</span>
+                    </li>
+                    <li class="flex gap-4 items-start">
+                        <div class="w-6 h-6 rounded bg-signal text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
+                        <span class="font-medium text-lg">Annual design refresh — your site never ages</span>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SECTION: PRICING WITH FOUNDING MEMBER OFFER -->
+    <section id="offer" class="py-24 bg-paper border-b border-carbon">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div class="text-center max-w-3xl mx-auto mb-16">
+             <div class="inline-block bg-signal text-white px-4 py-1 text-sm font-mono font-bold uppercase tracking-widest mb-6 animate-pulse">
+               Ending March 31, 2026
+             </div>
+             <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-6">Founding Member Offer</h2>
+             <p class="text-xl text-carbon/80 leading-relaxed">
+               50% Off All Builds. Monthly rates locked for life. <br/>
+               <strong class="text-signal">Strictly 26 spots remaining.</strong>
+             </p>
+          </div>
+
+          <div class="max-w-lg mx-auto">
+             <!-- Growth Package Card -->
+             <div class="p-8 md:p-10 border-4 border-carbon bg-white flex flex-col relative shadow-[8px_8px_0px_0px_#111111] transform md:-rotate-1 hover:rotate-0 transition-transform duration-300">
+
+                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-carbon text-white px-6 py-2 font-mono font-bold uppercase tracking-widest text-xs shadow-sm whitespace-nowrap">
+                    Best For Professional Services
+                </div>
+
+                <div class="text-center mb-8 mt-4 border-b border-gray-100 pb-8">
+                    <h3 class="text-3xl font-extrabold mb-2">The Growth</h3>
+                    <p class="text-gray-500">Authority-Building 7-Page Site</p>
+                </div>
+
+                <!-- PRICING STACK -->
+                <div class="text-center mb-8">
+                    <div class="flex justify-center items-center gap-3 mb-2">
+                        <span class="text-gray-400 line-through decoration-2 text-xl font-bold">$1,495</span>
+                        <span class="text-6xl font-extrabold tracking-tighter text-signal">$747<span class="text-3xl">.50</span></span>
+                    </div>
+                    <p class="text-gray-500 font-mono text-xs uppercase tracking-widest">+ GST SETUP (ONE-OFF)</p>
+                    
+                    <div class="flex items-center justify-center gap-2 mt-6 bg-gray-50 py-3 rounded border border-gray-200">
+                        <span class="text-xl font-bold text-carbon">$249</span>
+                        <span class="text-gray-600 font-mono text-xs">/mo + GST (Locked for Life)</span>
+                    </div>
+                </div>
+
+                <ul class="space-y-4 mb-8 flex-1">
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal font-bold">✓</span> 7-page professional website</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal font-bold">✓</span> 15-minute discovery call (no homework)</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal font-bold">✓</span> Domain + hosting included</li>
+                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal font-bold">✓</span> Unlimited text/photo updates</li>
+                    <li class="flex gap-3 text-sm font-bold bg-signal/10 px-2 py-1 -mx-2"><span class="text-signal">✓</span> Annual design refresh included</li>
+                    <li class="flex gap-3 text-sm font-bold bg-signal/10 px-2 py-1 -mx-2"><span class="text-signal">✓</span> Google Business Profile setup</li>
+                </ul>
+
+                <div class="mb-6 p-4 border-2 border-dashed border-gray-300 bg-gray-50 text-center relative group">
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Use Code at Checkout:</p>
+                    <p class="text-2xl font-mono font-bold text-carbon">FOUNDING26</p>
+                </div>
+
+                <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="w-full block bg-signal text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-carbon transition-colors text-lg shadow-hard-sm hover:shadow-none hover:translate-y-[2px]">
+                    Claim 50% Off Build
+                </a>
+                
+                <p class="text-center text-xs mt-6 text-gray-500 font-mono">
+                    "Love Your Launch" Guarantee:<br/>Full refund if you don't love the preview.
+                </p>
+             </div>
+          </div>
+
+          <div class="text-center mt-12">
+            <p class="text-gray-500 text-sm mb-2">Not ready for Growth? The Launch plan ($497.50 setup + $149/mo) builds a solid 5-page foundation.</p>
+            <a href="/pricing" class="text-carbon font-bold uppercase tracking-widest text-xs hover:text-signal transition-colors border-b border-carbon hover:border-signal pb-1">Compare all plans</a>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: REAL TALK / FAQ -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
+            Yeah, <span class="text-signal">But...</span>
+          </h2>
+          <p class="text-xl text-gray-600">The questions analytical professionals usually ask.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <!-- FAQ 1 -->
+          <div class="bg-paper border-l-4 border-signal p-8 shadow-sm">
+            <h3 class="text-lg font-bold mb-3 text-carbon">"I'm already fully booked through referrals. Why do I need a website?"</h3>
+            <p class="text-gray-700 leading-relaxed text-sm">
+              So that when those referrals Google you before they call — and they will — they feel confident they made a good choice. A professional website validates every referral and protects your reputation.
+            </p>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-paper border-l-4 border-carbon p-8 shadow-sm">
+            <h3 class="text-lg font-bold mb-3 text-carbon">"I'm worried about compliance and saying the wrong thing online."</h3>
+            <p class="text-gray-700 leading-relaxed text-sm">
+              We write copy that presents your practice professionally without making claims you shouldn't (adhering to general allied health/legal guidelines). You review and approve every single word on Day 5 before it goes live.
+            </p>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-paper border-l-4 border-carbon p-8 shadow-sm">
+            <h3 class="text-lg font-bold mb-3 text-carbon">"I tried Wix/Squarespace and gave up after 20 hours."</h3>
+            <p class="text-gray-700 leading-relaxed text-sm">
+              That's exactly who we built this for. DIY builders are great if you have time and design skills. You don't. We take the whole thing off your plate permanently.
+            </p>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-paper border-l-4 border-signal p-8 shadow-sm">
+            <h3 class="text-lg font-bold mb-3 text-carbon">"What happens if I stop my monthly plan?"</h3>
+            <p class="text-gray-700 leading-relaxed text-sm">
+              You own your website. We'll migrate the files to you at no charge. No lock-in contracts. No held-hostage sites. Your domain is yours, your content is yours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-32 bg-carbon text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">Pass the Google Test.</h2>
+            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">Your reputation deserves a website that reflects the quality of your work. Let's sort it in 5 days, with one 15-minute call.</p>
+
+            <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-lg md:text-xl mb-12">
+              Start Your Build
+            </a>
+
+            <ContactInfo variant="cta" class="border-t border-white/20 pt-8" showLocation={false} />
+        </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Layout>

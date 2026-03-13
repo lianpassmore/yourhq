@@ -1,6 +1,6 @@
 # YourHQ Website Copy - Complete Proofreading Document
 
-**Last Updated:** March 2, 2026
+**Last Updated:** March 13, 2026
 **Purpose:** Comprehensive text copy for proofreading across all website pages
 
 ---
@@ -157,7 +157,7 @@ A site that gets you found locally, looks legit, and makes it dead-easy for peop
 Your Instagram looks beautiful… but it doesn't run your bookings. And it doesn't help new clients trust you fast.
 
 **The Fix:**
-A portfolio + booking-ready website you actually own — so clients can browse, trust, and book without back-and-forth DMs.
+A portfolio + booking-ready website you actually own — so clients can browse, trust, and book without back-and-forth DMs. Take deposits or full payments — without the Shopify overhead.
 
 ### Card 3: The Professionals
 **Category:** Consultants / Legal / Coaches
@@ -323,7 +323,7 @@ Launch Package: $497.50 setup (50% off) + $149/mo locked for life
 **CTA:** Start Launch Build
 
 ### Package 2: The Growth
-**For Salons & Consultants**
+**For Salons, Consultants & Hospo**
 
 **Badge:** Most Popular
 
@@ -473,7 +473,7 @@ FOUNDING26
 **CTA:** Start Launch Build
 
 ### Package 2: The Growth
-**For Salons & Consultants**
+**For Salons, Consultants & Hospo**
 
 **Badge:** Most Popular
 
@@ -483,6 +483,7 @@ FOUNDING26
 **Includes:**
 - Everything in Launch, plus:
 - Booking System Integration
+- Stripe Payment Integration (deposits, full payments, service selections)
 - Blog / News Section
 - Instagram Feed Integration
 - Priority Support (1 Business Day Response)
@@ -634,6 +635,11 @@ Usually, yes. Agencies often cost $10,000–$20,000 over two years. YourHQ is $4
 ### FAQ 7: What's included in the Google Maps setup?
 **Launch & Growth:** We claim/verify your listing (where needed), write the description, set service areas, add photos, and link it to your website.
 **Growth only:** Includes a review collection system to help you build your ratings over time.
+
+### FAQ 8: Can you set up online payments on my website?
+Yes — on the Growth plan. We can build a simple Stripe payment flow so customers can select from your services, pay a deposit, or pay in full. This suits cafes taking catering bookings, consultants collecting retainers, or anyone who needs to get paid through their site.
+
+What we don't do is full online stores — product catalogues, inventory management, and shipping workflows are a different beast. For that, Shopify is the right tool and we'll point you in the right direction.
 
 ---
 
@@ -1498,7 +1504,7 @@ If they don't like the preview, we refund them. Your reputation stays intact.
 - Creatives needing a professional presence
 
 ### Not a Fit:
-- E-commerce or online stores
+- Online stores (products, inventory, variants — use Shopify for that)
 - DIYers who want to build it themselves
 - Businesses needing complex custom systems
 - People shopping for the absolute cheapest option
@@ -2102,7 +2108,7 @@ We strive for 99.9% uptime, but we are not liable for loss of business due to te
 
 ## FAIR USE & UPDATE POLICY
 
-**Last Updated:** March 2, 2026
+**Last Updated:** March 13, 2026
 
 ### 1. What's Included in "Unlimited Updates"
 
@@ -2120,6 +2126,7 @@ Launch and Growth plans include unlimited *reasonable* updates to your existing 
 
 - New pages beyond your original site structure
 - New integrations (e.g. adding a booking system to a Launch site)
+- Full e-commerce (product catalogues, inventory management — quoted separately or referred to Shopify)
 - Major design changes outside your annual refresh
 - Custom functionality or features not in your package
 - Blog post writing or content creation (we update what you provide)
@@ -2360,6 +2367,27 @@ Fast builds. Long-term care.
 
 ---
 
+# CHANGELOG (March 13, 2026)
+
+## Stripe Payments & E-commerce Boundary Copy (March 13, 2026)
+
+### Homepage (index.astro)
+- **Creatives card "The Fix"**: Added "Take deposits or full payments — without the Shopify overhead."
+- **Growth package subtitle**: "For Salons & Consultants" → "For Salons, Consultants & Hospo"
+
+### Pricing Page (pricing.astro)
+- **Growth package subtitle**: "For Salons & Consultants" → "For Salons, Consultants & Hospo"
+- **Growth feature list**: Added "Stripe Payment Integration (deposits, full payments, service selections)" after Booking System Integration
+- **New FAQ 8**: "Can you set up online payments on my website?" — explains Stripe payment flow for Growth, and draws clean line vs Shopify for full e-commerce
+
+### Network Page (network.astro)
+- **"Not a Fit" list**: "E-commerce or online stores" → "Online stores (products, inventory, variants — use Shopify for that)"
+
+### Legal/Terms Page (legal.astro)
+- **"Not Included" list**: Added "Full e-commerce (product catalogues, inventory management — quoted separately or referred to Shopify)"
+
+---
+
 # CHANGELOG (February 14, 2026)
 
 ## Major Copy Rewrite (February 14, 2026)
@@ -2472,6 +2500,6 @@ Fast builds. Long-term care.
 # END OF DOCUMENT
 
 **Total Pages:** 17+ pages documented (Homepage, Pricing, Tradies, How It Works, Portfolio, Our Story, Contact, Refer, Network, Legal, NZ Website Design, Guide, Google Guide, Discovery Interview, Privacy, Blog Index, Footer, Navbar)
-**Last Updated:** March 2, 2026
+**Last Updated:** March 13, 2026
 **Document Compiled By:** YourHQ Team
 **Status:** Fully updated to match current source code

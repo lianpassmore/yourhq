@@ -45,6 +45,12 @@ export default function DiscoveryForm({ tier = 'launch' }) {
     const email = (data.get('email') || '').trim();
     const business = (data.get('business') || '').trim();
 
+    // Honeypot check — bots fill hidden fields, humans don't
+    if (data.get('bot-field')) {
+      setStatus('success');
+      return;
+    }
+
     // Build a formatted message from every field that has a value
     const lines = [];
     for (const [key, value] of data.entries()) {

@@ -55,7 +55,7 @@ import FAQSchema from '../components/FAQSchema.astro';
                     Founding Member Offer <span class="text-signal">(Ends March 31, 2026)</span>
                 </h2>
                 <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    Get the Launch package for $497.50 + GST setup (50% off) and $149 + GST/month locked for life. As we add features, the price for new members will go up. Yours never moves.
+                    Get <strong>50% off any package</strong> — Starter $347.50, Launch $497.50, or Growth $747.50 (+ GST setup) — and your monthly rate locked for life. As we add features, the price for new members will go up. Yours never moves.
                 </p>
 
                 <!-- Scarcity Note -->
@@ -69,15 +69,19 @@ import FAQSchema from '../components/FAQSchema.astro';
             <div class="p-8 md:p-12 bg-gray-50 flex flex-col justify-center">
 
                 <!-- Price Comparison -->
-                <div class="flex items-center gap-4 mb-8">
-                    <div>
-                        <span class="block text-gray-400 line-through text-lg font-bold decoration-red-500 decoration-2">$995 + GST</span>
-                        <span class="text-xs text-gray-400 font-mono uppercase">Standard Setup</span>
+                <div class="mb-8 space-y-2">
+                    <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">50% Off Any Package</p>
+                    <div class="flex items-center justify-between text-sm">
+                        <span class="text-gray-400 line-through">Starter $695</span>
+                        <span class="font-black text-signal">$347.50 + GST</span>
                     </div>
-                    <div class="text-2xl text-gray-300">&rarr;</div>
-                    <div>
-                        <span class="block text-4xl font-black text-signal">$497.50 <span class="text-lg text-carbon font-bold">+ GST</span></span>
-                        <span class="text-xs text-signal font-mono uppercase font-bold">Founding Rate</span>
+                    <div class="flex items-center justify-between text-sm">
+                        <span class="text-gray-400 line-through">Launch $995</span>
+                        <span class="font-black text-signal">$497.50 + GST</span>
+                    </div>
+                    <div class="flex items-center justify-between text-sm">
+                        <span class="text-gray-400 line-through">Growth $1,495</span>
+                        <span class="font-black text-signal">$747.50 + GST</span>
                     </div>
                 </div>
 
@@ -113,7 +117,7 @@ import FAQSchema from '../components/FAQSchema.astro';
             <div class="bg-white border-2 border-carbon p-8 md:p-12 relative shadow-hard group hover:-translate-y-1 transition-transform duration-300">
                 <div class="mb-8 border-b-2 border-carbon/5 pb-8">
                     <h2 class="text-4xl font-black mb-2 text-carbon">The Launch</h2>
-                    <p class="text-gray-500 font-medium">For Tradies & Retailers</p>
+                    <p class="text-gray-500 font-medium">For Tradies, Retail & Hospo</p>
                 </div>
 
                 <div class="mb-8">
@@ -161,7 +165,7 @@ import FAQSchema from '../components/FAQSchema.astro';
 
                 <div class="mb-8 border-b-2 border-carbon/5 pb-8">
                     <h2 class="text-4xl font-black mb-2 text-signal">The Growth</h2>
-                    <p class="text-gray-500 font-medium">For Salons & Consultants</p>
+                    <p class="text-gray-500 font-medium">For Salons, Consultants & Hospo</p>
                 </div>
 
                 <div class="mb-8">
@@ -181,6 +185,9 @@ import FAQSchema from '../components/FAQSchema.astro';
                     </li>
                     <li class="flex gap-3 text-base text-carbon">
                         <span class="text-signal font-black">&#10003;</span> Booking System Integration
+                    </li>
+                    <li class="flex gap-3 text-base text-carbon">
+                        <span class="text-signal font-black">&#10003;</span> Stripe Payment Integration (deposits, full payments, service selections)
                     </li>
                     <li class="flex gap-3 text-base text-carbon">
                         <span class="text-signal font-black">&#10003;</span> Blog / News Section
@@ -478,6 +485,15 @@ import FAQSchema from '../components/FAQSchema.astro';
             <h3 class="text-lg font-bold mb-2 text-carbon">Is this cheaper than a traditional agency?</h3>
             <p class="text-gray-600 text-sm leading-relaxed">
               Usually, yes. Agencies often cost $10,000&ndash;$20,000 over two years. YourHQ is $4,573 + GST for Launch over the same period &mdash; including updates and annual refresh.
+            </p>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="border-l-4 border-hibiscus pl-6 py-2">
+            <h3 class="text-lg font-bold mb-2 text-carbon">Can you set up online payments on my website?</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Yes — on the Growth plan. We can build a simple Stripe payment flow so customers can select from your services, pay a deposit, or pay in full. This suits cafes taking catering bookings, consultants collecting retainers, or anyone who needs to get paid through their site.<br/><br/>
+              What we don't do is full online stores — product catalogues, inventory management, and shipping workflows are a different beast. For that, Shopify is the right tool and we'll point you in the right direction.
             </p>
           </div>
 

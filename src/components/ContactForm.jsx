@@ -16,6 +16,12 @@ export default function ContactForm() {
     const message = form.message.value.trim();
     const referral_source = form.referral_source.value || null;
 
+    // Honeypot check — bots fill hidden fields, humans don't
+    if (form['bot-field'].value) {
+      setStatus('success');
+      return;
+    }
+
     const { error } = await supabase
       .from('leads')
       .insert({ name, email, business, message, source: 'contact', referral_source });
@@ -58,7 +64,7 @@ export default function ContactForm() {
         <div className="space-y-2">
           <label htmlFor="business" className="text-xs font-bold uppercase tracking-wide text-gray-500">Business Name</label>
           <input type="text" id="business" name="business" required
-            className="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" placeholder="Jane's Electrical" />
+            className="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" placeholder="My Business Name" />
         </div>
       </div>
 
