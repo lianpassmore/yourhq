@@ -125,7 +125,10 @@ import ContactInfo from '../components/ContactInfo.astro';
             <div class="bg-carbon border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[500px] relative overflow-hidden">
               <div class="absolute inset-0 bg-[size:20px_20px] bg-grid-pattern opacity-20"></div>
               <div class="relative w-full aspect-square border-4 border-white overflow-hidden bg-gray-50 shadow-hard-white group z-10">
-                <img src="/hands.webp" alt="Professional services" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100" />
+                
+                <!-- Unsplash Image - object-center ensures the hands are anchored in the middle of the square -->
+                <img src="https://unsplash.com/photos/JNwba6cv4e0/download?w=1408" onerror="this.src='/hands.webp'" alt="Professional holding baby's hand" class="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100" />
+                
                 <div class="absolute inset-0 border-8 border-transparent group-hover:border-signal/20 transition-all duration-500 z-20"></div>
               </div>
             </div>
