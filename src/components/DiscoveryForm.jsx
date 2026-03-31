@@ -45,7 +45,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
     const email = (data.get('email') || '').trim();
     const business = (data.get('business') || '').trim();
 
-    // Honeypot check — bots fill hidden fields, humans don't
+    // Honeypot check - bots fill hidden fields, humans don't
     if (data.get('bot-field')) {
       setStatus('success');
       return;
@@ -86,9 +86,9 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto text-3xl">
           ✓
         </div>
-        <h3 className="text-2xl font-extrabold tracking-tighter">Sorted — we've got it!</h3>
+        <h3 className="text-2xl font-extrabold tracking-tighter">Sorted - we've got it!</h3>
         <p className="text-gray-600 max-w-md mx-auto">
-          We've received your details and we'll get started. Keep an eye on your inbox — we'll be in touch within 1–2 business days.
+          We've received your details and we'll get started. Keep an eye on your inbox - we'll be in touch within 1–2 business days.
         </p>
         <p className="text-sm text-gray-400">Questions? Text us: 022 172 5793</p>
       </div>
@@ -229,7 +229,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
               />
             </div>
             <div>
-              <label className={LABEL}>Why did you get into this? Or — what's the best part of the job?</label>
+              <label className={LABEL}>Why did you get into this? Or - what's the best part of the job?</label>
               <textarea
                 name="Why you do this work" rows={4}
                 placeholder="Tell us in your own words. No right or wrong answer..."
@@ -247,7 +247,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           <div className={SECTION}>
             <div className="mb-6">
               <h3 className="text-base font-extrabold tracking-tighter uppercase">Your Story</h3>
-              <p className="text-sm text-gray-500 mt-1">This is where we capture your voice. Write how you'd say it — not how you'd write it.</p>
+              <p className="text-sm text-gray-500 mt-1">This is where we capture your voice. Write how you'd say it - not how you'd write it.</p>
             </div>
             <div className="space-y-6">
               <div>
@@ -328,7 +328,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 <label className={LABEL}>If a customer was telling a mate about you, what would you want them to say?</label>
                 <textarea
                   name="Word of mouth ideal quote" rows={3}
-                  placeholder={'"Just ring Jane — she\'ll sort it out, no dramas."'}
+                  placeholder={'"Just ring Jane - she\'ll sort it out, no dramas."'}
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
@@ -564,7 +564,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         <div className={SECTION}>
           <div className="mb-6">
             <h3 className="text-base font-extrabold tracking-tighter uppercase">Booking System & Content</h3>
-            <p className="text-sm text-gray-500 mt-1">Growth-specific features — let's get these sorted.</p>
+            <p className="text-sm text-gray-500 mt-1">Growth-specific features - let's get these sorted.</p>
           </div>
           <div className="space-y-6">
             <div>
@@ -613,7 +613,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         )}
 
         <p className="text-xs text-gray-400 text-center">
-          All fields are optional — fill in what you can. We'll follow up on anything we need.
+          All fields are optional - fill in what you can. We'll follow up on anything we need.
         </p>
       </div>
     </form>

@@ -36,7 +36,7 @@ export default function GuideForm() {
     return (
       <div className="bg-paper p-8 border-2 border-carbon shadow-hard text-center">
         <h3 className="text-2xl font-extrabold mb-4">You're in!</h3>
-        <p className="text-gray-600">Check your inbox — the guide is on its way.</p>
+        <p className="text-gray-600">Check your inbox - the guide is on its way.</p>
       </div>
     );
   }
@@ -65,7 +65,7 @@ export default function GuideForm() {
         <label htmlFor="referral_source" className="text-xs font-bold uppercase tracking-wide text-gray-500">How did you hear about us? <span className="normal-case font-normal">(optional)</span></label>
         <select id="referral_source" name="referral_source"
           className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
-          <option value="">— Select one —</option>
+          <option value="">- Select one -</option>
           <option value="Google / Search">Google / Search</option>
           <option value="Facebook / Instagram">Facebook / Instagram</option>
           <option value="Word of mouth">Word of mouth</option>

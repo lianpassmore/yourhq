@@ -16,7 +16,7 @@ export default function ContactForm() {
     const message = form.message.value.trim();
     const referral_source = form.referral_source.value || null;
 
-    // Honeypot check — bots fill hidden fields, humans don't
+    // Honeypot check - bots fill hidden fields, humans don't
     if (form['bot-field'].value) {
       setStatus('success');
       return;
@@ -84,7 +84,7 @@ export default function ContactForm() {
         <label htmlFor="referral_source" className="text-xs font-bold uppercase tracking-wide text-gray-500">How did you hear about us? <span className="normal-case font-normal">(optional)</span></label>
         <select id="referral_source" name="referral_source"
           className="w-full border-2 border-gray-200 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
-          <option value="">— Select one —</option>
+          <option value="">- Select one -</option>
           <option value="Google / Search">Google / Search</option>
           <option value="Facebook / Instagram">Facebook / Instagram</option>
           <option value="Word of mouth">Word of mouth</option>
