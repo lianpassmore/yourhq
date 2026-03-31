@@ -8,15 +8,9 @@ import ContactInfo from '../components/ContactInfo.astro';
 
 <Layout
   title="Websites for Professional Services NZ | Built in 5 Days | YourHQ"
-  description="Done-for-you websites for NZ physios, accountants, lawyers & consultants. Built in 5 days. No homework. Pass the Google Test. From $347.50 (Founding Offer)."
+  description="Done-for-you websites for NZ physios, accountants, lawyers & consultants. Built in 5 days. No homework. Pass the Google Test. From $995 + GST."
 >
   <StructuredData slot="head" />
-
-  <!-- Announcement Bar -->
-  <div class="bg-signal text-white text-center py-3 px-4 text-sm font-mono tracking-widest uppercase border-b border-white/10 relative overflow-hidden">
-    <div class="absolute inset-0 bg-white/20 animate-pulse"></div>
-    <span class="relative z-10">⏳ Founding Offer Ends March 31: <strong>50% Off All Builds</strong> + Rate Locked for Life | Code: <strong>FOUNDING26</strong></span>
-  </div>
 
   <!-- Navbar -->
   <Navbar client:load />
@@ -54,8 +48,8 @@ import ContactInfo from '../components/ContactInfo.astro';
 
             <!-- CTAs -->
             <div class="flex flex-col sm:flex-row gap-4 items-start">
-              <a href="#offer" class="bg-signal text-white px-8 py-5 text-center border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[4px] transition-all font-bold uppercase tracking-widest text-sm md:text-base">
-                Claim Founding Deal (50% Off)
+              <a href="/pricing" class="bg-signal text-white px-8 py-5 text-center border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[4px] transition-all font-bold uppercase tracking-widest text-sm md:text-base">
+                See Pricing &amp; Start Your Build
               </a>
               <a href="#process" class="bg-white text-carbon px-8 py-5 text-center border-2 border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-widest text-sm md:text-base">
                 See How It Works
@@ -327,18 +321,14 @@ import ContactInfo from '../components/ContactInfo.astro';
         </div>
     </section>
 
-    <!-- SECTION: PRICING WITH FOUNDING MEMBER OFFER -->
+    <!-- SECTION: PRICING -->
     <section id="offer" class="py-24 bg-paper border-b border-carbon">
         <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 
           <div class="text-center max-w-3xl mx-auto mb-16">
-             <div class="inline-block bg-signal text-white px-4 py-1 text-sm font-mono font-bold uppercase tracking-widest mb-6 animate-pulse">
-               Ending March 31, 2026
-             </div>
-             <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-6">Founding Member Offer</h2>
+             <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-6">Simple Pricing.</h2>
              <p class="text-xl text-carbon/80 leading-relaxed">
-               50% Off All Builds. Monthly rates locked for life. <br/>
-               <strong class="text-signal">Strictly 26 spots remaining.</strong>
+               No lock-in. You own your domain and site from day one.
              </p>
           </div>
 
@@ -358,14 +348,13 @@ import ContactInfo from '../components/ContactInfo.astro';
                 <!-- PRICING STACK -->
                 <div class="text-center mb-8">
                     <div class="flex justify-center items-center gap-3 mb-2">
-                        <span class="text-gray-400 line-through decoration-2 text-xl font-bold">$1,495</span>
-                        <span class="text-6xl font-extrabold tracking-tighter text-signal">$747<span class="text-3xl">.50</span></span>
+                        <span class="text-6xl font-extrabold tracking-tighter text-signal">$1,495</span>
                     </div>
                     <p class="text-gray-500 font-mono text-xs uppercase tracking-widest">+ GST SETUP (ONE-OFF)</p>
-                    
+
                     <div class="flex items-center justify-center gap-2 mt-6 bg-gray-50 py-3 rounded border border-gray-200">
                         <span class="text-xl font-bold text-carbon">$249</span>
-                        <span class="text-gray-600 font-mono text-xs">/mo + GST (Locked for Life)</span>
+                        <span class="text-gray-600 font-mono text-xs">/mo + GST</span>
                     </div>
                 </div>
 
@@ -378,15 +367,10 @@ import ContactInfo from '../components/ContactInfo.astro';
                     <li class="flex gap-3 text-sm font-bold bg-signal/10 px-2 py-1 -mx-2"><span class="text-signal">✓</span> Google Business Profile setup</li>
                 </ul>
 
-                <div class="mb-6 p-4 border-2 border-dashed border-gray-300 bg-gray-50 text-center relative group">
-                    <p class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Use Code at Checkout:</p>
-                    <p class="text-2xl font-mono font-bold text-carbon">FOUNDING26</p>
-                </div>
-
                 <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="w-full block bg-signal text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-carbon transition-colors text-lg shadow-hard-sm hover:shadow-none hover:translate-y-[2px]">
-                    Claim 50% Off Build
+                    Start Growth Build
                 </a>
-                
+
                 <p class="text-center text-xs mt-6 text-gray-500 font-mono">
                     "Love Your Launch" Guarantee:<br/>Full refund if you don't love the preview.
                 </p>
@@ -394,7 +378,7 @@ import ContactInfo from '../components/ContactInfo.astro';
           </div>
 
           <div class="text-center mt-12">
-            <p class="text-gray-500 text-sm mb-2">Not ready for Growth? The Launch plan ($497.50 setup + $149/mo) builds a solid 5-page foundation.</p>
+            <p class="text-gray-500 text-sm mb-2">Not ready for Growth? The Launch plan ($995 setup + $149/mo) builds a solid 5-page foundation.</p>
             <a href="/pricing" class="text-carbon font-bold uppercase tracking-widest text-xs hover:text-signal transition-colors border-b border-carbon hover:border-signal pb-1">Compare all plans</a>
           </div>
 
