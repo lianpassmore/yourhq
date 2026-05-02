@@ -156,7 +156,7 @@ Think about it:
 
 **Leads who complete detailed forms are 3-4x more likely to convert than leads who just send a quick email or leave a voicemail**.
 
-Why? Because they've invested time. They're serious. They're not just shopping around—they're ready to book.
+Why? Because they've invested time. They're serious. They're not just shopping around, they're ready to book.
 
 ### The "Minimum Charge" Filter
 
@@ -339,15 +339,15 @@ What would you do with an extra 100 hours?
 
 **How much time do tradies waste on unqualified enquiries?**
 
-The average tradie receives 10-15 phone calls per day, with 60% being unqualified leads. At 5 minutes per call, that's 45 minutes daily or 180 hours annually—equivalent to $18,000 in lost billable time at $100/hour rates. Businesses with comprehensive FAQ sections reduce support calls by 30-40%, saving 100-120 hours per year.
+The average tradie receives 10-15 phone calls per day, with 60% being unqualified leads. At 5 minutes per call, that's 45 minutes daily or 180 hours annually, equivalent to $18,000 in lost billable time at $100/hour rates. Businesses with comprehensive FAQ sections reduce support calls by 30-40%, saving 100-120 hours per year.
 
 **Does displaying pricing on my website hurt my business?**
 
-No—it helps. Displaying pricing information upfront reduces unqualified enquiries by 25-35%, meaning fewer time-wasters and more serious leads. While you'll get fewer total enquiries, qualified leads convert at 7-10x the rate of unqualified leads. You're optimising for quality over quantity, which increases efficiency and profitability.
+No, it helps. Displaying pricing information upfront reduces unqualified enquiries by 25-35%, meaning fewer time-wasters and more serious leads. While you'll get fewer total enquiries, qualified leads convert at 7-10x the rate of unqualified leads. You're optimising for quality over quantity, which increases efficiency and profitability.
 
 **Will a detailed contact form scare away potential clients?**
 
-Only the tyre-kickers—which is exactly what you want. Businesses using detailed contact forms see 40% fewer unqualified leads, and leads who complete detailed forms are 3-4x more likely to convert than those who send quick emails. Serious clients don't mind providing information; they understand it helps you serve them better and provide accurate quotes.
+Only the tyre-kickers, which is exactly what you want. Businesses using detailed contact forms see 40% fewer unqualified leads, and leads who complete detailed forms are 3-4x more likely to convert than those who send quick emails. Serious clients don't mind providing information; they understand it helps you serve them better and provide accurate quotes.
 
 **What information should I include on my website to filter leads?**
 
@@ -361,13 +361,13 @@ Small businesses implementing lead qualification systems report 30-50% productiv
 
 ### References
 
-1. Small Business Research Studies — Average tradie/service business receives 10-15 phone calls daily; phone interruptions reduce productivity by 20-30% when workers must stop tasks to answer
-2. Sales Lead Conversion Studies — 60% of inbound sales calls are unqualified leads; qualified leads convert at 7-10x rate of unqualified leads; proper qualification increases close rates from 5-10% to 20-30%
-3. Customer Support & FAQ Research — Comprehensive FAQ sections reduce support calls by 30-40%; self-service resources handle 60-70% of common questions without human intervention
-4. Qualified Lead Generation Research — Detailed contact forms reduce unqualified leads by 40%; leads completing detailed forms convert 3-4x better than quick-enquiry leads; effort invested correlates with purchase intent
-5. Pricing Transparency Studies — Displaying pricing information upfront reduces unqualified enquiries by 25-35%; price transparency increases trust and attracts budget-appropriate clients
-6. Business Productivity Research — Small businesses implementing lead qualification systems report 30-50% productivity gains; structured lead capture processes create 35% faster sales cycles
-7. Phorest via Professional Beauty UK / Salon Today — 46% of service bookings happen outside business hours; businesses without 24/7 booking capability miss nearly half of potential customers
-8. Trust & Credibility Research — 84% of consumers trust businesses with websites more than social-media-only presence; professional online presence signals legitimacy and organisation
+1. Small Business Research Studies. Average tradie/service business receives 10-15 phone calls daily; phone interruptions reduce productivity by 20-30% when workers must stop tasks to answer
+2. Sales Lead Conversion Studies, 60% of inbound sales calls are unqualified leads; qualified leads convert at 7-10x rate of unqualified leads; proper qualification increases close rates from 5-10% to 20-30%
+3. Customer Support & FAQ Research. Comprehensive FAQ sections reduce support calls by 30-40%; self-service resources handle 60-70% of common questions without human intervention
+4. Qualified Lead Generation Research. Detailed contact forms reduce unqualified leads by 40%; leads completing detailed forms convert 3-4x better than quick-enquiry leads; effort invested correlates with purchase intent
+5. Pricing Transparency Studies. Displaying pricing information upfront reduces unqualified enquiries by 25-35%; price transparency increases trust and attracts budget-appropriate clients
+6. Business Productivity Research. Small businesses implementing lead qualification systems report 30-50% productivity gains; structured lead capture processes create 35% faster sales cycles
+7. Phorest via Professional Beauty UK / Salon Today, 46% of service bookings happen outside business hours; businesses without 24/7 booking capability miss nearly half of potential customers
+8. Trust & Credibility Research, 84% of consumers trust businesses with websites more than social-media-only presence; professional online presence signals legitimacy and organisation
 
 

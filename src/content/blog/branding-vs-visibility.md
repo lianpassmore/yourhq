@@ -72,17 +72,17 @@ Then, and only then, spend the money on the fancy van wrap. Don't put the cart b
 ## Frequently Asked Questions
 
 **Should I get a website or rebrand first?**
-Website first. Always. A website makes you visible to the 97% of people who search online before hiring a tradie. Branding is polish—it enhances an existing presence but can't create one. Until you're showing up on Google, no amount of logo redesign will generate leads.
+Website first. Always. A website makes you visible to the 97% of people who search online before hiring a tradie. Branding is polish, it enhances an existing presence but can't create one. Until you're showing up on Google, no amount of logo redesign will generate leads.
 
 **Does my logo actually matter to customers?**
-Less than you think. Research shows customers hire based on trust signals like reviews, response time, and professional presentation—not logo design. Very few people choose a plumber because of a nice logo. A clean, consistent look helps, but it's nowhere near as important as being findable online.
+Less than you think. Research shows customers hire based on trust signals like reviews, response time, and professional presentation, not logo design. Very few people choose a plumber because of a nice logo. A clean, consistent look helps, but it's nowhere near as important as being findable online.
 
 **How much should a tradie spend on branding?**
-Focus your first $3,000 on visibility—a professional website and Google Business Profile. Save the big branding spend ($5,000+) for when you're scaling, have consistent lead flow, and want to match your image to your premium pricing. Branding before visibility is money wasted.
+Focus your first $3,000 on visibility, a professional website and Google Business Profile. Save the big branding spend ($5,000+) for when you're scaling, have consistent lead flow, and want to match your image to your premium pricing. Branding before visibility is money wasted.
 
 ---
 
 ### References
-1. BrightLocal Local Consumer Review Survey — 97% of consumers search online for local businesses
-2. Stanford Web Credibility Research — First impressions and trust signals
+1. BrightLocal Local Consumer Review Survey, 97% of consumers search online for local businesses
+2. Stanford Web Credibility Research. First impressions and trust signals
 3. Trade Business Growth Benchmarks NZ

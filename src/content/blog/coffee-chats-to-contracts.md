@@ -40,15 +40,15 @@ Let's talk about what's actually happening in that car park moment.
 
 ### The Psychology of Post-Meeting Research
 
-77% of B2B buyers research vendors before they even speak to sales. But here's the thing—**91% of buyers also come to initial meetings already familiar with the vendor**.
+77% of B2B buyers research vendors before they even speak to sales. But here's the thing: **91% of buyers also come to initial meetings already familiar with the vendor**.
 
 That means they've *already* Googled you once before the meeting. So why do they do it again after?
 
 Because emotions and logic happen in different parts of the brain.
 
-In the meeting, they connected with *you*—the human. They felt your energy, saw your expertise, trusted your vibe. That's the emotional sale, and it's powerful.
+In the meeting, they connected with *you*. The human. They felt your energy, saw your expertise, trusted your vibe. That's the emotional sale, and it's powerful.
 
-But when they walk away, the rational brain switches on. Now they need to *justify* that emotional decision with facts. Evidence. Proof that you're not just charismatic—you're credible.
+But when they walk away, the rational brain switches on. Now they need to *justify* that emotional decision with facts. Evidence. Proof that you're not just charismatic, you're credible.
 
 ### The Story That Made Me Think Differently
 
@@ -70,7 +70,7 @@ My friend's website at the time? A basic landing page with contact info and a va
 
 She didn't lose that deal because she wasn't good enough. She lost it because **she didn't pass the car park test.**
 
-## Your Website Isn't Lead Generation—It's Deal Validation
+## Your Website Isn't Lead Generation. It's Deal Validation
 
 I used to think websites were about *attracting* clients. And sure, SEO and discoverability matter.
 
@@ -78,7 +78,7 @@ But here's the thing: **Your website's biggest job isn't bringing people to you.
 
 It's the thing that validates you when you're not in the room.
 
-76% of people check your online presence before deciding whether to work with you. They're not just browsing—they're actively looking for reasons to trust you or reasons to walk away.
+76% of people check your online presence before deciding whether to work with you. They're not just browsing. They're actively looking for reasons to trust you or reasons to walk away.
 
 Your website is the silent partner in every sales conversation you have. Make sure it's working *for* you, not against you.
 
@@ -88,7 +88,7 @@ Imagine this: Someone's sitting in their car. They just had coffee with you. The
 
 What do they see?
 
-They're not reading your entire About page. Let's be real—nobody has time for that.
+They're not reading your entire About page. Let's be real. Nobody has time for that.
 
 They're scanning. Fast. Looking for three specific things:
 
@@ -112,7 +112,7 @@ They're scanning. Fast. Looking for three specific things:
 
 If your digital self matches your physical self? You've got them.
 
-If there's a mismatch—or worse, if they can't find you at all? You've lost them.
+If there's a mismatch, or worse, if they can't find you at all? You've lost them.
 
 And here's the kicker: **You have about 15 seconds to make that impression**. That's how long it takes for someone to decide whether your website is credible or not.
 
@@ -142,7 +142,7 @@ Which one are you?
 
 ## So What Do You Do About It?
 
-Look—I get it. Building a website feels overwhelming when you're already drowning in client work (or hustling to land it). The last thing you want is another big project on your plate.
+Look, I get it. Building a website feels overwhelming when you're already drowning in client work (or hustling to land it). The last thing you want is another big project on your plate.
 
 But here's the brutal truth: **Every great coffee meeting, every warm handshake, every "let's definitely work together" conversation comes down to that car park moment.**
 
@@ -169,7 +169,7 @@ Your website is doing one of two things right now:
 
 **...or it's costing you clients you should've won.**
 
-Every prospect who walks out of a meeting with you is going to Google you. It's not a matter of if—it's a matter of when. And what they find in that moment will either seal the deal or kill it.
+Every prospect who walks out of a meeting with you is going to Google you. It's not a matter of if. It's a matter of when. And what they find in that moment will either seal the deal or kill it.
 
 So make sure your digital self shows up as strong as your real self does.
 
@@ -183,7 +183,7 @@ Because you're too good at what you do to lose deals in a car park.
 
 **Why do prospects research consultants after meetings?**
 
-Prospects research consultants after meetings because they need logical evidence to support their emotional decision. While face-to-face meetings create trust and connection, buyers need concrete proof—like testimonials, case studies, and clear methodologies—to justify their choice to partners, stakeholders, or themselves.
+Prospects research consultants after meetings because they need logical evidence to support their emotional decision. While face-to-face meetings create trust and connection, buyers need concrete proof (like testimonials, case studies, and clear methodologies) to justify their choice to partners, stakeholders, or themselves.
 
 **What percentage of B2B buyers research vendors online?**
 
@@ -191,11 +191,11 @@ Prospects research consultants after meetings because they need logical evidence
 
 **How long do prospects spend reviewing consultant websites?**
 
-Most prospects spend approximately 15 seconds deciding whether a website is credible. They scan quickly for specific elements: testimonials, clear service descriptions, and authentic voice. This means your website needs to communicate expertise and credibility immediately—not after visitors dig through multiple pages.
+Most prospects spend approximately 15 seconds deciding whether a website is credible. They scan quickly for specific elements: testimonials, clear service descriptions, and authentic voice. This means your website needs to communicate expertise and credibility immediately, not after visitors dig through multiple pages.
 
 **What's more important for consultants: SEO or website credibility?**
 
-Both matter, but for consultants, **credibility is more critical**. While SEO helps new prospects find you, website credibility closes deals with people who've already met you. Your website's primary job is validation, not attraction. Focus first on testimonials, clear methodology, and authentic voice—then optimise for search.
+Both matter, but for consultants, **credibility is more critical**. While SEO helps new prospects find you, website credibility closes deals with people who've already met you. Your website's primary job is validation, not attraction. Focus first on testimonials, clear methodology, and authentic voice, then optimise for search.
 
 **What should be on a consulting website to close more deals?**
 
@@ -205,9 +205,9 @@ A deal-closing consultant website needs three core elements: (1) proof of credib
 
 ### References
 
-1. BrightLocal, *Local Consumer Review Survey 2023* — 95% of consumers read online reviews before making decisions
-2. 6sense, *2024 Buyer Experience Report* — 91% of B2B buyers arrive at meetings already familiar with vendors
-3. Visual Objects Survey 2021 — 76% of consumers check online presence before visiting or engaging with a business
-4. Corporate Visions B2B Research — 97% of buyers conduct online research during their buying journey
-5. Trust & credibility research by Door4 — Website trust indicators increase conversion rates
-6. Sales Lion — 77% of B2B buyers do their own research before speaking to sales
+1. BrightLocal, *Local Consumer Review Survey 2023*. 95% of consumers read online reviews before making decisions
+2. 6sense, *2024 Buyer Experience Report*. 91% of B2B buyers arrive at meetings already familiar with vendors
+3. Visual Objects Survey 2021. 76% of consumers check online presence before visiting or engaging with a business
+4. Corporate Visions B2B Research. 97% of buyers conduct online research during their buying journey
+5. Trust & credibility research by Door4. Website trust indicators increase conversion rates
+6. Sales Lion. 77% of B2B buyers do their own research before speaking to sales

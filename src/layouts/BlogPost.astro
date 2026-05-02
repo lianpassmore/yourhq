@@ -9,9 +9,60 @@ type Props = {
 }
 
 const { frontmatter } = Astro.props as Props;
+
+const siteUrl = 'https://yourhq.co.nz';
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteUrl).toString();
+const imageURL = frontmatter.image
+  ? new URL(frontmatter.image, siteUrl).toString()
+  : `${siteUrl}/og-image.jpg`;
+
+const blogPostingSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": frontmatter.title,
+  "description": frontmatter.description,
+  "image": imageURL,
+  "datePublished": frontmatter.pubDate.toISOString(),
+  "dateModified": (frontmatter.updatedDate ?? frontmatter.pubDate).toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": frontmatter.author,
+    "url": `${siteUrl}/about`
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "YourHQ",
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}/icon.png`
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalURL
+  },
+  "keywords": frontmatter.tags.join(", ")
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": `${siteUrl}/` },
+    { "@type": "ListItem", "position": 2, "name": "Journal", "item": `${siteUrl}/blog` },
+    { "@type": "ListItem", "position": 3, "name": frontmatter.title, "item": canonicalURL }
+  ]
+};
 ---
 
-<Layout title={`${frontmatter.title} | YourHQ Journal`} description={frontmatter.description}>
+<Layout
+  title={`${frontmatter.title} | YourHQ Journal`}
+  description={frontmatter.description}
+  image={frontmatter.image ? imageURL : undefined}
+  type="article"
+>
+  <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(blogPostingSchema)} />
+  <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(breadcrumbSchema)} />
   <Navbar client:load />
 
   <main class="bg-bone min-h-screen pt-32 pb-24">
@@ -37,7 +88,7 @@ const { frontmatter } = Astro.props as Props;
       <!-- Featured Image -->
       {frontmatter.image && (
         <figure class="mb-16 rounded-3xl overflow-hidden border border-carbon/10 shadow-elegant bg-white">
-          <img src={frontmatter.image} alt={frontmatter.title} class="w-full h-auto object-cover" />
+          <img src={frontmatter.image} alt={frontmatter.title} loading="lazy" decoding="async" class="w-full h-auto object-cover" />
         </figure>
       )}
 

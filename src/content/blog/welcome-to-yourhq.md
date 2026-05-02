@@ -25,7 +25,7 @@ And they DO evict people. Constantly.
 
 Let me tell you about Kellie Johnson, an Australian entrepreneur who sells wearable heat packs for endometriosis sufferers.
 
-In July 2025, Meta (Facebook and Instagram's parent company) suddenly suspended all her accounts—business Instagram, personal Instagram, Facebook, even her podcast account with only three posts.
+In July 2025, Meta (Facebook and Instagram's parent company) suddenly suspended all her accounts, business Instagram, personal Instagram, Facebook, even her podcast account with only three posts.
 
 No warning. No clear explanation. Just a generic "you violated community guidelines" message.
 
@@ -51,9 +51,9 @@ Here's what's happening to organic reach on social media in 2025:
 
 Maybe. If you're lucky.
 
-Some studies put Facebook's organic reach even lower—**as low as 1-2%**. That's 10-20 people out of 1,000.
+Some studies put Facebook's organic reach even lower, **as low as 1-2%**. That's 10-20 people out of 1,000.
 
-**Instagram:** Average organic reach is **4.0-7.6% per post in 2025**. And it's falling—**Instagram's reach dropped 18% year-over-year in 2024**.
+**Instagram:** Average organic reach is **4.0-7.6% per post in 2025**. And it's falling, **Instagram's reach dropped 18% year-over-year in 2024**.
 
 Let's do the maths:
 
@@ -69,7 +69,7 @@ In 2018, Facebook made a deliberate algorithm change to prioritise "meaningful i
 
 Translation: They want you to pay for ads.
 
-Instagram CEO Adam Mosseri stated in December 2022 that the platform's top priority is to "help people discover things they love"—meaning they're pushing discovery content (Reels, trending posts, paid ads) over content from accounts people already follow.
+Instagram CEO Adam Mosseri stated in December 2022 that the platform's top priority is to "help people discover things they love", meaning they're pushing discovery content (Reels, trending posts, paid ads) over content from accounts people already follow.
 
 **By 2025, your posts are being deprioritised on purpose**.
 
@@ -177,7 +177,7 @@ And the entire time, Instagram is whispering in your ear: *"You know what would 
 
 ## The Diversification Strategy: Owned + Rented
 
-Look—I'm not saying delete your Instagram account.
+Look, I'm not saying delete your Instagram account.
 
 Social media has value. It's great for:
 - Brand awareness
@@ -229,7 +229,7 @@ Once they're on your email list? You own that relationship. No algorithm can tak
 
 **Owned Media (Website + Email):**
 - ✅ You control 100% of reach
-- ✅ Stable—no algorithm changes
+- ✅ Stable, no algorithm changes
 - ✅ Can't be suspended or deleted
 - ✅ Full data ownership and portability
 - ✅ Higher conversion rates (2.7%)
@@ -314,30 +314,30 @@ In July 2025, multiple Australian businesses faced devastating losses from Meta 
 
 **How much has Instagram organic reach declined in 2025?**
 
-As of 2025, Instagram organic reach averages just 4.0-7.6% of your followers per post, down 18% year-over-year. Facebook is even worse at 2.6-5.9%, with some businesses seeing as low as 1-2%. This means a business with 5,000 Instagram followers reaches only 200-380 people per post—96% of their audience never sees their content.
+As of 2025, Instagram organic reach averages just 4.0-7.6% of your followers per post, down 18% year-over-year. Facebook is even worse at 2.6-5.9%, with some businesses seeing as low as 1-2%. This means a business with 5,000 Instagram followers reaches only 200-380 people per post, 96% of their audience never sees their content.
 
 **What's the actual ROI difference between email marketing and social media in 2025?**
 
-2025 data shows email marketing returns $36-44 for every $1 spent (3,600-4,400% ROI), while social media marketing returns just $0.28 per $1 (28% ROI). Email marketing is 157 times more profitable than social media. Additionally, website traffic converts at 2.7% compared to social media's 1.5%—nearly double the conversion rate.
+2025 data shows email marketing returns $36-44 for every $1 spent (3,600-4,400% ROI), while social media marketing returns just $0.28 per $1 (28% ROI). Email marketing is 157 times more profitable than social media. Additionally, website traffic converts at 2.7% compared to social media's 1.5%, nearly double the conversion rate.
 
 **Do I still need social media if I have a website?**
 
-Yes, but the relationship changes. Social media should drive traffic TO your owned assets (website, email list), not be your entire digital presence. Use social for brand awareness and engagement, but convert followers into email subscribers and website visitors you actually control. 69% of marketing experts believe owned media generates the best long-term results. The strategy is 80% owned assets, 20% rented platforms—not the reverse.
+Yes, but the relationship changes. Social media should drive traffic TO your owned assets (website, email list), not be your entire digital presence. Use social for brand awareness and engagement, but convert followers into email subscribers and website visitors you actually control. 69% of marketing experts believe owned media generates the best long-term results. The strategy is 80% owned assets, 20% rented platforms, not the reverse.
 
 **What happens to my Instagram followers if my account gets banned?**
 
-You lose everything instantly—all followers, all content, all conversations, and all ability to contact those people. Instagram owns your followers, not you. Unlike an email list you can export and own, Instagram data can't be transferred if you're suspended. This is why owned media (website + email list) is critical—no platform can take it away from you.
+You lose everything instantly, all followers, all content, all conversations, and all ability to contact those people. Instagram owns your followers, not you. Unlike an email list you can export and own, Instagram data can't be transferred if you're suspended. This is why owned media (website + email list) is critical, no platform can take it away from you.
 
 ---
 
 ### References
 
-1. Yahoo Finance Australia — July 2025: Kellie Johnson lost $83,000 in one month after Meta suspended accounts without warning; Rochelle Marinato's revenue dropped 75% ($50K loss) after Instagram suspension for posting video of dogs; AI moderation with no human review; no clear violation explanation
-2. Addictive Digital / Business.com — 2025 organic reach data: Facebook 2.6-5.9% (some studies 1-2%); Instagram 4.0-7.6%; Instagram reach dropped 18% year-over-year in 2024; platforms prioritising paid ads over organic business content
-3. Empowered Digital — November 2025: Website traffic converts at 2.7%, social media traffic at 1.5%; websites nearly double social media conversion rates due to controlled, focused environment vs distraction-heavy social feeds
-4. Swydo / HelpLama — September 2025 and June 2024: Email marketing ROI $36-44 per $1 spent (3,600-4,400% return); social media ROI $0.28 per $1 (28% return); email 157x more profitable than social; email delivers to 100% of list vs 4-8% social reach
-5. Dash of Social / Zen Media — Owned media (website, email list, content) provides full control, data ownership, transferable assets; rented media (social platforms) offers no ownership, algorithmic control, account suspension risk; 69% of marketers believe owned media generates best long-term results
-6. Grit Daily / Karl Mission — Algorithm changes create constant business disruption; 2018 Facebook deprioritised business content for paid ads; 2022 Instagram prioritised discovery over follower content; organic reach declining year-over-year by design to push advertising spend
-7. Afluencer / Benchmark Email — Adam Mosseri (Instagram CEO) stated platform prioritises "discovery" over follower content; AI-recommended posts from non-followed accounts replacing follower feed; businesses must adapt or pay for reach
-8. INSSIST — Instagram bans/blocks occur without warning; AI moderation often incorrect; limited recourse for small businesses; account suspension can be permanent with no appeal process
+1. Yahoo Finance Australia. July 2025: Kellie Johnson lost $83,000 in one month after Meta suspended accounts without warning; Rochelle Marinato's revenue dropped 75% ($50K loss) after Instagram suspension for posting video of dogs; AI moderation with no human review; no clear violation explanation
+2. Addictive Digital / Business.com, 2025 organic reach data: Facebook 2.6-5.9% (some studies 1-2%); Instagram 4.0-7.6%; Instagram reach dropped 18% year-over-year in 2024; platforms prioritising paid ads over organic business content
+3. Empowered Digital. November 2025: Website traffic converts at 2.7%, social media traffic at 1.5%; websites nearly double social media conversion rates due to controlled, focused environment vs distraction-heavy social feeds
+4. Swydo / HelpLama. September 2025 and June 2024: Email marketing ROI $36-44 per $1 spent (3,600-4,400% return); social media ROI $0.28 per $1 (28% return); email 157x more profitable than social; email delivers to 100% of list vs 4-8% social reach
+5. Dash of Social / Zen Media. Owned media (website, email list, content) provides full control, data ownership, transferable assets; rented media (social platforms) offers no ownership, algorithmic control, account suspension risk; 69% of marketers believe owned media generates best long-term results
+6. Grit Daily / Karl Mission. Algorithm changes create constant business disruption; 2018 Facebook deprioritised business content for paid ads; 2022 Instagram prioritised discovery over follower content; organic reach declining year-over-year by design to push advertising spend
+7. Afluencer / Benchmark Email. Adam Mosseri (Instagram CEO) stated platform prioritises "discovery" over follower content; AI-recommended posts from non-followed accounts replacing follower feed; businesses must adapt or pay for reach
+8. INSSIST. Instagram bans/blocks occur without warning; AI moderation often incorrect; limited recourse for small businesses; account suspension can be permanent with no appeal process
 

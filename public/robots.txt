@@ -13,7 +13,7 @@ Disallow: /confirmation-start
 Disallow: /confirmation-refresh
 
 # Sitemap location
-Sitemap: https://yourhq.co.nz/sitemap.xml
+Sitemap: https://yourhq.co.nz/sitemap-index.xml
 
 # Crawl delay (optional, helps prevent server overload)
 Crawl-delay: 1

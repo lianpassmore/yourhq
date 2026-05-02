@@ -18,7 +18,7 @@ Think about it: Your profile looks identical to every other consultant in your f
 
 Here's what most consultants don't realise: **77% of B2B buyers do their own research before they'll even speak to a salesperson**. And **B2B buyers review an average of 11 pieces of content before contacting a vendor**.
 
-If all your content lives on LinkedIn—where it disappears after a few days, where you have zero control over design, and where distractions are built into the platform—you're making it bloody hard for people to hire you.
+If all your content lives on LinkedIn, where it disappears after a few days, where you have zero control over design, and where distractions are built into the platform, you're making it bloody hard for people to hire you.
 
 ## The Three Fatal Flaws of LinkedIn-Only Consultants
 
@@ -46,7 +46,7 @@ That sounds better, right?
 
 But here's the catch: **Your post still relies entirely on the algorithm deciding to show it**.
 
-If the algorithm determines your post isn't getting early engagement, it gets buried. Forever. Even if it's your most valuable content—a detailed case study, a methodology breakdown, a lesson you learned from 15 years of consulting experience—it can disappear without reaching your audience.
+If the algorithm determines your post isn't getting early engagement, it gets buried. Forever. Even if it's your most valuable content, a detailed case study, a methodology breakdown, a lesson you learned from 15 years of consulting experience, it can disappear without reaching your audience.
 
 On your website? That content lives permanently. It's indexed by Google. People can find it six months, two years, five years later when they're researching your area of expertise.
 
@@ -93,9 +93,9 @@ Deep content isn't just about showing off your expertise (though it does that). 
 
 #### 1. It Builds Trust Through Demonstrated Expertise
 
-**Thought leadership content is one of the most effective strategies for building brand trust**. When prospects read your in-depth analysis of an industry problem, when they see your unique framework for solving complex challenges, when they learn from a detailed case study—they trust you before you've even spoken.
+**Thought leadership content is one of the most effective strategies for building brand trust**. When prospects read your in-depth analysis of an industry problem, when they see your unique framework for solving complex challenges, when they learn from a detailed case study, they trust you before you've even spoken.
 
-**White papers position your company as a thought leader by addressing industry issues with research-backed insights**. They signal that you're not just a consultant—you're someone who thinks deeply about your field and has original perspectives worth sharing.
+**White papers position your company as a thought leader by addressing industry issues with research-backed insights**. They signal that you're not just a consultant, you're someone who thinks deeply about your field and has original perspectives worth sharing.
 
 #### 2. It Attracts Qualified Leads
 
@@ -109,7 +109,7 @@ Compare that to LinkedIn engagement, where someone might like your post because 
 
 Here's something most consultants miss: **Deep content on your website ranks in Google search results.**
 
-When someone Googles "change management consultant Wellington" or "leadership development framework," your LinkedIn profile might show up. But your website—with detailed service pages, case studies, and thought leadership content—has a much better chance of ranking.
+When someone Googles "change management consultant Wellington" or "leadership development framework," your LinkedIn profile might show up. But your website, with detailed service pages, case studies, and thought leadership content, has a much better chance of ranking.
 
 **72% of B2B buyers start their research online**. If your content isn't findable through search engines, you're invisible to the majority of potential clients.
 
@@ -134,7 +134,7 @@ Let's talk about the concept of **owned media** versus **rented media**.
 - **You build trust and relationships with your audience**
 - **It's the biggest contributor to organic search rankings**, which is where most B2B buyers start their journey
 
-**69% of content marketers are investing in owned-media assets**. Why? Because it's the foundation of your digital presence. Everything else—LinkedIn, social media, paid ads—drives traffic *to* your owned media.
+**69% of content marketers are investing in owned-media assets**. Why? Because it's the foundation of your digital presence. Everything else, LinkedIn, social media, paid ads, drives traffic *to* your owned media.
 
 ### The Sovereignty Signal
 
@@ -150,7 +150,7 @@ If you don't have one? You're starting every sales conversation at a disadvantag
 
 ## The Knowledge Hub: What Your Website Should Actually Do
 
-Your website shouldn't be a digital business card. It should be a **Knowledge Hub**—a place where potential clients can:
+Your website shouldn't be a digital business card. It should be a **Knowledge Hub**, a place where potential clients can:
 
 ### 1. Understand Your Unique Methodology
 
@@ -166,7 +166,7 @@ Case studies. Client testimonials. Before-and-after stories. Results you've achi
 
 **77% of B2B buyers consult user reviews during their purchasing journey**. They want evidence that you can deliver what you promise.
 
-Your website is where you showcase that evidence in detail—not just a vague "increased productivity by 30%," but the full story of the challenge, your approach, the results, and what the client said about working with you.
+Your website is where you showcase that evidence in detail, not just a vague "increased productivity by 30%," but the full story of the challenge, your approach, the results, and what the client said about working with you.
 
 ### 3. Access Deep Resources That Demonstrate Expertise
 
@@ -174,7 +174,7 @@ White papers. Frameworks. Guides. Video content. Podcast episodes.
 
 **B2B buyers review an average of 11 pieces of content before contacting a vendor**. Your website is where you house those 11 pieces so they can consume them on their timeline, at their pace.
 
-And here's the beautiful part: Every piece of deep content on your website works for you 24/7. Someone can discover your methodology breakdown at 11pm on a Sunday, read it, and decide you're the consultant they need—all without you lifting a finger.
+And here's the beautiful part: Every piece of deep content on your website works for you 24/7. Someone can discover your methodology breakdown at 11pm on a Sunday, read it, and decide you're the consultant they need, all without you lifting a finger.
 
 ### 4. Understand What Working With You Actually Looks Like
 
@@ -244,7 +244,7 @@ You can, but it's limiting. B2B buyers are 57-70% through their research before 
 
 **What type of content should I put on my website vs LinkedIn?**
 
-Use LinkedIn for short-form thought leadership, timely insights, and conversation starters that drive traffic to your website. Reserve your website for deep content: comprehensive case studies, white papers, detailed methodology breakdowns, video content, and downloadable resources. This strategy captures leads at different stages—LinkedIn for awareness, your website for consideration and decision-making.
+Use LinkedIn for short-form thought leadership, timely insights, and conversation starters that drive traffic to your website. Reserve your website for deep content: comprehensive case studies, white papers, detailed methodology breakdowns, video content, and downloadable resources. This strategy captures leads at different stages, LinkedIn for awareness, your website for consideration and decision-making.
 
 **How important is having a website for B2B consulting sales?**
 
@@ -254,16 +254,16 @@ Critical. 97% of buyers check vendor websites before engaging, and 91% come to s
 
 ### References
 
-1. Sales Lion — 77% of B2B buyers do their own research before speaking to sales; buyers increasingly rely on self-directed content
-2. Sopro.io, *68 B2B Buyer Statistics* — B2B buyers review average of 11 pieces of content before contacting vendor; 72% start research online; 77% consult user reviews; 90% use online channels to find suppliers
-3. WBResearch / DemandGen Report — B2B buyers are 57-70% through buying research before contacting sales; 80% initiate contact at 70% through journey with preferred vendor already selected
-4. Corporate Visions / 6sense — 91% of buyers come to meetings already familiar with vendor; 97% check vendor websites before engaging
-5. Authored Up / RecurPost / Gravitec — LinkedIn algorithm extends post lifespan to 2-3 weeks for engaging content; relevance prioritised over recency; algorithm determines visibility
-6. Hootsuite, *LinkedIn Algorithm 2025* — Algorithm rewards meaningful engagement; past engagement history and poster expertise influence reach
-7. LinkedIn Article — LinkedIn profile vs website comparison: LinkedIn excels at networking but lacks content permanence and control; websites provide customisation and SEO benefits
-8. Marketing Insider Group, *Paid, Owned, and Earned Media ROI* — Owned media provides total control, always drives ROI, builds trust, biggest contributor to organic search rankings
-9. Proper Expression, *Content Marketing Statistics* — 90% use websites to distribute content; 69% investing in owned-media assets vs 57% previous year
-10. Epitomise / Revnew / Search Engine Land — Thought leadership builds trust; white papers establish authority and generate high-intent leads; case studies increase win rates by 28%
-11. Whitepapers Online — White papers ideal for mid-funnel education; case studies excel in final decision stage; leads from white papers more likely to convert
-12. Brixon Group — 44% of B2B buyers prefer self-directed demos; 57% learn about vendor weaknesses from independent sources; 65% research pricing before sales conversations
+1. Sales Lion, 77% of B2B buyers do their own research before speaking to sales; buyers increasingly rely on self-directed content
+2. Sopro.io, *68 B2B Buyer Statistics*. B2B buyers review average of 11 pieces of content before contacting vendor; 72% start research online; 77% consult user reviews; 90% use online channels to find suppliers
+3. WBResearch / DemandGen Report. B2B buyers are 57-70% through buying research before contacting sales; 80% initiate contact at 70% through journey with preferred vendor already selected
+4. Corporate Visions / 6sense, 91% of buyers come to meetings already familiar with vendor; 97% check vendor websites before engaging
+5. Authored Up / RecurPost / Gravitec. LinkedIn algorithm extends post lifespan to 2-3 weeks for engaging content; relevance prioritised over recency; algorithm determines visibility
+6. Hootsuite, *LinkedIn Algorithm 2025*. Algorithm rewards meaningful engagement; past engagement history and poster expertise influence reach
+7. LinkedIn Article. LinkedIn profile vs website comparison: LinkedIn excels at networking but lacks content permanence and control; websites provide customisation and SEO benefits
+8. Marketing Insider Group, *Paid, Owned, and Earned Media ROI*. Owned media provides total control, always drives ROI, builds trust, biggest contributor to organic search rankings
+9. Proper Expression, *Content Marketing Statistics*, 90% use websites to distribute content; 69% investing in owned-media assets vs 57% previous year
+10. Epitomise / Revnew / Search Engine Land. Thought leadership builds trust; white papers establish authority and generate high-intent leads; case studies increase win rates by 28%
+11. Whitepapers Online. White papers ideal for mid-funnel education; case studies excel in final decision stage; leads from white papers more likely to convert
+12. Brixon Group, 44% of B2B buyers prefer self-directed demos; 57% learn about vendor weaknesses from independent sources; 65% research pricing before sales conversations
 

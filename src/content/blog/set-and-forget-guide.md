@@ -34,7 +34,7 @@ Here's what happens behind the scenes of every website:
 
 #### 1. Security Updates
 
-**Over 1.6 million WordPress attacks happened in just 48 hours in October 2025**. And it's not just WordPress—any website built on a content management system (CMS) or using plugins needs regular security patches.
+**Over 1.6 million WordPress attacks happened in just 48 hours in October 2025**. And it's not just WordPress, any website built on a content management system (CMS) or using plugins needs regular security patches.
 
 When a vulnerability is discovered, developers release an update. If you don't apply that update? Hackers exploit the vulnerability. Simple as that.
 
@@ -86,7 +86,7 @@ Except you're not accounting for:
 
 - **Your time:** How many hours do you spend figuring out updates, fixing broken plugins, learning how to upload images, troubleshooting why something suddenly stopped working?
 - **Opportunity cost:** What else could you be doing with those hours? Running your actual business, maybe?
-- **Risk cost:** One hack, one expired SSL, one day of downtime—and your "cheap" DIY site just cost you thousands in lost revenue and reputation damage.
+- **Risk cost:** One hack, one expired SSL, one day of downtime, and your "cheap" DIY site just cost you thousands in lost revenue and reputation damage.
 
 **The biggest reasons DIY websites don't work for small businesses? Lack of strategy, unclear messaging, and conversion-focused design**. And most business owners don't have the technical skills or time to fix these issues properly.
 
@@ -124,7 +124,7 @@ We don't just give you access to a server and wish you luck. We actively manage 
 Your domain is registered under your name (you own it, not us), but we manage the technical side:
 
 - Automatic renewal reminders
-- DNS configuration (whatever that means—you don't need to know)
+- DNS configuration (whatever that means, you don't need to know)
 - Email forwarding setup
 - Protection against expiration or hijacking
 
@@ -142,11 +142,11 @@ You email us: *"I need to add a new staff member to the About page."*
 
 We handle it.
 
-**The average small business website maintenance costs $35-500/month depending on complexity**. But that typically doesn't include content updates—that's extra. With our Caretaker Model, it's included.
+**The average small business website maintenance costs $35-500/month depending on complexity**. But that typically doesn't include content updates, that's extra. With our Caretaker Model, it's included.
 
 #### SEO and Analytics: We Keep an Eye on Performance
 
-We're not just maintaining your site—we're making sure it's still *working* for you:
+We're not just maintaining your site, we're making sure it's still *working* for you:
 
 - **SEO monitoring:** Are you still ranking for your key terms? If not, we investigate and fix it
 - **Traffic analytics:** We track where visitors come from and how they behave on your site
@@ -162,7 +162,7 @@ No. Here's the difference:
 
 **Managed Hosting:** They keep the server running. That's it. If your site breaks, they'll tell you it's not their problem because it's a "software issue, not a server issue."
 
-**Caretaker Model:** We manage *everything*. Server, software, content, security, updates, monitoring. If something breaks—for any reason—we fix it. That's our job.
+**Caretaker Model:** We manage *everything*. Server, software, content, security, updates, monitoring. If something breaks, for any reason, we fix it. That's our job.
 
 **Most managed hosting providers charge $170-1,200/month**, and that's just for server maintenance. Content updates, design changes, or troubleshooting? That's extra.
 
@@ -243,7 +243,7 @@ But here's what you're not getting:
 
 And if something goes wrong? You're Googling solutions at midnight, trying to figure out why your booking form stopped working.
 
-**How much is your time worth?** If you spend 5 hours per month dealing with website issues, and your time is worth $100/hour, that's $500/month of opportunity cost—10x more than the platform fee.
+**How much is your time worth?** If you spend 5 hours per month dealing with website issues, and your time is worth $100/hour, that's $500/month of opportunity cost, 10x more than the platform fee.
 
 **Professional website management costs $200-500/month for small businesses**. But that includes everything: hosting, security, updates, content changes, monitoring, support.
 
@@ -266,7 +266,7 @@ If you don't have all eight of these? You don't have "Set and Forget." You have 
 
 ## The Bottom Line: Peace of Mind Has a Price (And It's Worth It)
 
-Look—I get it. Website maintenance feels like something you shouldn't have to pay for. It feels like a recurring expense that doesn't give you anything tangible.
+Look, I get it. Website maintenance feels like something you shouldn't have to pay for. It feels like a recurring expense that doesn't give you anything tangible.
 
 But here's the truth: **Not maintaining your website costs more**.
 
@@ -274,11 +274,11 @@ One hack. One day of downtime. One expired SSL certificate. One forgotten domain
 
 Any one of those incidents can cost you thousands in lost revenue, damaged reputation, and emergency fixes.
 
-**98% of organisations say a single hour of downtime costs over $100,000**. For small businesses, the cost is still significant—$17,000+ for just 4 hours.
+**98% of organisations say a single hour of downtime costs over $100,000**. For small businesses, the cost is still significant,$17,000+ for just 4 hours.
 
 Compare that to a predictable monthly fee that covers everything, gives you peace of mind, and lets you focus on running your business instead of troubleshooting tech issues.
 
-**The Caretaker Model isn't an expense—it's insurance.** Insurance that your digital infrastructure works when you need it, without you having to think about it.
+**The Caretaker Model isn't an expense, it's insurance.** Insurance that your digital infrastructure works when you need it, without you having to think about it.
 
 Because you've got a business to run. Not an IT department to manage.
 
@@ -294,15 +294,15 @@ Without regular maintenance, you risk security breaches (13,000 WordPress sites 
 
 **How much does website maintenance actually cost?**
 
-DIY website maintenance costs $0-100/month in platform fees but doesn't account for your time, opportunity cost, or risk. Professional maintenance ranges from $35-500/month for small businesses depending on complexity. Managed professional services typically cost $200-500/month but include everything: hosting, security, updates, content support, monitoring, and backups—making them more cost-effective than DIY when factoring in hidden costs.
+DIY website maintenance costs $0-100/month in platform fees but doesn't account for your time, opportunity cost, or risk. Professional maintenance ranges from $35-500/month for small businesses depending on complexity. Managed professional services typically cost $200-500/month but include everything: hosting, security, updates, content support, monitoring, and backups, making them more cost-effective than DIY when factoring in hidden costs.
 
 **What's the difference between managed hosting and a caretaker model?**
 
-Managed hosting providers ($170-1,200/month) only maintain the server—if your site breaks due to software issues, you're responsible. The Caretaker Model manages *everything*: server, software, content updates, security patches, SSL certificates, domain renewals, SEO monitoring, and troubleshooting. If anything breaks for any reason, it's handled. Professional management typically improves conversion rates by 15-25% within six months.
+Managed hosting providers ($170-1,200/month) only maintain the server, if your site breaks due to software issues, you're responsible. The Caretaker Model manages *everything*: server, software, content updates, security patches, SSL certificates, domain renewals, SEO monitoring, and troubleshooting. If anything breaks for any reason, it's handled. Professional management typically improves conversion rates by 15-25% within six months.
 
 **Can I really just text you to update content on my website?**
 
-Yes. With the Caretaker Model, you don't need to learn WordPress, figure out image resizing, or navigate complicated dashboards. Text or email us with what needs updating ("change homepage photo," "add new staff member," "update pricing"), and we handle it—usually within 24 hours. This eliminates the hidden time costs of DIY website management where business owners waste hours learning platforms and troubleshooting issues.
+Yes. With the Caretaker Model, you don't need to learn WordPress, figure out image resizing, or navigate complicated dashboards. Text or email us with what needs updating ("change homepage photo," "add new staff member," "update pricing"), and we handle it, usually within 24 hours. This eliminates the hidden time costs of DIY website management where business owners waste hours learning platforms and troubleshooting issues.
 
 **What's the ROI of professional website management?**
 
@@ -312,14 +312,14 @@ Professional management delivers measurable ROI through: improved uptime (98% of
 
 ### References
 
-1. WP Mayor — 4.7 million WordPress websites hacked yearly (13,000/day); 1,437 new vulnerabilities added to database annually; plugins are main vulnerability source
-2. Forbes (Davey Winder) — 1.6 million WordPress attacks in 48 hours (October 2025); critical plugin vulnerabilities exploited; security patches essential for protection
-3. Site Qwality / InMotion Hosting — Website downtime costs Global 2000 companies $400B annually; average cost $14,056/minute (all orgs) and $23,750/minute (large enterprises); 98% report 1 hour downtime costs $100,000+; 4 hours downtime can cost $17,000+ including SEO damage
-4. Jonroc — 46% of users won't enter information on sites marked "Not Secure"; 64% leave immediately upon seeing warning
-5. HyperPing / Webstacks / Cyberfolks — Website maintenance costs: DIY $0-100/mo, small business $35-500/mo, professional $200-500/mo; costs depend on complexity, security needs, content update frequency
-6. DomCop / ExpiredDomains — Millions of domains expire weekly; over 4.8 million expired in one day (Dec 2025); domain expiration leads to loss of website, email, and potential squatter ransoms
-7. Brick and Bytes / Design Loud — DIY websites fail due to: weak CTAs, overwhelming clutter, confusing messaging, lack of strategy, hidden time costs, technical complexity, poor SEO, limited features
-8. Rodriguez Ops Insight / Artist Dynamix — DIY site builder problems: not as easy as appears, hidden fees, poor design without professional experience, time wasted learning platforms, technical challenges, limited customisation
-9. Webstix / Catalyst2 — Professional website management improves conversion rates 15-25% within 6 months; managed services provide better performance, reliability, scalability, SEO optimisation, and measurable ROI through tracking
-10. UserGuiding / UXCam — 40% of users abandon sites taking >3 seconds to load; site speed directly impacts user experience and conversions
+1. WP Mayor, 4.7 million WordPress websites hacked yearly (13,000/day); 1,437 new vulnerabilities added to database annually; plugins are main vulnerability source
+2. Forbes (Davey Winder), 1.6 million WordPress attacks in 48 hours (October 2025); critical plugin vulnerabilities exploited; security patches essential for protection
+3. Site Qwality / InMotion Hosting. Website downtime costs Global 2000 companies $400B annually; average cost $14,056/minute (all orgs) and $23,750/minute (large enterprises); 98% report 1 hour downtime costs $100,000+; 4 hours downtime can cost $17,000+ including SEO damage
+4. Jonroc, 46% of users won't enter information on sites marked "Not Secure"; 64% leave immediately upon seeing warning
+5. HyperPing / Webstacks / Cyberfolks. Website maintenance costs: DIY $0-100/mo, small business $35-500/mo, professional $200-500/mo; costs depend on complexity, security needs, content update frequency
+6. DomCop / ExpiredDomains. Millions of domains expire weekly; over 4.8 million expired in one day (Dec 2025); domain expiration leads to loss of website, email, and potential squatter ransoms
+7. Brick and Bytes / Design Loud. DIY websites fail due to: weak CTAs, overwhelming clutter, confusing messaging, lack of strategy, hidden time costs, technical complexity, poor SEO, limited features
+8. Rodriguez Ops Insight / Artist Dynamix. DIY site builder problems: not as easy as appears, hidden fees, poor design without professional experience, time wasted learning platforms, technical challenges, limited customisation
+9. Webstix / Catalyst2. Professional website management improves conversion rates 15-25% within 6 months; managed services provide better performance, reliability, scalability, SEO optimisation, and measurable ROI through tracking
+10. UserGuiding / UXCam, 40% of users abandon sites taking >3 seconds to load; site speed directly impacts user experience and conversions
 

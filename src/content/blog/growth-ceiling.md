@@ -43,7 +43,7 @@ You need people who *don't* know your mum, *don't* know your previous clients, a
 
 This is the ultimate test of a business: **Can you win work from a complete stranger purely on the strength of your professional presentation?**
 
-If the answer is "No" (or "I don't know, I've never tried"), you don't have a business—you have a reputation.
+If the answer is "No" (or "I don't know, I've never tried"), you don't have a business, you have a reputation.
 
 A reputation is great. But it's not an asset you can scale.
 
@@ -100,20 +100,20 @@ It's time to meet some strangers.
 ## Frequently Asked Questions
 
 **Is word of mouth dead for tradies?**
-No—word of mouth is still the highest-quality lead source. Referred customers trust you more and convert faster. But it's a low-volume channel. Your referral network is mathematically limited by how many people you know and how often they happen to mention your trade. You should nurture word of mouth, but relying on it as your only growth strategy puts a hard cap on revenue.
+No, word of mouth is still the highest-quality lead source. Referred customers trust you more and convert faster. But it's a low-volume channel. Your referral network is mathematically limited by how many people you know and how often they happen to mention your trade. You should nurture word of mouth, but relying on it as your only growth strategy puts a hard cap on revenue.
 
 **Why do leads from Google pay more than referrals?**
-Because strangers hire a business, not a mate. When someone finds "Northland Electrical" on Google, they accept the company's price list. When someone hires "Dave" through a referral, they negotiate with a person—and often expect mates rates. A website shifts your positioning from individual tradie to professional business, which supports premium pricing.
+Because strangers hire a business, not a mate. When someone finds "Northland Electrical" on Google, they accept the company's price list. When someone hires "Dave" through a referral, they negotiate with a person, and often expect mates rates. A website shifts your positioning from individual tradie to professional business, which supports premium pricing.
 
 **How do I start getting work from strangers without a website?**
-You essentially can't—at least not at scale. Strangers have zero existing trust with you, so they rely entirely on digital trust signals: Google reviews, a professional website, portfolio photos, and verified qualifications. Without these, a stranger sees you as high-risk and chooses the competitor who looks more established online. A website is the minimum entry requirement for winning work outside your network.
+You essentially can't, at least not at scale. Strangers have zero existing trust with you, so they rely entirely on digital trust signals: Google reviews, a professional website, portfolio photos, and verified qualifications. Without these, a stranger sees you as high-risk and chooses the competitor who looks more established online. A website is the minimum entry requirement for winning work outside your network.
 
 **How long does it take to break through the word of mouth ceiling?**
-Most tradies start seeing Google leads within 1-3 months of launching a professional website, with significant momentum building by month 6 as reviews accumulate and search rankings improve. The key is consistency—every new review, every month of ranking, compounds your visibility to the 99% of the market you're currently invisible to.
+Most tradies start seeing Google leads within 1-3 months of launching a professional website, with significant momentum building by month 6 as reviews accumulate and search rankings improve. The key is consistency, every new review, every month of ranking, compounds your visibility to the 99% of the market you're currently invisible to.
 
 ---
 
 ### References
-1. Dunbar's Number Research — Social network size limits (~150 active connections)
-2. Stats NZ Small Business Growth Data — Revenue benchmarks for NZ trade businesses
-3. BrightLocal Consumer Trust Research — How strangers evaluate businesses online
+1. Dunbar's Number Research. Social network size limits (~150 active connections)
+2. Stats NZ Small Business Growth Data. Revenue benchmarks for NZ trade businesses
+3. BrightLocal Consumer Trust Research. How strangers evaluate businesses online

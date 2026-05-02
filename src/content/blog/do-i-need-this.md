@@ -16,13 +16,13 @@ And every time someone says it, you think the same thing:
 
 *"But I'm already busy. I get all my work from word of mouth and Facebook. Why would I spend money on something I don't need?"*
 
-Fair question. Let's actually answer it—with maths, not marketing fluff.
+Fair question. Let's actually answer it, with maths, not marketing fluff.
 
 Because here's the thing: You might not need a website to survive. But you're almost certainly losing money without one. And once you see the numbers, you'll understand why Dave keeps going on about it.
 
 ## The Honest Answer (No BS)
 
-If you're getting all the work you want, at the rates you want, from the clients you want—you don't need a website.
+If you're getting all the work you want, at the rates you want, from the clients you want, you don't need a website.
 
 There. I said it.
 
@@ -58,7 +58,7 @@ Where are those 35 people going? To the tradies who show up on Google. The ones 
 
 ## The "But I Get All My Work From Word of Mouth" Problem
 
-I hear this constantly. And it's true—word of mouth is powerful. Referrals are gold.
+I hear this constantly. And it's true, word of mouth is powerful. Referrals are gold.
 
 But here's what happens when someone gets referred to you:
 
@@ -66,7 +66,7 @@ But here's what happens when someone gets referred to you:
 2.  They Google "Davo's Electrical."
 3.  They find... nothing. Or a Facebook page with 3 posts from 2019.
 4.  They think, *"Hmm, is this guy even still in business? Is he legit?"*
-5.  They Google "electrician [suburb]" instead—just to see what else is out there.
+5.  They Google "electrician [suburb]" instead, just to see what else is out there.
 6.  They find a sparkie with a professional website, 50 Google reviews, clear pricing, and a "Book Now" button.
 7.  **They book the other guy.**
 
@@ -115,21 +115,21 @@ You do the maths.
 ## Frequently Asked Questions
 
 **Do I really need a website if I get all my work from word of mouth?**
-Word of mouth gets your name in front of people, but 81% of consumers research businesses online before making a purchase decision. When someone gets referred to you and Googles your name, finding nothing—or just an outdated Facebook page—costs you jobs you'll never know you lost. A website ensures that every referral converts instead of bouncing to a competitor.
+Word of mouth gets your name in front of people, but 81% of consumers research businesses online before making a purchase decision. When someone gets referred to you and Googles your name, finding nothing, or just an outdated Facebook page, costs you jobs you'll never know you lost. A website ensures that every referral converts instead of bouncing to a competitor.
 
 **How much does not having a website actually cost a tradie?**
 Conservative estimates suggest tradies without websites miss out on $130,000-$260,000 per year in Google-sourced leads alone. On top of that, you lose $25,000-$50,000 in referred leads who Google you, can't find anything credible, and book a competitor instead. The total opportunity cost far exceeds the $1,000-$3,000 a website costs per year.
 
 **Can't I just use my Facebook page instead of a website?**
-Facebook can't rank on Google, where 97% of people search for local businesses. It requires constant posting to stay visible, and it's "rented land"—Facebook controls what your audience sees. Most importantly, 84% of consumers find dedicated websites more credible than social media pages. A Facebook page supports your business; it can't replace a website.
+Facebook can't rank on Google, where 97% of people search for local businesses. It requires constant posting to stay visible, and it's "rented land", Facebook controls what your audience sees. Most importantly, 84% of consumers find dedicated websites more credible than social media pages. A Facebook page supports your business; it can't replace a website.
 
 **How quickly would a tradie website pay for itself?**
-Most tradies see payback within 1-2 jobs—typically within the first 1-3 weeks of launch. A $1,500 website that generates just one extra $2,500 job has already paid for itself. Over 12 months, the return is typically 30-50x the initial investment.
+Most tradies see payback within 1-2 jobs, typically within the first 1-3 weeks of launch. A $1,500 website that generates just one extra $2,500 job has already paid for itself. Over 12 months, the return is typically 30-50x the initial investment.
 
 ---
 
 ### References
-1. BrightLocal Local Consumer Review Survey — 97% search online for local businesses; 81% research before buying
-2. Google Consumer Insights — 78% of local mobile searches result in offline purchase within 24 hours
-3. Stanford Web Credibility Research — 84% of consumers trust websites more than social media
-4. Xero/NZIER "Going Digital" Report 2025 — NZ small business digital adoption data
+1. BrightLocal Local Consumer Review Survey, 97% search online for local businesses; 81% research before buying
+2. Google Consumer Insights, 78% of local mobile searches result in offline purchase within 24 hours
+3. Stanford Web Credibility Research, 84% of consumers trust websites more than social media
+4. Xero/NZIER "Going Digital" Report 2025. NZ small business digital adoption data

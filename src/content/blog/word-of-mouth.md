@@ -10,7 +10,7 @@ featured: true
 
 You've built your reputation on the tools. You show up on time, you do the hard mahi, and for years, that was enough. Your phone rang because Barry told Steve you were a good bloke.
 
-But lately? It's a bit quieter. Or worse—the only calls you're getting are price-shoppers and tyre kickers.
+But lately? It's a bit quieter. Or worse, the only calls you're getting are price-shoppers and tyre kickers.
 
 Here's the hard truth: **Word of mouth has moved online.**
 
@@ -20,7 +20,7 @@ Even when someone recommends you, the first thing a potential client does is pul
 
 They type your name into Google.
 
-**97% of people learn about local businesses online first**. That includes tradies, builders, sparkies, plumbers—all of it.
+**97% of people learn about local businesses online first**. That includes tradies, builders, sparkies, plumbers, all of it.
 
 ### Scenario A: You Have a Professional Web Presence
 
@@ -40,7 +40,7 @@ Not "consider them less." Not "prefer someone else if possible."
 
 **Ignore. Completely.**
 
-They move on to the next name on the list—the one WITH a website.
+They move on to the next name on the list, the one WITH a website.
 
 ## The Numbers Don't Lie: What's Happening in NZ Right Now
 
@@ -100,7 +100,7 @@ The ones who:
 
 **These clients expect professionalism at every touchpoint**.
 
-When they Google you and find nothing—or worse, find an outdated Facebook page—it triggers doubt.
+When they Google you and find nothing, or worse, find an outdated Facebook page, it triggers doubt.
 
 Not about your skills. About your business.
 
@@ -110,7 +110,7 @@ Not about your skills. About your business.
 
 ### The Competitor Advantage
 
-Meanwhile, your competitor—who might not even be as skilled as you—has a professional website. Photos of their work. Client testimonials. Clear contact info. Online booking.
+Meanwhile, your competitor, who might not even be as skilled as you, has a professional website. Photos of their work. Client testimonials. Clear contact info. Online booking.
 
 **They're winning jobs not because they're better tradespeople. But because they LOOK more professional.**
 
@@ -149,7 +149,7 @@ This worked when:
 
 **Review culture:** People expect to see reviews before hiring anyone for anything. **98% of consumers read online reviews for local businesses**.
 
-**Instant verification:** In 2005, you had to trust Barry's recommendation. In 2025, you can Google Johnno, check his reviews, see his work, and verify he's legit—all in 3 minutes while sitting on the couch.
+**Instant verification:** In 2005, you had to trust Barry's recommendation. In 2025, you can Google Johnno, check his reviews, see his work, and verify he's legit, all in 3 minutes while sitting on the couch.
 
 **Competition increased:** More tradies. More visibility online for those who invest in it. If you're not visible, you're not competing.
 
@@ -299,7 +299,7 @@ Let's say you're a sparkie in Hamilton.
 
 **That's $6,000-$8,000 extra per month. $72,000-$96,000 per year.**
 
-Your website costs you $995 + GST setup + $149/month + GST = $2,783 + GST in Year 1.
+Your website costs you $995 NZD + GST setup + $149/month NZD + GST = $2,783 NZD + GST in Year 1.
 
 **ROI: 2,590-3,450%**
 
@@ -327,7 +327,7 @@ At YourHQ, we build sites for sparkies, builders, and chippies who hate admin.
 
 We get it sorted in 5-7 days so you can get back on the tools.
 
-**[Start Your Build - $995 + GST Setup + $149/month + GST](/contact)**
+**[Start Your Build - $995 NZD + GST Setup + $149/month NZD + GST](/contact)**
 
 ---
 
@@ -335,36 +335,36 @@ We get it sorted in 5-7 days so you can get back on the tools.
 
 **How many NZ businesses don't have websites?**
 
-As of 2025, only 53% of NZ businesses have a website, meaning 47% operate without one. Among sole traders (including most tradies), the gap is even wider. However, 56% of people won't trust a business without a website, and 62% of customers will ignore businesses with no web presence entirely—creating a dangerous credibility gap for businesses without professional online presence.
+As of 2025, only 53% of NZ businesses have a website, meaning 47% operate without one. Among sole traders (including most tradies), the gap is even wider. However, 56% of people won't trust a business without a website, and 62% of customers will ignore businesses with no web presence entirely, creating a dangerous credibility gap for businesses without professional online presence.
 
 **Do people really Google businesses even when they're recommended?**
 
-Yes. 91% of homeowners rely on online reviews before choosing a contractor—even when recommended, and 81% of consumers research a business online before making any purchase. Word of mouth now starts the process, but online presence closes it. The recommendation gets you on the list, but if potential clients can't verify your legitimacy online, they move to the next name.
+Yes. 91% of homeowners rely on online reviews before choosing a contractor, even when recommended, and 81% of consumers research a business online before making any purchase. Word of mouth now starts the process, but online presence closes it. The recommendation gets you on the list, but if potential clients can't verify your legitimacy online, they move to the next name.
 
 **How much business am I losing without a website?**
 
-97% of people learn about local businesses online first, and 62% of customers ignore businesses without web presence. Additionally, 46% of service bookings happen outside business hours, meaning you're missing half of potential bookings if customers can't find your info and book online. Conservative estimates show tradies with professional websites get 3-4 extra jobs weekly—translating to $72K-$96K additional annual revenue.
+97% of people learn about local businesses online first, and 62% of customers ignore businesses without web presence. Additionally, 46% of service bookings happen outside business hours, meaning you're missing half of potential bookings if customers can't find your info and book online. Conservative estimates show tradies with professional websites get 3-4 extra jobs weekly, translating to $72K-$96K additional annual revenue.
 
 **What do I actually need for my tradie business online?**
 
-Three essentials: (1) A professional website (fast-loading, mobile-responsive, with services, photos, and contact form), (2) Claimed and optimized Google Business Profile (complete info, photos, reviews, linked to website), and (3) Consistency across platforms. You don't need social media posting or fancy marketing—just the basics done properly. 48% of Google Business Profile interactions are website visits, so your GBP drives traffic to your site where conversions happen.
+Three essentials: (1) A professional website (fast-loading, mobile-responsive, with services, photos, and contact form), (2) Claimed and optimized Google Business Profile (complete info, photos, reviews, linked to website), and (3) Consistency across platforms. You don't need social media posting or fancy marketing, just the basics done properly. 48% of Google Business Profile interactions are website visits, so your GBP drives traffic to your site where conversions happen.
 
 **Why are "near me" searches important for tradies?**
 
-"Near me" mobile searches increased 900%+ in two years, with 78% resulting in offline purchases. When someone searches "plumber near me" or "electrician near me open now," they're ready to book immediately—not browsing. 46% of all Google searches have local intent. If you're not showing up in these searches (via Google Business Profile + website), you're invisible to nearly half of potential customers actively looking for your services right now.
+"Near me" mobile searches increased 900%+ in two years, with 78% resulting in offline purchases. When someone searches "plumber near me" or "electrician near me open now," they're ready to book immediately, not browsing. 46% of all Google searches have local intent. If you're not showing up in these searches (via Google Business Profile + website), you're invisible to nearly half of potential customers actively looking for your services right now.
 
 ---
 
 ### References
 
-1. ACHR News / Clear Seas Research — 91% of homeowners rate online reviews as important factor when choosing contractors; 26% extremely important, 35% very important; online verification expected even with personal recommendations
-2. WebWisp UK — 97% learn about local businesses online first; 62% ignore businesses without website; 78% of local mobile searches result in offline purchase; 28% of local searches result in purchase; only 23% hire from offline ads; 73% leave positive reviews when made easy
-3. Trusted Tradesman UK — Over 80% of customers search online before hiring tradesperson; 40% consult reviews, 37% check website; 40% look for images of completed projects; online visibility critical for modern trade business
-4. Kiwi Web Design NZ / Ecommerce News NZ — Only 53% of NZ businesses have websites (unchanged since 2022); 47% operate without dedicated website; gap wider among sole traders; consumer expectations rising while business online presence stagnates
-5. Hedgehog Marketing Australia / John Littleford UK / GrandApps — Businesses without websites lose credibility and customers to competitors; 56% won't trust business without website; businesses saw 30% increase after launching sites; limited reach, missed marketing opportunities, scalability issues without web presence
-6. Birdeye / Search Endurance — 48% of Google Business Profile interactions are website visits, 34% direction requests, 17% phone calls; 64% use GBP for contact details; 90% of weekday calls from GBP; 46% of searches have local intent; "near me today" up 900%+ in 2 years
-7. 123worx / Four Stripes NZ — Local SEO critical for contractors; 46% of searches local intent; mobile searches dominate contractor-specific queries; word-of-mouth alone not scalable; local SEO reinforces referrals and establishes trust; Hamilton tradies dominating 2025 local search with proper SEO
-8. Marketing Profs — Word-of-mouth limited in reach, works only with people who know you and people who know them; beyond two degrees removed, rapidly fades; non-scalable for growth; subjective and lacks formal validation businesses increasingly require
-9. Phorest via Professional Beauty UK / Salon Today — 46% of service bookings happen outside business hours (28% evening, 18% morning); businesses without 24/7 booking capability miss nearly half of potential customers
-10. AXA UK — 40% consult online reviews before hiring tradesperson; 37% refer to websites; 40% look for images of completed projects before choosing; visual portfolio and online presence increasingly critical for trade businesses
+1. ACHR News / Clear Seas Research, 91% of homeowners rate online reviews as important factor when choosing contractors; 26% extremely important, 35% very important; online verification expected even with personal recommendations
+2. WebWisp UK, 97% learn about local businesses online first; 62% ignore businesses without website; 78% of local mobile searches result in offline purchase; 28% of local searches result in purchase; only 23% hire from offline ads; 73% leave positive reviews when made easy
+3. Trusted Tradesman UK. Over 80% of customers search online before hiring tradesperson; 40% consult reviews, 37% check website; 40% look for images of completed projects; online visibility critical for modern trade business
+4. Kiwi Web Design NZ / Ecommerce News NZ. Only 53% of NZ businesses have websites (unchanged since 2022); 47% operate without dedicated website; gap wider among sole traders; consumer expectations rising while business online presence stagnates
+5. Hedgehog Marketing Australia / John Littleford UK / GrandApps. Businesses without websites lose credibility and customers to competitors; 56% won't trust business without website; businesses saw 30% increase after launching sites; limited reach, missed marketing opportunities, scalability issues without web presence
+6. Birdeye / Search Endurance, 48% of Google Business Profile interactions are website visits, 34% direction requests, 17% phone calls; 64% use GBP for contact details; 90% of weekday calls from GBP; 46% of searches have local intent; "near me today" up 900%+ in 2 years
+7. 123worx / Four Stripes NZ. Local SEO critical for contractors; 46% of searches local intent; mobile searches dominate contractor-specific queries; word-of-mouth alone not scalable; local SEO reinforces referrals and establishes trust; Hamilton tradies dominating 2025 local search with proper SEO
+8. Marketing Profs. Word-of-mouth limited in reach, works only with people who know you and people who know them; beyond two degrees removed, rapidly fades; non-scalable for growth; subjective and lacks formal validation businesses increasingly require
+9. Phorest via Professional Beauty UK / Salon Today, 46% of service bookings happen outside business hours (28% evening, 18% morning); businesses without 24/7 booking capability miss nearly half of potential customers
+10. AXA UK, 40% consult online reviews before hiring tradesperson; 37% refer to websites; 40% look for images of completed projects before choosing; visual portfolio and online presence increasingly critical for trade businesses
 

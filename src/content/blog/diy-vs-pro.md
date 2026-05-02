@@ -1,6 +1,6 @@
 ---
 title: "Wix vs Hiring a Pro: The Real Maths for NZ Tradies"
-description: "DIY Wix site or hire a pro? We compare the real cost for NZ tradies—including your lost billable hours. The maths might surprise you."
+description: "DIY Wix site or hire a pro? We compare the real cost for NZ tradies, including your lost billable hours. The maths might surprise you."
 pubDate: 2026-02-14
 author: "Lian"
 image: "/laptop-frustration.webp"
@@ -70,13 +70,13 @@ Stop stepping over dollars to pick up pennies.
 ## Frequently Asked Questions
 
 **Is Wix really that bad for tradies?**
-It's not "bad"—it's just inefficient for someone whose time is worth $90+/hour. Building a decent site on Wix takes 40-60 hours, and the result is usually slower loading and ranks worse on Google than a professionally built site. For a busy tradie, the opportunity cost alone makes DIY the more expensive option.
+It's not "bad", it's just inefficient for someone whose time is worth $90+/hour. Building a decent site on Wix takes 40-60 hours, and the result is usually slower loading and ranks worse on Google than a professionally built site. For a busy tradie, the opportunity cost alone makes DIY the more expensive option.
 
 **Why do DIY websites not rank on Google?**
-SEO requires specific technical setup that most DIY builders skip—things like schema markup, optimised site speed, proper heading structure, and XML sitemaps. Without these, Google can't properly index your site. The result is a website that looks okay but is essentially invisible to the 97% of people searching online for local services.
+SEO requires specific technical setup that most DIY builders skip, things like schema markup, optimised site speed, proper heading structure, and XML sitemaps. Without these, Google can't properly index your site. The result is a website that looks okay but is essentially invisible to the 97% of people searching online for local services.
 
 **How long does it really take to build a website myself?**
-For a complete beginner aiming for something professional, expect 40-80 hours across design, content writing, mobile optimisation, and SEO setup. That doesn't include ongoing maintenance—updating content, fixing bugs, and keeping plugins current adds 2-5 hours per month indefinitely.
+For a complete beginner aiming for something professional, expect 40-80 hours across design, content writing, mobile optimisation, and SEO setup. That doesn't include ongoing maintenance, updating content, fixing bugs, and keeping plugins current adds 2-5 hours per month indefinitely.
 
 **How much does a professional tradie website cost in NZ?**
 A productised tradie website from a specialist builder typically costs $995-$2,000 for setup, plus $99-$149/month for hosting and support. When you factor in the 40+ hours of your own time you'd spend on DIY (at $90/hour, that's $3,600+), the professional option is actually cheaper in Year 1.
@@ -84,6 +84,6 @@ A productised tradie website from a specialist builder typically costs $995-$2,0
 ---
 
 ### References
-1. Google PageSpeed Insights — 53% of mobile users abandon sites loading over 3 seconds
-2. Stanford Web Credibility Research — 94% of first impressions are design-related
-3. Wix/Squarespace Pricing Pages — Business plan costs NZD 2025-2026
+1. Google PageSpeed Insights, 53% of mobile users abandon sites loading over 3 seconds
+2. Stanford Web Credibility Research, 94% of first impressions are design-related
+3. Wix/Squarespace Pricing Pages. Business plan costs NZD 2025-2026

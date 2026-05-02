@@ -14,7 +14,7 @@ From an operations perspective, this phrase is a nightmare. It introduces **fric
 
 And here's what friction does to your business: **Research shows that 23-32% of customers drop out of booking processes due to friction**.
 
-That's not a small number. That's nearly one in three people who *wanted* to book with you but didn't—because you made it too hard.
+That's not a small number. That's nearly one in three people who *wanted* to book with you but didn't, because you made it too hard.
 
 Let me walk you through what "DM to book" actually looks like in practice:
 
@@ -217,7 +217,7 @@ That's 240 bookings you didn't have to manually manage.
 
 At 15 minutes per booking conversation (checking DMs, replying, confirming, adding to calendar), that's **60 hours saved per year**.
 
-And that's assuming every DM booking goes smoothly—which we know they don't.
+And that's assuming every DM booking goes smoothly, which we know they don't.
 
 ## The Real-World Impact: What Business Owners Say
 
@@ -239,7 +239,7 @@ Let me paint a picture: It's 10pm on a Sunday night. Someone's scrolling Instagr
 
 **With DM booking:** They DM you. You're asleep. They wake up Monday, see your reply at lunchtime, but now they're at work and can't engage in a back-and-forth conversation. By the time they get home Monday night, that initial motivation has faded. They'll "do it later." They never book.
 
-**With online booking:** They click "Book Now." They see you have availability next Saturday at 2pm. They book it. They pay the deposit. Done. By the time you wake up Monday morning, they're in your calendar—booked, confirmed, and committed.
+**With online booking:** They click "Book Now." They see you have availability next Saturday at 2pm. They book it. They pay the deposit. Done. By the time you wake up Monday morning, they're in your calendar, booked, confirmed, and committed.
 
 **That's the power of capturing motivation at the moment it exists**.
 
@@ -294,7 +294,7 @@ You wake up to a full calendar without typing a single message. That's the power
 
 **How much money am I losing without online booking?**
 
-Salons without online booking lose 46% of potential bookings that happen outside business hours, with 67% of customers choosing competitors who offer instant booking. Additionally, manual booking costs 12-20 hours per week in administrative time, and no-shows cost an average of $15,000 annually. Businesses implementing online booking see 25% increase in bookings within 3 months—potentially adding tens of thousands in annual revenue.
+Salons without online booking lose 46% of potential bookings that happen outside business hours, with 67% of customers choosing competitors who offer instant booking. Additionally, manual booking costs 12-20 hours per week in administrative time, and no-shows cost an average of $15,000 annually. Businesses implementing online booking see 25% increase in bookings within 3 months, potentially adding tens of thousands in annual revenue.
 
 **Why does "DM to book" have such low conversion rates?**
 
@@ -306,7 +306,7 @@ Yes. Automated reminder systems reduce no-shows by up to 70%. Salons with manual
 
 **When do most people try to book salon appointments?**
 
-46% of salon bookings happen outside business hours—28% in the evening after salons close and 18% in the morning before opening. Additionally, 89% of consumers prefer booking online over calling, and 73% of millennials and Gen Z expect 24/7 booking availability. Without online booking, you're missing nearly half of potential bookings and losing customers to competitors.
+46% of salon bookings happen outside business hours, 28% in the evening after salons close and 18% in the morning before opening. Additionally, 89% of consumers prefer booking online over calling, and 73% of millennials and Gen Z expect 24/7 booking availability. Without online booking, you're missing nearly half of potential bookings and losing customers to competitors.
 
 **How long does it take to see results from implementing online booking?**
 
@@ -316,13 +316,13 @@ Most salons see measurable results quickly. Businesses implementing online booki
 
 ### References
 
-1. On-Demand App / SalonTarget — 89% prefer online booking over calling; beauty businesses lose $15,000 annually from no-shows; salons without digital systems have 40% more scheduling errors; 67% choose competitors if can't book instantly; manual management costs 12-20 hours weekly; 25% booking increase within 3 months; 73% millennials/Gen Z expect 24/7 online booking
-2. Phorest via Professional Beauty UK / Salon Today — 46% of salon bookings happen outside business hours; 28% evening bookings after close; 18% morning bookings before open; 54% during hours; 32% want online capability; Gen Z most likely to want out-of-hours booking
-3. Zero Friction Future via Digital Travel — 23% drop out booking flights due to friction; 32% abandon hotel bookings due to friction; travel/hospitality losing quarter to third of customers from booking process friction
-4. KPI Depot / Analytics Model — Ideal online booking conversion rates 15-25%; average travel/hospitality 5%; strong systems achieve 15%+ conversion; user-friendly interfaces and streamlined payments significantly improve rates
-5. Goldie / Kitomba — Automated reminders reduce no-shows; online booking prevents double-bookings; average salon no-show rate 12%; clunky systems increase cancellations; straightforward systems save time for both staff and clients
-6. Shortcuts Software — Booking deposits reduce no-shows by up to 70%; flexible deposit systems protect revenue and boost client commitment
-7. Schedly / WP Booking System — Manual scheduling time-consuming, limited to business hours, higher error risk; automated 24/7 availability, time efficiency; manual incurs hidden labor costs and lost revenue from errors
-8. Bluewater Digital — UX friction major deterrent; complicated interfaces, long forms, unclear buttons frustrate users; slow load times cause drop-off; lack of trust signals leads to abandonment
-9. AioIA — 65%+ consumers prefer online booking over calling by 2025; instant booking fills last-minute gaps, reduces no-shows with automatic reminders; deposits further reduce missed visits; mobile bookings dominate travel/dining, spreading to fitness and home services
+1. On-Demand App / SalonTarget, 89% prefer online booking over calling; beauty businesses lose $15,000 annually from no-shows; salons without digital systems have 40% more scheduling errors; 67% choose competitors if can't book instantly; manual management costs 12-20 hours weekly; 25% booking increase within 3 months; 73% millennials/Gen Z expect 24/7 online booking
+2. Phorest via Professional Beauty UK / Salon Today, 46% of salon bookings happen outside business hours; 28% evening bookings after close; 18% morning bookings before open; 54% during hours; 32% want online capability; Gen Z most likely to want out-of-hours booking
+3. Zero Friction Future via Digital Travel, 23% drop out booking flights due to friction; 32% abandon hotel bookings due to friction; travel/hospitality losing quarter to third of customers from booking process friction
+4. KPI Depot / Analytics Model. Ideal online booking conversion rates 15-25%; average travel/hospitality 5%; strong systems achieve 15%+ conversion; user-friendly interfaces and streamlined payments significantly improve rates
+5. Goldie / Kitomba. Automated reminders reduce no-shows; online booking prevents double-bookings; average salon no-show rate 12%; clunky systems increase cancellations; straightforward systems save time for both staff and clients
+6. Shortcuts Software. Booking deposits reduce no-shows by up to 70%; flexible deposit systems protect revenue and boost client commitment
+7. Schedly / WP Booking System. Manual scheduling time-consuming, limited to business hours, higher error risk; automated 24/7 availability, time efficiency; manual incurs hidden labor costs and lost revenue from errors
+8. Bluewater Digital. UX friction major deterrent; complicated interfaces, long forms, unclear buttons frustrate users; slow load times cause drop-off; lack of trust signals leads to abandonment
+9. AioIA, 65%+ consumers prefer online booking over calling by 2025; instant booking fills last-minute gaps, reduces no-shows with automatic reminders; deposits further reduce missed visits; mobile bookings dominate travel/dining, spreading to fitness and home services
 

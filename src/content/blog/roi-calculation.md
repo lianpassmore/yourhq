@@ -84,13 +84,13 @@ Stop leaving money on the table.
 ## Frequently Asked Questions
 
 **What if a tradie website doesn't bring in any work?**
-For a website to lose money, it would need to generate fewer than 0.4 jobs in an entire year—less than one job. Given that 97% of people search online for local services and hundreds of people Google your trade in your area every month, generating zero leads from a properly built website is statistically near-impossible. Even the most conservative scenarios show payback within weeks.
+For a website to lose money, it would need to generate fewer than 0.4 jobs in an entire year, less than one job. Given that 97% of people search online for local services and hundreds of people Google your trade in your area every month, generating zero leads from a properly built website is statistically near-impossible. Even the most conservative scenarios show payback within weeks.
 
 **How does a website compare to Google Ads for tradies?**
-Google Ads stop generating leads the moment you stop paying. A website is a digital asset you own that builds authority and organic rankings over time. While Google Ads can deliver quick leads at $20-$50+ per click, a website generates free organic leads month after month. Long-term, the ROI of a website is significantly higher—typically 30-50x your investment annually.
+Google Ads stop generating leads the moment you stop paying. A website is a digital asset you own that builds authority and organic rankings over time. While Google Ads can deliver quick leads at $20-$50+ per click, a website generates free organic leads month after month. Long-term, the ROI of a website is significantly higher, typically 30-50x your investment annually.
 
 **Will a website help if I'm already fully booked?**
-Yes—arguably even more so. When you're fully booked, a website gives you lead abundance, which gives you selectivity. Instead of taking every job, you cherry-pick the highest-value work, decline low-margin jobs, and raise your rates. Tradies with websites and lead abundance consistently earn more while working fewer hours.
+Yes, arguably even more so. When you're fully booked, a website gives you lead abundance, which gives you selectivity. Instead of taking every job, you cherry-pick the highest-value work, decline low-margin jobs, and raise your rates. Tradies with websites and lead abundance consistently earn more while working fewer hours.
 
 **How long does it take for a tradie website to start generating leads?**
 Most professionally built websites start generating enquiries within the first 1-4 weeks. Initial leads come from improved credibility (people Googling you after a referral). Organic Google search leads build over 3-6 months as your site gains authority and reviews accumulate. By month 6-12, a well-optimised site typically generates 10+ leads per month.
@@ -98,6 +98,6 @@ Most professionally built websites start generating enquiries within the first 1
 ---
 
 ### References
-1. Google Consumer Insights — 97% of consumers search online for local businesses
-2. Search Engine Journal — Organic vs paid click-through rates and cost-per-lead benchmarks
-3. BrightLocal Consumer Review Survey — Local search conversion data for trade businesses
+1. Google Consumer Insights, 97% of consumers search online for local businesses
+2. Search Engine Journal. Organic vs paid click-through rates and cost-per-lead benchmarks
+3. BrightLocal Consumer Review Survey. Local search conversion data for trade businesses

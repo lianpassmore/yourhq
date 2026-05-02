@@ -64,7 +64,36 @@ const localBusinessSchema = {
     ],
     "opens": "09:00",
     "closes": "17:00"
-  }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "reviewCount": "3"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Brad" },
+      "publisher": { "@type": "Organization", "name": "Carve Earthworks" },
+      "reviewBody": "Creating a website wasn’t something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Katie" },
+      "publisher": { "@type": "Organization", "name": "Rumours On Rust" },
+      "reviewBody": "The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can’t believe how good it is."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Nicolette" },
+      "publisher": { "@type": "Organization", "name": "Ember & Ice" },
+      "reviewBody": "You helped me take that next step and build my dream — that was my barrier to market."
+    }
+  ]
 };
 
 const servicesSchema = {

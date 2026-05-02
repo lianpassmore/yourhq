@@ -26,7 +26,7 @@ DIY platforms pitch themselves as cheap. Wix's marketing makes it look affordabl
 
 **Professional Email:** $6/month = **$144** (over 2 years)
 
-**Total 2-year cost: $945** when paying annually upfront—more if paid monthly.
+**Total 2-year cost: $945** when paying annually upfront, more if paid monthly.
 
 So much for "free."
 
@@ -36,7 +36,7 @@ But that's just the dollar cost. Let's talk about the real cost.
 
 **Here's the uncomfortable truth about DIY websites:**
 
-Most business owners estimate it will take a weekend—maybe 10-15 hours—to build their site.
+Most business owners estimate it will take a weekend, maybe 10-15 hours, to build their site.
 
 **The reality? Building a DIY website typically takes 60-80 hours** when you account for the complete process:
 
@@ -56,7 +56,7 @@ If you charge $80/hour for your services (plumber, electrician, consultant, salo
 
 **That "cheap" website just cost you $4,800 in lost billable time**.
 
-Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**—time you could have spent serving clients, developing new products, or actually growing your business.
+Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**, time you could have spent serving clients, developing new products, or actually growing your business.
 
 ### The Real Comparison (2025 Numbers)
 
@@ -68,15 +68,15 @@ Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**�
 - **Result:** A website you built yourself (with limitations)
 
 **Professional Build (YourHQ):**
-- **Hard costs:** $995 + GST setup + $149/month + GST × 24 months = $4,571 + GST
+- **Hard costs:** $995 NZD + GST setup + $149/month NZD + GST × 24 months = $4,571 NZD + GST
 - **Your time:** 2-3 hours (for a voice interview and feedback)
 - **Opportunity cost:** $160-$240
-- **Total actual cost:** $4,731-$4,811 + GST
+- **Total actual cost:** $4,731-$4,811 NZD + GST
 - **Result:** A website built by professionals
 
 **You save $1,000-$2,500+ and get a better website. And you get your time back.**
 
-Similar UK analysis shows professional builds costing £564 vs Wix's £946.90 over 2 years—saving nearly £400 PLUS 20-40 hours of time.
+Similar UK analysis shows professional builds costing £564 vs Wix's £946.90 over 2 years, saving nearly £400 PLUS 20-40 hours of time.
 
 ## The "Template" Look: You're Not Special
 
@@ -96,7 +96,7 @@ With Wix, you cannot fully customize the HTML and CSS codes, which restricts you
 
 ### The Professional Signal
 
-**84% of consumers say a business is more credible if it has a website**. But not just ANY website—a PROFESSIONAL website.
+**84% of consumers say a business is more credible if it has a website**. But not just ANY website, a PROFESSIONAL website.
 
 When potential clients land on your site and it looks identical to a hundred other Wix templates, you lose that credibility edge.
 
@@ -146,11 +146,11 @@ If your site takes 6-8 seconds to load, you're getting penalized in search ranki
 
 **And users hate slow websites too.** 40% of users abandon sites that take longer than 3 seconds to load.
 
-So your slow DIY site isn't just hurting your SEO—it's literally costing you customers who give up waiting for your site to load.
+So your slow DIY site isn't just hurting your SEO, it's literally costing you customers who give up waiting for your site to load.
 
 ## The SEO Handicap: Fighting With One Hand Tied Behind Your Back
 
-Let's talk about SEO—because this is where DIY builders really fall short.
+Let's talk about SEO, because this is where DIY builders really fall short.
 
 ### Wix SEO Limitations (2025):
 
@@ -207,7 +207,7 @@ Let's talk about what matters: **Return on investment.**
 
 ### The YourHQ Math:
 
-**Investment:** $995 + GST setup + $149/month + GST = $2,783 + GST in Year 1
+**Investment:** $995 NZD + GST setup + $149/month NZD + GST = $2,783 NZD + GST in Year 1
 
 **If your website generates just 2 extra clients per month at $200 average:**
 - Monthly additional revenue: $400
@@ -233,17 +233,17 @@ You usually have two choices when getting a website built:
 ### The YourHQ Approach:
 
 **Modern Tech Stack (Astro):**
-- We use professional code—the same frameworks Silicon Valley uses
+- We use professional code, the same frameworks Silicon Valley uses
 - Sites load in under 2 seconds (vs 6-8 seconds for Wix/Squarespace)
 - Built for SEO from the ground up
 - Clean, efficient code (no bloat)
 
 **Service Model:**
-- $995 + GST setup fee (gets you a professional site in 5-7 days)
-- $149-$249/month + GST "caretaker" fee (hosting, security, updates, annual refresh)
+- $995 NZD + GST setup fee (gets you a professional site in 5-7 days)
+- $149-$249/month NZD + GST "caretaker" fee (hosting, security, updates, annual refresh)
 
 **What You Get:**
-- We build it (using your voice interview—no endless meetings)
+- We build it (using your voice interview, no endless meetings)
 - We host it (high-speed Vercel hosting, not cheap shared hosting)
 - We fix it when it breaks (real humans, based in Whangārei)
 - We refresh it annually (so you never look outdated)
@@ -253,7 +253,7 @@ You usually have two choices when getting a website built:
 
 **Faster than DIY:** 5-7 days vs 60-80 hours of your time
 
-**Cheaper than agencies:** $995 + GST vs $8,000-$30,000
+**Cheaper than agencies:** $995 NZD + GST vs $8,000-$30,000
 
 **Better performance:** 2-second load times vs 6-8 seconds
 
@@ -275,7 +275,7 @@ Invest that time in what you're actually good at. Let professionals build your d
 
 You have a business to run.
 
-**[Book Your Voice Interview—Let's Build Your Site](/contact)**
+**[Book Your Voice Interview, Let's Build Your Site](/contact)**
 
 ---
 
@@ -287,7 +287,7 @@ Building a DIY website typically takes 60-80 hours when you account for learning
 
 **Is Wix actually cheaper than hiring a professional?**
 
-No. Wix costs $945 over 2 years in direct costs, plus 60-80 hours of your time. At $80/hour, that's $4,800-$6,400 in opportunity cost—totaling $5,745-$7,345. A professional build at YourHQ costs $995 + GST + $149/month + GST (24 months) = $4,571 + GST, saving you $1,000-$2,500+ and giving you a faster, more professional site.
+No. Wix costs $945 over 2 years in direct costs, plus 60-80 hours of your time. At $80/hour, that's $4,800-$6,400 in opportunity cost, totaling $5,745-$7,345. A professional build at YourHQ costs $995 NZD + GST + $149/month NZD + GST (24 months) = $4,571 NZD + GST, saving you $1,000-$2,500+ and giving you a faster, more professional site.
 
 **How much slower are DIY website builders compared to professional sites?**
 
@@ -305,12 +305,12 @@ Small businesses with professional websites report 15-50% revenue increases, wit
 
 ### References
 
-1. Aileron Digital Works — November 2025: Wix costs £946.90 over 2 years (£31.10/month + £56.50 domain + £144 email) vs professional build £564; save nearly £400 + 20-40 hours time; similar costs apply to NZ market
-2. Creare Web Solutions — December 2025: DIY websites take 60-80 hours including learning platform, customizing templates, content creation, SEO setup, testing, troubleshooting; opportunity cost $4,000-$6,000 at $100-150/hour; most underestimate true time investment
-3. DebugBear Website Builder Performance Review — October 2025: Tested 14 website builders; Wix scores 72/100 Lighthouse (5.24s load, 6.69s interactive); Squarespace 31/100 (8.79s load); professional Astro/Next.js sites score 95-100 with sub-2-second loads
-4. Network Solutions / TL Design Studios — September 2025: 84% say business more credible with website; 15-50% revenue increases with modern websites; 70%+ report increased revenue after professional site launch; local businesses generate $2K monthly leads from $3K investment
-5. Elite Strategies / Redshark Digital — 2025 SEO analysis: Wix limitations include restricted customization, no server/log control, slower loading (previous-gen tech), limited site architecture development; fine for basic SEO but handicapped for competitive rankings
-6. Steve Sims / iPoint — 2025 comparison: Wix lacks advanced SEO capabilities, design control, hosting control; scaling limitations as business grows; restricted SEO options limit search visibility; custom builds provide flexibility, control, superior SEO foundation
-7. Wix Blog — October 2025 and January 2025: Templates don't handle on-page SEO automatically; limited customization within template frameworks; improvements made to SEO capabilities but still closed platform with inherent restrictions
-8. Verpex / WordPress Benchmark — Page builder performance testing: WordPress 1.4s load; Divi 1.8s; Elementor 1.3s; Beaver Builder 992ms; all significantly faster than DIY drag-and-drop builders like Wix/Squarespace
+1. Aileron Digital Works. November 2025: Wix costs £946.90 over 2 years (£31.10/month + £56.50 domain + £144 email) vs professional build £564; save nearly £400 + 20-40 hours time; similar costs apply to NZ market
+2. Creare Web Solutions. December 2025: DIY websites take 60-80 hours including learning platform, customizing templates, content creation, SEO setup, testing, troubleshooting; opportunity cost $4,000-$6,000 at $100-150/hour; most underestimate true time investment
+3. DebugBear Website Builder Performance Review. October 2025: Tested 14 website builders; Wix scores 72/100 Lighthouse (5.24s load, 6.69s interactive); Squarespace 31/100 (8.79s load); professional Astro/Next.js sites score 95-100 with sub-2-second loads
+4. Network Solutions / TL Design Studios. September 2025: 84% say business more credible with website; 15-50% revenue increases with modern websites; 70%+ report increased revenue after professional site launch; local businesses generate $2K monthly leads from $3K investment
+5. Elite Strategies / Redshark Digital, 2025 SEO analysis: Wix limitations include restricted customization, no server/log control, slower loading (previous-gen tech), limited site architecture development; fine for basic SEO but handicapped for competitive rankings
+6. Steve Sims / iPoint, 2025 comparison: Wix lacks advanced SEO capabilities, design control, hosting control; scaling limitations as business grows; restricted SEO options limit search visibility; custom builds provide flexibility, control, superior SEO foundation
+7. Wix Blog. October 2025 and January 2025: Templates don't handle on-page SEO automatically; limited customization within template frameworks; improvements made to SEO capabilities but still closed platform with inherent restrictions
+8. Verpex / WordPress Benchmark. Page builder performance testing: WordPress 1.4s load; Divi 1.8s; Elementor 1.3s; Beaver Builder 992ms; all significantly faster than DIY drag-and-drop builders like Wix/Squarespace
 

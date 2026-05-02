@@ -18,7 +18,7 @@ Most businesses don't lose customers loudly. They lose them quietly.
 
 Someone lands on your site. It takes 6 seconds to load. They leave before your hero image even appears. You never know they existed. You never see the lost sale.
 
-Here are the 5 signs your website has expired—and what it's actually costing you.
+Here are the 5 signs your website has expired, and what it's actually costing you.
 
 ## 1. Not Mobile Responsive: The Pinch-and-Zoom Disaster
 
@@ -38,7 +38,7 @@ Buttons are too small to tap. The menu is impossible to navigate. They have to s
 
 And here's the kicker: **Google uses mobile-first indexing**. That means Google ranks your site based on how it performs on mobile devices, not desktop.
 
-If your site isn't mobile-friendly, you're not just frustrating users—you're invisible in search results.
+If your site isn't mobile-friendly, you're not just frustrating users, you're invisible in search results.
 
 ### How to Tell If Your Site Is Mobile Responsive
 
@@ -76,7 +76,7 @@ All because your site is still running on HTTP instead of HTTPS.
 
 ### The Fix Is Simple (But Critical)
 
-You need an SSL certificate. It's not expensive (often free), but it requires technical setup. And if your site is old, migrating to HTTPS might expose other underlying issues—which brings me to the next point.
+You need an SSL certificate. It's not expensive (often free), but it requires technical setup. And if your site is old, migrating to HTTPS might expose other underlying issues, which brings me to the next point.
 
 ## 3. Slow Load Times: The 3-Second Rule You're Breaking
 
@@ -93,7 +93,7 @@ Here's what happens when your site is slow:
 - **40% of shoppers will leave an e-commerce site if it takes more than 3 seconds to load**
 - **For every second delay in mobile page load, conversions can fall by up to 20%**
 
-Let's say your site takes 5 seconds to load instead of 2. You're not just annoying people—you're losing 20-30% of your potential conversions.
+Let's say your site takes 5 seconds to load instead of 2. You're not just annoying people, you're losing 20-30% of your potential conversions.
 
 **70% of consumers say page speed impacts their willingness to buy from an online retailer**.
 
@@ -112,7 +112,7 @@ You can try to patch these issues. But often, it's like trying to make a 1990s c
 
 ## 4. Flash Player: The Ghost of Websites Past
 
-If your website has elements that don't load on Apple devices—or if you're getting messages about "Flash Player not supported"—you're in trouble.
+If your website has elements that don't load on Apple devices, or if you're getting messages about "Flash Player not supported", you're in trouble.
 
 **Adobe Flash Player reached end-of-life on December 31, 2020**.
 
@@ -207,7 +207,7 @@ Here's what an outdated website actually costs you:
 
 ### Lost Revenue You Never See
 
-Most websites don't lose business loudly. They lose it quietly. A customer can't find the information they need. A page takes too long to load. A booking form doesn't work. They leave—and you never know they existed.
+Most websites don't lose business loudly. They lose it quietly. A customer can't find the information they need. A page takes too long to load. A booking form doesn't work. They leave, and you never know they existed.
 
 ### SEO Penalties
 
@@ -251,24 +251,24 @@ The cost varies depending on whether you need optimisation (typically $500-2,000
 
 **Will rebuilding my website hurt my SEO rankings?**
 
-If done properly, no—a rebuild should *improve* your rankings. Modern sites built on fast, mobile-responsive frameworks rank better because Google prioritises mobile-first indexing, page speed, and HTTPS security. The key is proper redirects, maintaining your URL structure where possible, and ensuring all SEO elements (meta tags, alt text, etc.) are carried over or improved.
+If done properly, no, a rebuild should *improve* your rankings. Modern sites built on fast, mobile-responsive frameworks rank better because Google prioritises mobile-first indexing, page speed, and HTTPS security. The key is proper redirects, maintaining your URL structure where possible, and ensuring all SEO elements (meta tags, alt text, etc.) are carried over or improved.
 
 **Can't I just patch my old website instead of rebuilding?**
 
-You can try, but it's often like patching a sinking boat—you're constantly fixing new leaks. Old sites built on outdated technology have architectural limitations that make modern features (like true mobile responsiveness or fast load times) nearly impossible to achieve. If you're frequently relying on workarounds and patch fixes, a rebuild is the more cost-effective long-term solution.
+You can try, but it's often like patching a sinking boat, you're constantly fixing new leaks. Old sites built on outdated technology have architectural limitations that make modern features (like true mobile responsiveness or fast load times) nearly impossible to achieve. If you're frequently relying on workarounds and patch fixes, a rebuild is the more cost-effective long-term solution.
 
 ---
 
 ### References
 
-1. TekRevol, *Mobile Device Website Traffic Statistics* — 63.8% of global website traffic comes from mobile devices; Google uses mobile-first indexing as top ranking factor
-2. Hostinger, *Essential Web Design Statistics 2025* — 90% of websites have implemented responsive design
-3. Tenet / VWO, *Web Design Statistics* — 62% of businesses reported increased sales after mobile-responsive implementation; 52% less likely to engage after poor mobile experience
-4. MarkUp Solution — Over 60% of global web traffic from mobile; Google transitioned to mobile-first indexing
-5. Huckabuy / ElectroIQ, *Website Load Time Statistics* — Conversion rates drop 4.42% for every second of delay; 40% of shoppers leave if site takes >3 seconds; 70% say speed impacts willingness to buy
-6. Jonroc, *No SSL Study* — 46% of users won't enter information on "Not Secure" sites; 64% leave immediately; multiple trust concerns
-7. Adobe / Microsoft, *Flash Player End of Life* — Flash Player reached end-of-life December 31, 2020; all Flash content blocked from January 12, 2021
-8. LinkedIn / Devfinity, *Hidden Costs of Outdated Websites* — Lost revenue, SEO penalties, low conversion rates, operational inefficiency averaging 500+ hours annually
-9. LinkedIn / We Create Digital, *Website Overhaul: Rebuild vs Refresh* — When to rebuild due to outdated technology, security vulnerabilities, or persistent performance issues
-10. Astro Documentation — Static site generation benefits for security, speed, and SEO performance
+1. TekRevol, *Mobile Device Website Traffic Statistics*, 63.8% of global website traffic comes from mobile devices; Google uses mobile-first indexing as top ranking factor
+2. Hostinger, *Essential Web Design Statistics 2025*, 90% of websites have implemented responsive design
+3. Tenet / VWO, *Web Design Statistics*, 62% of businesses reported increased sales after mobile-responsive implementation; 52% less likely to engage after poor mobile experience
+4. MarkUp Solution. Over 60% of global web traffic from mobile; Google transitioned to mobile-first indexing
+5. Huckabuy / ElectroIQ, *Website Load Time Statistics*. Conversion rates drop 4.42% for every second of delay; 40% of shoppers leave if site takes >3 seconds; 70% say speed impacts willingness to buy
+6. Jonroc, *No SSL Study*, 46% of users won't enter information on "Not Secure" sites; 64% leave immediately; multiple trust concerns
+7. Adobe / Microsoft, *Flash Player End of Life*. Flash Player reached end-of-life December 31, 2020; all Flash content blocked from January 12, 2021
+8. LinkedIn / Devfinity, *Hidden Costs of Outdated Websites*. Lost revenue, SEO penalties, low conversion rates, operational inefficiency averaging 500+ hours annually
+9. LinkedIn / We Create Digital, *Website Overhaul: Rebuild vs Refresh*. When to rebuild due to outdated technology, security vulnerabilities, or persistent performance issues
+10. Astro Documentation. Static site generation benefits for security, speed, and SEO performance
 

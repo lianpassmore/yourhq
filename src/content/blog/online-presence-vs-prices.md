@@ -10,13 +10,13 @@ featured: false
 
 In the tech world, we talk about "User Experience" (UX). It's how a person *feels* when interacting with a system.
 
-If a client walks into your salon, the UX is likely incredible. Beautiful lighting. High-end products. Maybe good coffee. Comfortable chairs. A curated vibe. You've invested thousands—maybe tens of thousands—into creating that experience.
+If a client walks into your salon, the UX is likely incredible. Beautiful lighting. High-end products. Maybe good coffee. Comfortable chairs. A curated vibe. You've invested thousands, maybe tens of thousands, into creating that experience.
 
 And you charge accordingly. Because you know premium experience justifies premium pricing.
 
 But here's the question that keeps me up at night: **What's the UX *before* they walk in?**
 
-Because if a potential client clicks a link in your Instagram bio and lands on a messy, generic Linktree page—or worse, a broken mobile site that looks like it was built in 2015—the UX is cheap.
+Because if a potential client clicks a link in your Instagram bio and lands on a messy, generic Linktree page, or worse, a broken mobile site that looks like it was built in 2015, the UX is cheap.
 
 And there's a cognitive dissonance happening in their brain: *"They want $350 for a colour, but they won't spend $50 on a proper website?"*
 
@@ -26,7 +26,7 @@ Let me paint a picture for you.
 
 Imagine you're looking for a new hair salon. You've heard great things about two salons from different friends. Both specialise in balayage. Both charge around $350-400 for a full colour.
 
-**Salon A:** You Google them and find a beautiful website. It loads instantly on your phone. The portfolio showcases their best work—before and after photos, different hair types, different colour techniques. There are testimonials from real clients. The booking system lets you choose your preferred stylist and see available times. You can book right there at 10pm on a Sunday without having to message anyone.
+**Salon A:** You Google them and find a beautiful website. It loads instantly on your phone. The portfolio showcases their best work, before and after photos, different hair types, different colour techniques. There are testimonials from real clients. The booking system lets you choose your preferred stylist and see available times. You can book right there at 10pm on a Sunday without having to message anyone.
 
 **Salon B:** You Google them and find... a Facebook page with sporadic posts, and a Linktree in their Instagram bio. You click the Linktree. It's the free version with Linktree branding all over it. There are links to "Book Now" (which takes you to another platform), "View Portfolio" (which goes to an Instagram feed you have to scroll through endlessly), and "Price List" (which is a blurry screenshot of a PDF uploaded six months ago).
 
@@ -55,7 +55,7 @@ If you hesitated for even a second, you've failed the Premium Perception Test.
 
 Premium pricing isn't just about charging more. It's about creating a perception of quality, exclusivity, and value.
 
-**54% of consumers say premium products are made with high-quality materials or ingredients**. They're not just paying for the product—they're paying for the experience, the expertise, the care, the attention to detail.
+**54% of consumers say premium products are made with high-quality materials or ingredients**. They're not just paying for the product, they're paying for the experience, the expertise, the care, the attention to detail.
 
 When you charge $350 for a colour, you're not just charging for the product in the bowl. You're charging for:
 - Your years of training and experience
@@ -73,7 +73,7 @@ A low-quality website signals (whether you intend it or not): *"I don't value pr
 
 Let's talk about the brutal reality of first impressions online.
 
-**It takes 0.05 seconds—that's 50 milliseconds—for users to form an opinion about your website**.
+**It takes 0.05 seconds, that's 50 milliseconds, for users to form an opinion about your website**.
 
 You don't get time to explain. You don't get to walk them through your process. You don't get to justify why your Linktree page looks the way it does.
 
@@ -93,13 +93,13 @@ Research shows that when the same content is presented with different levels of 
 
 Translation? Even if your work is brilliant, if your website looks cheap, people assume you're less skilled than you actually are.
 
-**The amelioration effect of visual design** means that good design makes your content—your services, your prices, your expertise—seem more credible.
+**The amelioration effect of visual design** means that good design makes your content, your services, your prices, your expertise, seem more credible.
 
 Bad design does the opposite.
 
 ## The Linktree Problem: Why Free Tools Undermine Premium Brands
 
-Look—I get it. Linktree is convenient. It's free (or cheap). It takes five minutes to set up.
+Look, I get it. Linktree is convenient. It's free (or cheap). It takes five minutes to set up.
 
 But here's what Linktree actually signals to potential clients:
 
@@ -119,7 +119,7 @@ And if *you* don't take your business seriously, why should they trust you with 
 
 ### 3. You're Still Amateur
 
-Linktree is associated with influencers, creators, and side hustles. There's nothing wrong with that—but it's not the vibe a premium salon should be giving off.
+Linktree is associated with influencers, creators, and side hustles. There's nothing wrong with that, but it's not the vibe a premium salon should be giving off.
 
 **A custom website instantly communicates professionalism and authority**. It shows you're established. You're legit. You've built something real.
 
@@ -137,7 +137,7 @@ The maths isn't hard.
 
 ## High Tech, High Touch: The Digital Foyer Concept
 
-Your website should function as a **digital foyer**—the first room clients enter before they physically walk into your salon.
+Your website should function as a **digital foyer**, the first room clients enter before they physically walk into your salon.
 
 Think about your actual salon foyer. You've probably spent time making it beautiful:
 - Good lighting
@@ -172,7 +172,7 @@ Before and after photos. Different angles. Different lighting. Real examples of 
 
 **Displaying testimonials, reviews, and case studies plays a powerful role in building trust**. Potential clients want to know others have had positive experiences.
 
-Social proof is a psychological phenomenon—people trust the actions and opinions of others.
+Social proof is a psychological phenomenon, people trust the actions and opinions of others.
 
 Your website is where you showcase that proof in a permanent, searchable, indexed format (unlike Instagram Stories that disappear after 24 hours).
 
@@ -192,7 +192,7 @@ Let's get nerdy for a second about pricing psychology.
 
 But here's the catch: **Premium pricing only works when it's backed by a strong brand identity, outstanding quality, and a seamless customer experience**.
 
-The Ritz-Carlton hotel chain is a perfect example. They charge premium prices, and people pay happily because every touchpoint—from the elegant ambience to the high-end service to the website—reinforces that premium positioning.
+The Ritz-Carlton hotel chain is a perfect example. They charge premium prices, and people pay happily because every touchpoint, from the elegant ambience to the high-end service to the website, reinforces that premium positioning.
 
 **If your pricing is premium but your website is budget, you've created a mismatch**.
 
@@ -220,7 +220,7 @@ Your website needs to load in under 3 seconds. It needs to look beautiful on a p
 
 ### 2. Showcases Your Best Work
 
-A curated portfolio. Not your entire Instagram archive—your *best* work, organised in a way that makes sense.
+A curated portfolio. Not your entire Instagram archive, your *best* work, organised in a way that makes sense.
 
 By service type (balayage, colour correction, extensions). By hair type (curly, fine, textured). By style (editorial, natural, vibrant).
 
@@ -234,7 +234,7 @@ Online booking integrated into your site. Choose your stylist, choose your servi
 
 Testimonials from real clients. Your credentials and training. Your salon's story. Why you do what you do.
 
-**Transparency builds trust**. The more information you provide—your values, your process, your expertise—the more confident people feel choosing you.
+**Transparency builds trust**. The more information you provide, your values, your process, your expertise, the more confident people feel choosing you.
 
 ### 5. Looks As Premium As Your Salon
 
@@ -242,7 +242,7 @@ High-quality imagery. Clean design. Consistent branding. Professional copy.
 
 **When content is presented with higher aesthetic treatment, it's judged as more credible**.
 
-Your website should immediately invoke confidence, enjoyment, and positive emotions that make people want to stay—and book.
+Your website should immediately invoke confidence, enjoyment, and positive emotions that make people want to stay, and book.
 
 ## The Bottom Line: Don't Let Your Digital Infrastructure Undervalue Your Artistic Skill
 
@@ -270,7 +270,7 @@ Instagram is brilliant for visibility, but 94% of first impressions are design-r
 
 **What's wrong with using Linktree for my salon?**
 
-Linktree signals "not established" or "side hustle" rather than professional business. It lacks personalisation and can make clients question your legitimacy—if you're charging $350 for colour but won't invest in a proper website, it creates cognitive dissonance. Case studies show businesses increased bookings by 30% after switching from Linktree to custom websites.
+Linktree signals "not established" or "side hustle" rather than professional business. It lacks personalisation and can make clients question your legitimacy, if you're charging $350 for colour but won't invest in a proper website, it creates cognitive dissonance. Case studies show businesses increased bookings by 30% after switching from Linktree to custom websites.
 
 **How much does a professional salon website cost compared to lost bookings?**
 
@@ -278,7 +278,7 @@ A professional salon website typically costs $3,000-5,000. However, over 50% of 
 
 **Does website design actually affect how clients perceive my pricing?**
 
-Yes. Research shows that when identical content is presented with different aesthetic treatments, higher aesthetic design is judged as more credible—this is called "the amelioration effect". Premium pricing only works when backed by strong brand identity and seamless customer experience. If your pricing is premium but your website looks budget, clients assume something's "off" and may not book.
+Yes. Research shows that when identical content is presented with different aesthetic treatments, higher aesthetic design is judged as more credible, this is called "the amelioration effect". Premium pricing only works when backed by strong brand identity and seamless customer experience. If your pricing is premium but your website looks budget, clients assume something's "off" and may not book.
 
 **What should a premium salon website include?**
 
@@ -288,13 +288,13 @@ At minimum: fast mobile-responsive design, curated portfolio organised by servic
 
 ### References
 
-1. UserGuiding / UXCam / Maze — 94% of first impressions are design-related; it takes 0.05 seconds for users to form website opinions; 88% won't return after poor UX experience
-2. SWEOR / The Breezy Company / Paradigm Marketing — 75% judge company credibility on website design; 38% stop engaging if content/layout unattractive; 74% more likely to return to mobile-friendly sites
-3. Insly Digital / August Agency — Aesthetic visual design increases perceived credibility ("amelioration effect"); high aesthetic treatment conveys professionalism and invokes confidence within first seconds
-4. Noethera / SuperProfile — Linktree vs custom website: 75% judge credibility on website; Linktree lacks personalisation and appears generic; case study showed 30% booking increase after switching to custom site
-5. Shopify / Price2Spy / Nine Blaess — Premium pricing creates perception of quality and exclusivity; only works with strong brand identity and seamless customer experience; pricing/presentation mismatch hurts credibility
-6. NIQ — 54% of consumers identify premium products by high-quality materials/ingredients; price signals value and care
-7. MioSalon / Kitomba — Over 50% of salon online bookings occur outside standard hours; online booking provides 24/7 convenience and reduces lost bookings; clients expect instant booking capability
-8. Marketing Insider Group — Owned media (websites) provide total control, build trust, contribute most to organic search rankings; 69% of marketers investing in owned-media assets
-9. dingg / SalonScale — Clear pricing builds client trust; transparent systems improve salon efficiency and profitability; modern clients expect convenient digital experiences
+1. UserGuiding / UXCam / Maze, 94% of first impressions are design-related; it takes 0.05 seconds for users to form website opinions; 88% won't return after poor UX experience
+2. SWEOR / The Breezy Company / Paradigm Marketing, 75% judge company credibility on website design; 38% stop engaging if content/layout unattractive; 74% more likely to return to mobile-friendly sites
+3. Insly Digital / August Agency. Aesthetic visual design increases perceived credibility ("amelioration effect"); high aesthetic treatment conveys professionalism and invokes confidence within first seconds
+4. Noethera / SuperProfile. Linktree vs custom website: 75% judge credibility on website; Linktree lacks personalisation and appears generic; case study showed 30% booking increase after switching to custom site
+5. Shopify / Price2Spy / Nine Blaess. Premium pricing creates perception of quality and exclusivity; only works with strong brand identity and seamless customer experience; pricing/presentation mismatch hurts credibility
+6. NIQ, 54% of consumers identify premium products by high-quality materials/ingredients; price signals value and care
+7. MioSalon / Kitomba. Over 50% of salon online bookings occur outside standard hours; online booking provides 24/7 convenience and reduces lost bookings; clients expect instant booking capability
+8. Marketing Insider Group. Owned media (websites) provide total control, build trust, contribute most to organic search rankings; 69% of marketers investing in owned-media assets
+9. dingg / SalonScale. Clear pricing builds client trust; transparent systems improve salon efficiency and profitability; modern clients expect convenient digital experiences
 

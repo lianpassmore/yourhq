@@ -602,7 +602,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>Email marketing platform? <span className="normal-case font-normal">(ConvertKit, Mailchimp, etc — leave blank if none)</span></label>
+                <label className={LABEL}>Email marketing platform? <span className="normal-case font-normal">(ConvertKit, Mailchimp, etc. Leave blank if none)</span></label>
                 <input
                   type="text" name="Email marketing platform"
                   placeholder="ConvertKit / Mailchimp / None yet"
@@ -632,7 +632,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           <div className={SECTION}>
             <div className="mb-6">
               <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Integrations</h3>
-              <p className="text-sm text-softGrey mt-1">Only fill in what's relevant. Anything here may be a Power-Up — Lian will confirm scope and pricing.</p>
+              <p className="text-sm text-softGrey mt-1">Only fill in what's relevant. Anything here may be a Power-Up. Lian will confirm scope and pricing.</p>
             </div>
             <div className="space-y-6">
               <div>
@@ -647,7 +647,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 <label className={LABEL}>Take deposits or payments upfront from clients?</label>
                 <input
                   type="text" name="Deposits or upfront payments"
-                  placeholder="Yes — 50% deposits / Sometimes / No"
+                  placeholder="Yes, 50% deposits / Sometimes / No"
                   className={`${INPUT} ${a.focus}`}
                 />
               </div>
@@ -655,7 +655,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 <label className={LABEL}>Want to take payments through the website?</label>
                 <input
                   type="text" name="Stripe payments interest"
-                  placeholder="Yes — session packs / digital products / No"
+                  placeholder="Yes, session packs / digital products / No"
                   className={`${INPUT} ${a.focus}`}
                 />
               </div>
@@ -671,12 +671,12 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 <label className={LABEL}>Have or plan a course or program?</label>
                 <input
                   type="text" name="Course or program"
-                  placeholder="Yes — 6-week leadership course / Maybe one day / No"
+                  placeholder="Yes, 6-week leadership course / Maybe one day / No"
                   className={`${INPUT} ${a.focus}`}
                 />
               </div>
               <div>
-                <label className={LABEL}>Are you the face of the business, or is the business the brand — or both?</label>
+                <label className={LABEL}>Are you the face of the business, or is the business the brand, or both?</label>
                 <input
                   type="text" name="Face of business or brand"
                   placeholder="I am the brand / The business is the brand / Both"
@@ -756,7 +756,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           <div className={SECTION}>
             <div className="mb-6">
               <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Wrap Up</h3>
-              <p className="text-sm text-softGrey mt-1">Last few — anything we haven't covered.</p>
+              <p className="text-sm text-softGrey mt-1">Last few. Anything we haven't covered.</p>
             </div>
             <div className="space-y-6">
               <div>
@@ -768,7 +768,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>Anything you've had on a website before that didn't work — or that you definitely don't want?</label>
+                <label className={LABEL}>Anything you've had on a website before that didn't work, or that you definitely don't want?</label>
                 <textarea
                   name="What didn't work before" rows={3}
                   placeholder="A live chat widget that just stressed me out..."
@@ -784,7 +784,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>On a scale of "keep it simple" to "give me everything" — where are you sitting?</label>
+                <label className={LABEL}>On a scale of "keep it simple" to "give me everything", where are you sitting?</label>
                 <input
                   type="text" name="Scope preference"
                   placeholder="Keep it simple / Somewhere in the middle / Give me everything"
@@ -814,7 +814,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         )}
 
         <p className="text-xs text-softGrey/70 text-center">
-          Only your business or brand name is required — fill in whatever else you can. We'll follow up on anything we need.
+          Only your business or brand name is required. Fill in whatever else you can. We'll follow up on anything we need.
         </p>
       </div>
     </form>

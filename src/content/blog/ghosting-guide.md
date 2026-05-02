@@ -82,13 +82,13 @@ A professional website handles the first two automatically.
 ## Frequently Asked Questions
 
 **What's a normal quote conversion rate for tradies?**
-The average quote-to-job conversion rate for trade businesses sits around 25-35%. However, tradies with professional websites and strong Google reviews consistently convert at 50-60%, because customers have already built trust before the quote arrives. The difference isn't your pricing—it's your perceived credibility.
+The average quote-to-job conversion rate for trade businesses sits around 25-35%. However, tradies with professional websites and strong Google reviews consistently convert at 50-60%, because customers have already built trust before the quote arrives. The difference isn't your pricing, it's your perceived credibility.
 
 **Why do customers ghost instead of just saying no?**
-It's human nature to avoid awkward conversations, especially about money. When a customer chooses a cheaper competitor, they feel guilty telling you—so they say nothing. A structured follow-up sequence gives them a low-pressure way to respond and keeps you in control of the conversation.
+It's human nature to avoid awkward conversations, especially about money. When a customer chooses a cheaper competitor, they feel guilty telling you, so they say nothing. A structured follow-up sequence gives them a low-pressure way to respond and keeps you in control of the conversation.
 
 **How does having a website help me win more quotes?**
-A website builds trust before you even arrive on site. 75% of consumers judge a business's credibility based on web design alone. When a customer receives your quote and then Googles you, finding a professional site with reviews, portfolio photos, and clear service descriptions makes them far more likely to accept your price—even if it's higher than competitors.
+A website builds trust before you even arrive on site. 75% of consumers judge a business's credibility based on web design alone. When a customer receives your quote and then Googles you, finding a professional site with reviews, portfolio photos, and clear service descriptions makes them far more likely to accept your price, even if it's higher than competitors.
 
 **What should I include on my website to improve quote conversions?**
 Focus on trust signals: portfolio photos of completed work, Google reviews prominently displayed, qualifications and insurance details, clear service descriptions, and a professional contact form that pre-qualifies leads. These elements do the selling before you arrive, so you're quoting warm leads instead of cold ones.
@@ -96,6 +96,6 @@ Focus on trust signals: portfolio photos of completed work, Google reviews promi
 ---
 
 ### References
-1. HubSpot Sales Research — 48% of salespeople never follow up; conversion rate benchmarks
-2. BrightLocal Consumer Review Survey — 81% research businesses online before purchasing
-3. Stanford Web Credibility Research — 75% of consumers judge credibility on web design
+1. HubSpot Sales Research, 48% of salespeople never follow up; conversion rate benchmarks
+2. BrightLocal Consumer Review Survey, 81% research businesses online before purchasing
+3. Stanford Web Credibility Research, 75% of consumers judge credibility on web design

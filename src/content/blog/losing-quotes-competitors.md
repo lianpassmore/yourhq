@@ -12,7 +12,7 @@ Here's a scenario I see often in the data:
 
 Imagine two builders quote on a $80,000 renovation.
 
-**Builder A** is experienced, honest, and affordable. He sends his quote via email—just plain text in the body, no PDF, no branding. He has no website. Just a mobile number and a Gmail address: **johnsbuildingservices@gmail.com**.
+**Builder A** is experienced, honest, and affordable. He sends his quote via email, just plain text in the body, no PDF, no branding. He has no website. Just a mobile number and a Gmail address: **johnsbuildingservices@gmail.com**.
 
 **Builder B** is newer to the game. Slightly more expensive. Maybe not quite as skilled yet. But he has a crisp website with a project gallery, testimonials from previous clients, and a professional email domain: **john@qualitybuilders.co.nz**.
 
@@ -24,7 +24,7 @@ And here's the uncomfortable truth: **75% of consumers judge a company's credibi
 
 Not your experience. Not your references. Not even your quote. Your *website*.
 
-If you don't have one—or if yours looks like it was built in 2009—you're losing jobs before you even realise you're in the running.
+If you don't have one, or if yours looks like it was built in 2009, you're losing jobs before you even realise you're in the running.
 
 ## Trust is a Data Point (And Your Website Is the Evidence)
 
@@ -49,7 +49,7 @@ That means only 3% of people hiring tradies *don't* factor your website into the
 
 **74% of buyers say a provider's website holds at least "some influence" over their decision**. And for professional services (which includes trades, building, and renovation work), that influence has increased by 23% over the past decade.
 
-Your website isn't just a nice-to-have. It's the single most powerful tool in your sales process—whether you realise it or not.
+Your website isn't just a nice-to-have. It's the single most powerful tool in your sales process, whether you realise it or not.
 
 ## The Gmail Problem: You're Undermining Yourself Every Time You Hit Send
 
@@ -78,20 +78,20 @@ Here's what clients are thinking when they see a Gmail address:
 
 It's brutal. But it's true.
 
-**A custom domain email instantly boosts your credibility**. It shows you take your business seriously. It reinforces your brand with every single email you send. And it makes you look established—even if you only started last year.
+**A custom domain email instantly boosts your credibility**. It shows you take your business seriously. It reinforces your brand with every single email you send. And it makes you look established, even if you only started last year.
 
 ## The Eight Factors That Build Trust in Construction (And How Your Website Covers Half of Them)
 
 Research into the construction industry has identified eight key factors that build trust between clients and contractors:
 
-1. **Competence** — Can you actually do the work?
-2. **Reputation** — What do other people say about you?
-3. **Integrity** — Are you honest and transparent?
-4. **Information sharing and communication** — Do you explain things clearly?
-5. **Interaction history** — Have you worked together before?
-6. **Contracts and institutions** — Are you licensed and insured?
-7. **Relation-specific investment** — Are you committed to this project?
-8. **Opportunistic behaviour** — Are you trying to rip them off?
+1. **Competence**. Can you actually do the work?
+2. **Reputation**. What do other people say about you?
+3. **Integrity**. Are you honest and transparent?
+4. **Information sharing and communication**. Do you explain things clearly?
+5. **Interaction history**. Have you worked together before?
+6. **Contracts and institutions**. Are you licensed and insured?
+7. **Relation-specific investment**. Are you committed to this project?
+8. **Opportunistic behaviour**. Are you trying to rip them off?
 
 Now here's the thing: **Your website can directly address at least four of these factors** before you even meet the client.
 
@@ -121,7 +121,7 @@ But if your competitor has a better *website*, the homeowner assumes *they're* t
 
 It's not logical. But it's human nature.
 
-**When people spend significant money, risk is the enemy**. They're not just hiring you to build a deck—they're trusting you with their home, their savings, their family's comfort.
+**When people spend significant money, risk is the enemy**. They're not just hiring you to build a deck, they're trusting you with their home, their savings, their family's comfort.
 
 And in the absence of personal recommendations or previous experience with you, they use your website as the primary indicator of whether you're trustworthy.
 
@@ -144,7 +144,7 @@ But they'll win the job because their online presence made the homeowner *feel* 
 
 Let's do some rough maths.
 
-Say you quote on 50 jobs a year. You're experienced, your quotes are competitive, and your work is solid. But you have no website—just a Facebook page and a Gmail address.
+Say you quote on 50 jobs a year. You're experienced, your quotes are competitive, and your work is solid. But you have no website, just a Facebook page and a Gmail address.
 
 **If even 20% of those jobs go to competitors because their online presence is stronger, that's 10 lost jobs.**
 
@@ -210,7 +210,7 @@ If your work is solid, your website should be too.
 
 **Do tradies really need a website in 2025?**
 
-Yes. 97% of buyers say a service provider's website influences their purchase decision, and 75% of consumers judge a company's credibility based on website design alone. Even if you get most of your work through word-of-mouth, potential clients will Google you before hiring—and if they find nothing (or something outdated), they'll hire someone else.
+Yes. 97% of buyers say a service provider's website influences their purchase decision, and 75% of consumers judge a company's credibility based on website design alone. Even if you get most of your work through word-of-mouth, potential clients will Google you before hiring, and if they find nothing (or something outdated), they'll hire someone else.
 
 **What's wrong with using Gmail for my business email?**
 
@@ -222,23 +222,23 @@ A quality tradie website typically costs $3,000-7,000 for initial build, with on
 
 **What should I include on my tradie website?**
 
-At minimum: a portfolio gallery with before/after photos, client testimonials, clear service descriptions, your contact information, and proof of licensing/insurance. Add a simple "About" page explaining your experience and approach. Make sure it's mobile-responsive—63.8% of website traffic comes from mobile devices. Don't overcomplicate it; simple and professional beats fancy and confusing.
+At minimum: a portfolio gallery with before/after photos, client testimonials, clear service descriptions, your contact information, and proof of licensing/insurance. Add a simple "About" page explaining your experience and approach. Make sure it's mobile-responsive, 63.8% of website traffic comes from mobile devices. Don't overcomplicate it; simple and professional beats fancy and confusing.
 
 **Will a website actually help me win more jobs?**
 
-Yes. Research shows that websites influence 97% of service provider purchase decisions, with 74% saying it has at least "some influence". When homeowners are choosing between similar quotes, your website becomes the deciding factor. A professional online presence signals competence, reliability, and legitimacy—key factors in building trust with potential clients.
+Yes. Research shows that websites influence 97% of service provider purchase decisions, with 74% saying it has at least "some influence". When homeowners are choosing between similar quotes, your website becomes the deciding factor. A professional online presence signals competence, reliability, and legitimacy, key factors in building trust with potential clients.
 
 ---
 
 ### References
 
-1. Made For Web / Stanford Web Credibility Research — 75% of consumers judge a company's credibility based on website design alone
-2. HubSpot Research Study — 97% of buyers say service provider website influences purchase decision; 74% report at least "some influence"; influence increased 23% over past decade
-3. Reddit r/smallbusiness / Bits Kingdom — Gmail addresses signal side hustles vs custom domains showing established businesses
-4. Rocketspark / Mandira Solutions — Professional domain-based emails build instant credibility and trust vs free email services
-5. LinkedIn Professional Marketing — Custom domain emails show business commitment; Gmail addresses undermine credibility and make businesses appear less established
-6. PMC / Construction Research — Eight trust factors in construction industry: competence, reputation, integrity, information sharing, interaction history, contracts/institutions, relation-specific investment, opportunistic behaviour
-7. Australian Journal of Construction Economics / PMC — Trust and transparency factors in construction including communication, ethical integrity, competence, and reputation
-8. Sweeten / Bret Slaton — Homeowner criteria for selecting contractors: licensing, insurance, experience, portfolio, detailed contracts, quality workmanship, financial stability
-9. TekRevol — 63.8% of global website traffic comes from mobile devices
+1. Made For Web / Stanford Web Credibility Research, 75% of consumers judge a company's credibility based on website design alone
+2. HubSpot Research Study, 97% of buyers say service provider website influences purchase decision; 74% report at least "some influence"; influence increased 23% over past decade
+3. Reddit r/smallbusiness / Bits Kingdom. Gmail addresses signal side hustles vs custom domains showing established businesses
+4. Rocketspark / Mandira Solutions. Professional domain-based emails build instant credibility and trust vs free email services
+5. LinkedIn Professional Marketing. Custom domain emails show business commitment; Gmail addresses undermine credibility and make businesses appear less established
+6. PMC / Construction Research. Eight trust factors in construction industry: competence, reputation, integrity, information sharing, interaction history, contracts/institutions, relation-specific investment, opportunistic behaviour
+7. Australian Journal of Construction Economics / PMC. Trust and transparency factors in construction including communication, ethical integrity, competence, and reputation
+8. Sweeten / Bret Slaton. Homeowner criteria for selecting contractors: licensing, insurance, experience, portfolio, detailed contracts, quality workmanship, financial stability
+9. TekRevol, 63.8% of global website traffic comes from mobile devices
 

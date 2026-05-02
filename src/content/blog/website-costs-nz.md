@@ -1,6 +1,6 @@
 ---
 title: "Web Design Prices in NZ: What Should You Actually Pay?"
-description: "From $500 to $15,000—why is website pricing so confusing? We break down the costs."
+description: "From $500 to $15,000, why is website pricing so confusing? We break down the costs."
 pubDate: 2025-12-12
 author: "Lian"
 image: "/calculator.webp"
@@ -77,7 +77,7 @@ This is the "old way" of building websites. Big teams. Long timelines. Expensive
 
 **Who this doesn't work for:** Small businesses that need results fast without spending their entire marketing budget on a website.
 
-### Tier 3: The Modern Disruptor ($695 - $1,495 + GST setup + monthly)
+### Tier 3: The Modern Disruptor ($695 - $1,495 NZD + GST setup + monthly)
 
 This is where YourHQ sits. **Same quality. Faster delivery. Lower price.**
 
@@ -86,7 +86,7 @@ How? By using modern tools that traditional agencies refuse to adopt.
 #### The Efficiency Stack:
 
 **AI-Assisted Content Creation**  
-We use AI to help write copy, structure content, and speed up the build process. What used to take agencies 40 hours of manual copywriting now takes us 8-12 hours—without sacrificing quality.
+We use AI to help write copy, structure content, and speed up the build process. What used to take agencies 40 hours of manual copywriting now takes us 8-12 hours, without sacrificing quality.
 
 (Traditional agencies will tell you "AI can't write good copy." They're wrong. AI can't *replace* human judgement, but it can massively accelerate the process when used properly.)
 
@@ -102,7 +102,7 @@ Traditional agencies need multiple meetings, brand workshops, and approval stage
 
 ## What You Actually Get at YourHQ
 
-### The Starter ($695 + GST + $49/month + GST)
+### The Starter ($695 NZD + GST + $49/month NZD + GST)
 
 Perfect for "I just need something online."
 
@@ -113,7 +113,7 @@ Perfect for "I just need something online."
 
 **Who this works for:** Absolute minimum online presence. You're testing an idea or need a digital business card.
 
-### The Launch ($995 + GST + $149/month + GST)
+### The Launch ($995 NZD + GST + $149/month NZD + GST)
 
 This is our bread and butter for tradies, retailers, and service businesses.
 
@@ -124,9 +124,9 @@ This is our bread and butter for tradies, retailers, and service businesses.
 - **Annual design refresh** (so you never look outdated)
 - SEO-optimised and mobile-responsive
 
-**Who this works for:** Electricians, plumbers, builders, accountants, physios—anyone who needs a professional site that generates leads.
+**Who this works for:** Electricians, plumbers, builders, accountants, physios, anyone who needs a professional site that generates leads.
 
-### The Growth ($1,495 + GST + $249/month + GST)
+### The Growth ($1,495 NZD + GST + $249/month NZD + GST)
 
 For salons, consultants, and businesses that need booking systems.
 
@@ -136,7 +136,7 @@ For salons, consultants, and businesses that need booking systems.
 - Instagram feed integration
 - Priority 24-hour support
 
-**Who this works for:** Salons, consultants, coaches, wellness businesses—anyone who books appointments or needs ongoing content.
+**Who this works for:** Salons, consultants, coaches, wellness businesses, anyone who books appointments or needs ongoing content.
 
 ## Why Monthly Instead of a Big Lump Sum?
 
@@ -197,8 +197,8 @@ Let's do the actual maths:
 **Total 3-year cost:** $17,400
 
 ### YourHQ Launch Model:
-- **Setup:** $995 + GST
-- **Monthly fee:** $149/month + GST × 36 months = $5,364 + GST
+- **Setup:** $995 NZD + GST
+- **Monthly fee:** $149/month NZD + GST × 36 months = $5,364 NZD + GST
 - **Annual refresh included:** $0
 - **Emergency fixes:** $0
 - **Updates:** $0
@@ -244,7 +244,7 @@ Now with a proper website:
 - **Additional monthly revenue:** $7,500
 - **Additional annual revenue:** $90,000
 
-**Your website costs you $149/month + GST ($1,788/year + GST).** It generates an extra $90,000/year.
+**Your website costs you $149/month NZD + GST ($1,788/year NZD + GST).** It generates an extra $90,000/year.
 
 **That's a 5,000% ROI.**
 
@@ -257,7 +257,7 @@ Still a 1,577% ROI.
 **"We'll build you a website for $300."**  
 Run. You're getting a template with zero customisation and no support.
 
-**"We don't list our prices—every project is different."**  
+**"We don't list our prices, every project is different."**  
 Translation: "We charge whatever we think you can afford." Transparent pricing should be standard.
 
 **"Pay the full amount upfront before we start."**  
@@ -266,23 +266,23 @@ Standard practice is deposit + payment on completion. Full payment upfront is a 
 **"We'll get you on page 1 of Google within a week."**  
 SEO doesn't work that way. Anyone promising instant rankings is lying.
 
-**"Hosting and maintenance are extra—we'll invoice when needed."**  
+**"Hosting and maintenance are extra, we'll invoice when needed."**  
 Get a clear maintenance agreement upfront. Surprise invoices are the worst.
 
 ## What You Should Actually Pay (Our Honest Recommendation)
 
 ### If You Just Need Something Online Fast:
-**Budget:** $695 + GST setup + $49/month + GST
+**Budget:** $695 NZD + GST setup + $49/month NZD + GST
 **Get:** [The Starter](/pricing)  
 **Best for:** Testing ideas, bare minimum presence
 
 ### If You Need a Professional Site That Generates Leads:
-**Budget:** $995 + GST setup + $149/month + GST
+**Budget:** $995 NZD + GST setup + $149/month NZD + GST
 **Get:** [The Launch](/pricing)  
 **Best for:** Tradies, consultants, retailers, service businesses
 
 ### If You Need Booking Systems or Regular Content:
-**Budget:** $1,495 + GST setup + $249/month + GST
+**Budget:** $1,495 NZD + GST setup + $249/month NZD + GST
 **Get:** [The Growth](/pricing)  
 **Best for:** Salons, coaches, consultants, wellness businesses
 
@@ -309,11 +309,11 @@ It's your 24/7 salesperson. Your portfolio. Your booking system. Your credibilit
 
 Traditional agencies will charge you $8,000-$30,000 and take 12 weeks because their process is stuck in 2015.
 
-We charge $995-$1,495 + GST and deliver in 7 days because we've embraced modern tools that make us faster without sacrificing quality.
+We charge $995-$1,495 NZD + GST and deliver in 7 days because we've embraced modern tools that make us faster without sacrificing quality.
 
 **A well-maintained website can generate 100% ROI within 12 months**. But only if it's professional, fast, secure, and kept up-to-date.
 
-That's why we include maintenance, updates, and annual refreshes in the monthly fee. Because a $995 + GST website that gets abandoned and hacked 2 years later isn't an asset. It's a liability.
+That's why we include maintenance, updates, and annual refreshes in the monthly fee. Because a $995 NZD + GST website that gets abandoned and hacked 2 years later isn't an asset. It's a liability.
 
 **[View Our Transparent Pricing](/pricing)**
 
@@ -323,15 +323,15 @@ That's why we include maintenance, updates, and annual refreshes in the monthly 
 
 **Why is your pricing so much lower than traditional agencies?**
 
-We're not cheaper because we cut corners—we're more efficient. Traditional agencies charge $8,000-$30,000 because they have large teams, manual processes, and 6-12 week timelines. We use AI-assisted workflows and modern frameworks (Astro) that let us deliver the same quality in 5-7 days with a smaller team. We're remote-based in Whangārei, not paying Auckland office rent. This efficiency lets us pass savings to you.
+We're not cheaper because we cut corners, we're more efficient. Traditional agencies charge $8,000-$30,000 because they have large teams, manual processes, and 6-12 week timelines. We use AI-assisted workflows and modern frameworks (Astro) that let us deliver the same quality in 5-7 days with a smaller team. We're remote-based in Whangārei, not paying Auckland office rent. This efficiency lets us pass savings to you.
 
 **What happens if I cancel my monthly subscription?**
 
-You own your domain—we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$249/month + GST for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
+You own your domain, we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$249/month NZD + GST for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
 
 **How is this different from Wix or Squarespace?**
 
-DIY platforms like Wix cost $20-$50/month but require you to build and maintain everything yourself. You're responsible for design, SEO, content, troubleshooting. Our sites are built on Astro—faster, cleaner code that loads in under 2 seconds vs 4-6 seconds for Wix. Plus you get professional copywriting, design, SEO setup, and ongoing support. You're buying expertise and time, not just software.
+DIY platforms like Wix cost $20-$50/month but require you to build and maintain everything yourself. You're responsible for design, SEO, content, troubleshooting. Our sites are built on Astro, faster, cleaner code that loads in under 2 seconds vs 4-6 seconds for Wix. Plus you get professional copywriting, design, SEO setup, and ongoing support. You're buying expertise and time, not just software.
 
 **Can you really build a professional website in 5-7 days?**
 
@@ -339,20 +339,20 @@ Yes. We do a voice interview with you (30-45 minutes), use AI to help structure 
 
 **What's included in the annual design refresh?**
 
-Every 12 months, we update your site's design to keep it looking current—new layouts, updated colour schemes, modern typography, refreshed imagery. This alone is worth $2,000+ if you paid an agency separately. It's included in your monthly fee because we never want your site to look outdated. Your competitor got a new website last year? We'll make sure yours still looks just as good.
+Every 12 months, we update your site's design to keep it looking current, new layouts, updated colour schemes, modern typography, refreshed imagery. This alone is worth $2,000+ if you paid an agency separately. It's included in your monthly fee because we never want your site to look outdated. Your competitor got a new website last year? We'll make sure yours still looks just as good.
 
 ---
 
 ### References
 
-1. Built Flat NZ / Back9 NZ / NZ Digital — NZ website costs range $500-$75,000+; small business sites $2,000-$9,000; custom sites $7,000-$20,000; corporate sites $10,000-$30,000; annual maintenance $400-$10,000
-2. Chalk n Cheese NZ / Red Eye Design NZ — Basic brochure sites from solo designers $1,500-$3,500; informational sites $2,000-$9,000; custom business sites with SEO and functionality $7,000-$20,000
-3. LinkedIn / DataEndure — 39.1% of hacked websites running outdated software; unmaintained websites are critical security risks; abandoned data becomes liability
-4. Forbes Agency Council / WebDezyn Plus / White Label IQ — Website downtime costs average $5,600/minute; data breaches average $4.88M; companies lacking systematic maintenance see 20% marketing effectiveness drop; neglected sites lose rankings and conversions
-5. Jane Hinchliffe / Grafdom — Annual maintenance costs $400-$10,000 NZ; neglected WordPress sites face plugin conflicts, security vulnerabilities, broken functionality; systematic maintenance prevents costly emergency fixes
-6. First Digital NZ — Small conversion rate improvement 2% to 3% equals 50% ROI increase; website investment can generate 100% ROI within 12 months with proper implementation
-7. Made By Mel UK / SEO Power Solutions — Subscription vs one-time pricing comparison; monthly model provides predictable costs, ongoing maintenance, continuous updates vs large upfront payment with separate maintenance invoicing
-8. Invespcro / Statista — 38% of SaaS companies use usage-based or subscription pricing; subscription models align vendor-client incentives for ongoing value delivery
-9. Astro Documentation — Static site generators provide faster load times (under 2 seconds), better security (no database vulnerabilities), easier maintenance, better SEO performance vs traditional CMS
-10. Stanford Web Credibility Research — 75% of consumers judge company credibility based on website design; professional appearance directly affects trust and purchase decisions
+1. Built Flat NZ / Back9 NZ / NZ Digital. NZ website costs range $500-$75,000+; small business sites $2,000-$9,000; custom sites $7,000-$20,000; corporate sites $10,000-$30,000; annual maintenance $400-$10,000
+2. Chalk n Cheese NZ / Red Eye Design NZ. Basic brochure sites from solo designers $1,500-$3,500; informational sites $2,000-$9,000; custom business sites with SEO and functionality $7,000-$20,000
+3. LinkedIn / DataEndure, 39.1% of hacked websites running outdated software; unmaintained websites are critical security risks; abandoned data becomes liability
+4. Forbes Agency Council / WebDezyn Plus / White Label IQ. Website downtime costs average $5,600/minute; data breaches average $4.88M; companies lacking systematic maintenance see 20% marketing effectiveness drop; neglected sites lose rankings and conversions
+5. Jane Hinchliffe / Grafdom. Annual maintenance costs $400-$10,000 NZ; neglected WordPress sites face plugin conflicts, security vulnerabilities, broken functionality; systematic maintenance prevents costly emergency fixes
+6. First Digital NZ. Small conversion rate improvement 2% to 3% equals 50% ROI increase; website investment can generate 100% ROI within 12 months with proper implementation
+7. Made By Mel UK / SEO Power Solutions. Subscription vs one-time pricing comparison; monthly model provides predictable costs, ongoing maintenance, continuous updates vs large upfront payment with separate maintenance invoicing
+8. Invespcro / Statista, 38% of SaaS companies use usage-based or subscription pricing; subscription models align vendor-client incentives for ongoing value delivery
+9. Astro Documentation. Static site generators provide faster load times (under 2 seconds), better security (no database vulnerabilities), easier maintenance, better SEO performance vs traditional CMS
+10. Stanford Web Credibility Research, 75% of consumers judge company credibility based on website design; professional appearance directly affects trust and purchase decisions
 

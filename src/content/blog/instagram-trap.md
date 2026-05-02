@@ -18,7 +18,7 @@ And here's the thing that keeps me up at night (well, one of many things): **87%
 
 That's not just a dip. That's a death spiral for organic content.
 
-If the algorithm changes tomorrow—or if Meta decides your account "violated community guidelines" with zero explanation—does your business disappear?
+If the algorithm changes tomorrow, or if Meta decides your account "violated community guidelines" with zero explanation, does your business disappear?
 
 Because I've seen it happen. And it's bloody terrifying.
 
@@ -28,7 +28,7 @@ Right now, you're a **digital tenant**. You're building your castle on rented la
 
 The landlord (Meta) sets the rules.  
 The landlord decides who sees your posts.  
-The landlord can evict you (ban your account) whenever they want—with no warning, no explanation, and often no successful appeal.
+The landlord can evict you (ban your account) whenever they want, with no warning, no explanation, and often no successful appeal.
 
 ### The Real Cost of Algorithm Changes
 
@@ -38,7 +38,7 @@ In 2020, if you had 10,000 followers, you'd reach about 1,000-1,500 people per p
 
 That's an 80-85% drop in reach.
 
-And it's not just about numbers. It's about your livelihood. Australian small business owner Kellie Johnson watched her Instagram account get suspended without warning in July 2024. Her sales dropped from $133,000 in June to an estimated $50,000 in July—a loss of over $80,000 in a single month.
+And it's not just about numbers. It's about your livelihood. Australian small business owner Kellie Johnson watched her Instagram account get suspended without warning in July 2024. Her sales dropped from $133,000 in June to an estimated $50,000 in July, a loss of over $80,000 in a single month.
 
 No warning. No explanation. Just digital silence where her business used to thrive.
 
@@ -127,7 +127,7 @@ Compare that to a salon with a professional website, online booking, a clear por
 
 ## Move Your Clients to Your House
 
-Look—I'm not saying delete Instagram. It's a brilliant marketing tool. It's where discovery happens. It's where you showcase your work and build your brand.
+Look, I'm not saying delete Instagram. It's a brilliant marketing tool. It's where discovery happens. It's where you showcase your work and build your brand.
 
 But it shouldn't be your *only* tool.
 
@@ -145,11 +145,11 @@ Online booking means someone can book you at 11pm on a Sunday while they're lyin
 
 ### 3. You Build Authority
 
-A portfolio that stays organised. Testimonials from real clients. A clear breakdown of your services and pricing. Evidence that you're a legitimate, established salon—not just someone with a good Instagram feed.
+A portfolio that stays organised. Testimonials from real clients. A clear breakdown of your services and pricing. Evidence that you're a legitimate, established salon, not just someone with a good Instagram feed.
 
 ## From Renter to Owner: What You Actually Need
 
-A website is insurance for your brand. It signals that you're an established, premium salon—not just an influencer who might disappear tomorrow.
+A website is insurance for your brand. It signals that you're an established, premium salon, not just an influencer who might disappear tomorrow.
 
 Here's what a proper salon website gives you:
 
@@ -171,7 +171,7 @@ When someone Googles "balayage Tauranga" or "best hair salon Christchurch," you 
 
 ## What You Actually Need to Get Started
 
-If you're reading this thinking *"Okay, fine, but I don't know where to start"*—here's the priority list:
+If you're reading this thinking *"Okay, fine, but I don't know where to start"*, here's the priority list:
 
 ### 1. A Simple, Beautiful Website
 
@@ -217,11 +217,11 @@ Technically yes, but it's extremely risky. 87% of businesses report significant 
 
 **What percentage of salon bookings happen outside business hours?**
 
-46% of salon bookings happen when salons are closed—28% in the evening and 18% early in the morning before opening. Without online booking, you're potentially missing out on nearly half your bookings because clients can't reach you via DM when they're ready to book.
+46% of salon bookings happen when salons are closed, 28% in the evening and 18% early in the morning before opening. Without online booking, you're potentially missing out on nearly half your bookings because clients can't reach you via DM when they're ready to book.
 
 **Why is "DM to book" bad for business?**
 
-"DM to book" creates friction that kills conversions. Clients have to wait for your response, which might take hours if you're with clients. By the time you reply, they've often moved on to a competitor with easier booking. Additionally, 43% of Gen Z clients expect online booking—they won't even consider salons that require DMing.
+"DM to book" creates friction that kills conversions. Clients have to wait for your response, which might take hours if you're with clients. By the time you reply, they've often moved on to a competitor with easier booking. Additionally, 43% of Gen Z clients expect online booking, they won't even consider salons that require DMing.
 
 **How much does a salon website cost compared to losing Instagram reach?**
 
@@ -229,17 +229,17 @@ While a professional salon website might cost $2,000-5,000 to build, the cost of
 
 **Do people judge my business based on having a website?**
 
-Absolutely. 75% of consumers judge a business's credibility based on their website, and 81% research businesses online before booking. Having only an Instagram presence can make you appear less established, less professional, and less trustworthy—which directly affects your ability to charge premium prices.
+Absolutely. 75% of consumers judge a business's credibility based on their website, and 81% research businesses online before booking. Having only an Instagram presence can make you appear less established, less professional, and less trustworthy, which directly affects your ability to charge premium prices.
 
 ---
 
 ### References
 
-1. Jasmine Directory, *Instagram's Algorithm Changes: Death Blow to Small Business Reach* — 87% of businesses report significant reach decline over 18 months; organic reach dropped from 1,000-1,500 to 200-300 people per 10,000 followers
-2. Yahoo Finance Australia — Australian business owner lost $80,000+ in monthly revenue after Meta suspended Instagram accounts without explanation; another business owner lost 75% revenue from wrongful suspension
-3. Phorest Salon Software / Salon Today — 46% of salon bookings happen outside business hours (28% evening, 18% morning); 43% of Gen Z clients expect online booking
-4. Booksalon Data / Hair & Beauty Industry Journal — 85% of salon appointment bookings happen on mobile devices
-5. Business Dasher, *Small Business Website Statistics* — 75% of consumers judge business credibility based on website design; 81% research businesses online before purchase
-6. E-Cabilly, *Instagram 180-Day Suspension Appeal Guide* — Instagram suspension appeal process: 180 days before deletion, 30 days for initial appeal, limited success rate
-7. Tilipman Digital, *Website vs Social Media* — Comparison of owned digital assets vs platform-dependent presence; risks of algorithm changes and account restrictions
+1. Jasmine Directory, *Instagram's Algorithm Changes: Death Blow to Small Business Reach*, 87% of businesses report significant reach decline over 18 months; organic reach dropped from 1,000-1,500 to 200-300 people per 10,000 followers
+2. Yahoo Finance Australia. Australian business owner lost $80,000+ in monthly revenue after Meta suspended Instagram accounts without explanation; another business owner lost 75% revenue from wrongful suspension
+3. Phorest Salon Software / Salon Today, 46% of salon bookings happen outside business hours (28% evening, 18% morning); 43% of Gen Z clients expect online booking
+4. Booksalon Data / Hair & Beauty Industry Journal, 85% of salon appointment bookings happen on mobile devices
+5. Business Dasher, *Small Business Website Statistics*, 75% of consumers judge business credibility based on website design; 81% research businesses online before purchase
+6. E-Cabilly, *Instagram 180-Day Suspension Appeal Guide*. Instagram suspension appeal process: 180 days before deletion, 30 days for initial appeal, limited success rate
+7. Tilipman Digital, *Website vs Social Media*. Comparison of owned digital assets vs platform-dependent presence; risks of algorithm changes and account restrictions
 

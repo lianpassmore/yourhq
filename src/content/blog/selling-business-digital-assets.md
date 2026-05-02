@@ -10,17 +10,17 @@ featured: false
 
 When you sell a business, you're not just selling a customer list. You're selling a machine.
 
-A machine that generates revenue. A machine that attracts customers. A machine that operates—ideally without you having to be there every single day.
+A machine that generates revenue. A machine that attracts customers. A machine that operates, ideally without you having to be there every single day.
 
 Investors and buyers look for systems. They want to know: **If the owner leaves, does the marketing stop working?**
 
-And here's the brutal reality: **The most common valuation obstacle isn't poor financials—it's founder dependency**.
+And here's the brutal reality: **The most common valuation obstacle isn't poor financials, it's founder dependency**.
 
 If your business relies on you showing up every day to make it work? You don't have a business. You have a job. And jobs don't sell for much.
 
 But businesses with documented systems, digital assets, and automated processes? Those sell for **20-40% more than owner-dependent businesses**.
 
-Let me show you why your digital presence isn't just marketing—it's a tangible asset that directly affects your business valuation.
+Let me show you why your digital presence isn't just marketing, it's a tangible asset that directly affects your business valuation.
 
 ## The Hidden Value Problem: Most Business Owners Undervalue Their Digital Assets
 
@@ -48,7 +48,7 @@ The broker's response? **"Your business valuation will be significantly lower be
 
 **Buyers heavily discount businesses where critical operations revolve around the owner's personal involvement**. They view these as risky investments that could deteriorate post-acquisition.
 
-If your marketing strategy is *"I post on my personal Facebook page"*—that's not a transferable asset. That's your personal network. When you leave, that network doesn't automatically transfer to the new owner.
+If your marketing strategy is *"I post on my personal Facebook page"*, that's not a transferable asset. That's your personal network. When you leave, that network doesn't automatically transfer to the new owner.
 
 But a professional website that ranks on Google? An email list with 5,000 engaged subscribers? Automated booking and payment systems? **Those are tangible, transferable assets**.
 
@@ -64,7 +64,7 @@ It attracts customers automatically through search engine visibility. It convert
 
 **Marketing automation delivers an average ROI of $5.44 for every $1 invested**. And most companies recover that investment in under 6 months.
 
-That's not just efficiency—that's a measurable, quantifiable asset that a buyer can see will continue generating revenue after you're gone.
+That's not just efficiency, that's a measurable, quantifiable asset that a buyer can see will continue generating revenue after you're gone.
 
 ### Example: Website Valuation in Real Terms
 
@@ -78,7 +78,7 @@ Now imagine you're selling your entire business. A buyer sees that your website 
 
 ### 2. Brand Value and Intellectual Property
 
-Your website houses your **brand identity**—your visual design, your voice, your positioning.
+Your website houses your **brand identity**, your visual design, your voice, your positioning.
 
 But more importantly, it contains your intellectual property:
 - Your unique methodology or service frameworks
@@ -86,7 +86,7 @@ But more importantly, it contains your intellectual property:
 - Client testimonials and case studies
 - Your company story and values
 
-**This is transferable knowledge**. When a buyer purchases your business, they're not just buying your customer list—they're buying the systems, processes, and expertise that made the business successful.
+**This is transferable knowledge**. When a buyer purchases your business, they're not just buying your customer list, they're buying the systems, processes, and expertise that made the business successful.
 
 Without documentation? That knowledge lives in your head. And when you leave, it leaves with you.
 
@@ -314,7 +314,7 @@ Start writing down:
 - Analytics dashboards instead of gut feelings
 - Payment processing instead of manual invoicing
 
-**The average marketing automation ROI is $5.44 for every $1 invested**. This isn't just about efficiency—it's about building transferable value.
+**The average marketing automation ROI is $5.44 for every $1 invested**. This isn't just about efficiency, it's about building transferable value.
 
 ### 5. Measure Everything
 
@@ -352,7 +352,7 @@ Websites that generate consistent organic leads can be valued at 30-35x monthly 
 
 **What is founder dependency and why does it lower business value?**
 
-Founder dependency occurs when critical operations, relationships, and decision-making revolve around the owner personally. It's the #1 valuation obstacle because buyers view these businesses as high-risk—if the owner leaves, revenue could plummet. Red flags include: key relationships maintained exclusively by owner, institutional knowledge existing only in founder's head, and quality dependent on personal oversight. Eliminating founder dependency through documented systems can increase sale price by 20-40%.
+Founder dependency occurs when critical operations, relationships, and decision-making revolve around the owner personally. It's the #1 valuation obstacle because buyers view these businesses as high-risk, if the owner leaves, revenue could plummet. Red flags include: key relationships maintained exclusively by owner, institutional knowledge existing only in founder's head, and quality dependent on personal oversight. Eliminating founder dependency through documented systems can increase sale price by 20-40%.
 
 **When should I start planning my business exit strategy?**
 
@@ -370,11 +370,11 @@ Test your business by taking 2-3 weeks off without checking in. To reduce depend
 
 ### References
 
-1. SE Advisory, *The Hidden Value of Proprietary Systems* — Most common valuation obstacle is founder dependency, not poor financials; buyers heavily discount businesses with operations revolving around owner; red flags include key relationships maintained exclusively by owner, critical decisions requiring founder approval, institutional knowledge in founder's head only
-2. Xero UK, *Business Exit Strategy Guide* — Start exit planning 3-5 years before sale; proper preparation increases business value by 20-40%; make yourself redundant by documenting processes, delegating authority, testing absence through extended holidays
-3. Riverbend Wealth Management / Radcom Services — Effective documentation increases business valuation; well-documented businesses sell faster and get higher offers; strong documentation reduces buyer risk and accelerates due diligence; organised SOPs and financial records lead to premium pricing
-4. The Web Company Digital / Empire Flippers — Digital assets are tangible business value; websites valued at 30-35x monthly profit multiples; proper valuation requires considering lead generation systems, brand IP, and customer data analytics
-5. Userpilot / Braze — Marketing automation ROI averages $5.44 per $1 invested; most companies recover investment under 6 months; automation KPIs include CAC, CLV, repeat purchase rate, and campaign ROI directly tied to business value
-6. MYOB NZ / ANZ NZ / Asset Valuations NZ — NZ business valuation methods; asset-based valuations for tangible and intangible assets including digital property; businesses valued using multiples of earnings and asset worth
-7. BNZ NZ — Seven ways to increase business value when selling include: documenting processes, maintaining accurate records, demonstrating operational independence from owner
+1. SE Advisory, *The Hidden Value of Proprietary Systems*. Most common valuation obstacle is founder dependency, not poor financials; buyers heavily discount businesses with operations revolving around owner; red flags include key relationships maintained exclusively by owner, critical decisions requiring founder approval, institutional knowledge in founder's head only
+2. Xero UK, *Business Exit Strategy Guide*. Start exit planning 3-5 years before sale; proper preparation increases business value by 20-40%; make yourself redundant by documenting processes, delegating authority, testing absence through extended holidays
+3. Riverbend Wealth Management / Radcom Services. Effective documentation increases business valuation; well-documented businesses sell faster and get higher offers; strong documentation reduces buyer risk and accelerates due diligence; organised SOPs and financial records lead to premium pricing
+4. The Web Company Digital / Empire Flippers. Digital assets are tangible business value; websites valued at 30-35x monthly profit multiples; proper valuation requires considering lead generation systems, brand IP, and customer data analytics
+5. Userpilot / Braze. Marketing automation ROI averages $5.44 per $1 invested; most companies recover investment under 6 months; automation KPIs include CAC, CLV, repeat purchase rate, and campaign ROI directly tied to business value
+6. MYOB NZ / ANZ NZ / Asset Valuations NZ. NZ business valuation methods; asset-based valuations for tangible and intangible assets including digital property; businesses valued using multiples of earnings and asset worth
+7. BNZ NZ. Seven ways to increase business value when selling include: documenting processes, maintaining accurate records, demonstrating operational independence from owner
 

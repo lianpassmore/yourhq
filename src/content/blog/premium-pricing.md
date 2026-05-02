@@ -93,20 +93,20 @@ This is how tradies scale to $500K without hiring.
 ## Frequently Asked Questions
 
 **How can getting more leads actually help me work less?**
-When you have lead abundance, you gain selectivity—the ability to choose which jobs you take. Instead of saying yes to every $300 callout, you cherry-pick the $2,000-$5,000 jobs. You work fewer hours on higher-value work. The tradie with 50 leads choosing the best 20 earns far more than the tradie with 20 leads taking all 20.
+When you have lead abundance, you gain selectivity, the ability to choose which jobs you take. Instead of saying yes to every $300 callout, you cherry-pick the $2,000-$5,000 jobs. You work fewer hours on higher-value work. The tradie with 50 leads choosing the best 20 earns far more than the tradie with 20 leads taking all 20.
 
 **Is getting a website better than hiring an employee?**
 As a first step, yes. A website costs approximately $3,000/year. An employee costs $80,000-$120,000/year in wages, ACC, tools, vehicle, and supervision time. A website generates leads and enables premium pricing without the financial risk of taking on staff. Once you have lead abundance and consistent revenue, then hiring becomes a smart move.
 
 **How much revenue am I losing without a website?**
-Conservative estimates suggest tradies without websites miss $120,000-$260,000 per year in Google-sourced leads alone. On top of that, 46% of service bookings happen outside business hours—leads you're either missing entirely or sacrificing your personal time to catch. A website captures these leads while you sleep.
+Conservative estimates suggest tradies without websites miss $120,000-$260,000 per year in Google-sourced leads alone. On top of that, 46% of service bookings happen outside business hours, leads you're either missing entirely or sacrificing your personal time to catch. A website captures these leads while you sleep.
 
 **Can I really scale a tradie business without hiring?**
-Yes, up to a point. By increasing lead volume through a website, being selective about which jobs you take, and raising your rates to reflect demand, many tradies scale from $250K to $400K-$500K without a single hire. Beyond that, hiring usually becomes necessary—but by then you have the revenue and lead flow to support it comfortably.
+Yes, up to a point. By increasing lead volume through a website, being selective about which jobs you take, and raising your rates to reflect demand, many tradies scale from $250K to $400K-$500K without a single hire. Beyond that, hiring usually becomes necessary, but by then you have the revenue and lead flow to support it comfortably.
 
 ---
 
 ### References
-1. BrightLocal Consumer Research 2024 — Local search lead generation data
-2. Phorest Industry Research — 46% of service bookings occur outside business hours
-3. Employment New Zealand — Employee cost guidelines and ACC obligations
+1. BrightLocal Consumer Research 2024. Local search lead generation data
+2. Phorest Industry Research, 46% of service bookings occur outside business hours
+3. Employment New Zealand. Employee cost guidelines and ACC obligations

@@ -10,7 +10,7 @@ featured: false
 
 Instagram relies on **Discovery** (scrolling and finding). Google relies on **Intent** (searching for a specific solution).
 
-And here's the difference that matters for your salon: Instagram might bring you awareness, but **46% of all Google searches have local intent**. That means nearly half the people searching on Google are looking for something *nearby*—like your salon.
+And here's the difference that matters for your salon: Instagram might bring you awareness, but **46% of all Google searches have local intent**. That means nearly half the people searching on Google are looking for something *nearby*, like your salon.
 
 When someone searches "Best Balayage Whangārei," they're not browsing. They're not casually exploring. They have high intent. **They're ready to book.**
 
@@ -82,7 +82,7 @@ Your H2 and H3 subheadings should also use high-intent keywords:
 - "Before & After: Real Balayage Transformations"
 - "Book Your Balayage Consultation"
 
-These aren't just headings—they're signals to Google about what this page is about.
+These aren't just headings, they're signals to Google about what this page is about.
 
 #### 2. Properly Tagged Images
 
@@ -146,7 +146,7 @@ And make sure those buttons work on mobile. Because **88% of consumers who searc
 
 ## The Technical Elements That Make Google Love Your Site
 
-Okay, this is where it gets a bit nerdy. But stick with me—this stuff matters.
+Okay, this is where it gets a bit nerdy. But stick with me, this stuff matters.
 
 ### Schema Markup (Structured Data)
 
@@ -160,7 +160,7 @@ Think of it like this: Without schema, Google reads your page and guesses what i
 - This is our phone number
 - These are customer reviews
 
-**Structured data enhances your visibility in search results**. It can get you rich snippets—those enhanced search results with star ratings, pricing, and business info that take up more space on the page.
+**Structured data enhances your visibility in search results**. It can get you rich snippets, those enhanced search results with star ratings, pricing, and business info that take up more space on the page.
 
 And more visibility means more clicks. **Schema markup helps increase organic click-through rates** because your listing stands out compared to basic text results.
 
@@ -184,7 +184,7 @@ If your competitor's site loads in 2 seconds and yours takes 6 seconds, they'll 
 
 Heavy images, bloated code, and outdated infrastructure slow you down. Modern static frameworks (like Astro) load in under 2 seconds because they're built as clean HTML.
 
-Speed isn't just about user experience—it's a ranking factor.
+Speed isn't just about user experience, it's a ranking factor.
 
 ## The Power of "Near Me" Searches
 
@@ -200,10 +200,10 @@ These aren't casual browsers. These are people actively looking for services *ri
 
 Google doesn't just randomly decide which businesses show up for "near me" searches. It looks at:
 
-1. **Google Business Profile completeness** — Businesses with complete profiles get 7x more clicks than those without
-2. **Proximity** — How close you are to the searcher
-3. **Relevance** — Does your website clearly state what services you offer and where?
-4. **Prominence** — Reviews, ratings, links, and overall online reputation
+1. **Google Business Profile completeness**. Businesses with complete profiles get 7x more clicks than those without
+2. **Proximity**. How close you are to the searcher
+3. **Relevance**. Does your website clearly state what services you offer and where?
+4. **Prominence**. Reviews, ratings, links, and overall online reputation
 
 Notice how three out of four factors require a proper website and Google Business Profile, not just Instagram.
 
@@ -249,7 +249,7 @@ Not because you got lucky. Because you built a site that Google *wants* to rank.
 
 **28% of local searches result in a purchase within a day**.
 
-If you're not showing up in those searches—if you're on page two because your site isn't structured properly—you're leaving money on the table.
+If you're not showing up in those searches, if you're on page two because your site isn't structured properly, you're leaving money on the table.
 
 Every. Single. Day.
 
@@ -291,13 +291,13 @@ Yes. Google prioritises fast-loading websites in search rankings, and 40% of use
 
 ### References
 
-1. Salon Business / Backlinko — 46% of all Google searches have local intent; long-tail service+location keywords have 3x higher conversion rates; city-specific modifiers drive 68% more targeted traffic
-2. SEO Sandwich, *Hair Salon SEO Statistics* — "Hair salon near me" searches grew 250%; 78% of mobile local searches result in offline purchase; 92% choose business on first page; 76% who search locally visit within 24 hours; 88% call or visit within 24 hours; 40% discover salons through Google Maps; 70% check reviews before booking; 42% more direction requests with photos
-3. Backlinko / Wiser Review — 76% of "near me" searches visit within 24 hours; 88% of mobile local searches visit within a week; 42% click results in Google Maps Pack; "near me" searches increased 136% in 5 years; 28% of local searches result in purchase within a day
-4. HashMeta — 97% of consumers search online for local businesses; salons in top 3 positions experience 68% higher conversion rate
-5. Search Atlas / WhatConverts — High-intent keywords show transactional/commercial investigation intent; include modifiers like "buy," "best," "near me," "book"; priority given to bottom-of-funnel traffic
-6. Wildcat Digital / Innovation Visual — Alt text is ranking factor for Google Image Search; improves image and page rankings; Google values alt text more than filenames or captions; not using alt text negatively impacts rankings
-7. Reddit r/LocalSEO / Search Engine Land — Service-specific pages with location content rank better than generic service lists; create dedicated pages for each service+location combination; prevents duplicate content while targeting local keywords
-8. Yoast / seoClarity — Structured data (Schema markup) helps search engines understand content; enhances SERP visibility through rich snippets; increases organic click-through rates; JSON-LD is recommended format
-9. Expert SEO NZ / The Web Guys NZ — Local SEO strategies for NZ businesses; Google Business Profile optimisation; location-specific content crucial for NZ market
+1. Salon Business / Backlinko, 46% of all Google searches have local intent; long-tail service+location keywords have 3x higher conversion rates; city-specific modifiers drive 68% more targeted traffic
+2. SEO Sandwich, *Hair Salon SEO Statistics*, "Hair salon near me" searches grew 250%; 78% of mobile local searches result in offline purchase; 92% choose business on first page; 76% who search locally visit within 24 hours; 88% call or visit within 24 hours; 40% discover salons through Google Maps; 70% check reviews before booking; 42% more direction requests with photos
+3. Backlinko / Wiser Review, 76% of "near me" searches visit within 24 hours; 88% of mobile local searches visit within a week; 42% click results in Google Maps Pack; "near me" searches increased 136% in 5 years; 28% of local searches result in purchase within a day
+4. HashMeta, 97% of consumers search online for local businesses; salons in top 3 positions experience 68% higher conversion rate
+5. Search Atlas / WhatConverts. High-intent keywords show transactional/commercial investigation intent; include modifiers like "buy," "best," "near me," "book"; priority given to bottom-of-funnel traffic
+6. Wildcat Digital / Innovation Visual. Alt text is ranking factor for Google Image Search; improves image and page rankings; Google values alt text more than filenames or captions; not using alt text negatively impacts rankings
+7. Reddit r/LocalSEO / Search Engine Land. Service-specific pages with location content rank better than generic service lists; create dedicated pages for each service+location combination; prevents duplicate content while targeting local keywords
+8. Yoast / seoClarity. Structured data (Schema markup) helps search engines understand content; enhances SERP visibility through rich snippets; increases organic click-through rates; JSON-LD is recommended format
+9. Expert SEO NZ / The Web Guys NZ. Local SEO strategies for NZ businesses; Google Business Profile optimisation; location-specific content crucial for NZ market
 
