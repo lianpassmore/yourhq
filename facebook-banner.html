@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8">
+<title>YourHQ — Facebook banner (851×315)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@1,300;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #2a2a2c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    padding: 40px 24px;
+    gap: 24px;
+  }
+
+  /* ============================================
+     THE BANNER — exactly 851 × 315px
+     ============================================ */
+  .banner {
+    width: 851px;
+    height: 315px;
+    background: #0F3D2E;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* terracotta brand stamp on top edge */
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: #C4683C;
+  }
+
+  /* ============================================
+     TOP ROW — logo + location
+     ============================================ */
+  .row-top {
+    position: absolute;
+    top: 28px;
+    left: 36px;
+    right: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    height: 28px;
+    width: auto;
+    display: block;
+  }
+
+  .meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(242, 239, 234, 0.65);
+  }
+
+  /* ============================================
+     HEADLINE — the tension technique
+     ============================================ */
+  .headline {
+    position: absolute;
+    left: 36px;
+    right: 36px;
+    top: 50%;
+    transform: translateY(-44%);
+    text-align: center;
+  }
+
+  .headline-eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #C4683C;
+    margin-bottom: 14px;
+  }
+
+  .headline-main {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #F2EFEA;
+    margin-bottom: 4px;
+  }
+
+  .headline-italic {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    color: #C4683C;
+    line-height: 1.2;
+    letter-spacing: 0.005em;
+  }
+
+  /* ============================================
+     BOTTOM ROW — url + offer stamp
+     ============================================ */
+  .row-bottom {
+    position: absolute;
+    bottom: 24px;
+    left: 36px;
+    right: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .url {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #F2EFEA;
+  }
+
+  .stamp {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(242, 239, 234, 0.55);
+  }
+
+  /* ============================================
+     HELPER (not part of banner — for screenshotting)
+     ============================================ */
+  .helper {
+    text-align: center;
+    color: #888;
+    font-size: 11px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    max-width: 851px;
+    line-height: 1.7;
+  }
+  .helper b { color: #ccc; font-weight: 500; }
+  .helper kbd {
+    background: #0B0B0C;
+    color: #F2EFEA;
+    padding: 2px 8px;
+    font-size: 10px;
+    border: 1px solid #444;
+    margin: 0 2px;
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .helper { display: none; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="banner">
+
+    <div class="row-top">
+      <img class="logo" src="public/yourhq-logo-white.png" alt="YourHQ">
+
+      <div class="meta">Aotearoa, NZ + Global</div>
+    </div>
+
+    <div class="headline">
+      <div class="headline-eyebrow">Permanent digital homes</div>
+      <div class="headline-main">Your profiles are signals.</div>
+      <div class="headline-italic">your website is the source.</div>
+    </div>
+
+    <div class="row-bottom">
+      <div class="url">yourhq.co.nz</div>
+      <div class="stamp">Hand-coded · Owned · Looked after forever</div>
+    </div>
+
+  </div>
+
+  <div class="helper">
+    <b>851 × 315 px</b> — Facebook cover dimension<br>
+    Screenshot just the bone-coloured rectangle above.<br>
+    macOS: <kbd>⌘ ⇧ 4</kbd> drag · or DevTools → right-click <code>.banner</code> → <b>Capture node screenshot</b>
+  </div>
+
+</body>
+</html>
