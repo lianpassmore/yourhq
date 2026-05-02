@@ -1,0 +1,397 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Welcome to YourHQ | Onboarding"
+  description="Welcome to YourHQ. Everything you need to know about what happens next, in one place."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="pt-24 md:pt-32 pb-24 border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> ONBOARDING
+          </span>
+          <h1 class="font-display font-bold text-hero mb-8 text-carbon uppercase">
+            Welcome to YourHQ.<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">We're So Glad You're Here.</span>
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-2xl">
+            This page is everything you need to know about what happens next. Bookmark it, refer back to it, and reach out anytime.<br/>
+            From here, your job is small. Mine starts now.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         A NOTE FROM LIAN
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5 shadow-subtle">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center md:text-left">
+          <h2 class="font-display font-bold text-display uppercase mb-10 text-carbon">
+            A quick word<br/>
+            before we start.<br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">Then we get on with it.</span>
+          </h2>
+          <div class="space-y-6 md:border-l border-carbon/10 md:pl-8">
+            <p class="font-sans text-body text-softGrey">
+              You've trusted me with something that matters. Your digital home, your voice, the way the world meets your work. That isn't lost on me.
+            </p>
+            <p class="font-sans text-body text-softGrey">
+              The whole point of YourHQ is that this part of your business stops being yours to manage. So everything from here is built to take it off your plate, not add to it.
+            </p>
+            <p class="font-sans text-body font-medium text-carbon">
+              Read this once, then forget it. I'll guide you through every step in real time.
+            </p>
+            <p class="font-serif italic text-accent text-terracotta">
+              No rush. No pressure. We move at your pace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE STEPS
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-20">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-4 inline-block">What Happens Next</span>
+          <h2 class="font-display font-bold text-display uppercase text-carbon">
+            Your Onboarding,<br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">Step by Step.</span>
+          </h2>
+        </div>
+
+        <div class="relative">
+          <!-- Timeline Line -->
+          <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-[1px] bg-carbon/5 md:-ml-[0.5px]"></div>
+
+          <!-- STEP 1 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-1 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">01</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">Book the Drive-Home Interview</h3>
+              <p class="font-mono text-badge uppercase text-deepGreen mb-6 pb-4 border-b border-carbon/5 inline-block md:block md:ml-auto">Your time: 15 minutes</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                Call my AI assistant whenever suits. In the car, between meetings, on the couch. No forms, no Zoom, no preparation. You just talk.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                This is the only moment I need real time from you. <strong class="font-sans font-medium text-carbon not-italic text-body">Everything else, I handle.</strong>
+              </p>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-3 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 left-12 select-none z-0">01</span>
+              <a href="/discovery-interview" class="inline-block bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-all duration-300 shadow-elegant hover:shadow-float relative z-10">
+                Start the Interview
+              </a>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-3 md:order-1 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 right-12 select-none z-0">02</span>
+              <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm ml-auto">
+                <strong class="block font-mono text-badge uppercase text-softGrey mb-3">Watch For</strong>
+                <p class="font-display font-bold text-subhead text-carbon mb-1">An Email From Me</p>
+                <p class="font-sans text-ui text-softGrey">Usually within 24 hours of your interview.</p>
+              </div>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-1 md:order-3 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">02</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">Your Shared Drive Arrives</h3>
+              <p class="font-mono text-badge uppercase text-terracotta mb-6 pb-4 border-b border-carbon/5 inline-block">Your time: zero</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                I'll send a link to a shared Google Drive folder, set up just for you. That's where any photos, logos, or notes you want included will live.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                One folder. One link. <strong class="font-sans font-medium text-carbon not-italic text-body">That's the whole admin side of this.</strong>
+              </p>
+            </div>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-1 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">03</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">Drop In Anything You Want Included</h3>
+              <p class="font-mono text-badge uppercase text-deepGreen mb-6 pb-4 border-b border-carbon/5 inline-block md:block md:ml-auto">Your time: as little as you like</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                Logos, photos, testimonials, links to anything you want me to see. If it's easy to drop in, drop it in. If it's not, leave it. I'll find what I need from your existing digital footprint.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                Nothing you have? <strong class="font-sans font-medium text-carbon not-italic text-body">No problem. I'll work with what's out there.</strong>
+              </p>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-3 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 left-12 select-none z-0">03</span>
+              <div class="bg-bone rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm">
+                <strong class="block font-mono text-badge uppercase text-carbon mb-3">Keep It Simple</strong>
+                <p class="font-sans text-ui text-softGrey">
+                  Don't curate. Don't compile. Don't tidy. Drop things in raw. I'll sort through everything and pull out the gold. The less effort on your end, the better.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-3 md:order-1 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 right-12 select-none z-0">04</span>
+              <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm ml-auto">
+                <strong class="block font-mono text-badge uppercase text-softGrey mb-3">Build Time</strong>
+                <p class="font-display font-bold text-subhead text-carbon mb-1">1 to 2 Weeks</p>
+                <p class="font-sans text-ui text-softGrey">From interview to preview link.</p>
+              </div>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-1 md:order-3 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">04</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">I Build. You Wait.</h3>
+              <p class="font-mono text-badge uppercase text-terracotta mb-6 pb-4 border-b border-carbon/5 inline-block">Your time: zero</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                I write the copy, build the site, and pull together everything I need from what you've sent and what's already out there.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                No check-ins. No mock-up rounds. No project to manage. <strong class="font-sans font-medium text-carbon not-italic text-body">I get on with it.</strong>
+              </p>
+            </div>
+          </div>
+
+          <!-- STEP 5 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-1 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">05</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">Your Preview Link</h3>
+              <p class="font-mono text-badge uppercase text-carbon mb-6 pb-4 border-b border-carbon/5 inline-block md:block md:ml-auto">Your time: however long you want</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                Once your site is built, I'll send you a private link to review. View it on your phone, share it with whoever you trust for a second opinion, sit with it for a day or two.
+              </p>
+              <p class="font-sans text-body text-softGrey mb-6">
+                Tell me what feels right and what doesn't. One round of changes is included, and I'll work through them all before we go any further.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                You see the actual site, not a wireframe. <strong class="font-sans font-medium text-carbon not-italic text-body">The real thing.</strong>
+              </p>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-3 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 left-12 select-none z-0">05</span>
+              <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm">
+                <strong class="block font-mono text-badge uppercase text-softGrey mb-3">Your Job</strong>
+                <p class="font-display font-bold text-subhead text-carbon">Review & Respond</p>
+                <p class="font-sans text-ui text-softGrey mt-2">One round of feedback. That's it.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 6 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-3 md:order-1 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 right-12 select-none z-0">06</span>
+              <div class="bg-carbon text-bone rounded-2xl p-8 border border-carbon shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm ml-auto">
+                <strong class="block font-mono text-badge uppercase text-terracotta mb-3">Your Safety Net</strong>
+                <p class="font-display font-bold text-subhead text-white mb-2">Love It or Leave It</p>
+                <p class="font-sans text-ui text-bone/80">Full refund of your setup fee, minus Stripe processing (~3%) and domain costs.</p>
+              </div>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-1 md:order-3 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">06</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">The Opt-Out Moment</h3>
+              <p class="font-mono text-badge uppercase text-deepGreen mb-6 pb-4 border-b border-carbon/5 inline-block">Your choice, no questions</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                If, after seeing the finished site, you decide it's not for you, that's fine. You walk away with your money back. No awkward conversations, no chasing, no hard feelings.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                Honestly, I don't expect this to happen. <strong class="font-sans font-medium text-carbon not-italic text-body">That's exactly why I can offer it.</strong>
+              </p>
+            </div>
+          </div>
+
+          <!-- STEP 7 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-1 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">07</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">Approve, Subscribe, Go Live</h3>
+              <p class="font-mono text-badge uppercase text-carbon mb-6 pb-4 border-b border-carbon/5 inline-block md:block md:ml-auto">Your time: a few minutes</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                Once you're happy with the site, you sign up for your monthly Caretaker package. From there, I connect your domain and your site goes live, usually within 24 hours.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                Your permanent address on the internet. <strong class="font-sans font-medium text-carbon not-italic text-body">Set.</strong>
+              </p>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-3 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 left-12 select-none z-0">07</span>
+              <div class="bg-deepGreen text-bone rounded-2xl p-8 border border-deepGreen shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm">
+                <strong class="block font-mono text-badge uppercase text-bone/70 mb-3">Result</strong>
+                <p class="font-display font-bold text-subhead text-white mb-1">You're Live</p>
+                <p class="font-sans text-ui text-bone/80">Within 24 hours of approval.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 8 -->
+          <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 items-center group">
+            <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-3 md:order-1 relative">
+              <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 right-12 select-none z-0">08</span>
+              <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm ml-auto">
+                <strong class="block font-mono text-badge uppercase text-softGrey mb-3">From Here On</strong>
+                <p class="font-display font-bold text-subhead text-carbon mb-2">Just Text Me</p>
+                <p class="font-sans text-ui text-softGrey">When something changes. When something breaks. When something exciting happens.</p>
+              </div>
+            </div>
+            <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+            <div class="pl-20 md:pl-16 order-1 md:order-3 relative">
+              <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">08</span>
+              <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">The Caretaker Phase Begins</h3>
+              <p class="font-mono text-badge uppercase text-deepGreen mb-6 pb-4 border-b border-carbon/5 inline-block">Your time: only when you want</p>
+              <p class="font-sans text-body text-softGrey mb-4">
+                Hosting, security, SSL, backups, updates. All running quietly in the background. New service to add? Media mention? Big pivot? You text me, I sort it.
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                No portals to log into. No tickets to raise. <strong class="font-sans font-medium text-carbon not-italic text-body">Just text me.</strong>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE 12-MONTH REFRESH
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-bone border-b border-carbon/5">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center md:text-left mb-12">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-4 inline-block">Looking Ahead</span>
+          <h2 class="font-display font-bold text-display uppercase mb-8 text-carbon">
+            At 12 Months,<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">A Full Refresh.</span>
+          </h2>
+          <div class="space-y-6 md:border-l border-carbon/10 md:pl-8">
+            <p class="font-sans text-body text-softGrey">
+              A year from now, your business will have grown. Your work will have evolved. The way you talk about what you do will have shifted.
+            </p>
+            <p class="font-sans text-body text-softGrey">
+              So at the 12-month mark, we run the whole process again. A fresh interview with the voice, new copy, a new design. No extra cost. No new project to manage. Just a site that grows with you, year on year.
+            </p>
+            <p class="font-serif italic text-accent text-terracotta">
+              Same simple process. New version of you.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 mt-16">
+          <div class="bg-white rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-mono text-badge uppercase text-softGrey mb-4 border-b border-carbon/5 pb-3">Step 01</p>
+            <p class="font-display font-bold text-subhead text-carbon mb-2">Refresh Interview</p>
+            <p class="font-sans text-ui text-softGrey">Another quick conversation with the voice. Same as before.</p>
+          </div>
+          <div class="bg-white rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-mono text-badge uppercase text-softGrey mb-4 border-b border-carbon/5 pb-3">Step 02</p>
+            <p class="font-display font-bold text-subhead text-carbon mb-2">New Copy & Design</p>
+            <p class="font-sans text-ui text-softGrey">I rewrite, redesign, and rebuild around where you are now.</p>
+          </div>
+          <div class="bg-white rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-mono text-badge uppercase text-softGrey mb-4 border-b border-carbon/5 pb-3">Step 03</p>
+            <p class="font-display font-bold text-subhead text-carbon mb-2">Live Again</p>
+            <p class="font-sans text-ui text-softGrey">Same domain, same address. Brand new home.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         OTHER THINGS YOU MIGHT BE THINKING ABOUT
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5 shadow-subtle">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center md:text-left mb-12">
+          <h2 class="font-display font-bold text-display uppercase mb-8 text-carbon">
+            Thinking Bigger?<br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">Here's Where to Look Next.</span>
+          </h2>
+          <div class="space-y-6 md:border-l border-carbon/10 md:pl-8">
+            <p class="font-sans text-body text-softGrey">
+              Your website is one piece of a larger picture. As you settle in, you might start thinking about the rest of your digital ecosystem. Email, search, socials, AI discovery, the way it all fits together.
+            </p>
+            <p class="font-sans text-body text-softGrey">
+              I've put together a guide to walk you through it. What matters, what doesn't, and what you should be thinking about as your business grows.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-12 bg-surface rounded-2xl p-8 md:p-12 border border-carbon/5 shadow-elegant">
+          <div class="flex flex-col md:flex-row items-start md:items-center gap-8 justify-between">
+            <div class="max-w-lg">
+              <span class="font-mono text-badge uppercase text-deepGreen mb-3 inline-block">Your Digital Ecosystem</span>
+              <p class="font-display font-bold text-subhead text-carbon mb-3">A bigger view of where your website fits in.</p>
+              <p class="font-sans text-ui text-softGrey">
+                The things YourHQ covers, the things it doesn't, and the pieces worth considering as you grow.
+              </p>
+            </div>
+            <a href="/ecosystem" class="inline-flex items-center bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-all duration-300 shadow-elegant hover:shadow-float whitespace-nowrap">
+              Explore the Ecosystem
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL NOTE
+    ============================================================ -->
+    <section class="bg-carbon text-bone py-32 text-center px-4">
+      <div class="max-w-3xl mx-auto">
+        <span class="font-mono text-badge uppercase text-terracotta block mb-6">Any Questions</span>
+        <h2 class="font-display font-bold text-display uppercase mb-8 text-white">
+          Just Text Me.<br/>
+          <span class="font-serif italic text-bone/60 normal-case font-normal">Anytime.</span>
+        </h2>
+
+        <p class="font-sans text-subhead text-bone/80 mb-12 max-w-2xl mx-auto">
+          That's the whole point of YourHQ. A real person who knows your site, who you can reach out to without a portal, a ticket, or a wait.<br/>
+          Welcome aboard.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href="/contact" class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
+            Get in Touch
+          </a>
+          <a href="/discovery-interview" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
+            Start the Interview
+          </a>
+        </div>
+
+        <p class="font-serif italic text-bone/50 mt-16 text-ui">
+          &mdash; Lian
+        </p>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>
