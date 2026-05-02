@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 
-const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
+const buildLink = "/start-build";
 ---
 
 <Layout
@@ -212,15 +212,20 @@ const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
           </div>
 
           <div class="bg-carbon text-bone rounded-3xl p-8 md:p-10 shadow-elegant md:col-span-2 flex flex-col md:flex-row items-start justify-between gap-6 border border-carbon">
-            <div class="max-w-md">
-              <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta mb-3">Reserved Capacity</p>
+            <div class="max-w-xl">
+              <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta mb-3">Bolts onto any tier</p>
               <h3 class="font-display font-bold text-2xl uppercase tracking-tight text-white mb-2">Concierge</h3>
-              <p class="font-sans text-bone/80 leading-relaxed text-sm">
-                Building tier plus one reserved hour every month. Three hours of dev time, already set aside. Fastest turnaround by default. The time is already yours.
+              <p class="font-sans text-bone/80 leading-relaxed text-sm mb-4">
+                Add Concierge to Sorted, Connected, or Building. You jump the queue and get more time on the clock.
               </p>
+              <ul class="space-y-2 font-sans text-sm text-bone/85">
+                <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Priority queue position</li>
+                <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> 24-hour turnaround on weekdays</li>
+                <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> An extra 1.5 hours of dev time on top of your tier</li>
+              </ul>
             </div>
             <span class="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-white bg-white/10 border border-white/20 px-4 py-2 rounded-full whitespace-nowrap shrink-0">
-              $349/mo NZD
+              + $199/mo NZD
             </span>
           </div>
 
@@ -576,7 +581,7 @@ const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
             {q: 'Is there a cheaper option?', a: 'A one-page digital business card is available by referral only. $1,590 NZD + GST, includes domain and 12 months hosting. Ask us. Most people who come to me need more than that.'},
             {q: 'What if I already have a website?', a: 'Most of my clients do. I start fresh, in your voice, to where you are now.'},
             {q: 'Can I add Power-Ups later?', a: 'Yes. Power-Ups can be added at build time or after launch. They\'re priced separately and don\'t automatically change your monthly tier. Your tier reflects how active your site is overall, though most clients move up a tier when their site starts doing more.'},
-            {q: 'Is there priority support or a faster response?', a: 'No tier gets answered faster than another. The tiers are about how much included dev time you have each month, not who gets replied to first. If you need more capacity (reserved monthly hours and fastest turnaround because the time is already yours) the Concierge adds one reserved hour on top of the Building tier.'},
+            {q: 'Is there priority support or a faster response?', a: 'By default, no tier gets answered faster than another. The tiers are about how much included dev time you have each month, not who gets replied to first. If you want priority, Concierge ($199/mo NZD) bolts onto any tier — Sorted, Connected, or Building — and gives you priority queue position, 24-hour weekday turnaround, and an extra 1.5 hours of dev time on top of your tier.'},
             {q: 'Can I cancel?', a: 'Yes, 30 days notice, month-to-month. Full static export when you leave.'},
             {q: 'Can I pause?', a: 'Yes. Hosting and security continue. Annual refresh clock pauses. No penalty.'},
             {q: 'Do you work with clients outside New Zealand?', a: 'Yes. Based in Aotearoa, working globally. Everything happens remotely.'},

@@ -8,7 +8,7 @@ const navLinks = [
   { href: '/our-story', label: 'Our Story' },
 ];
 
-const buildLink = 'https://buy.stripe.com/00w00i6me14s4BLev9dZ604';
+const buildLink = '/start-build';
 
 const grainBg = {
   backgroundImage:

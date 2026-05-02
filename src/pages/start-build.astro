@@ -1,0 +1,415 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+
+const stripeBuildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
+
+const powerUpGroups = [
+  {
+    label: 'Get Found & Followed Up',
+    intro: 'When people arrive, you want them to book, message, or join your list — without you in the middle.',
+    items: [
+      {
+        id: 'bookings',
+        name: 'Bookings Embed',
+        price: 100,
+        priceLabel: '+ $100 NZD',
+        what: 'Your existing booking tool (Calendly, Timely, Acuity, Cliniko) embedded on your site and styled to match.',
+        for: 'You already use a booking tool and want it to live inside your site, not on a separate page.'
+      },
+      {
+        id: 'email',
+        name: 'Email Platform + Lead Magnet',
+        price: 250,
+        priceLabel: '+ $250 NZD',
+        what: 'Your email platform connected, a welcome sequence (three emails), and a lead magnet page built and wired up.',
+        for: 'You want to grow a list of warm people you can email — not chase them on social every week.'
+      }
+    ]
+  },
+  {
+    label: 'Sell Through Your Site',
+    intro: 'Take payments directly. No physical inventory or shipping — for that, I will refer you elsewhere.',
+    items: [
+      {
+        id: 'stripe-products',
+        name: 'Stripe — Services or Digital Products',
+        price: 350,
+        priceLabel: '+ $350 NZD',
+        what: 'Up to five products. Deposits, session packs, PDFs, recordings, downloadables. Checkout wired up.',
+        for: 'You sell sessions, packages, or digital files and want a clean buy button on your site.'
+      },
+      {
+        id: 'stripe-course',
+        name: 'Stripe — Course Delivery',
+        price: 600,
+        priceLabel: '+ $600 NZD',
+        what: 'A structured course with modules. Checkout plus access delivery to the buyer.',
+        for: 'You teach something and want to package it as a self-paced course on your own site.'
+      }
+    ]
+  },
+  {
+    label: 'Keep It Active Without You Touching It',
+    intro: 'Your site stays alive while you do the work that earns you a living.',
+    items: [
+      {
+        id: 'content-autopilot',
+        name: 'Content Autopilot',
+        price: 200,
+        priceLabel: '+ $200 NZD setup · $79/mo NZD ongoing',
+        priceMonthly: 79,
+        what: 'Your social posts get turned into proper blog articles. Once a week you get an approval queue. One email, one tap, published.',
+        for: 'You post on social already but your site never updates. You want SEO juice without writing a blog from scratch.'
+      }
+    ]
+  },
+  {
+    label: 'Extra Capacity When You Need It',
+    intro: 'For when you outgrow your monthly included time, or want guaranteed turnaround.',
+    items: [
+      {
+        id: 'one-off-hour',
+        name: 'One-off Hour',
+        price: 175,
+        priceLabel: '+ $175 NZD',
+        what: 'An hour of dev time, no subscription. Used for quoted work that falls outside your tier’s included time.',
+        for: 'You want flexibility without committing to a higher monthly tier.'
+      },
+      {
+        id: 'concierge',
+        name: 'Concierge — Priority Bolt-On',
+        price: 0,
+        priceLabel: '+ $199/mo NZD (on top of any tier)',
+        priceMonthly: 199,
+        what: 'Bolts onto Sorted, Connected, or Building. Priority queue position, 24-hour weekday turnaround, and an extra 1.5 hours of dev time on top of your tier’s included time.',
+        for: 'You want priority and faster turnaround without changing your monthly tier.'
+      }
+    ]
+  }
+];
+---
+
+<Layout
+  title="Start Your Build | YourHQ"
+  description="What you’re paying for today, the Power-Ups available, and what happens before your site goes live. $1,800 NZD + GST setup. No monthly fees charged today."
+  noindex={true}
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
+
+    <!-- ============================================================
+         HEADER
+    ============================================================ -->
+    <section class="pt-24 md:pt-32 pb-16 border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-[10px] md:text-xs font-medium uppercase tracking-[0.15em] text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> Before You Pay
+          </span>
+          <h1 class="font-display font-bold text-[clamp(3rem,6vw,5.5rem)] leading-none tracking-tight mb-8">
+            Here’s exactly what you’re<br/>
+            <span class="font-serif italic text-terracotta normal-case">paying for today.</span>
+          </h1>
+          <p class="font-sans text-xl md:text-2xl text-carbon/80 max-w-2xl leading-relaxed">
+            One charge today: the build fee.<br/>
+            Power-Ups are optional and can be added now or later.<br/>
+            No monthly fees start until your site goes live.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION: THE BUILD FEE — TODAY'S CHARGE
+    ============================================================ -->
+    <section class="py-16 md:py-24 bg-white border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="grid lg:grid-cols-12 gap-12 items-start">
+
+          <div class="lg:col-span-5">
+            <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen mb-4">Step One — Today</p>
+            <h2 class="font-display font-bold text-[clamp(2.25rem,4vw,3.5rem)] uppercase leading-none tracking-tight mb-6">
+              The Build Fee.<br/>
+              <span class="font-serif italic text-softGrey normal-case">One time. That’s it.</span>
+            </h2>
+            <div class="bg-bone rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
+              <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen mb-4">The Build</p>
+              <div class="flex items-baseline gap-2 mb-2">
+                <span class="font-display font-bold text-6xl md:text-7xl tracking-tight text-carbon">$1,800</span>
+                <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">NZD + GST</span>
+              </div>
+              <p class="font-mono text-[10px] text-softGrey uppercase tracking-[0.15em]">One-time setup fee, charged today</p>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7">
+            <p class="font-sans text-lg text-carbon/80 leading-relaxed mb-6">
+              That covers the whole build:
+            </p>
+            <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 font-sans text-sm text-carbon/80">
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Drive-Home Interview, on your terms</li>
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Full copy in your voice, you approve every word</li>
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Up to 8 hand-coded pages</li>
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Blog and resources architecture</li>
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Google Business Profile sorted</li>
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Enquiry form, email capture</li>
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> SEO &amp; AI search optimised</li>
+              <li class="flex gap-3"><span class="text-terracotta font-serif italic">Y</span> Domain, hosting, SSL, backups, security</li>
+            </ul>
+            <p class="font-serif italic text-lg text-carbon/70 mt-8">
+              You see the whole site finished before any monthly fee starts. Don’t love it, full refund minus Stripe processing and domain costs.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION: MONTHLY FEES — NOT TODAY
+    ============================================================ -->
+    <section class="py-16 md:py-20 bg-surface border-b border-carbon/10">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-carbon text-bone rounded-3xl p-8 md:p-12 shadow-elegant">
+          <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta mb-4">About the monthly fee</p>
+          <h2 class="font-display font-bold text-2xl md:text-4xl uppercase tracking-tight leading-tight mb-6">
+            Your monthly caretaker fee starts <span class="font-serif italic text-white/70 normal-case">when your site goes live.</span>
+          </h2>
+          <p class="font-sans text-base md:text-lg text-bone/85 leading-relaxed mb-4">
+            Not today. We’ll lock in your monthly tier (Sorted, Connected, or Building) once we’ve seen what your site is actually doing — and only then.
+          </p>
+          <p class="font-sans text-base md:text-lg text-bone/85 leading-relaxed">
+            Same goes for any Power-Ups with a monthly component: those start when they’re wired in, not before.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION: POWER-UPS — STEP TWO
+    ============================================================ -->
+    <section class="py-20 md:py-28 bg-bone border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="max-w-3xl mb-16 text-center mx-auto">
+          <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta mb-4">Step Two — Optional</p>
+          <h2 class="font-display font-bold text-[clamp(2.25rem,4vw,3.5rem)] uppercase leading-none tracking-tight mb-6 text-carbon">
+            Pick the Power-Ups<br/>
+            <span class="font-serif italic text-softGrey normal-case">you actually need.</span>
+          </h2>
+          <p class="font-sans text-lg text-carbon/80 leading-relaxed mb-3">
+            Tick any you want included now. I’ll see your selections when you check out and quote them with your build.
+          </p>
+          <p class="font-serif italic text-lg text-carbon/70">
+            Not sure yet? Skip them. You can add any Power-Up later — just text me.
+          </p>
+        </div>
+
+        <form id="powerup-form" class="space-y-12 max-w-5xl mx-auto" onsubmit="return false;">
+          {powerUpGroups.map((group) => (
+            <div>
+              <div class="mb-6">
+                <h3 class="font-display font-bold text-xl md:text-2xl uppercase tracking-tight text-carbon mb-2">{group.label}</h3>
+                <p class="font-serif italic text-base text-carbon/70 max-w-2xl">{group.intro}</p>
+              </div>
+              <div class="grid md:grid-cols-2 gap-6">
+                {group.items.map((item) => (
+                  <label
+                    class="powerup-card group bg-white rounded-3xl p-6 md:p-8 border border-carbon/10 shadow-subtle flex flex-col cursor-pointer transition-colors hover:border-deepGreen/40 has-[:checked]:border-deepGreen has-[:checked]:bg-deepGreen/5"
+                    data-price={item.price}
+                    data-monthly={item.priceMonthly || 0}
+                    data-id={item.id}
+                    data-name={item.name}
+                  >
+                    <div class="flex items-start justify-between gap-4 mb-3">
+                      <div class="flex items-start gap-3">
+                        <input type="checkbox" class="powerup-checkbox mt-1 h-5 w-5 rounded border-carbon/30 accent-deepGreen cursor-pointer" />
+                        <h4 class="font-display font-bold text-lg md:text-xl uppercase tracking-tight text-carbon leading-tight">{item.name}</h4>
+                      </div>
+                      <span class="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-deepGreen bg-deepGreen/5 px-3 py-1 rounded-full whitespace-nowrap shrink-0">{item.priceLabel}</span>
+                    </div>
+                    <p class="font-sans text-sm text-carbon/80 leading-relaxed mb-3 pl-8">
+                      <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-1">What it is</span>
+                      {item.what}
+                    </p>
+                    <p class="font-sans text-sm text-carbon/70 leading-relaxed pl-8">
+                      <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-1">Pick this if</span>
+                      {item.for}
+                    </p>
+                  </label>
+                ))}
+              </div>
+            </div>
+          ))}
+        </form>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION: SUMMARY + CHECKOUT
+    ============================================================ -->
+    <section class="py-20 md:py-28 bg-white border-b border-carbon/10">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-10">
+          <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta mb-4">Step Three — Confirm</p>
+          <h2 class="font-display font-bold text-[clamp(2.25rem,4vw,3.5rem)] uppercase leading-none tracking-tight text-carbon">
+            What you’ll pay <span class="font-serif italic text-softGrey normal-case">today.</span>
+          </h2>
+        </div>
+
+        <div class="bg-bone rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle mb-8">
+
+          <div class="flex items-center justify-between border-b border-carbon/10 pb-4 mb-4">
+            <span class="font-sans text-base text-carbon">The Build</span>
+            <span class="font-display font-bold text-xl text-carbon">$1,800</span>
+          </div>
+
+          <ul id="summary-list" class="space-y-3 mb-6"></ul>
+
+          <p id="summary-empty" class="font-serif italic text-base text-carbon/60 mb-6">No Power-Ups selected. That’s fine — you can add any later.</p>
+
+          <div class="border-t border-carbon/10 pt-6 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen">Charged today</span>
+              <span class="font-display font-bold text-3xl text-carbon">$1,800 <span class="font-mono text-[10px] text-softGrey">NZD + GST</span></span>
+            </div>
+            <p id="powerup-total-line" class="hidden flex items-center justify-between text-sm">
+              <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">Power-Ups (quoted with your build, not charged today)</span>
+              <span id="powerup-total" class="font-display font-bold text-lg text-carbon">+ $0</span>
+            </p>
+            <p id="powerup-monthly-line" class="hidden flex items-center justify-between text-sm">
+              <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">Ongoing monthly (starts when wired in, not today)</span>
+              <span id="powerup-monthly" class="font-display font-bold text-lg text-carbon">+ $0/mo</span>
+            </p>
+          </div>
+
+        </div>
+
+        <a id="checkout-button" href={stripeBuildLink} class="block w-full bg-carbon text-white text-center px-8 py-5 rounded-full font-medium text-base hover:bg-deepGreen transition-colors shadow-elegant">
+          Confirm and Pay $1,800 →
+        </a>
+
+        <p class="font-sans text-sm text-carbon/60 text-center mt-6 leading-relaxed">
+          Secure checkout through Stripe. You’ll get a confirmation email and I’ll be in touch within one business day to book your Drive-Home Interview.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION: REMINDERS
+    ============================================================ -->
+    <section class="py-20 bg-bone border-b border-carbon/10">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-6">
+
+        <div class="bg-white rounded-3xl border border-carbon/10 p-8 shadow-subtle">
+          <h3 class="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-deepGreen mb-4 border-b border-carbon/10 pb-4">Add Anything Later</h3>
+          <p class="font-sans text-sm text-carbon/80 leading-relaxed">
+            Every Power-Up can be added at any point — at build, at launch, or two years in. Just text me.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl border border-carbon/10 p-8 shadow-subtle">
+          <h3 class="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-deepGreen mb-4 border-b border-carbon/10 pb-4">Monthly Locks Later</h3>
+          <p class="font-sans text-sm text-carbon/80 leading-relaxed">
+            We pick your monthly caretaker tier when your site goes live, not now. Same for any monthly Power-Ups.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl border border-carbon/10 p-8 shadow-subtle">
+          <h3 class="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-deepGreen mb-4 border-b border-carbon/10 pb-4">Love It or Leave It</h3>
+          <p class="font-sans text-sm text-carbon/80 leading-relaxed">
+            See the finished site before the subscription starts. Don’t love it? Full refund of your setup fee, minus Stripe processing (~3%) and domain costs.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+
+<script is:inline define:vars={{ stripeBuildLink }}>
+  (function () {
+    const cards = document.querySelectorAll('.powerup-card');
+    const summaryList = document.getElementById('summary-list');
+    const summaryEmpty = document.getElementById('summary-empty');
+    const powerupTotalLine = document.getElementById('powerup-total-line');
+    const powerupMonthlyLine = document.getElementById('powerup-monthly-line');
+    const powerupTotal = document.getElementById('powerup-total');
+    const powerupMonthly = document.getElementById('powerup-monthly');
+    const checkoutButton = document.getElementById('checkout-button');
+
+    function update() {
+      const selected = [];
+      let setupTotal = 0;
+      let monthlyTotal = 0;
+
+      cards.forEach((card) => {
+        const checkbox = card.querySelector('.powerup-checkbox');
+        if (checkbox && checkbox.checked) {
+          const price = parseInt(card.dataset.price, 10) || 0;
+          const monthly = parseInt(card.dataset.monthly, 10) || 0;
+          selected.push({
+            id: card.dataset.id,
+            name: card.dataset.name,
+            price: price,
+            monthly: monthly
+          });
+          setupTotal += price;
+          monthlyTotal += monthly;
+        }
+      });
+
+      summaryList.innerHTML = '';
+      if (selected.length === 0) {
+        summaryEmpty.classList.remove('hidden');
+        powerupTotalLine.classList.add('hidden');
+        powerupMonthlyLine.classList.add('hidden');
+      } else {
+        summaryEmpty.classList.add('hidden');
+        selected.forEach((item) => {
+          const li = document.createElement('li');
+          li.className = 'flex items-center justify-between text-sm';
+          const setupPart = item.price > 0 ? '$' + item.price : '';
+          const monthlyPart = item.monthly > 0 ? (setupPart ? ' + $' : '$') + item.monthly + '/mo' : '';
+          li.innerHTML =
+            '<span class="font-sans text-carbon/80">' + item.name + '</span>' +
+            '<span class="font-mono text-xs text-softGrey">' + setupPart + monthlyPart + '</span>';
+          summaryList.appendChild(li);
+        });
+        if (setupTotal > 0) {
+          powerupTotalLine.classList.remove('hidden');
+          powerupTotal.textContent = '+ $' + setupTotal.toLocaleString();
+        } else {
+          powerupTotalLine.classList.add('hidden');
+        }
+        if (monthlyTotal > 0) {
+          powerupMonthlyLine.classList.remove('hidden');
+          powerupMonthly.textContent = '+ $' + monthlyTotal.toLocaleString() + '/mo';
+        } else {
+          powerupMonthlyLine.classList.add('hidden');
+        }
+      }
+
+      // Pass selections to Stripe via client_reference_id (alphanumeric + hyphen/underscore only, max 200 chars)
+      let ref = 'powerups-' + (selected.length === 0 ? 'none' : selected.map(s => s.id).join('-'));
+      ref = ref.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 200);
+      checkoutButton.href = stripeBuildLink + '?client_reference_id=' + encodeURIComponent(ref);
+    }
+
+    cards.forEach((card) => {
+      const checkbox = card.querySelector('.powerup-checkbox');
+      if (checkbox) checkbox.addEventListener('change', update);
+    });
+
+    update();
+  })();
+</script>
+</Layout>
