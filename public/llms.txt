@@ -15,7 +15,6 @@ YourHQ is a web design agency based in Whangārei, New Zealand, that builds prof
 - [Tradies](https://yourhq.co.nz/tradies): Specialised landing page for electricians, plumbers, and builders.
 - [Contact](https://yourhq.co.nz/contact): Get in touch with the YourHQ team.
 - [Refer](https://yourhq.co.nz/refer): Referral programme details.
-- [Discovery Interview](https://yourhq.co.nz/discovery-interview): Book a free consultation to kick off your website project.
 - [NZ Website Design](https://yourhq.co.nz/nz-website-design): Local SEO page targeting New Zealand web design searches.
 - [Privacy Policy](https://yourhq.co.nz/privacy): How we handle your data.
 - [Legal Terms](https://yourhq.co.nz/legal): Terms and conditions.

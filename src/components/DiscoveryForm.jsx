@@ -219,7 +219,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           </div>
 
           <div>
-            <label className={LABEL} htmlFor="df-existing-site">Existing website? <span className="normal-case font-normal">(even if it's old or half-finished — we'll raid it for content)</span></label>
+            <label className={LABEL} htmlFor="df-existing-site">Existing website? <span className="normal-case font-normal">(even if it's old or half-finished, we'll raid it for content)</span></label>
             <input
               type="text" id="df-existing-site" name="Existing website URL"
               placeholder="https://oldsite.co.nz"
@@ -228,7 +228,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           </div>
 
           <div>
-            <label className={LABEL} htmlFor="df-socials">Social profiles <span className="normal-case font-normal">(Facebook, Instagram, LinkedIn, TikTok, YouTube — drop links or handles)</span></label>
+            <label className={LABEL} htmlFor="df-socials">Social profiles <span className="normal-case font-normal">(Facebook, Instagram, LinkedIn, TikTok, YouTube. Drop links or handles)</span></label>
             <textarea
               id="df-socials" name="Social profiles" rows={3}
               placeholder="@janesplumbing on Insta, facebook.com/janesplumbing, linkedin.com/in/jane..."
@@ -266,7 +266,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           </div>
           <div className="space-y-6">
             <div>
-              <label className={LABEL}>In plain English — what do you actually do?</label>
+              <label className={LABEL}>In plain English: what do you actually do?</label>
               <textarea
                 name="What you do in plain English" rows={3}
                 placeholder="I fix leaky pipes, unblock drains, install hot water systems..."
@@ -282,7 +282,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
               />
             </div>
             <div>
-              <label className={LABEL}>Why did you get into this? Or — what's the best part of the job?</label>
+              <label className={LABEL}>Why did you get into this? Or, what's the best part of the job?</label>
               <textarea
                 name="Why you do this work" rows={4}
                 placeholder="Tell us in your own words. No right or wrong answer..."
@@ -304,7 +304,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
             </div>
             <div className="space-y-6">
               <div>
-                <label className={LABEL}>In plain English — what do you actually do? <span className="normal-case font-normal">(pretend we know nothing about your industry)</span></label>
+                <label className={LABEL}>In plain English: what do you actually do? <span className="normal-case font-normal">(pretend we know nothing about your industry)</span></label>
                 <textarea
                   name="What you do in plain English" rows={4}
                   placeholder="I fix leaky pipes, unblock drains, install hot water systems..."
@@ -374,7 +374,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           <div className={SECTION}>
             <div className="mb-6">
               <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Your Story</h3>
-              <p className="text-sm text-softGrey mt-1">The most important section. Write how you'd say it — only share what you're comfortable putting online.</p>
+              <p className="text-sm text-softGrey mt-1">The most important section. Write how you'd say it. Only share what you're comfortable putting online.</p>
             </div>
             <div className="space-y-6">
               <div>
@@ -394,7 +394,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>A moment — or a person — that shaped why you do what you do?</label>
+                <label className={LABEL}>A moment, or a person, that shaped why you do what you do?</label>
                 <textarea
                   name="Defining moment or person" rows={3}
                   placeholder="My old boss taught me that..."
@@ -410,7 +410,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>When someone leaves after working with you — what do you want them to feel?</label>
+                <label className={LABEL}>When someone leaves after working with you, what do you want them to feel?</label>
                 <textarea
                   name="How clients should feel after" rows={3}
                   placeholder="Like they finally got someone who actually listened..."
@@ -418,7 +418,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>If your business had a deeper purpose beyond the work itself — what would it be?</label>
+                <label className={LABEL}>If your business had a deeper purpose beyond the work itself, what would it be?</label>
                 <textarea
                   name="Deeper purpose" rows={3}
                   placeholder="Helping people feel proud of where they live..."
@@ -452,7 +452,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>If your brand was a physical space — café, studio, shop, home — what would walking in feel like?</label>
+                <label className={LABEL}>If your brand was a physical space (café, studio, shop, home) what would walking in feel like?</label>
                 <textarea
                   name="Brand as a physical space" rows={3}
                   placeholder="Warm timber, plants, coffee on the bench, someone humming..."
@@ -476,7 +476,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>When someone lands on your site — what do you want them to feel?</label>
+                <label className={LABEL}>When someone lands on your site, what do you want them to feel?</label>
                 <textarea
                   name="What visitors should feel" rows={3}
                   placeholder="Calm, like they've found the right person..."
@@ -555,14 +555,14 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 <label className={LABEL}>Want your social posts to automatically become blog articles? <span className="normal-case font-normal">(Content Autopilot Power-Up)</span></label>
                 <input
                   type="text" name="Content Autopilot interest"
-                  placeholder="Yes — Instagram and LinkedIn / No / Tell me more"
+                  placeholder="Yes, Instagram and LinkedIn / No / Tell me more"
                   className={`${INPUT} ${a.focus}`}
                 />
               </div>
               <div>
                 <label className={LABEL}>Anything about your online presence you're embarrassed by or want to move away from?</label>
                 <textarea
-                  name="Online presence — move away from" rows={2}
+                  name="Online presence: move away from" rows={2}
                   placeholder="My old website is dire. Don't link to it..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
@@ -578,7 +578,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
             </div>
             <div className="space-y-6">
               <div>
-                <label className={LABEL}>When someone lands on your site — what's the ONE thing you most want them to do?</label>
+                <label className={LABEL}>When someone lands on your site, what's the ONE thing you most want them to do?</label>
                 <input
                   type="text" name="Main call to action"
                   placeholder="Call me / Fill out a form / Book online / Buy the thing..."

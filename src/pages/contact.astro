@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import ContactForm from '../components/ContactForm.jsx';
+
+const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
 ---
 
 <Layout
@@ -98,17 +100,17 @@ import ContactForm from '../components/ContactForm.jsx';
       </div>
     </section>
 
-    <!-- SKIP TO INTERVIEW -->
+    <!-- SKIP TO BUILD -->
     <section class="py-24 md:py-32 bg-surface border-t border-carbon/5">
       <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="font-display font-bold text-display uppercase mb-6 text-carbon">
-          Ready to Skip Straight to the Interview?
+          Ready to Skip Straight to It?
         </h2>
         <p class="font-sans text-body text-softGrey mb-12">
-          Book your Drive-Home Interview directly.
+          Lock in your build and I'll text you a private link to your Drive-Home Interview.
         </p>
-        <a href="/discovery-interview" class="inline-flex justify-center items-center bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-all duration-300 shadow-elegant hover:shadow-float">
-          Book My Drive-Home Interview &rarr;
+        <a href={buildLink} class="inline-flex justify-center items-center bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-all duration-300 shadow-elegant hover:shadow-float">
+          Start Your Build &rarr;
         </a>
       </div>
     </section>
