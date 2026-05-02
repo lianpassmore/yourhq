@@ -6,86 +6,110 @@ import ContactForm from '../components/ContactForm.jsx';
 ---
 
 <Layout
-  title="Contact YourHQ | Book Your Build | Northland NZ"
-  description="Ready to own your digital space? Book your Drive-Home Interview. Based in Northland, servicing NZ-wide."
+  title="Contact YourHQ"
+  description="Ready to hand this over? One conversation is all it takes. Text 022 172 5793 or send a message and Lian or Nic will be in touch within one business day."
 >
   <Navbar client:load />
 
-  <main class="bg-paper">
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
 
-    <div class="max-w-screen-2xl mx-auto grid md:grid-cols-12">
-        
-        <!-- LEFT: INFO & STATUS -->
-        <div class="md:col-span-5 bg-carbon text-white p-8 md:p-16 flex flex-col justify-between">
-            <div>
-                <h1 class="text-5xl font-extrabold tracking-tighter mb-8">Let's Get Sorted.</h1>
-                <p class="text-xl text-gray-400 mb-12">
-                    We do 5 builds per week. If you're ready, reach out - we'll confirm the next available slot.
-                </p>
+    <!-- HERO -->
+    <section class="pt-24 md:pt-32 pb-16 md:pb-24 border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> Get in Touch
+          </span>
+          <h1 class="font-display font-bold text-hero leading-none tracking-tight mb-8 text-carbon uppercase">
+            Ready to Hand This Over?
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-2xl">
+            One conversation is all it takes. Tell me a bit about yourself and I'll take it from there.
+          </p>
+        </div>
+      </div>
+    </section>
 
-                <!-- Status Board -->
-                <div class="bg-white/10 border border-white/20 p-6 backdrop-blur-sm mb-12">
-                    <h3 class="font-mono text-xs font-bold uppercase tracking-widest text-frangipani mb-4">Current Availability</h3>
-                    <div class="space-y-4">
-                        <div class="flex justify-between items-center">
-                            <span>Next Available Build Slots</span>
-                            <span class="bg-green-500/20 text-green-300 text-xs font-bold px-2 py-1 rounded">OPEN</span>
-                        </div>
-                    </div>
+    <!-- CONTENT GRID -->
+    <section class="py-16 md:py-24">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-12 gap-8 md:gap-16 items-start">
+
+            <!-- LEFT: WHAT HAPPENS / CONTACT -->
+            <div class="md:col-span-5 bg-carbon text-bone rounded-3xl p-8 md:p-12 shadow-elegant">
+                <h2 class="font-display font-bold text-headline uppercase mb-10 text-white">
+                  Here's What Happens<br/>
+                  <span class="font-serif italic text-bone/60 normal-case font-normal">When You Reach Out.</span>
+                </h2>
+
+                <div class="space-y-8 mb-12">
+                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
+                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 1</p>
+                    <p class="font-sans text-body font-medium text-white mb-1">You send this form</p>
+                    <p class="font-sans text-ui text-bone/70">Takes two minutes.</p>
+                  </div>
+                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
+                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 2</p>
+                    <p class="font-sans text-body font-medium text-white mb-1">I get back to you</p>
+                    <p class="font-sans text-ui text-bone/70">Lian or Nic will text you within one business day. Not an automated reply. A real person.</p>
+                  </div>
+                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
+                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 3</p>
+                    <p class="font-sans text-body font-medium text-white mb-1">We book your Drive-Home Interview</p>
+                    <p class="font-sans text-ui text-bone/70">A quick call at a time that suits you. Car, couch, between meetings.</p>
+                  </div>
+                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
+                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 4</p>
+                    <p class="font-sans text-body font-medium text-white mb-1">I handle the rest</p>
+                    <p class="font-sans text-ui text-bone/70">Copy, content raid, build, preview. You approve. We go live.</p>
+                  </div>
                 </div>
 
-                <div class="space-y-2">
-                    <p class="text-sm font-mono text-gray-500 uppercase">Talk to Nic (Client Partnerships)</p>
-                    <p class="text-sm text-gray-400 mb-2">Nic is your first point of contact - questions, pricing, and booking your interview.</p>
-                    <a href="sms:0221725793" class="text-xl font-bold hover:text-signal transition-colors block">022 172 5793</a>
-                    <a href="mailto:hello@yourhq.co.nz" class="text-xl hover:text-signal transition-colors block">hello@yourhq.co.nz</a>
+                <div class="border-t border-white/10 pt-10 mb-10">
+                  <p class="font-mono text-badge uppercase text-softGrey mb-6">Contact Details</p>
+                  <div class="space-y-4">
+                    <a href="sms:0221725793" class="block font-sans text-subhead font-medium text-white hover:text-signal transition-colors">Text: 022 172 5793</a>
+                    <a href="mailto:hello@yourhq.co.nz" class="block font-sans text-subhead font-medium text-white hover:text-signal transition-colors">Email: hello@yourhq.co.nz</a>
+                  </div>
+                  <p class="font-sans text-ui text-bone/50 mt-8">
+                    Based in Whangārei, Aotearoa New Zealand. Working with clients worldwide.
+                  </p>
+                </div>
+
+                <div class="border border-white/10 rounded-2xl p-8 bg-white/5">
+                  <p class="font-sans text-body font-medium text-white mb-3">Not quite ready?</p>
+                  <p class="font-sans text-ui text-bone/70 leading-relaxed">
+                    That's fine. Use the form to ask a question. No commitment, no pressure. If I'm not the right fit, I'll tell you honestly and point you somewhere better.
+                  </p>
                 </div>
             </div>
 
-            <div class="mt-12 text-sm text-gray-500">
-                Based in Whangārei, Aotearoa New Zealand. <br/>
-                Working nationwide.
+            <!-- RIGHT: FORM -->
+            <div class="md:col-span-7 bg-white rounded-3xl p-8 md:p-16 border border-carbon/5 shadow-subtle flex flex-col justify-center">
+
+                <h2 class="font-display font-bold text-display uppercase text-carbon mb-2">Tell Me About You</h2>
+                <p class="font-serif italic text-accent text-softGrey mb-12">Five minutes. That's all this takes.</p>
+
+                <!-- Ensure ContactForm has internal styling that matches or inherits from the page -->
+                <ContactForm client:load />
+
             </div>
         </div>
+      </div>
+    </section>
 
-        <!-- RIGHT: FORM -->
-        <div class="md:col-span-7 bg-white p-8 md:p-16 flex flex-col justify-center">
-
-            <h2 class="text-3xl font-extrabold tracking-tight mb-4">Get in Touch</h2>
-            <p class="text-gray-600 mb-8">Have a question? Want to chat before committing? Just reach out.</p>
-
-            <div class="mb-8 p-4 bg-signal/10 border-l-4 border-signal">
-                <p class="text-sm font-medium text-carbon">
-                    <strong>What happens next:</strong> Nic (or the team) will text you within 48 business hours.
-                </p>
-            </div>
-
-            <ContactForm client:load />
-
-        </div>
-    </div>
-
-    <!-- READY TO BUILD CTA -->
-    <section class="py-24 bg-white border-t border-carbon">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
-          Ready to Build?
+    <!-- SKIP TO INTERVIEW -->
+    <section class="py-24 md:py-32 bg-surface border-t border-carbon/5">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="font-display font-bold text-display uppercase mb-6 text-carbon">
+          Ready to Skip Straight to the Interview?
         </h2>
-        <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-          Skip the questions and go straight to choosing your package. <br/>
-          We'll build your site in 5 business days.
+        <p class="font-sans text-body text-softGrey mb-12">
+          Book your Drive-Home Interview directly.
         </p>
-
-        <a
-          href="/pricing"
-          class="inline-block bg-carbon text-white px-12 py-5 font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all"
-        >
-          View Pricing & Choose Package →
+        <a href="/discovery-interview" class="inline-flex justify-center items-center bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-all duration-300 shadow-elegant hover:shadow-float">
+          Book My Drive-Home Interview &rarr;
         </a>
-
-        <p class="text-sm text-gray-500 mt-8">
-          All packages include a 15-minute drive-home interview. Launch + Growth include unlimited updates.
-        </p>
       </div>
     </section>
 

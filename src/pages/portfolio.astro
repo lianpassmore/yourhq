@@ -3,253 +3,253 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 
+const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
+
+// Updated accent colors to strictly follow the new YourHQ palette
 const projects = [
   {
-    client: "Rumours On Rust",
-    type: "Café & Hospitality",
+    name: "Rumours On Rust",
+    industry: "Café & Hospitality",
     location: "Whangārei, NZ",
-    description: "They needed a modern, professional web presence - fast - without admin overload during launch season.",
-    result: "A sleek, interactive site that matches the vibe in-store and makes it easy for customers to find them and take action.",
-    image: "/rumoursonrust-site.webp",
+    screenshot: "/rumoursonrust-site.webp",
     link: "https://rumours-on-rust.site",
-    quote: "The process was stress-free, quick, foolproof and fun… The website is sleek and professional - I can't believe how good it is.",
-    author: "Katie, Owner",
-    color: "signal",
-    hasAI: true,
-    badges: ["FEATURE: AI_RECEPTIONIST", "FAST BUILD", "MOBILE-FIRST"]
+    body: "Katie was launching a café during one of the busiest seasons of her life. She needed a site that matched the warmth and intention she'd put into the physical space, without it becoming another thing on an impossible list. We captured her story, raided her existing content, and built something that feels as good as the coffee tastes.",
+    quote: "The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can't believe how good it is.",
+    person: "Katie, Owner",
+    badges: ["STORY-LED", "FAST BUILD", "MOBILE-FIRST"],
+    accent: "border-terracotta/30",
+    text: "text-terracotta"
   },
   {
-    client: "Carve Earthworks",
-    type: "Earthworks & Civil",
+    name: "Carve Earthworks",
+    industry: "Earthworks & Civil",
     location: "Northland, NZ",
-    description: "A small earthworks company that needed a clean, professional website - without the hassle of building it themselves.",
-    result: "A smooth, stress-free build that delivered a professional site complementing their business.",
-    image: "/carve-earthworks-site.png",
+    screenshot: "/carve-earthworks-site.png",
     link: "https://www.carveearthworks.co.nz",
-    quote: "The whole process was smooth, easy and stress free with a clean professional outcome that compliments our business.",
-    author: "Brad, Owner",
-    color: "frangipani",
-    hasAI: false,
-    badges: ["ZERO HOMEWORK", "TRADIE-PROOF", "FAST TURNAROUND"]
+    body: "Brad runs a tight, professional operation. The kind of business that wins work on reputation and quality. His online presence didn't reflect that. We fixed it.",
+    quote: "The whole process was smooth, easy and stress-free. With a clean professional outcome that suits our business perfectly.",
+    person: "Brad, Owner",
+    badges: ["ZERO HOMEWORK", "CREDIBILITY BUILD", "CARETAKER MODEL"],
+    accent: "border-deepGreen/30",
+    text: "text-deepGreen"
   },
   {
-    client: "Ember & Ice",
-    type: "Wellness Studio",
+    name: "Ember & Ice",
+    industry: "Wellness Studio",
     location: "Northland, NZ",
-    description: "They needed a clean, credible website that made the business feel established - not \"just an Instagram.\"",
-    result: "A premium-feeling site that builds trust fast and turns curiosity into bookings/enquiries.",
-    image: "/emberandice-site.webp",
+    screenshot: "/emberandice-site.webp",
     link: "https://emberandice.co.nz",
-    quote: "A website was created in no time - exceptional and exactly what we wanted. No hassle.",
-    author: "Ross, Ember & Ice",
-    color: "deepGreen",
-    hasAI: false,
-    badges: ["PREMIUM LOOK", "TRUST-BUILDER", "GOOGLE-READY"]
+    body: "Nicolette had built something genuinely special. A wellness space with a clear vision and a growing reputation. But the online presence said \"just an Instagram.\" The site we built says something different entirely.",
+    quote: "You helped me take that next step and build my dream. That was my barrier to market.",
+    person: "Nicolette, Founder",
+    badges: ["PREMIUM BUILD", "TRUST-BUILDER", "DIGITAL OWNERSHIP"],
+    accent: "border-carbon/20",
+    text: "text-carbon"
   },
   {
-    client: "Johnson & Sons",
-    type: "Commercial Services",
+    name: "Johnson & Sons",
+    industry: "Commercial Services",
     location: "Northland, NZ",
-    description: "They needed to look legit online quickly - without getting stuck in file uploads, copy writing, or platform headaches.",
-    result: "A fast build that pulled photos from socials, presented the business professionally, and made it easy for customers to enquire.",
-    image: "/johnsonandsons-site.webp",
+    screenshot: "/johnsonandsons-site.webp",
     link: "https://johnsonandsonsltd.site",
-    quote: "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready… My mates reckon it's banging.",
-    author: "Reuben, Director",
-    color: "frangipani",
-    hasAI: false,
-    badges: ["ZERO HOMEWORK", "FAST TURNAROUND", "TRADIE-PROOF"]
-  },
-  {
-    client: "DreamStorm",
-    type: "Creative Studio",
-    location: "Northland, NZ",
-    description: "A home for the brand story - a site that feels intentional and makes the offering clear.",
-    result: "A storytelling-led website that sets the tone and positions the studio like a real player.",
-    image: "/dreamstorm-site.png",
-    link: "https://dreamstorm.org",
-    quote: "I designed a website for myself and fell in love… I wanted to help others build homes that represent them.",
-    author: "Lian, Founder",
-    color: "hibiscus",
-    hasAI: false,
-    badges: ["STORY-LED", "BRAND CLARITY", "MODERN DESIGN"]
-  },
-  {
-    client: "Storysmith",
-    type: "Media Production",
-    location: "Northland, NZ",
-    description: "A clean launchpad for a new business - something that looks professional from day one.",
-    result: "A sharp, simple site that makes it easy to understand the offer and get in touch.",
-    image: "/storysmith-site.webp",
-    link: "https://storysmith.work",
-    quote: "My Mum built me an epic website with everything I need to start my own business. It's mean!",
-    author: "Tai, Producer",
-    color: "carbon",
-    hasAI: false,
-    badges: ["LAUNCH-READY", "SIMPLE + CLEAN", "CONTACT-FOCUSED"]
+    body: "Reuben needed to look legitimate online, fast, without getting stuck in file uploads, copy briefs, or platform headaches. We went through his Facebook, pulled what we needed, and had a draft ready before he'd figured out Google Drive.",
+    quote: "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready. My mates reckon it's banging.",
+    person: "Reuben, Director",
+    badges: ["ZERO HOMEWORK", "CONTENT RAID", "FAST BUILD"],
+    accent: "border-carbon/10",
+    text: "text-softGrey"
   }
 ];
 ---
 
 <Layout
-  title="Our Portfolio | YourHQ"
-  description="View our portfolio of websites built for Northland businesses. From cafes to wellness studios, see how we help Kiwi businesses own their digital space."
+  title="Portfolio | YourHQ"
+  description="Real people and real businesses, each with a reputation worth representing properly online. Four builds. Four stories. One standard."
 >
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen font-sans selection:bg-hibiscus selection:text-white">
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
 
-    <!-- HEADER -->
-    <section class="pt-32 pb-20 border-b-2 border-carbon bg-grid-pattern relative overflow-hidden">
-      <div class="max-w-screen-2xl mx-auto px-6 relative z-10">
-        <h1 class="text-[12vw] font-black tracking-tighter leading-[0.8] uppercase text-carbon mb-4">
-          The <span class="text-signal italic">Portfolio.</span>
-        </h1>
-        <p class="font-mono text-sm md:text-base text-carbon/60 uppercase tracking-widest max-w-xl">
-          // Built in Whangārei &bull; Servicing NZ-wide &bull; Fast builds, kept sorted
-        </p>
-        <p class="font-mono text-xs text-carbon/40 mt-4 max-w-lg leading-relaxed">
-          Here are a few businesses we've helped get seen properly - without the homework.
-        </p>
-      </div>
-    </section>
-
-    <!-- QUICK PROOF -->
-    <section class="py-16 md:py-20 bg-pureWhite border-b-2 border-carbon">
-      <div class="max-w-4xl mx-auto px-6">
-        <h2 class="text-2xl md:text-3xl font-black text-carbon tracking-tighter uppercase mb-8">
-          What these projects have in common
-        </h2>
-        <ul class="space-y-4">
-          <li class="flex items-start gap-3">
-            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
-            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Built fast (days, not months)</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
-            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Designed to pass the "Google Test"</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
-            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Easy for customers to call, enquire, or book</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <span class="inline-block w-2 h-2 mt-2 bg-signal rounded-full flex-shrink-0"></span>
-            <span class="font-mono text-sm text-carbon/80 uppercase tracking-wide">Ongoing care included (we don't disappear)</span>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- PROJECT FEED -->
-    <section class="py-12 md:py-24 bg-paper bg-grid-pattern">
-      <div class="max-w-6xl mx-auto px-6">
-
-        {projects.map((project, index) => (
-          <div class={`flex flex-col md:flex-row items-center gap-12 mb-32 md:mb-56 relative group ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
-
-            <!-- BACKGROUND DECOR (The large number) -->
-            <span class="absolute -top-20 -left-10 md:left-auto md:-top-32 text-[20rem] font-black text-carbon/[0.03] select-none pointer-events-none group-hover:text-hibiscus/[0.05] transition-colors duration-700">
-              0{index + 1}
-            </span>
-
-            <!-- THE MOCKUP (The "Lazy" Scroll Card) -->
-            <div class="w-full md:w-3/5 relative">
-              <a href={project.link} target="_blank" class="block border-2 border-carbon bg-white shadow-hard group-hover:-translate-y-2 transition-all duration-500 overflow-hidden rounded-sm">
-                <!-- The magic scrolling image: just 1 long screenshot needed -->
-                <img
-                  src={project.image}
-                  alt={project.client}
-                  class="w-full h-[500px] object-cover object-top hover:object-bottom transition-all duration-[6000ms] ease-in-out"
-                />
-              </a>
-
-              <!-- Badge Tags -->
-              <div class="absolute -top-4 -right-4 flex flex-col gap-1 items-end">
-                {project.badges.map((badge) => (
-                  <div class={`${badge.includes('AI_RECEPTIONIST') ? 'bg-hibiscus' : 'bg-carbon'} text-white font-mono text-[10px] px-2 py-1 border border-carbon rotate-3 shadow-hard-sm`}>
-                    {badge}
-                  </div>
-                ))}
-              </div>
-
-              <!-- Annotation Tag -->
-              <div class="absolute -bottom-4 -right-2 bg-carbon text-white font-mono text-[10px] px-3 py-1 shadow-hard-white">
-                VERIFIED_BUILD_0{index + 1}
-              </div>
-            </div>
-
-            <!-- THE CONTENT -->
-            <div class="w-full md:w-2/5 space-y-6">
-              <div class="space-y-2">
-                <span class="font-mono text-xs font-bold text-signal uppercase tracking-widest">{project.type}</span>
-                <h3 class="text-5xl font-black text-carbon tracking-tighter leading-none uppercase">{project.client}</h3>
-                <p class="text-xs font-mono text-carbon/40 uppercase italic">{project.location}</p>
-              </div>
-
-              <!-- What we solved & Result -->
-              <div class="space-y-3">
-                <div>
-                  <p class="font-mono text-[10px] uppercase font-bold text-signal tracking-widest mb-1">What we solved:</p>
-                  <p class="text-sm text-carbon/70 leading-relaxed">{project.description}</p>
-                </div>
-                <div>
-                  <p class="font-mono text-[10px] uppercase font-bold text-signal tracking-widest mb-1">Result:</p>
-                  <p class="text-sm text-carbon/70 leading-relaxed">{project.result}</p>
-                </div>
-              </div>
-
-              <!-- The "Sticky Note" Testimonial with tape effect -->
-              <div class="bg-pureWhite border-2 border-carbon p-6 shadow-hard-sm relative">
-                <!-- Accent color bar on right edge -->
-                <div class={`absolute top-0 right-0 w-2 h-full bg-${project.color}`}></div>
-
-                <p class="text-lg font-medium italic leading-snug mb-4 text-carbon">
-                  "{project.quote}"
-                </p>
-                <p class="font-mono text-[10px] uppercase font-bold text-carbon/60">
-                  - {project.author}
-                </p>
-              </div>
-
-              <!-- Tech Swatch (Visual detail) -->
-              <div class="flex items-center gap-4 pt-4 border-t border-carbon/10">
-                <p class="font-mono text-[10px] uppercase text-carbon/40">Build Details:</p>
-                <div class="flex h-3 w-20 border border-carbon rounded-full overflow-hidden">
-                  <div class="flex-1 bg-carbon"></div>
-                  <div class="flex-1 bg-signal"></div>
-                  <div class={`flex-1 bg-${project.color}`}></div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        ))}
-
-      </div>
-    </section>
-
-    <!-- FOOTER CTA -->
-    <section class="py-24 bg-carbon text-white relative overflow-hidden">
-       <!-- Large background text -->
-       <div class="absolute inset-0 flex items-center justify-center opacity-5 select-none pointer-events-none">
-          <span class="text-[30vw] font-black uppercase tracking-tighter">YourHQ</span>
-       </div>
-
-        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
-            <h2 class="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-8 uppercase">Want <span class="text-hibiscus">Yours</span> Next?</h2>
-            <p class="font-mono text-sm md:text-base text-white/60 max-w-xl mx-auto mb-10 leading-relaxed">
-              If you're busy, good at what you do, and sick of the online side feeling messy - we can get you sorted. Built in 5 days. No homework. We stay on as caretakers.
-            </p>
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <a href="/pricing" class="inline-block bg-pureWhite text-carbon px-10 py-5 border-2 border-pureWhite hover:bg-transparent hover:text-white transition-all font-black uppercase tracking-tighter text-2xl shadow-hard group">
-                Start Your Build
-              </a>
-              <a href="/pricing" class="inline-block font-mono text-sm text-white/60 hover:text-white transition-colors uppercase tracking-widest">
-                View Pricing →
-              </a>
-            </div>
+    <!-- HERO -->
+    <section class="pt-24 md:pt-32 pb-20 border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> The Work
+          </span>
+          <h1 class="font-display font-bold text-hero leading-none tracking-tight mb-8 text-carbon uppercase">
+            Every Build Is Someone's <br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">Story, Finally Told Properly.</span>
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-3xl mb-8">
+            Real people and real businesses. Each one with a reputation worth representing properly online.
+          </p>
+          <p class="font-mono text-badge uppercase text-softGrey">
+            Founded in Aotearoa New Zealand &middot; Clients Worldwide
+          </p>
         </div>
+      </div>
+    </section>
+
+    <!-- WHERE IT STARTED -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+          <div class="lg:col-span-7">
+            <p class="font-mono text-badge uppercase text-terracotta mb-4">The Origin</p>
+            <h2 class="font-display font-bold text-display uppercase mb-10 text-carbon">
+              This Is What <br/>
+              <span class="font-serif italic text-softGrey normal-case font-normal">Started Everything.</span>
+            </h2>
+            <div class="space-y-6 font-sans text-body text-softGrey leading-relaxed">
+              <p>
+                Before YourHQ had a single client, it had one build. Mine.
+              </p>
+              <p>
+                I was deep in my Master of Technological Futures, learning to code, obsessed with the intersection of storytelling and digital space, and quietly becoming convinced that owning your corner of the internet wasn't optional. It was essential.
+              </p>
+              <p>
+                So I built my own. DreamStorm. A home for the brand story I'd been carrying around without anywhere to put it.
+              </p>
+              <p class="font-medium text-carbon">
+                Something clicked.
+              </p>
+              <p>
+                The process of translating a person, a vision, a set of values into a digital space that actually feels like them. I loved it. Not just the craft of it. The meaning of it. The way a well-built site can say: <em>this is real, this person is serious, this is worth your time.</em>
+              </p>
+              <p class="font-serif italic text-accent text-terracotta pt-2">
+                That feeling is what YourHQ is built on.
+              </p>
+              <a href="https://www.dreamstorm.org" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 font-sans font-medium text-ui text-carbon border-b border-carbon/20 pb-0.5 hover:border-carbon transition-colors">
+                Visit dreamstorm.org &rarr;
+              </a>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5">
+            <!-- Scrollable Image Container with Hover Effect -->
+            <a href="https://www.dreamstorm.org" target="_blank" rel="noopener noreferrer" class="block bg-surface rounded-2xl border border-carbon/5 shadow-elegant relative overflow-hidden group hover:shadow-float transition-all duration-500">
+              <img src="/dreamstorm-site.png" alt="DreamStorm website" loading="lazy" decoding="async" class="w-full h-[500px] object-cover object-top group-hover:object-bottom transition-all duration-[6000ms] ease-in-out" />
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- THE CLIENT WORK -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mb-20 text-center md:text-left">
+          <h2 class="font-display font-bold text-display uppercase mb-4 text-carbon">
+            Four Businesses.<br/>
+            Four Stories.<br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">One Standard.</span>
+          </h2>
+        </div>
+
+        <div class="space-y-24 md:space-y-32">
+          {projects.map((p, i) => (
+            <div class="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+              <div class={`lg:col-span-5 ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
+                <!-- Scrollable Image Container with Hover Effect -->
+                <a href={p.link} target="_blank" rel="noopener noreferrer" class="block bg-white rounded-2xl border border-carbon/5 shadow-elegant relative overflow-hidden group hover:shadow-float transition-all duration-500">
+                  <img src={p.screenshot} alt={`${p.name} website`} loading="lazy" decoding="async" class="w-full h-[500px] object-cover object-top group-hover:object-bottom transition-all duration-[6000ms] ease-in-out" />
+                </a>
+              </div>
+
+              <div class={`lg:col-span-7 ${i % 2 === 1 ? 'lg:order-1' : ''}`}>
+                <p class={`font-mono text-badge uppercase tracking-widest ${p.text} mb-3`}>Project 0{i + 1}</p>
+                <h3 class="font-display font-bold text-headline text-carbon uppercase mb-2">{p.name}</h3>
+                <p class="font-mono text-badge text-softGrey uppercase mb-8">
+                  {p.industry} &middot; {p.location}
+                </p>
+
+                <p class="font-sans text-body text-softGrey mb-8">
+                  {p.body}
+                </p>
+
+                <blockquote class={`border-l ${p.accent} pl-6 mb-10`}>
+                  <p class="font-serif italic text-accent text-carbon mb-3">"{p.quote}"</p>
+                  <footer class="font-mono text-badge uppercase text-softGrey">
+                    &mdash; {p.person}
+                  </footer>
+                </blockquote>
+
+                <div class="flex flex-wrap gap-2">
+                  {p.badges.map((b) => (
+                    <span class="inline-block bg-white px-3 py-1.5 font-mono text-[10px] border border-carbon/10 uppercase tracking-[0.1em] text-softGrey">
+                      {b}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT EVERY BUILD HAS IN COMMON -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center md:text-left mb-16">
+          <h2 class="font-display font-bold text-display uppercase mb-4 text-carbon">
+            Different Industries.<br/>
+            Same Standard.<br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">Every Time.</span>
+          </h2>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div class="bg-surface rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-display font-bold text-subhead text-carbon mb-2">Built in your voice.</p>
+            <p class="font-sans text-body text-softGrey">Written from a real conversation, reviewed by me personally before a line of code is written.</p>
+          </div>
+          <div class="bg-surface rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-display font-bold text-subhead text-carbon mb-2">Hand-coded, not assembled.</p>
+            <p class="font-sans text-body text-softGrey">Every site built in Astro. Under a second to load. No page builders. No shortcuts.</p>
+          </div>
+          <div class="bg-surface rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-display font-bold text-subhead text-carbon mb-2">Owned by you, unconditionally.</p>
+            <p class="font-sans text-body text-softGrey">Your domain, your content, your design. From day one. If you ever leave, everything comes with you.</p>
+          </div>
+          <div class="bg-surface rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-display font-bold text-subhead text-carbon mb-2">Looked after forever.</p>
+            <p class="font-sans text-body text-softGrey">Hosting, security, annual refresh, on-demand updates. I don't build and disappear.</p>
+          </div>
+          <div class="bg-surface rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300 sm:col-span-2">
+            <p class="font-display font-bold text-subhead text-carbon mb-2">Built for where digital is going.</p>
+            <p class="font-sans text-body text-softGrey">Standard search, AI-generated answers, whatever comes next.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="bg-carbon text-bone py-32 text-center px-4">
+      <div class="max-w-3xl mx-auto">
+        <span class="font-mono text-badge uppercase text-terracotta block mb-6">The Next Step</span>
+        <h2 class="font-display font-bold text-display uppercase mb-8 text-white">
+          Want to See Your <br/>
+          <span class="font-serif italic text-bone/60 normal-case font-normal">Story Here Next?</span>
+        </h2>
+        
+        <p class="font-sans text-subhead text-bone/80 mb-12 max-w-2xl mx-auto">
+          One conversation. Your story captured.<br/>
+          Your digital home built and looked after. Forever.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href={buildLink} class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
+            Start Your Build
+          </a>
+          <a href="/how-it-works" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
+            See How It Works
+          </a>
+        </div>
+      </div>
     </section>
 
   </main>

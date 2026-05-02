@@ -1,0 +1,204 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+
+const stripeLink = "https://buy.stripe.com/eVq6oG4e628w7NX4UzdZ603";
+---
+
+<Layout
+  title="One-Pager | YourHQ"
+  description="A simple one-page digital business card. Hand-coded, fast, mobile-first. By referral only."
+  noindex={true}
+>
+  <Navbar client:load />
+
+  <!-- Global: Bone background, Carbon text. The clean, breathing room of the new brand. -->
+  <main class="bg-bone text-carbon min-h-screen font-sans selection:bg-deepGreen selection:text-white">
+
+    <!-- 1. HERO: The Architectural Vibe -->
+    <section class="pt-32 pb-16 px-6 lg:px-12 border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto">
+
+        <!-- Top Meta Data Row -->
+        <div class="flex justify-between items-start border-b border-carbon/10 pb-4 mb-16">
+          <p class="font-mono text-badge text-softGrey">
+            RC / Design &middot; {new Date().getFullYear()}
+          </p>
+          <p class="font-mono text-badge text-softGrey text-right">
+            By Referral Only<br/>Not Advertised
+          </p>
+        </div>
+
+        <!-- Massive Decisive Headline (Agrandir Display) -->
+        <div class="max-w-5xl">
+          <h1 class="font-display text-hero font-bold text-carbon mb-6">
+            The<br/>One-Pager.
+          </h1>
+
+          <div class="grid md:grid-cols-12 gap-8 items-end mt-12">
+            <div class="md:col-span-8">
+              <!-- The Whisper (Tension Technique) -->
+              <p class="font-serif italic text-headline text-terracotta">
+                A digital business card. <br/>
+                <span class="text-carbon">Done right.</span>
+              </p>
+            </div>
+            <div class="md:col-span-4">
+              <!-- Clear, functional DM Sans Body -->
+              <p class="font-sans text-body text-softGrey">
+                One page. Hand-coded. Mobile-first. Built so you exist properly online without committing to the full build.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. THE SPLIT: Details & Pricing -->
+    <section class="py-24 px-6 lg:px-12">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-12 gap-y-16 lg:gap-x-16">
+
+          <!-- Left: The Price (Elevated Card) -->
+          <div class="lg:col-span-5">
+            <div class="sticky top-32">
+              
+              <!-- Refined White Card with High-End Shadow -->
+              <div class="bg-white rounded-2xl p-8 md:p-12 shadow-elegant border border-carbon/5 relative">
+
+                <p class="font-mono text-badge text-softGrey mb-8 border-b border-carbon/10 pb-4">The Setup</p>
+
+                <p class="font-display text-price font-bold text-carbon mb-2">
+                  $1,590
+                </p>
+                
+                <div class="flex items-center gap-3 mb-10">
+                  <span class="font-mono text-badge text-carbon">+ GST</span>
+                  <span class="w-full h-[1px] bg-carbon/10"></span>
+                </div>
+
+                <p class="font-sans text-ui text-softGrey mb-10">
+                  One-time fee. Includes domain registration and 12 months of global edge hosting.
+                </p>
+
+                <!-- Signal Blue CTA -->
+                <a href={stripeLink} class="block w-full bg-signal text-white rounded-full text-center px-8 py-4 text-ui font-medium hover:bg-carbon hover:shadow-float transition-all duration-300">
+                  Purchase the One-Pager
+                </a>
+              </div>
+
+              <!-- Functional Callout -->
+              <div class="mt-8 ml-4 md:ml-8 border-l-2 border-signal pl-6">
+                <p class="font-sans text-ui text-softGrey max-w-[250px]">
+                  After payment, you'll be directed to the Drive-Home Interview to capture your story.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: What's Included -->
+          <div class="lg:col-span-7">
+            <h2 class="font-display text-headline font-bold text-carbon mb-12">What's Included.</h2>
+
+            <div class="border-t border-carbon/10">
+
+              <!-- Item 1 -->
+              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
+                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">01</span>
+                <div class="col-span-10">
+                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">A single, hand-coded page</p>
+                  <p class="font-sans text-body text-softGrey">Written in your voice from one Drive-Home Interview. Fast, mobile-first, built to load in under a second.</p>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
+                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">02</span>
+                <div class="col-span-10">
+                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Domain registration</p>
+                  <p class="font-sans text-body text-softGrey">Registered in your name. Yours unconditionally.</p>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
+                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">03</span>
+                <div class="col-span-10">
+                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">12 months of hosting</p>
+                  <p class="font-sans text-body text-softGrey">Vercel global edge. SSL included. Renewable annually.</p>
+                </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
+                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">04</span>
+                <div class="col-span-10">
+                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Google Business Profile</p>
+                  <p class="font-sans text-body text-softGrey">Claimed, optimised, connected to your one-pager.</p>
+                </div>
+              </div>
+
+              <!-- Item 5 -->
+              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
+                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">05</span>
+                <div class="col-span-10">
+                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Upgrade path open</p>
+                  <p class="font-sans text-body text-softGrey">If you grow into the full build later, this fee credits toward The Build.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Modern Editorial Callout Blocks -->
+            <div class="mt-16 grid sm:grid-cols-2 gap-4">
+              <!-- Terracotta Accent Block -->
+              <div class="bg-surface rounded-xl p-8 border-l-4 border-terracotta shadow-subtle">
+                <p class="font-mono text-badge text-terracotta mb-4">Not Included</p>
+                <p class="font-sans text-ui text-softGrey">
+                  No blog, no portfolio, no Instagram feed, no annual refresh. No on-demand updates. Changes billed at $145/hr.
+                </p>
+              </div>
+
+              <!-- Deep Green Accent Block -->
+              <div class="bg-surface rounded-xl p-8 border-l-4 border-deepGreen shadow-subtle">
+                <p class="font-mono text-badge text-deepGreen mb-4">Who This Is For</p>
+                <p class="font-sans text-ui text-softGrey">
+                  People sent here by someone who knows the work. You need to exist online, but you're not ready for the full build.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. HELP: High-end Sign-off -->
+    <section class="py-24 px-6 border-t border-carbon/10">
+      <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+        
+        <!-- Y Monogram Graphic replacing the old sunburst -->
+        <div class="w-12 h-12 rounded-full bg-surface border border-carbon/10 flex items-center justify-center text-terracotta font-serif italic text-2xl mb-8 shadow-subtle">
+          Y
+        </div>
+
+        <h3 class="font-display text-headline font-bold text-carbon mb-12">Still have questions?</h3>
+
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-8">
+          <a href="sms:0221725793" class="font-mono text-badge text-carbon border-b border-carbon/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
+            Text 022 172 5793
+          </a>
+          <span class="hidden sm:block w-1.5 h-1.5 bg-carbon/20 rounded-full"></span>
+          <a href="mailto:hello@yourhq.co.nz" class="font-mono text-badge text-carbon border-b border-carbon/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
+            hello@yourhq.co.nz
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

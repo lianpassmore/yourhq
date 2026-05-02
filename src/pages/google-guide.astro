@@ -11,100 +11,103 @@ import LeadMagnetForm from '../components/LeadMagnetForm.jsx';
 >
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
+  <main class="bg-bone min-h-screen font-sans text-carbon selection:bg-deepGreen selection:text-white">
 
     <!-- HERO SECTION -->
-    <section class="pt-32 pb-20 border-b border-carbon relative overflow-hidden">
-      <!-- Colourful background blobs -->
-      <div class="absolute top-0 left-1/4 w-96 h-96 bg-signal/15 rounded-full blur-3xl -z-10"></div>
-      <div class="absolute bottom-0 right-1/4 w-80 h-80 bg-hibiscus/15 rounded-full blur-3xl -z-10"></div>
-      <div class="absolute top-1/2 right-10 w-64 h-64 bg-frangipani/20 rounded-full blur-3xl -z-10"></div>
+    <section class="pt-32 pb-24 md:pt-40 md:pb-32 border-b border-carbon/10">
+      <div class="max-w-4xl mx-auto px-6 lg:px-12 text-center">
 
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-
-        <div class="inline-block bg-signal/10 border border-signal px-4 py-1 mb-6 rounded-full">
-            <span class="font-mono text-xs font-bold uppercase tracking-widest text-signal">Free Guide</span>
+        <!-- Refined Badge -->
+        <div class="inline-flex items-center gap-3 px-4 py-1.5 bg-white rounded-full border border-carbon/5 shadow-subtle mb-10">
+            <span class="w-2 h-2 bg-signal rounded-full"></span>
+            <span class="font-mono text-[10px] font-medium uppercase tracking-[0.1em] text-softGrey">Free Guide</span>
         </div>
 
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-          Get Found on <span class="text-signal">Google</span><br />
-          <span class="text-hibiscus text-3xl md:text-5xl block mt-2 font-bold tracking-tight">The No-Nonsense Setup Guide</span>
+        <!-- Tension Technique Heading -->
+        <h1 class="font-display text-hero font-bold text-carbon mb-6">
+          Get Found on Google<br />
+          <span class="font-serif italic text-headline text-terracotta block mt-4">The No-Nonsense Setup Guide</span>
         </h1>
 
-        <p class="text-xl text-carbon/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Half of NZ businesses still don't have a proper Google presence. Not because they don't want one - because every guide makes it sound harder than it is. <strong>This one's different.</strong>
+        <p class="font-sans text-subhead text-softGrey max-w-2xl mx-auto mb-10 leading-relaxed">
+          Half of NZ businesses still don't have a proper Google presence. Not because they don't want one - because every guide makes it sound harder than it is. <strong class="text-carbon font-semibold">This one's different.</strong>
         </p>
 
-        <a href="#get-the-guide" class="inline-block bg-hibiscus text-white px-10 py-4 border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-widest text-lg">
-            Get the Free Guide →
+        <a href="#get-the-guide" class="inline-block bg-signal text-white px-10 py-4 rounded-full font-medium hover:bg-carbon hover:shadow-float transition-all duration-300 mb-6">
+            Get the Free Guide &rarr;
         </a>
 
-        <p class="text-xs text-gray-500 mt-4 font-mono">Takes 20 minutes. You'll need your phone and a coffee. That's it.</p>
+        <p class="font-mono text-badge text-softGrey">Takes 20 minutes. You'll need your phone and a coffee. That's it.</p>
 
       </div>
     </section>
 
-    <!-- THE PROBLEM (Dark) -->
-    <section class="py-24 bg-carbon text-white relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-72 h-72 bg-signal/10 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-0 left-0 w-60 h-60 bg-hibiscus/10 rounded-full blur-3xl"></div>
-        <div class="max-w-3xl mx-auto px-4 text-center relative z-10">
-            <h2 class="text-3xl font-extrabold mb-8 text-frangipani">You're Invisible to New Customers.</h2>
-            <div class="space-y-6 text-lg md:text-xl font-light leading-relaxed text-gray-200">
+    <!-- THE PROBLEM (Dark Section) -->
+    <section class="py-24 bg-carbon text-white text-center">
+        <div class="max-w-3xl mx-auto px-6">
+            <!-- Tension Technique on Dark -->
+            <h2 class="font-display text-display font-bold text-bone mb-10">
+              You're Invisible to New Customers.
+            </h2>
+            
+            <div class="space-y-6 font-sans text-subhead text-white/70 leading-relaxed max-w-2xl mx-auto">
                 <p>When someone Googles "plumber near me" or "best café in [your town]" - do you show up?</p>
-                <p class="font-bold text-white">If you don't have a Google Business Profile, the answer is <span class="text-hibiscus">no</span>. And that's work walking straight to your competitor.</p>
-                <div class="pt-8 border-t border-white/20 mt-8">
-                    <p>The good news? Setting it up is <span class="text-frangipani font-medium">free</span>, takes about <span class="text-frangipani font-medium">20 minutes</span>, and this guide walks you through every step.</p>
+                <p class="font-medium text-bone">
+                  If you don't have a Google Business Profile, the answer is <span class="font-serif italic text-terracotta text-3xl">no</span>. And that's work walking straight to your competitor.
+                </p>
+                <div class="pt-10 mt-10 border-t border-white/10">
+                    <p class="font-sans text-body text-white/60">
+                      The good news? Setting it up is <span class="text-bone font-medium">free</span>, takes about <span class="text-bone font-medium">20 minutes</span>, and this guide walks you through every step.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- WHAT'S INSIDE -->
-    <section class="py-24 bg-white border-b border-carbon relative overflow-hidden">
-        <div class="absolute -top-20 -left-20 w-80 h-80 bg-frangipani/10 rounded-full blur-3xl"></div>
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid md:grid-cols-2 gap-16 items-center">
+    <section class="py-24 bg-surface border-b border-carbon/10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid md:grid-cols-2 gap-16 lg:gap-24 items-center">
 
-                <!-- Left: The "Book" Visual -->
-                <div class="relative">
-                    <div class="aspect-[3/4] bg-gradient-to-br from-signal/5 via-paper to-hibiscus/5 border-2 border-carbon shadow-hard p-8 flex flex-col justify-center text-center">
-                        <span class="text-7xl mb-4">📍</span>
-                        <h3 class="text-3xl font-extrabold tracking-tighter mb-2">Get Found<br/>on <span class="text-signal">Google</span></h3>
-                        <p class="font-mono text-sm text-gray-500 uppercase mt-2">YourHQ Setup Guide</p>
-                        <div class="mt-4 inline-block mx-auto bg-hibiscus/10 border border-hibiscus px-3 py-1 rounded-full">
-                            <span class="font-mono text-xs font-bold uppercase tracking-widest text-hibiscus">Free PDF</span>
+                <!-- Left: The "Book" Visual (Elevated) -->
+                <div class="relative max-w-sm mx-auto w-full">
+                    <div class="aspect-[3/4] bg-white rounded-xl border border-carbon/5 shadow-elegant p-10 flex flex-col justify-center text-center relative z-10">
+                        <div class="w-16 h-16 rounded-full bg-surface border border-carbon/10 flex items-center justify-center text-2xl mb-8 mx-auto shadow-sm">
+                          📍
+                        </div>
+                        <h3 class="font-display text-headline font-bold text-carbon leading-tight mb-4">
+                          Get Found<br/>on <span class="font-serif italic text-signal">Google</span>
+                        </h3>
+                        <p class="font-mono text-badge text-softGrey mb-8">YourHQ Setup Guide</p>
+                        <div class="inline-flex mx-auto border-t border-carbon/10 pt-6">
+                            <span class="font-mono text-[10px] font-semibold uppercase tracking-[0.1em] text-deepGreen">Free PDF</span>
                         </div>
                     </div>
-                    <!-- Decorative elements -->
-                    <div class="absolute -top-6 -right-6 w-32 h-32 bg-signal/20 rounded-full blur-2xl -z-10"></div>
-                    <div class="absolute -bottom-6 -left-6 w-40 h-40 bg-hibiscus/20 rounded-full blur-2xl -z-10"></div>
-                    <div class="absolute top-1/2 -right-4 w-20 h-20 bg-frangipani/30 rounded-full blur-xl -z-10"></div>
                 </div>
 
                 <!-- Right: The List -->
                 <div>
-                    <h2 class="text-3xl font-extrabold mb-8">What you'll get:</h2>
+                    <h2 class="font-display text-headline font-bold text-carbon mb-10">What you'll get:</h2>
                     <ul class="space-y-6">
-                        <li class="flex gap-4 items-start">
-                            <div class="w-8 h-8 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">1</div>
-                            <p class="text-lg text-gray-700"><strong>Step-by-step setup instructions</strong> that actually make sense</p>
+                        <li class="flex gap-5 items-start">
+                            <div class="w-8 h-8 rounded-full bg-white border border-carbon/10 flex items-center justify-center font-mono text-xs text-carbon shadow-sm shrink-0 mt-0.5">1</div>
+                            <p class="font-sans text-body text-softGrey"><strong class="text-carbon font-semibold">Step-by-step setup instructions</strong> that actually make sense</p>
                         </li>
-                        <li class="flex gap-4 items-start">
-                            <div class="w-8 h-8 bg-hibiscus text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">2</div>
-                            <p class="text-lg text-gray-700"><strong>Category recommendations</strong> for tradies, salons, and service businesses</p>
+                        <li class="flex gap-5 items-start">
+                            <div class="w-8 h-8 rounded-full bg-white border border-carbon/10 flex items-center justify-center font-mono text-xs text-carbon shadow-sm shrink-0 mt-0.5">2</div>
+                            <p class="font-sans text-body text-softGrey"><strong class="text-carbon font-semibold">Category recommendations</strong> for tradies, salons, and service businesses</p>
                         </li>
-                        <li class="flex gap-4 items-start">
-                            <div class="w-8 h-8 bg-frangipani text-carbon rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">3</div>
-                            <p class="text-lg text-gray-700"><strong>Verification tips</strong> so you don't get stuck at the tricky part</p>
+                        <li class="flex gap-5 items-start">
+                            <div class="w-8 h-8 rounded-full bg-white border border-carbon/10 flex items-center justify-center font-mono text-xs text-carbon shadow-sm shrink-0 mt-0.5">3</div>
+                            <p class="font-sans text-body text-softGrey"><strong class="text-carbon font-semibold">Verification tips</strong> so you don't get stuck at the tricky part</p>
                         </li>
-                        <li class="flex gap-4 items-start">
-                            <div class="w-8 h-8 bg-deepGreen text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">4</div>
-                            <p class="text-lg text-gray-700"><strong>What to do once you're live</strong> - the maintenance is lighter than you think</p>
+                        <li class="flex gap-5 items-start">
+                            <div class="w-8 h-8 rounded-full bg-white border border-carbon/10 flex items-center justify-center font-mono text-xs text-carbon shadow-sm shrink-0 mt-0.5">4</div>
+                            <p class="font-sans text-body text-softGrey"><strong class="text-carbon font-semibold">What to do once you're live</strong> - the maintenance is lighter than you think</p>
                         </li>
-                        <li class="flex gap-4 items-start">
-                            <div class="w-8 h-8 bg-signal text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-sm font-bold shadow-hard-sm">5</div>
-                            <p class="text-lg text-gray-700"><strong>Photo and description tips</strong> that make your listing stand out</p>
+                        <li class="flex gap-5 items-start">
+                            <div class="w-8 h-8 rounded-full bg-white border border-carbon/10 flex items-center justify-center font-mono text-xs text-carbon shadow-sm shrink-0 mt-0.5">5</div>
+                            <p class="font-sans text-body text-softGrey"><strong class="text-carbon font-semibold">Photo and description tips</strong> that make your listing stand out</p>
                         </li>
                     </ul>
                 </div>
@@ -114,53 +117,59 @@ import LeadMagnetForm from '../components/LeadMagnetForm.jsx';
     </section>
 
     <!-- WHO THIS IS FOR -->
-    <section class="py-24 bg-gradient-to-br from-paper via-signal/5 to-hibiscus/5 border-b border-carbon">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-hard">
-                <h2 class="text-2xl font-bold mb-8 text-center uppercase tracking-widest text-signal">This guide is for you if...</h2>
+    <section class="py-24 bg-bone border-b border-carbon/10">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="bg-white rounded-2xl border border-carbon/5 p-10 md:p-16 shadow-subtle">
+                
+                <h2 class="font-mono text-badge text-terracotta mb-10 text-center">This guide is for you if...</h2>
+                
                 <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
-                    <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-hibiscus font-bold text-lg">→</span>
+                    <p class="flex items-start gap-4 font-sans text-body text-softGrey">
+                        <span class="text-terracotta mt-1">-</span>
                         You don't show up when people Google your business name
                     </p>
-                    <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-signal font-bold text-lg">→</span>
+                    <p class="flex items-start gap-4 font-sans text-body text-softGrey">
+                        <span class="text-terracotta mt-1">-</span>
                         You've been meaning to "do the Google thing" but haven't got round to it
                     </p>
-                    <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-frangipani font-bold text-lg">→</span>
+                    <p class="flex items-start gap-4 font-sans text-body text-softGrey">
+                        <span class="text-terracotta mt-1">-</span>
                         You tried setting it up once and got stuck on verification
                     </p>
-                    <p class="flex gap-3 text-carbon font-medium">
-                        <span class="text-deepGreen font-bold text-lg">→</span>
+                    <p class="flex items-start gap-4 font-sans text-body text-softGrey">
+                        <span class="text-terracotta mt-1">-</span>
                         Your competitors show up on Google Maps and you don't
                     </p>
-                    <p class="flex gap-3 text-carbon font-medium md:col-span-2">
-                        <span class="text-hibiscus font-bold text-lg">→</span>
+                    <p class="flex items-start gap-4 font-sans text-body text-softGrey md:col-span-2 md:max-w-lg md:mx-auto">
+                        <span class="text-terracotta mt-1">-</span>
                         You want new customers to find you without relying 100% on word-of-mouth
                     </p>
                 </div>
+                
             </div>
         </div>
     </section>
 
     <!-- FORM SECTION -->
-    <section id="get-the-guide" class="py-24 bg-white relative overflow-hidden">
-        <div class="absolute top-0 left-0 w-72 h-72 bg-signal/10 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-0 right-0 w-60 h-60 bg-hibiscus/10 rounded-full blur-3xl"></div>
-        <div class="max-w-xl mx-auto px-4 relative z-10">
+    <section id="get-the-guide" class="py-24 bg-surface">
+        <div class="max-w-2xl mx-auto px-6">
 
-            <div class="text-center mb-10">
-                <h2 class="text-4xl font-extrabold tracking-tighter mb-4">Get Your <span class="text-signal">Free</span> Copy</h2>
-                <p class="text-gray-600">Enter your details and the guide will open straight away.</p>
+            <div class="text-center mb-12">
+                <h2 class="font-display text-display font-bold text-carbon mb-4">
+                  Get Your <span class="font-serif italic text-signal">Free</span> Copy
+                </h2>
+                <p class="font-sans text-subhead text-softGrey">Enter your details and the guide will open straight away.</p>
             </div>
 
-            <LeadMagnetForm client:load source="google-guide" buttonText="Get The Guide" pdfUrl="/get-found-google-maps-tradie-guide.pdf" />
+            <!-- Elevated Form Container -->
+            <div class="bg-white rounded-2xl p-8 md:p-12 shadow-elegant border border-carbon/5">
+                <LeadMagnetForm client:load source="google-guide" buttonText="Get The Guide" pdfUrl="/get-found-google-maps-tradie-guide.pdf" />
+            </div>
 
             <!-- ABOUT SECTION -->
-            <div class="mt-16 text-center border-t border-gray-200 pt-12">
-                <p class="text-sm text-gray-500 leading-relaxed max-w-lg mx-auto">
-                    This guide is brought to you by <strong>YourHQ</strong> - founder-led websites for Kiwi small businesses. Built in 5 days, no homework, and looked after long-term. Need more than just a Google listing? <a href="/" class="text-signal underline">See what we do</a>.
+            <div class="mt-20 text-center border-t border-carbon/10 pt-12">
+                <p class="font-sans text-ui text-softGrey leading-relaxed max-w-xl mx-auto">
+                    This guide is brought to you by <strong class="text-carbon font-semibold">YourHQ</strong>. Hand-coded, permanently owned websites for established business owners and personal brands. One conversation. Looked after forever. Need more than just a Google listing? <a href="/" class="text-carbon font-medium underline decoration-carbon/20 underline-offset-4 hover:text-signal transition-colors">See what we do</a>.
                 </p>
             </div>
 

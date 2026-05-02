@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ============================================================
+   AGRANDIR — display family
+   Files at /public/fonts/
+============================================================ */
+@font-face {
+  font-family: 'Agrandir Regular';
+  src: url('/fonts/agrandir-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Bold';
+  src: url('/fonts/agrandir-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Grand Heavy';
+  src: url('/fonts/agrandir-grand-heavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Wide Black';
+  src: url('/fonts/agrandir-wide-black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Narrow';
+  src: url('/fonts/agrandir-narrow.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-regular-cut { font-family: 'Agrandir Regular', 'DM Sans', sans-serif; }
+.font-bold-cut    { font-family: 'Agrandir Bold', 'DM Sans', sans-serif; }
+.font-grand-heavy { font-family: 'Agrandir Grand Heavy', 'DM Sans', sans-serif; }
+.font-wide-black  { font-family: 'Agrandir Wide Black', 'DM Sans', sans-serif; }
+.font-narrow      { font-family: 'Agrandir Narrow', 'DM Sans', sans-serif; }

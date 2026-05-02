@@ -11,41 +11,52 @@ type Props = {
 const { frontmatter } = Astro.props as Props;
 ---
 
-<Layout title={`${frontmatter.title} | YourHQ Blog`} description={frontmatter.description}>
+<Layout title={`${frontmatter.title} | YourHQ Journal`} description={frontmatter.description}>
   <Navbar client:load />
-  
-  <main class="bg-paper min-h-screen pt-32 pb-24">
+
+  <main class="bg-bone min-h-screen pt-32 pb-24">
     <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-      
+
       <!-- Header -->
       <div class="mb-12 text-center">
-        <div class="flex justify-center gap-2 mb-6">
-            {frontmatter.tags.map((tag) => (
-                <span class="bg-carbon text-white text-xs font-mono px-2 py-1 uppercase tracking-widest">{tag}</span>
-            ))}
+        <div class="flex justify-center flex-wrap gap-2 mb-6">
+          {frontmatter.tags.map((tag) => (
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen border border-carbon/15 rounded-full px-3 py-1">{tag}</span>
+          ))}
         </div>
-        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tighter leading-tight mb-6">{frontmatter.title}</h1>
-        <p class="text-gray-500 font-mono text-sm">
-            {frontmatter.pubDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'long', day: 'numeric' })} • By {frontmatter.author}
+        <h1 class="font-serif text-4xl md:text-6xl tracking-tight leading-[1.05] text-carbon mb-6">
+          {frontmatter.title}
+        </h1>
+        <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">
+          {frontmatter.pubDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'long', day: 'numeric' })}
+          <span class="mx-2 text-terracotta">·</span>
+          By {frontmatter.author}
         </p>
       </div>
 
       <!-- Featured Image -->
       {frontmatter.image && (
-        <div class="mb-12 border-2 border-carbon p-2 bg-white shadow-hard">
-            <img src={frontmatter.image} alt={frontmatter.title} class="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-500" />
-        </div>
+        <figure class="mb-16 rounded-3xl overflow-hidden border border-carbon/10 shadow-elegant bg-white">
+          <img src={frontmatter.image} alt={frontmatter.title} class="w-full h-auto object-cover" />
+        </figure>
       )}
 
       <!-- Content -->
-      <div class="prose prose-lg prose-headings:font-extrabold prose-headings:tracking-tight prose-a:text-signal prose-img:border-2 prose-img:border-carbon text-gray-700 mx-auto">
+      <div class="prose prose-lg max-w-none
+                  prose-headings:font-serif prose-headings:tracking-tight prose-headings:text-carbon
+                  prose-p:text-carbon/80 prose-p:leading-relaxed
+                  prose-a:text-terracotta prose-a:no-underline hover:prose-a:underline
+                  prose-strong:text-carbon
+                  prose-blockquote:border-l-2 prose-blockquote:border-terracotta prose-blockquote:not-italic prose-blockquote:font-serif prose-blockquote:text-carbon
+                  prose-img:rounded-2xl prose-img:border prose-img:border-carbon/10 prose-img:shadow-subtle
+                  prose-hr:border-carbon/10">
         <slot />
       </div>
 
       <!-- Back Button -->
-      <div class="mt-16 pt-16 border-t border-carbon/10 text-center">
-        <a href="/blog" class="inline-block bg-white text-carbon border-2 border-carbon px-8 py-3 font-bold uppercase tracking-widest hover:bg-carbon hover:text-white transition-colors shadow-hard-sm hover:translate-y-[2px] hover:shadow-none">
-            ← Back to Articles
+      <div class="mt-20 pt-12 border-t border-carbon/10 text-center">
+        <a href="/blog" class="inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border border-carbon/20 rounded-full px-8 py-3.5 hover:border-carbon hover:bg-carbon hover:text-bone transition-colors">
+          ← Back to the Journal
         </a>
       </div>
 

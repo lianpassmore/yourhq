@@ -34,37 +34,37 @@ export default function GuideForm() {
 
   if (status === 'success') {
     return (
-      <div className="bg-paper p-8 border-2 border-carbon shadow-hard text-center">
-        <h3 className="text-2xl font-extrabold mb-4">You're in!</h3>
-        <p className="text-gray-600">Check your inbox - the guide is on its way.</p>
+      <div className="bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle text-center">
+        <h3 className="font-display font-bold text-headline uppercase text-carbon mb-4">You're in!</h3>
+        <p className="text-body text-softGrey">Check your inbox - the guide is on its way.</p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6 bg-paper p-8 border-2 border-carbon shadow-hard">
+    <form onSubmit={handleSubmit} className="space-y-6 bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
       <div className="space-y-2">
-        <label htmlFor="name" className="text-xs font-bold uppercase tracking-wide text-gray-500">Name</label>
+        <label htmlFor="name" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">Name</label>
         <input type="text" name="name" id="name" placeholder="e.g., Sarah" required
-          className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+          className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors" />
       </div>
 
       <div className="space-y-2">
-        <label htmlFor="email" className="text-xs font-bold uppercase tracking-wide text-gray-500">Email</label>
+        <label htmlFor="email" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">Email</label>
         <input type="email" name="email" id="email" placeholder="e.g., sarah@email.com" required
-          className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+          className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors" />
       </div>
 
       <div className="space-y-2">
-        <label htmlFor="business" className="text-xs font-bold uppercase tracking-wide text-gray-500">What kind of business do you run?</label>
+        <label htmlFor="business" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">What kind of business do you run?</label>
         <input type="text" name="business" id="business" placeholder="e.g., Plumber, Salon, Physio clinic"
-          className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+          className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors" />
       </div>
 
       <div className="space-y-2">
-        <label htmlFor="referral_source" className="text-xs font-bold uppercase tracking-wide text-gray-500">How did you hear about us? <span className="normal-case font-normal">(optional)</span></label>
+        <label htmlFor="referral_source" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">How did you hear about us? <span className="normal-case font-normal">(optional)</span></label>
         <select id="referral_source" name="referral_source"
-          className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
+          className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors">
           <option value="">- Select one -</option>
           <option value="Google / Search">Google / Search</option>
           <option value="Facebook / Instagram">Facebook / Instagram</option>
@@ -75,15 +75,15 @@ export default function GuideForm() {
       </div>
 
       <button type="submit" disabled={status === 'sending'}
-        className="w-full bg-signal text-white px-8 py-4 font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all disabled:opacity-50">
+        className="w-full bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-colors duration-300 shadow-subtle hover:shadow-elegant disabled:opacity-50">
         {status === 'sending' ? 'Sending...' : 'Send Me The Guide'}
       </button>
 
       {status === 'error' && (
-        <p className="text-sm text-red-600 text-center">Something went wrong. Please try again.</p>
+        <p className="text-sm text-terracotta text-center">Something went wrong. Please try again.</p>
       )}
 
-      <p className="text-xs text-center text-gray-400 pt-2">
+      <p className="text-xs text-center text-softGrey/70 pt-2">
         We respect your inbox. You'll get the guide + a few helpful emails. No spam, ever.
       </p>
     </form>

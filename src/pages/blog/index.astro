@@ -4,68 +4,143 @@ import Navbar from '../../components/Navbar.jsx';
 import Footer from '../../components/Footer.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
-// Get all posts and sort by date
 const allPosts = await getCollection('blog');
 const posts: CollectionEntry<'blog'>[] = allPosts.sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+const [featured, ...rest] = posts;
 ---
 
-<Layout title="News & Articles | YourHQ" description="Insights on digital ownership for Kiwi businesses.">
+<Layout title="Journal | YourHQ" description="Field notes on digital ownership, showing up on Google, and building a Kiwi business that isn't at the mercy of the algorithm.">
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
-    
+  <main class="bg-bone min-h-screen">
+
     <!-- HEADER -->
-    <section class="pt-32 pb-16 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-        <div class="max-w-screen-xl mx-auto px-4 text-center">
-            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6">
-                The <span class="text-signal">News.</span>
-            </h1>
-            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                Thoughts on owning your digital space, showing up on Google, and building a business that isn't at the mercy of the algorithm.
-            </p>
-        </div>
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto text-center">
+        <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen block mb-6">The Journal</span>
+        <h1 class="font-serif text-5xl md:text-7xl tracking-tight leading-[1.05] text-carbon mb-6">
+          Field notes on
+          <span class="block italic text-terracotta">digital ownership.</span>
+        </h1>
+        <p class="font-sans text-base md:text-lg text-carbon/70 max-w-2xl mx-auto leading-relaxed">
+          Thoughts on owning your digital space, showing up on Google, and building a business that isn't at the mercy of the algorithm.
+        </p>
+      </div>
     </section>
 
-    <!-- GRID -->
-    <section class="py-24">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-                
-                {posts.map((post) => (
-                    <a href={`/blog/${post.slug}`} class="group block h-full">
-                        <div class="bg-white border-2 border-carbon p-0 shadow-hard group-hover:shadow-none group-hover:translate-y-[2px] transition-all duration-300 h-full flex flex-col">
-                            
-                            <!-- Image -->
-                            {post.data.image && (
-                                <div class="aspect-video border-b-2 border-carbon overflow-hidden relative">
-                                    <img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
-                                    <div class="absolute top-2 right-2 bg-white border border-carbon px-2 py-1 text-[10px] font-mono font-bold uppercase">
-                                        {post.data.tags[0]}
-                                    </div>
-                                </div>
-                            )}
+    {featured && (
+      <!-- FEATURED -->
+      <section class="py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-surface border-b border-carbon/10">
+        <div class="max-w-screen-xl mx-auto">
+          <div class="flex items-baseline justify-between mb-10">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta">Latest</span>
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">
+              {featured.data.pubDate.toLocaleDateString('en-NZ', { month: 'short', day: 'numeric', year: 'numeric' })}
+            </span>
+          </div>
 
-                            <!-- Content -->
-                            <div class="p-8 flex-1 flex flex-col">
-                                <span class="text-xs font-mono text-gray-400 mb-3 block">
-                                    {post.data.pubDate.toLocaleDateString('en-NZ', { month: 'short', day: 'numeric', year: 'numeric' })}
-                                </span>
-                                <h2 class="text-2xl font-extrabold tracking-tight mb-4 group-hover:text-signal transition-colors">
-                                    {post.data.title}
-                                </h2>
-                                <p class="text-gray-600 line-clamp-3 mb-6 flex-1">
-                                    {post.data.description}
-                                </p>
-                                <span class="text-sm font-bold uppercase tracking-widest text-carbon group-hover:text-signal">Read Article →</span>
-                            </div>
-                        </div>
-                    </a>
-                ))}
-
+          <a href={`/blog/${featured.slug}`} class="group block">
+            <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center bg-white rounded-3xl p-6 md:p-8 border border-carbon/10 shadow-subtle group-hover:shadow-elegant transition-shadow duration-500">
+              {featured.data.image && (
+                <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-bone border border-carbon/5">
+                  <img
+                    src={featured.data.image}
+                    alt={featured.data.title}
+                    class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-700"
+                  />
+                </div>
+              )}
+              <div class="px-2 md:px-4">
+                <div class="flex flex-wrap gap-2 mb-5">
+                  {featured.data.tags.slice(0, 2).map((tag) => (
+                    <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen border border-carbon/15 rounded-full px-3 py-1">{tag}</span>
+                  ))}
+                </div>
+                <h2 class="font-serif text-3xl md:text-5xl tracking-tight leading-[1.1] text-carbon mb-5 group-hover:text-terracotta transition-colors duration-300">
+                  {featured.data.title}
+                </h2>
+                <p class="text-carbon/70 leading-relaxed mb-8 line-clamp-3">
+                  {featured.data.description}
+                </p>
+                <span class="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border-b border-carbon/20 pb-1 group-hover:border-carbon transition-colors">
+                  Read article →
+                </span>
+              </div>
             </div>
+          </a>
         </div>
+      </section>
+    )}
+
+    <!-- GRID -->
+    {rest.length > 0 && (
+      <section class="py-20 md:py-28 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-screen-xl mx-auto">
+          <div class="flex items-baseline justify-between mb-10">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta">All articles</span>
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">{rest.length} {rest.length === 1 ? 'piece' : 'pieces'}</span>
+          </div>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+            {rest.map((post) => (
+              <a href={`/blog/${post.slug}`} class="group block h-full">
+                <article class="bg-white rounded-3xl border border-carbon/10 shadow-subtle group-hover:shadow-elegant transition-shadow duration-500 h-full flex flex-col overflow-hidden">
+
+                  {post.data.image && (
+                    <div class="aspect-[4/3] overflow-hidden bg-bone relative">
+                      <img
+                        src={post.data.image}
+                        alt={post.data.title}
+                        class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700"
+                      />
+                      {post.data.tags?.[0] && (
+                        <span class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen border border-carbon/10 rounded-full px-3 py-1">
+                          {post.data.tags[0]}
+                        </span>
+                      )}
+                    </div>
+                  )}
+
+                  <div class="p-7 md:p-8 flex-1 flex flex-col">
+                    <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey mb-4 block">
+                      {post.data.pubDate.toLocaleDateString('en-NZ', { month: 'short', day: 'numeric', year: 'numeric' })}
+                    </span>
+                    <h2 class="font-serif text-2xl md:text-[1.6rem] tracking-tight leading-[1.15] text-carbon mb-4 group-hover:text-terracotta transition-colors duration-300">
+                      {post.data.title}
+                    </h2>
+                    <p class="text-carbon/70 line-clamp-3 mb-6 flex-1 leading-relaxed">
+                      {post.data.description}
+                    </p>
+                    <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border-b border-carbon/20 pb-1 self-start group-hover:border-carbon transition-colors">
+                      Read article →
+                    </span>
+                  </div>
+                </article>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- CTA -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-carbon text-bone border-t border-carbon">
+      <div class="max-w-screen-md mx-auto text-center">
+        <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-6">Working with us</span>
+        <h2 class="font-serif text-4xl md:text-5xl tracking-tight leading-[1.1] mb-6">
+          Ready to own your
+          <span class="italic text-terracotta">digital home?</span>
+        </h2>
+        <p class="text-bone/70 leading-relaxed mb-10 max-w-xl mx-auto">
+          Articles only get you so far. If you'd like a website that's actually yours, we'd love to talk.
+        </p>
+        <a href="/contact" class="inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.15em] bg-bone text-carbon rounded-full px-8 py-3.5 hover:bg-terracotta hover:text-white transition-colors">
+          Start a conversation →
+        </a>
+      </div>
     </section>
 
   </main>

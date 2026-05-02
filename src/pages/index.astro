@@ -3,758 +3,599 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import StructuredData from '../components/StructuredData.astro';
-import HomepageFAQSchema from '../components/HomepageFAQSchema.astro';
-import ContactInfo from '../components/ContactInfo.astro';
 
-// DATA: Testimonials
+const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
+
+const portfolio = [
+  { name: 'Rumours On Rust', screenshot: '/rumoursonrust-site.webp', meta: 'Café · Whangārei' },
+  { name: 'Carve Earthworks',  screenshot: '/carve-earthworks-site.png', meta: 'Earthworks · Northland' },
+  { name: 'Ember & Ice',       screenshot: '/emberandice-site.webp',    meta: 'Wellness · Northland' },
+  { name: 'Johnson & Sons',    screenshot: '/johnsonandsons-site.webp',  meta: 'Commercial Builder · Northland' },
+];
+
+const steps = [
+  { n: '01', t: 'The Drive-Home Interview', b: 'You call whenever suits — car, couch, between meetings. I capture everything I need to write your site in your actual voice.' },
+  { n: '02', t: 'I Write Your Copy',         b: 'Turned around in your voice, reviewed by me. You see every section before I build a thing. One round of feedback.' },
+  { n: '03', t: 'The Content Raid',          b: 'I go through your existing footprint — socials, Google, existing site, anywhere you show up. You send me nothing.' },
+  { n: '04', t: 'The Build',                 b: 'Hand-coded. Under a second to load. Mobile-first. Built for standard search and AI answers.' },
+  { n: '05', t: 'Preview',                   b: 'Private link. Love it — we go live. Don’t love it — full refund.' },
+  { n: '06', t: 'Go Live',                   b: 'Domain connected. Google notified. Your permanent address is set.' },
+  { n: '07', t: 'The Caretakers Take Over',  b: 'Hosting, security, updates, annual refresh. I stay. That’s the whole model.' },
+];
+
 const testimonials = [
-  {
-    quote: "Creating a website wasn't something I was looking forward to - but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly.",
-    author: "Brad, Carve Earthworks",
-    role: "Owner Operator",
-    color: "border-signal"
-  },
-  {
-    quote: "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready. My mates reckon it's banging.",
-    author: "Reuben, Johnson & Sons",
-    role: "Commercial Builder",
-    color: "border-frangipani"
-  },
-  {
-    quote: "The process was stress-free, quick, foolproof and fun. The website is sleek and professional - I can't believe how good it is.",
-    author: "Katie, Rumours On Rust",
-    role: "Cafe \u2022 Whangārei",
-    color: "border-hibiscus"
-  }
+  { q: 'Creating a website wasn’t something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly.', a: 'Brad', m: 'Carve Earthworks' },
+  { q: 'The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can’t believe how good it is.', a: 'Katie', m: 'Rumours On Rust · Café, Whangārei' },
+  { q: 'You helped me take that next step and build my dream — that was my barrier to market.', a: 'Nicolette', m: 'Ember & Ice · Wellness Studio' },
 ];
 ---
 
 <Layout
-  title="Website Design for Tradies, Salons & Consultants | YourHQ Web Design NZ"
-  description="Fast, done-for-you websites for New Zealand tradies, salons and consultants. Built in 5 days. From $695. SEO & AEO optimized websites owned by you, not rented from social media."
+  title="YourHQ | For Businesses and People Too Good to Look Average Online"
+  description="Permanently owned, hand-coded websites. Written in your voice. Looked after forever. From $1,800 + GST · from $129/mo ongoing."
 >
   <StructuredData slot="head" />
-  <HomepageFAQSchema slot="head" />
-
-  <!-- Navbar (Hydrated React Component) -->
   <Navbar client:load />
 
-  <main>
-    <!-- HERO SECTION -->
-    <section class="relative pt-20 pb-24 md:pt-32 md:pb-40 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+  <main class="font-sans text-carbon bg-bone selection:bg-terracotta selection:text-white overflow-hidden">
 
-          <div class="max-w-5xl">
-            <!-- Badge -->
-            <div class="inline-flex items-center gap-2 px-3 py-1 border border-carbon bg-white shadow-hard-sm mb-8">
-              <span class="w-2 h-2 bg-signal rounded-full animate-pulse"></span>
-              <span class="text-xs font-mono font-bold uppercase tracking-wider">Based in Whangārei - Servicing NZ-Wide</span>
-            </div>
+    <!-- ============================================================
+         01 · HERO
+    ============================================================ -->
+    <!-- Removed dark bg and blurry blobs. Applied airy 'Bone' with structured borders. -->
+    <section class="relative bg-bone pt-24 md:pt-32 pb-32 px-4 sm:px-6 lg:px-8 border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto relative z-10 flex flex-col md:flex-row md:items-start justify-between gap-12">
 
-            <!-- Headline -->
-            <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-              Your Business Deserves<br />
-              <span class="text-signal">to Be Seen. Properly.</span>
-            </h1>
+        <!-- Left: Copy -->
+        <div class="max-w-3xl flex-grow">
+          <div class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-deepGreen mb-8 font-medium flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> Founded in NZ · Clients Worldwide
+          </div>
 
-            <!-- SEO H2 -->
-            <h2 class="text-2xl md:text-3xl font-bold text-carbon/80 mb-8 leading-tight">
-              Not just on Instagram. Not just when the algorithm feels generous.<br/>
-              On Google. On Maps. On the screen right before someone decides who to call.
-            </h2>
+          <h1 class="text-[clamp(3rem,7vw,6.5rem)] leading-[0.95] tracking-tight text-carbon">
+            <span class="block font-display font-bold uppercase">For businesses</span>
+            <span class="block font-serif italic text-terracotta normal-case mt-2 mb-4 text-[clamp(1.5rem,4vw,3.5rem)] leading-none">(and people)</span>
+            <span class="block font-display font-bold uppercase">too good to look</span>
+            <span class="block font-serif italic text-softGrey normal-case mt-2 text-[clamp(1.5rem,4vw,3.5rem)] leading-none">average online.</span>
+          </h1>
 
-            <!-- Subhead Grid -->
-            <div class="grid md:grid-cols-12 gap-8 md:gap-12 mt-12 items-start border-t border-carbon/20 pt-12">
-              <div class="md:col-span-7">
-                <p class="text-xl md:text-2xl font-medium leading-relaxed text-carbon/90">
-                  Fast, done-for-you websites for Kiwi tradies, salons and consultants - <strong>live in 5 days</strong>, and kept sorted.
-                </p>
-                <p class="text-lg text-gray-600 mt-4 leading-relaxed">
-                  No homework. No tech jargon. Just a 15-minute chat and we handle the rest.
-                </p>
-              </div>
-              <div class="md:col-span-5 flex flex-col gap-4">
-                <div class="flex flex-col sm:flex-row gap-4">
-                  <a href="/pricing" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
-                    Start Your Build
-                  </a>
-                  <a href="/how-it-works" class="bg-white text-carbon px-8 py-4 text-center border border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
-                    How It Works
-                  </a>
-                </div>
-              </div>
-            </div>
+          <p class="font-sans text-lg md:text-xl text-carbon/80 max-w-lg leading-relaxed mt-10">
+            You’ve been meaning to sort this.<br/>
+            This is where it gets handled.
+          </p>
+
+          <p class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-deepGreen mt-6 font-medium">
+            From $1,800 + GST · from $129/mo ongoing
+          </p>
+
+          <div class="mt-10 flex flex-col sm:flex-row gap-4 font-sans">
+            <a href={buildLink} class="bg-carbon text-white px-8 py-3.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 text-center shadow-subtle">
+              Start Your Build
+            </a>
+            <a href="/contact" class="bg-transparent text-carbon border border-carbon/20 px-8 py-3.5 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300 text-center">
+              Just Say Hello
+            </a>
           </div>
         </div>
+
+        <!-- Right: Pull Quote & Badge -->
+        <div class="md:max-w-[320px] flex flex-col items-start md:items-end md:text-right mt-12 md:mt-0">
+          <!-- Elegant Spinning Badge -->
+          <div class="w-24 h-24 border border-carbon/20 rounded-full flex items-center justify-center p-2 hover:rotate-180 transition-transform duration-[1500ms] ease-in-out cursor-pointer mb-12">
+            <span class="font-mono text-[9px] uppercase tracking-widest text-carbon text-center leading-relaxed">
+              Perm&shy;anent<br/><span class="text-terracotta">Digital</span><br/>Home
+            </span>
+          </div>
+
+          <figure class="border-t border-carbon/10 pt-6">
+            <blockquote class="font-serif italic text-xl leading-snug text-carbon/80">
+              &ldquo;While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready.&rdquo;
+            </blockquote>
+            <figcaption class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-4">
+              — Reuben · Johnson &amp; Sons · Builder
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
     </section>
 
-    <!-- TRUSTED BY NZ BUSINESSES -->
-    <section class="py-12 bg-white border-b border-carbon">
+    <!-- ============================================================
+         02 · THE WORK / PORTFOLIO STRIP
+    ============================================================ -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-surface">
+      <div class="max-w-screen-xl mx-auto">
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+          <div>
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">What I’ve Built</span>
+            <h2 class="font-display font-bold text-[clamp(2.5rem,5vw,4rem)] uppercase leading-none tracking-tight text-carbon">
+              Here’s what this <br/>
+              <span class="font-serif italic text-terracotta normal-case">actually looks like.</span>
+            </h2>
+          </div>
+          <a href="/portfolio" class="font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border-b border-carbon/20 pb-1 hover:border-carbon transition-colors self-start md:self-auto mb-2">
+            See all projects &rarr;
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+          {portfolio.map((p) => (
+            <a href="/portfolio" class="group block">
+              <!-- Clean border and subtle shadow for the elegant architectural feel -->
+              <div class="bg-white rounded-2xl p-2 border border-carbon/10 shadow-subtle group-hover:shadow-elegant transition-shadow duration-500">
+                <div class="rounded-xl overflow-hidden aspect-[3/4] bg-bone relative">
+                  <img src={p.screenshot} alt={p.name} class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" />
+                </div>
+              </div>
+              <div class="pt-5 px-2">
+                <h3 class="font-display font-bold text-lg uppercase tracking-tight text-carbon">{p.name}</h3>
+                <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-1.5">{p.meta}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         03 · MEET LIAN
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-y border-carbon/10">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p class="text-center text-sm font-mono font-bold uppercase tracking-widest text-gray-400 mb-8">Trusted by New Zealand Businesses</p>
-        <div class="flex flex-wrap items-center justify-center gap-10 md:gap-16">
-          <img src="/carve-logo.webp" alt="Carve" width="96" height="96" loading="lazy" decoding="async" class="h-16 md:h-20 object-contain transition-all duration-300" />
-          <img src="/emberandice-logo.webp" alt="Ember and Ice" width="274" height="96" loading="lazy" decoding="async" class="h-16 md:h-20 object-contain transition-all duration-300" />
-          <img src="/johnsonandsons-logo.webp" alt="Johnson and Sons" width="144" height="96" loading="lazy" decoding="async" class="h-16 md:h-20 object-contain transition-all duration-300" />
-          <img src="/rumours-logo.webp" alt="Rumours on Rust" width="190" height="96" loading="lazy" decoding="async" class="h-16 md:h-20 object-contain transition-all duration-300" />
+        <div class="grid md:grid-cols-12 gap-16 items-center">
+
+          <div class="md:col-span-5 relative order-2 md:order-1">
+            <!-- Subtle architectural frame -->
+            <div class="absolute inset-0 bg-surface rounded-t-[10rem] translate-x-4 translate-y-4 border border-carbon/5"></div>
+            <div class="w-full max-w-sm mx-auto aspect-[3/4] rounded-t-[10rem] overflow-hidden border border-carbon/10 shadow-elegant relative z-10 bg-bone">
+              <img src="/lian-headshot.webp" alt="Lian" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <div class="md:col-span-7 md:pl-8 order-1 md:order-2">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-4">Who You’re Working With</span>
+            <h2 class="font-display font-bold text-[clamp(2.5rem,4vw,3.5rem)] uppercase leading-[1.05] tracking-tight text-carbon mb-8">
+              Every site is built<br/>
+              by <span class="font-serif italic text-softGrey normal-case">me, personally.</span>
+            </h2>
+            <div class="font-sans text-carbon/80 space-y-6 leading-relaxed max-w-lg">
+              <p>I’m Lian — founder, builder, and the person who’ll answer your texts.</p>
+              <p>I hold a Master of Technological Futures and built YourHQ from a genuine obsession with two things: storytelling and digital ownership. Every site I build is hand-coded by me, written in your voice, and looked after by me long after it goes live.</p>
+              <p class="font-medium text-carbon">No handoffs. No junior staff. No templates with your name dropped in.</p>
+              <p>When you work with YourHQ, you’re working with the person who cares most about getting it right — because my name is on every single thing that goes out.</p>
+            </div>
+            <div class="mt-10 flex items-center gap-4 border-t border-carbon/10 pt-6 max-w-md">
+              <div class="w-12 h-12 rounded-full bg-surface border border-carbon/10 text-terracotta flex items-center justify-center font-serif italic text-xl shrink-0">L</div>
+              <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey leading-relaxed">Based in Whangārei, Aotearoa.<br/>Building for clients worldwide.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- SECTION 1: THE TRUTH -->
-    <section class="py-24 bg-carbon text-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid md:grid-cols-2 gap-16">
-            <div>
-              <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight mb-6">
-                You're Brilliant at What You Do.<br/>
-                <span class="text-frangipani">But Online? It's Messy.</span>
-              </h2>
-            </div>
-            <div class="space-y-8 text-lg md:text-xl font-light text-gray-300">
-              <p>You can be the best in town - years of experience, great word-of-mouth, solid reviews.</p>
-              <p>But when someone goes to check you out, they hit one of these:</p>
-              <ul class="space-y-4 border-l-2 border-white/20 pl-6">
-                <li>No website (so they move on)</li>
-                <li>Something old and broken</li>
-                <li>A Facebook page that hasn't been updated in years</li>
-                <li>An Instagram that looks good… but doesn't help them take the next step</li>
-              </ul>
-              <p class="text-gray-300">
-                And here's the part that stings:
-              </p>
-              <p class="text-2xl font-bold text-white">Your work is premium. Your online presence looks optional.</p>
-              <div class="bg-white/10 p-6 border border-white/20">
-                <p class="text-white font-bold">This is the "Google Test."</p>
-                <p class="text-sm mt-2 text-gray-400">When someone's choosing between you and a competitor, they Google both names. One of you looks established. One of you looks like a risk.</p>
-              </div>
-              <p class="text-gray-300 pt-4">And it's not because you're not good.<br/>It's because you're busy - and the website thing is a pain.</p>
-            </div>
-          </div>
+    <!-- ============================================================
+         04 · TWO KINDS OF BUILD
+    ============================================================ -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-bone">
+      <div class="max-w-screen-xl mx-auto">
+
+        <div class="text-center mb-16">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">Two Kinds of Build</span>
+          <h2 class="font-display font-bold text-[clamp(2.5rem,4.5vw,4rem)] uppercase leading-none tracking-tight text-carbon max-w-4xl mx-auto">
+            Business brand or personal brand —<br/>
+            <span class="font-serif italic text-terracotta normal-case">same standard, different story.</span>
+          </h2>
         </div>
+
+        <div class="grid md:grid-cols-2 gap-6 md:gap-8 mb-12">
+
+          <!-- Business Brand -->
+          <div class="bg-white rounded-3xl p-10 md:p-12 border border-carbon/10 shadow-subtle flex flex-col">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen block mb-4">Business Brand</span>
+            <h3 class="font-display font-bold text-3xl md:text-4xl uppercase tracking-tight text-carbon leading-none mb-4">
+              The business exists<br/>
+              <span class="font-serif italic normal-case text-softGrey">beyond you.</span>
+            </h3>
+            <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mb-8 pb-4 border-b border-carbon/10">Clinic · Studio · Practice · Firm · Trade</p>
+            <p class="font-sans text-carbon/80 leading-relaxed mb-8">
+              Your site becomes the permanent, credible face of what you’ve built — written in your voice, owned by you unconditionally.
+            </p>
+            <p class="font-serif italic text-lg text-carbon/70 mt-auto">
+              "My business finally looks as good as the work we actually do."
+            </p>
+          </div>
+
+          <!-- Personal Brand (Deep Green) -->
+          <div class="bg-deepGreen text-bone rounded-3xl p-10 md:p-12 shadow-elegant flex flex-col border border-carbon/10">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-4">Personal Brand</span>
+            <h3 class="font-display font-bold text-3xl md:text-4xl uppercase tracking-tight leading-none mb-4 text-white">
+              You are<br/>
+              <span class="font-serif italic normal-case text-bone/60">the business.</span>
+            </h3>
+            <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-bone/60 mb-8 pb-4 border-b border-white/10">Coach · Consultant · Speaker · Creator</p>
+            <p class="font-sans text-bone/80 leading-relaxed mb-8">
+              Your site becomes a permanent record of who you are, what you believe, and the work that proves it — impossible to mistake for anyone else.
+            </p>
+            <p class="font-serif italic text-lg text-bone/70 mt-auto">
+              "There’s finally one place on the internet that’s completely, specifically me."
+            </p>
+          </div>
+
+        </div>
+
+        <p class="font-serif italic text-xl md:text-2xl text-carbon/80 text-center max-w-3xl mx-auto leading-snug">
+          Both are owned by you. Both are looked after by me.<br/>
+          <span class="text-carbon font-medium">Both become the place every digital path leads.</span>
+        </p>
+
+      </div>
     </section>
 
-    <!-- SECTION 2: DIGITAL HANDSHAKE -->
-    <section class="bg-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto">
-          <div class="grid md:grid-cols-2">
+    <!-- ============================================================
+         05 · HOW I WORK
+    ============================================================ -->
+    <!-- Switched to Carbon for a sophisticated, dark-mode editorial break -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-carbon text-bone border-y border-carbon">
+      <div class="max-w-screen-xl mx-auto grid md:grid-cols-12 gap-16 items-start">
 
-            <!-- Left: Visual -->
-            <div class="bg-white border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[400px]">
-              <div class="relative w-full aspect-square border-2 border-carbon overflow-hidden bg-gray-50 shadow-hard-sm">
-                <img src="/hands.webp" alt="Close up of hands working" width="1408" height="768" loading="lazy" decoding="async" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
-                <!-- Decorative accent -->
-                <div class="absolute -bottom-2 -right-2 w-full h-full border border-signal -z-10"></div>
-              </div>
-            </div>
+        <div class="md:col-span-6">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-4">How I Work</span>
+          <h2 class="font-display font-bold text-[clamp(2.5rem,4.5vw,4rem)] uppercase leading-none tracking-tight text-white">
+            I handle the thinking<br/>
+            <span class="font-serif italic text-bone/60 normal-case">before you realise</span><br/>
+            it’s needed.
+          </h2>
+        </div>
 
-            <!-- Right: The Content -->
-            <div class="p-8 md:p-24 flex flex-col justify-center">
-              <h2 class="text-3xl md:text-4xl font-extrabold tracking-tighter mb-8">
-                In Person, You're Solid. <br/>
-                <span class="text-gray-400">Online… It Should Match.</span>
-              </h2>
-
-              <div class="prose text-carbon space-y-6 text-lg">
-                <p>People don't hire you from your website.<br/>They hire you from <em>what they feel</em> after checking you out.</p>
-                <p>In real life, you're the real deal - reputation, experience, trust.</p>
-                <p>But online? If it looks messy or outdated, people hesitate.</p>
-
-                <div class="py-6">
-                    <p class="font-bold text-xl mb-2">Your website is your digital handshake.</p>
-                    <p>It should feel firm. Clean. Professional. Like you've got your act together.</p>
-                </div>
-
-                <p class="text-sm font-mono text-gray-500 border-t border-carbon/20 pt-4">
-                  // First impressions still matter - especially when money's on the line.
-                </p>
-              </div>
-            </div>
-
+        <div class="md:col-span-6 font-sans text-bone/80 leading-relaxed space-y-6">
+          <p class="font-display font-bold text-xl md:text-2xl uppercase tracking-tight text-white mb-6">
+            You talk once.<br/>
+            <span class="font-serif italic normal-case text-terracotta">Everything else is mine to figure out.</span>
+          </p>
+          <ul class="space-y-4 border-l border-white/10 pl-6">
+            <li>Your story captured — in your actual voice, not a brief.</li>
+            <li>Your content pulled from everything you’ve already built.</li>
+            <li>Your site written, built, and previewed — before you commit to a thing.</li>
+            <li>And then I stay. Hosting, updates, annual refresh. You just text me when something changes.</li>
+          </ul>
+          <div class="mt-8 pt-6 border-t border-white/10">
+            <p class="font-serif italic text-xl text-bone/70 leading-snug">
+              Not a template. Not AI copy dropped into a theme.<br/>
+              Not a project you manage.<br/>
+              <span class="text-white">Just — handled.</span>
+            </p>
           </div>
         </div>
+
+      </div>
     </section>
 
-    <!-- SECTION: RENTED LAND -->
-    <section class="py-24 bg-carbon text-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight mb-8 text-center">
-              Plus, You Don't Even <span class="text-frangipani">Own It.</span>
-            </h2>
+    <!-- ============================================================
+         06 · IS THIS FOR YOU?
+    ============================================================ -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-surface">
+      <div class="max-w-screen-xl mx-auto">
 
-            <div class="space-y-8 text-lg md:text-xl font-light text-gray-300 max-w-3xl mx-auto">
-              <p>Instagram and Facebook are great tools - but they're not home.</p>
-              <p>If the algorithm changes, your reach drops.<br/>If your account gets hacked, your whole presence can disappear.<br/>And you can't export your followers like they're yours - because they're not.</p>
-
-              <div class="bg-white/10 p-8 border border-white/20">
-                <p class="text-white font-bold text-xl mb-2">Right now, most business owners are Digital Tenants.</p>
-                <p class="text-sm text-gray-400">The landlord sets the rules. The landlord can change them anytime.</p>
-                <p class="text-2xl font-bold text-white mt-4">A website is how you become an Owner.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- SECTION 3: WHO IS THIS FOR -->
-    <section class="py-24 bg-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="mb-16 border-b border-carbon/20 pb-8">
-            <h2 class="text-3xl md:text-4xl font-extrabold tracking-tighter">Who We Built This For</h2>
-            <p class="text-lg text-gray-600 mt-4">If you're good at what you do but sick of the online side feeling messy - you're our people.</p>
-          </div>
-
-          <div class="grid md:grid-cols-3 gap-0 border-l border-t border-carbon">
-
-            <!-- Card 1 -->
-            <div class="bg-white p-8 border-r border-b border-carbon hover:bg-gray-50 transition-colors group">
-              <div class="h-2 w-12 bg-signal mb-6 group-hover:w-full transition-all duration-500"></div>
-              <h3 class="text-2xl font-extrabold mb-2">The Tradies</h3>
-              <p class="font-mono text-xs text-gray-500 mb-6 uppercase">Electricians / Plumbers / Builders</p>
-
-              <div class="space-y-6">
-                <div>
-                  <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-gray-400">The Pain</strong>
-                  <p class="text-sm leading-relaxed">You're flat out. You don't want another admin job. And you're not spending 40 hours "learning Wix."</p>
-                </div>
-                <div>
-                  <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-signal">The Fix</strong>
-                  <p class="text-sm leading-relaxed">A site that gets you found locally, looks legit, and makes it dead-easy for people to call or request a quote.</p>
-                </div>
-                <div class="mt-6 pt-4 border-t border-carbon/10">
-                  <a href="/tradies" class="text-signal hover:text-carbon font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
-                    Learn More for Tradies <span>→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="bg-white p-8 border-r border-b border-carbon hover:bg-gray-50 transition-colors group">
-              <div class="h-2 w-12 bg-hibiscus mb-6 group-hover:w-full transition-all duration-500"></div>
-              <h3 class="text-2xl font-extrabold mb-2">The Creatives</h3>
-              <p class="font-mono text-xs text-gray-500 mb-6 uppercase">Salons / Tattoo / Artists</p>
-
-              <div class="space-y-6">
-                <div>
-                  <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-gray-400">The Pain</strong>
-                  <p class="text-sm leading-relaxed">Your Instagram looks beautiful… but it doesn't run your bookings. And it doesn't help new clients trust you fast.</p>
-                </div>
-                <div>
-                  <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-hibiscus">The Fix</strong>
-                  <p class="text-sm leading-relaxed">A portfolio + booking-ready website you actually own - so clients can browse, trust, and book without back-and-forth DMs. Take deposits or full payments - without the Shopify overhead.</p>
-                </div>
-                <div class="mt-6 pt-4 border-t border-carbon/10">
-                  <a href="/creatives" class="text-hibiscus hover:text-carbon font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
-                    Learn More for Creatives <span>→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="bg-white p-8 border-r border-b border-carbon hover:bg-gray-50 transition-colors group">
-              <div class="h-2 w-12 bg-frangipani mb-6 group-hover:w-full transition-all duration-500"></div>
-              <h3 class="text-2xl font-extrabold mb-2">The Professionals</h3>
-              <p class="font-mono text-xs text-gray-500 mb-6 uppercase">Physios / Accountants / Lawyers</p>
-
-              <div class="space-y-6">
-                <div>
-                  <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-gray-400">The Pain</strong>
-                  <p class="text-sm leading-relaxed">You studied for years to be a practitioner, not a web designer. But when someone Googles you, your online presence decides whether they call you - or your competitor.</p>
-                </div>
-                <div>
-                  <strong class="block text-xs font-bold uppercase tracking-wider mb-2 text-frangipani">The Fix</strong>
-                  <p class="text-sm leading-relaxed">A corporate-grade site that passes the Google Test, builds authority, and makes it obvious you're the safe choice.</p>
-                </div>
-                <div class="mt-6 pt-4 border-t border-carbon/10">
-                  <a href="/professionals" class="text-frangipani hover:text-carbon font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
-                    Learn More for Professionals <span>→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <p class="text-center text-lg text-gray-600 mt-12 max-w-3xl mx-auto">
-            No matter what kind of business you run, the goal is the same: <strong>get you online properly - without adding more work to your plate.</strong>
+        <div class="text-center mb-16">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">The Fit</span>
+          <h2 class="font-display font-bold text-[clamp(2.5rem,4.5vw,4rem)] uppercase leading-none tracking-tight text-carbon">
+            Is this <span class="font-serif italic text-terracotta normal-case">for you?</span>
+          </h2>
+          <p class="font-sans text-carbon/70 max-w-2xl mx-auto mt-6 leading-relaxed">
+            This works best for people who are established — who have something real to represent and are ready to hand the whole thing over.
           </p>
         </div>
-    </section>
 
-    <!-- SECTION 4: HOW IT WORKS -->
-    <section class="py-24 bg-white border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid md:grid-cols-12 gap-12">
-            <div class="md:col-span-4">
-               <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight sticky top-24">
-                Live in 5 Days.<br/>
-                No Homework.<br/>
-                No Jargon.<br/>
-                <span class="text-gray-400">Just Sorted.</span>
-              </h2>
-              <p class="text-lg text-gray-600 mt-6 sticky top-[calc(24rem)]">
-                You don't need to write copy, chase designers, or learn a platform.<br/>
-                You talk for 15 minutes - we build your digital HQ.
-              </p>
+        <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+          {[
+            { h: 'You’ve outgrown what you have.', b: 'What worked when you were starting out doesn’t represent where you are now. You’re more established, more clear, more credible — and it’s time your online presence caught up.' },
+            { h: 'You’re tired of sounding like everyone else.', b: 'Generic is everywhere. You want something impossible to mistake for anyone but you.' },
+            { h: 'You want it done without it becoming your project.', b: 'No months of briefing. No weekends writing copy. One conversation — I draw your story out and build while you get on with your work.' },
+            { h: 'You want to own what you build.', b: 'Permanent. Portable. Yours unconditionally. Updated with a text. Refreshed every year.' },
+          ].map((item) => (
+            <div class="bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
+              <h3 class="font-display font-bold text-xl uppercase tracking-tight text-carbon leading-none mb-4">{item.h}</h3>
+              <p class="font-sans text-carbon/75 leading-relaxed text-sm">{item.b}</p>
             </div>
-
-            <div class="md:col-span-8 space-y-0">
-              <!-- Step 1 -->
-              <div class="flex gap-6 md:gap-10 pb-16 border-l border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-signal border-4 border-white"></div>
-                <div>
-                  <span class="font-mono text-sm font-bold text-signal mb-2 block">STEP 01</span>
-                  <h3 class="text-2xl font-bold mb-4">The Drive-Home Interview (15 Minutes)</h3>
-                  <p class="text-gray-600 mb-4 max-w-xl">
-                    <strong>You Talk. We Listen.</strong><br/>
-                    Call us for a quick chat while you're driving home (or between clients). It's hands-free, records automatically, and captures everything we need.
-                  </p>
-                  <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">NO TYPING REQUIRED</span>
-                </div>
-              </div>
-
-              <!-- Step 2 -->
-              <div class="flex gap-6 md:gap-10 pb-16 border-l border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-carbon border-4 border-white"></div>
-                <div>
-                  <span class="font-mono text-sm font-bold text-carbon mb-2 block">STEP 02</span>
-                  <h3 class="text-2xl font-bold mb-4">We Pull the Pieces Together (0 Minutes from you)</h3>
-                  <p class="text-gray-600 mb-4 max-w-xl">
-                    <strong>We Do the Digging.</strong><br/>
-                    We pull what we need from your existing footprint - photos, reviews, logos, socials - so you don't have to hunt through your camera roll at midnight.
-                  </p>
-                  <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">ZERO HOMEWORK</span>
-                </div>
-              </div>
-
-              <!-- Step 3 -->
-              <div class="flex gap-6 md:gap-10 pb-16 border-l border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-hibiscus border-4 border-white"></div>
-                <div>
-                  <span class="font-mono text-sm font-bold text-hibiscus mb-2 block">STEP 03</span>
-                  <h3 class="text-2xl font-bold mb-4">The Factory Build (5 Days)</h3>
-                  <p class="text-gray-600 mb-4 max-w-xl">
-                    <strong>We Build the Whole Thing. Fast.</strong><br/>
-                    Days 1–4: we build your site - structure, copy, design, mobile, SEO basics - the whole lot.
-                  </p>
-                  <div class="flex gap-2 flex-wrap">
-                    <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">UNDER 1 SECOND LOAD</span>
-                    <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">MOBILE FIRST</span>
-                    <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">SEO & AEO READY</span>
-                    <span class="inline-block bg-paper px-3 py-1 text-xs font-bold border border-carbon/20">GOOGLE MAPS READY</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Step 4 -->
-              <div class="flex gap-6 md:gap-10 pb-16 border-l border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-frangipani border-4 border-white"></div>
-                <div>
-                  <span class="font-mono text-sm font-bold text-frangipani mb-2 block">STEP 04</span>
-                  <h3 class="text-2xl font-bold mb-4">Preview on Day 5 (Love It / Fix It / Refund It)</h3>
-                  <p class="text-gray-600 mb-4 max-w-xl">
-                    <strong>You See It Before It Goes Live.</strong><br/>
-                    We send you a private preview link. Want tweaks? We sort them quickly. Don't love it? Full refund of your setup fee (minus ~3% processing + any domain costs).
-                  </p>
-                  <span class="inline-block bg-hibiscus text-white px-3 py-1.5 text-xs font-black tracking-wider">LOVE YOUR LAUNCH GUARANTEE</span>
-                </div>
-              </div>
-
-              <!-- Step 5 -->
-              <div class="flex gap-6 md:gap-10 border-l border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-deepGreen border-4 border-white"></div>
-                <div>
-                  <span class="font-mono text-sm font-bold text-deepGreen mb-2 block">STEP 05</span>
-                  <h3 class="text-2xl font-bold mb-4">The Caretakers (Ongoing)</h3>
-                  <p class="text-gray-600 mb-4 max-w-xl">
-                    <strong>You Don't Get Ghosted.</strong><br/>
-                    Hosting, security, updates, fixes - and a full design refresh every year so your site doesn't rot.
-                  </p>
-                  <p class="text-gray-600 max-w-xl">
-                    Phone number changed? Text us.<br/>
-                    New service? Text us.<br/>
-                    Fresh photos? Text us.
-                  </p>
-                  <p class="text-gray-800 font-bold mt-4">You focus on your business. We keep the digital HQ running.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
+
+      </div>
     </section>
 
-    <!-- SECTION 5: TESTIMONIALS -->
-    <section class="py-24 bg-carbon text-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-5xl font-extrabold tracking-tighter mb-4 text-center">
-          Real People. <span class="text-signal">Real Relief.</span>
-        </h2>
-        <p class="text-center text-gray-400 mb-16 text-lg">Busy owners, fast builds, zero drama - here's what it's like working with YourHQ.</p>
+    <!-- ============================================================
+         07 · WHO THIS ISN'T FOR
+    ============================================================ -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 bg-bone border-t border-carbon/10">
+      <div class="max-w-screen-xl mx-auto grid md:grid-cols-12 gap-12 items-start">
 
-        <div class="grid md:grid-cols-3 gap-8">
-          {testimonials.map((t) => (
-            <div class={`bg-paper text-carbon p-8 md:p-10 border-l-8 ${t.color} relative shadow-hard-white`}>
-              <div class="mb-6">
-                 <span class="text-4xl text-gray-300">"</span>
-                 <p class="text-lg font-medium leading-relaxed italic relative z-10 -mt-4">
-                  {t.quote}
-                 </p>
-              </div>
+        <div class="md:col-span-5">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-4">The Honest Bit</span>
+          <h2 class="font-display font-bold text-[clamp(2.5rem,4vw,3.5rem)] uppercase leading-none tracking-tight text-carbon">
+            And who <br/>
+            <span class="font-serif italic text-softGrey normal-case">it isn’t.</span>
+          </h2>
+        </div>
 
-              <div class="flex items-center gap-4 mt-8 border-t border-carbon/10 pt-6">
-                 <div>
-                    <p class="font-extrabold text-lg">{t.author}</p>
-                    {t.role && <p class="font-mono text-xs text-gray-500 uppercase tracking-widest">{t.role}</p>}
-                 </div>
+        <div class="md:col-span-7 bg-white p-8 md:p-10 rounded-3xl border border-carbon/10 shadow-subtle">
+          <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-carbon mb-6">Not for you if:</p>
+          <ul class="divide-y divide-carbon/10 border-y border-carbon/10">
+            {[
+              'You want to be involved in the build',
+              'You’re looking for the cheapest option',
+              'You want a template you can manage yourself',
+              'You need a full e-commerce store, course platform, or custom app',
+              'You haven’t decided yet — and need convincing',
+            ].map((item) => (
+              <li class="py-4 font-sans text-carbon/80 flex items-start gap-4 text-sm">
+                <span class="font-mono text-[10px] text-terracotta mt-1 shrink-0">×</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+          <p class="font-serif italic text-lg text-softGrey mt-6">
+            No hard feelings. I’ll point you somewhere better.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         08 · HOW IT WORKS — 7-STEP OVERVIEW
+    ============================================================ -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-white border-t border-carbon/10">
+      <div class="max-w-screen-xl mx-auto">
+
+        <div class="text-center mb-16 max-w-3xl mx-auto">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">How It Works</span>
+          <h2 class="font-display font-bold text-[clamp(2.5rem,4.5vw,4rem)] uppercase leading-none tracking-tight text-carbon">
+            One conversation.<br/>
+            <span class="font-serif italic text-terracotta normal-case">I handle everything else.</span>
+          </h2>
+          <p class="font-sans text-carbon/70 mt-6 leading-relaxed">
+            No copy to write. No designer to brief. No platform to learn.<br/>
+            Most clients are live within 1–2 weeks and spend less than 30 minutes on their end.
+          </p>
+        </div>
+
+        <!-- Clean blueprint list -->
+        <div class="grid md:grid-cols-2 gap-x-12 gap-y-10 max-w-5xl mx-auto">
+          {steps.map((s) => (
+            <div class="flex gap-6 border-t border-carbon/10 pt-6">
+              <span class="font-serif italic text-3xl md:text-4xl text-terracotta shrink-0 leading-none">{s.n}</span>
+              <div>
+                <h3 class="font-display font-bold text-lg uppercase tracking-tight text-carbon mb-2">{s.t}</h3>
+                <p class="font-sans text-carbon/70 leading-relaxed text-sm">{s.b}</p>
               </div>
             </div>
           ))}
         </div>
+
+        <div class="text-center mt-16">
+          <a href="/how-it-works" class="inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border border-carbon/20 rounded-full px-8 py-3.5 hover:border-carbon transition-colors">
+            See the full process &rarr;
+          </a>
+        </div>
+
       </div>
     </section>
 
-    <!-- SECTION: FOUNDER WELCOME -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
-          <div class="flex flex-col md:flex-row items-start gap-10">
+    <!-- ============================================================
+         09 · TESTIMONIALS
+    ============================================================ -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-surface border-y border-carbon/10">
+      <div class="max-w-screen-xl mx-auto">
 
-            <!-- Headshot -->
-            <div class="flex-shrink-0 flex flex-col items-center gap-3">
-              <div class="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden border-4 border-carbon shadow-hard-sm">
-                <img
-                  src="/lian-headshot.webp"
-                  alt="Lian, Founder of YourHQ"
-                  width="112"
-                  height="112"
-                  loading="lazy"
-                  decoding="async"
-                  class="w-full h-full object-cover"
-                />
-              </div>
-              <div class="text-center">
-                <p class="font-extrabold text-sm text-carbon leading-tight">Lian</p>
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-wider leading-tight">Founder &amp; Chief<br/>Website Builder</p>
-              </div>
-            </div>
+        <div class="text-center mb-16">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-4">In Their Words</span>
+          <h2 class="font-display font-bold text-[clamp(2.5rem,4.5vw,4rem)] uppercase leading-none tracking-tight text-carbon">
+            Real people. <span class="font-serif italic text-softGrey normal-case">Real relief.</span>
+          </h2>
+        </div>
 
-            <!-- Message -->
-            <div class="flex-1">
-              <p class="font-mono text-xs font-bold uppercase tracking-widest text-signal mb-4">A Message From Lian</p>
-              <blockquote class="space-y-4 text-lg text-carbon/90 leading-relaxed border-l-4 border-carbon pl-6">
-                <p>Kia ora, thanks for stopping by.</p>
-                <p>I started YourHQ because I have a deep love of storytelling - and I grew up with a dad in small business, so I know how many hats you're already wearing.</p>
-                <p>I want to take your story - the real one, the one your customers should see - and give you an online presence you actually own. One that's authentically you, so you attract the kind of work you really want.</p>
-                <p>I think of myself as the caretaker of your story. Your portal into the digital world, where your customers will meet you for the first time.</p>
-                <p class="font-bold text-carbon">That's what YourHQ is built for.</p>
+        <div class="grid md:grid-cols-3 gap-6 md:gap-8">
+          {testimonials.map((t) => (
+            <figure class="bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle hover:shadow-elegant transition-shadow duration-500 flex flex-col">
+              <blockquote class="font-serif italic text-xl leading-snug text-carbon/90 flex-grow">
+                &ldquo;{t.q}&rdquo;
               </blockquote>
-            </div>
-
-          </div>
+              <figcaption class="mt-8 pt-6 border-t border-carbon/10">
+                <p class="font-display font-bold uppercase tracking-tight text-carbon text-sm mb-1">— {t.a}</p>
+                <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey">{t.m}</p>
+              </figcaption>
+            </figure>
+          ))}
         </div>
+
       </div>
     </section>
 
-    <!-- SECTION: THE LAST WEBSITE YOU'LL EVER BUY -->
-    <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-5xl md:text-6xl font-extrabold tracking-tighter mb-8 leading-tight">
-            The Last Website <br/>You'll Ever Buy.
+    <!-- ============================================================
+         10 · THE CARETAKER MODEL
+    ============================================================ -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-bone">
+      <div class="max-w-screen-xl mx-auto">
+
+        <div class="text-center mb-16 max-w-3xl mx-auto">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">The Model</span>
+          <h2 class="font-display font-bold text-[clamp(2.5rem,4.5vw,4rem)] uppercase leading-none tracking-tight text-carbon">
+            Not an agency.<br/>
+            <span class="font-serif italic text-terracotta normal-case">Your digital caretakers.</span>
           </h2>
+        </div>
 
-          <p class="text-2xl text-gray-600 mb-8 leading-relaxed">
-            Most websites rot after 3 years. Then you pay $5,000 to rebuild.
-          </p>
+        <div class="grid md:grid-cols-2 gap-6 md:gap-8">
 
-          <div class="bg-carbon text-white p-12 mb-12 shadow-hard">
-            <p class="text-3xl font-extrabold mb-6">Not with YourHQ.</p>
-            <p class="text-xl text-gray-300 leading-relaxed">
-              We refresh your design every 12 months. Included. <br/>
-              New fonts, new layout, new vibe.
+          <div class="bg-white rounded-3xl p-10 border border-carbon/10 shadow-subtle">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-6">Most agencies</span>
+            <p class="font-display font-bold text-2xl md:text-3xl uppercase tracking-tight text-carbon/40 leading-none mb-6">
+              Build it.<br/>Invoice it.<br/>Move on.
+            </p>
+            <p class="font-serif italic text-lg text-carbon/60 pt-6 border-t border-carbon/10">
+              Three years later you’re paying to start again.
             </p>
           </div>
 
-          <div class="text-center">
-            <p class="font-bold text-2xl text-carbon">Total rebuild fees with YourHQ: $0. Ever.</p>
+          <div class="bg-deepGreen text-white rounded-3xl p-10 shadow-elegant border border-carbon/10">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-6">YourHQ</span>
+            <ul class="space-y-4 font-sans text-bone/90 leading-relaxed text-sm">
+              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic">Y</span> Build it — in your voice, from one conversation</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic">Y</span> Host it — fast, secure, looked after</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic">Y</span> Update it — just text me</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic">Y</span> Refresh it — every year, included, no invoice</li>
+            </ul>
+            <p class="font-serif italic text-lg text-white/80 mt-6 pt-6 border-t border-white/10 leading-snug">
+              Your story keeps growing. Your digital home should too.
+            </p>
           </div>
+
         </div>
+
       </div>
     </section>
 
-    <!-- SECTION: THE CARETAKER MODEL -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 text-center">
-            The Caretaker Model <span class="text-gray-400">(Not an Agency)</span>
-          </h2>
+    <!-- ============================================================
+         11 · PRICING SNAPSHOT
+    ============================================================ -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-white border-y border-carbon/10">
+      <div class="max-w-screen-xl mx-auto">
 
-          <div class="bg-white border-l-4 border-red-400 p-8 mb-12 shadow-sm">
-            <p class="text-xl font-bold mb-6 text-carbon">Most agencies:</p>
-            <div class="space-y-3 text-gray-600 mb-8">
-              <p class="flex items-center gap-3">
-                <span class="text-lg">→</span>
-                <span>Build your site</span>
-              </p>
-              <p class="flex items-center gap-3">
-                <span class="text-lg">→</span>
-                <span>Send an invoice</span>
-              </p>
-              <p class="flex items-center gap-3">
-                <span class="text-lg">→</span>
-                <span>Disappear</span>
-              </p>
-            </div>
-            <p class="text-xl font-bold text-carbon border-t border-carbon/10 pt-6">We do it differently. We're Caretakers.</p>
-          </div>
+        <div class="grid lg:grid-cols-12 gap-16 md:gap-20 items-start">
 
-          <div class="bg-signal/10 border-l-4 border-signal p-8 mb-8 shadow-sm">
-            <div class="grid md:grid-cols-2 gap-6">
-              <div class="space-y-4">
-                <div class="flex items-start gap-3">
-                  <span class="text-signal text-2xl">✓</span>
-                  <div>
-                    <p class="font-bold text-carbon">We build it</p>
-                    <p class="text-sm text-gray-600">(5 days)</p>
-                  </div>
-                </div>
-                <div class="flex items-start gap-3">
-                  <span class="text-signal text-2xl">✓</span>
-                  <div>
-                    <p class="font-bold text-carbon">We host it</p>
-                    <p class="text-sm text-gray-600">(forever)</p>
-                  </div>
-                </div>
-              </div>
-              <div class="space-y-4">
-                <div class="flex items-start gap-3">
-                  <span class="text-signal text-2xl">✓</span>
-                  <div>
-                    <p class="font-bold text-carbon">We fix it</p>
-                    <p class="text-sm text-gray-600">(when it breaks)</p>
-                  </div>
-                </div>
-                <div class="flex items-start gap-3">
-                  <span class="text-signal text-2xl">✓</span>
-                  <div>
-                    <p class="font-bold text-carbon">We refresh it</p>
-                    <p class="text-sm text-gray-600">(once a year, included)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="text-center p-8 bg-frangipani/10 border-l-4 border-frangipani">
-            <p class="text-xl font-medium text-carbon">
-              You focus on your business. We keep the digital HQ running.
+          <div class="lg:col-span-5 lg:sticky lg:top-32">
+            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">Pricing Snapshot</span>
+            <h2 class="font-display font-bold text-[clamp(2.5rem,4vw,3.5rem)] uppercase leading-none tracking-tight text-carbon mb-6">
+              What this <span class="font-serif italic text-terracotta normal-case">actually costs.</span>
+            </h2>
+            <p class="font-sans text-carbon/70 leading-relaxed mb-10 max-w-md">
+              One build. One price. Care that scales with what your site does.
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 6: PRICING -->
-    <section class="py-24 bg-white border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center max-w-2xl mx-auto mb-16">
-             <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">Simple Pricing.</h2>
-             <p class="text-xl text-gray-500 mb-4">You own your domain, content, and design from day one.</p>
-          </div>
-
-          <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-
-             <!-- Launch Package -->
-             <div class="p-8 border-2 border-carbon bg-white flex flex-col relative group">
-                <div class="mb-8">
-                    <h3 class="text-3xl font-extrabold mb-2">The Launch</h3>
-                    <p class="text-gray-500">For Tradies, Retail & Hospo</p>
-                </div>
-                <div class="flex items-baseline gap-2 mb-2">
-                    <span class="text-5xl font-extrabold tracking-tighter">$995</span>
-                    <span class="text-gray-500 font-mono text-sm">+ GST setup / $149 + GST/month</span>
-                </div>
-                <p class="text-sm text-gray-500 mb-8">(monthly fees tax deductible)</p>
-                <ul class="space-y-4 mb-12 flex-1">
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> 5-page professional website</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Drive-home voice interview</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Domain & Hosting included</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Unlimited text/photo updates</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Google Maps Listing Setup & Optimization</li>
-                </ul>
-                <a href="https://buy.stripe.com/00waEWh0S14s3xH4UzdZ600" class="w-full block bg-carbon text-white text-center py-4 font-bold uppercase tracking-widest hover:bg-signal transition-colors">Start Launch Build</a>
-             </div>
-
-             <!-- Growth Package -->
-             <div class="p-8 border-2 border-signal bg-paper flex flex-col relative shadow-hard">
-                <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-4 py-1 uppercase tracking-widest">Most Popular</div>
-                <div class="mb-8">
-                    <h3 class="text-3xl font-extrabold mb-2">The Growth</h3>
-                    <p class="text-gray-500">For Salons, Consultants & Hospo</p>
-                </div>
-                <div class="flex items-baseline gap-2 mb-2">
-                    <span class="text-5xl font-extrabold tracking-tighter">$1,495</span>
-                    <span class="text-gray-500 font-mono text-sm">+ GST setup / $249 + GST/month</span>
-                </div>
-                <p class="text-sm text-gray-500 mb-8">(monthly fees tax deductible)</p>
-                <ul class="space-y-4 mb-12 flex-1">
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Everything in Launch</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Booking system integration</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Blog / News section</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Instagram Feed Integration</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Priority Support (1 Business Day Response)</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-signal">✓</span> Google Maps optimization + Review Collection System</li>
-                </ul>
-                <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="w-full block bg-signal text-white text-center py-4 font-bold uppercase tracking-widest shadow-hard-sm hover:shadow-none hover:translate-y-[1px] transition-all">Start Growth Build</a>
-             </div>
-
-          </div>
-
-          <!-- STARTER TEASER (Budget Option) -->
-          <div class="mt-12 text-center border-t border-carbon/10 pt-12 max-w-2xl mx-auto">
-            <p class="font-bold text-lg mb-2">Just need the basics?</p>
-            <p class="text-gray-600 mb-4">
-                Starter Package: $695 + GST setup / $49 + GST/month. One page. Google-ready.
-            </p>
-            <a href="/pricing" class="text-signal font-bold uppercase tracking-widest text-sm hover:text-carbon transition-colors group">
-                View Starter Details <span class="inline-block transition-transform group-hover:translate-x-1">→</span>
+            <a href="/pricing" class="inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border border-carbon/20 rounded-full px-8 py-3.5 hover:border-carbon transition-colors">
+              See full pricing &rarr;
             </a>
           </div>
 
-        </div>
-    </section>
+          <div class="lg:col-span-7 flex flex-col gap-6">
 
-    <!-- FAQ SECTION (SEO/AEO) -->
-    <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 text-center">
-            Common <span class="text-signal">Questions</span>
-          </h2>
+            <!-- Build -->
+            <div class="bg-bone rounded-3xl p-8 sm:p-10 border border-carbon/10 shadow-subtle flex flex-col sm:flex-row gap-8 justify-between items-start">
+              <div>
+                <h3 class="font-display font-bold text-xl uppercase tracking-tight text-carbon mb-2">The Build</h3>
+                <p class="font-sans text-carbon/75 leading-relaxed text-sm max-w-sm">
+                  Interview, copywriting, content raid, up to 8 pages hand-coded, socials embed, Google Business Profile, SEO and AI search optimised, domain, hosting.
+                </p>
+              </div>
+              <div class="text-left sm:text-right shrink-0">
+                <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-1">One-Time Setup</span>
+                <p class="font-display font-bold text-3xl text-carbon leading-none">$1,800</p>
+                <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-1">+ GST</p>
+              </div>
+            </div>
 
-          <div class="space-y-8">
-            <!-- FAQ 1 -->
-            <div class="border-l-4 border-signal pl-6 py-4">
-              <h3 class="text-xl font-bold mb-3 text-carbon">How much does a small business website cost in NZ?</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Professional websites in NZ typically cost $2,000–$5,000 upfront with agencies, plus ongoing fees. YourHQ's Launch package is $995 + GST setup / $149 + GST/month - includes unlimited updates and annual design refresh. Starter starts at $695 + GST setup.
+            <!-- Monthly -->
+            <div class="bg-surface rounded-3xl p-8 sm:p-10 border border-carbon/10 shadow-subtle flex flex-col sm:flex-row gap-8 justify-between items-start">
+              <div>
+                <h3 class="font-display font-bold text-xl uppercase tracking-tight text-carbon mb-2">Monthly Care</h3>
+                <p class="font-sans text-carbon/75 leading-relaxed text-sm max-w-sm">
+                  Hosting, security, on-demand updates, annual design refresh. Scales based on what your site does.
+                </p>
+              </div>
+              <div class="text-left sm:text-right shrink-0">
+                <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-1">Ongoing Caretaker</span>
+                <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mb-1">from</p>
+                <p class="font-display font-bold text-3xl text-carbon leading-none">$129<span class="font-sans font-normal text-sm text-softGrey">/mo</span></p>
+              </div>
+            </div>
+
+            <!-- Guarantee -->
+            <div class="bg-carbon text-white rounded-3xl p-8 sm:p-10 border border-carbon shadow-elegant">
+              <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-3">Risk-Free Guarantee</span>
+              <h3 class="font-display font-bold text-2xl md:text-3xl uppercase tracking-tight mb-3">
+                Love it <span class="font-serif italic text-white/60 normal-case">or leave it.</span>
+              </h3>
+              <p class="font-sans text-white/80 leading-relaxed text-sm max-w-md">
+                You see the complete site before the subscription starts. Don’t love it — full refund of your setup fee.
               </p>
             </div>
 
-            <!-- FAQ 2 -->
-            <div class="border-l-4 border-hibiscus pl-6 py-4">
-              <h3 class="text-xl font-bold mb-3 text-carbon">How quickly can my website go live?</h3>
-              <p class="text-gray-700 leading-relaxed">
-                5 business days once we have everything we need. One 15-minute phone chat, plus any photos or logos you want included. No meetings, no homework.
-              </p>
-            </div>
-
-            <!-- FAQ 3 -->
-            <div class="border-l-4 border-frangipani pl-6 py-4">
-              <h3 class="text-xl font-bold mb-3 text-carbon">Do you build websites outside Auckland?</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Yes. Based in Whangārei, servicing all of NZ. All communication via text and phone.
-              </p>
-            </div>
-
-            <!-- FAQ 4 -->
-            <div class="border-l-4 border-signal pl-6 py-4">
-              <h3 class="text-xl font-bold mb-3 text-carbon">What makes YourHQ different from Wix or Squarespace?</h3>
-              <p class="text-gray-700 leading-relaxed">
-                With Wix or Squarespace, you do all the work yourself - 40+ hours of building, learning, and troubleshooting. With YourHQ, we do everything for you in 5 days. Plus you get unlimited updates and annual refreshes included.
-              </p>
-            </div>
-
-            <!-- FAQ 5 -->
-            <div class="border-l-4 border-hibiscus pl-6 py-4">
-              <h3 class="text-xl font-bold mb-3 text-carbon">Will my website help me rank on Google and voice search?</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Yes. Fast load times, mobile-first design, local business schema. You show up when people search "electrician near me," "physio [suburb]," or "salon near me."
-              </p>
-            </div>
-
-            <!-- FAQ 6 -->
-            <div class="border-l-4 border-signal pl-6 py-4">
-              <h3 class="text-xl font-bold mb-3 text-carbon">Do you set up Google Maps for me?</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Yes. We claim your listing, write your description, upload photos, and connect it to your website. If you already have a listing, we'll give recommendations on how to optimise it.
-              </p>
-            </div>
           </div>
         </div>
+
       </div>
     </section>
 
-    <!-- REAL TALK FAQ SECTION -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-3xl mx-auto">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4 text-center">
-            Real <span class="text-signal">Talk</span>
-          </h2>
-          <p class="text-center text-gray-600 mb-12 text-lg">The questions you're actually thinking</p>
-
-          <div class="space-y-8">
-            <!-- Real Talk 1 -->
-            <div class="bg-white border-l-4 border-signal p-6 shadow-sm">
-              <h3 class="text-lg font-bold mb-3 text-carbon">"My nephew can build me a website for free."</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Will he be around when it breaks at 11pm? Will he refresh it in 3 years? If it doesn't work out, give us a call.
-              </p>
-            </div>
-
-            <!-- Real Talk 1b -->
-            <div class="bg-white border-l-4 border-signal p-6 shadow-sm">
-              <h3 class="text-lg font-bold mb-3 text-carbon">"I'll just use Squarespace when I get time."</h3>
-              <p class="text-gray-700 leading-relaxed">
-                That time never comes. And when it does, 30 hours later you're 70% happy and too exhausted to finish it. One 15-minute chat with us and it's done in 5 days - properly.
-              </p>
-            </div>
-
-            <!-- Real Talk 2 -->
-            <div class="bg-white border-l-4 border-hibiscus p-6 shadow-sm">
-              <h3 class="text-lg font-bold mb-3 text-carbon">"I've been burned by web designers before."</h3>
-              <p class="text-gray-700 leading-relaxed mb-2">
-                'Love Your Launch' guarantee: Preview on Day 5. Don't love it? Full refund.
-              </p>
-              <p class="text-sm text-gray-500">*(Your setup fee back, minus ~3% processing + any domain costs.)*</p>
-            </div>
-
-            <!-- Real Talk 3 -->
-            <div class="bg-white border-l-4 border-frangipani p-6 shadow-sm">
-              <h3 class="text-lg font-bold mb-3 text-carbon">"I don't have time for this right now."</h3>
-              <p class="text-gray-700 leading-relaxed">
-                Total time from you: one 15-minute phone call. We grab everything else from your socials.
-              </p>
-            </div>
-
-            <!-- Real Talk 4 -->
-            <div class="bg-white border-l-4 border-signal p-6 shadow-sm">
-              <h3 class="text-lg font-bold mb-3 text-carbon">"It seems too cheap. What's the catch?"</h3>
-              <p class="text-gray-700 leading-relaxed">
-                We use a productised model - same site type, same process, every time. Some agencies charge $10–15k for bespoke work. We've streamlined it.
-              </p>
-            </div>
-          </div>
-        </div>
+    <!-- ============================================================
+         12 · FOREVER FRESH
+    ============================================================ -->
+    <!-- Clean, sophisticated deep green section -->
+    <section class="py-24 md:py-32 px-4 sm:px-6 lg:px-8 bg-deepGreen text-white border-b border-carbon/20">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta block mb-6">Forever Fresh</span>
+        <h2 class="font-display font-bold text-[clamp(2.5rem,5vw,4.5rem)] uppercase leading-none tracking-tight mb-8">
+          Built once.<br/>
+          <span class="font-serif italic text-bone/80 normal-case">Looked after forever.</span>
+        </h2>
+        <p class="font-sans text-bone/80 leading-relaxed mb-6 max-w-lg mx-auto">
+          Most websites go stale after three years. Then you pay $5,000+ to rebuild.
+        </p>
+        <p class="font-sans text-bone/80 leading-relaxed mb-10 max-w-lg mx-auto">
+          Not here. Every 12 months I refresh your design — included. As you evolve, your digital home evolves with you.
+        </p>
+        <p class="font-display font-bold text-xl md:text-2xl uppercase tracking-tight text-white border-t border-white/10 pt-8 max-w-lg mx-auto">
+          Total rebuild fees with YourHQ: <br/>
+          <span class="font-serif italic text-terracotta normal-case text-3xl"> $0. Ever.</span>
+        </p>
       </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-32 bg-carbon text-white text-center">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">Ready to Own Your Space?</h2>
+    <!-- ============================================================
+         MARQUEE
+    ============================================================ -->
+    <!-- Switched to Carbon for a sharp, high-end break -->
+    <section class="bg-carbon overflow-hidden py-6 border-b border-carbon">
+      <div class="flex whitespace-nowrap animate-[marquee_30s_linear_infinite]">
+        <span class="font-display font-bold uppercase text-2xl md:text-3xl text-bone px-6 tracking-widest">BUILT ONCE · LOOKED AFTER FOREVER · </span>
+        <span class="font-display font-bold uppercase text-2xl md:text-3xl text-bone px-6 tracking-widest">BUILT ONCE · LOOKED AFTER FOREVER · </span>
+        <span class="font-display font-bold uppercase text-2xl md:text-3xl text-bone px-6 tracking-widest">BUILT ONCE · LOOKED AFTER FOREVER · </span>
+        <span class="font-display font-bold uppercase text-2xl md:text-3xl text-bone px-6 tracking-widest">BUILT ONCE · LOOKED AFTER FOREVER · </span>
+      </div>
+    </section>
 
-            <a href="/pricing" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl mb-12">
-              Book Your Interview
-            </a>
+    <style>
+      @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+    </style>
 
-            <ContactInfo variant="cta" class="border-t border-white/20 pt-8" showLocation={false} />
+    <!-- ============================================================
+         13 · FINAL CTA
+    ============================================================ -->
+    <section class="bg-bone text-carbon py-24 md:py-32 text-center px-4">
+      <div class="max-w-3xl mx-auto">
+        <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-6">The Final Step</span>
+        <h2 class="font-display font-bold text-[clamp(2.5rem,5vw,4.5rem)] uppercase leading-none tracking-tight mb-8">
+          Ready to <br/>
+          <span class="font-serif italic text-terracotta normal-case">hand this over?</span>
+        </h2>
+
+        <p class="font-sans text-carbon/70 max-w-lg mx-auto mb-10 leading-relaxed">
+          Your permanently owned corner of the internet —<br/>written in your voice, looked after forever.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={buildLink} class="inline-block bg-carbon text-white px-10 py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 shadow-subtle">
+            Start Your Build
+          </a>
+          <a href="/contact" class="inline-block bg-transparent text-carbon border border-carbon/20 px-10 py-4 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300">
+            Just Say Hello
+          </a>
         </div>
+      </div>
     </section>
 
   </main>

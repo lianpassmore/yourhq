@@ -84,11 +84,10 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
       
       {/* Status Bubble */}
       {status === 'connected' && (
-        <div className="bg-white border-2 border-carbon px-4 py-2 shadow-hard mb-2 animate-fade-in">
+        <div className="bg-white rounded-full border border-carbon/10 px-4 py-2 shadow-elegant mb-2 animate-fade-in">
             <div className="flex items-center gap-2">
-                <span className={`w-3 h-3 rounded-full ${isSpeaking ? 'bg-signal animate-pulse' : 'bg-green-500'}`}></span>
-                <span className="font-mono text-xs font-bold uppercase tracking-widest text-carbon">
-                    {/* Updated Text */}
+                <span className={`w-2.5 h-2.5 rounded-full ${isSpeaking ? 'bg-signal animate-pulse' : 'bg-deepGreen'}`}></span>
+                <span className="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-carbon">
                     {isSpeaking ? 'Lian (AI) is speaking...' : 'Listening...'}
                 </span>
             </div>
@@ -96,13 +95,13 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
       )}
 
       {/* The Button */}
-      <button 
+      <button
         onClick={toggleConversation}
         className={`
-            flex items-center gap-3 px-6 py-4 border-2 border-carbon transition-all duration-200
-            ${status === 'connected' 
-                ? 'bg-hibiscus text-white shadow-none translate-y-[2px]' 
-                : 'bg-signal text-white shadow-hard hover:shadow-none hover:translate-y-[2px]'}
+            flex items-center gap-3 px-6 py-4 rounded-full transition-colors duration-300
+            ${status === 'connected'
+                ? 'bg-terracotta text-white shadow-subtle hover:bg-terracotta/90'
+                : 'bg-carbon text-white shadow-subtle hover:bg-deepGreen hover:shadow-elegant'}
         `}
       >
         {status === 'connected' ? (
@@ -115,7 +114,7 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
             </svg>
         )}
         
-        <span className="font-bold uppercase tracking-widest">
+        <span className="font-medium text-ui">
             {status === 'connected' ? 'End Interview' : 'Start Interview'}
         </span>
       </button>

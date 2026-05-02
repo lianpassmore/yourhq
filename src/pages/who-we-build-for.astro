@@ -1,0 +1,244 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+
+const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
+
+// Removed the old brutalist color borders (signal, frangipani, hibiscus) to maintain the strict 80/15/5 palette rule
+const testimonials = [
+  { quote: "Creating a website wasn't something I was looking forward to. But the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly.", author: "Brad", role: "Carve Earthworks · Northland" },
+  { quote: "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready. My mates reckon it's banging.", author: "Reuben", role: "Johnson & Sons · Commercial Builder" },
+  { quote: "The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can't believe how good it is.", author: "Katie", role: "Rumours On Rust · Café, Whangārei" },
+  { quote: "You helped me take that next step and build my dream. That was my barrier to market.", author: "Nicolette", role: "Ember & Ice · Wellness Studio" }
+];
+---
+
+<Layout
+  title="Who We Build For | YourHQ"
+  description="For established people who've built something real and are ready to hand the online side to someone who can do it properly."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
+
+    <!-- HERO -->
+    <section class="pt-24 md:pt-32 pb-20 border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> Who This Is For
+          </span>
+          <h1 class="font-display font-bold text-hero uppercase tracking-tight leading-none mb-8 text-carbon">
+            You Know What You Want.<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">Here's Whether I'm the Right Person to Build It.</span>
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-3xl">
+            This page is for established people who've already built something real, and are ready to hand the online side of it to someone who can do it properly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE IDENTITY -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase tracking-tight mb-10 text-carbon">
+          You're Already Showing Up.<br/>
+          <span class="font-serif italic text-softGrey normal-case font-normal">You Just Don't Have a Permanent Home for It Yet.</span>
+        </h2>
+        <div class="space-y-6 font-sans text-body text-softGrey">
+          <p>
+            You're not starting out. You've put in the years. Built a reputation, earned trust, figured out what you do and who you do it for.
+          </p>
+          <p>
+            Your presence is scattered across platforms you don't own. LinkedIn here. Instagram there. Google reviews somewhere else. Maybe a website that no longer represents where you are.
+          </p>
+          <p>
+            When someone wants to properly understand who you are and what you do, there's no single place that tells the whole story.
+          </p>
+          <p class="font-medium text-carbon">
+            That's what I build. The permanent, owned, specifically-you corner of the internet. The place every other digital path leads.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- IS THIS YOU -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <h2 class="font-display font-bold text-display uppercase tracking-tight mb-12 text-carbon">
+            Here's Who This <br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">Works Best For.</span>
+          </h2>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300">
+              <p class="font-display font-bold text-subhead text-carbon mb-3">You've outgrown what you have.</p>
+              <p class="font-sans text-body text-softGrey">More established, more focused, more clear. Your online presence needs to catch up.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300">
+              <p class="font-display font-bold text-subhead text-carbon mb-3">You'd rather have no website than a generic one.</p>
+              <p class="font-sans text-body text-softGrey">A bad website doesn't just miss. It actively misrepresents you. You need something that captures the aesthetic, the feeling, the specific vibe of what you've built. Not a template. Not AI copy. Something that makes the right person feel like they've already met you before they walk through the door.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300">
+              <p class="font-display font-bold text-subhead text-carbon mb-3">You want it done without it becoming your project.</p>
+              <p class="font-sans text-body text-softGrey">One conversation. I draw your story out and build while you keep working.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300">
+              <p class="font-display font-bold text-subhead text-carbon mb-3">You want to own what you build.</p>
+              <p class="font-sans text-body text-softGrey">Permanent. Portable. Yours unconditionally. Updated with a text. Refreshed every year.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300 md:col-span-2">
+              <p class="font-display font-bold text-subhead text-carbon mb-3">You want to stand out, not blend in.</p>
+              <p class="font-sans text-body text-softGrey">You know what generic looks like. You want something impossible to mistake for anyone else.</p>
+            </div>
+          </div>
+
+          <p class="font-display font-bold text-headline uppercase mt-16 text-carbon">
+            If that's you. <br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">I'd love to work with you.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO I'VE BUILT FOR -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="text-center md:text-left mb-12">
+            <h2 class="font-display font-bold text-display uppercase tracking-tight mb-4 text-carbon">
+              Whatever You Do.<br/>
+              <span class="font-serif italic text-softGrey normal-case font-normal">Here's Whether I Understand Your World.</span>
+            </h2>
+            <p class="font-sans text-subhead text-softGrey max-w-3xl">
+              The mindset matters more than the industry. But if you want to know whether I've worked in your space.
+            </p>
+          </div>
+
+          <div class="grid gap-6">
+
+            <div class="bg-surface rounded-2xl border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300 p-8 md:p-10">
+              <p class="font-mono text-badge uppercase text-terracotta mb-4">Trades &amp; Construction</p>
+              <p class="font-sans font-medium text-body text-carbon mb-4">
+                Electricians &middot; Builders &middot; Earthworks &middot; Plumbers &middot; Painters &middot; Landscapers &middot; Concreters
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                You're brilliant at your trade. You shouldn't have to be brilliant at websites too.
+              </p>
+            </div>
+
+            <div class="bg-surface rounded-2xl border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300 p-8 md:p-10">
+              <p class="font-mono text-badge uppercase text-deepGreen mb-4">Professional Services</p>
+              <p class="font-sans font-medium text-body text-carbon mb-4">
+                Physiotherapists &middot; Accountants &middot; Lawyers &middot; Consultants &middot; Financial advisers &middot; Coaches &middot; Real estate agents &middot; Architects
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                When someone Googles you before they book. What do they find?
+              </p>
+            </div>
+
+            <div class="bg-surface rounded-2xl border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300 p-8 md:p-10">
+              <p class="font-mono text-badge uppercase text-carbon mb-4">Creatives, Hospo &amp; Personal Brands</p>
+              <p class="font-sans font-medium text-body text-carbon mb-4">
+                Photographers &middot; Café and restaurant owners &middot; Designers &middot; Speakers &middot; Podcasters &middot; Stylists &middot; Writers &middot; Anyone whose name is the brand
+              </p>
+              <p class="font-serif italic text-accent text-softGrey">
+                Your Instagram isn't your website. It's your signal. The website is the source.
+              </p>
+            </div>
+
+          </div>
+
+          <p class="text-center font-sans text-subhead text-softGrey mt-16 max-w-2xl mx-auto">
+            Different industries. <strong class="font-medium text-carbon">Same standard. Same process. Same care.</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO THIS ISN'T FOR -->
+    <section class="py-24 md:py-32 bg-carbon text-bone border-b border-carbon/5">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase tracking-tight mb-12 text-white">
+          Who This <br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">Isn't For.</span>
+        </h2>
+        <ul class="space-y-4 font-sans text-subhead text-bone/80 border-l border-white/20 pl-8">
+          <li>DIYers who want to tinker</li>
+          <li>Anyone looking for the cheapest option</li>
+          <li>People who want to be involved in the build</li>
+          <li>Businesses needing e-commerce, course platforms, or custom apps</li>
+          <li>Anyone who hasn't decided yet</li>
+        </ul>
+        <p class="font-display font-bold text-headline uppercase mt-16 text-white">
+          No hard feelings. <br/>
+          <span class="font-serif italic text-bone/60 normal-case font-normal">I'll point you somewhere better.</span>
+        </p>
+
+        <div class="mt-16 pt-10 border-t border-white/10">
+          <p class="font-sans text-body text-bone/70 mb-4">
+            Still figuring out where you fit? Ever wondered how a website actually slots in alongside your socials, your Google profile, your email list, and everything else?
+          </p>
+          <a href="/ecosystem" class="inline-flex items-center gap-2 font-mono text-badge uppercase text-terracotta hover:text-bone transition-colors duration-300">
+            See how it all fits together
+            <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="py-24 md:py-32 bg-bone border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase tracking-tight mb-16 text-center text-carbon">
+          Different Worlds. <br/>
+          <span class="font-serif italic text-softGrey normal-case font-normal">Same Relief.</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          {testimonials.map((t) => (
+            <div class="bg-white text-carbon p-8 rounded-2xl shadow-subtle hover:shadow-elegant transition-all duration-300 border border-carbon/5 flex flex-col justify-between">
+              <p class="font-serif italic text-accent text-carbon mb-8">"{t.quote}"</p>
+              <div class="border-t border-carbon/5 pt-6 mt-auto">
+                <p class="font-sans font-medium text-body text-carbon mb-1">{t.author}</p>
+                <p class="font-mono text-badge text-softGrey uppercase">{t.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="bg-carbon text-bone py-32 text-center px-4">
+      <div class="max-w-4xl mx-auto">
+        <span class="font-mono text-badge uppercase text-terracotta block mb-6">The Next Step</span>
+        <h2 class="font-display font-bold text-display uppercase tracking-tight mb-8 text-white">
+          People Are Already Looking for You.<br/>
+          <span class="font-serif italic text-bone/60 normal-case font-normal">Let's Build the Place They Actually Find.</span>
+        </h2>
+        
+        <p class="font-sans text-subhead text-bone/80 mb-12 max-w-2xl mx-auto">
+          Your permanently owned corner of the internet. Written in your voice, looked after forever.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href={buildLink} class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
+            Start Your Build
+          </a>
+          <a href="/how-it-works" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
+            See How It Works
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

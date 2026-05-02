@@ -2,11 +2,29 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+
+const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
+
+const cities = [
+  'Auckland', 'Wellington', 'Christchurch', 'Hamilton', 'Tauranga', 'Dunedin',
+  'Whangārei', 'Palmerston North', 'Napier', 'Hastings', 'Nelson', 'Queenstown',
+  'New Plymouth', 'Rotorua', 'Invercargill'
+];
+
+const faqs = [
+  { q: 'How much does a professional website cost in New Zealand?', a: 'YourHQ websites start at $1,800 + GST one-time, with monthly Caretaker care from $129/mo. Traditional agencies typically charge $5,000 to $15,000 upfront, then bill per change. DIY tools like Wix and Squarespace cost $30 to $50/mo, but require 40 to 80 hours of your own time. We sit between the two with a productised, one-conversation model.' },
+  { q: 'How long does it take to build a website in New Zealand?', a: 'Most YourHQ clients are live within 1 to 2 weeks. The whole thing takes less than 30 minutes of your time. One Drive-Home Interview, one round of copy feedback, then we build, preview, and go live.' },
+  { q: 'Do you build websites outside Whangārei or Northland?', a: 'Yes. YourHQ is based in Whangārei and works with clients across all of New Zealand. Auckland, Wellington, Christchurch, Hamilton, Tauranga, the lot. The whole process happens remotely. Phone, email, and texts. No travel needed.' },
+  { q: 'What makes YourHQ different from a traditional NZ web design agency?', a: 'Three things. First, every site is hand-coded by Lian personally. No outsourcing, no junior staff, no templates. Second, the Caretaker model means I stay on after launch. Hosting, security, updates, annual refresh. I don\'t build and disappear. Third, the price is fixed and known upfront.' },
+  { q: 'What if I already have a website?', a: 'Most of my clients do. I start fresh, in your voice, to where you are now. Your old site stays up until launch day, then we transition the domain across.' },
+  { q: 'Do I own the website I pay for?', a: 'Completely. Your domain, content, and design are yours unconditionally from day one. If you ever leave, I provide a full static export. Nothing held hostage.' },
+  { q: 'Will my New Zealand website rank on Google?', a: 'Every YourHQ site is built for both standard search (SEO) and AI-generated answers (AEO). Mobile-first, hand-coded, loads in under a second, with proper structured data and Google Business Profile setup included.' }
+];
 ---
 
 <Layout
-  title="Website Design NZ: Fast Done-For-You Sites for Tradies, Salons & Consultants"
-  description="Professional website design across New Zealand. From Auckland to Christchurch, we build fast, SEO-friendly websites for NZ tradies, salons, and consultants in 5 days. From $695."
+  title="Website Design NZ | Hand-Coded, Owned by You, Looked After Forever | YourHQ"
+  description="Hand-coded website design across New Zealand. From $1,800 + GST. One conversation, written in your voice, looked after forever. Auckland, Wellington, Christchurch, Whangārei, nationwide."
 >
   <Navbar client:load />
 
@@ -15,346 +33,179 @@ import Footer from '../components/Footer.astro';
     <!-- HERO -->
     <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
       <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-5xl">
+        <div class="max-w-4xl">
           <span class="inline-block py-1 px-3 rounded-full bg-signal/10 text-signal font-bold text-sm mb-6 tracking-wide uppercase font-mono">
-            Nationwide Service • Founder-led • Built in Whangārei
+            Website Design &middot; New Zealand
           </span>
-          <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-            Website Design NZ: <br />
-            <span class="text-signal">Fast, Done-For-You Sites</span>
+          <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] mb-8">
+            Website Design Across New Zealand.<br/>
+            <span class="text-signal">Built Once. Looked After Forever.</span>
           </h1>
-          <h2 class="text-2xl md:text-3xl font-bold text-carbon/80 mb-8 leading-tight">
-            Professional websites for New Zealand tradies, salons, and consultants - built in 5 days and kept sorted.
-          </h2>
-          <p class="text-xl text-gray-700 mb-4 leading-relaxed max-w-3xl">
-            We build fast, modern websites for Kiwi small businesses - from Northland to Southland.
+          <p class="text-xl md:text-2xl text-gray-700 max-w-3xl leading-relaxed mb-2">
+            Hand-coded websites for established New Zealand businesses and personal brands. Written in your voice. Owned by you unconditionally. Refreshed every year.
           </p>
-          <p class="text-xl text-gray-700 mb-8 leading-relaxed max-w-3xl">
-            No homework. No tech jargon. Just one short phone chat, then we build your site and look after it long-term.
+          <p class="font-mono text-xs uppercase tracking-widest text-gray-500">
+            From $1,800 + GST &middot; from $129/mo &middot; Founded in Aotearoa &middot; Servicing nationwide
           </p>
-          <div class="flex flex-col sm:flex-row gap-4">
-            <a href="/pricing" class="bg-signal text-white px-8 py-4 text-center border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
-              View Pricing
-            </a>
-            <a href="/how-it-works" class="bg-white text-carbon px-8 py-4 text-center border border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
-              How It Works
-            </a>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- WHY BUSINESSES CHOOSE US -->
+    <!-- THE THREE OPTIONS -->
     <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-8 text-center">
-          Because Location Doesn't Matter - <span class="text-signal">Process Does.</span>
-        </h2>
-        <p class="text-xl text-gray-700 mb-8 leading-relaxed text-center">
-          Whether you're in Auckland, Wellington, Christchurch or anywhere in between, the process is the same:
-        </p>
-        <div class="grid md:grid-cols-2 gap-6 mb-10 max-w-2xl mx-auto">
-          <div class="bg-paper p-6 border-l-4 border-signal">
-            <p class="text-gray-700 font-medium">15-minute phone interview</p>
-          </div>
-          <div class="bg-paper p-6 border-l-4 border-hibiscus">
-            <p class="text-gray-700 font-medium">We pull what we need from your existing online presence</p>
-          </div>
-          <div class="bg-paper p-6 border-l-4 border-frangipani">
-            <p class="text-gray-700 font-medium">Built in 5 business days</p>
-          </div>
-          <div class="bg-paper p-6 border-l-4 border-signal">
-            <p class="text-gray-700 font-medium">Ongoing care included</p>
-          </div>
-        </div>
-        <p class="text-lg text-gray-700 text-center font-medium">
-          You don't need meetings. You don't need travel. You don't need a "website project."
-        </p>
-      </div>
-    </section>
-
-    <!-- AREAS WE SERVE -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
-            Website Design Across <span class="text-signal">New Zealand</span>
-          </h2>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're based in Whangārei and work NZ-wide. We build your site to suit your specific location and service area - so you can show up when locals search.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-
-          <!-- Auckland & Upper North Island -->
-          <div class="border-l-4 border-signal p-6 bg-white">
-            <h3 class="text-2xl font-extrabold mb-3">Auckland & Upper North Island</h3>
-            <p class="text-gray-700 mb-4 leading-relaxed">
-              Websites for tradies, salons, and professional services across:
-            </p>
-            <ul class="text-sm text-gray-600 space-y-1">
-              <li>• Auckland</li>
-              <li>• North Shore</li>
-              <li>• Hamilton / Waikato</li>
-              <li>• Tauranga / Bay of Plenty</li>
-              <li>• Whangārei / Northland</li>
-            </ul>
-          </div>
-
-          <!-- Wellington & Lower North Island -->
-          <div class="border-l-4 border-hibiscus p-6 bg-white">
-            <h3 class="text-2xl font-extrabold mb-3">Wellington & Lower North Island</h3>
-            <p class="text-gray-700 mb-4 leading-relaxed">
-              Websites for service businesses across:
-            </p>
-            <ul class="text-sm text-gray-600 space-y-1">
-              <li>• Wellington</li>
-              <li>• Palmerston North</li>
-              <li>• Napier / Hastings</li>
-              <li>• New Plymouth / Taranaki</li>
-              <li>• Nelson / Marlborough</li>
-            </ul>
-          </div>
-
-          <!-- Christchurch & South Island -->
-          <div class="border-l-4 border-frangipani p-6 bg-white">
-            <h3 class="text-2xl font-extrabold mb-3">Christchurch & South Island</h3>
-            <p class="text-gray-700 mb-4 leading-relaxed">
-              Websites for businesses across:
-            </p>
-            <ul class="text-sm text-gray-600 space-y-1">
-              <li>• Christchurch / Canterbury</li>
-              <li>• Dunedin / Otago</li>
-              <li>• Queenstown / Central Otago</li>
-              <li>• Invercargill / Southland</li>
-              <li>• Timaru / South Canterbury</li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- WHO WE BUILD WEBSITES FOR -->
-    <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl font-extrabold mb-4 text-center">Who We Build Websites For</h2>
-        <p class="text-xl text-gray-600 mb-12 text-center">Built for Busy People (Not DIYers)</p>
-
-        <div class="grid md:grid-cols-3 gap-8">
-
-          <!-- Tradies -->
-          <div class="bg-white p-8 border-2 border-carbon hover:shadow-hard transition-all">
-            <div class="h-2 w-12 bg-signal mb-6"></div>
-            <h3 class="text-2xl font-extrabold mb-4">NZ Tradies</h3>
-            <p class="text-gray-700 mb-4">
-              Website design for electricians, plumbers, builders and local service businesses.
-            </p>
-            <ul class="text-sm text-gray-600 space-y-2">
-              <li>✓ Local search focus</li>
-              <li>✓ Mobile-first</li>
-              <li>✓ Fast load times</li>
-              <li>✓ Calls + quote requests made easy</li>
-            </ul>
-          </div>
-
-          <!-- Salons -->
-          <div class="bg-white p-8 border-2 border-carbon hover:shadow-hard transition-all">
-            <div class="h-2 w-12 bg-hibiscus mb-6"></div>
-            <h3 class="text-2xl font-extrabold mb-4">Salons & Beauty</h3>
-            <p class="text-gray-700 mb-4">
-              Salon website design with booking-ready structure.
-            </p>
-            <ul class="text-sm text-gray-600 space-y-2">
-              <li>✓ Portfolio galleries</li>
-              <li>✓ Services + pricing clarity</li>
-              <li>✓ Booking system integration (Growth)</li>
-              <li>✓ Looks premium, feels trustworthy</li>
-            </ul>
-          </div>
-
-          <!-- Consultants -->
-          <div class="bg-white p-8 border-2 border-carbon hover:shadow-hard transition-all">
-            <div class="h-2 w-12 bg-frangipani mb-6"></div>
-            <h3 class="text-2xl font-extrabold mb-4">Professional Services</h3>
-            <p class="text-gray-700 mb-4">
-              Authority-building websites for consultants, coaches, and legal.
-            </p>
-            <ul class="text-sm text-gray-600 space-y-2">
-              <li>✓ Pass the "Google Test"</li>
-              <li>✓ Testimonials + credibility</li>
-              <li>✓ Clear offers</li>
-              <li>✓ Corporate-grade feel</li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- HOW IT WORKS (SHORT VERSION) -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl font-extrabold mb-12 tracking-tighter text-center">
-          How It Works <span class="text-signal">(NZ-wide)</span>
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
+          Three Ways to Get a Website in NZ.<br/>
+          <span class="text-gray-400">Only One Stays With You.</span>
         </h2>
 
-        <div class="space-y-6 max-w-2xl mx-auto">
-          <div class="flex items-start gap-4">
-            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm font-bold flex-shrink-0 mt-0.5">1</span>
-            <p class="text-lg text-gray-700">15-minute phone call (drive-home interview)</p>
-          </div>
-          <div class="flex items-start gap-4">
-            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm font-bold flex-shrink-0 mt-0.5">2</span>
-            <p class="text-lg text-gray-700">We gather content from your socials/reviews</p>
-          </div>
-          <div class="flex items-start gap-4">
-            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm font-bold flex-shrink-0 mt-0.5">3</span>
-            <p class="text-lg text-gray-700">We build in 5 days</p>
-          </div>
-          <div class="flex items-start gap-4">
-            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm font-bold flex-shrink-0 mt-0.5">4</span>
-            <p class="text-lg text-gray-700">Day 5 preview (love it or refund)</p>
-          </div>
-          <div class="flex items-start gap-4">
-            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm font-bold flex-shrink-0 mt-0.5">5</span>
-            <p class="text-lg text-gray-700">We stay on as caretakers - updates, fixes, annual refresh</p>
-          </div>
+        <div class="overflow-x-auto">
+          <table class="w-full border-collapse">
+            <thead>
+              <tr class="bg-paper border-2 border-carbon">
+                <th class="p-4 text-left font-mono text-xs uppercase tracking-widest text-gray-500"></th>
+                <th class="p-4 text-left font-mono text-xs uppercase tracking-widest text-gray-500 border-l border-carbon">DIY (Wix / Squarespace)</th>
+                <th class="p-4 text-left font-mono text-xs uppercase tracking-widest text-gray-500 border-l border-carbon">NZ Web Agency</th>
+                <th class="p-4 text-left font-mono text-xs uppercase tracking-widest text-signal border-l border-carbon bg-signal/5">YourHQ</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ['Setup cost', '$0', '$5,000–15,000', '$1,800 + GST'],
+                ['Your time', '40–80 hours', '6–12 weeks of briefing', 'One conversation'],
+                ['Monthly', '$30–50', '$0 (then pay per change)', '$129–249'],
+                ['Updates', 'You do it yourself', 'Invoice per change', 'Just text me'],
+                ['Rebuild in 3 years', '$0 (you do it again)', '$5,000–15,000', '$0, refresh included'],
+                ['Sounds like you', 'Rarely', 'Sometimes', 'Always']
+              ].map(([label, diy, agency, yhq]) => (
+                <tr class="border-x-2 border-b-2 border-carbon">
+                  <td class="p-4 font-bold text-carbon bg-paper">{label}</td>
+                  <td class="p-4 border-l border-carbon text-carbon/70">{diy}</td>
+                  <td class="p-4 border-l border-carbon text-carbon/70">{agency}</td>
+                  <td class="p-4 border-l border-carbon font-bold text-carbon bg-signal/5">{yhq}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
+      </div>
+    </section>
 
+    <!-- HOW IT WORKS BRIEF -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
+          One Conversation.<br/>
+          <span class="text-gray-400">I Handle Everything Else.</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-0 border-l border-t border-carbon">
+          {[
+            ['01', 'The Drive-Home Interview', 'You call when it suits. Car, couch, between meetings. Hands-free for 15 minutes.'],
+            ['02', 'I Write Your Copy', 'In your voice, reviewed by me. You see every section before I build a thing.'],
+            ['03', 'The Content Raid', 'I go through your existing footprint. Socials, Google, anywhere you show up. You send me nothing.'],
+            ['04', 'The Build', 'Hand-coded in Astro. Under a second to load. Mobile-first. Built for SEO and AEO.'],
+            ['05', 'Preview', 'Private link. Love it, we go live. Don\'t love it, full refund.'],
+            ['06', 'Go Live', 'Domain connected. Google notified. Your permanent address is set.'],
+            ['07', 'The Caretakers Take Over', 'Hosting, security, updates, annual refresh. I stay.']
+          ].map(([num, title, body]) => (
+            <div class="bg-white border-r border-b border-carbon p-6">
+              <p class="font-mono text-xs font-bold uppercase tracking-widest text-signal mb-2">Step {num}</p>
+              <p class="font-extrabold text-lg mb-2">{title}</p>
+              <p class="text-sm text-carbon/80 leading-relaxed">{body}</p>
+            </div>
+          ))}
+        </div>
         <div class="text-center mt-12">
-          <a href="/how-it-works" class="inline-block bg-signal text-white px-8 py-4 border border-carbon shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-wider">
-            See How It Works →
+          <a href="/how-it-works" class="inline-block font-bold uppercase tracking-widest text-sm text-carbon border-b-2 border-signal hover:text-signal transition-colors">
+            See the full process &rarr;
           </a>
         </div>
       </div>
     </section>
 
-    <!-- PRICING TEASER -->
+    <!-- WHO WE BUILD FOR -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
+          Built For Established<br/>
+          New Zealand Businesses<br/>
+          <span class="text-gray-400">and Personal Brands.</span>
+        </h2>
+
+        <div class="space-y-5">
+          <div class="bg-paper border-l-4 border-signal p-6">
+            <p class="font-mono text-xs font-bold uppercase tracking-widest text-signal mb-2">Trades &amp; Construction</p>
+            <p class="text-carbon/90">Electricians, builders, earthworks, plumbers, painters, landscapers, concreters. <a href="/tradies" class="font-bold underline">More for tradies &rarr;</a></p>
+          </div>
+          <div class="bg-paper border-l-4 border-frangipani p-6">
+            <p class="font-mono text-xs font-bold uppercase tracking-widest text-frangipani mb-2">Professional Services</p>
+            <p class="text-carbon/90">Physiotherapists, accountants, lawyers, consultants, financial advisers, coaches, architects. <a href="/professionals" class="font-bold underline">More for professionals &rarr;</a></p>
+          </div>
+          <div class="bg-paper border-l-4 border-hibiscus p-6">
+            <p class="font-mono text-xs font-bold uppercase tracking-widest text-hibiscus mb-2">Creatives, Hospo &amp; Personal Brands</p>
+            <p class="text-carbon/90">Cafes, restaurants, photographers, designers, speakers, podcasters, stylists, writers. <a href="/creatives" class="font-bold underline">More for creatives &rarr;</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NATIONWIDE -->
     <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
-            Simple Pricing for <span class="text-signal">NZ Businesses</span>
-          </h2>
-          <p class="text-xl text-gray-600">
-            No lock-in contracts. Cancel anytime. You own your domain, content, and design from day one.
-          </p>
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-8 leading-tight">
+          Working Across <span class="text-signal">All of New Zealand.</span>
+        </h2>
+        <p class="text-lg text-carbon/80 leading-relaxed mb-10">
+          Based in Whangārei, Aotearoa. Working remotely with clients in every corner of the country.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          {cities.map((city) => (
+            <span class="inline-block bg-white border border-carbon/20 px-4 py-2 text-sm font-bold text-carbon">
+              {city}
+            </span>
+          ))}
         </div>
-
-        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-
-          <!-- Starter -->
-          <div class="bg-white border-2 border-carbon p-8 flex flex-col">
-            <h3 class="text-2xl font-extrabold mb-2">The Starter</h3>
-            <p class="text-gray-500 mb-6">Perfect for getting found on Google</p>
-            <div class="mb-6">
-              <span class="text-4xl font-extrabold">$695</span>
-              <span class="text-gray-500"> + GST + $49/mo + GST</span>
-            </div>
-            <ul class="space-y-3 mb-8 flex-1 text-sm">
-              <li class="flex gap-2"><span class="text-signal">✓</span> One-page website</li>
-              <li class="flex gap-2"><span class="text-signal">✓</span> Domain & hosting</li>
-              <li class="flex gap-2"><span class="text-signal">✓</span> Mobile-first design</li>
-            </ul>
-            <a href="/pricing" class="block w-full bg-white text-carbon border-2 border-carbon text-center py-3 font-bold uppercase tracking-wider hover:bg-carbon hover:text-white transition-colors">
-              Learn More
-            </a>
-          </div>
-
-          <!-- Launch -->
-          <div class="bg-white border-2 border-signal p-8 flex flex-col shadow-hard">
-            <div class="absolute top-0 right-0 bg-signal text-white text-xs font-bold px-3 py-1 uppercase">Popular</div>
-            <h3 class="text-2xl font-extrabold mb-2 text-signal">The Launch</h3>
-            <p class="text-gray-500 mb-6">For tradies & retail</p>
-            <div class="mb-6">
-              <span class="text-4xl font-extrabold">$995</span>
-              <span class="text-gray-500"> + GST + $149/mo + GST</span>
-            </div>
-            <ul class="space-y-3 mb-8 flex-1 text-sm">
-              <li class="flex gap-2"><span class="text-signal">✓</span> 5-page professional site</li>
-              <li class="flex gap-2"><span class="text-signal">✓</span> Unlimited updates</li>
-              <li class="flex gap-2"><span class="text-signal">✓</span> Annual design refresh</li>
-            </ul>
-            <a href="/pricing" class="block w-full bg-signal text-white text-center py-3 font-bold uppercase tracking-wider hover:bg-blue-700 transition-colors">
-              Get Started
-            </a>
-          </div>
-
-          <!-- Growth -->
-          <div class="bg-white border-2 border-carbon p-8 flex flex-col">
-            <h3 class="text-2xl font-extrabold mb-2">The Growth</h3>
-            <p class="text-gray-500 mb-6">For salons & consultants</p>
-            <div class="mb-6">
-              <span class="text-4xl font-extrabold">$1,495</span>
-              <span class="text-gray-500"> + GST + $249/mo + GST</span>
-            </div>
-            <ul class="space-y-3 mb-8 flex-1 text-sm">
-              <li class="flex gap-2"><span class="text-signal">✓</span> Everything in Launch</li>
-              <li class="flex gap-2"><span class="text-signal">✓</span> Booking system</li>
-              <li class="flex gap-2"><span class="text-signal">✓</span> Priority Support (1 Business Day Response)</li>
-            </ul>
-            <a href="/pricing" class="block w-full bg-carbon text-white text-center py-3 font-bold uppercase tracking-wider hover:bg-gray-800 transition-colors">
-              Learn More
-            </a>
-          </div>
-
-        </div>
+        <p class="text-base text-carbon/70 mt-8 italic">
+          Not on the list? It doesn't matter. The whole process happens by phone, text, and email. Where you're based makes no difference.
+        </p>
       </div>
     </section>
 
     <!-- FAQ -->
     <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl font-extrabold mb-12 text-center">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 text-center">
           Common <span class="text-signal">Questions</span>
         </h2>
-
         <div class="space-y-8">
-          <div class="border-l-4 border-signal pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3">Do you only work with businesses in Northland?</h3>
-            <p class="text-gray-700 leading-relaxed">
-              No - we're based in Whangārei but work NZ-wide. Everything happens via phone, text, and email.
-            </p>
-          </div>
-
-          <div class="border-l-4 border-hibiscus pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3">How do you optimise for local search in my city?</h3>
-            <p class="text-gray-700 leading-relaxed">
-              We structure your content around your service area, implement local business schema, and connect your site properly to Google (including Maps setup on Launch/Growth).
-            </p>
-          </div>
-
-          <div class="border-l-4 border-frangipani pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3">What's the difference between YourHQ and a local web designer?</h3>
-            <p class="text-gray-700 leading-relaxed">
-              Local designers often take 6–12 weeks and charge $5k–$15k upfront. YourHQ builds in 5 days, includes ongoing care, and you can cancel anytime.
-            </p>
-          </div>
-
-          <div class="border-l-4 border-signal pl-6 py-4">
-            <h3 class="text-xl font-bold mb-3">Do you set up Google Business Profile for me?</h3>
-            <p class="text-gray-700 leading-relaxed">
-              Yes! On Launch and Growth plans, we set up or optimise your Google Business Profile - we claim and verify your listing (where needed), write your business description, set your service areas, upload photos, and link it to your website. We also ensure your site supports your listing with consistent NAP data and local business schema markup. Growth plans also include a review collection system.
-            </p>
-          </div>
+          {faqs.map((item) => (
+            <div class="border-l-4 border-signal pl-6 py-2">
+              <h3 class="text-xl font-bold mb-3 text-carbon">{item.q}</h3>
+              <p class="text-carbon/80 leading-relaxed">{item.a}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
 
-    <!-- CTA -->
+    <!-- FINAL CTA -->
     <section class="py-32 bg-carbon text-white text-center">
-      <div class="max-w-4xl mx-auto px-4">
-        <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">
-          Ready to Get Found <span class="text-signal">on Google?</span>
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-8 leading-tight">
+          Ready to Own<br/>Your Digital Home?
         </h2>
-        <p class="text-xl text-gray-300 mb-10">
-          Professional website design for NZ businesses. Built in 5 days. Kept sorted.
+        <p class="text-xl text-gray-300 mb-12 leading-relaxed">
+          One conversation. Live in 1 to 2 weeks.<br/>
+          Hand-coded, in your voice, looked after forever.
         </p>
-        <a href="/pricing" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-xl">
-          View Pricing & Packages
-        </a>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={buildLink} class="inline-block bg-signal text-white px-12 py-5 border-2 border-signal hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-lg">
+            Start Your Build
+          </a>
+          <a href="/pricing" class="inline-block bg-transparent text-white px-12 py-5 border-2 border-white hover:bg-white hover:text-carbon transition-colors font-bold uppercase tracking-widest text-lg">
+            See Pricing
+          </a>
+        </div>
       </div>
     </section>
 

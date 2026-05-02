@@ -2,461 +2,189 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
-import StructuredData from '../components/StructuredData.astro';
-import ContactInfo from '../components/ContactInfo.astro';
+
+const buildLink = "https://buy.stripe.com/00w00i6me14s4BLev9dZ604";
+
+const testimonials = [
+  { quote: "The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can't believe how good it is.", author: "Katie", role: "Rumours On Rust · Cafe, Whangārei", color: "border-hibiscus" },
+  { quote: "You helped me take that next step and build my dream. That was my barrier to market.", author: "Nicolette", role: "Ember & Ice · Wellness Studio", color: "border-deepGreen" }
+];
 ---
 
 <Layout
-  title="Websites for Creatives & Hospitality NZ | Own Your Audience | YourHQ"
-  description="Done-for-you websites for NZ cafés, salons, photographers & yoga studios. Built in 5 days. Stop renting your audience from Instagram. From $995 + GST."
+  title="Websites for Cafes, Studios & Creatives NZ | Hand-Coded, Looked After Forever | YourHQ"
+  description="Hand-coded websites for cafes, hospitality, studios, photographers, and creators. Your Instagram is your signal. Your website is the source. From $1,800 + GST. Looked after forever."
 >
-  <StructuredData slot="head" />
-
-  <!-- Navbar -->
   <Navbar client:load />
 
-  <main>
-    <!-- HERO SECTION -->
-    <section class="relative pt-20 pb-24 md:pt-32 md:pb-40 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+  <main class="bg-paper min-h-screen">
 
-          <div class="max-w-5xl">
-            <!-- Badge -->
-            <div class="inline-flex items-center gap-3 px-4 py-2 border-2 border-carbon bg-white shadow-hard-sm mb-8">
-              <span class="flex h-3 w-3 relative">
-                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-hibiscus opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-3 w-3 bg-hibiscus"></span>
-              </span>
-              <span class="text-xs font-mono font-bold uppercase tracking-widest text-carbon">Cafés • Salons • Photographers • Studios</span>
-            </div>
-
-            <!-- Headline -->
-            <h1 class="text-5xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] mb-8">
-              Your Work Deserves a Home That Isn't <br/>
-              <span class="text-hibiscus">Someone Else's App.</span>
-            </h1>
-
-            <!-- Subhead -->
-            <div class="border-l-4 border-carbon pl-6 mb-10 max-w-3xl">
-                <p class="text-xl md:text-2xl font-medium leading-relaxed text-carbon/90 mb-4">
-                  Instagram can change its algorithm tomorrow. Your account can be hacked. But a website is yours forever. 
-                </p>
-                <p class="text-lg text-gray-600 leading-relaxed">
-                  A website that actually brings in bookings, enquiries, and new clients - not just likes. Built in 5 days. One 15-minute vibe chat. We handle the rest.
-                </p>
-            </div>
-
-            <!-- CTAs -->
-            <div class="flex flex-col sm:flex-row gap-4 items-start">
-              <a href="/pricing" class="bg-hibiscus text-white px-8 py-5 text-center border-2 border-carbon shadow-hard hover:shadow-none hover:translate-y-[4px] transition-all font-bold uppercase tracking-widest text-sm md:text-base">
-                See Pricing &amp; Start Your Build
-              </a>
-              <a href="#process" class="bg-white text-carbon px-8 py-5 text-center border-2 border-carbon shadow-hard-sm hover:shadow-none hover:translate-y-[2px] transition-all font-bold uppercase tracking-widest text-sm md:text-base">
-                See How It Works
-              </a>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- TRUSTED BY -->
-    <section class="py-10 bg-white border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-8">
-        <p class="text-sm font-mono font-bold uppercase tracking-widest text-gray-400">Trusted by NZ Creatives</p>
-        <div class="flex flex-wrap items-center justify-center gap-10 md:gap-16">
-          <img src="/rumours-logo.webp" alt="Rumours on Rust" class="h-8 md:h-12 object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
-          <img src="/emberandice-logo.webp" alt="Ember and Ice" class="h-8 md:h-12 object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+    <!-- HERO -->
+    <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
+      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="inline-block py-1 px-3 rounded-full bg-hibiscus/10 text-hibiscus font-bold text-sm mb-6 tracking-wide uppercase font-mono">
+            For Hospo &amp; Creatives
+          </span>
+          <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] mb-8">
+            Your Instagram Is Your Signal.<br/>
+            <span class="text-hibiscus">Your Website Is the Source.</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-gray-700 max-w-3xl leading-relaxed mb-2">
+            Hand-coded websites for cafes, studios, photographers, and creators. Written in your voice. Built to feel like you walk through the door.
+          </p>
+          <p class="font-mono text-xs uppercase tracking-widest text-gray-500">
+            From $1,800 + GST &middot; from $129/mo &middot; Built in Aotearoa &middot; Working worldwide
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- SECTION 1: THE PROBLEM (RENTED VS OWNED) -->
-    <section class="py-24 bg-carbon text-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter leading-tight mb-6">
-                You Built Something Beautiful.<br/>
-                <span class="text-frangipani">But You Built It On Rented Land.</span>
-              </h2>
-              <div class="space-y-6 text-lg font-light text-gray-300 mt-8">
-                <p>Instagram is an amazing tool. But it's not your business. It's a platform you rent - and the landlord changes the rules whenever they feel like it.</p>
-                <p>When the algorithm shifts, your reach drops. When your account gets flagged, your bookings stop. When a new client Googles your business name instead of searching social media - <strong class="text-white font-medium">they find nothing.</strong></p>
-                <p>You've worked incredibly hard to build your craft and your reputation. A website means you finally own your audience, show up on Google, and take bookings while you sleep.</p>
-              </div>
-            </div>
-            
-            <!-- Rented vs Owned UI Card -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 transform rotate-1 hover:rotate-0 transition-transform duration-500">
-              <!-- Rented -->
-              <div class="bg-gray-900 border-2 border-gray-700 p-6 shadow-hard-white">
-                <span class="text-xs font-mono font-bold uppercase tracking-widest text-hibiscus mb-4 block">The App (Rented)</span>
-                <ul class="space-y-4 text-sm text-gray-400">
-                  <li class="flex gap-2"><span class="text-red-400">✗</span> Algorithm decides who sees you</li>
-                  <li class="flex gap-2"><span class="text-red-400">✗</span> Can't take deposits properly</li>
-                  <li class="flex gap-2"><span class="text-red-400">✗</span> Doesn't show up in local Google searches</li>
-                  <li class="flex gap-2"><span class="text-red-400">✗</span> Account can be suspended overnight</li>
-                </ul>
-              </div>
-              <!-- Owned -->
-              <div class="bg-white text-carbon border-2 border-white p-6 shadow-hard-white -ml-2 sm:-ml-8 mt-4 sm:mt-8 relative z-10">
-                <span class="text-xs font-mono font-bold uppercase tracking-widest text-hibiscus mb-4 block flex items-center gap-2">
-                  <span class="w-2 h-2 bg-hibiscus rounded-full animate-pulse"></span> Your Website (Owned)
-                </span>
-                <ul class="space-y-4 text-sm text-gray-700 font-medium">
-                  <li class="flex gap-2"><span class="text-hibiscus font-bold">✓</span> You own the traffic and the data</li>
-                  <li class="flex gap-2"><span class="text-hibiscus font-bold">✓</span> Direct bookings and payments</li>
-                  <li class="flex gap-2"><span class="text-hibiscus font-bold">✓</span> Ranks on Google for "Near Me" searches</li>
-                  <li class="flex gap-2"><span class="text-hibiscus font-bold">✓</span> Looks like an established, premium business</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- SECTION 2: THE VIBE MATCH -->
-    <section class="bg-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto">
-          <div class="grid md:grid-cols-2">
-
-            <!-- Left: Visual (Polaroid Style with Unsplash Image) -->
-            <div class="bg-carbon border-r border-carbon p-12 md:p-24 flex items-center justify-center min-h-[500px] relative overflow-hidden">
-              <div class="absolute inset-0 bg-[size:20px_20px] bg-grid-pattern opacity-20"></div>
-              
-              <!-- Polaroid Frame -->
-              <div class="relative w-full max-w-sm bg-white p-4 pb-16 border-2 border-carbon shadow-hard-white group z-10 transform -rotate-2 hover:rotate-0 transition-all duration-500">
-                <div class="aspect-square bg-gray-100 border-2 border-carbon overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1408&q=80" alt="Three creatives laughing at a table" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100" />
-                </div>
-                <div class="absolute bottom-5 left-0 w-full text-center font-mono text-sm font-bold uppercase tracking-widest text-carbon">
-                  100% On Brand
-                </div>
-              </div>
-            </div>
-
-            <!-- Right: The Content -->
-            <div class="p-8 md:p-24 flex flex-col justify-center bg-white">
-              <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-8 leading-tight">
-                A Website That Actually <br/>
-                <span class="text-hibiscus">Feels Like You.</span>
-              </h2>
-
-              <div class="prose text-carbon space-y-6 text-lg">
-                <p>Here's what stops most creatives from getting a website: the fear it'll look generic. Template-y. Like everyone else's. You've spent years building a distinct aesthetic - and you'd rather have no website than one that kills the vibe.</p>
-                <p>We get it. <strong>So we start with a conversation about your vibe before we touch a single pixel.</strong></p>
-                <p class="text-gray-500">We look at your space, your Instagram feed, and your brand colours. We build websites that feel like a digital extension of your physical business - not a cookie-cutter template.</p>
-
-                <div class="p-6 border-l-4 border-hibiscus bg-paper mt-8">
-                    <p class="font-extrabold text-xl mb-2">You don't need to be a designer.</p>
-                    <p class="text-base text-gray-700">Total time from you: one 15-minute vibe chat. We handle the rest.</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-    </section>
-
-    <!-- SECTION 3: THE PROCESS -->
-    <section id="process" class="py-24 bg-paper border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid md:grid-cols-12 gap-16">
-            <div class="md:col-span-5">
-               <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter leading-tight sticky top-24">
-                Built in 5 Days.<br/>
-                Zero Homework.<br/>
-                <span class="text-gray-400">Seriously.</span>
-              </h2>
-              <p class="text-xl text-gray-600 mt-6 leading-relaxed">
-                You're already working 50 hours a week on your craft. You don't have time to spend your weekend fighting with Squarespace.
-              </p>
-            </div>
-
-            <div class="md:col-span-7 space-y-0 mt-8 md:mt-0">
-              <!-- Step 1 -->
-              <div class="flex gap-6 md:gap-8 pb-16 border-l-2 border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-hibiscus border-4 border-paper flex items-center justify-center text-white font-bold text-xs">1</div>
-                <div>
-                  <h3 class="text-2xl font-extrabold mb-3">The Vibe Chat (15 mins)</h3>
-                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
-                    A quick 15-minute conversation - between clients, on your lunch break, or after a shift. We ask about your style, your customers, your story. You don't write anything down.
-                  </p>
-                  <span class="inline-block bg-white px-3 py-1 text-xs font-mono font-bold uppercase border border-carbon shadow-hard-sm">No Typing Required</span>
-                </div>
-              </div>
-
-              <!-- Step 2 -->
-              <div class="flex gap-6 md:gap-8 pb-16 border-l-2 border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-carbon border-4 border-paper flex items-center justify-center text-white font-bold text-xs">2</div>
-                <div>
-                  <h3 class="text-2xl font-extrabold mb-3">We Do the Digging (0 mins)</h3>
-                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
-                    We pull your best photos from Instagram, Facebook, and Google. We write the copy. We research your story. No chasing files, no sending messy Dropbox links.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Step 3 -->
-              <div class="flex gap-6 md:gap-8 pb-16 border-l-2 border-carbon pl-8 md:pl-12 relative">
-                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-frangipani border-4 border-paper flex items-center justify-center text-carbon font-bold text-xs">3</div>
-                <div>
-                  <h3 class="text-2xl font-extrabold mb-3">The Factory Build (Days 1-4)</h3>
-                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
-                    We build your site - custom design that matches your aesthetic, mobile-first (because your clients are on their phones), booking integrations, gallery, the lot.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Step 4 -->
-              <div class="flex gap-6 md:gap-8 border-l-2 border-transparent pl-8 md:pl-12 relative">
-                <div class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-carbon border-4 border-paper flex items-center justify-center text-white font-bold text-xs">4</div>
-                <div>
-                  <h3 class="text-2xl font-extrabold mb-3">Preview on Day 5 (Love it or Refund)</h3>
-                  <p class="text-gray-600 mb-4 text-lg leading-relaxed">
-                    We send a private preview link. If it doesn't feel right, we fix it. If you don't love it at all, full refund of your setup fee (minus ~3% processing + any domain costs).
-                  </p>
-                  <span class="inline-block bg-carbon text-white px-3 py-1 text-xs font-mono font-bold uppercase border border-carbon shadow-hard-sm">Risk-Free Launch</span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- SECTION 4: THE MATH (ROI DOCKET) -->
-    <section class="py-24 bg-carbon border-b border-carbon relative overflow-hidden">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            
-            <div class="text-center mb-12">
-                <h2 class="text-4xl md:text-5xl font-extrabold text-white tracking-tighter mb-4">
-                    The Cost of Being Invisible
-                </h2>
-                <p class="text-xl text-gray-400">The question isn't "can I afford a website?" <br/>It's "can I afford to keep losing clients to competitors who have one?"</p>
-            </div>
-
-            <!-- The Docket UI -->
-            <div class="bg-white p-8 md:p-12 shadow-hard-white border-t-8 border-hibiscus relative mx-auto max-w-2xl">
-                
-                <div class="text-center mb-8 border-b-2 border-dashed border-gray-300 pb-8">
-                    <p class="font-mono text-sm text-gray-500 uppercase tracking-widest mb-2">Lost Revenue Docket</p>
-                    <p class="font-bold text-2xl text-carbon">Creative & Hospitality</p>
-                    <p class="font-mono text-xs text-gray-400 mt-2">DATE: {new Date().toLocaleDateString()}</p>
-                </div>
-
-                <div class="space-y-4 font-mono text-sm md:text-base text-carbon border-b-2 border-dashed border-gray-300 pb-8 mb-8">
-                    <div class="flex justify-between items-end">
-                        <span class="text-gray-600">Quiet Saturday at Salon (4 missed clients)</span>
-                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
-                        <span class="font-bold text-red-500">-$400</span>
-                    </div>
-                    <div class="flex justify-between items-end">
-                        <span class="text-gray-600">Photographer missed one wedding booking</span>
-                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
-                        <span class="font-bold text-red-500">-$2,500</span>
-                    </div>
-                    <div class="flex justify-between items-end">
-                        <span class="text-gray-600">Café losing locals to place with a menu online</span>
-                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
-                        <span class="font-bold text-red-500">Ongoing</span>
-                    </div>
-                    
-                    <div class="pt-6 mt-6 border-t border-gray-100"></div>
-                    
-                    <div class="flex justify-between items-end text-lg">
-                        <span class="font-bold text-hibiscus">YourHQ Growth (With FOUNDING26)</span>
-                        <span class="font-bold border-b border-gray-200 border-dotted flex-1 mx-4 mb-1"></span>
-                        <span class="font-bold text-hibiscus">$747.50 Setup</span>
-                    </div>
-                </div>
-
-                <div class="bg-paper p-6 text-center border border-carbon/10">
-                    <p class="text-xl font-extrabold text-carbon mb-2">Breakeven = ~1 to 2 extra bookings.</p>
-                    <p class="text-sm text-gray-600">Just one new premium client who finds you on Google covers the entire setup. Everything else is profit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION: WHAT WE BUILD FOR YOU -->
+    <!-- THE PAIN -->
     <section class="py-24 bg-white border-b border-carbon">
-        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight mb-8">
-                Everything Your Business Needs Online. <br/>
-                <span class="text-hibiscus">Nothing You Have to Manage.</span>
-              </h2>
-
-              <div class="prose text-carbon space-y-6 text-lg">
-                <p>You want bookings. You want to show up on Google. You want something that looks as good as your Instagram - without the platform risk.</p>
-                <p class="font-extrabold text-2xl text-carbon pt-6 border-t border-carbon/10">
-                  We build it. We maintain it. You just do your work.
-                </p>
-                <p>Need to update your menu? Got new portfolio shots? Just text us. We handle the changes - no logins, no confusing page builders, no drama.</p>
-              </div>
-            </div>
-
-            <div class="bg-paper p-8 md:p-12 border-2 border-carbon shadow-hard">
-                <p class="font-mono font-bold text-sm uppercase tracking-widest text-hibiscus mb-8">Built For Your Kind of Business</p>
-                <ul class="space-y-5">
-                    <li class="flex gap-4 items-start">
-                        <div class="w-6 h-6 rounded bg-carbon text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
-                        <span class="font-medium text-lg">Mobile-first design - clients browse on their phones</span>
-                    </li>
-                    <li class="flex gap-4 items-start">
-                        <div class="w-6 h-6 rounded bg-carbon text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
-                        <span class="font-medium text-lg">Online booking integration (Fresha, Timely, etc.)</span>
-                    </li>
-                    <li class="flex gap-4 items-start">
-                        <div class="w-6 h-6 rounded bg-carbon text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
-                        <span class="font-medium text-lg">Portfolio & gallery pages that show your work properly</span>
-                    </li>
-                    <li class="flex gap-4 items-start">
-                        <div class="w-6 h-6 rounded bg-carbon text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
-                        <span class="font-medium text-lg">Menu / service list / pricing display</span>
-                    </li>
-                    <li class="flex gap-4 items-start">
-                        <div class="w-6 h-6 rounded bg-carbon text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
-                        <span class="font-medium text-lg">Google review collection system</span>
-                    </li>
-                    <li class="flex gap-4 items-start">
-                        <div class="w-6 h-6 rounded bg-hibiscus text-white flex items-center justify-center flex-shrink-0 mt-0.5"><span class="text-sm">✓</span></div>
-                        <span class="font-bold text-lg text-hibiscus">Annual design refresh included</span>
-                    </li>
-                </ul>
-            </div>
-          </div>
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-10 leading-tight">
+          You've Built Something Beautiful.<br/>
+          <span class="text-gray-400">It Deserves a Permanent Home.</span>
+        </h2>
+        <div class="space-y-6 text-lg text-carbon/90 leading-relaxed">
+          <p>
+            Your Instagram looks the part. Your space looks the part. The work itself looks the part. But there's no single place online where someone can land and get the whole picture.
+          </p>
+          <p>
+            Social is rented. The algorithm decides who sees you. One platform change and your reach drops. One hacked account and your audience disappears.
+          </p>
+          <p>
+            A website fixes that. It's the source. The thing that keeps existing whether you post today or not. The place every other digital path leads.
+          </p>
+          <p class="font-bold text-carbon">
+            Your aesthetic, captured properly. Your story, told in your voice. Owned by you, unconditionally.
+          </p>
         </div>
+      </div>
     </section>
 
-    <!-- SECTION: PRICING -->
-    <section id="offer" class="py-24 bg-paper border-b border-carbon">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          <div class="text-center max-w-3xl mx-auto mb-16">
-             <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-6">Simple Pricing.</h2>
-             <p class="text-xl text-carbon/80 leading-relaxed">
-               No lock-in. You own your domain and site from day one.
-             </p>
-          </div>
-
-          <div class="max-w-lg mx-auto">
-             <!-- Growth Package Card -->
-             <div class="p-8 border-4 border-hibiscus bg-white flex flex-col relative shadow-hard transform md:scale-105 z-10">
-
-                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-hibiscus text-white px-6 py-2 font-mono font-bold uppercase tracking-widest text-sm shadow-sm whitespace-nowrap">
-                    Recommended for Creatives & Studios
-                </div>
-
-                <div class="mb-8 mt-4 text-center">
-                    <h3 class="text-3xl font-extrabold mb-2">The Growth</h3>
-                    <p class="text-gray-500">Premium 7-Page Vibe-Matched Site</p>
-                </div>
-
-                <!-- PRICING STACK -->
-                <div class="text-center mb-8 bg-gray-50 p-6 border border-gray-200">
-                    <div class="flex flex-col items-center justify-center gap-1 mb-2">
-                        <span class="text-6xl font-extrabold tracking-tighter text-hibiscus">$1,495</span>
-                        <span class="text-gray-500 font-mono text-xs uppercase tracking-widest">+ GST (One-Off Setup)</span>
-                    </div>
-                    <div class="w-full h-px bg-gray-200 my-4"></div>
-                    <div class="flex items-baseline justify-center gap-2">
-                        <span class="text-2xl font-bold text-gray-700">$249</span>
-                        <span class="text-gray-500 font-mono text-sm">/mo + GST</span>
-                    </div>
-                </div>
-
-                <ul class="space-y-4 mb-8 flex-1">
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-hibiscus font-bold">✓</span> 7-page custom professional website</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-hibiscus font-bold">✓</span> 15-minute vibe chat (no homework)</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-hibiscus font-bold">✓</span> Domain + hosting included</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-hibiscus font-bold">✓</span> Booking integration (Fresha, etc)</li>
-                    <li class="flex gap-3 text-sm font-medium"><span class="text-hibiscus font-bold">✓</span> Google review collection system</li>
-                    <li class="flex gap-3 text-sm font-bold bg-hibiscus/10 px-2 py-1 -mx-2"><span class="text-hibiscus">✓</span> Annual design refresh included</li>
-                    <li class="flex gap-3 text-sm font-bold bg-hibiscus/10 px-2 py-1 -mx-2"><span class="text-hibiscus">✓</span> Unlimited text/photo updates</li>
-                </ul>
-
-                <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="w-full block bg-hibiscus text-white text-center py-5 font-bold uppercase tracking-widest hover:bg-carbon transition-colors text-lg shadow-hard-sm hover:shadow-none hover:translate-y-[2px]">
-                    Start Growth Build
-                </a>
-
-                <p class="text-center text-xs mt-6 text-gray-500 font-mono">
-                    "Love Your Launch" Guarantee:<br/>Full refund if you don't love the preview.
-                </p>
-             </div>
-          </div>
-
-          <div class="text-center mt-16 max-w-xl mx-auto">
-            <p class="text-gray-500 text-sm mb-4">Not ready for Growth? The Launch plan ($995 setup + $149/mo) gives you a solid 5-page foundation.</p>
-            <a href="/pricing" class="text-hibiscus font-bold underline text-sm hover:text-carbon transition-colors">Compare all plans →</a>
-          </div>
-
-        </div>
-    </section>
-
-    <!-- SECTION: REAL TALK / FAQ -->
-    <section class="py-24 bg-white border-b border-carbon">
+    <!-- BUILT FOR -->
+    <section class="py-24 bg-paper border-b border-carbon">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
-            Yeah, <span class="text-hibiscus">But...</span>
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
+            Built For People<br/>
+            <span class="text-gray-400">Whose Aesthetic Is the Product.</span>
           </h2>
-          <p class="text-xl text-gray-600">The questions we hear from creatives every day.</p>
+          <div class="grid md:grid-cols-2 gap-0 border-l border-t border-carbon">
+            {[
+              ['Cafes &amp; Restaurants', 'Independent hospitality with a vibe to match'],
+              ['Wellness Studios', 'Yoga, pilates, recovery, therapy spaces'],
+              ['Photographers', 'Portrait, wedding, brand, editorial'],
+              ['Designers &amp; Stylists', 'Interior, fashion, brand'],
+              ['Tattoo &amp; Body Art', 'Studios, residencies, traveling artists'],
+              ['Speakers, Podcasters, Writers', 'Anyone whose name is the brand']
+            ].map(([trade, sub]) => (
+              <div class="bg-white border-r border-b border-carbon p-6">
+                <p class="font-extrabold text-lg mb-1">{trade}</p>
+                <p class="font-mono text-xs uppercase tracking-widest text-gray-500">{sub}</p>
+              </div>
+            ))}
+          </div>
         </div>
+      </div>
+    </section>
 
-        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <!-- FAQ 1 -->
-          <div class="bg-paper border-l-4 border-hibiscus p-8 shadow-sm">
-            <h3 class="text-lg font-bold mb-3 text-carbon">"My Instagram IS my website. Why do I need anything else?"</h3>
-            <p class="text-gray-700 leading-relaxed text-sm">
-              Instagram is brilliant for reaching people who already follow you. But when someone Googles "[your service] near me," your Instagram doesn't show up - your website does. One algorithm change and your reach drops overnight. Own your land.
-            </p>
-          </div>
+    <!-- WHAT YOU GET -->
+    <section class="py-24 bg-white border-b border-carbon">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
+          What You Get.<br/>
+          <span class="text-gray-400">All In.</span>
+        </h2>
 
-          <!-- FAQ 2 -->
-          <div class="bg-paper border-l-4 border-carbon p-8 shadow-sm">
-            <h3 class="text-lg font-bold mb-3 text-carbon">"I'm worried it'll look generic. I have a very specific aesthetic."</h3>
-            <p class="text-gray-700 leading-relaxed text-sm">
-              This is exactly why we start with a 15-minute vibe chat. We look at your Instagram, your space, and your colours. The goal is a site that feels like a digital extension of your physical business - not a template someone else used.
-            </p>
-          </div>
+        <ul class="space-y-5 text-lg text-carbon/90">
+          <li class="flex gap-4 border-b border-carbon/10 pb-5">
+            <span class="text-hibiscus text-2xl">&check;</span>
+            <div>
+              <p class="font-bold text-carbon">A site that captures the feeling, not just the facts.</p>
+              <p class="text-base text-carbon/70">Written in your voice from the Drive-Home Interview. Reviewed by me before a line of code is written.</p>
+            </div>
+          </li>
+          <li class="flex gap-4 border-b border-carbon/10 pb-5">
+            <span class="text-hibiscus text-2xl">&check;</span>
+            <div>
+              <p class="font-bold text-carbon">Socials embedded, content raid included.</p>
+              <p class="text-base text-carbon/70">Instagram, Facebook, Threads, X, LinkedIn — whichever you use, brought across. I pull what's already on your socials. You don't dig through your camera roll.</p>
+            </div>
+          </li>
+          <li class="flex gap-4 border-b border-carbon/10 pb-5">
+            <span class="text-hibiscus text-2xl">&check;</span>
+            <div>
+              <p class="font-bold text-carbon">Add bookings or payments when you need them.</p>
+              <p class="text-base text-carbon/70">Calendly or Acuity embedded. Stripe wired in for deposits, session packs, or digital products. Power-Ups added at checkout.</p>
+            </div>
+          </li>
+          <li class="flex gap-4 border-b border-carbon/10 pb-5">
+            <span class="text-hibiscus text-2xl">&check;</span>
+            <div>
+              <p class="font-bold text-carbon">Owned by you. Unconditionally.</p>
+              <p class="text-base text-carbon/70">Domain in your name from day one. If you ever leave, you take everything.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <span class="text-hibiscus text-2xl">&check;</span>
+            <div>
+              <p class="font-bold text-carbon">Refreshed every year, included.</p>
+              <p class="text-base text-carbon/70">As your work evolves, your digital home evolves with it. New layout, new energy, no rebuild invoice.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-          <!-- FAQ 3 -->
-          <div class="bg-paper border-l-4 border-carbon p-8 shadow-sm">
-            <h3 class="text-lg font-bold mb-3 text-carbon">"I already tried Squarespace and hated it."</h3>
-            <p class="text-gray-700 leading-relaxed text-sm">
-              That's because building a website is a totally different skill set from running a creative business. You're not supposed to know how to do DNS, image compression, or mobile optimization. Let us handle the tech.
-            </p>
-          </div>
-
-          <!-- FAQ 4 -->
-          <div class="bg-paper border-l-4 border-hibiscus p-8 shadow-sm">
-            <h3 class="text-lg font-bold mb-3 text-carbon">"What if I need to update my menu or prices?"</h3>
-            <p class="text-gray-700 leading-relaxed text-sm">
-              Just text or email us. We make the change. No logins, no fighting with page builders. Unlimited text and photo updates are included in your monthly plan.
-            </p>
-          </div>
+    <!-- TESTIMONIALS -->
+    <section class="py-24 bg-paper border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-16 text-center">
+          Real Spaces. <span class="text-hibiscus">Real Stories.</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          {testimonials.map((t) => (
+            <div class={`bg-white text-carbon p-8 border-l-8 ${t.color} shadow-hard-sm`}>
+              <p class="text-lg italic leading-relaxed mb-6">"{t.quote}"</p>
+              <div class="border-t border-carbon/10 pt-4">
+                <p class="font-extrabold">{t.author}</p>
+                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest">{t.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div class="text-center mt-12">
+          <a href="/portfolio" class="inline-block font-bold uppercase tracking-widest text-sm text-carbon border-b-2 border-hibiscus hover:text-hibiscus transition-colors">
+            See the full portfolio &rarr;
+          </a>
         </div>
       </div>
     </section>
 
     <!-- FINAL CTA -->
     <section class="py-32 bg-carbon text-white text-center">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-8">Stop Renting. Start Owning.</h2>
-            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">Your work is beautiful. Your business is real. Let's give it a home you actually own - built in 5 days, with one 15-minute chat.</p>
-
-            <a href="https://buy.stripe.com/fZu9ASdOG5kI7NXbiXdZ601" class="inline-block bg-white text-carbon px-12 py-6 border-2 border-white hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-lg md:text-xl mb-12">
-              Start Your Build
-            </a>
-
-            <ContactInfo variant="cta" class="border-t border-white/20 pt-8" showLocation={false} />
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-8 leading-tight">
+          The Source. <span class="text-hibiscus">Built Properly.</span>
+        </h2>
+        <p class="text-xl text-gray-300 mb-12 leading-relaxed">
+          One conversation. Live in 1 to 2 weeks.<br/>
+          Hand-coded, in your voice, looked after forever.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={buildLink} class="inline-block bg-hibiscus text-white px-12 py-5 border-2 border-hibiscus hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-lg">
+            Start Your Build
+          </a>
+          <a href="/pricing" class="inline-block bg-transparent text-white px-12 py-5 border-2 border-white hover:bg-white hover:text-carbon transition-colors font-bold uppercase tracking-widest text-lg">
+            See Pricing
+          </a>
         </div>
+      </div>
     </section>
 
   </main>
-
   <Footer />
 </Layout>

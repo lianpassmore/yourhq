@@ -8,10 +8,10 @@ const organizationSchema = {
   "url": "https://yourhq.co.nz",
   "logo": "https://yourhq.co.nz/favicon.svg",
   "foundingDate": "2024",
-  "description": "Professional websites for Kiwi businesses. Built in 5 business days. Managed forever.",
+  "description": "Hand-coded, permanently owned websites for established business owners and personal brands. Founded in Aotearoa New Zealand. Clients worldwide.",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Northland",
+    "addressLocality": "Whangārei",
     "addressRegion": "Northland",
     "addressCountry": "NZ"
   },
@@ -24,6 +24,7 @@ const organizationSchema = {
   },
   "sameAs": [
     "https://www.facebook.com/yourhqnz",
+    "https://www.instagram.com/yourhq_/",
     "https://www.linkedin.com/company/yourhq"
   ],
   "founder": {
@@ -37,12 +38,12 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   "name": "YourHQ",
   "image": "https://yourhq.co.nz/og-image.jpg",
-  "priceRange": "$695 - $1,495",
+  "priceRange": "$$",
   "telephone": "+64-22-172-5793",
   "email": "hello@yourhq.co.nz",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Northland",
+    "addressLocality": "Whangārei",
     "addressRegion": "Northland",
     "addressCountry": "New Zealand"
   },
@@ -69,7 +70,7 @@ const localBusinessSchema = {
 const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Website Design and Development",
+  "serviceType": "Website Design, Development, and Ongoing Care",
   "provider": {
     "@type": "Organization",
     "name": "YourHQ"
@@ -80,52 +81,30 @@ const servicesSchema = {
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Website Packages",
+    "name": "Website Build and Caretaker",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "The Starter Package",
-          "description": "One-page professional website"
+          "name": "The Build",
+          "description": "Hand-coded website. Up to 8 pages. Written in your voice from one Drive-Home Interview. Includes blog and resources architecture, portfolio and case study layouts, media and press section, socials embed (Instagram, Facebook, Threads, X, LinkedIn), Google Business Profile setup or optimisation, enquiry form, basic email capture, SEO and AI search optimisation, stock or AI-optimised photos, domain, and hosting."
         },
-        "price": "695",
-        "priceCurrency": "NZD",
-        "priceSpecification": {
-          "@type": "UnitPriceSpecification",
-          "price": "49",
-          "priceCurrency": "NZD",
-          "unitText": "MONTH"
-        }
+        "price": "1800",
+        "priceCurrency": "NZD"
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "The Launch Package",
-          "description": "5-page professional website for tradies and retail"
+          "name": "Caretaker Subscription",
+          "description": "Ongoing hosting, security, on-demand updates, and an annual design refresh after 12 months. Sorted, Connected, and Building tiers."
         },
-        "price": "995",
+        "price": "129",
         "priceCurrency": "NZD",
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
-          "price": "149",
-          "priceCurrency": "NZD",
-          "unitText": "MONTH"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "The Growth Package",
-          "description": "Complete website with booking system for salons and consultants"
-        },
-        "price": "1495",
-        "priceCurrency": "NZD",
-        "priceSpecification": {
-          "@type": "UnitPriceSpecification",
-          "price": "249",
+          "price": "129",
           "priceCurrency": "NZD",
           "unitText": "MONTH"
         }

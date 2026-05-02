@@ -1,0 +1,167 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+
+const stripeLink = "https://buy.stripe.com/dRmbJ025YfZm6JT4UzdZ606";
+---
+
+<Layout
+  title="Building Caretaker | YourHQ"
+  description="Level 3 Caretaker. $249/month. 2 hours of included dev time, plus everything in Connected, plus Stripe payment flow monitoring. For sites that are an active revenue channel."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white pb-32">
+
+    <!-- HERO -->
+    <section class="pt-24 md:pt-32 pb-20 border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-terracotta mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-terracotta"></span> Caretaker &middot; Level 3
+          </span>
+          <h1 class="font-display font-bold text-hero uppercase tracking-tight leading-none mb-8 text-carbon">
+            Building.<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">For An Active Revenue Channel.</span>
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-2xl">
+            Your site is pushing harder. Adding products, running campaigns, generating active revenue. The business demands more time, and the care level matches.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICE + INCLUSIONS -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+
+          <!-- Price card (Sticky) -->
+          <div class="lg:col-span-5 relative">
+            <div class="bg-surface rounded-3xl p-8 md:p-10 border border-carbon/5 shadow-elegant sticky top-32">
+              <p class="font-mono text-badge uppercase tracking-widest text-terracotta mb-4">Building</p>
+
+              <div class="flex items-baseline gap-2 mb-4">
+                <span class="font-display font-bold text-[4rem] leading-none text-carbon tracking-tight">$249</span>
+                <span class="font-mono text-badge text-softGrey uppercase">/ month</span>
+              </div>
+
+              <p class="font-mono text-[10px] text-softGrey uppercase tracking-widest mb-10 pb-6 border-b border-carbon/5 leading-relaxed">
+                + GST &middot; cancel anytime <br/> 30 days notice
+              </p>
+
+              <a href={stripeLink} class="block w-full bg-terracotta text-white text-center px-8 py-4 rounded-full font-medium text-ui shadow-subtle hover:shadow-float hover:bg-carbon transition-all duration-300 mb-6">
+                Start Building
+              </a>
+
+              <a href="/pricing" class="block text-center font-sans text-ui font-medium text-softGrey hover:text-carbon transition-colors">
+                Compare All Tiers &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Inclusions -->
+          <div class="lg:col-span-7 pt-4">
+            <h2 class="font-display font-bold text-display uppercase tracking-tight mb-12 text-carbon">
+              What's <span class="font-serif italic text-softGrey normal-case font-normal">Included.</span>
+            </h2>
+
+            <div class="bg-surface rounded-2xl p-6 border border-carbon/5 shadow-subtle mb-10 relative overflow-hidden">
+              <div class="absolute top-0 left-0 w-1 h-full bg-signal"></div>
+              <p class="font-mono text-badge uppercase tracking-widest text-signal mb-2">Everything in Connected</p>
+              <p class="font-sans text-body text-softGrey">
+                Hosting, SSL, backups, security, on-demand updates, annual design refresh, plus monitoring of booking and email integrations.
+              </p>
+            </div>
+
+            <p class="font-mono text-badge uppercase tracking-widest text-terracotta mb-6">Plus, on top</p>
+
+            <ul class="space-y-6 font-sans text-body text-softGrey mb-16">
+              <li class="flex gap-5 border-b border-carbon/5 pb-6">
+                <span class="text-terracotta text-2xl font-serif mt-1">&check;</span>
+                <div>
+                  <p class="font-sans font-bold text-carbon text-lg mb-1">2 hours of included dev time</p>
+                  <p class="text-softGrey">Each month. For the steady stream of changes a revenue site needs — products, campaigns, refinements. Beyond that, written estimate before anything starts.</p>
+                </div>
+              </li>
+              <li class="flex gap-5 border-b border-carbon/5 pb-6">
+                <span class="text-terracotta text-2xl font-serif mt-1">&check;</span>
+                <div>
+                  <p class="font-sans font-bold text-carbon text-lg mb-1">Stripe payment flow monitoring</p>
+                  <p class="text-softGrey">Checkout, webhooks, payment confirmations. If money stops flowing the way it should, I'm on it before you find out from a customer.</p>
+                </div>
+              </li>
+              <li class="flex gap-5 border-b border-carbon/5 pb-6">
+                <span class="text-terracotta text-2xl font-serif mt-1">&check;</span>
+                <div>
+                  <p class="font-sans font-bold text-carbon text-lg mb-1">Payment flow testing</p>
+                  <p class="text-softGrey">Regular end-to-end checks of your live checkout, so you don't discover a broken flow with a missed sale.</p>
+                </div>
+              </li>
+              <li class="flex gap-5">
+                <span class="text-terracotta text-2xl font-serif mt-1">&check;</span>
+                <div>
+                  <p class="font-sans font-bold text-carbon text-lg mb-1">Product updates</p>
+                  <p class="text-softGrey">New session pack, refreshed PDF, updated price. Just text me — counts toward your included dev time.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="bg-surface rounded-2xl p-8 border border-carbon/5 shadow-subtle relative overflow-hidden">
+              <div class="absolute top-0 left-0 w-1 h-full bg-terracotta"></div>
+              <p class="font-display font-bold text-subhead text-carbon mb-2">When Building is right for you</p>
+              <p class="font-sans text-body text-softGrey leading-relaxed">
+                Your site is part of how you make money. You're selling through it — services, digital products, courses — running campaigns, adding products, pushing it harder than a credibility site. The care level matches the activity.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PAUSE / CANCEL -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-mono text-badge uppercase tracking-widest text-signal mb-4">Pause Anytime</p>
+            <p class="font-sans text-body text-softGrey leading-relaxed">
+              Hosting and security continue. Site stays live. Annual refresh clock pauses. No penalty.
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300">
+            <p class="font-mono text-badge uppercase tracking-widest text-terracotta mb-4">Cancel Anytime</p>
+            <p class="font-sans text-body text-softGrey leading-relaxed">
+              30 days notice. Full static export of your site. You own your domain, content, and design from day one.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HELP CTA -->
+    <section class="py-32 bg-carbon text-bone text-center px-4">
+      <div class="max-w-3xl mx-auto">
+        <span class="font-mono text-badge uppercase text-terracotta block mb-6">The Next Step</span>
+        <h2 class="font-display font-bold text-display uppercase tracking-tight mb-12 text-white">
+          Questions Before <br/>
+          <span class="font-serif italic text-bone/60 normal-case font-normal">You Sign Up?</span>
+        </h2>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href="sms:0221725793" class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
+            Text 022 172 5793
+          </a>
+          <a href="mailto:hello@yourhq.co.nz" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
+            Email hello@yourhq.co.nz
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

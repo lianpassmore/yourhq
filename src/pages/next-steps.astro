@@ -1,0 +1,153 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Welcome to YourHQ | Next Steps"
+  description="Your build is confirmed. Here's what happens next."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone text-carbon min-h-screen font-sans selection:bg-deepGreen selection:text-white">
+
+    <!-- SUCCESS HEADER -->
+    <section class="pt-32 pb-24 border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+
+        <!-- Elegant Success Icon -->
+        <div class="mb-10 flex justify-center">
+          <div class="w-16 h-16 bg-surface rounded-full flex items-center justify-center border border-carbon/10 shadow-subtle text-signal font-serif italic text-3xl">
+            &check;
+          </div>
+        </div>
+
+        <p class="font-mono text-badge text-signal mb-6">Payment Confirmed</p>
+        
+        <!-- Display Headline -->
+        <h1 class="font-display text-hero font-bold text-carbon mb-6">
+          Welcome to YourHQ.
+        </h1>
+        
+        <!-- The Whisper / Tension Technique -->
+        <p class="font-serif italic text-headline text-terracotta max-w-2xl mx-auto">
+          You've just made the move. From here, I take over.
+        </p>
+      </div>
+    </section>
+
+    <!-- WHAT'S NEXT TIMELINE -->
+    <section class="py-24 bg-white border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+
+        <div class="max-w-3xl mx-auto">
+          <h2 class="font-display text-display font-bold text-carbon mb-16 text-center">
+            Here's What Happens Next.
+          </h2>
+
+          <div class="relative">
+            <!-- Continuous Timeline Line -->
+            <div class="absolute left-[11px] md:left-[15px] top-2 bottom-0 w-[1px] bg-carbon/10"></div>
+
+            <!-- Step 1: Action Required (Signal) -->
+            <div class="relative pl-12 md:pl-16 pb-16 group">
+              <div class="absolute left-[7px] md:left-[11px] top-1.5 w-[9px] h-[9px] rounded-full bg-signal ring-4 ring-white"></div>
+              
+              <span class="inline-block font-mono text-badge text-signal mb-3">Step 01 &middot; Right Now</span>
+              <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">Complete Your Discovery Interview</h3>
+              <p class="font-sans text-body text-softGrey mb-8 max-w-xl">
+                This is where I capture your story. Hands-free, in your own time. Most people knock it out on the drive home.
+              </p>
+              <a href="/discovery-interview" class="inline-block bg-signal text-white rounded-full px-8 py-3.5 text-ui font-medium hover:bg-carbon hover:shadow-float transition-all duration-300">
+                Start Your Discovery Interview &rarr;
+              </a>
+            </div>
+
+            <!-- Step 2: Infrastructure (Carbon) -->
+            <div class="relative pl-12 md:pl-16 pb-16 group">
+              <div class="absolute left-[7px] md:left-[11px] top-1.5 w-[9px] h-[9px] rounded-full bg-carbon/40 ring-4 ring-white group-hover:bg-carbon transition-colors"></div>
+              
+              <span class="inline-block font-mono text-badge text-softGrey mb-3">Step 02 &middot; Within 24 Hours</span>
+              <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">Check Your Email</h3>
+              <p class="font-sans text-body text-softGrey max-w-xl">
+                You'll get a confirmation email with a link to a shared Drive folder. Drop any logos, photos, or documents you'd like included in there. If you think of something later, email it across or add it to the folder anytime.
+              </p>
+            </div>
+
+            <!-- Step 3: Human Touch / Copywriting (Terracotta) -->
+            <div class="relative pl-12 md:pl-16 pb-16 group">
+              <div class="absolute left-[7px] md:left-[11px] top-1.5 w-[9px] h-[9px] rounded-full bg-terracotta ring-4 ring-white"></div>
+              
+              <span class="inline-block font-mono text-badge text-terracotta mb-3">Step 03 &middot; Week One</span>
+              <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">I Write Your Copy</h3>
+              <p class="font-sans text-body text-softGrey max-w-xl">
+                In your voice, drawn from your interview and the content raid. You'll see every section before I build a thing. One round of feedback.
+              </p>
+            </div>
+
+            <!-- Step 4: The Build (Carbon) -->
+            <div class="relative pl-12 md:pl-16 pb-16 group">
+              <div class="absolute left-[7px] md:left-[11px] top-1.5 w-[9px] h-[9px] rounded-full bg-carbon/40 ring-4 ring-white group-hover:bg-carbon transition-colors"></div>
+              
+              <span class="inline-block font-mono text-badge text-softGrey mb-3">Step 04 &middot; Week Two</span>
+              <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">The Build &amp; Preview</h3>
+              <p class="font-sans text-body text-softGrey max-w-xl">
+                Hand-coded. Mobile-first. Built for standard search and AI answers. You see it all on a private link before anything goes live.
+              </p>
+            </div>
+
+            <!-- Step 5: Ownership (Deep Green) -->
+            <div class="relative pl-12 md:pl-16 group">
+              <div class="absolute left-[7px] md:left-[11px] top-1.5 w-[9px] h-[9px] rounded-full bg-deepGreen ring-4 ring-white"></div>
+              
+              <span class="inline-block font-mono text-badge text-deepGreen mb-3">Step 05 &middot; Go Live</span>
+              <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">Pick Your Caretaker Tier</h3>
+              <p class="font-sans text-body text-softGrey max-w-xl">
+                Once you've said yes, I'll send you the right Caretaker subscription. That keeps your site hosted, secure, updated, and refreshed every 12 months. Pay monthly. Cancel anytime.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HEAD START CTA -->
+    <section class="py-24 bg-surface border-b border-carbon/10">
+      <div class="max-w-3xl mx-auto px-6 text-center">
+        <h2 class="font-display text-headline font-bold text-carbon mb-6">
+          The Sooner You Talk to Me, the Sooner You're Live.
+        </h2>
+        <p class="font-sans text-body text-softGrey mb-10">
+          Ten to fifteen minutes is all it takes. Do it now while it's fresh.
+        </p>
+        <a href="/discovery-interview" class="inline-block bg-carbon text-white rounded-full px-10 py-4 text-ui font-medium hover:bg-signal hover:shadow-float transition-all duration-300">
+          Start Your Discovery Interview &rarr;
+        </a>
+      </div>
+    </section>
+
+    <!-- HELP SECTION -->
+    <section class="py-24 bg-carbon">
+      <div class="max-w-3xl mx-auto px-6 text-center">
+        <!-- Quiet tension in the dark section -->
+        <h3 class="font-serif italic text-headline text-bone mb-6">Anything I Should Know?</h3>
+        <p class="font-sans text-body text-softGrey mb-10">
+          If you've already got something in mind, send it through. Otherwise I'll see you in the interview.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <a href="sms:0221725793" class="font-mono text-badge text-bone border-b border-bone/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
+            Text 022 172 5793
+          </a>
+          <span class="hidden sm:block w-1 h-1 bg-bone/20 rounded-full"></span>
+          <a href="mailto:hello@yourhq.co.nz" class="font-mono text-badge text-bone border-b border-bone/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
+            hello@yourhq.co.nz
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

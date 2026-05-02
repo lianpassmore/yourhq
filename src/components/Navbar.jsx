@@ -1,57 +1,96 @@
 import React, { useState } from 'react';
 
+const navLinks = [
+  { href: '/how-it-works', label: 'How It Works' },
+  { href: '/pricing', label: 'Pricing' },
+  { href: '/who-we-build-for', label: 'Who We Build For' },
+  { href: '/portfolio', label: 'Portfolio' },
+  { href: '/our-story', label: 'Our Story' },
+];
+
+const buildLink = 'https://buy.stripe.com/00w00i6me14s4BLev9dZ604';
+
+const grainBg = {
+  backgroundImage:
+    "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.35 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>\")",
+  backgroundSize: '180px 180px',
+};
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-paper border-b border-carbon/10 sticky top-0 z-50 backdrop-blur-md bg-paper/90">
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-surface/95 border-b border-carbon/10 sticky top-0 z-50 backdrop-blur-md transition-all duration-300 shadow-subtle">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 opacity-[0.18] mix-blend-multiply"
+        style={grainBg}
+      />
+      <div className="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          
-          {/* Brand */}
-          <a href="/" className="font-sans text-2xl tracking-tighter text-carbon group">
-            <span className="font-medium">Your</span>
-            <span className="font-extrabold">HQ</span>
-            <span className="text-signal group-hover:text-hibiscus transition-colors">.</span>
+
+          <a href="/" className="flex items-center" aria-label="YourHQ home">
+            <img src="/yourhq-logo-black.png" alt="YourHQ" className="h-12 w-auto" />
           </a>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="/how-it-works" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">How It Works</a>
-            <a href="/pricing" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Pricing</a>
-            <a href="/portfolio" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Portfolio</a>
-            <a href="/blog" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Blog</a>
-            <a href="/our-story" className="text-sm font-medium text-carbon/70 hover:text-carbon transition-colors">Our Story</a>
-
-            {/* UPDATED LINK HERE -> /pricing */}
-            <a href="/pricing" className="bg-carbon text-white px-6 py-2.5 text-sm font-bold tracking-wide hover:bg-signal transition-colors shadow-hard-sm hover:shadow-none hover:translate-y-[2px]">
-              START BUILD
+          {/* DESKTOP NAV */}
+          <div className="hidden lg:flex items-center space-x-8">
+            {navLinks.map((l) => (
+              <a
+                key={l.href}
+                href={l.href}
+                className="font-sans text-sm font-medium text-softGrey hover:text-carbon transition-colors"
+              >
+                {l.label}
+              </a>
+            ))}
+            <a
+              href={buildLink}
+              className="bg-carbon text-white px-6 py-2.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors shadow-subtle hover:shadow-elegant"
+            >
+              Start Your Build
             </a>
           </div>
 
-          {/* Mobile Toggle */}
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-carbon p-2">
+          {/* MOBILE TOGGLE BUTTON */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="lg:hidden text-carbon p-2"
+            aria-label="Toggle menu"
+          >
             <div className="w-6 h-5 flex flex-col justify-between">
-              <span className={`block w-full h-0.5 bg-carbon transition-transform ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-              <span className={`block w-full h-0.5 bg-carbon transition-opacity ${isOpen ? 'opacity-0' : ''}`}></span>
-              <span className={`block w-full h-0.5 bg-carbon transition-transform ${isOpen ? '-rotate-45 -translate-y-2.5' : ''}`}></span>
+              <span className={`block w-full h-[2px] bg-carbon transition-transform duration-300 ${isOpen ? 'rotate-45 translate-y-[9px]' : ''}`}></span>
+              <span className={`block w-full h-[2px] bg-carbon transition-opacity duration-300 ${isOpen ? 'opacity-0' : ''}`}></span>
+              <span className={`block w-full h-[2px] bg-carbon transition-transform duration-300 ${isOpen ? '-rotate-45 -translate-y-[9px]' : ''}`}></span>
             </div>
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-paper border-b border-carbon/10 absolute w-full left-0 px-4 pt-2 pb-6 space-y-2 shadow-xl">
-            <a href="/how-it-works" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">How It Works</a>
-            <a href="/pricing" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Pricing</a>
-            <a href="/portfolio" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Portfolio</a>
-            <a href="/blog" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Blog</a>
-            <a href="/our-story" className="block py-3 text-lg font-bold text-carbon border-b border-carbon/5">Our Story</a>
-            {/* UPDATED LINK HERE -> /pricing */}
-            <a href="/pricing" className="block mt-4 bg-signal text-white text-center py-4 font-bold uppercase tracking-wide">Start Your Build</a>
+      {/* MOBILE MENU DROPDOWN */}
+      <div
+        className={`lg:hidden bg-surface border-b border-carbon/10 absolute w-full left-0 px-6 pb-8 shadow-elegant transition-all duration-300 origin-top overflow-hidden ${
+          isOpen ? 'max-h-[500px] py-4 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
+        }`}
+      >
+        <div className="flex flex-col space-y-1">
+          {navLinks.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              className="block py-3 font-display font-bold text-xl uppercase tracking-tight text-carbon border-b border-carbon/5 hover:text-terracotta transition-colors"
+            >
+              {l.label}
+            </a>
+          ))}
+          <a
+            href={buildLink}
+            className="block mt-6 bg-carbon text-white text-center py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors shadow-subtle"
+          >
+            Start Your Build
+          </a>
         </div>
-      )}
+      </div>
     </nav>
   );
 }

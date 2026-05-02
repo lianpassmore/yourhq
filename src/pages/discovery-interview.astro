@@ -11,77 +11,78 @@ import DiscoveryForm from '../components/DiscoveryForm.jsx';
 >
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen flex flex-col">
+  <main class="bg-bone min-h-screen text-carbon font-sans selection:bg-deepGreen selection:text-white flex flex-col">
 
     <!-- HEADER -->
-    <section class="pt-32 pb-16 border-b border-carbon/10 bg-[size:40px_40px] bg-grid-pattern relative">
-      <!-- Fading overlay for grid -->
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent to-paper pointer-events-none"></div>
-      
-      <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <section class="pt-32 pb-20 px-6 lg:px-12 border-b border-carbon/10 text-center">
+      <div class="max-w-4xl mx-auto">
         
-        <!-- Dynamic Greeting Element -->
-        <span class="inline-block py-1 px-3 rounded-full bg-signal/10 text-signal font-bold text-sm mb-6 tracking-wide uppercase">
+        <!-- Refined Step Label -->
+        <span class="inline-block font-mono text-badge text-signal mb-8 px-4 py-1.5 bg-white rounded-full border border-carbon/5 shadow-subtle">
           Step 01: Content Gathering
         </span>
 
-        <h1 id="dynamic-greeting" class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-6 text-carbon">
+        <h1 id="dynamic-greeting" class="font-display text-hero font-bold text-carbon mb-8 leading-tight">
           The Drive-Home Interview.
         </h1>
         
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          No forms. No typing. Just talk. <br class="hidden md:block"/>
+        <!-- The Whisper / Tension Technique -->
+        <p class="font-serif italic text-headline text-terracotta mb-6">
+          No forms. No typing. Just talk.
+        </p>
+        <p class="font-sans text-subhead text-softGrey max-w-2xl mx-auto leading-relaxed">
           Your digital assistant is ready to capture what makes your business you.
         </p>
       </div>
     </section>
 
     <!-- INSTRUCTIONS CONTENT -->
-    <section class="py-12 md:py-20 bg-paper flex-grow">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 bg-white border-b border-carbon/10 flex-grow px-6 lg:px-12">
+      <div class="max-w-3xl mx-auto">
 
-        <!-- Instruction Card -->
-        <div class="bg-white border-2 border-carbon p-8 md:p-12 shadow-hard relative overflow-hidden">
+        <!-- Elevated Instruction Card -->
+        <div class="bg-surface rounded-2xl border border-carbon/5 p-10 md:p-16 shadow-elegant relative overflow-hidden">
           
-          <!-- Decorative accent -->
-          <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-signal via-hibiscus to-frangipani"></div>
-
-          <div class="space-y-8">
+          <div class="space-y-12">
+            
+            <!-- Block 1 -->
             <div>
-              <h2 class="text-2xl font-bold mb-4 flex items-center gap-3">
-                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm">1</span>
+              <h2 class="font-sans font-semibold text-subhead text-carbon mb-6 flex items-center gap-4">
+                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-white border border-carbon/10 font-mono text-xs text-carbon shadow-sm">1</span>
                 What this is
               </h2>
-              <p class="text-gray-600 leading-relaxed">
-                You're about to speak with the <strong>YourHQ Assistant</strong> - an AI interview tool trained to capture your business details and story for your website. This isn't a live call. It takes about 10–15 minutes.
+              <p class="font-sans text-body text-softGrey leading-relaxed pl-12">
+                You're about to speak with the <strong class="text-carbon font-semibold">YourHQ Assistant</strong> - an AI interview tool trained to capture your business details and story for your website. This isn't a live call. It takes about 10–15 minutes.
               </p>
             </div>
 
+            <!-- Block 2 -->
             <div>
-              <h2 class="text-2xl font-bold mb-4 flex items-center gap-3">
-                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-carbon text-white text-sm">2</span>
+              <h2 class="font-sans font-semibold text-subhead text-carbon mb-6 flex items-center gap-4">
+                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-white border border-carbon/10 font-mono text-xs text-carbon shadow-sm">2</span>
                 Before you start
               </h2>
-              <ul class="space-y-3 text-gray-600">
+              <ul class="space-y-4 font-sans text-body text-softGrey pl-12">
                 <li class="flex items-start gap-3">
-                  <span class="text-signal mt-1">✓</span>
+                  <span class="text-deepGreen mt-0.5">✓</span>
                   <span>Find a reasonably quiet spot (car with windows up is perfect).</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="text-signal mt-1">✓</span>
+                  <span class="text-deepGreen mt-0.5">✓</span>
                   <span>Don't overthink it - speak naturally, like you're telling a friend about your business.</span>
                 </li>
                 <li class="flex items-start gap-3">
-                  <span class="text-signal mt-1">✓</span>
-                  <span>Tap the <strong>blue button</strong> in the bottom right corner to begin.</span>
+                  <span class="text-deepGreen mt-0.5">✓</span>
+                  <span>Tap the <strong class="text-carbon font-semibold">blue button</strong> in the bottom right corner to begin.</span>
                 </li>
               </ul>
             </div>
             
-            <!-- Privacy Notice (Micro-copy) -->
-            <div class="mt-8 pt-6 border-t border-gray-100 text-xs text-gray-400">
-              <p>
-                <strong>Privacy Notice:</strong> By starting, you consent to your voice being recorded and processed to generate website copy. We don't clone voices. We don't sell data.
+            <!-- Privacy Notice -->
+            <div class="mt-8 pt-8 border-t border-carbon/10">
+              <p class="font-sans text-ui text-softGrey/80">
+                <strong class="font-semibold text-softGrey uppercase tracking-wider text-[10px] mr-2">Privacy Notice:</strong> 
+                By starting, you consent to your voice being recorded and processed to generate website copy. We don't clone voices. We don't sell data.
               </p>
             </div>
 
@@ -89,35 +90,37 @@ import DiscoveryForm from '../components/DiscoveryForm.jsx';
         </div>
 
         <!-- Help Text -->
-        <div class="text-center mt-8 text-sm text-gray-500">
-          <p>Need help? Text us at <span class="text-carbon font-bold">022 172 5793</span></p>
+        <div class="text-center mt-10 font-sans text-ui text-softGrey">
+          <p>Need help? Text us at <span class="text-carbon font-semibold">022 172 5793</span></p>
         </div>
 
       </div>
     </section>
 
     <!-- WRITTEN FORM -->
-    <section class="py-24 bg-white border-t border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 bg-bone px-6 lg:px-12">
+      <div class="max-w-4xl mx-auto">
 
-        <div class="text-center mb-12">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-4">
+        <div class="text-center mb-16">
+          <h2 class="font-display text-display font-bold text-carbon mb-6">
             Prefer to Type?
           </h2>
-          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p class="font-sans text-subhead text-softGrey max-w-2xl mx-auto">
             Fill this in at your own pace. All fields are optional - answer what you can and we'll cover the rest.
           </p>
         </div>
 
-        <div class="max-w-4xl mx-auto">
-          <div class="bg-white border-2 border-carbon shadow-hard-sm p-6 md:p-10">
-            <div class="mb-8 pb-6 border-b-2 border-gray-100">
-              <span class="inline-block bg-signal/10 border border-signal text-signal text-xs font-bold uppercase tracking-widest px-3 py-1 mb-3">Written Intake Form</span>
-              <h3 class="text-2xl font-extrabold tracking-tighter">Discovery Questions</h3>
-              <p class="text-gray-500 text-sm mt-2">The more you fill in, the better your site.</p>
-            </div>
-            <DiscoveryForm client:load tier="growth" />
+        <!-- Form Container -->
+        <div class="bg-white rounded-2xl border border-carbon/5 shadow-elegant p-8 md:p-12 lg:p-16">
+          
+          <div class="mb-12 pb-8 border-b border-carbon/5">
+            <span class="inline-block font-mono text-[10px] text-carbon uppercase tracking-[0.15em] mb-4">Written Intake Form</span>
+            <h3 class="font-sans font-semibold text-headline text-carbon mb-2">Discovery Questions</h3>
+            <p class="font-serif italic text-accent text-softGrey">The more you fill in, the better your site.</p>
           </div>
+          
+          <!-- React Component -->
+          <DiscoveryForm client:load tier="growth" />
         </div>
 
       </div>

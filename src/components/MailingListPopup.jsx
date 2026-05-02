@@ -6,6 +6,9 @@ const STORAGE_KEY = 'yourhq_popup_dismissed';
 const DISMISS_DAYS = 7;
 const DELAY_MS = 8000;
 
+/**
+ * @param {{ excludePaths?: string[] }} props
+ */
 export default function MailingListPopup({ excludePaths = [] }) {
   const [visible, setVisible] = useState(false);
   const [status, setStatus] = useState('idle'); // idle | sending | success | error
@@ -68,45 +71,45 @@ export default function MailingListPopup({ excludePaths = [] }) {
       <div className="absolute inset-0 bg-carbon/60 backdrop-blur-sm" />
 
       {/* Modal */}
-      <div className="relative bg-white border-2 border-carbon shadow-hard w-full max-w-md p-8" onClick={e => e.stopPropagation()}>
+      <div className="relative bg-white rounded-3xl border border-carbon/10 shadow-elegant w-full max-w-md p-8" onClick={e => e.stopPropagation()}>
 
         {/* Close button */}
-        <button onClick={dismiss} className="absolute top-4 right-4 text-gray-400 hover:text-carbon transition-colors text-2xl leading-none" aria-label="Close">
+        <button onClick={dismiss} className="absolute top-4 right-4 text-softGrey hover:text-carbon transition-colors text-2xl leading-none" aria-label="Close">
           &times;
         </button>
 
         {status === 'success' ? (
           <div className="text-center py-4">
-            <h3 className="text-2xl font-extrabold mb-2">You're in!</h3>
-            <p className="text-gray-600">We'll keep you in the loop with tips on showing up online.</p>
+            <h3 className="font-display font-bold text-headline uppercase text-carbon mb-2">You're in!</h3>
+            <p className="text-body text-softGrey">We'll keep you in the loop with tips on showing up online.</p>
           </div>
         ) : (
           <>
             <div className="text-center mb-6">
-              <div className="inline-block bg-frangipani/20 border border-frangipani px-3 py-0.5 mb-4 rounded-full">
-                <span className="font-mono text-xs font-bold uppercase tracking-widest text-carbon">Free Tips</span>
+              <div className="inline-block bg-terracotta/10 border border-terracotta/40 px-3 py-0.5 mb-4 rounded-full">
+                <span className="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-terracotta">Free Tips</span>
               </div>
-              <h3 className="text-2xl font-extrabold tracking-tight mb-2">Want to show up online?</h3>
-              <p className="text-gray-500 text-sm">Join the YourHQ mailing list. Practical tips for NZ small businesses. No spam, ever.</p>
+              <h3 className="font-display font-bold text-headline uppercase text-carbon mb-2">Want to show up online?</h3>
+              <p className="text-softGrey text-sm">Join the YourHQ mailing list. Practical tips for NZ small businesses. No spam, ever.</p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-2">
-                <label htmlFor="popup-name" className="text-xs font-bold uppercase tracking-wide text-gray-500">Name</label>
+                <label htmlFor="popup-name" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">Name</label>
                 <input type="text" name="name" id="popup-name" placeholder="e.g., Sarah" required
-                  className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors" />
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="popup-email" className="text-xs font-bold uppercase tracking-wide text-gray-500">Email</label>
+                <label htmlFor="popup-email" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">Email</label>
                 <input type="email" name="email" id="popup-email" placeholder="e.g., sarah@email.com" required
-                  className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors" />
+                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors" />
               </div>
 
               <div className="space-y-2">
-                <label htmlFor="popup-referral" className="text-xs font-bold uppercase tracking-wide text-gray-500">How did you find us? <span className="text-gray-400 normal-case font-normal">(optional)</span></label>
+                <label htmlFor="popup-referral" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">How did you find us? <span className="text-softGrey/70 normal-case font-normal">(optional)</span></label>
                 <select name="referral_source" id="popup-referral"
-                  className="w-full border-2 border-gray-300 p-3 text-carbon focus:border-signal focus:outline-none transition-colors bg-white">
+                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors">
                   <option value="">Select an option...</option>
                   <option value="Google Search">Google Search</option>
                   <option value="Google Maps">Google Maps</option>
@@ -120,15 +123,15 @@ export default function MailingListPopup({ excludePaths = [] }) {
               </div>
 
               <button type="submit" disabled={status === 'sending'}
-                className="w-full bg-signal text-white px-8 py-4 font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all disabled:opacity-50">
+                className="w-full bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-colors duration-300 shadow-subtle hover:shadow-elegant disabled:opacity-50">
                 {status === 'sending' ? 'Signing up...' : 'Keep Me in the Loop'}
               </button>
 
               {status === 'error' && (
-                <p className="text-sm text-red-600 text-center">Something went wrong. Please try again.</p>
+                <p className="text-sm text-terracotta text-center">Something went wrong. Please try again.</p>
               )}
 
-              <p className="text-xs text-center text-gray-400">
+              <p className="text-xs text-center text-softGrey/70">
                 Unsubscribe anytime. We respect your inbox.
               </p>
             </form>

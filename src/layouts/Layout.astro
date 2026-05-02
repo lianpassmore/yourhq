@@ -7,9 +7,10 @@ interface Props {
 	description: string;
 	image?: string;
 	type?: string;
+	noindex?: boolean;
 }
 
-const { title, description, image, type } = Astro.props;
+const { title, description, image, type, noindex } = Astro.props;
 
 // Default OG image if none provided
 const ogImage = image || 'https://yourhq.co.nz/og-image.jpg';
@@ -22,6 +23,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 <!doctype html>
 <html lang="en">
 	<head>
+		<!-- Fixes the Whangārei text bug -->
+		<meta charset="UTF-8" />
+
 		<!-- Google tag (gtag.js) -->
 		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-F9GHN7JTE2"></script>
 		<script is:inline>
@@ -44,11 +48,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 			fbq('init', '2047022552508111');
 			fbq('track', 'PageView');
 		</script>
-		<noscript is:inline><img height="1" width="1" style="display:none"
+		<noscript><img height="1" width="1" style="display:none"
 			src="https://www.facebook.com/tr?id=2047022552508111&ev=PageView&noscript=1"
 		/></noscript>
 
-		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -58,7 +61,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 		<!-- SEO: Keywords & Author -->
 		<meta name="keywords" content="website design New Zealand, Kiwi business websites, professional website builder, Northland web design, small business website, website subscription, NZ web developer, tradie websites NZ, salon website design NZ" />
 		<meta name="author" content="YourHQ Limited" />
-		<meta name="robots" content="index, follow" />
+		<meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content={ogType} />
@@ -92,8 +95,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-		<!-- Google Fonts: Inter & Courier Prime -->
-		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+		<!-- Google Fonts: Cormorant Garamond (headlines), DM Sans (body/UI), IBM Plex Mono (utility/labels) -->
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -104,7 +107,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 		<!-- Allow pages to add structured data or other head content -->
 		<slot name="head" />
 	</head>
-	<body class="bg-paper text-carbon font-sans selection:bg-frangipani selection:text-carbon">
+	<body class="bg-bone text-carbon font-sans selection:bg-terracotta selection:text-white">
 		<slot />
 		<MailingListPopup client:load excludePaths={['/google-guide']} />
 	</body>
@@ -116,15 +119,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
     scroll-behavior: smooth;
   }
   
-  /* Custom Scrollbar for the "Technical" feel */
+  /* Editorial scrollbar */
   ::-webkit-scrollbar {
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #F5F5F7;
+    background: #F2EFEA;
   }
   ::-webkit-scrollbar-thumb {
-    background: #111111;
-    border: 2px solid #F5F5F7;
+    background: #0B0B0C;
+    border: 2px solid #F2EFEA;
   }
 </style>

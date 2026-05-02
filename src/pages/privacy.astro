@@ -10,106 +10,157 @@ import Footer from '../components/Footer.astro';
 >
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
+  <main class="bg-bone min-h-screen font-sans text-carbon selection:bg-deepGreen selection:text-white pb-24">
 
     <!-- HEADER -->
-    <section class="pt-24 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.9] mb-4">
-          Privacy & Data Sovereignty
+    <section class="pt-32 pb-16 px-6 lg:px-12">
+      <div class="max-w-3xl mx-auto">
+        <p class="font-mono text-badge text-signal mb-6">Privacy Policy</p>
+        
+        <h1 class="font-display text-display font-bold text-carbon mb-8">
+          Privacy &amp; Data Sovereignty
         </h1>
-        <p class="text-lg text-gray-500 mb-6">Founder-led. Transparent about where your data lives.</p>
-        <p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
+        
+        <!-- The Whisper / Tension Technique -->
+        <p class="font-serif italic text-headline text-terracotta leading-snug mb-6">
+          Founder-led. Transparent about where your data lives.
+        </p>
+        
+        <p class="font-sans text-subhead text-softGrey leading-relaxed">
           We believe you should own your digital home and the data inside it. Here is how we protect that right.
         </p>
       </div>
     </section>
 
-    <!-- CONTENT -->
-    <section class="py-24 bg-white">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="prose prose-lg prose-headings:font-extrabold prose-a:text-signal prose-li:text-gray-600 text-gray-600 max-w-none">
+    <!-- THE DOCUMENT -->
+    <article class="px-6 lg:px-12">
+      <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-elegant border border-carbon/5 p-8 md:p-16 lg:p-20">
+        
+        <!-- Lead Statement -->
+        <p class="font-sans text-subhead text-carbon leading-relaxed mb-12">
+          YourHQ operates under the New Zealand Privacy Act 2020. Beyond legal compliance, our core philosophy is <strong class="font-semibold text-carbon">Data Sovereignty</strong>: We are the caretakers of your digital assets, but you remain the owner.
+        </p>
 
-          <p class="lead text-xl font-medium text-carbon">
-            YourHQ operates under the New Zealand Privacy Act 2020. Beyond legal compliance, our core philosophy is <strong>Data Sovereignty</strong>: We are the caretakers of your digital assets, but you remain the owner.
-          </p>
+        <hr class="border-t border-carbon/10 my-16" />
 
-          <hr class="border-carbon/20 my-12" />
+        <div class="space-y-16">
 
-          <h3>1. Information We Collect</h3>
-          <p>To build and maintain your website, we collect:</p>
-          <ul>
-            <li><strong>Business Identity:</strong> Name, contact details, and business descriptions.</li>
-            <li><strong>Website Content:</strong> Images, text, logos, and files you upload to our Shared Drive.</li>
-            <li><strong>Voice Data:</strong> Audio recordings from your "Drive-Home Interview" with our AI agent.</li>
-            <li><strong>Technical Data:</strong> Analytics on how your website performs (if on the Growth plan).</li>
-          </ul>
-
-          <h3>2. Our Technology Stack & Data Storage</h3>
-          <p>We believe in radical transparency regarding where your data lives. We use best-in-class infrastructure to ensure speed and security.</p>
-          
-          <ul class="list-none pl-0 space-y-4">
-            <li class="flex gap-3">
-              <span class="font-bold text-carbon min-w-[120px]">Supabase:</span>
-              <span>We use Supabase for our database. We implement <strong>Row Level Security (RLS)</strong> policies, meaning your data is cryptographically segregated. Only authorized users (you and our admins) can access your specific records.</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="font-bold text-carbon min-w-[120px]">Stripe:</span>
-              <span>We use Stripe for all payments. YourHQ never sees or stores your credit card numbers. Stripe adheres to the highest level of PCI Service Provider Level 1 standards.</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="font-bold text-carbon min-w-[120px]">ElevenLabs:</span>
-              <span>Used for our AI Interview Agent. Your voice data is processed solely to transcribe information for your website build. We do not use your voice to clone your identity.</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="font-bold text-carbon min-w-[120px]">Vercel:</span>
-              <span>Your website files are hosted on Vercel's global edge network to ensure 99.9% uptime and lightning-fast loading speeds for your customers.</span>
-            </li>
-          </ul>
-
-          <h3>3. Data Sovereignty (Ownership)</h3>
-          <p>This is where we differ from platforms like Facebook or Instagram:</p>
-          <ul>
-            <li><strong>You own your content.</strong> We claim no intellectual property rights over the text and images you provide.</li>
-            <li><strong>You own your customer list.</strong> Any leads generated by your website belong 100% to you. We do not mine, sell, or share your customer data.</li>
-            <li><strong>Portability.</strong> If you choose to leave YourHQ (after the minimum term), we provide you with a static export of your website files. We do not hold your digital presence hostage.</li>
-          </ul>
-
-          <h3>4. How We Use Voice Data</h3>
-          <p>When you speak with our AI Agent (Lian's Digital Voice):</p>
-          <ul>
-            <li>The conversation is recorded and transcribed to generate website copy.</li>
-            <li>These recordings are stored securely within our private logs.</li>
-            <li>We do not share these recordings with third parties for marketing purposes.</li>
-          </ul>
-
-          <h3>5. Your Rights</h3>
-          <p>Under the NZ Privacy Act, you have the right to:</p>
-          <ul>
-            <li>Ask for a copy of any personal information we hold about you.</li>
-            <li>Ask for it to be corrected if you think it is wrong.</li>
-            <li>Request that your data be deleted from our servers (subject to us needing to keep billing records for tax purposes).</li>
-          </ul>
-
-          <div class="bg-paper p-8 border-2 border-carbon mt-12 shadow-hard-sm">
-            <h4 class="text-xl font-bold text-carbon mt-0 mb-4">Privacy Officer Contact</h4>
-            <p class="mb-4">If you have any concerns about data security or wish to exercise your rights:</p>
-            
-            <div class="space-y-1">
-              <p><strong>YourHQ Limited</strong></p>
-              <p>Email: <a href="mailto:hello@yourhq.co.nz">hello@yourhq.co.nz</a></p>
-              <p>Phone: <a href="sms:0221725793">022 172 5793</a></p>
-              <p>Northland, New Zealand</p>
+          <!-- 1. INFO WE COLLECT -->
+          <section>
+            <h3 class="font-sans font-semibold text-subhead text-carbon mb-6 flex items-baseline">
+              <span class="font-mono text-badge text-signal mr-4">1.</span> Information We Collect
+            </h3>
+            <div class="font-sans text-body text-softGrey md:pl-9">
+              <p class="mb-6">To build and maintain your website, we collect:</p>
+              <ul class="space-y-3 pl-6 list-disc list-outside marker:text-carbon/20">
+                <li><strong class="text-carbon font-semibold">Business Identity:</strong> Name, contact details, and business descriptions.</li>
+                <li><strong class="text-carbon font-semibold">Website Content:</strong> Images, text, logos, and files you upload to our Shared Drive.</li>
+                <li><strong class="text-carbon font-semibold">Voice Data:</strong> Audio recordings from your "Drive-Home Interview" with our AI agent.</li>
+                <li><strong class="text-carbon font-semibold">Technical Data:</strong> Analytics on how your website performs.</li>
+              </ul>
             </div>
-          </div>
+          </section>
 
-          <p class="text-sm text-gray-400 mt-12 italic">
-            Last updated: March 2026
-          </p>
+          <!-- 2. TECH STACK -->
+          <section>
+            <h3 class="font-sans font-semibold text-subhead text-carbon mb-6 flex items-baseline">
+              <span class="font-mono text-badge text-signal mr-4">2.</span> Our Technology Stack &amp; Data Storage
+            </h3>
+            <div class="font-sans text-body text-softGrey md:pl-9">
+              <p class="mb-8">We believe in radical transparency regarding where your data lives. We use best-in-class infrastructure to ensure speed and security.</p>
+              
+              <div class="border-t border-carbon/5">
+                <!-- Supabase -->
+                <div class="flex flex-col sm:flex-row gap-2 sm:gap-6 items-start py-6 border-b border-carbon/5">
+                  <span class="font-mono text-badge text-deepGreen sm:min-w-[120px] pt-1">Supabase:</span>
+                  <span class="font-sans text-body text-softGrey">We use Supabase for our database. We implement <strong class="text-carbon font-semibold">Row Level Security (RLS)</strong> policies, meaning your data is cryptographically segregated. Only authorized users (you and our admins) can access your specific records.</span>
+                </div>
+                <!-- Stripe -->
+                <div class="flex flex-col sm:flex-row gap-2 sm:gap-6 items-start py-6 border-b border-carbon/5">
+                  <span class="font-mono text-badge text-deepGreen sm:min-w-[120px] pt-1">Stripe:</span>
+                  <span class="font-sans text-body text-softGrey">We use Stripe for all payments. YourHQ never sees or stores your credit card numbers. Stripe adheres to the highest level of PCI Service Provider Level 1 standards.</span>
+                </div>
+                <!-- ElevenLabs -->
+                <div class="flex flex-col sm:flex-row gap-2 sm:gap-6 items-start py-6 border-b border-carbon/5">
+                  <span class="font-mono text-badge text-deepGreen sm:min-w-[120px] pt-1">ElevenLabs:</span>
+                  <span class="font-sans text-body text-softGrey">Used for our AI Interview Agent. Your voice data is processed solely to transcribe information for your website build. We do not use your voice to clone your identity.</span>
+                </div>
+                <!-- Vercel -->
+                <div class="flex flex-col sm:flex-row gap-2 sm:gap-6 items-start py-6 border-b border-carbon/5">
+                  <span class="font-mono text-badge text-deepGreen sm:min-w-[120px] pt-1">Vercel:</span>
+                  <span class="font-sans text-body text-softGrey">Your website files are hosted on Vercel's global edge network to ensure 99.9% uptime and lightning-fast loading speeds for your customers.</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- 3. DATA SOVEREIGNTY -->
+          <section>
+            <h3 class="font-sans font-semibold text-subhead text-carbon mb-6 flex items-baseline">
+              <span class="font-mono text-badge text-signal mr-4">3.</span> Data Sovereignty (Ownership)
+            </h3>
+            <div class="font-sans text-body text-softGrey md:pl-9">
+              <p class="mb-6">This is where we differ from platforms like Facebook or Instagram:</p>
+              <ul class="space-y-3 pl-6 list-disc list-outside marker:text-carbon/20">
+                <li><strong class="text-carbon font-semibold">You own your content.</strong> We claim no intellectual property rights over the text and images you provide.</li>
+                <li><strong class="text-carbon font-semibold">You own your customer list.</strong> Any leads generated by your website belong 100% to you. We do not mine, sell, or share your customer data.</li>
+                <li><strong class="text-carbon font-semibold">Portability.</strong> If you choose to leave YourHQ (after the minimum term), we provide you with a static export of your website files. We do not hold your digital presence hostage.</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- 4. VOICE DATA -->
+          <section>
+            <h3 class="font-sans font-semibold text-subhead text-carbon mb-6 flex items-baseline">
+              <span class="font-mono text-badge text-signal mr-4">4.</span> How We Use Voice Data
+            </h3>
+            <div class="font-sans text-body text-softGrey md:pl-9">
+              <p class="mb-6">When you speak with our AI Agent (Lian's Digital Voice):</p>
+              <ul class="space-y-3 pl-6 list-disc list-outside marker:text-carbon/20">
+                <li>The conversation is recorded and transcribed to generate website copy.</li>
+                <li>These recordings are stored securely within our private logs.</li>
+                <li>We do not share these recordings with third parties for marketing purposes.</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- 5. YOUR RIGHTS -->
+          <section>
+            <h3 class="font-sans font-semibold text-subhead text-carbon mb-6 flex items-baseline">
+              <span class="font-mono text-badge text-signal mr-4">5.</span> Your Rights
+            </h3>
+            <div class="font-sans text-body text-softGrey md:pl-9">
+              <p class="mb-6">Under the NZ Privacy Act, you have the right to:</p>
+              <ul class="space-y-3 pl-6 list-disc list-outside marker:text-carbon/20">
+                <li>Ask for a copy of any personal information we hold about you.</li>
+                <li>Ask for it to be corrected if you think it is wrong.</li>
+                <li>Request that your data be deleted from our servers (subject to us needing to keep billing records for tax purposes).</li>
+              </ul>
+            </div>
+          </section>
 
         </div>
+
+        <!-- CONTACT BOX -->
+        <div class="mt-20 md:ml-9 bg-surface p-8 rounded-xl border border-carbon/5 shadow-subtle">
+          <h4 class="font-sans font-semibold text-subhead text-carbon mb-4">Privacy Officer Contact</h4>
+          <p class="font-sans text-body text-softGrey mb-6">If you have any concerns about data security or wish to exercise your rights:</p>
+          
+          <div class="font-sans text-ui text-carbon space-y-2">
+            <p class="font-semibold">YourHQ Limited</p>
+            <p class="text-softGrey">Email: <a href="mailto:hello@yourhq.co.nz" class="text-carbon hover:text-signal transition-colors underline decoration-carbon/20 underline-offset-4">hello@yourhq.co.nz</a></p>
+            <p class="text-softGrey">Phone: <a href="sms:0221725793" class="text-carbon hover:text-signal transition-colors underline decoration-carbon/20 underline-offset-4">022 172 5793</a></p>
+            <p class="text-softGrey">Northland, New Zealand</p>
+          </div>
+        </div>
+
+        <!-- FOOTER / SIGN OFF -->
+        <div class="border-t border-carbon/10 mt-16 pt-8 font-mono text-badge text-softGrey md:pl-9">
+          <p>Last updated: May 2026</p>
+        </div>
+
       </div>
-    </section>
+    </article>
 
   </main>
   <Footer />

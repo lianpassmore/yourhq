@@ -2,29 +2,29 @@ import { useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { notifyNtfy } from '../lib/notify';
 
-const INPUT = "w-full border-2 border-gray-200 p-3 text-carbon focus:outline-none transition-colors bg-white";
-const TEXTAREA = "w-full border-2 border-gray-200 p-3 text-carbon focus:outline-none transition-colors resize-none bg-white";
-const LABEL = "block text-xs font-bold uppercase tracking-wide text-gray-500 mb-2";
-const SECTION = "border-t-2 border-gray-100 pt-10";
+const INPUT = "w-full border border-carbon/10 p-3 rounded-xl text-carbon focus:outline-none transition-colors bg-white";
+const TEXTAREA = "w-full border border-carbon/10 p-3 rounded-xl text-carbon focus:outline-none transition-colors resize-none bg-white";
+const LABEL = "block text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey mb-2";
+const SECTION = "border-t border-carbon/10 pt-10";
 
 const ACCENT = {
   starter: {
     focus: 'focus:border-carbon',
-    btn: 'bg-carbon hover:bg-gray-800 text-white',
+    btn: 'bg-carbon hover:bg-deepGreen text-white',
     badge: 'bg-carbon text-white',
-    highlight: 'border-carbon/20 bg-gray-50',
+    highlight: 'border-carbon/10 bg-surface',
   },
   launch: {
     focus: 'focus:border-signal',
-    btn: 'bg-signal hover:bg-blue-700 text-white',
+    btn: 'bg-carbon hover:bg-deepGreen text-white',
     badge: 'bg-signal text-white',
     highlight: 'border-signal/20 bg-signal/5',
   },
   growth: {
-    focus: 'focus:border-hibiscus',
-    btn: 'bg-hibiscus hover:bg-pink-600 text-white',
-    badge: 'bg-hibiscus text-white',
-    highlight: 'border-hibiscus/20 bg-hibiscus/5',
+    focus: 'focus:border-terracotta',
+    btn: 'bg-terracotta hover:bg-terracotta/90 text-white',
+    badge: 'bg-terracotta text-white',
+    highlight: 'border-terracotta/20 bg-terracotta/5',
   },
 };
 
@@ -32,7 +32,6 @@ export default function DiscoveryForm({ tier = 'launch' }) {
   const [status, setStatus] = useState('idle');
   const a = ACCENT[tier] || ACCENT.launch;
   const isStarter = tier === 'starter';
-  const isGrowth = tier === 'growth';
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -40,18 +39,15 @@ export default function DiscoveryForm({ tier = 'launch' }) {
 
     const data = new FormData(e.target);
 
-    // Pull out core fields
     const name = (data.get('name') || '').trim();
     const email = (data.get('email') || '').trim();
     const business = (data.get('business') || '').trim();
 
-    // Honeypot check - bots fill hidden fields, humans don't
     if (data.get('bot-field')) {
       setStatus('success');
       return;
     }
 
-    // Build a formatted message from every field that has a value
     const lines = [];
     for (const [key, value] of data.entries()) {
       if (key === 'bot-field') continue;
@@ -83,14 +79,14 @@ export default function DiscoveryForm({ tier = 'launch' }) {
   if (status === 'success') {
     return (
       <div className="text-center py-16 space-y-4">
-        <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto text-3xl">
+        <div className="w-16 h-16 rounded-full bg-deepGreen/10 text-deepGreen flex items-center justify-center mx-auto text-3xl">
           ✓
         </div>
-        <h3 className="text-2xl font-extrabold tracking-tighter">Sorted - we've got it!</h3>
-        <p className="text-gray-600 max-w-md mx-auto">
+        <h3 className="font-display font-bold text-headline uppercase text-carbon">Sorted - we've got it!</h3>
+        <p className="text-body text-softGrey max-w-md mx-auto">
           We've received your details and we'll get started. Keep an eye on your inbox - we'll be in touch within 1–2 business days.
         </p>
-        <p className="text-sm text-gray-400">Questions? Text us: 022 172 5793</p>
+        <p className="text-sm text-softGrey/70">Questions? Text us: 022 172 5793</p>
       </div>
     );
   }
@@ -103,11 +99,11 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         <label>Leave this blank: <input name="bot-field" tabIndex="-1" autoComplete="off" /></label>
       </p>
 
-      {/* ── YOUR DETAILS ── */}
+      {/* ── MODULE 01 — WELCOME + ORIENTATION ── */}
       <div className="space-y-6">
         <div>
-          <h3 className="text-base font-extrabold tracking-tighter uppercase">Your Details</h3>
-          <p className="text-sm text-gray-500 mt-1">So we know who we're building for.</p>
+          <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Welcome</h3>
+          <p className="text-sm text-softGrey mt-1">Just so we know who we're building for.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-5">
@@ -120,98 +116,163 @@ export default function DiscoveryForm({ tier = 'launch' }) {
             />
           </div>
           <div>
-            <label className={LABEL} htmlFor="df-business">Business Name</label>
+            <label className={LABEL} htmlFor="df-business">
+              Business or Brand Name <span className="text-terracotta normal-case font-normal">*required</span>
+            </label>
             <input
-              type="text" id="df-business" name="business"
-              placeholder="Jane's Plumbing"
-              className={`${INPUT} ${a.focus}`}
-            />
-          </div>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-5">
-          <div>
-            <label className={LABEL} htmlFor="df-email">Your Email</label>
-            <input
-              type="email" id="df-email" name="email"
-              placeholder="jane@example.com"
-              className={`${INPUT} ${a.focus}`}
-            />
-          </div>
-          <div>
-            <label className={LABEL} htmlFor="df-phone">Phone / Text Number</label>
-            <input
-              type="tel" id="df-phone" name="Phone number"
-              placeholder="021 123 456"
+              type="text" id="df-business" name="business" required
+              placeholder="Jane's Plumbing / Jane Smith Coaching"
               className={`${INPUT} ${a.focus}`}
             />
           </div>
         </div>
 
         <div>
-          <label className={LABEL} htmlFor="df-email-enquiries">Email for Customer Enquiries <span className="normal-case font-normal">(if different from above)</span></label>
+          <label className={LABEL} htmlFor="df-heard">How did you hear about YourHQ?</label>
           <input
-            type="email" id="df-email-enquiries" name="Email for customer enquiries"
-            placeholder="enquiries@yourbusiness.co.nz"
-            className={`${INPUT} ${a.focus}`}
-          />
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-5">
-          <div>
-            <label className={LABEL} htmlFor="df-location">Where are you based?</label>
-            <input
-              type="text" id="df-location" name="Location"
-              placeholder="Whangarei, NZ"
-              className={`${INPUT} ${a.focus}`}
-            />
-          </div>
-          <div>
-            <label className={LABEL} htmlFor="df-areas">Areas you cover</label>
-            <input
-              type="text" id="df-areas" name="Service areas"
-              placeholder="Northland, Auckland..."
-              className={`${INPUT} ${a.focus}`}
-            />
-          </div>
-        </div>
-
-        <div>
-          <label className={LABEL} htmlFor="df-travel">Do you travel to customers, or do they come to you?</label>
-          <input
-            type="text" id="df-travel" name="Customer or mobile service"
-            placeholder="I travel to customers / They come to me / Both"
-            className={`${INPUT} ${a.focus}`}
-          />
-        </div>
-
-        <div>
-          <label className={LABEL} htmlFor="df-hours">Hours / Availability</label>
-          <input
-            type="text" id="df-hours" name="Hours"
-            placeholder="Mon–Fri 8am–5pm, or by appointment..."
-            className={`${INPUT} ${a.focus}`}
-          />
-        </div>
-
-        <div>
-          <label className={LABEL} htmlFor="df-domain">Website address in mind? <span className="normal-case font-normal">(or we'll find the best .co.nz for you)</span></label>
-          <input
-            type="text" id="df-domain" name="Preferred domain"
-            placeholder="janeplumbing.co.nz"
+            type="text" id="df-heard" name="How you heard about YourHQ"
+            placeholder="A friend / Instagram / Google / Nic..."
             className={`${INPUT} ${a.focus}`}
           />
         </div>
       </div>
 
-      {/* ── STARTER ONLY ── */}
+      {/* ── MODULE 02 — THE BASICS ── */}
+      <div className={SECTION}>
+        <div className="mb-6">
+          <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">The Basics</h3>
+          <p className="text-sm text-softGrey mt-1">Contact, location, domain, existing assets.</p>
+        </div>
+        <div className="space-y-6">
+          <div className="grid md:grid-cols-2 gap-5">
+            <div>
+              <label className={LABEL} htmlFor="df-email">Best Email</label>
+              <input
+                type="email" id="df-email" name="email"
+                placeholder="jane@example.com"
+                className={`${INPUT} ${a.focus}`}
+              />
+            </div>
+            <div>
+              <label className={LABEL} htmlFor="df-phone">Best Phone / Text Number</label>
+              <input
+                type="tel" id="df-phone" name="Phone number"
+                placeholder="021 123 456"
+                className={`${INPUT} ${a.focus}`}
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className={LABEL} htmlFor="df-email-enquiries">Email for Customer Enquiries <span className="normal-case font-normal">(if different)</span></label>
+            <input
+              type="email" id="df-email-enquiries" name="Email for customer enquiries"
+              placeholder="enquiries@yourbusiness.co.nz"
+              className={`${INPUT} ${a.focus}`}
+            />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-5">
+            <div>
+              <label className={LABEL} htmlFor="df-location">Where are you based?</label>
+              <input
+                type="text" id="df-location" name="Location"
+                placeholder="Whangārei, NZ"
+                className={`${INPUT} ${a.focus}`}
+              />
+            </div>
+            <div>
+              <label className={LABEL} htmlFor="df-areas">Areas you cover</label>
+              <input
+                type="text" id="df-areas" name="Service areas"
+                placeholder="Northland, Auckland, NZ-wide, global..."
+                className={`${INPUT} ${a.focus}`}
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className={LABEL} htmlFor="df-travel">Do you travel to clients, do they come to you, or a bit of both?</label>
+            <input
+              type="text" id="df-travel" name="Customer or mobile service"
+              placeholder="I travel to clients / They come to me / Both / Online only"
+              className={`${INPUT} ${a.focus}`}
+            />
+          </div>
+
+          <div>
+            <label className={LABEL} htmlFor="df-hours">Hours / Availability</label>
+            <input
+              type="text" id="df-hours" name="Hours"
+              placeholder="Mon–Fri 8am–5pm, or by appointment..."
+              className={`${INPUT} ${a.focus}`}
+            />
+          </div>
+
+          <div>
+            <label className={LABEL} htmlFor="df-domain">Domain name? <span className="normal-case font-normal">(or we'll find the best one for you)</span></label>
+            <input
+              type="text" id="df-domain" name="Preferred domain"
+              placeholder="janeplumbing.co.nz"
+              className={`${INPUT} ${a.focus}`}
+            />
+          </div>
+
+          <div>
+            <label className={LABEL} htmlFor="df-existing-site">Existing website? <span className="normal-case font-normal">(even if it's old or half-finished — we'll raid it for content)</span></label>
+            <input
+              type="text" id="df-existing-site" name="Existing website URL"
+              placeholder="https://oldsite.co.nz"
+              className={`${INPUT} ${a.focus}`}
+            />
+          </div>
+
+          <div>
+            <label className={LABEL} htmlFor="df-socials">Social profiles <span className="normal-case font-normal">(Facebook, Instagram, LinkedIn, TikTok, YouTube — drop links or handles)</span></label>
+            <textarea
+              id="df-socials" name="Social profiles" rows={3}
+              placeholder="@janesplumbing on Insta, facebook.com/janesplumbing, linkedin.com/in/jane..."
+              className={`${TEXTAREA} ${a.focus}`}
+            />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-5">
+            <div>
+              <label className={LABEL} htmlFor="df-logo">Logo? <span className="normal-case font-normal">(send to hello@yourhq.co.nz)</span></label>
+              <input
+                type="text" id="df-logo" name="Logo status"
+                placeholder="Yes / No / In progress / Starting fresh"
+                className={`${INPUT} ${a.focus}`}
+              />
+            </div>
+            <div>
+              <label className={LABEL} htmlFor="df-photos">Photos available?</label>
+              <input
+                type="text" id="df-photos" name="Photos available"
+                placeholder="Phone photos / Use my socials / Pro shots..."
+                className={`${INPUT} ${a.focus}`}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ── STARTER VARIANT — short version, stop here ── */}
       {isStarter && (
         <div className={SECTION}>
           <div className="mb-6">
-            <h3 className="text-base font-extrabold tracking-tighter uppercase">About You & Your Business</h3>
-            <p className="text-sm text-gray-500 mt-1">Just enough to write a great About section for your one-page site.</p>
+            <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">About You & Your Business</h3>
+            <p className="text-sm text-softGrey mt-1">Just enough to write a great About section for your one-page site.</p>
           </div>
           <div className="space-y-6">
+            <div>
+              <label className={LABEL}>In plain English — what do you actually do?</label>
+              <textarea
+                name="What you do in plain English" rows={3}
+                placeholder="I fix leaky pipes, unblock drains, install hot water systems..."
+                className={`${TEXTAREA} ${a.focus}`}
+              />
+            </div>
             <div>
               <label className={LABEL}>How long have you been doing this work?</label>
               <textarea
@@ -221,15 +282,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
               />
             </div>
             <div>
-              <label className={LABEL}>Is it just you running the show, or do you have a crew?</label>
-              <textarea
-                name="Team size" rows={2}
-                placeholder="Just me / I have 2 staff..."
-                className={`${TEXTAREA} ${a.focus}`}
-              />
-            </div>
-            <div>
-              <label className={LABEL}>Why did you get into this? Or - what's the best part of the job?</label>
+              <label className={LABEL}>Why did you get into this? Or — what's the best part of the job?</label>
               <textarea
                 name="Why you do this work" rows={4}
                 placeholder="Tell us in your own words. No right or wrong answer..."
@@ -243,107 +296,15 @@ export default function DiscoveryForm({ tier = 'launch' }) {
       {/* ── LAUNCH + GROWTH FULL INTERVIEW ── */}
       {!isStarter && (
         <>
-          {/* Origin Story */}
+          {/* ── MODULE 03 — THE BUSINESS ── */}
           <div className={SECTION}>
             <div className="mb-6">
-              <h3 className="text-base font-extrabold tracking-tighter uppercase">Your Story</h3>
-              <p className="text-sm text-gray-500 mt-1">This is where we capture your voice. Write how you'd say it - not how you'd write it.</p>
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">The Business</h3>
+              <p className="text-sm text-softGrey mt-1">What you do, who you serve, what makes you different.</p>
             </div>
             <div className="space-y-6">
               <div>
-                <label className={LABEL}>How long have you been doing this work?</label>
-                <textarea
-                  name="Years in business" rows={2}
-                  placeholder="e.g. 12 years, started straight out of school..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>Is it just you, or do you have a crew?</label>
-                <textarea
-                  name="Team size" rows={2}
-                  placeholder="Just me, plus a part-timer on busy weeks..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>How did you end up doing this? What's your origin story?</label>
-                <textarea
-                  name="Origin story" rows={4}
-                  placeholder="I used to work for a big firm, then..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>What made you go out on your own instead of working for someone else?</label>
-                <textarea
-                  name="Why you went out on your own" rows={3}
-                  placeholder="I wanted to do things my way, with no one breathing down my neck..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>What do you actually love about this work? What gets you out of bed?</label>
-                <textarea
-                  name="What you love about the work" rows={4}
-                  placeholder="Honestly, it's when a customer calls back six months later to say..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* The Customers */}
-          <div className={SECTION}>
-            <div className="mb-6">
-              <h3 className="text-base font-extrabold tracking-tighter uppercase">Your Customers</h3>
-              <p className="text-sm text-gray-500 mt-1">Help us write copy that speaks directly to the people you want to attract.</p>
-            </div>
-            <div className="space-y-6">
-              <div>
-                <label className={LABEL}>Who's your ideal customer? If you could clone your favourite client, who would that be?</label>
-                <textarea
-                  name="Ideal customer" rows={3}
-                  placeholder="Homeowners in their 30s–50s who take pride in their property..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>What's usually going on in their life when they come looking for you? What problem are they trying to solve?</label>
-                <textarea
-                  name="Customer pain point" rows={3}
-                  placeholder="They've usually got a leaky pipe and their usual guy isn't picking up..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>What's the best compliment a customer has ever given you?</label>
-                <textarea
-                  name="Best customer compliment" rows={3}
-                  placeholder="They said it was the first time they'd felt like someone actually listened..."
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>If a customer was telling a mate about you, what would you want them to say?</label>
-                <textarea
-                  name="Word of mouth ideal quote" rows={3}
-                  placeholder={'"Just ring Jane - she\'ll sort it out, no dramas."'}
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* The Offerings */}
-          <div className={SECTION}>
-            <div className="mb-6">
-              <h3 className="text-base font-extrabold tracking-tighter uppercase">What You Do</h3>
-              <p className="text-sm text-gray-500 mt-1">Plain English, no jargon.</p>
-            </div>
-            <div className="space-y-6">
-              <div>
-                <label className={LABEL}>In plain English, what do you actually do? Pretend I know nothing about your industry.</label>
+                <label className={LABEL}>In plain English — what do you actually do? <span className="normal-case font-normal">(pretend we know nothing about your industry)</span></label>
                 <textarea
                   name="What you do in plain English" rows={4}
                   placeholder="I fix leaky pipes, unblock drains, install hot water systems..."
@@ -351,7 +312,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>What are your main services, products, or packages?</label>
+                <label className={LABEL}>Main services, products, or packages?</label>
                 <textarea
                   name="Main services or products" rows={4}
                   placeholder="Residential plumbing, commercial fit-outs, emergency call-outs..."
@@ -359,7 +320,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>Is there one thing you're known for? Like "Oh, you need X? Go see [you]."</label>
+                <label className={LABEL}>One thing you're especially known for? <span className="normal-case font-normal">("Oh, you need X? Go see them.")</span></label>
                 <textarea
                   name="What you're known for" rows={3}
                   placeholder="People come to me specifically for heat pump installs..."
@@ -367,7 +328,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>Any qualifications, licences, or certifications we should show off?</label>
+                <label className={LABEL}>Qualifications, licences, or certifications worth showing?</label>
                 <textarea
                   name="Qualifications and certifications" rows={3}
                   placeholder="Master Plumber certified, Licensed Building Practitioner..."
@@ -375,183 +336,459 @@ export default function DiscoveryForm({ tier = 'launch' }) {
                 />
               </div>
               <div>
-                <label className={LABEL}>What makes you different from the next person doing the same thing?</label>
+                <label className={LABEL}>Who's your ideal client? <span className="normal-case font-normal">(if you could clone your favourite, who'd they be?)</span></label>
+                <textarea
+                  name="Ideal customer" rows={3}
+                  placeholder="Homeowners in their 30s–50s who take pride in their property..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Anyone this site is definitely NOT for?</label>
+                <textarea
+                  name="Not for" rows={2}
+                  placeholder="No commercial work, no jobs outside Auckland..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>What makes you different? Why pick you over a competitor?</label>
                 <textarea
                   name="Point of difference" rows={4}
-                  placeholder="I actually show up on time. I explain everything before I start. I don't disappear after the job..."
+                  placeholder="I actually show up on time. I explain everything before I start..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>What do you care about that maybe other people in your industry don't?</label>
+                <textarea
+                  name="What you care about" rows={3}
+                  placeholder="Honest pricing, no upselling, treating apprentices well..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
             </div>
           </div>
 
-          {/* Proud Moments */}
+          {/* ── MODULE 04 — THE STORY ── */}
           <div className={SECTION}>
             <div className="mb-6">
-              <h3 className="text-base font-extrabold tracking-tighter uppercase">Proud Moments</h3>
-              <p className="text-sm text-gray-500 mt-1">Stories make websites memorable. Take your time with these.</p>
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Your Story</h3>
+              <p className="text-sm text-softGrey mt-1">The most important section. Write how you'd say it — only share what you're comfortable putting online.</p>
             </div>
             <div className="space-y-6">
               <div>
-                <label className={LABEL}>What's one of the jobs you've been most proud of?</label>
+                <label className={LABEL}>How did you end up doing this work?</label>
                 <textarea
-                  name="Proudest job" rows={4}
-                  placeholder="We did a full bathroom reno for this elderly couple in Dargaville..."
+                  name="Origin story" rows={4}
+                  placeholder="I used to work for a big firm, then..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
               <div>
-                <label className={LABEL}>What's one of the biggest learnings you've had as a business owner?</label>
+                <label className={LABEL}>What made you want to do this yourself rather than work for someone else?</label>
                 <textarea
-                  name="Biggest business learning" rows={3}
-                  placeholder="Early on I was afraid to put my prices up, then I realised..."
+                  name="Why you went out on your own" rows={3}
+                  placeholder="I wanted to do things my way..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
               <div>
-                <label className={LABEL}>Is there a customer story that sticks with you?</label>
+                <label className={LABEL}>A moment — or a person — that shaped why you do what you do?</label>
                 <textarea
-                  name="Memorable customer story" rows={4}
-                  placeholder="There was this single mum who'd been quoted $8k by someone else..."
+                  name="Defining moment or person" rows={3}
+                  placeholder="My old boss taught me that..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>What do you love about this work? What gets you out of bed?</label>
+                <textarea
+                  name="What you love about the work" rows={4}
+                  placeholder="Honestly, it's when a customer calls back six months later to say..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>When someone leaves after working with you — what do you want them to feel?</label>
+                <textarea
+                  name="How clients should feel after" rows={3}
+                  placeholder="Like they finally got someone who actually listened..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>If your business had a deeper purpose beyond the work itself — what would it be?</label>
+                <textarea
+                  name="Deeper purpose" rows={3}
+                  placeholder="Helping people feel proud of where they live..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>What do you want people to know about you that they might not expect?</label>
+                <textarea
+                  name="Unexpected thing about you" rows={3}
+                  placeholder="I'm a classically trained pianist / I used to teach high school..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
             </div>
           </div>
 
-          {/* Vibe & Photos */}
+          {/* ── MODULE 05 — BRAND + VOICE ── */}
           <div className={SECTION}>
             <div className="mb-6">
-              <h3 className="text-base font-extrabold tracking-tighter uppercase">Vibe & Visuals</h3>
-              <p className="text-sm text-gray-500 mt-1">Help us nail the look and feel.</p>
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Brand & Voice</h3>
+              <p className="text-sm text-softGrey mt-1">Helps us nail the look, feel, and tone.</p>
             </div>
             <div className="space-y-6">
               <div>
-                <label className={LABEL}>If your business was a person, how would you describe their vibe?</label>
+                <label className={LABEL}>Got brand guidelines or a style guide? <span className="normal-case font-normal">(send to hello@yourhq.co.nz)</span></label>
+                <input
+                  type="text" name="Brand guidelines"
+                  placeholder="Yes / No / Just a logo and some colours"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>If your brand was a physical space — café, studio, shop, home — what would walking in feel like?</label>
                 <textarea
-                  name="Business vibe or personality" rows={3}
-                  placeholder="Reliable, no-nonsense, but warm. Like a good tradie mate you can trust..."
+                  name="Brand as a physical space" rows={3}
+                  placeholder="Warm timber, plants, coffee on the bench, someone humming..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Three words that describe the vibe you want?</label>
+                <input
+                  type="text" name="Three vibe words"
+                  placeholder="Warm, capable, no-nonsense"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Brands, websites, or aesthetics you admire? <span className="normal-case font-normal">(even outside your industry)</span></label>
+                <textarea
+                  name="Brands you admire" rows={3}
+                  placeholder="Allbirds, Karen Walker, that local café that gets the typography right..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>When someone lands on your site — what do you want them to feel?</label>
+                <textarea
+                  name="What visitors should feel" rows={3}
+                  placeholder="Calm, like they've found the right person..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>How do you naturally talk to clients? <span className="normal-case font-normal">(casual, professional, somewhere in between?)</span></label>
+                <input
+                  type="text" name="Tone of voice"
+                  placeholder="Pretty casual but still professional..."
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>If your brand was a person, how would you describe them?</label>
+                <textarea
+                  name="Brand personality" rows={3}
+                  placeholder="Confident but not arrogant. Warm but no-nonsense..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
               <div className="grid md:grid-cols-2 gap-5">
-                <div>
-                  <label className={LABEL}>Do you have a logo? <span className="normal-case font-normal">(Send it to hello@yourhq.co.nz)</span></label>
-                  <input
-                    type="text" name="Logo status"
-                    placeholder="Yes / No / In progress"
-                    className={`${INPUT} ${a.focus}`}
-                  />
-                </div>
                 <div>
                   <label className={LABEL}>Brand colours <span className="normal-case font-normal">(if you have them)</span></label>
                   <input
                     type="text" name="Brand colours"
-                    placeholder="Navy blue and white, or #003366..."
+                    placeholder="Navy and white, or #003366..."
+                    className={`${INPUT} ${a.focus}`}
+                  />
+                </div>
+                <div>
+                  <label className={LABEL}>Colours to avoid?</label>
+                  <input
+                    type="text" name="Colours to avoid"
+                    placeholder="Not orange, definitely no bright yellow..."
                     className={`${INPUT} ${a.focus}`}
                   />
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* ── MODULE 06 — ONLINE PRESENCE + CONTENT ── */}
+          <div className={SECTION}>
+            <div className="mb-6">
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Online Presence & Content</h3>
+              <p className="text-sm text-softGrey mt-1">Where you show up and what you create.</p>
+            </div>
+            <div className="space-y-6">
               <div>
-                <label className={LABEL}>Any colours you definitely don't want?</label>
+                <label className={LABEL}>Which platform do you use most? Which feels most natural?</label>
+                <textarea
+                  name="Most-used platform" rows={2}
+                  placeholder="Instagram for photos, LinkedIn for the serious stuff..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Podcast appearances, press mentions, speaking gigs, or media coverage?</label>
+                <textarea
+                  name="Media and press" rows={3}
+                  placeholder="Featured in NZ Herald 2024, guested on the Better Business podcast..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Long-form posts, or short and punchy?</label>
                 <input
-                  type="text" name="Colours to avoid"
-                  placeholder="Not orange, definitely not bright yellow..."
+                  type="text" name="Content style"
+                  placeholder="Mostly short captions / Longer LinkedIn essays..."
                   className={`${INPUT} ${a.focus}`}
                 />
               </div>
-              <div className="grid md:grid-cols-2 gap-5">
-                <div>
-                  <label className={LABEL}>Facebook page URL <span className="normal-case font-normal">(if you have one)</span></label>
-                  <input
-                    type="text" name="Facebook URL"
-                    placeholder="facebook.com/yourbusiness"
-                    className={`${INPUT} ${a.focus}`}
-                  />
-                </div>
-                <div>
-                  <label className={LABEL}>Instagram handle <span className="normal-case font-normal">(if you have one)</span></label>
-                  <input
-                    type="text" name="Instagram handle"
-                    placeholder="@yourbusiness"
-                    className={`${INPUT} ${a.focus}`}
-                  />
-                </div>
+              <div>
+                <label className={LABEL}>Want your social posts to automatically become blog articles? <span className="normal-case font-normal">(Content Autopilot Power-Up)</span></label>
+                <input
+                  type="text" name="Content Autopilot interest"
+                  placeholder="Yes — Instagram and LinkedIn / No / Tell me more"
+                  className={`${INPUT} ${a.focus}`}
+                />
               </div>
               <div>
-                <label className={LABEL}>Do you have photos of your work? Or are we working with what's on your socials?</label>
+                <label className={LABEL}>Anything about your online presence you're embarrassed by or want to move away from?</label>
                 <textarea
-                  name="Photos available" rows={2}
-                  placeholder="I've got some on my phone, nothing professional... / Just use my Facebook..."
+                  name="Online presence — move away from" rows={2}
+                  placeholder="My old website is dire. Don't link to it..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
             </div>
           </div>
 
-          {/* Money & Action */}
+          {/* ── MODULE 07 — WHAT THE SITE NEEDS TO DO ── */}
           <div className={SECTION}>
             <div className="mb-6">
-              <h3 className="text-base font-extrabold tracking-tighter uppercase">Pricing & Calls to Action</h3>
-              <p className="text-sm text-gray-500 mt-1">How you want visitors to engage with your site.</p>
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">What the Site Needs to Do</h3>
+              <p className="text-sm text-softGrey mt-1">Goals, calls to action, and email capture.</p>
             </div>
             <div className="space-y-6">
+              <div>
+                <label className={LABEL}>When someone lands on your site — what's the ONE thing you most want them to do?</label>
+                <input
+                  type="text" name="Main call to action"
+                  placeholder="Call me / Fill out a form / Book online / Buy the thing..."
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Questions you get asked all the time we should just answer on the site?</label>
+                <textarea
+                  name="Top customer questions" rows={5}
+                  placeholder={"1. How much does it cost?\n2. How soon can you come out?\n3. Are you licensed?"}
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Do you want to capture email addresses through the site?</label>
+                <input
+                  type="text" name="Email capture interest"
+                  placeholder="Yes / No / Tell me more"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Email marketing platform? <span className="normal-case font-normal">(ConvertKit, Mailchimp, etc — leave blank if none)</span></label>
+                <input
+                  type="text" name="Email marketing platform"
+                  placeholder="ConvertKit / Mailchimp / None yet"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Something you could offer in exchange for an email? <span className="normal-case font-normal">(guide, checklist, free consult)</span></label>
+                <textarea
+                  name="Lead magnet idea" rows={3}
+                  placeholder="A 'home maintenance checklist' PDF, free 15-min consult..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
               <div>
                 <label className={LABEL}>How do you want to handle pricing on the site?</label>
                 <input
                   type="text" name="Pricing approach"
-                  placeholder="Specific prices / 'Starting from...' / 'Get in touch for a quote'"
+                  placeholder="Show prices / 'Starting from...' / Get in touch only"
                   className={`${INPUT} ${a.focus}`}
                 />
               </div>
+            </div>
+          </div>
+
+          {/* ── MODULE 08 — INTEGRATIONS ── */}
+          <div className={SECTION}>
+            <div className="mb-6">
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Integrations</h3>
+              <p className="text-sm text-softGrey mt-1">Only fill in what's relevant. Anything here may be a Power-Up — Lian will confirm scope and pricing.</p>
+            </div>
+            <div className="space-y-6">
               <div>
-                <label className={LABEL}>When someone lands on your site, what's the main thing you want them to do?</label>
+                <label className={LABEL}>Bookings system? <span className="normal-case font-normal">(Calendly, Acuity, Timely...)</span></label>
                 <input
-                  type="text" name="Main call to action"
-                  placeholder="Call me / Fill out a form / Book online..."
+                  type="text" name="Bookings system"
+                  placeholder="Calendly / Timely / None / Open to suggestions"
                   className={`${INPUT} ${a.focus}`}
                 />
               </div>
               <div>
-                <label className={LABEL}>Is there anything you want to make really obvious? <span className="normal-case font-normal">(e.g. "Free quotes", "Same-day service")</span></label>
+                <label className={LABEL}>Take deposits or payments upfront from clients?</label>
+                <input
+                  type="text" name="Deposits or upfront payments"
+                  placeholder="Yes — 50% deposits / Sometimes / No"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Want to take payments through the website?</label>
+                <input
+                  type="text" name="Stripe payments interest"
+                  placeholder="Yes — session packs / digital products / No"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Sell or plan to sell digital products? <span className="normal-case font-normal">(guides, templates, recordings)</span></label>
+                <input
+                  type="text" name="Digital products"
+                  placeholder="A meditation pack, a hiring template..."
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Have or plan a course or program?</label>
+                <input
+                  type="text" name="Course or program"
+                  placeholder="Yes — 6-week leadership course / Maybe one day / No"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Are you the face of the business, or is the business the brand — or both?</label>
+                <input
+                  type="text" name="Face of business or brand"
+                  placeholder="I am the brand / The business is the brand / Both"
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Do you speak, consult, run workshops, or appear on stages?</label>
                 <textarea
-                  name="Key selling points to highlight" rows={3}
-                  placeholder="Free quotes, no call-out fee, 24/7 emergency..."
+                  name="Speaking and workshops" rows={2}
+                  placeholder="Keynote at NZ Marketing Summit, run quarterly workshops..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>TEDx talk, keynote, podcast episode, or signature media moment to feature prominently?</label>
+                <input
+                  type="text" name="Signature media"
+                  placeholder="TEDx Auckland 2023 / Keynote at..."
+                  className={`${INPUT} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Different kinds of clients who need different things from the site? <span className="normal-case font-normal">(e.g. speakers vs coaching clients vs community)</span></label>
+                <textarea
+                  name="Audience routing" rows={3}
+                  placeholder="Speakers want my speaker reel, 1:1 clients want to book a discovery..."
                   className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
             </div>
           </div>
 
-          {/* SEO */}
+          {/* ── MODULE 09 — TESTIMONIALS + SOCIAL PROOF ── */}
           <div className={SECTION}>
             <div className="mb-6">
-              <h3 className="text-base font-extrabold tracking-tighter uppercase">Google & SEO</h3>
-              <p className="text-sm text-gray-500 mt-1">What people search for when they need someone like you.</p>
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Testimonials & Social Proof</h3>
+              <p className="text-sm text-softGrey mt-1">The stuff that builds trust.</p>
             </div>
             <div className="space-y-6">
               <div>
-                <label className={LABEL}>When someone Googles what you do, what's the dream search phrase?</label>
+                <label className={LABEL}>Best compliment a client has ever given you?</label>
+                <textarea
+                  name="Best client compliment" rows={3}
+                  placeholder="It was the first time someone actually listened to me..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Written testimonials or reviews we can use? <span className="normal-case font-normal">(Google, Facebook, DMs, emails)</span></label>
+                <textarea
+                  name="Testimonials" rows={5}
+                  placeholder="Paste any reviews here, or just say where to find them..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Results or outcomes you're particularly proud of? <span className="normal-case font-normal">(a project, a transformation, a number)</span></label>
+                <textarea
+                  name="Proud results" rows={4}
+                  placeholder="Helped a client triple their revenue in 18 months..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Logos, media mentions, or associations to show? <span className="normal-case font-normal">("As seen in", "Member of"...)</span></label>
+                <textarea
+                  name="Logos and associations" rows={3}
+                  placeholder="Master Plumbers member, featured in NZ Herald, ICF certified..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* ── MODULE 10 — WRAP UP ── */}
+          <div className={SECTION}>
+            <div className="mb-6">
+              <h3 className="font-display font-bold text-accent uppercase tracking-tight text-carbon">Wrap Up</h3>
+              <p className="text-sm text-softGrey mt-1">Last few — anything we haven't covered.</p>
+            </div>
+            <div className="space-y-6">
+              <div>
+                <label className={LABEL}>Anything else you want on the site? <span className="normal-case font-normal">(seen something somewhere and thought "I want that")</span></label>
+                <textarea
+                  name="Other site wishes" rows={3}
+                  placeholder="A staff profiles section, a before/after gallery..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Anything you've had on a website before that didn't work — or that you definitely don't want?</label>
+                <textarea
+                  name="What didn't work before" rows={3}
+                  placeholder="A live chat widget that just stressed me out..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>Anything about your business that's changing soon we should build in now?</label>
+                <textarea
+                  name="Upcoming changes" rows={3}
+                  placeholder="Launching a second location in March, hiring a second coach..."
+                  className={`${TEXTAREA} ${a.focus}`}
+                />
+              </div>
+              <div>
+                <label className={LABEL}>On a scale of "keep it simple" to "give me everything" — where are you sitting?</label>
                 <input
-                  type="text" name="Dream Google search phrase"
-                  placeholder='"Plumber Whangarei" or "emergency plumber Northland"'
+                  type="text" name="Scope preference"
+                  placeholder="Keep it simple / Somewhere in the middle / Give me everything"
                   className={`${INPUT} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>What are the top questions people always ask before booking you?</label>
-                <textarea
-                  name="Top customer questions before booking" rows={5}
-                  placeholder={"1. How much does it cost?\n2. How soon can you come out?\n3. Are you licensed?\n..."}
-                  className={`${TEXTAREA} ${a.focus}`}
-                />
-              </div>
-              <div>
-                <label className={LABEL}>Any jobs you definitely DON'T want? <span className="normal-case font-normal">(We can write the site to filter these out.)</span></label>
-                <textarea
-                  name="Jobs to filter out" rows={2}
-                  placeholder="No commercial work, no jobs outside Auckland..."
-                  className={`${TEXTAREA} ${a.focus}`}
                 />
               </div>
             </div>
@@ -559,61 +796,25 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         </>
       )}
 
-      {/* ── GROWTH ONLY ── */}
-      {isGrowth && (
-        <div className={SECTION}>
-          <div className="mb-6">
-            <h3 className="text-base font-extrabold tracking-tighter uppercase">Booking System & Content</h3>
-            <p className="text-sm text-gray-500 mt-1">Growth-specific features - let's get these sorted.</p>
-          </div>
-          <div className="space-y-6">
-            <div>
-              <label className={LABEL}>Do you already use a booking system? <span className="normal-case font-normal">(e.g. Timely, Fresha, Calendly)</span></label>
-              <input
-                type="text" name="Existing booking system"
-                placeholder="Yes – Calendly / No – open to suggestions"
-                className={`${INPUT} ${a.focus}`}
-              />
-            </div>
-            <div>
-              <label className={LABEL}>Would you like a blog or news section? <span className="normal-case font-normal">(Tips, updates, before/afters)</span></label>
-              <textarea
-                name="Blog or news section" rows={3}
-                placeholder="Yes, I'd love to share tips and before/afters... / Not sure yet..."
-                className={`${TEXTAREA} ${a.focus}`}
-              />
-            </div>
-            <div>
-              <label className={LABEL}>Is there anything else you want the site to do for you?</label>
-              <textarea
-                name="Anything else" rows={3}
-                placeholder="A staff profiles section, a before/after gallery, something else entirely..."
-                className={`${TEXTAREA} ${a.focus}`}
-              />
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* ── SUBMIT ── */}
       <div className="pt-4 space-y-4">
         <button
           type="submit"
           disabled={status === 'sending'}
-          className={`${a.btn} px-8 py-4 w-full font-bold uppercase tracking-widest shadow-hard hover:shadow-none hover:translate-y-[2px] transition-all disabled:opacity-50`}
+          className={`${a.btn} px-8 py-4 w-full rounded-full font-medium text-ui transition-colors duration-300 shadow-subtle hover:shadow-elegant disabled:opacity-50`}
         >
           {status === 'sending' ? 'Sending...' : 'Send to YourHQ →'}
         </button>
 
         {status === 'error' && (
-          <p className="text-sm text-red-600 text-center">
+          <p className="text-sm text-terracotta text-center">
             Something went wrong. Please try again or text us on{' '}
             <a href="sms:0221725793" className="underline">022 172 5793</a>.
           </p>
         )}
 
-        <p className="text-xs text-gray-400 text-center">
-          All fields are optional - fill in what you can. We'll follow up on anything we need.
+        <p className="text-xs text-softGrey/70 text-center">
+          Only your business or brand name is required — fill in whatever else you can. We'll follow up on anything we need.
         </p>
       </div>
     </form>
