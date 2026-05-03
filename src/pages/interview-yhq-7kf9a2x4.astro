@@ -97,31 +97,40 @@ import DiscoveryForm from '../components/DiscoveryForm.jsx';
       </div>
     </section>
 
-    <!-- WRITTEN FORM -->
+    <!-- WRITTEN FORM (OPT-IN, COLLAPSED BY DEFAULT) -->
     <section class="py-24 bg-bone px-6 lg:px-12">
       <div class="max-w-4xl mx-auto">
 
-        <div class="text-center mb-16">
+        <div class="text-center mb-10">
+          <span class="inline-block font-mono text-badge text-softGrey mb-6 px-4 py-1.5 bg-white rounded-full border border-carbon/5">
+            Optional fallback
+          </span>
           <h2 class="font-display text-display font-bold text-carbon mb-6">
-            Prefer to Type?
+            The conversation is the way.
           </h2>
-          <p class="font-sans text-subhead text-softGrey max-w-2xl mx-auto">
-            Fill this in at your own pace. All fields are optional - answer what you can and we'll cover the rest.
+          <p class="font-sans text-subhead text-softGrey max-w-2xl mx-auto leading-relaxed">
+            Talking gives us the warmth, the rhythm, the actual <em class="font-serif italic text-carbon">you</em> — and it's faster. The written form exists for people who genuinely can't talk right now (loud space, lost voice, late at night). If that's you, open it below.
           </p>
         </div>
 
-        <!-- Form Container -->
-        <div class="bg-white rounded-2xl border border-carbon/5 shadow-elegant p-8 md:p-12 lg:p-16">
-          
-          <div class="mb-12 pb-8 border-b border-carbon/5">
-            <span class="inline-block font-mono text-[10px] text-carbon uppercase tracking-[0.15em] mb-4">Written Intake Form</span>
-            <h3 class="font-sans font-semibold text-headline text-carbon mb-2">Discovery Questions</h3>
-            <p class="font-serif italic text-accent text-softGrey">The more you fill in, the better your site.</p>
+        <!-- Expandable Form -->
+        <details class="group bg-white rounded-2xl border border-carbon/5 shadow-elegant overflow-hidden">
+          <summary class="cursor-pointer list-none p-8 md:p-10 flex items-center justify-between gap-6 hover:bg-surface transition-colors">
+            <div class="flex-1 text-left">
+              <span class="inline-block font-mono text-[10px] text-carbon uppercase tracking-[0.15em] mb-2">Written intake form</span>
+              <h3 class="font-sans font-semibold text-headline text-carbon">I'd rather type it out</h3>
+              <p class="font-serif italic text-accent text-softGrey mt-1">Open the form (only if you really need to).</p>
+            </div>
+            <span class="flex items-center justify-center w-12 h-12 rounded-full bg-bone border border-carbon/10 font-mono text-xl text-carbon shadow-sm group-open:rotate-45 transition-transform shrink-0">+</span>
+          </summary>
+
+          <div class="px-8 md:px-12 lg:px-16 pb-12 md:pb-16 pt-2 border-t border-carbon/5">
+            <p class="font-sans text-ui text-softGrey mb-10 mt-8">
+              All fields are optional — answer what you can and we'll cover the rest.
+            </p>
+            <DiscoveryForm client:load tier="growth" />
           </div>
-          
-          <!-- React Component -->
-          <DiscoveryForm client:load tier="growth" />
-        </div>
+        </details>
 
       </div>
     </section>
