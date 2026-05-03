@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import HowToSchema from '../components/HowToSchema.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 
 const buildLink = "/start-build";
 
@@ -22,6 +23,13 @@ const faqsHowItWorks = [
   description="One conversation. I handle everything else. Hand-coded websites, written in your voice, looked after forever. Most clients are live within 1 to 2 weeks."
 >
   <HowToSchema slot="head" />
+  <BreadcrumbSchema
+    slot="head"
+    items={[
+      { name: 'Home', url: 'https://yourhq.co.nz/' },
+      { name: 'How It Works', url: 'https://yourhq.co.nz/how-it-works' }
+    ]}
+  />
   <Navbar client:load />
 
   <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">

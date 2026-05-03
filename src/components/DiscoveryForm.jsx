@@ -149,7 +149,8 @@ export default function DiscoveryForm({ tier = 'launch' }) {
       setStatus('success');
       notifyNtfy(
         `${name || 'Someone'} submitted the discovery form. (${tier})`,
-        'Discovery Form Submitted'
+        'Discovery Form Submitted',
+        'yourhq-discovery'
       );
     }
   }

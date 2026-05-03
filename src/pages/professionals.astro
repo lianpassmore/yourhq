@@ -2,83 +2,140 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 
 const buildLink = "/start-build";
+
+const professionalsServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Websites for Professional Services in New Zealand",
+  "description": "Hand-coded websites for NZ professional services — physiotherapists, accountants, lawyers, consultants, coaches, financial advisers. Built to pass the Google Test.",
+  "serviceType": "Website Design and Development",
+  "provider": { "@id": "https://yourhq.co.nz/#organization" },
+  "areaServed": { "@type": "Country", "name": "New Zealand" },
+  "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Physiotherapists, accountants, lawyers, consultants, coaches, financial advisers"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "1800",
+    "priceCurrency": "NZD",
+    "url": "https://yourhq.co.nz/start-build"
+  }
+};
+
+const practices = [
+  ['Physiotherapists & Clinicians', 'Solo, group practice, mobile'],
+  ['Accountants & Bookkeepers', 'Tax, advisory, business services'],
+  ['Lawyers', 'Family, commercial, conveyancing, criminal'],
+  ['Consultants', 'Strategy, operations, technology'],
+  ['Financial Advisers & Brokers', 'Mortgages, insurance, investment'],
+  ['Coaches & Architects', 'Executive, business, residential design']
+];
+
+const included = [
+  { title: 'A site that reads like you wrote it.', body: 'The Drive-Home Interview captures your voice. I write the copy. You approve every word before a line of code is written.' },
+  { title: 'Hand-coded. Loads in under a second.', body: 'Built for standard search and AI-generated answers. Mobile-first. No WordPress, no plugins, no platform breakage.' },
+  { title: 'Booking and intake wired in if you need it.', body: 'Calendly, Acuity, Timely embedded and styled. Email capture for newsletters or lead magnets. Available as Power-Ups at build checkout.' },
+  { title: 'Owned by you. Unconditionally.', body: 'Domain in your name from day one. If you ever leave, you take everything. Nothing held hostage.' },
+  { title: 'Refreshed every year. Included.', body: 'As your practice evolves, your digital home evolves with it. New layout, new energy, no rebuild invoice.' }
+];
 ---
 
 <Layout
   title="Websites for Professional Services NZ | Hand-Coded, Looked After Forever | YourHQ"
   description="Hand-coded websites for physiotherapists, accountants, lawyers, consultants, coaches, and financial advisers. Pass the Google Test. From $1,800 NZD + GST. Looked after forever."
 >
+  <BreadcrumbSchema
+    slot="head"
+    items={[
+      { name: 'Home', url: 'https://yourhq.co.nz/' },
+      { name: 'Who We Build For', url: 'https://yourhq.co.nz/who-we-build-for' },
+      { name: 'Professionals', url: 'https://yourhq.co.nz/professionals' }
+    ]}
+  />
+  <script slot="head" is:inline type="application/ld+json" set:html={JSON.stringify(professionalsServiceSchema)} />
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
 
-    <!-- HERO -->
-    <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- ============================================================
+         01 · HERO
+    ============================================================ -->
+    <section class="relative bg-bone pt-24 md:pt-32 pb-24 md:pb-32 px-4 sm:px-6 lg:px-8 border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto">
         <div class="max-w-4xl">
-          <span class="inline-block py-1 px-3 rounded-full bg-frangipani/20 text-carbon font-bold text-sm mb-6 tracking-wide uppercase font-mono">
-            For Professional Services
+          <span class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-deepGreen mb-8 font-medium flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> For Professional Services
           </span>
-          <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] mb-8">
-            When Someone Googles You<br/>
-            <span class="text-frangipani">Before They Book. What Do They Find?</span>
+          <h1 class="font-display font-bold text-[clamp(3rem,7vw,6.5rem)] leading-[0.95] tracking-tight text-carbon">
+            <span class="block uppercase">When someone Googles you</span>
+            <span class="block font-serif italic text-softGrey normal-case mt-2 mb-4 text-[clamp(1.5rem,4vw,3.5rem)] leading-none">before they book.</span>
+            <span class="block uppercase">What do</span>
+            <span class="block font-serif italic text-deepGreen normal-case mt-2 text-[clamp(1.5rem,4vw,3.5rem)] leading-none">they find?</span>
           </h1>
-          <p class="text-xl md:text-2xl text-gray-700 max-w-3xl leading-relaxed mb-2">
+          <p class="font-sans text-lg md:text-xl text-carbon/80 max-w-2xl leading-relaxed mt-10">
             Hand-coded websites for physiotherapists, accountants, lawyers, consultants, and advisers. Built carefully. Written in your voice. Compliance-aware.
           </p>
-          <p class="font-mono text-xs uppercase tracking-widest text-gray-500">
-            From $1,800 NZD + GST &middot; from $129/mo NZD &middot; Built in Aotearoa &middot; Working worldwide
+          <p class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-deepGreen mt-6 font-medium">
+            From $1,800 NZD + GST · from $129/mo NZD · Built in Aotearoa · Working worldwide
           </p>
+          <div class="mt-10 flex flex-col sm:flex-row gap-4 font-sans">
+            <a href={buildLink} class="bg-carbon text-white px-8 py-3.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 text-center shadow-subtle">
+              Start Your Build
+            </a>
+            <a href="/pricing" class="bg-transparent text-carbon border border-carbon/20 px-8 py-3.5 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300 text-center">
+              See Pricing
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- THE GOOGLE TEST -->
-    <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-10 leading-tight">
-          You Studied for Years to Be Trusted.<br/>
-          <span class="text-gray-400">Your Website Should Carry That Weight.</span>
+    <!-- ============================================================
+         02 · THE GOOGLE TEST
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display font-bold text-[clamp(2.25rem,4.5vw,3.5rem)] uppercase leading-none tracking-tight mb-10">
+          You studied for years to be trusted.<br/>
+          <span class="font-serif italic text-softGrey normal-case">Your website should carry that weight.</span>
         </h2>
-        <div class="space-y-6 text-lg text-carbon/90 leading-relaxed">
+        <div class="space-y-6 font-sans text-lg text-carbon/80 leading-relaxed">
           <p>
-            Before someone books a consult, signs a retainer, or refers a client. They Google you. They look at your site. They make a judgement in seconds.
+            Before someone books a consult, signs a retainer, or refers a client, they Google you. They look at your site. They make a judgement in seconds.
           </p>
           <p>
             You can be the most experienced practitioner in your field. If your site is dated, slow, or generic, that judgement gets made against you.
           </p>
-          <p>
+          <p class="font-serif italic text-xl text-carbon">
             That's the Google Test. And it's not optional.
           </p>
-          <p class="font-bold text-carbon">
+          <p class="font-medium text-carbon">
             A YourHQ site passes it. Hand-coded, written in your voice, designed to look as credible as you actually are.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- BUILT FOR -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- ============================================================
+         03 · BUILT FOR
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-screen-xl mx-auto">
         <div class="max-w-4xl mx-auto">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
-            Built For Practitioners<br/>
-            <span class="text-gray-400">Whose Reputation Is Their Business.</span>
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">Built For</span>
+          <h2 class="font-display font-bold text-[clamp(2.25rem,4.5vw,3.5rem)] uppercase leading-none tracking-tight mb-12">
+            Practitioners whose<br/>
+            <span class="font-serif italic text-deepGreen normal-case">reputation is the business.</span>
           </h2>
-          <div class="grid md:grid-cols-2 gap-0 border-l border-t border-carbon">
-            {[
-              ['Physiotherapists &amp; Clinicians', 'Solo, group practice, mobile'],
-              ['Accountants &amp; Bookkeepers', 'Tax, advisory, business services'],
-              ['Lawyers', 'Family, commercial, conveyancing, criminal'],
-              ['Consultants', 'Strategy, operations, technology'],
-              ['Financial Advisers &amp; Brokers', 'Mortgages, insurance, investment'],
-              ['Coaches &amp; Architects', 'Executive, business, residential design']
-            ].map(([trade, sub]) => (
-              <div class="bg-white border-r border-b border-carbon p-6">
-                <p class="font-extrabold text-lg mb-1">{trade}</p>
-                <p class="font-mono text-xs uppercase tracking-widest text-gray-500">{sub}</p>
+          <div class="grid sm:grid-cols-2 gap-4 md:gap-6">
+            {practices.map(([trade, sub]) => (
+              <div class="bg-white rounded-2xl p-6 md:p-7 border border-carbon/10 shadow-subtle">
+                <p class="font-display font-bold text-lg uppercase tracking-tight text-carbon mb-2">{trade}</p>
+                <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">{sub}</p>
               </div>
             ))}
           </div>
@@ -86,85 +143,69 @@ const buildLink = "/start-build";
       </div>
     </section>
 
-    <!-- COMPLIANCE NOTE -->
-    <section class="py-20 bg-white border-b border-carbon">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-paper border-l-4 border-frangipani p-8">
-          <p class="font-mono text-xs font-bold uppercase tracking-widest text-frangipani mb-4">A Note on Compliance</p>
-          <h3 class="text-2xl font-extrabold mb-4 leading-tight">I Write Carefully.</h3>
-          <p class="text-carbon/90 leading-relaxed mb-4">
+    <!-- ============================================================
+         04 · COMPLIANCE
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto">
+        <div class="bg-bone rounded-3xl p-10 md:p-12 border border-carbon/10 shadow-subtle border-l-4 border-l-deepGreen">
+          <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen mb-4 font-medium">A note on compliance</p>
+          <h3 class="font-display font-bold text-2xl md:text-3xl uppercase tracking-tight leading-tight mb-6 text-carbon">
+            I write carefully.
+          </h3>
+          <p class="font-sans text-carbon/80 leading-relaxed mb-4">
             I don't make clinical claims, guarantee outcomes, or use language that could create regulatory issues for professional services businesses. If you have specific advertising guidelines from your professional body, share them. I'll write to them.
           </p>
-          <p class="text-carbon/80 italic">
+          <p class="font-serif italic text-carbon/70">
             This is a conversation I have with almost every professional services client.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- WHAT YOU GET -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
-          What You Get.<br/>
-          <span class="text-gray-400">All In.</span>
+    <!-- ============================================================
+         05 · WHAT YOU GET
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto">
+        <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">What's Included</span>
+        <h2 class="font-display font-bold text-[clamp(2.25rem,4.5vw,3.5rem)] uppercase leading-none tracking-tight mb-12">
+          What you get.<br/>
+          <span class="font-serif italic text-softGrey normal-case">All in.</span>
         </h2>
 
-        <ul class="space-y-5 text-lg text-carbon/90">
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-frangipani text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">A site that reads like you wrote it.</p>
-              <p class="text-base text-carbon/70">Drive-Home Interview captures your voice. I write the copy. You approve every word before a line of code is written.</p>
-            </div>
-          </li>
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-frangipani text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Hand-coded. Loads in under a second.</p>
-              <p class="text-base text-carbon/70">Built for standard search and AI-generated answers. Mobile-first. No WordPress, no plugins, no platform breakage.</p>
-            </div>
-          </li>
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-frangipani text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Booking and intake wired in if you need it.</p>
-              <p class="text-base text-carbon/70">Calendly, Acuity, Timely embedded and styled. Email capture for newsletters or lead magnets. Available as Power-Ups at build checkout.</p>
-            </div>
-          </li>
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-frangipani text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Owned by you. Unconditionally.</p>
-              <p class="text-base text-carbon/70">Domain in your name from day one. If you ever leave, you take everything. Nothing held hostage.</p>
-            </div>
-          </li>
-          <li class="flex gap-4">
-            <span class="text-frangipani text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Refreshed every year. Included.</p>
-              <p class="text-base text-carbon/70">As your practice evolves, your digital home evolves with it. New layout, new energy, no rebuild invoice.</p>
-            </div>
-          </li>
+        <ul class="border-t border-carbon/10">
+          {included.map((item, idx) => (
+            <li class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-4 md:gap-6 items-start">
+              <span class="font-mono col-span-2 text-[10px] uppercase tracking-[0.15em] text-deepGreen mt-1">{String(idx + 1).padStart(2, '0')}</span>
+              <div class="col-span-10">
+                <p class="font-sans font-semibold text-lg md:text-xl text-carbon mb-2">{item.title}</p>
+                <p class="font-sans text-base text-carbon/70 leading-relaxed">{item.body}</p>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-32 bg-carbon text-white text-center">
-      <div class="max-w-3xl mx-auto px-4">
-        <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-8 leading-tight">
-          Pass the <span class="text-frangipani">Google Test.</span>
+    <!-- ============================================================
+         06 · FINAL CTA
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-carbon text-bone border-y border-carbon px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="font-display font-bold text-[clamp(2.5rem,5vw,4rem)] uppercase leading-none tracking-tight text-white mb-8">
+          Pass the<br/>
+          <span class="font-serif italic text-terracotta normal-case">Google Test.</span>
         </h2>
-        <p class="text-xl text-gray-300 mb-12 leading-relaxed">
+        <p class="font-serif italic text-xl md:text-2xl text-bone/80 mb-12 leading-snug">
           One conversation. Live in 1 to 2 weeks.<br/>
-          Hand-coded, in your voice, looked after forever.
+          <span class="text-white">Hand-coded, in your voice, looked after forever.</span>
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href={buildLink} class="inline-block bg-frangipani text-white px-12 py-5 border-2 border-frangipani hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-lg">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center font-sans">
+          <a href={buildLink} class="bg-white text-carbon px-8 py-3.5 rounded-full font-medium text-sm hover:bg-bone transition-colors duration-300 text-center shadow-subtle">
             Start Your Build
           </a>
-          <a href="/pricing" class="inline-block bg-transparent text-white px-12 py-5 border-2 border-white hover:bg-white hover:text-carbon transition-colors font-bold uppercase tracking-widest text-lg">
+          <a href="/pricing" class="bg-transparent text-white border border-white/30 px-8 py-3.5 rounded-full font-medium text-sm hover:border-white transition-colors duration-300 text-center">
             See Pricing
           </a>
         </div>

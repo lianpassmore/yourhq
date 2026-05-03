@@ -80,7 +80,7 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
   }, [conversation, status, agentId]);
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end gap-2 max-w-[calc(100vw-1rem)]">
       
       {/* Status Bubble */}
       {status === 'connected' && (
@@ -98,23 +98,23 @@ export default function VoiceAgent({ agentId, staticPlan, staticName }) {
       <button
         onClick={toggleConversation}
         className={`
-            flex items-center gap-3 px-6 py-4 rounded-full transition-colors duration-300
+            flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-3 sm:py-4 rounded-full transition-colors duration-300
             ${status === 'connected'
                 ? 'bg-terracotta text-white shadow-subtle hover:bg-terracotta/90'
                 : 'bg-carbon text-white shadow-subtle hover:bg-deepGreen hover:shadow-elegant'}
         `}
       >
         {status === 'connected' ? (
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-6 sm:w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
         ) : (
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 sm:h-6 sm:w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
             </svg>
         )}
-        
-        <span className="font-medium text-ui">
+
+        <span className="font-medium text-sm sm:text-ui">
             {status === 'connected' ? 'End Interview' : 'Start Interview'}
         </span>
       </button>

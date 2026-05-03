@@ -109,7 +109,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
 	</head>
 	<body class="bg-bone text-carbon font-sans selection:bg-terracotta selection:text-white">
 		<slot />
-		<MailingListPopup client:load excludePaths={['/google-guide']} />
+		<MailingListPopup client:load excludePaths={['/google-guide', '/next-steps']} />
 	</body>
 </html>
 
@@ -117,6 +117,27 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://yourhq.c
   /* Global Styles */
   html {
     scroll-behavior: smooth;
+  }
+
+  /* Prevent stray horizontal scroll on small screens */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  /* Prevent iOS form zoom by ensuring inputs are at least 16px */
+  @media (max-width: 640px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="url"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    select,
+    textarea {
+      font-size: 16px;
+    }
   }
   
   /* Editorial scrollbar */

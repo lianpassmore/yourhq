@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import FAQSchema from '../components/FAQSchema.astro';
 
 const buildLink = "/start-build";
 ---
@@ -10,6 +12,14 @@ const buildLink = "/start-build";
   title="Pricing | YourHQ"
   description="One Build. One Price. Care that scales with you. $1,800 NZD + GST setup. Monthly care from $129 NZD. Power-Ups for booking, email, Stripe."
 >
+  <BreadcrumbSchema
+    slot="head"
+    items={[
+      { name: 'Home', url: 'https://yourhq.co.nz/' },
+      { name: 'Pricing', url: 'https://yourhq.co.nz/pricing' }
+    ]}
+  />
+  <FAQSchema slot="head" />
   <Navbar client:load />
 
   <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
@@ -497,7 +507,8 @@ const buildLink = "/start-build";
           </h2>
         </div>
 
-        <div class="overflow-x-auto rounded-3xl border border-carbon/10 shadow-subtle mb-10">
+        {/* Desktop / tablet table */}
+        <div class="hidden md:block overflow-x-auto rounded-3xl border border-carbon/10 shadow-subtle mb-10">
           <table class="w-full border-collapse bg-white text-sm">
             <thead>
               <tr class="bg-surface border-b border-carbon/10">
@@ -525,6 +536,38 @@ const buildLink = "/start-build";
               ))}
             </tbody>
           </table>
+        </div>
+
+        {/* Mobile stacked cards */}
+        <div class="md:hidden space-y-5 mb-10">
+          {[
+            ['Setup cost', '$0', '$5,000–15,000', '$1,800 NZD + GST'],
+            ['Your time', '40–80 hours', '6–12 weeks of briefing', 'One conversation'],
+            ['Monthly', '$30–50', '$0 (then pay per change)', '$129–249 NZD'],
+            ['Updates', 'You do it yourself', 'Invoice per change', 'Just text me'],
+            ['Rebuild in 3 years', '$0 (you do it again)', '$5,000–15,000', '$0, refresh included'],
+            ['Sounds like you', 'Rarely', 'Sometimes', 'Always']
+          ].map(([label, diy, agency, yhq]) => (
+            <div class="rounded-2xl border border-carbon/10 bg-white shadow-subtle overflow-hidden">
+              <div class="bg-surface border-b border-carbon/10 px-5 py-3">
+                <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey font-medium">{label}</span>
+              </div>
+              <dl class="divide-y divide-carbon/5 text-sm">
+                <div class="flex justify-between gap-4 px-5 py-3">
+                  <dt class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey self-center">DIY</dt>
+                  <dd class="text-right text-carbon/70">{diy}</dd>
+                </div>
+                <div class="flex justify-between gap-4 px-5 py-3">
+                  <dt class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey self-center">Agency</dt>
+                  <dd class="text-right text-carbon/70">{agency}</dd>
+                </div>
+                <div class="flex justify-between gap-4 px-5 py-3 bg-deepGreen/5">
+                  <dt class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen font-medium self-center">YourHQ</dt>
+                  <dd class="text-right text-deepGreen font-medium">{yhq}</dd>
+                </div>
+              </dl>
+            </div>
+          ))}
         </div>
 
         <p class="font-serif italic text-xl text-carbon/80 max-w-3xl mx-auto text-center">

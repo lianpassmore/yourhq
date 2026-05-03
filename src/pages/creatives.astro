@@ -2,12 +2,50 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 
 const buildLink = "/start-build";
 
+const creativesServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Websites for Cafes, Studios and Creatives in New Zealand",
+  "description": "Hand-coded websites for NZ cafes, hospitality, studios, photographers, salons, wellness practitioners, and creative personal brands. Your Instagram is the signal. Your website is the source.",
+  "serviceType": "Website Design and Development",
+  "provider": { "@id": "https://yourhq.co.nz/#organization" },
+  "areaServed": { "@type": "Country", "name": "New Zealand" },
+  "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Cafes, hospitality, studios, photographers, salons, wellness practitioners, creators, personal brands"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "1800",
+    "priceCurrency": "NZD",
+    "url": "https://yourhq.co.nz/start-build"
+  }
+};
+
+const audiences = [
+  ['Cafés & Restaurants', 'Independent hospitality with a vibe to match'],
+  ['Wellness Studios', 'Yoga, pilates, recovery, therapy spaces'],
+  ['Photographers', 'Portrait, wedding, brand, editorial'],
+  ['Designers & Stylists', 'Interior, fashion, brand'],
+  ['Tattoo & Body Art', 'Studios, residencies, travelling artists'],
+  ['Speakers, Podcasters, Writers', 'Anyone whose name is the brand']
+];
+
 const testimonials = [
-  { quote: "The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can't believe how good it is.", author: "Katie", role: "Rumours On Rust · Cafe, Whangārei", color: "border-hibiscus" },
-  { quote: "You helped me take that next step and build my dream. That was my barrier to market.", author: "Nicolette", role: "Ember & Ice · Wellness Studio", color: "border-deepGreen" }
+  { quote: "The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can't believe how good it is.", author: 'Katie', role: 'Rumours On Rust · Café · Whangārei' },
+  { quote: "You helped me take that next step and build my dream. That was my barrier to market.", author: 'Nicolette', role: 'Ember & Ice · Wellness Studio' }
+];
+
+const included = [
+  { title: 'A site that captures the feeling, not just the facts.', body: 'Written in your voice from the Drive-Home Interview. Reviewed by me before a line of code is written.' },
+  { title: 'Socials embedded, content raid included.', body: "Instagram, Facebook, Threads, X, LinkedIn — whichever you use, brought across. I pull what's already on your socials. You don't dig through your camera roll." },
+  { title: 'Add bookings or payments when you need them.', body: 'Calendly or Acuity embedded. Stripe wired in for deposits, session packs, or digital products. Power-Ups added at checkout.' },
+  { title: 'Owned by you. Unconditionally.', body: 'Domain in your name from day one. If you ever leave, you take everything.' },
+  { title: 'Refreshed every year. Included.', body: 'As your work evolves, your digital home evolves with it. New layout, new energy, no rebuild invoice.' }
 ];
 ---
 
@@ -15,75 +53,94 @@ const testimonials = [
   title="Websites for Cafes, Studios & Creatives NZ | Hand-Coded, Looked After Forever | YourHQ"
   description="Hand-coded websites for cafes, hospitality, studios, photographers, and creators. Your Instagram is your signal. Your website is the source. From $1,800 NZD + GST. Looked after forever."
 >
+  <BreadcrumbSchema
+    slot="head"
+    items={[
+      { name: 'Home', url: 'https://yourhq.co.nz/' },
+      { name: 'Who We Build For', url: 'https://yourhq.co.nz/who-we-build-for' },
+      { name: 'Creatives', url: 'https://yourhq.co.nz/creatives' }
+    ]}
+  />
+  <script slot="head" is:inline type="application/ld+json" set:html={JSON.stringify(creativesServiceSchema)} />
   <Navbar client:load />
 
-  <main class="bg-paper min-h-screen">
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
 
-    <!-- HERO -->
-    <section class="pt-32 pb-20 border-b border-carbon bg-[size:40px_40px] bg-grid-pattern">
-      <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- ============================================================
+         01 · HERO
+    ============================================================ -->
+    <section class="relative bg-bone pt-24 md:pt-32 pb-24 md:pb-32 px-4 sm:px-6 lg:px-8 border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto">
         <div class="max-w-4xl">
-          <span class="inline-block py-1 px-3 rounded-full bg-hibiscus/10 text-hibiscus font-bold text-sm mb-6 tracking-wide uppercase font-mono">
-            For Hospo &amp; Creatives
+          <span class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-terracotta mb-8 font-medium flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-terracotta"></span> For Cafés, Studios &amp; Creatives
           </span>
-          <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[0.95] mb-8">
-            Your Instagram Is Your Signal.<br/>
-            <span class="text-hibiscus">Your Website Is the Source.</span>
+          <h1 class="font-display font-bold text-[clamp(3rem,7vw,6.5rem)] leading-[0.95] tracking-tight text-carbon">
+            <span class="block uppercase">Your Instagram</span>
+            <span class="block font-serif italic text-softGrey normal-case mt-2 mb-4 text-[clamp(1.5rem,4vw,3.5rem)] leading-none">is your signal.</span>
+            <span class="block uppercase">Your website</span>
+            <span class="block font-serif italic text-terracotta normal-case mt-2 text-[clamp(1.5rem,4vw,3.5rem)] leading-none">is the source.</span>
           </h1>
-          <p class="text-xl md:text-2xl text-gray-700 max-w-3xl leading-relaxed mb-2">
-            Hand-coded websites for cafes, studios, photographers, and creators. Written in your voice. Built to feel like you walk through the door.
+          <p class="font-sans text-lg md:text-xl text-carbon/80 max-w-2xl leading-relaxed mt-10">
+            Hand-coded websites for cafés, studios, photographers, and creators. Written in your voice. Built to feel like you walk through the door.
           </p>
-          <p class="font-mono text-xs uppercase tracking-widest text-gray-500">
-            From $1,800 NZD + GST &middot; from $129/mo NZD &middot; Built in Aotearoa &middot; Working worldwide
+          <p class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-deepGreen mt-6 font-medium">
+            From $1,800 NZD + GST · from $129/mo NZD · Built in Aotearoa · Working worldwide
           </p>
+          <div class="mt-10 flex flex-col sm:flex-row gap-4 font-sans">
+            <a href={buildLink} class="bg-carbon text-white px-8 py-3.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 text-center shadow-subtle">
+              Start Your Build
+            </a>
+            <a href="/pricing" class="bg-transparent text-carbon border border-carbon/20 px-8 py-3.5 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300 text-center">
+              See Pricing
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- THE PAIN -->
-    <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-10 leading-tight">
-          You've Built Something Beautiful.<br/>
-          <span class="text-gray-400">It Deserves a Permanent Home.</span>
+    <!-- ============================================================
+         02 · THE GAP
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display font-bold text-[clamp(2.25rem,4.5vw,3.5rem)] uppercase leading-none tracking-tight mb-10">
+          You've built something beautiful.<br/>
+          <span class="font-serif italic text-softGrey normal-case">It deserves a permanent home.</span>
         </h2>
-        <div class="space-y-6 text-lg text-carbon/90 leading-relaxed">
+        <div class="space-y-6 font-sans text-lg text-carbon/80 leading-relaxed">
           <p>
             Your Instagram looks the part. Your space looks the part. The work itself looks the part. But there's no single place online where someone can land and get the whole picture.
           </p>
           <p>
             Social is rented. The algorithm decides who sees you. One platform change and your reach drops. One hacked account and your audience disappears.
           </p>
-          <p>
-            A website fixes that. It's the source. The thing that keeps existing whether you post today or not. The place every other digital path leads.
+          <p class="font-serif italic text-xl text-carbon">
+            A website fixes that. It's the source.
           </p>
-          <p class="font-bold text-carbon">
+          <p class="font-medium text-carbon">
             Your aesthetic, captured properly. Your story, told in your voice. Owned by you, unconditionally.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- BUILT FOR -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- ============================================================
+         03 · BUILT FOR
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-screen-xl mx-auto">
         <div class="max-w-4xl mx-auto">
-          <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
-            Built For People<br/>
-            <span class="text-gray-400">Whose Aesthetic Is the Product.</span>
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">Built For</span>
+          <h2 class="font-display font-bold text-[clamp(2.25rem,4.5vw,3.5rem)] uppercase leading-none tracking-tight mb-12">
+            People whose<br/>
+            <span class="font-serif italic text-terracotta normal-case">aesthetic is the product.</span>
           </h2>
-          <div class="grid md:grid-cols-2 gap-0 border-l border-t border-carbon">
-            {[
-              ['Cafes &amp; Restaurants', 'Independent hospitality with a vibe to match'],
-              ['Wellness Studios', 'Yoga, pilates, recovery, therapy spaces'],
-              ['Photographers', 'Portrait, wedding, brand, editorial'],
-              ['Designers &amp; Stylists', 'Interior, fashion, brand'],
-              ['Tattoo &amp; Body Art', 'Studios, residencies, traveling artists'],
-              ['Speakers, Podcasters, Writers', 'Anyone whose name is the brand']
-            ].map(([trade, sub]) => (
-              <div class="bg-white border-r border-b border-carbon p-6">
-                <p class="font-extrabold text-lg mb-1">{trade}</p>
-                <p class="font-mono text-xs uppercase tracking-widest text-gray-500">{sub}</p>
+          <div class="grid sm:grid-cols-2 gap-4 md:gap-6">
+            {audiences.map(([trade, sub]) => (
+              <div class="bg-white rounded-2xl p-6 md:p-7 border border-carbon/10 shadow-subtle">
+                <p class="font-display font-bold text-lg uppercase tracking-tight text-carbon mb-2">{trade}</p>
+                <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">{sub}</p>
               </div>
             ))}
           </div>
@@ -91,94 +148,82 @@ const testimonials = [
       </div>
     </section>
 
-    <!-- WHAT YOU GET -->
-    <section class="py-24 bg-white border-b border-carbon">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-12 leading-tight">
-          What You Get.<br/>
-          <span class="text-gray-400">All In.</span>
+    <!-- ============================================================
+         04 · WHAT YOU GET
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto">
+        <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">What's Included</span>
+        <h2 class="font-display font-bold text-[clamp(2.25rem,4.5vw,3.5rem)] uppercase leading-none tracking-tight mb-12">
+          What you get.<br/>
+          <span class="font-serif italic text-softGrey normal-case">All in.</span>
         </h2>
 
-        <ul class="space-y-5 text-lg text-carbon/90">
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-hibiscus text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">A site that captures the feeling, not just the facts.</p>
-              <p class="text-base text-carbon/70">Written in your voice from the Drive-Home Interview. Reviewed by me before a line of code is written.</p>
-            </div>
-          </li>
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-hibiscus text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Socials embedded, content raid included.</p>
-              <p class="text-base text-carbon/70">Instagram, Facebook, Threads, X, LinkedIn, whichever you use, brought across. I pull what's already on your socials. You don't dig through your camera roll.</p>
-            </div>
-          </li>
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-hibiscus text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Add bookings or payments when you need them.</p>
-              <p class="text-base text-carbon/70">Calendly or Acuity embedded. Stripe wired in for deposits, session packs, or digital products. Power-Ups added at checkout.</p>
-            </div>
-          </li>
-          <li class="flex gap-4 border-b border-carbon/10 pb-5">
-            <span class="text-hibiscus text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Owned by you. Unconditionally.</p>
-              <p class="text-base text-carbon/70">Domain in your name from day one. If you ever leave, you take everything.</p>
-            </div>
-          </li>
-          <li class="flex gap-4">
-            <span class="text-hibiscus text-2xl">&check;</span>
-            <div>
-              <p class="font-bold text-carbon">Refreshed every year, included.</p>
-              <p class="text-base text-carbon/70">As your work evolves, your digital home evolves with it. New layout, new energy, no rebuild invoice.</p>
-            </div>
-          </li>
+        <ul class="border-t border-carbon/10">
+          {included.map((item, idx) => (
+            <li class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-4 md:gap-6 items-start">
+              <span class="font-mono col-span-2 text-[10px] uppercase tracking-[0.15em] text-terracotta mt-1">{String(idx + 1).padStart(2, '0')}</span>
+              <div class="col-span-10">
+                <p class="font-sans font-semibold text-lg md:text-xl text-carbon mb-2">{item.title}</p>
+                <p class="font-sans text-base text-carbon/70 leading-relaxed">{item.body}</p>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </section>
 
-    <!-- TESTIMONIALS -->
-    <section class="py-24 bg-paper border-b border-carbon">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-tighter mb-16 text-center">
-          Real Spaces. <span class="text-hibiscus">Real Stories.</span>
-        </h2>
-        <div class="grid md:grid-cols-2 gap-8">
+    <!-- ============================================================
+         05 · TESTIMONIALS
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-bone border-b border-carbon/10 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-screen-xl mx-auto">
+        <div class="text-center mb-16">
+          <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey block mb-4">Real Spaces</span>
+          <h2 class="font-display font-bold text-[clamp(2.25rem,4.5vw,3.5rem)] uppercase leading-none tracking-tight">
+            Real stories.<br/>
+            <span class="font-serif italic text-terracotta normal-case">Real work.</span>
+          </h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6 md:gap-8">
           {testimonials.map((t) => (
-            <div class={`bg-white text-carbon p-8 border-l-8 ${t.color} shadow-hard-sm`}>
-              <p class="text-lg italic leading-relaxed mb-6">"{t.quote}"</p>
-              <div class="border-t border-carbon/10 pt-4">
-                <p class="font-extrabold">{t.author}</p>
-                <p class="font-mono text-xs text-gray-500 uppercase tracking-widest">{t.role}</p>
-              </div>
-            </div>
+            <figure class="bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
+              <blockquote class="font-serif italic text-lg md:text-xl leading-snug text-carbon/85 mb-6">
+                &ldquo;{t.quote}&rdquo;
+              </blockquote>
+              <figcaption class="border-t border-carbon/10 pt-4">
+                <p class="font-display font-bold text-base uppercase tracking-tight text-carbon">{t.author}</p>
+                <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey mt-1">{t.role}</p>
+              </figcaption>
+            </figure>
           ))}
         </div>
         <div class="text-center mt-12">
-          <a href="/portfolio" class="inline-block font-bold uppercase tracking-widest text-sm text-carbon border-b-2 border-hibiscus hover:text-hibiscus transition-colors">
+          <a href="/portfolio" class="inline-block font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border-b border-carbon/20 pb-1 hover:border-carbon transition-colors">
             See the full portfolio &rarr;
           </a>
         </div>
       </div>
     </section>
 
-    <!-- FINAL CTA -->
-    <section class="py-32 bg-carbon text-white text-center">
-      <div class="max-w-3xl mx-auto px-4">
-        <h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-8 leading-tight">
-          The Source. <span class="text-hibiscus">Built Properly.</span>
+    <!-- ============================================================
+         06 · FINAL CTA
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-carbon text-bone border-y border-carbon px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="font-display font-bold text-[clamp(2.5rem,5vw,4rem)] uppercase leading-none tracking-tight text-white mb-8">
+          The source.<br/>
+          <span class="font-serif italic text-terracotta normal-case">Built properly.</span>
         </h2>
-        <p class="text-xl text-gray-300 mb-12 leading-relaxed">
+        <p class="font-serif italic text-xl md:text-2xl text-bone/80 mb-12 leading-snug">
           One conversation. Live in 1 to 2 weeks.<br/>
-          Hand-coded, in your voice, looked after forever.
+          <span class="text-white">Hand-coded, in your voice, looked after forever.</span>
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href={buildLink} class="inline-block bg-hibiscus text-white px-12 py-5 border-2 border-hibiscus hover:bg-transparent hover:text-white transition-colors font-bold uppercase tracking-widest text-lg">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center font-sans">
+          <a href={buildLink} class="bg-white text-carbon px-8 py-3.5 rounded-full font-medium text-sm hover:bg-bone transition-colors duration-300 text-center shadow-subtle">
             Start Your Build
           </a>
-          <a href="/pricing" class="inline-block bg-transparent text-white px-12 py-5 border-2 border-white hover:bg-white hover:text-carbon transition-colors font-bold uppercase tracking-widest text-lg">
+          <a href="/pricing" class="bg-transparent text-white border border-white/30 px-8 py-3.5 rounded-full font-medium text-sm hover:border-white transition-colors duration-300 text-center">
             See Pricing
           </a>
         </div>

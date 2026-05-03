@@ -1,14 +1,47 @@
 ---
 // Structured Data (JSON-LD) for SEO and AEO
+const founderSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://yourhq.co.nz/#lian",
+  "name": "Lian Passmore",
+  "givenName": "Lian",
+  "familyName": "Passmore",
+  "jobTitle": "Founder",
+  "image": "https://yourhq.co.nz/lian-headshot.webp",
+  "url": "https://yourhq.co.nz/our-story",
+  "description": "Founder of YourHQ. Sole operator — writes, builds, and looks after every client website. Based in Whangārei, Northland, New Zealand.",
+  "worksFor": {
+    "@id": "https://yourhq.co.nz/#organization"
+  },
+  "homeLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Whangārei",
+      "addressRegion": "Northland",
+      "addressCountry": "NZ"
+    }
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/yourhq"
+  ]
+};
+
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://yourhq.co.nz/#organization",
   "name": "YourHQ",
   "legalName": "YourHQ Limited",
   "url": "https://yourhq.co.nz",
-  "logo": "https://yourhq.co.nz/favicon.svg",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://yourhq.co.nz/yourhq-logo-black.png"
+  },
   "foundingDate": "2024",
   "description": "Hand-coded, permanently owned websites for established business owners and personal brands. Founded in Aotearoa New Zealand. Clients worldwide.",
+  "slogan": "Certain. Warm. Done.",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Whangārei",
@@ -20,7 +53,8 @@ const organizationSchema = {
     "telephone": "+64-22-172-5793",
     "contactType": "Customer Service",
     "email": "hello@yourhq.co.nz",
-    "availableLanguage": "English"
+    "availableLanguage": "English",
+    "areaServed": ["NZ", "AU", "GB", "US"]
   },
   "sameAs": [
     "https://www.facebook.com/yourhqnz",
@@ -28,17 +62,17 @@ const organizationSchema = {
     "https://www.linkedin.com/company/yourhq"
   ],
   "founder": {
-    "@type": "Person",
-    "name": "Lian Passmore"
+    "@id": "https://yourhq.co.nz/#lian"
   }
 };
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "ProfessionalService",
+  "@id": "https://yourhq.co.nz/#localbusiness",
   "name": "YourHQ",
   "image": "https://yourhq.co.nz/og-image.jpg",
-  "priceRange": "$$",
+  "priceRange": "NZD 1,800–$249/mo",
   "telephone": "+64-22-172-5793",
   "email": "hello@yourhq.co.nz",
   "address": {
@@ -53,6 +87,11 @@ const localBusinessSchema = {
     "longitude": 174.3230
   },
   "url": "https://yourhq.co.nz",
+  "areaServed": [
+    { "@type": "Country", "name": "New Zealand" },
+    { "@type": "AdministrativeArea", "name": "Northland" },
+    { "@type": "AdministrativeArea", "name": "Auckland" }
+  ],
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": [
@@ -65,11 +104,21 @@ const localBusinessSchema = {
     "opens": "09:00",
     "closes": "17:00"
   },
+  "knowsAbout": [
+    "Website Design",
+    "Website Development",
+    "Copywriting",
+    "Search Engine Optimisation",
+    "Answer Engine Optimisation",
+    "Generative Engine Optimisation",
+    "Google Business Profile",
+    "Web Hosting"
+  ],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
     "bestRating": "5",
-    "reviewCount": "3"
+    "reviewCount": "4"
   },
   "review": [
     {
@@ -77,14 +126,14 @@ const localBusinessSchema = {
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "author": { "@type": "Person", "name": "Brad" },
       "publisher": { "@type": "Organization", "name": "Carve Earthworks" },
-      "reviewBody": "Creating a website wasn’t something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
+      "reviewBody": "Creating a website wasn't something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
     },
     {
       "@type": "Review",
       "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "author": { "@type": "Person", "name": "Katie" },
       "publisher": { "@type": "Organization", "name": "Rumours On Rust" },
-      "reviewBody": "The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can’t believe how good it is."
+      "reviewBody": "The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can't believe how good it is."
     },
     {
       "@type": "Review",
@@ -92,6 +141,13 @@ const localBusinessSchema = {
       "author": { "@type": "Person", "name": "Nicolette" },
       "publisher": { "@type": "Organization", "name": "Ember & Ice" },
       "reviewBody": "You helped me take that next step and build my dream — that was my barrier to market."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "author": { "@type": "Person", "name": "Reuben" },
+      "publisher": { "@type": "Organization", "name": "Johnson & Sons" },
+      "reviewBody": "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready."
     }
   ]
 };
@@ -99,14 +155,20 @@ const localBusinessSchema = {
 const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Website Design, Development, and Ongoing Care",
+  "@id": "https://yourhq.co.nz/#service",
+  "serviceType": "Website Design, Development, and Ongoing Caretaker Service",
+  "name": "Hand-coded websites with caretaker subscription",
+  "description": "Permanently owned, hand-coded websites for established Kiwi small businesses and personal brands. One upfront build fee, then a monthly caretaker fee covering hosting, on-demand updates, and an annual design refresh.",
   "provider": {
-    "@type": "Organization",
-    "name": "YourHQ"
+    "@id": "https://yourhq.co.nz/#organization"
   },
   "areaServed": {
     "@type": "Country",
     "name": "New Zealand"
+  },
+  "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Small business owners, tradies, professionals, personal brands"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -114,35 +176,83 @@ const servicesSchema = {
     "itemListElement": [
       {
         "@type": "Offer",
+        "name": "The Build",
         "itemOffered": {
           "@type": "Service",
           "name": "The Build",
-          "description": "Hand-coded website. Up to 8 pages. Written in your voice from one Drive-Home Interview. Includes blog and resources architecture, portfolio and case study layouts, media and press section, socials embed (Instagram, Facebook, Threads, X, LinkedIn), Google Business Profile setup or optimisation, enquiry form, basic email capture, SEO and AI search optimisation, stock or AI-optimised photos, domain, and hosting."
+          "description": "Hand-coded website. Up to 8 pages. Written in your voice from one Drive-Home Interview. Includes blog and resources architecture, portfolio and case study layouts, media and press section, socials embed, Google Business Profile setup, enquiry form, email capture, SEO and AI search optimisation, domain, and hosting."
         },
         "price": "1800",
-        "priceCurrency": "NZD"
+        "priceCurrency": "NZD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "1800",
+          "priceCurrency": "NZD",
+          "valueAddedTaxIncluded": false
+        },
+        "availability": "https://schema.org/InStock",
+        "url": "https://yourhq.co.nz/start-build"
       },
       {
         "@type": "Offer",
+        "name": "Sorted — Caretaker Level 1",
         "itemOffered": {
           "@type": "Service",
-          "name": "Caretaker Subscription",
-          "description": "Ongoing hosting, security, on-demand updates, and an annual design refresh after 12 months. Sorted, Connected, and Building tiers."
+          "name": "Sorted Caretaker Subscription",
+          "description": "Hosting, security, SSL, backups, annual design refresh, 30 minutes of included dev time per month, on-demand updates."
         },
-        "price": "129",
-        "priceCurrency": "NZD",
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
           "price": "129",
           "priceCurrency": "NZD",
-          "unitText": "MONTH"
-        }
+          "unitText": "MONTH",
+          "billingIncrement": 1
+        },
+        "availability": "https://schema.org/InStock",
+        "url": "https://yourhq.co.nz/foundation"
+      },
+      {
+        "@type": "Offer",
+        "name": "Connected — Caretaker Level 2",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Connected Caretaker Subscription",
+          "description": "Everything in Sorted, plus 1 hour of included dev time per month and monitoring of third-party connections (booking, email)."
+        },
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "179",
+          "priceCurrency": "NZD",
+          "unitText": "MONTH",
+          "billingIncrement": 1
+        },
+        "availability": "https://schema.org/InStock",
+        "url": "https://yourhq.co.nz/capture"
+      },
+      {
+        "@type": "Offer",
+        "name": "Building — Caretaker Level 3",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Building Caretaker Subscription",
+          "description": "Everything in Connected, plus 2 hours of included dev time per month and payment flow monitoring."
+        },
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "249",
+          "priceCurrency": "NZD",
+          "unitText": "MONTH",
+          "billingIncrement": 1
+        },
+        "availability": "https://schema.org/InStock",
+        "url": "https://yourhq.co.nz/commerce"
       }
     ]
   }
 };
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(servicesSchema)} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(founderSchema)} />
+<script is:inline type="application/ld+json" set:html={JSON.stringify(servicesSchema)} />

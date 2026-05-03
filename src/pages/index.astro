@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import StructuredData from '../components/StructuredData.astro';
+import HomepageFAQSchema from '../components/HomepageFAQSchema.astro';
 
 const buildLink = "/start-build";
 
@@ -35,6 +36,7 @@ const testimonials = [
   description="Permanently owned, hand-coded websites. Written in your voice. Looked after forever. From $1,800 NZD + GST · from $129/mo NZD ongoing."
 >
   <StructuredData slot="head" />
+  <HomepageFAQSchema slot="head" />
   <Navbar client:load />
 
   <main class="font-sans text-carbon bg-bone selection:bg-terracotta selection:text-white overflow-hidden">
@@ -150,7 +152,7 @@ const testimonials = [
             <!-- Subtle architectural frame -->
             <div class="absolute inset-0 bg-surface rounded-t-[10rem] translate-x-4 translate-y-4 border border-carbon/5"></div>
             <div class="w-full max-w-sm mx-auto aspect-[3/4] rounded-t-[10rem] overflow-hidden border border-carbon/10 shadow-elegant relative z-10 bg-bone">
-              <img src="/lian-headshot.webp" alt="Lian" loading="lazy" decoding="async" class="w-full h-full object-cover" />
+              <img src="/lian-headshot.webp" alt="Lian Passmore, founder of YourHQ — Whangārei, New Zealand" loading="lazy" decoding="async" class="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -230,6 +232,25 @@ const testimonials = [
           Both are owned by you. Both are looked after by me.<br/>
           <span class="text-carbon font-medium">Both become the place every digital path leads.</span>
         </p>
+
+        <!-- Vertical entry points for SEO crawl + AEO grounding -->
+        <div class="mt-16 pt-10 border-t border-carbon/10">
+          <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey text-center mb-6">Built for</p>
+          <nav aria-label="Who we build for" class="flex flex-wrap justify-center gap-3 md:gap-4">
+            <a href="/tradies" class="font-sans text-sm font-medium text-carbon border border-carbon/15 hover:border-carbon hover:bg-white transition-colors px-5 py-2.5 rounded-full">
+              Tradies &amp; Builders
+            </a>
+            <a href="/professionals" class="font-sans text-sm font-medium text-carbon border border-carbon/15 hover:border-carbon hover:bg-white transition-colors px-5 py-2.5 rounded-full">
+              Professional Services
+            </a>
+            <a href="/creatives" class="font-sans text-sm font-medium text-carbon border border-carbon/15 hover:border-carbon hover:bg-white transition-colors px-5 py-2.5 rounded-full">
+              Cafés, Studios &amp; Creatives
+            </a>
+            <a href="/who-we-build-for" class="font-sans text-sm font-medium text-carbon/70 hover:text-carbon transition-colors px-5 py-2.5">
+              See all &rarr;
+            </a>
+          </nav>
+        </div>
 
       </div>
     </section>

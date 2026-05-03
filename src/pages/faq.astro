@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 
 const buildLink = "/start-build";
 
@@ -86,12 +87,33 @@ const sections = [
     ]
   }
 ];
+
+// Build FAQPage JSON-LD from the same sections data so AEO and on-page content stay in sync.
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": sections.flatMap((s) =>
+    s.qs.map(({ q, a }) => ({
+      "@type": "Question",
+      "name": q,
+      "acceptedAnswer": { "@type": "Answer", "text": a }
+    }))
+  )
+};
 ---
 
 <Layout
   title="FAQ | YourHQ"
   description="Honest answers about the process, the build, ownership, pricing, and working with Lian. If your question isn't here, just text me."
 >
+  <BreadcrumbSchema
+    slot="head"
+    items={[
+      { name: 'Home', url: 'https://yourhq.co.nz/' },
+      { name: 'FAQ', url: 'https://yourhq.co.nz/faq' }
+    ]}
+  />
+  <script slot="head" is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <Navbar client:load />
 
   <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">

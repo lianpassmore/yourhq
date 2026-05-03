@@ -78,13 +78,15 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="block py-3 font-display font-bold text-xl uppercase tracking-tight text-carbon border-b border-carbon/5 hover:text-terracotta transition-colors"
+              onClick={() => setIsOpen(false)}
+              className="block py-3 font-display font-bold text-lg sm:text-xl uppercase tracking-tight text-carbon border-b border-carbon/5 hover:text-terracotta transition-colors"
             >
               {l.label}
             </a>
           ))}
           <a
             href={buildLink}
+            onClick={() => setIsOpen(false)}
             className="block mt-6 bg-carbon text-white text-center py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors shadow-subtle"
           >
             Start Your Build

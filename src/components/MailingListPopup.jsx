@@ -71,7 +71,7 @@ export default function MailingListPopup({ excludePaths = [] }) {
       <div className="absolute inset-0 bg-carbon/60 backdrop-blur-sm" />
 
       {/* Modal */}
-      <div className="relative bg-white rounded-3xl border border-carbon/10 shadow-elegant w-full max-w-md p-8" onClick={e => e.stopPropagation()}>
+      <div className="relative bg-white rounded-3xl border border-carbon/10 shadow-elegant w-full max-w-md p-6 sm:p-8 max-h-[90vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
 
         {/* Close button */}
         <button onClick={dismiss} className="absolute top-4 right-4 text-softGrey hover:text-carbon transition-colors text-2xl leading-none" aria-label="Close">

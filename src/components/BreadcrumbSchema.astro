@@ -1,0 +1,28 @@
+---
+// Breadcrumb JSON-LD for SEO/AEO. Pass an array of { name, url } items.
+// Always include Home as the first item upstream — this component renders
+// whatever it's given.
+interface Crumb {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  items: Crumb[];
+}
+
+const { items } = Astro.props as Props;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, idx) => ({
+    "@type": "ListItem",
+    "position": idx + 1,
+    "name": item.name,
+    "item": item.url
+  }))
+};
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

@@ -54,14 +54,19 @@ import Footer from '../components/Footer.astro';
             <div class="relative pl-12 md:pl-16 pb-16 group">
               <div class="absolute left-[7px] md:left-[11px] top-1.5 w-[9px] h-[9px] rounded-full bg-signal ring-4 ring-white"></div>
               
-              <span class="inline-block font-mono text-badge text-signal mb-3">Step 01 &middot; Within the Hour</span>
-              <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">I'll Text You Your Interview Link</h3>
+              <span class="inline-block font-mono text-badge text-signal mb-3">Step 01 &middot; Now</span>
+              <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">Start Your Drive-Home Interview</h3>
               <p class="font-sans text-body text-softGrey mb-8 max-w-xl">
-                A private link to your Drive-Home Interview, sent straight to your phone. Hands-free, in your own time. Most people knock it out on the drive home.
+                Hands-free, in your own time. Most people knock it out on the drive home. I'll also send you this link in case you'd rather start later.
               </p>
-              <a href="sms:0221725793" class="inline-block bg-signal text-white rounded-full px-8 py-3.5 text-ui font-medium hover:bg-carbon hover:shadow-float transition-all duration-300">
-                Text Me If It Hasn't Arrived &rarr;
-              </a>
+              <div class="flex flex-wrap gap-4 items-center">
+                <a href="/interview-yhq-7kf9a2x4" class="inline-block bg-signal text-white rounded-full px-8 py-3.5 text-ui font-medium hover:bg-carbon hover:shadow-float transition-all duration-300">
+                  Start the Interview &rarr;
+                </a>
+                <a href="sms:0221725793" class="font-mono text-badge text-softGrey border-b border-carbon/20 pb-1 hover:text-signal hover:border-signal transition-colors">
+                  Text me if anything's not working
+                </a>
+              </div>
             </div>
 
             <!-- Step 2: Infrastructure (Carbon) -->
