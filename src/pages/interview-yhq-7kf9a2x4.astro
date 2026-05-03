@@ -36,8 +36,28 @@ import DiscoveryForm from '../components/DiscoveryForm.jsx';
       </div>
     </section>
 
+    <!-- POST-INTERVIEW CONFIRMATION (hidden until call ends) -->
+    <section id="interview-complete" class="hidden py-24 bg-white border-b border-carbon/10 flex-grow px-6 lg:px-12">
+      <div class="max-w-3xl mx-auto">
+        <div class="bg-surface rounded-2xl border border-carbon/5 p-10 md:p-16 shadow-elegant text-center">
+          <span class="inline-block font-mono text-badge text-deepGreen mb-6 px-4 py-1.5 bg-white rounded-full border border-carbon/5 shadow-subtle">
+            Interview complete
+          </span>
+          <h2 class="font-display text-display font-bold text-carbon mb-6 leading-tight">
+            That's everything we need.
+          </h2>
+          <p class="font-serif italic text-headline text-terracotta mb-6">
+            Thanks for talking it through.
+          </p>
+          <p class="font-sans text-subhead text-softGrey max-w-xl mx-auto leading-relaxed">
+            We'll be in touch shortly with the next step. You can close this tab.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- INSTRUCTIONS CONTENT -->
-    <section class="py-24 bg-white border-b border-carbon/10 flex-grow px-6 lg:px-12">
+    <section id="interview-instructions" class="py-24 bg-white border-b border-carbon/10 flex-grow px-6 lg:px-12">
       <div class="max-w-3xl mx-auto">
 
         <!-- Elevated Instruction Card -->
@@ -173,6 +193,14 @@ import DiscoveryForm from '../components/DiscoveryForm.jsx';
               'Tags': 'tada',
             },
           }).catch(() => {});
+
+          const instructions = document.getElementById('interview-instructions');
+          const complete = document.getElementById('interview-complete');
+          if (instructions) instructions.classList.add('hidden');
+          if (complete) {
+            complete.classList.remove('hidden');
+            complete.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
         });
       }
     });
