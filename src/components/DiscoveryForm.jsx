@@ -2,6 +2,91 @@ import { useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { notifyNtfy } from '../lib/notify';
 
+// Maps form field `name` attributes → discovery_submissions table columns.
+// Keep in sync with supabase/migrations/discovery_submissions_table.sql
+const FIELD_TO_COLUMN = {
+  // Module 01
+  'name': 'name',
+  'business': 'business',
+  'How you heard about YourHQ': 'how_heard_about_yourhq',
+  // Module 02
+  'email': 'email',
+  'Phone number': 'phone',
+  'Email for customer enquiries': 'email_for_enquiries',
+  'Location': 'location',
+  'Service areas': 'service_areas',
+  'Customer or mobile service': 'customer_or_mobile_service',
+  'Hours': 'hours',
+  'Preferred domain': 'preferred_domain',
+  'Existing website URL': 'existing_website_url',
+  'Social profiles': 'social_profiles',
+  'Logo status': 'logo_status',
+  'Photos available': 'photos_available',
+  // Module 03 (and shared with starter short variant)
+  'What you do in plain English': 'what_you_do',
+  'Main services or products': 'main_services_or_products',
+  "What you're known for": 'known_for',
+  'Qualifications and certifications': 'qualifications',
+  'Ideal customer': 'ideal_customer',
+  'Not for': 'not_for',
+  'Point of difference': 'point_of_difference',
+  'What you care about': 'what_you_care_about',
+  // Starter-only
+  'Years in business': 'years_in_business',
+  'Why you do this work': 'why_you_do_this_work',
+  // Module 04
+  'Origin story': 'origin_story',
+  'Why you went out on your own': 'why_went_out_on_own',
+  'Defining moment or person': 'defining_moment_or_person',
+  'What you love about the work': 'love_about_work',
+  'How clients should feel after': 'how_clients_should_feel',
+  'Deeper purpose': 'deeper_purpose',
+  'Unexpected thing about you': 'unexpected_thing',
+  // Module 05
+  'Brand guidelines': 'brand_guidelines',
+  'Brand as a physical space': 'brand_as_physical_space',
+  'Three vibe words': 'three_vibe_words',
+  'Brands you admire': 'brands_admired',
+  'What visitors should feel': 'what_visitors_should_feel',
+  'Tone of voice': 'tone_of_voice',
+  'Brand personality': 'brand_personality',
+  'Brand colours': 'brand_colours',
+  'Colours to avoid': 'colours_to_avoid',
+  // Module 06
+  'Most-used platform': 'most_used_platform',
+  'Media and press': 'media_and_press',
+  'Content style': 'content_style',
+  'Content Autopilot interest': 'content_autopilot_interest',
+  'Online presence: move away from': 'online_presence_move_away_from',
+  // Module 07
+  'Main call to action': 'main_call_to_action',
+  'Top customer questions': 'top_customer_questions',
+  'Email capture interest': 'email_capture_interest',
+  'Email marketing platform': 'email_marketing_platform',
+  'Lead magnet idea': 'lead_magnet_idea',
+  'Pricing approach': 'pricing_approach',
+  // Module 08
+  'Bookings system': 'bookings_system',
+  'Deposits or upfront payments': 'deposits_or_upfront',
+  'Stripe payments interest': 'stripe_payments_interest',
+  'Digital products': 'digital_products',
+  'Course or program': 'course_or_program',
+  'Face of business or brand': 'face_of_business_or_brand',
+  'Speaking and workshops': 'speaking_and_workshops',
+  'Signature media': 'signature_media',
+  'Audience routing': 'audience_routing',
+  // Module 09
+  'Best client compliment': 'best_client_compliment',
+  'Testimonials': 'testimonials',
+  'Proud results': 'proud_results',
+  'Logos and associations': 'logos_and_associations',
+  // Module 10
+  'Other site wishes': 'other_site_wishes',
+  "What didn't work before": 'what_didnt_work_before',
+  'Upcoming changes': 'upcoming_changes',
+  'Scope preference': 'scope_preference',
+};
+
 const INPUT = "w-full border border-carbon/10 p-3 rounded-xl text-carbon focus:outline-none transition-colors bg-white";
 const TEXTAREA = "w-full border border-carbon/10 p-3 rounded-xl text-carbon focus:outline-none transition-colors resize-none bg-white";
 const LABEL = "block text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey mb-2";
@@ -39,30 +124,23 @@ export default function DiscoveryForm({ tier = 'launch' }) {
 
     const data = new FormData(e.target);
 
-    const name = (data.get('name') || '').trim();
-    const email = (data.get('email') || '').trim();
-    const business = (data.get('business') || '').trim();
-
     if (data.get('bot-field')) {
       setStatus('success');
       return;
     }
 
-    const lines = [];
+    const row = { tier };
     for (const [key, value] of data.entries()) {
       if (key === 'bot-field') continue;
-      const v = (value || '').trim();
-      if (v) lines.push(`${key}:\n${v}`);
+      const column = FIELD_TO_COLUMN[key];
+      if (!column) continue;
+      const v = (value || '').toString().trim();
+      row[column] = v || null;
     }
-    const message = lines.join('\n\n---\n\n');
 
-    const { error } = await supabase.from('leads').insert({
-      name: name || null,
-      email: email || null,
-      business: business || null,
-      message,
-      source: `discovery-${tier}`,
-    });
+    const name = row.name || '';
+
+    const { error } = await supabase.from('discovery_submissions').insert(row);
 
     if (error) {
       console.error('Supabase error:', error);
