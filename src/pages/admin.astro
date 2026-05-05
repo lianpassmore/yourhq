@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AdminDashboard from '../components/AdminDashboard.jsx';
+---
+
+<Layout
+  title="Admin | YourHQ"
+  description="YourHQ internal dashboard"
+  noindex={true}
+>
+  <AdminDashboard client:only="react" />
+</Layout>
