@@ -325,6 +325,9 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
   const [notes, setNotes] = useState([]);
   const [notesLoading, setNotesLoading] = useState(true);
 
+  const [additions, setAdditions] = useState([]);
+  const [additionsLoading, setAdditionsLoading] = useState(true);
+
   const [stage, setStage] = useState(customer.build_stage);
   const [business,    setBusiness]    = useState(customer.business || '');
   const [driveUrl,    setDriveUrl]    = useState(customer.google_drive_url || '');
@@ -400,6 +403,51 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
     setNotes((ns) => ns.filter((n) => n.id !== id));
   };
 
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      setAdditionsLoading(true);
+      const { data, error } = await supabase
+        .from('customer_additions')
+        .select('*')
+        .eq('customer_id', customer.id)
+        .order('created_at', { ascending: false });
+      if (cancelled) return;
+      if (error) console.error(error);
+      setAdditions(data || []);
+      setAdditionsLoading(false);
+    })();
+    return () => { cancelled = true; };
+  }, [customer.id]);
+
+  const addAddition = async (topic, body) => {
+    const { data, error } = await supabase
+      .from('customer_additions')
+      .insert({ customer_id: customer.id, topic, body })
+      .select()
+      .single();
+    if (error) { alert('Save failed: ' + error.message); return null; }
+    setAdditions((as) => [data, ...as]);
+    return data;
+  };
+
+  const updateAddition = async (id, fields) => {
+    const { data, error } = await supabase
+      .from('customer_additions')
+      .update(fields)
+      .eq('id', id)
+      .select()
+      .single();
+    if (error) { alert('Update failed: ' + error.message); return; }
+    setAdditions((as) => as.map((a) => (a.id === id ? data : a)));
+  };
+
+  const deleteAddition = async (id) => {
+    const { error } = await supabase.from('customer_additions').delete().eq('id', id);
+    if (error) { alert('Delete failed: ' + error.message); return; }
+    setAdditions((as) => as.filter((a) => a.id !== id));
+  };
+
   const save = async () => {
     setSaving(true);
     const { data, error } = await supabase
@@ -445,7 +493,7 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
             </p>
           </div>
           <div className="text-right flex items-center gap-4">
-            <CopyAllButton customer={customer} discovery={discovery} notes={notes} />
+            <CopyAllButton customer={customer} discovery={discovery} notes={notes} additions={additions} />
             {customer.source !== 'stripe' && (
               <button
                 onClick={async () => {
@@ -619,8 +667,156 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
               <BlankDiscoveryQuestions discovery={discovery} />
             </div>
           )}
+
+          <CustomerAdditions
+            additions={additions}
+            loading={additionsLoading}
+            onAdd={addAddition}
+            onUpdate={updateAddition}
+            onDelete={deleteAddition}
+          />
         </section>
       </main>
+    </div>
+  );
+}
+
+function CustomerAdditions({ additions, loading, onAdd, onUpdate, onDelete }) {
+  const [topic, setTopic] = useState('');
+  const [body,  setBody]  = useState('');
+  const [saving, setSaving] = useState(false);
+  const [editingId, setEditingId] = useState(null);
+  const [editTopic, setEditTopic] = useState('');
+  const [editBody,  setEditBody]  = useState('');
+
+  const submit = async () => {
+    if (!topic.trim() || !body.trim()) return;
+    setSaving(true);
+    const result = await onAdd(topic.trim(), body.trim());
+    setSaving(false);
+    if (result) { setTopic(''); setBody(''); }
+  };
+
+  const startEdit = (a) => {
+    setEditingId(a.id);
+    setEditTopic(a.topic);
+    setEditBody(a.body);
+  };
+
+  const saveEdit = async () => {
+    await onUpdate(editingId, { topic: editTopic.trim(), body: editBody.trim() });
+    setEditingId(null);
+  };
+
+  const formatTime = (iso) =>
+    new Date(iso).toLocaleString('en-NZ', {
+      day: 'numeric', month: 'short', year: 'numeric',
+      hour: 'numeric', minute: '2-digit',
+    });
+
+  return (
+    <div className="border-t border-carbon/10 mt-8 pt-8">
+      <h2 className="font-display text-xl text-carbon mb-1">More from the customer</h2>
+      <p className="text-ui text-softGrey mb-5">
+        Anything they shared outside the discovery interview — emails, calls, follow-up DMs.
+      </p>
+
+      <div className="bg-bone/40 border border-carbon/10 p-4 mb-6">
+        <input
+          value={topic}
+          onChange={(e) => setTopic(e.target.value)}
+          placeholder="Topic (e.g. Logo update, Booking system, New service)"
+          className="w-full border border-carbon/20 px-3 py-2 mb-3 bg-white text-ui"
+        />
+        <textarea
+          value={body}
+          onChange={(e) => setBody(e.target.value)}
+          rows={3}
+          placeholder="What they said or shared…"
+          className="w-full border border-carbon/20 px-3 py-2 bg-white text-sm leading-6"
+        />
+        <div className="flex justify-end mt-2">
+          <button
+            onClick={submit}
+            disabled={saving || !topic.trim() || !body.trim()}
+            className="bg-carbon text-white px-4 py-2 text-ui uppercase tracking-widest hover:bg-deepGreen transition-colors disabled:opacity-60"
+          >
+            {saving ? 'Saving…' : 'Add info'}
+          </button>
+        </div>
+      </div>
+
+      {loading && <p className="text-ui text-softGrey">Loading…</p>}
+
+      {!loading && additions.length === 0 && (
+        <p className="text-ui text-softGrey">Nothing added yet.</p>
+      )}
+
+      {!loading && additions.length > 0 && (
+        <ul className="space-y-5">
+          {additions.map((a) => (
+            <li key={a.id} className="border-l-2 border-terracotta/40 pl-4">
+              {editingId === a.id ? (
+                <>
+                  <input
+                    value={editTopic}
+                    onChange={(e) => setEditTopic(e.target.value)}
+                    className="w-full border border-carbon/20 px-3 py-2 mb-2 bg-white text-ui font-medium"
+                  />
+                  <textarea
+                    value={editBody}
+                    onChange={(e) => setEditBody(e.target.value)}
+                    rows={3}
+                    className="w-full border border-carbon/20 px-3 py-2 bg-white text-sm leading-6"
+                  />
+                  <div className="flex justify-end gap-2 mt-2">
+                    <button
+                      onClick={() => setEditingId(null)}
+                      className="px-3 py-1 text-ui uppercase tracking-widest text-softGrey hover:text-carbon"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      onClick={saveEdit}
+                      className="bg-carbon text-white px-3 py-1 text-ui uppercase tracking-widest hover:bg-deepGreen"
+                    >
+                      Save
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="flex items-baseline justify-between gap-3 mb-1">
+                    <h3 className="font-display text-lg text-carbon">{a.topic}</h3>
+                    <div className="flex items-center gap-3 shrink-0">
+                      <span className="font-mono text-xs uppercase tracking-widest text-softGrey">
+                        {formatTime(a.created_at)}
+                      </span>
+                      <button
+                        onClick={() => startEdit(a)}
+                        className="text-xs text-softGrey hover:text-carbon"
+                        title="Edit"
+                      >
+                        Edit
+                      </button>
+                      <button
+                        onClick={() => {
+                          if (confirm('Delete this entry? This can\'t be undone.')) onDelete(a.id);
+                        }}
+                        className="text-xs text-softGrey hover:text-terracotta"
+                        title="Delete"
+                      >
+                        ✕
+                      </button>
+                    </div>
+                  </div>
+                  <p className="text-ui text-carbon whitespace-pre-wrap">{a.body}</p>
+                </>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
@@ -816,7 +1012,7 @@ function BlankDiscoveryQuestions({ discovery }) {
   );
 }
 
-function CopyAllButton({ customer, discovery, notes = [] }) {
+function CopyAllButton({ customer, discovery, notes = [], additions = [] }) {
   const [copied, setCopied] = useState(false);
 
   const buildDump = () => {
@@ -859,6 +1055,16 @@ function CopyAllButton({ customer, discovery, notes = [] }) {
       [...notes].reverse().forEach((n) => {
         lines.push(`**${formatDate(n.created_at)}**`);
         lines.push(n.body);
+        lines.push('');
+      });
+    }
+
+    if (additions.length > 0) {
+      lines.push('## More from the customer');
+      [...additions].reverse().forEach((a) => {
+        lines.push(`### ${a.topic}`);
+        lines.push(`*${formatDate(a.created_at)}*`);
+        lines.push(a.body);
         lines.push('');
       });
     }
