@@ -328,6 +328,9 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
   const [additions, setAdditions] = useState([]);
   const [additionsLoading, setAdditionsLoading] = useState(true);
 
+  const [transcripts, setTranscripts] = useState([]);
+  const [transcriptsLoading, setTranscriptsLoading] = useState(true);
+
   const [stage, setStage] = useState(customer.build_stage);
   const [business,    setBusiness]    = useState(customer.business || '');
   const [driveUrl,    setDriveUrl]    = useState(customer.google_drive_url || '');
@@ -448,6 +451,52 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
     setAdditions((as) => as.filter((a) => a.id !== id));
   };
 
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      setTranscriptsLoading(true);
+      const { data, error } = await supabase
+        .from('customer_transcripts')
+        .select('*')
+        .eq('customer_id', customer.id)
+        .order('meeting_date', { ascending: false, nullsFirst: false })
+        .order('created_at',   { ascending: false });
+      if (cancelled) return;
+      if (error) console.error(error);
+      setTranscripts(data || []);
+      setTranscriptsLoading(false);
+    })();
+    return () => { cancelled = true; };
+  }, [customer.id]);
+
+  const addTranscript = async (fields) => {
+    const { data, error } = await supabase
+      .from('customer_transcripts')
+      .insert({ customer_id: customer.id, ...fields })
+      .select()
+      .single();
+    if (error) { alert('Save failed: ' + error.message); return null; }
+    setTranscripts((ts) => [data, ...ts]);
+    return data;
+  };
+
+  const updateTranscript = async (id, fields) => {
+    const { data, error } = await supabase
+      .from('customer_transcripts')
+      .update(fields)
+      .eq('id', id)
+      .select()
+      .single();
+    if (error) { alert('Update failed: ' + error.message); return; }
+    setTranscripts((ts) => ts.map((t) => (t.id === id ? data : t)));
+  };
+
+  const deleteTranscript = async (id) => {
+    const { error } = await supabase.from('customer_transcripts').delete().eq('id', id);
+    if (error) { alert('Delete failed: ' + error.message); return; }
+    setTranscripts((ts) => ts.filter((t) => t.id !== id));
+  };
+
   const save = async () => {
     setSaving(true);
     const { data, error } = await supabase
@@ -493,7 +542,7 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
             </p>
           </div>
           <div className="text-right flex items-center gap-4">
-            <CopyAllButton customer={customer} discovery={discovery} notes={notes} additions={additions} />
+            <CopyAllButton customer={customer} discovery={discovery} notes={notes} additions={additions} transcripts={transcripts} />
             {customer.source !== 'stripe' && (
               <button
                 onClick={async () => {
@@ -675,6 +724,14 @@ function CustomerDetail({ customer, onBack, onUpdate, onDelete }) {
             onUpdate={updateAddition}
             onDelete={deleteAddition}
           />
+
+          <CustomerTranscripts
+            transcripts={transcripts}
+            loading={transcriptsLoading}
+            onAdd={addTranscript}
+            onUpdate={updateTranscript}
+            onDelete={deleteTranscript}
+          />
         </section>
       </main>
     </div>
@@ -821,6 +878,216 @@ function CustomerAdditions({ additions, loading, onAdd, onUpdate, onDelete }) {
   );
 }
 
+function CustomerTranscripts({ transcripts, loading, onAdd, onUpdate, onDelete }) {
+  const [showForm, setShowForm] = useState(false);
+  const [title,       setTitle]       = useState('');
+  const [meetingDate, setMeetingDate] = useState(new Date().toISOString().slice(0, 10));
+  const [body,        setBody]        = useState('');
+  const [saving, setSaving] = useState(false);
+
+  const [openIds, setOpenIds] = useState({});
+  const [editingId, setEditingId] = useState(null);
+  const [editTitle, setEditTitle] = useState('');
+  const [editDate,  setEditDate]  = useState('');
+  const [editBody,  setEditBody]  = useState('');
+
+  const submit = async () => {
+    if (!title.trim() || !body.trim()) return;
+    setSaving(true);
+    const result = await onAdd({
+      title: title.trim(),
+      meeting_date: meetingDate || null,
+      body: body.trim(),
+    });
+    setSaving(false);
+    if (result) {
+      setTitle('');
+      setMeetingDate(new Date().toISOString().slice(0, 10));
+      setBody('');
+      setShowForm(false);
+      setOpenIds((o) => ({ ...o, [result.id]: true }));
+    }
+  };
+
+  const startEdit = (t) => {
+    setEditingId(t.id);
+    setEditTitle(t.title);
+    setEditDate(t.meeting_date || '');
+    setEditBody(t.body);
+  };
+
+  const saveEdit = async () => {
+    await onUpdate(editingId, {
+      title: editTitle.trim(),
+      meeting_date: editDate || null,
+      body: editBody,
+    });
+    setEditingId(null);
+  };
+
+  const formatDate = (iso) =>
+    iso
+      ? new Date(iso + 'T00:00:00').toLocaleDateString('en-NZ', { day: 'numeric', month: 'short', year: 'numeric' })
+      : '';
+
+  return (
+    <div className="border-t border-carbon/10 mt-8 pt-8">
+      <div className="flex items-center justify-between mb-1">
+        <h2 className="font-display text-xl text-carbon">Meeting transcripts</h2>
+        {!showForm && (
+          <button
+            onClick={() => setShowForm(true)}
+            className="text-ui uppercase tracking-widest text-softGrey hover:text-carbon"
+          >
+            + Add transcript
+          </button>
+        )}
+      </div>
+      <p className="text-ui text-softGrey mb-5">
+        Calls, video meetings, voice memos — paste the full text here.
+      </p>
+
+      {showForm && (
+        <div className="bg-bone/40 border border-carbon/10 p-4 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+            <input
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              placeholder="Title (e.g. Discovery call, Logo review)"
+              className="md:col-span-2 w-full border border-carbon/20 px-3 py-2 bg-white text-ui"
+            />
+            <input
+              type="date"
+              value={meetingDate}
+              onChange={(e) => setMeetingDate(e.target.value)}
+              className="w-full border border-carbon/20 px-3 py-2 bg-white text-ui"
+            />
+          </div>
+          <textarea
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+            rows={10}
+            placeholder="Paste the transcript here…"
+            className="w-full border border-carbon/20 px-3 py-2 bg-white text-sm leading-6 font-mono"
+          />
+          <div className="flex justify-end gap-2 mt-2">
+            <button
+              onClick={() => { setShowForm(false); setTitle(''); setBody(''); }}
+              className="px-4 py-2 text-ui uppercase tracking-widest text-softGrey hover:text-carbon"
+            >
+              Cancel
+            </button>
+            <button
+              onClick={submit}
+              disabled={saving || !title.trim() || !body.trim()}
+              className="bg-carbon text-white px-4 py-2 text-ui uppercase tracking-widest hover:bg-deepGreen transition-colors disabled:opacity-60"
+            >
+              {saving ? 'Saving…' : 'Save transcript'}
+            </button>
+          </div>
+        </div>
+      )}
+
+      {loading && <p className="text-ui text-softGrey">Loading…</p>}
+
+      {!loading && transcripts.length === 0 && !showForm && (
+        <p className="text-ui text-softGrey">No transcripts yet.</p>
+      )}
+
+      {!loading && transcripts.length > 0 && (
+        <ul className="space-y-3">
+          {transcripts.map((t) => {
+            const isOpen = !!openIds[t.id];
+            const isEditing = editingId === t.id;
+            const dateLabel = formatDate(t.meeting_date) ||
+              new Date(t.created_at).toLocaleDateString('en-NZ', { day: 'numeric', month: 'short', year: 'numeric' });
+            const wordCount = t.body.trim().split(/\s+/).filter(Boolean).length;
+
+            if (isEditing) {
+              return (
+                <li key={t.id} className="border border-carbon/15 p-4 bg-bone/20">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+                    <input
+                      value={editTitle}
+                      onChange={(e) => setEditTitle(e.target.value)}
+                      className="md:col-span-2 w-full border border-carbon/20 px-3 py-2 bg-white text-ui font-medium"
+                    />
+                    <input
+                      type="date"
+                      value={editDate}
+                      onChange={(e) => setEditDate(e.target.value)}
+                      className="w-full border border-carbon/20 px-3 py-2 bg-white text-ui"
+                    />
+                  </div>
+                  <textarea
+                    value={editBody}
+                    onChange={(e) => setEditBody(e.target.value)}
+                    rows={14}
+                    className="w-full border border-carbon/20 px-3 py-2 bg-white text-sm leading-6 font-mono"
+                  />
+                  <div className="flex justify-end gap-2 mt-2">
+                    <button onClick={() => setEditingId(null)} className="px-3 py-1 text-ui uppercase tracking-widest text-softGrey hover:text-carbon">
+                      Cancel
+                    </button>
+                    <button onClick={saveEdit} className="bg-carbon text-white px-3 py-1 text-ui uppercase tracking-widest hover:bg-deepGreen">
+                      Save
+                    </button>
+                  </div>
+                </li>
+              );
+            }
+
+            return (
+              <li key={t.id} className="border border-carbon/15">
+                <button
+                  onClick={() => setOpenIds((o) => ({ ...o, [t.id]: !o[t.id] }))}
+                  className="w-full flex items-center justify-between gap-3 p-4 hover:bg-bone/30 transition-colors text-left"
+                >
+                  <div className="flex items-center gap-3 min-w-0">
+                    <span className="text-softGrey w-3 inline-block shrink-0">{isOpen ? '▾' : '▸'}</span>
+                    <div className="min-w-0">
+                      <div className="font-display text-lg text-carbon truncate">{t.title}</div>
+                      <div className="font-mono text-xs uppercase tracking-widest text-softGrey">
+                        {dateLabel} · {wordCount} words
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3 shrink-0">
+                    <span
+                      role="button"
+                      tabIndex={0}
+                      onClick={(e) => { e.stopPropagation(); startEdit(t); }}
+                      className="text-xs text-softGrey hover:text-carbon"
+                    >
+                      Edit
+                    </span>
+                    <span
+                      role="button"
+                      tabIndex={0}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        if (confirm('Delete this transcript? This can\'t be undone.')) onDelete(t.id);
+                      }}
+                      className="text-xs text-softGrey hover:text-terracotta"
+                    >
+                      ✕
+                    </span>
+                  </div>
+                </button>
+                {isOpen && (
+                  <div className="border-t border-carbon/10 p-4 bg-white">
+                    <pre className="text-sm leading-6 text-carbon whitespace-pre-wrap font-sans">{t.body}</pre>
+                  </div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+  );
+}
+
 function NotesJournal({ notes, loading, onAdd, onDelete }) {
   const [draft, setDraft] = useState('');
   const [adding, setAdding] = useState(false);
@@ -876,7 +1143,7 @@ function NotesJournal({ notes, loading, onAdd, onDelete }) {
   return (
     <div className="bg-white border border-carbon/10 shadow-subtle p-6">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="font-display text-xl text-carbon">Notes</h2>
+        <h2 className="font-display text-xl text-carbon">Builder notes</h2>
         {groups.length > 1 && (
           <button
             onClick={allCollapsed ? expandAll : collapseAll}
@@ -1012,7 +1279,7 @@ function BlankDiscoveryQuestions({ discovery }) {
   );
 }
 
-function CopyAllButton({ customer, discovery, notes = [], additions = [] }) {
+function CopyAllButton({ customer, discovery, notes = [], additions = [], transcripts = [] }) {
   const [copied, setCopied] = useState(false);
 
   const buildDump = () => {
@@ -1050,7 +1317,7 @@ function CopyAllButton({ customer, discovery, notes = [], additions = [] }) {
       lines.push('');
     }
     if (notes.length > 0) {
-      lines.push('## Notes');
+      lines.push('## Builder notes');
       // Oldest first, so the journal reads chronologically
       [...notes].reverse().forEach((n) => {
         lines.push(`**${formatDate(n.created_at)}**`);
@@ -1065,6 +1332,20 @@ function CopyAllButton({ customer, discovery, notes = [], additions = [] }) {
         lines.push(`### ${a.topic}`);
         lines.push(`*${formatDate(a.created_at)}*`);
         lines.push(a.body);
+        lines.push('');
+      });
+    }
+
+    if (transcripts.length > 0) {
+      lines.push('## Meeting transcripts');
+      [...transcripts].reverse().forEach((t) => {
+        const dateLabel = t.meeting_date
+          ? new Date(t.meeting_date + 'T00:00:00').toLocaleDateString('en-NZ', { day: 'numeric', month: 'short', year: 'numeric' })
+          : formatDate(t.created_at);
+        lines.push(`### ${t.title}`);
+        lines.push(`*${dateLabel}*`);
+        lines.push('');
+        lines.push(t.body);
         lines.push('');
       });
     }
