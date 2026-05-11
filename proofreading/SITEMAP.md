@@ -92,11 +92,11 @@ Old confirmation pages that no longer match the live flow. New flow uses `/next-
 
 | Product | URL |
 |---|---|
-| The Build | `https://buy.stripe.com/00w00i6me14s4BLev9dZ604` |
+| The Build | `https://buy.stripe.com/28EeVc5iafZm4BL9aPdZ60c` |
 | Power-Ups | `https://buy.stripe.com/3cI14mfWO8wU7NXgDhdZ609` |
-| Caretaker — Foundation | `https://buy.stripe.com/6oUeVcdOGcNad8haeTdZ605` |
-| Caretaker — Capture | `https://buy.stripe.com/5kQ9ASbGybJ60lvev9dZ607` |
-| Caretaker — Commerce | `https://buy.stripe.com/dRmbJ025YfZm6JT4UzdZ606` |
+| Caretaker — Foundation | `https://buy.stripe.com/7sYeVc7qifZmgkt3QvdZ60d` |
+| Caretaker — Capture | `https://buy.stripe.com/7sYfZgaCu5kIb093QvdZ60b` |
+| Caretaker — Commerce | `https://buy.stripe.com/eVqcN44e67sQ3xH2MrdZ60a` |
 | Content-Autopilot Monthly | `https://buy.stripe.com/8x29AS8um3cAecldr5dZ608` |
 | One-Pager (referral only) | `https://buy.stripe.com/eVq6oG4e628w7NX4UzdZ603` |
 | Customer Portal | `https://billing.stripe.com/p/login/00waEWh0S14s3xH4UzdZ600` |

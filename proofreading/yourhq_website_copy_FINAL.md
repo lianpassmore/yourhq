@@ -687,8 +687,8 @@ A structured course with modules. Checkout plus access delivery.
 + $600
 
 **Content Autopilot**
-Your social posts become blog articles. Weekly approval queue — one email, one tap, published.
-+ $200 setup · $79/mo ongoing
+Your social posts become blog articles. Fortnightly approval queue — one email, one tap, published.
++ $200 setup · $99/mo ongoing
 
 ---
 
