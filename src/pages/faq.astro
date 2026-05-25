@@ -25,8 +25,8 @@ const sections = [
     id: 'build',
     title: 'The Build',
     qs: [
-      { q: "What's included in every build?", a: 'Drive-Home Interview, full copywriting, content raid, copy review page, up to 8 pages hand-coded, blog and resources architecture, portfolio and case study layouts, media and press section, socials embed (Instagram, Facebook, Threads, X, LinkedIn), Google Business Profile setup or optimisation, enquiry form direct to your inbox, basic email capture (CSV you own), SEO optimised for Google, AI search optimised for ChatGPT and Perplexity, stock photos if needed or your existing photos AI-optimised, domain, hosting, SSL, backups, security, annual refresh, on-demand updates forever.' },
-      { q: 'What are Power-Ups?', a: 'Optional add-ons for connecting your site to third-party systems. Booking platforms, email tools, Stripe payments. The base build covers everything your site is. Power-Ups are for what it connects to.' },
+      { q: "What's included in every build?", a: 'Drive-Home Interview, market and audience research, full copywriting, content raid, copy review page, up to 8 pages hand-coded, blog and resources architecture, portfolio and case study layouts, media and press section, socials embed (Instagram, Facebook, Threads, X, LinkedIn), Google Business Profile setup or optimisation, enquiry form direct to your inbox, email capture (CSV you own), SEO optimised for Google, AI search optimised for ChatGPT and Perplexity, stock photos if needed or your existing photos optimised, domain, hosting, SSL, backups, security, on-demand updates forever.' },
+      { q: 'What are Add-Ons?', a: 'Optional extras for connecting your site to third-party systems or adding capacity. Booking platforms, email tools, Stripe payments, Content Autopilot, Design Refresh, and more. The base build is complete as it stands. Add-Ons are for when your site needs to do something more.' },
       { q: 'Is this a template or a custom build?', a: "Every site is hand-coded specifically for you. That's why our sites load under a second, look distinctive, and don't become obsolete when a platform updates." },
       { q: 'What does "hand-coded" mean in practice?', a: 'Every line of code written for your site specifically. No bloat, no plugins, no platform layer that can break. Faster, more secure, more future-proof than anything built on WordPress or a page builder.' },
       { q: 'What is AEO and why does it matter?', a: 'AEO, Answer Engine Optimisation, is how your site shows up in AI-generated answers, like when someone asks ChatGPT a question. We build for both SEO and AEO.' },
@@ -47,10 +47,10 @@ const sections = [
     id: 'pricing',
     title: 'Pricing and Commitment',
     qs: [
-      { q: 'What does this actually cost?', a: "$2,500 NZD + GST setup. Monthly Caretaker fee from $129/mo NZD. Power-Ups priced separately. You'll know the full cost before anything starts." },
-      { q: 'Why is there a monthly fee?', a: 'Because a website needs to run, stay secure, keep up with you, and get refreshed annually. The monthly fee means you never have to think about any of that.' },
+      { q: 'What does this actually cost?', a: "$3,800 NZD + GST setup. Monthly Caretaker fee from $149/mo NZD. Add-Ons priced separately. You'll know the full cost before anything starts." },
+      { q: 'Why is there a monthly fee?', a: 'Because a website needs to run, stay secure, and keep up with you as you grow. The monthly fee means you never have to think about any of that.' },
       { q: 'Can I cancel?', a: 'Yes. 30 days notice. Full static export when you leave.' },
-      { q: 'Can I pause?', a: 'Yes. Site stays live. Annual refresh clock pauses. No penalty.' },
+      { q: 'Can I pause?', a: 'Yes. Site stays live. No penalty.' },
       { q: "What if I don't love the site?", a: 'Full refund of your setup fee, minus Stripe processing (~3%) and domain costs. Love it or leave it.' },
       { q: 'What currency do international clients pay in?', a: 'New Zealand dollars. Your bank handles the conversion.' }
     ]
@@ -81,7 +81,7 @@ const sections = [
     title: 'The Honest Ones',
     qs: [
       { q: "I've been burned by a web designer before. How is this different?", a: "The YourHQ model is structurally different. You see the complete site before the subscription starts. If you don't love it, you get a refund. I stay on as Caretaker after launch. Every site is built by me personally. That doesn't mean everything will be perfect. But it means you're not alone if it isn't." },
-      { q: 'What if my business changes after the site is built?', a: "Text me. That's what the Caretaker model is for. New service, new direction, new name. I update it. The annual refresh means your site grows with you." },
+      { q: 'What if my business changes after the site is built?', a: "Message me. That's what the Caretaker model is for. New service, new direction, new name. I update it." },
       { q: 'What if I outgrow what you offer?', a: "Then I'll tell you. If your business gets to the point where you need a custom web app or a full e-commerce platform, I'll point you in the right direction. I'm not going to hold you back to keep you as a client." },
       { q: 'What if I just want to ask a question first?', a: 'Text me on 022 172 5793 or fill in the contact form. No commitment. No pitch. Just a straight answer.' }
     ]
@@ -104,7 +104,7 @@ const faqSchema = {
 
 <Layout
   title="FAQ | YourHQ"
-  description="Honest answers about the process, the build, ownership, pricing, and working with Lian. If your question isn't here, just text me."
+  description="Honest answers about the process, the build, ownership, pricing, and working with Lian. If your question isn't here, just message me."
 >
   <BreadcrumbSchema
     slot="head"
@@ -130,7 +130,7 @@ const faqSchema = {
             <span class="font-serif italic text-terracotta normal-case font-normal">Before You Say Yes.</span>
           </h1>
           <p class="font-sans text-subhead text-softGrey max-w-3xl">
-            Honest answers. No jargon. If your question isn't here, just text me.
+            Honest answers. No jargon. If your question isn't here, just message me.
           </p>
         </div>
       </div>

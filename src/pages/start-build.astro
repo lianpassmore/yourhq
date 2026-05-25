@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 
-const stripeBuildLink = "https://buy.stripe.com/28EeVc5iafZm4BL9aPdZ60c";
+const stripeBuildLink = "https://buy.stripe.com/dRm4gycKCfZm2tD9aPdZ60i";
 
 const powerUpGroups = [
   {
@@ -66,6 +66,20 @@ const powerUpGroups = [
     ]
   },
   {
+    label: 'Keep Your Site Looking Current',
+    intro: 'When you want a visual refresh without a full rebuild.',
+    items: [
+      {
+        id: 'design-refresh',
+        name: 'Design Refresh',
+        price: 600,
+        priceLabel: '+ $600 NZD',
+        what: 'On-demand visual update. Fonts, colours, layouts, hero sections refreshed to match current design trends.',
+        for: 'You want your site to feel current without starting from scratch. Available 12 months after launch.'
+      }
+    ]
+  },
+  {
     label: 'Extra Capacity When You Need It',
     intro: 'For when you outgrow your monthly included time, or want guaranteed turnaround.',
     items: [
@@ -93,7 +107,7 @@ const powerUpGroups = [
 
 <Layout
   title="Start Your Build | YourHQ"
-  description="What you’re paying for today, the Power-Ups available, and what happens before your site goes live. $2,500 NZD + GST setup. No monthly fees charged today."
+  description="What you’re paying for today, the Add-Ons available, and what happens before your site goes live. $3,800 NZD + GST setup. No monthly fees charged today."
   noindex={true}
 >
   <Navbar client:load />
@@ -115,7 +129,7 @@ const powerUpGroups = [
           </h1>
           <p class="font-sans text-xl md:text-2xl text-carbon/80 max-w-2xl leading-relaxed">
             One charge today: the build fee.<br/>
-            Power-Ups are optional and can be added now or later.<br/>
+            Add-Ons are optional and can be added now or later.<br/>
             No monthly fees start until your site goes live.
           </p>
         </div>
@@ -139,7 +153,7 @@ const powerUpGroups = [
             <div class="bg-bone rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
               <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen mb-4">The Build</p>
               <div class="flex items-baseline gap-2 mb-2">
-                <span class="font-display font-bold text-6xl md:text-7xl tracking-tight text-carbon">$2,500</span>
+                <span class="font-display font-bold text-6xl md:text-7xl tracking-tight text-carbon">$3,800</span>
                 <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">NZD + GST</span>
               </div>
               <p class="font-mono text-[10px] text-softGrey uppercase tracking-[0.15em]">One-time setup fee, charged today</p>
@@ -183,7 +197,7 @@ const powerUpGroups = [
             Not today. We’ll lock in your monthly tier (Sorted, Connected, or Building) once we’ve seen what your site is actually doing — and only then.
           </p>
           <p class="font-sans text-base md:text-lg text-bone/85 leading-relaxed">
-            Same goes for any Power-Ups with a monthly component: those start when they’re wired in, not before.
+            Same goes for any Add-Ons with a monthly component: those start when they’re wired in, not before.
           </p>
         </div>
       </div>
@@ -198,14 +212,14 @@ const powerUpGroups = [
         <div class="max-w-3xl mb-16 text-center mx-auto">
           <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-terracotta mb-4">Step Two — Have a Read</p>
           <h2 class="font-display font-bold text-[clamp(2.25rem,4vw,3.5rem)] uppercase leading-none tracking-tight mb-6 text-carbon">
-            Power-Ups for when<br/>
+            Add-Ons for when<br/>
             <span class="font-serif italic text-softGrey normal-case">your site needs to do more.</span>
           </h2>
           <p class="font-sans text-lg text-carbon/80 leading-relaxed mb-3">
             Have a look through. We’ll lock in which ones you actually need during your discovery interview — they’re quoted and added at that point, not now.
           </p>
           <p class="font-serif italic text-lg text-carbon/70">
-            Nothing here is required. You can add any Power-Up later, too.
+            Nothing here is required. You can add any Add-On later, too.
           </p>
         </div>
 
@@ -246,7 +260,7 @@ const powerUpGroups = [
               That’s genuinely fine.
             </p>
             <p class="font-sans text-base md:text-lg text-carbon/80 leading-relaxed">
-              Pay for the build, do your discovery interview, and if I think any Power-Ups would actually help you, we’ll sort it then. No pressure to decide today.
+              Pay for the build, do your discovery interview, and if I think any Add-Ons would actually help you, we’ll sort it then. No pressure to decide today.
             </p>
           </div>
         </div>
@@ -271,23 +285,23 @@ const powerUpGroups = [
 
           <div class="flex items-center justify-between border-b border-carbon/10 pb-4 mb-6">
             <span class="font-sans text-base text-carbon">The Build</span>
-            <span class="font-display font-bold text-xl text-carbon">$2,500</span>
+            <span class="font-display font-bold text-xl text-carbon">$3,800</span>
           </div>
 
           <div class="space-y-3">
             <div class="flex items-center justify-between">
               <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-deepGreen">Charged today</span>
-              <span class="font-display font-bold text-3xl text-carbon">$2,500 <span class="font-mono text-[10px] text-softGrey">NZD + GST</span></span>
+              <span class="font-display font-bold text-3xl text-carbon">$3,800 <span class="font-mono text-[10px] text-softGrey">NZD + GST</span></span>
             </div>
             <p class="font-serif italic text-base text-carbon/70 leading-relaxed pt-3">
-              Power-Ups (if you need any) and your monthly caretaker tier are quoted and locked in during your discovery interview, not today.
+              Add-Ons (if you need any) and your monthly caretaker tier are quoted and locked in during your discovery interview, not today.
             </p>
           </div>
 
         </div>
 
         <a href={stripeBuildLink} class="block w-full bg-carbon text-white text-center px-8 py-5 rounded-full font-medium text-base hover:bg-deepGreen transition-colors shadow-elegant">
-          Confirm and Pay $2,500 →
+          Confirm and Pay $3,800 →
         </a>
 
         <p class="font-sans text-sm text-carbon/60 text-center mt-6 leading-relaxed">
@@ -306,14 +320,14 @@ const powerUpGroups = [
         <div class="bg-white rounded-3xl border border-carbon/10 p-8 shadow-subtle">
           <h3 class="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-deepGreen mb-4 border-b border-carbon/10 pb-4">Add Anything Later</h3>
           <p class="font-sans text-sm text-carbon/80 leading-relaxed">
-            Every Power-Up can be added at any point — at build, at launch, or two years in. Just text me.
+            Every Add-On can be added at any point — at build, at launch, or two years in. Just message me.
           </p>
         </div>
 
         <div class="bg-white rounded-3xl border border-carbon/10 p-8 shadow-subtle">
           <h3 class="font-mono text-[10px] font-medium uppercase tracking-[0.15em] text-deepGreen mb-4 border-b border-carbon/10 pb-4">Monthly Locks Later</h3>
           <p class="font-sans text-sm text-carbon/80 leading-relaxed">
-            We pick your monthly caretaker tier when your site goes live, not now. Same for any monthly Power-Ups.
+            We pick your monthly caretaker tier when your site goes live, not now. Same for any monthly Add-Ons.
           </p>
         </div>
 
