@@ -1,0 +1,248 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import AuditIntakeForm from '../components/AuditIntakeForm.jsx';
+
+const questions = [
+  'What is your website URL?',
+  'What is the main thing you want your website to do right now?',
+  'Who is your ideal client?',
+  'What work do you want more of that you are not currently getting enough of?',
+  'What do you want to move away from?',
+  'What is the number one reason people do not buy from you or do not follow through after making contact?',
+  'What do you like about your current site? Anything you want to keep?',
+  'How do you want people to feel when they land on your site?',
+  'Any words, phrases, or tones you absolutely do not want on your site?',
+];
+
+const happensNow = [
+  {
+    n: '01',
+    title: 'I go through your site',
+    body: 'I read every page of your current site, go through your Google presence, your socials, your competitors. I look at what your site is saying versus what you told me you want it to do.',
+  },
+  {
+    n: '02',
+    title: 'I score and diagnose',
+    body: 'Every key page scored. The ten-second test run on your homepage. Path to purchase mapped. Trust signals checked. Site sizing assessed. Every finding tagged by priority.',
+  },
+  {
+    n: '03',
+    title: 'I write your copy',
+    body: 'Page-by-page copy drafted in your voice using everything you told me in your answers. Before-and-after comparisons on your weakest pages. SEO and AEO guidance specific to your site.',
+  },
+  {
+    n: '04',
+    title: 'Your document lands in your inbox',
+    body: 'Within five working days of your answers coming through. Professionally formatted. Ready to read, share with your developer, or work through yourself.',
+  },
+];
+
+const worthKnowing = [
+  {
+    title: 'You will not hear much from me until it is done.',
+    body: 'That is intentional. I am heads down on your site. If I have a question or something comes up that affects the timeline I will reach out directly.',
+  },
+  {
+    title: 'The document is yours completely.',
+    body: 'No pitch buried in it. No obligation to do anything with it beyond reading it. What you do after that is entirely up to you.',
+  },
+  {
+    title: 'If anything changes before I finish.',
+    body: 'New information, a page you forgot to mention, something you want to add. Just email or text and I will factor it in before the document goes out.',
+  },
+];
+
+const whileYouWait = [
+  'Take a fresh look at your homepage as if you have never seen it before. What does it actually say in the first five seconds? Write down your honest reaction. It will make the audit more useful when you read it.',
+  'Pull together any testimonials or reviews you have not put on your site yet. The audit will tell you where they belong.',
+  'Note any services or offers you have added or changed recently that your site has not caught up with. The copy will reflect where you are now, not where you were when the site was built.',
+];
+---
+
+<Layout
+  title="Next Steps | Website Audit | YourHQ"
+  description="Your Website Audit is underway. Here is exactly what happens now."
+  noindex={true}
+>
+  <Fragment slot="head">
+    <!-- Resolve which version to show as early as possible to avoid a flash. -->
+    <script is:inline>
+      (function () {
+        var s = new URLSearchParams(window.location.search).get('status');
+        document.documentElement.setAttribute('data-audit-status', s === 'complete' ? 'complete' : 'skipped');
+      })();
+    </script>
+    <style>
+      [data-when] { display: none; }
+      html[data-audit-status='complete'] [data-when='complete'] { display: block; }
+      html[data-audit-status='skipped'] [data-when='skipped'] { display: block; }
+    </style>
+  </Fragment>
+
+  <Navbar client:load />
+
+  <main class="bg-bone text-carbon min-h-screen font-sans selection:bg-deepGreen selection:text-white">
+
+    <!-- HEADER: COMPLETE -->
+    <section data-when="complete" class="pt-32 pb-24 border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+        <div class="mb-10 flex justify-center">
+          <div class="w-16 h-16 bg-surface rounded-full flex items-center justify-center border border-carbon/10 shadow-subtle text-signal font-serif italic text-3xl">
+            &check;
+          </div>
+        </div>
+        <p class="font-mono text-badge text-signal mb-6">You Are All Set.</p>
+        <h1 class="font-display text-hero font-bold text-carbon mb-6">
+          Your Answers Are In.<br/>I Will Take It From Here.
+        </h1>
+        <p class="font-serif italic text-headline text-terracotta max-w-2xl mx-auto">
+          You have done your bit. Everything from here is me.
+        </p>
+      </div>
+    </section>
+
+    <!-- HEADER + FORM: SKIPPED -->
+    <section data-when="skipped" class="pt-32 pb-20 border-b border-carbon/10">
+      <div class="max-w-3xl mx-auto px-6 lg:px-12">
+        <div class="text-center mb-12">
+          <p class="font-mono text-badge text-terracotta mb-6">One Thing Left.</p>
+          <h1 class="font-display text-hero font-bold text-carbon mb-6">
+            Nearly There.<br/>Just Your Answers Left.
+          </h1>
+          <p class="font-serif italic text-headline text-terracotta max-w-2xl mx-auto">
+            You are all paid up. I just need your answers before I can get started.
+          </p>
+        </div>
+
+        <!-- Terracotta callout -->
+        <div class="mb-12 bg-surface border-t-4 border-terracotta rounded-xl p-6 shadow-subtle">
+          <p class="font-sans text-ui text-carbon">
+            Fill in the form below or email your answers directly to
+            <a href="mailto:lian@yourhq.co.nz?subject=Website%20Audit" class="text-signal border-b border-signal/30 hover:border-signal transition-colors">lian@yourhq.co.nz</a>
+            with "Website Audit" in the subject line. Either way works.
+          </p>
+        </div>
+
+        <AuditIntakeForm client:load />
+
+        <!-- Copy & paste questions for the email route -->
+        <div class="mt-14">
+          <h2 class="font-display text-headline font-bold text-carbon mb-3">Prefer to email instead?</h2>
+          <p class="font-sans text-ui text-softGrey mb-8">
+            Copy the questions below and send them to
+            <a href="mailto:lian@yourhq.co.nz?subject=Website%20Audit" class="text-signal hover:underline">lian@yourhq.co.nz</a>.
+            Put "Website Audit" in the subject line.
+          </p>
+          <ol class="space-y-4">
+            {questions.map((q, i) => (
+              <li class="flex gap-4 items-start border-b border-carbon/10 pb-4">
+                <span class="font-mono text-badge text-softGrey mt-1">{String(i + 1).padStart(2, '0')}</span>
+                <span class="font-sans text-body text-carbon">{q}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SHARED SECTIONS (both versions) ============ -->
+
+    <!-- WHAT HAPPENS NOW -->
+    <section class="py-24 bg-white border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="font-display text-display font-bold text-carbon mb-16 text-center">What Happens Now.</h2>
+
+          <div class="relative">
+            <div class="absolute left-[11px] md:left-[15px] top-2 bottom-0 w-[1px] bg-carbon/10"></div>
+            {happensNow.map((s) => (
+              <div class="relative pl-12 md:pl-16 pb-14 group">
+                <div class="absolute left-[7px] md:left-[11px] top-1.5 w-[9px] h-[9px] rounded-full bg-carbon/40 ring-4 ring-white group-hover:bg-signal transition-colors"></div>
+                <span class="inline-block font-mono text-badge text-softGrey mb-3">Step {s.n}</span>
+                <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">{s.title}</h3>
+                <p class="font-sans text-body text-softGrey max-w-xl">{s.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <div class="mt-4 ml-12 md:ml-16 border-l-2 border-signal pl-6">
+            <p class="font-sans text-ui text-softGrey max-w-xl">
+              Five working days. That is the window. Most audits land before that.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A FEW THINGS WORTH KNOWING -->
+    <section class="py-24 border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="font-display text-display font-bold text-carbon mb-16">A Few Things Worth Knowing.</h2>
+          <div class="border-t border-carbon/10">
+            {worthKnowing.map((w) => (
+              <div class="py-8 border-b border-carbon/10">
+                <h3 class="font-sans font-semibold text-subhead text-carbon mb-3">{w.title}</h3>
+                <p class="font-sans text-body text-softGrey max-w-2xl">{w.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHILE YOU WAIT -->
+    <section class="py-24 bg-white border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="max-w-3xl mx-auto">
+          <h2 class="font-display text-display font-bold text-carbon mb-4">While You Wait.</h2>
+          <p class="font-sans text-body text-softGrey mb-12">A few things worth doing before your audit arrives.</p>
+
+          <div class="space-y-6">
+            {whileYouWait.map((item, i) => (
+              <div class="flex gap-5 items-start bg-surface rounded-xl p-6 shadow-subtle">
+                <span class="font-serif italic text-2xl text-terracotta leading-none mt-1">{i + 1}</span>
+                <p class="font-sans text-body text-softGrey">{item}</p>
+              </div>
+            ))}
+          </div>
+
+          <p class="font-sans text-ui text-softGrey/80 mt-10 italic">
+            None of this is homework. Just things that tend to make the document land better.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUESTIONS -->
+    <section class="py-24 px-6 border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+        <div class="w-12 h-12 rounded-full bg-surface border border-carbon/10 flex items-center justify-center text-terracotta font-serif italic text-2xl mb-8 shadow-subtle">
+          Y
+        </div>
+        <h3 class="font-display text-headline font-bold text-carbon mb-4">Questions?</h3>
+        <p class="font-sans text-body text-softGrey max-w-md mb-12">
+          If anything comes up before your document arrives, reach out directly. Lian or Nic will get back to you within one business day.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-8">
+          <a href="sms:0221725793" class="font-mono text-badge text-carbon border-b border-carbon/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
+            Text 022 172 5793
+          </a>
+          <span class="hidden sm:block w-1.5 h-1.5 bg-carbon/20 rounded-full"></span>
+          <a href="mailto:hello@yourhq.co.nz" class="font-mono text-badge text-carbon border-b border-carbon/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
+            hello@yourhq.co.nz
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL LINE -->
+    <section class="py-20 px-6 text-center">
+      <p class="font-serif italic text-headline text-terracotta">Keep an eye on your inbox. Talk soon.</p>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

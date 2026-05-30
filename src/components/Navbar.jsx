@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const navLinks = [
   { href: '/how-it-works', label: 'How It Works' },
   { href: '/pricing', label: 'Pricing' },
+  { href: '/website-audit', label: 'Website Audit' },
   { href: '/who-we-build-for', label: 'Who We Build For' },
   { href: '/portfolio', label: 'Portfolio' },
   { href: '/our-story', label: 'Our Story' },
@@ -34,7 +35,7 @@ export default function Navbar() {
           </a>
 
           {/* DESKTOP NAV */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {navLinks.map((l) => (
               <a
                 key={l.href}

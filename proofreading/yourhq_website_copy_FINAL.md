@@ -1,5 +1,7 @@
 # YourHQ — Website Copy
-# Full Site · May 2026
+# Full Site · Synced to live site 31 May 2026
+# (Pricing model updated: Build $3,800 + GST · Care from $149/mo · tiers Sorted/Connected/Building · annual refresh now a paid Design Refresh Add-On)
+# (NEW: The Website Audit — standalone $997 + GST product. Pages 10–12 below: public sales page + post-payment intake + next-steps. Pages 11 & 12 are noindex/transactional.)
 # Filter lens — every page assumes the reader already knows they need a website.
 # The site's job: show them how I work and whether we're the right fit.
 # Ecosystem page is the only education/SEO page.
@@ -19,6 +21,7 @@
 - Your Digital Ecosystem
 - Portfolio
 - Our Story
+- Website Audit
 
 ## Nav CTA
 Start Your Build
@@ -26,6 +29,7 @@ Start Your Build
 ## Footer
 Founded in Aotearoa New Zealand · Clients Worldwide
 hello@yourhq.co.nz · 022 172 5793 · yourhq.co.nz
+# Footer also carries a direct link: "Website Audit — $997"
 
 ---
 
@@ -38,7 +42,7 @@ hello@yourhq.co.nz · 022 172 5793 · yourhq.co.nz
 ---
 
 ## Hero Badge
-Founded in Aotearoa New Zealand · Clients Worldwide
+Founded in NZ · Clients Worldwide
 
 ## Hero Headline
 For businesses (and people)
@@ -49,13 +53,13 @@ You've been meaning to sort this.
 This is where it gets handled.
 
 ## Hero Price Line
-From $1,800 + GST · from $99/mo ongoing.
+From $3,800 NZD + GST · from $149/mo NZD ongoing
 
 ## Hero Pull Quote
 "While I was still figuring out Google Drive, Lian had
 already pulled images from our Facebook and had a draft
 site ready."
-— Reuben, Johnson & Sons · Commercial Builder
+— Reuben · Johnson & Sons · Builder
 
 ## Hero CTAs
 - Start Your Build
@@ -159,8 +163,8 @@ Everything else is mine to figure out.
 Your story captured — in your actual voice, not a brief.
 Your content pulled from everything you've already built.
 Your site written, built, and previewed — before you commit to a thing.
-And then I stay. Hosting, updates, annual refresh.
-You just text me when something changes.
+And then I stay. Hosting, updates.
+You just message me when something changes.
 
 ### Callout
 Not a template. Not AI copy dropped into a theme.
@@ -186,7 +190,7 @@ Generic is everywhere. You want something impossible to mistake for anyone but y
 No months of briefing. No weekends writing copy. One conversation — I draw your story out and build while you get on with your work.
 
 **You want to own what you build.**
-Permanent. Portable. Yours unconditionally. Updated with a text. Refreshed every year.
+Permanent. Portable. Yours unconditionally. Updated whenever you need it. Nothing held hostage.
 
 ### Closing
 **If that's you — keep reading.**
@@ -240,7 +244,7 @@ Private link. Love it — we go live. Don't love it — full refund.
 Domain connected. Google notified. Your permanent address is set.
 
 **07 — The Caretakers Take Over**
-Hosting, security, updates, annual refresh. I stay. That's the whole model.
+Hosting, security, updates. I stay. That's the whole model.
 
 ### CTA
 [See the full process →] — links to /how-it-works
@@ -290,13 +294,16 @@ Your story keeps growing. Your digital home should too.
 ### Headline
 What This Actually Costs.
 
-**The Build — $1,800 + GST**
-One-time. Interview, copywriting, content raid, up to 8 pages hand-coded, Google Business Profile, domain, hosting.
+### Subtext
+One build. One price. Care that scales with what your site does.
 
-**Monthly Care — from $99/mo**
-Hosting, security, on-demand updates, annual design refresh. Scales based on what your site does.
+**The Build — $3,800 NZD + GST**
+One-time setup. Interview, market research, copywriting, content raid, up to 8 pages hand-coded, socials embed, Google Business Profile, SEO and AI search optimised, domain, hosting.
 
-**Love It or Leave It**
+**Monthly Care — from $149/mo NZD**
+Hosting, security, on-demand updates. Scales based on what your site does.
+
+**Love It or Leave It** *(Risk-Free Guarantee)*
 You see the complete site before the subscription starts.
 Don't love it — full refund of your setup fee.
 
@@ -306,17 +313,43 @@ Don't love it — full refund of your setup fee.
 ---
 
 ## SECTION: Forever Fresh
+# Label on live site: "The Caretaker Model"
 
 ### Headline
 Built Once.
 Looked After Forever.
 
-Most websites go stale after three years. Then you pay $5,000+ to rebuild.
+Most agencies build it, invoice it, and move on. Three years later you're paying to start again.
 
-Not here. Every 12 months I refresh your design — included.
-As you evolve, your digital home evolves with you.
+I stay. Hosting, security, on-demand updates. You message me when something changes. I handle the rest.
 
-**Total rebuild fees with YourHQ: $0. Ever.**
+**Nothing held hostage. Ever.**
+
+# MARQUEE (below this section): BUILT ONCE · LOOKED AFTER FOREVER ·
+
+---
+
+## SECTION: The Website Audit
+# Live label: section 11.5 — entry point for people who already have a site.
+# Links through to /website-audit (full sales page = Page 10).
+
+### Label
+Already Have a Site?
+
+### Headline
+The Website
+Audit.
+
+### Body
+Not ready for a full build? Start with a full professional read of the site you already have. Scored, diagnosed, and written up in a single document, in your inbox within five working days.
+
+You answer eight questions by email. Everything else is handled. If you go on to build with me, it's the perfect head start.
+
+### Price Card
+$997 NZD + GST · One-time · Delivered in five working days
+
+### CTA
+See the Website Audit
 
 ---
 
@@ -345,7 +378,7 @@ I Handle Everything Else.
 
 ## Page Subhead
 No copy to write. No designer to brief. No platform to learn. No project to manage.
-You talk — I build your digital home. Most clients are live within 1–2 weeks.
+You talk. I build your digital home. Most clients are live within 1 to 2 weeks.
 
 ---
 
@@ -441,14 +474,17 @@ Hand-coded in Astro. Under a second to load. Mobile-first. Built for standard se
 Not a template. Not a theme with your logo dropped in. Built from your approved copy, to your visual brand, one page at a time.
 
 **Every build includes:**
-- Up to 8 pages
+- Up to 8 pages, hand-coded
 - Blog and resources architecture
 - Portfolio and case study layouts
 - Media and press section
-- Instagram feed embed
-- Google Business Profile setup
+- Socials embed (Instagram, Facebook, Threads, X, LinkedIn)
+- Google Business Profile setup or optimisation
 - Enquiry form direct to your inbox
-- Basic email capture — a CSV you own
+- Basic email capture (CSV you own)
+- SEO optimised, get found on Google
+- AI search optimised, get found when people ask ChatGPT, Perplexity, and other AI tools
+- Stock photos if needed, or your existing photos AI-optimised
 
 You don't check in. You don't approve mock-ups in rounds. You don't lose a weekend to this.
 *I build it.*
@@ -495,23 +531,6 @@ This is where most web designers stop.
 I don't. Text me when something changes. That's the whole ongoing relationship.
 *You evolve. I keep up.*
 
-## SECTION: FAQ — Pricing
-
-
-**What if my existing photos and content aren't very good?**
-I'll tell you. Honestly and early.
-
-The content raid pulls everything I can find — but I won't
-use low-quality photos or outdated content just to fill space.
-If what's there isn't up to standard, I'll flag it before we build
-and we'll work out what's needed. That might mean commissioning
-a photographer, using stock in the short term, or waiting until
-you have something worth putting on the site.
-
-I'd rather have that conversation upfront than build something
-that doesn't represent you properly.
----
-
 ## SECTION: What I Need From You
 
 ### Headline
@@ -546,14 +565,15 @@ Most web designers build your site, send the invoice, and move on. Three years l
 
 I designed YourHQ around the opposite model.
 
-The monthly Caretaker fee isn't hosting. It's the ongoing relationship — a real person who knows your site, who you can text when something changes, who refreshes your design every year without you having to ask.
+The monthly Caretaker fee isn't hosting. It's the ongoing relationship — a real person who knows your site, who you can message when something changes, who keeps it fast, secure and current the whole time you're with me.
 
 **Most agencies:** Build it · Invoice it · Disappear
-**YourHQ:** Build it · Host it · Update it · Refresh it — every year, included
+**YourHQ:** Build it · Host it · Update it · Stay
 
 ---
 
-## SECTION: FAQ — How It Works
+## SECTION: FAQ — Common Questions
+# Headline on live site: "Common Questions"
 
 **Do I have to write anything at all?**
 Nothing. I write every word — from your interview, your existing content, and one round of your feedback.
@@ -572,6 +592,9 @@ One interview call. One round of copy feedback. Less than 30 minutes total acros
 
 **Do you work with clients outside New Zealand?**
 Yes. I'm based in Whangārei, Aotearoa — and I work globally. Everything happens remotely.
+
+**What if my existing photos and content aren't very good?**
+I'll tell you. Honestly and early. The content raid pulls everything I can find, but I won't use low-quality photos or outdated content just to fill space. If what's there isn't up to standard, I'll flag it before we build and we'll work out what's needed. That might mean commissioning a photographer, using stock in the short term, or waiting until you have something worth putting on the site. I'd rather have that conversation upfront than build something that doesn't represent you properly.
 
 ---
 
@@ -617,36 +640,39 @@ isn't worth putting my name on.
 ### Price Block
 
 **The Build**
-*Your permanently owned digital home — hand-coded, written in your voice, built to last.*
+*Your permanently owned digital home. Hand-coded, written in your voice, built to last.*
 
-**$1,800 + GST**
-One-time setup fee
+**$3,800 NZD + GST**
+One-time setup fee · The last setup fee you'll ever pay.
 
 ### What's Included in Every Build
 
-**Your story, captured and written**
-- Drive-Home Interview — on your terms, whenever suits you
-- Full copywriting in your voice — reviewed by Lian personally
-- Content raid — I go through your socials, existing site, Google footprint
-- Copy review page — you approve every word before I build a thing
+**Your Story, Captured**
+- The Drive-Home Interview, on your terms — talk to my AI voice agent anytime that suits (car, couch, between meetings), or fill in a written form at your own pace
+- Market and audience research — your buyer, your competitors, where the gap is. Your site is positioned before a word is written.
+- Conversion-first copywriting — written in your voice, built to move people from "just looking" to "getting in touch"
+- Content raid + shared drive for your photos and assets
+- Copy review page — you see every word, section by section, before anything gets built
 
-**Your site, built properly**
-- Up to 8 pages, hand-coded in Astro
-- Blog / resources section architecture
+**Your Site, Built Properly**
+- Up to 8 pages, hand-coded
+- Blog and resources architecture
 - Portfolio and case study layouts
 - Media and press section
-- Instagram feed embed
+- Socials embed (Instagram, Facebook, Threads, X, LinkedIn)
+- Stock photos if needed, or your existing photos AI-optimised
 
-**Your foundation, sorted**
-- Google Business Profile setup
+**Your Foundation, Sorted**
+- Google Business Profile setup or optimisation
 - Enquiry form direct to your inbox
-- Basic email capture — exported as a CSV you own
-- Domain registration
-- Hosting, SSL, backups, security — ongoing
+- Basic email capture (CSV you own)
+- SEO optimised, get found on Google
+- AI search optimised, get found on ChatGPT, Perplexity, and other AI tools
+- Domain, hosting, SSL, backups, security
 
-**Your home, kept fresh**
-- Annual design refresh — Forever Fresh
-- On-demand updates forever — just text me
+**Your Home, Kept Fresh**
+- On-demand updates, forever — new service? Photo from a project? New testimonial? Message me.
+- Caretaker relationship — I built it. I host it. I look after it. I know your site like I know my own.
 
 ### Callout
 **Not a template. Not a page builder.**
@@ -654,41 +680,84 @@ Hand-coded. Under a second to load. Mobile-first. Built for standard search and 
 
 ---
 
-## SECTION: Power-Ups
+## SECTION: The Website Audit
+# Lower-commitment entry point on the pricing page. Links through to /website-audit (Page 10).
+
+### Label
+Not Ready for a Full Build?
 
 ### Headline
-Need Something Wired In?
+Start With the Website Audit.
 
-The build is complete as it stands.
-Power-Ups are for when your site needs to talk
-to something else — a booking system, an email tool,
-Stripe. You only add what you actually need.
-Nothing is bundled in to inflate the price.
+### Body
+Already have a site? Get a full professional read before you decide anything. Every page scored out of 50, what's working and what's holding you back, a recommended new structure, and page-by-page copy rewritten in your voice.
 
-⬛ DIAGRAM REQUIRED: Power-Ups pricing grid
+One document in your inbox within five working days. You answer eight questions by email. Everything else is handled. If you go on to build with me, it's the perfect head start.
+
+### Price Card
+**The Audit**
+$997 NZD + GST
+One-time · Delivered in five working days
+
+### CTAs
+- See the Website Audit →
+- Order the Audit
+
+---
+
+## SECTION: Add-Ons
+# Label on live site: "Add-Ons" (formerly "Power-Ups")
+
+### Label
+Add-Ons
+
+### Headline
+For When Your Site Needs to Do More.
+
+The build is complete as it stands. Add-Ons are for when your site needs to talk to something else — a booking system, an email tool, Stripe — or when you want extra services beyond what's included. Fixed prices. No quotes. You only add what you actually need.
+
+⬛ DIAGRAM REQUIRED: Add-Ons pricing grid
 — Reference: Diagram 06 (Pricing Structure) from YourHQ Visual Reference Maps HTML file
-— Shows each Power-Up as a card with name, description, and price
+— Shows each Add-On as a card with name, description, and price
 — Grid layout, 2 columns
 
 **Bookings Embed**
 Connect your existing booking tool — Calendly, Timely, Acuity — embedded and styled to match.
-+ $100
++ $100 NZD
 
 **Email Platform + Lead Magnet**
-Your email platform connected. Welcome sequence — 3 emails. Lead magnet page built and wired.
-+ $250
+Your email platform connected. Welcome sequence — three emails. Lead magnet page built and wired.
++ $250 NZD
 
 **Stripe — Services or Digital Products**
 Deposits, session packs, PDFs, recordings. Up to 5 products.
-+ $350
++ $350 NZD
 
 **Stripe — Course Delivery**
 A structured course with modules. Checkout plus access delivery.
-+ $600
++ $600 NZD
+
+**One-off Hour**
+Buy an hour of dev time when something bigger comes up. No commitment, no subscription. For quoted work that falls outside your tier's included time.
++ $175 NZD
 
 **Content Autopilot**
 Your social posts become blog articles. Fortnightly approval queue — one email, one tap, published.
-+ $200 setup · $99/mo ongoing
++ $200 NZD setup · $99/mo NZD ongoing
+
+**Design Refresh**
+On-demand visual update. Fonts, colours, layouts, hero sections refreshed to match current design trends. Available 12 months after launch. Order it when you want it.
++ $600 NZD
+
+**Concierge** *(bolts onto any tier — Sorted, Connected, or Building)*
+You jump the queue and get more time on the clock.
+- Priority queue position
+- 24-hour turnaround on weekdays
+- An extra 1.5 hours of dev time on top of your tier
++ $199/mo NZD
+
+### Closing
+Add-Ons are offered at build checkout. Existing clients can add anything anytime, just message me. They'll appear on your next invoice.
 
 ---
 
@@ -714,46 +783,57 @@ Your social posts become blog articles. Fortnightly approval queue — one email
 ### Headline
 Monthly Care That Makes Sense.
 
-This isn't a hosting fee.
-It's me — knowing your site, watching it, updating it,
-and refreshing it every year.
+This isn't a hosting fee. It's me knowing your site, watching it, updating it.
 
-The level scales with what your site is doing.
-Simple content site costs less to maintain
-than one processing payments.
-That's just honest pricing.
+The level scales with what your site is doing. A simple content site costs less to maintain than one processing payments. That's just honest pricing.
+
+### Beyond Hosting
+A $60 hosting plan is just a parking space. My Monthly Care is the mechanic, the security guard, and the driver.
+- **Performance Hosting:** Hand-coded sites on enterprise servers. Under 1s load times.
+- **Security & Shielding:** SSL, daily backups, and active threat monitoring.
+- **The "message me" service.** Most hosts have a ticket system. I have a phone number and an email. Send me an update and it's done.
 
 ⬛ DIAGRAM REQUIRED: Monthly Caretaker levels
 — Reference: Diagram 06 (Pricing Structure) from YourHQ Visual Reference Maps HTML file
-— Three cards side by side: Foundation / Capture / Commerce
-— Each shows price, trigger condition, and inclusions
-— Colour coded: green / blue / orange
+— Three cards side by side: Sorted / Connected / Building
+— Each shows price, positioning, and inclusions
+— Colour coded: bone / green / carbon
 
-**Level 1 — Foundation**
-$99 / month
-For content-only sites with no third-party integrations.
-Hosting · Security · SSL · Backups · Annual design refresh · On-demand updates
+**Level 1 — Sorted**
+$149 NZD / month
+Your site is your credibility anchor. Looked after, always current. You message when something changes.
+- 30 minutes of included dev time per month
+- Hosting, security & SSL, backups
+- On-demand updates via text or email
+- Annual uptime and performance review
 
-**Level 2 — Capture**
-$149 / month
-Triggered when your site connects to a booking platform or email tool.
-Everything in Foundation · Plus monitoring of third-party connections
+**Level 2 — Connected**
+$199 NZD / month
+Your site is doing active work. Booking systems running, email list growing, more regular updates.
+- 1 hour of included dev time per month
+- Everything in Sorted
+- Monitoring of third-party connections (booking tools, email platforms)
+- Priority response within 24 hours on weekdays
 
-**Level 3 — Commerce**
-$199 / month
-Triggered when Stripe is wired in.
-Everything in Capture · Plus payment flow monitoring · Site is handling real money
+**Level 3 — Building**
+$299 NZD / month
+Your site is an active revenue channel. Adding products, running campaigns, pushing harder.
+- 2 hours of included dev time per month
+- Everything in Connected
+- Payment flow monitoring
+- Priority response within 12 hours on weekdays
 
 ---
 
-### What "on-demand updates" actually means
+### What "On-Demand Updates" Actually Means
 
-Text me. That's it.
+Message me. That's it.
 
-New service? Text me.
-Photo from a recent project? Text me.
-Hours changed? Text me.
-Media mention to add? Text me.
+New service? Message me.
+Photo from a project? Message me.
+New testimonial? Message me.
+New team member? Message me.
+Press mention? Send me the link.
 
 **Included:** Text and content changes · Photo swaps · Service updates · Hours and contact details
 **Quoted separately:** New pages · New integrations · Major restructures
@@ -761,7 +841,7 @@ Media mention to add? Text me.
 ---
 
 ### Pause Policy
-You can pause your subscription anytime — hosting and security continue, your site stays live, and the annual refresh clock pauses. No penalty.
+You can pause your subscription anytime. Hosting and security continue, your site stays live. No penalty.
 
 ### Cancel Policy
 30 days notice. You own your domain, content, and design from day one. Full static export if you leave. Nothing held hostage. Ever.
@@ -771,17 +851,14 @@ You can pause your subscription anytime — hosting and security continue, your 
 ## SECTION: The Guarantee
 
 ### Headline
-Love It or Leave It.
+Love Your Launch.
 
-You see the complete site before the subscription starts.
-Not a mockup. Not a concept. The finished thing.
+I build the complete site before you commit to the monthly subscription. You see it on a private preview link. View it on your phone. Share it with whoever you want.
 
-Love it — your domain connects and you go live.
-Don't love it — full refund of your setup fee,
-minus Stripe processing (~3%) and domain costs.
+**Love it.** Domain connects. Site goes live. Subscription starts.
+**Don't love it.** Full refund of the setup fee, minus Stripe processing (around 3%) and any domain costs already registered.
 
-I build the whole thing before you're committed.
-Because I'm that confident in what I make.
+No love, no commitment. That's the deal.
 
 ---
 
@@ -798,11 +875,11 @@ The Real Cost Isn't the Setup Fee.
 
 | | DIY (Wix/Squarespace) | Traditional Agency | YourHQ |
 |---|---|---|---|
-| **Setup cost** | $0 | $5,000–15,000 | **$1,800 + GST** |
+| **Setup cost** | $0 | $5,000–$15,000 | **$3,800 NZD + GST** |
 | **Your time** | 40–80 hours | 6–12 weeks of briefing | **One conversation** |
-| **Monthly** | $30–50 | $0 (then pay per change) | **$99–199** |
-| **Updates** | You do it yourself | Invoice per change | **Just text me** |
-| **Rebuild in 3 years** | $0 (you do it again) | $5,000–15,000 | **$0 — refresh included** |
+| **Monthly** | $30–$50 | $0 (then pay per change) | **$149–$299 NZD** |
+| **Updates** | You do it yourself | Invoice per change | **Just message me** |
+| **Rebuild in 3 years** | $0 (you do it again) | $5,000–15,000 | **Design Refresh Add-On if you want it** |
 | **Sounds like you** | Rarely | Sometimes | **Always** |
 
 *Most agencies build a site, send an invoice, and move on. Three years later you're paying to start again. I stay.*
@@ -818,28 +895,35 @@ Because a website isn't a product you buy once. It's infrastructure that needs t
 
 The subscription means you never have to think about any of that. It's sorted.
 
-The annual refresh means your site never goes stale. Every 12 months, new layout, new energy — included. No rebuild invoice.
+**Want a Design Refresh?**
+When you're ready for a visual update — new palette, typography, layouts, hero imagery — the Design Refresh Add-On is available 12 months after launch for $600 + GST. Order it when you want it. Nothing is forced on a schedule.
 
-**Tax note:** Monthly fees are typically treated as operating expenses — deductible in the year you pay them. Your setup fee may be treated differently. Check with your accountant.
+**Tax note:** Monthly fees are typically treated as operating expenses, deductible in the year you pay them. Your setup fee may be treated differently. Check with your accountant.
 
 ---
 
 ## SECTION: Pricing FAQ
 
 **What does this cost in total?**
-$1,800 + GST setup. Monthly care from $99/mo. Power-Ups added at build time if needed — you'll know the full cost before anything starts.
+$3,800 NZD + GST setup. Monthly care from $149/mo NZD. Add-Ons available if you need specific integrations. You will receive a clear, fixed-price quote before we start.
 
 **Is there a cheaper option?**
-A one-page digital business card is available by referral only — $1,590 + GST, includes domain and 12 months hosting. Ask us. But most people who come to me need more than that.
+A one-page digital business card is available by referral only starting at $1,950 NZD + GST. Most businesses find the full Build offers significantly better ROI for their growth.
+
+**Can I get an audit before committing to a build?**
+Yes. The Website Audit is a one-time $997 NZD + GST. You get a full professional read of your current site — scored out of 50 page by page, what's working and what's holding you back, a recommended new structure, and page-by-page copy rewritten in your voice — delivered as a single document within five working days. Works on any platform, for sites up to eight pages. If you go on to build with me, it's a head start.
 
 **What if I already have a website?**
-Most of my clients do. I start fresh — in your voice, to where you are now.
+Most of my clients do. I start fresh, in your voice, to where you are now.
 
-**Can I add Power-Ups later?**
-Yes. The monthly fee adjusts to the relevant level when they're added.
+**Can I add Add-Ons later?**
+Yes. Add-Ons can be added at build time or after launch. They're priced separately and don't automatically change your monthly tier. Your tier reflects how active your site is overall, though most clients move up a tier when their site starts doing more.
+
+**Is there priority support or a faster response?**
+By default, no tier gets answered faster than another. The tiers are about how much included dev time you have each month, not who gets replied to first. If you want priority, Concierge ($199/mo NZD) bolts onto any tier — Sorted, Connected, or Building — and gives you priority queue position, 24-hour weekday turnaround, and an extra 1.5 hours of dev time on top of your tier.
 
 **Can I cancel?**
-Yes — 30 days notice, month-to-month. Full static export when you leave.
+Yes, 30 days notice, month-to-month. Full static export when you leave.
 
 **Can I pause?**
 Yes. Hosting and security continue. Annual refresh clock pauses. No penalty.
@@ -1012,7 +1096,7 @@ Your permanently owned corner of the internet — written in your voice, looked 
 # All diagrams from the YourHQ Visual Reference Maps HTML file are used here.
 
 ## Page Badge
-The Bigger Picture
+Visual Reference Maps & Ecosystem
 
 ## Page Headline
 How Your Website Fits
@@ -1650,20 +1734,35 @@ That's fine. Use the form to ask a question — no commitment, no pressure. If I
 ### Form Headline
 Tell Me About You
 
+### Form Subhead
+Five minutes. That's all this takes.
+
 **Your name** *(required)*
+Placeholder: Jane Doe
 
 **Where are you based?** *(required)*
 Placeholder: City, country
 
-**Your business or brand name** *(required)*
+**Your business / brand name** *(required)*
+Placeholder: Your business or personal brand
 
 **What do you do?** *(required)*
-Placeholder: e.g. I'm a physiotherapist / I run a café / I'm a business coach
+Placeholder: e.g. I'm a physiotherapist / I run a cafe / I'm a business coach
 
 **What's your current online presence?** *(required)*
 Placeholder: e.g. Just Instagram / Old website from 2019 / Nothing yet
 
+**Email** *(required)*
+Placeholder: jane@example.com
+
+**Phone** *(optional)*
+Placeholder: 022 172 5793
+
 **Anything else you'd like to tell me?** *(optional)*
+Placeholder: Anything that helps me understand where you're at.
+
+**How did you hear about us?** *(optional)*
+Dropdown: Google / Search · Facebook / Instagram · Word of mouth · Network partner (accountant, bookkeeper, broker etc.) · Other
 
 ### Submit Button
 Send It Through
@@ -1673,10 +1772,10 @@ Send It Through
 
 ---
 
-### Callout
-**Ready to skip straight to the interview?**
-Book your Drive-Home Interview directly.
-[Book My Drive-Home Interview] — links to Drive-Home Interview booking / AI agent
+### Callout — Skip to Build
+**Ready to Skip Straight to It?**
+Lock in your build and I'll text you a private link to your Drive-Home Interview.
+[Start Your Build →] — links to /start-build
 
 ---
 
@@ -1734,10 +1833,13 @@ Most clients go from interview to live site within 1–2 weeks.
 ## The Build
 
 **What's included in every build?**
-Drive-Home Interview, full copywriting, content raid, copy review page, up to 8 pages hand-coded in Astro, blog architecture, portfolio layouts, media section, Instagram feed embed, Google Business Profile setup, enquiry form, basic email capture, domain, hosting, SSL, backups, security, annual refresh, on-demand updates forever.
+Drive-Home Interview, market and audience research, full copywriting, content raid, copy review page, up to 8 pages hand-coded, blog and resources architecture, portfolio and case study layouts, media and press section, socials embed (Instagram, Facebook, Threads, X, LinkedIn), Google Business Profile setup or optimisation, enquiry form direct to your inbox, email capture (CSV you own), SEO optimised for Google, AI search optimised for ChatGPT and Perplexity, stock photos if needed or your existing photos optimised, domain, hosting, SSL, backups, security, on-demand updates forever.
 
-**What are Power-Ups?**
-Optional add-ons for connecting your site to third-party systems — booking platforms, email tools, Stripe payments. The base build covers everything your site is. Power-Ups are for what it connects to.
+**What are Add-Ons?**
+Optional extras for connecting your site to third-party systems or adding capacity. Booking platforms, email tools, Stripe payments, Content Autopilot, Design Refresh, and more. The base build is complete as it stands. Add-Ons are for when your site needs to do something more.
+
+**Can I get a Website Audit instead of a full build?**
+Yes. The Website Audit is a standalone $997 NZD + GST one-time service. I give your current site a full professional read: every page scored out of 50, what's working and what's holding you back, a recommended new structure, page-by-page copy rewritten in your voice, plus SEO and AEO guidance and a clear next step. One document in your inbox within five working days. It works on any platform, for sites up to eight pages. You answer eight questions by email and everything else is handled. If you decide to build afterwards, it's the perfect head start.
 
 **Is this a template or a custom build?**
 Every site is hand-coded specifically for you. That's why our sites load under a second, look distinctive, and don't become obsolete when a platform updates.
@@ -1772,16 +1874,19 @@ Your site collects only what it needs — enquiry form submissions go direct to 
 ## Pricing and Commitment
 
 **What does this actually cost?**
-$1,800 + GST setup. Monthly Caretaker fee from $99/mo. Power-Ups priced separately — you'll know the full cost before anything starts.
+$3,800 NZD + GST setup. Monthly Caretaker fee from $149/mo NZD. Add-Ons priced separately — you'll know the full cost before anything starts.
+
+**How much is the Website Audit?**
+$997 NZD + GST, one-time. A full professional read of your existing site, scored and written up in a single document within five working days. Works on any platform, for sites up to eight pages. A lower-commitment way to start, and a head start if you go on to build.
 
 **Why is there a monthly fee?**
-Because a website needs to run, stay secure, keep up with you, and get refreshed annually. The monthly fee means you never have to think about any of that.
+Because a website needs to run, stay secure, and keep up with you as you grow. The monthly fee means you never have to think about any of that.
 
 **Can I cancel?**
-Yes — 30 days notice. Full static export when you leave.
+Yes. 30 days notice. Full static export when you leave.
 
 **Can I pause?**
-Yes. Site stays live. Annual refresh clock pauses. No penalty.
+Yes. Site stays live. No penalty.
 
 **What if I don't love the site?**
 Full refund of your setup fee, minus Stripe processing (~3%) and domain costs. Love it or leave it.
@@ -1832,7 +1937,7 @@ Yes — set up for your location, wherever you are.
 The YourHQ model is structurally different. You see the complete site before the subscription starts — if you don't love it, you get a refund. I stay on as Caretaker after launch. Every site is built by me personally. That doesn't mean everything will be perfect — but it means you're not alone if it isn't.
 
 **What if my business changes after the site is built?**
-Text me. That's what the Caretaker model is for. New service, new direction, new name — I update it. The annual refresh means your site grows with you.
+Message me. That's what the Caretaker model is for. New service, new direction, new name — I update it.
 
 **What if I outgrow what you offer?**
 Then I'll tell you. If your business gets to the point where you need a custom web app or a full e-commerce platform, I'll point you in the right direction. I'm not going to hold you back to keep you as a client.
@@ -1851,6 +1956,319 @@ Email: hello@yourhq.co.nz
 
 - Start Your Build
 - See Pricing
+
+---
+
+# PAGE 10 — THE WEBSITE AUDIT
+# website-audit.astro
+# Standalone paid product. Public, indexable sales page.
+# Entry point for people not ready for a full build — a diagnostic they can buy on its own.
+# Checkout: Stripe. Afterpay available for eligible NZ customers.
+
+## Top Meta Row
+RC / Diagnostic · [current year]
+Any Platform · Up To Eight Pages
+
+## Page Headline
+The
+Website Audit.
+
+## Whisper (italic pull line)
+A full professional read of your site.
+Scored. Diagnosed. Written up.
+
+## Hero Body
+One document in your inbox within five working days. You answer eight questions by email. Everything else is handled.
+
+---
+
+## SECTION: The Price
+
+### Label
+The Audit
+
+### Price
+$997
+NZD + GST
+
+### Price Body
+One-time payment. Delivered as a single written document within five working days. Afterpay available at checkout for eligible NZ customers.
+
+### CTA
+Order the Website Audit
+
+### Callout (below CTA)
+After payment, we'll email you eight questions. Answer them and the work begins.
+
+---
+
+## SECTION: What You Get
+
+### Headline
+What You Get.
+
+**01 — A score out of 50**
+Every page scored across five dimensions, plus the ten-second test on your homepage hero. You see exactly where you stand.
+
+**02 — What's working, what's holding you back**
+Every finding carries a risk tag, so you know what to fix first and what can wait.
+
+**03 — Path to purchase and trust check**
+How a visitor actually moves toward buying, and whether your site earns enough trust to let them.
+
+**04 — Site sizing and a new structure**
+Pages to keep, pages to cut, pages to add, and a recommended structure for the site you should have.
+
+**05 — Page-by-page copy in your voice**
+Written copy for the recommended new structure, in your voice, ready to use.
+
+**06 — Before-and-after comparisons**
+Your two or three weakest pages rewritten side by side, so the difference is plain to see.
+
+**07 — SEO and AEO guidance per page**
+How to be found by search engines and answer engines alike, page by page.
+
+**08 — Design direction and a clear next step**
+Direction for how the site should look, and one clear recommendation on what to do next.
+
+### Callout — Works On Any Platform
+WordPress, Squarespace, Wix, Shopify, custom builds. Covers sites up to eight pages.
+
+### Callout — Larger Sites
+More than eight pages, or something more complex? Email hello@yourhq.co.nz before purchasing.
+
+### Callout — Your Time Commitment
+Eight questions, answered by email. That's it. Everything else is handled.
+
+---
+
+## SECTION: Still Have Questions
+
+### Headline
+Still have questions?
+
+Text 022 172 5793
+hello@yourhq.co.nz
+
+---
+
+# PAGE 11 — AUDIT INTAKE
+# audit-intake.astro
+# NOINDEX. Post-payment landing page. Where the buyer answers their eight questions.
+# Multi-step form (3 steps × 3 questions) + contact fields, or email fallback.
+# Shows a "Payment confirmed" banner when arrived from checkout (?order=confirmed).
+
+## Payment Confirmed Banner
+Payment confirmed. Fill in your answers below and you are all set.
+
+## Page Badge
+Your Audit Intake
+
+## Page Headline
+Eight Questions.
+That Is All I Need.
+
+## Page Subhead
+Answer these honestly and specifically. The more you tell me, the more useful your audit will be. Takes about ten minutes. There are no wrong answers.
+
+## Email Fallback Line
+If you would rather email your answers, send them to lian@yourhq.co.nz with "Website Audit" in the subject line. The questions are listed at the bottom of this page to copy and paste.
+
+---
+
+## SECTION: The Intake Form
+# Three steps, three questions each, then contact details. Progress bar across the top.
+
+### Step 1 — Your Business
+
+**Your website URL** *(required)*
+Placeholder: https://yourbusiness.co.nz
+Helper: This is the main thing I need to get started. I will find everything else from here.
+
+**What is the main thing you want your website to do right now?** *(required)*
+Placeholder: Be specific. Not just "get more clients" but who, doing what, from where.
+Helper: This is the most important question on the form. The more specific your answer, the sharper your audit will be.
+
+**Who is your ideal client?** *(required)*
+Placeholder: Describe your best ever customer. Who are they, what do they do, what made them a dream to work with?
+
+### Step 2 — Your Website
+
+**What work do you want more of that you are not currently getting enough of?** *(required)*
+Placeholder: A specific type of client, a particular service, a certain location or industry.
+
+**What do you want to move away from?** *(optional)*
+Placeholder: Work you are done taking on, clients that are not the right fit, anything you are trying to phase out.
+Helper: Skip this if it does not apply.
+
+**What is the number one reason people do not buy from you or do not follow through after making contact?** *(required)*
+Placeholder: Be honest. Price, trust, confusion about what you offer, something else entirely?
+Helper: This one is gold. Your answer goes directly into your homepage copy as a built-in rebuttal.
+
+### Step 3 — Your Voice
+
+**What do you like about your current site? Anything you want to keep?** *(optional)*
+Placeholder: Design, specific copy, a section that works well, a photo you love. Anything at all.
+Helper: Nothing? That is fine too.
+
+**How do you want people to feel when they land on your site?** *(required)*
+Placeholder: Not what you want them to do. How you want them to feel. Reassured, impressed, like they have found their person, something else?
+
+**Any words, phrases, or tones you absolutely do not want on your site?** *(optional)*
+Placeholder: Industry jargon you hate, a competitor's style you want nothing to do with, anything that makes you cringe.
+Helper: Optional but useful. Skip if nothing comes to mind.
+
+### Where To Send It (contact fields)
+
+**Your name** *(required)*
+Placeholder: Jane Smith
+
+**Your email address** *(required)*
+Placeholder: jane@yourbusiness.co.nz
+Helper: This is where your audit document will be sent.
+
+**Your business or brand name** *(required)*
+Placeholder: Smith Consulting
+
+### Submit Button
+Send My Answers Through
+
+### Skip Link
+I will do this later, take me to next steps
+
+### Email Fallback (below form)
+You can also email your answers directly to lian@yourhq.co.nz with "Website Audit" in the subject line.
+
+---
+
+## SECTION: Copy & Paste Questions
+
+### Headline
+Your questions to copy and paste.
+
+01 — What is your website URL?
+02 — What is the main thing you want your website to do right now?
+03 — Who is your ideal client?
+04 — What work do you want more of that you are not currently getting enough of?
+05 — What do you want to move away from?
+06 — What is the number one reason people do not buy from you or do not follow through after making contact?
+07 — What do you like about your current site? Anything you want to keep?
+08 — How do you want people to feel when they land on your site?
+09 — Any words, phrases, or tones you absolutely do not want on your site?
+
+# COPY FLAG: The page calls this "Eight Questions" throughout, but nine questions are listed
+# (the URL is question 01). Decide whether to renumber the headline to "Nine Questions"
+# or treat the URL as a given and drop it from the count. Currently inconsistent on the live page.
+
+---
+
+# PAGE 12 — NEXT STEPS · WEBSITE AUDIT
+# next-steps-web-audit.astro
+# NOINDEX. Post-intake page. Two versions resolved by ?status= query param:
+#   · status=complete  → answers submitted, thank-you header
+#   · status=skipped    → paid but answers not yet in, shows the intake form again
+# Everything below "What Happens Now" is shared by both versions.
+
+## HEADER — Version A: Complete (answers submitted)
+
+### Badge
+You Are All Set.
+
+### Headline
+Your Answers Are In.
+I Will Take It From Here.
+
+### Whisper
+You have done your bit. Everything from here is me.
+
+## HEADER — Version B: Skipped (paid, answers outstanding)
+
+### Badge
+One Thing Left.
+
+### Headline
+Nearly There.
+Just Your Answers Left.
+
+### Whisper
+You are all paid up. I just need your answers before I can get started.
+
+### Callout
+Fill in the form below or email your answers directly to lian@yourhq.co.nz with "Website Audit" in the subject line. Either way works.
+
+# (Skipped version re-shows the full intake form — see Page 11 — plus a "Prefer to email instead?"
+#  copy-and-paste list of the same nine questions.)
+
+---
+
+## SECTION: What Happens Now (shared)
+
+### Headline
+What Happens Now.
+
+**Step 01 — I go through your site**
+I read every page of your current site, go through your Google presence, your socials, your competitors. I look at what your site is saying versus what you told me you want it to do.
+
+**Step 02 — I score and diagnose**
+Every key page scored. The ten-second test run on your homepage. Path to purchase mapped. Trust signals checked. Site sizing assessed. Every finding tagged by priority.
+
+**Step 03 — I write your copy**
+Page-by-page copy drafted in your voice using everything you told me in your answers. Before-and-after comparisons on your weakest pages. SEO and AEO guidance specific to your site.
+
+**Step 04 — Your document lands in your inbox**
+Within five working days of your answers coming through. Professionally formatted. Ready to read, share with your developer, or work through yourself.
+
+### Callout
+Five working days. That is the window. Most audits land before that.
+
+---
+
+## SECTION: A Few Things Worth Knowing (shared)
+
+### Headline
+A Few Things Worth Knowing.
+
+**You will not hear much from me until it is done.**
+That is intentional. I am heads down on your site. If I have a question or something comes up that affects the timeline I will reach out directly.
+
+**The document is yours completely.**
+No pitch buried in it. No obligation to do anything with it beyond reading it. What you do after that is entirely up to you.
+
+**If anything changes before I finish.**
+New information, a page you forgot to mention, something you want to add. Just email or text and I will factor it in before the document goes out.
+
+---
+
+## SECTION: While You Wait (shared)
+
+### Headline
+While You Wait.
+
+### Subhead
+A few things worth doing before your audit arrives.
+
+1. Take a fresh look at your homepage as if you have never seen it before. What does it actually say in the first five seconds? Write down your honest reaction. It will make the audit more useful when you read it.
+
+2. Pull together any testimonials or reviews you have not put on your site yet. The audit will tell you where they belong.
+
+3. Note any services or offers you have added or changed recently that your site has not caught up with. The copy will reflect where you are now, not where you were when the site was built.
+
+*None of this is homework. Just things that tend to make the document land better.*
+
+---
+
+## SECTION: Questions (shared)
+
+### Headline
+Questions?
+
+If anything comes up before your document arrives, reach out directly. Lian or Nic will get back to you within one business day.
+
+Text 022 172 5793
+hello@yourhq.co.nz
+
+## Final Line
+Keep an eye on your inbox. Talk soon.
 
 ---
 

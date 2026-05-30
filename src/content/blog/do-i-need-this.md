@@ -1,7 +1,7 @@
 ---
 title: "Do NZ Tradies Actually Need a Website in 2026? (The Honest Answer)"
 description: "97% of people search online for local tradies. Here's the maths on what not having a website is actually costing your business."
-pubDate: 2026-01-10
+pubDate: 2026-05-30
 author: "Lian"
 image: "/tradie-phone.webp"
 tags: ["Tradies", "Business"]
@@ -104,7 +104,7 @@ Are you leaving serious money on the table without one?
 Yes. Conservatively, $50,000-$100,000+ per year in lost leads, lost referrals, and pricing power you don't have.
 
 Is it worth the investment?
-A proper website costs $1,000-$2,000. Pays for itself in 1-2 jobs. Returns 10-100x over the next few years.
+A proper website is $3,800 + GST plus ongoing care from $149/month. Pays for itself in 2-3 jobs. Returns 10-50x over the next few years.
 
 You do the maths.
 
@@ -118,13 +118,13 @@ You do the maths.
 Word of mouth gets your name in front of people, but 81% of consumers research businesses online before making a purchase decision. When someone gets referred to you and Googles your name, finding nothing, or just an outdated Facebook page, costs you jobs you'll never know you lost. A website ensures that every referral converts instead of bouncing to a competitor.
 
 **How much does not having a website actually cost a tradie?**
-Conservative estimates suggest tradies without websites miss out on $130,000-$260,000 per year in Google-sourced leads alone. On top of that, you lose $25,000-$50,000 in referred leads who Google you, can't find anything credible, and book a competitor instead. The total opportunity cost far exceeds the $1,000-$3,000 a website costs per year.
+Conservative estimates suggest tradies without websites miss out on $130,000-$260,000 per year in Google-sourced leads alone. On top of that, you lose $25,000-$50,000 in referred leads who Google you, can't find anything credible, and book a competitor instead. The total opportunity cost far exceeds what a website costs, even in its first year.
 
 **Can't I just use my Facebook page instead of a website?**
 Facebook can't rank on Google, where 97% of people search for local businesses. It requires constant posting to stay visible, and it's "rented land", Facebook controls what your audience sees. Most importantly, 84% of consumers find dedicated websites more credible than social media pages. A Facebook page supports your business; it can't replace a website.
 
 **How quickly would a tradie website pay for itself?**
-Most tradies see payback within 1-2 jobs, typically within the first 1-3 weeks of launch. A $1,500 website that generates just one extra $2,500 job has already paid for itself. Over 12 months, the return is typically 30-50x the initial investment.
+Most tradies see payback within 2-3 jobs, typically within the first few weeks of launch. A $3,800 website that generates just two extra $2,500 jobs has already paid for itself. Over 12 months, the return is typically 15-30x the initial investment.
 
 ---
 

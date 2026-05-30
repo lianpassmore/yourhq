@@ -101,6 +101,30 @@ Deno.serve(async (req) => {
         'Tags': 'moneybag',
       },
     });
+
+    // ── Website Audit funnel ──────────────────────────────────────────
+    // If this checkout was for the audit product, record it so the
+    // abandoned-form nudge (check-abandoned-audits) can chase a missing
+    // intake form. Identify the audit by its Stripe Price ID.
+    const auditPriceId = Deno.env.get('AUDIT_PRICE_ID');
+    if (auditPriceId && email) {
+      try {
+        const lineItems = await stripe.checkout.sessions.listLineItems(session.id, { limit: 100 });
+        const isAudit = lineItems.data.some((li) => li.price?.id === auditPriceId);
+        if (isAudit) {
+          // Idempotent on stripe_session_id (webhooks can retry).
+          const { error: apErr } = await supabase
+            .from('audit_payments')
+            .upsert(
+              { email, stripe_session_id: session.id, form_submitted: false },
+              { onConflict: 'stripe_session_id', ignoreDuplicates: true },
+            );
+          if (apErr) console.error('Failed to record audit_payment:', apErr);
+        }
+      } catch (err) {
+        console.error('Audit line-item lookup failed:', err);
+      }
+    }
   }
 
   return new Response(JSON.stringify({ ok: true }), { status: 200 });

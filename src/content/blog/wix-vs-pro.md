@@ -1,7 +1,7 @@
 ---
 title: "Wix vs. Hiring a Pro: The Real Cost for Kiwi Businesses"
 description: "DIY website builders promise to be free and easy. Usually, they are neither. Here's the maths."
-pubDate: 2025-12-11
+pubDate: 2026-05-30
 author: "Lian"
 image: "/laptop-frustration.webp"
 tags: ["Tech", "Pricing"]
@@ -68,15 +68,15 @@ Even at a conservative 40-hour estimate, that's **$3,200 in opportunity cost**, 
 - **Result:** A website you built yourself (with limitations)
 
 **Professional Build (YourHQ):**
-- **Hard costs:** $995 NZD + GST setup + $149/month NZD + GST × 24 months = $4,571 NZD + GST
+- **Hard costs:** $3,800 NZD + GST setup + $149/month NZD + GST × 24 months = $7,376 NZD + GST
 - **Your time:** 2-3 hours (for a voice interview and feedback)
 - **Opportunity cost:** $160-$240
-- **Total actual cost:** $4,731-$4,811 NZD + GST
-- **Result:** A website built by professionals
+- **Total actual cost:** ~$7,540-$7,620 NZD + GST
+- **Result:** A website built and looked after by a professional
 
-**You save $1,000-$2,500+ and get a better website. And you get your time back.**
+Here's the honest version: once you count your time, the all-in cost lands in roughly the same ballpark as fighting with Wix yourself. The difference is what you walk away with.
 
-Similar UK analysis shows professional builds costing £564 vs Wix's £946.90 over 2 years, saving nearly £400 PLUS 20-40 hours of time.
+**With Wix you spend 60-80 hours and end up with a slow, template site you have to maintain forever. With YourHQ you spend 2-3 hours and end up with a fast, custom site that's looked after for you, and you get those 60-80 hours back to run your business.**
 
 ## The "Template" Look: You're Not Special
 
@@ -207,14 +207,13 @@ Let's talk about what matters: **Return on investment.**
 
 ### The YourHQ Math:
 
-**Investment:** $995 NZD + GST setup + $149/month NZD + GST = $2,783 NZD + GST in Year 1
+**Investment:** $3,800 NZD + GST setup + $149/month NZD + GST = $5,588 NZD + GST in Year 1, then just $1,788/year ongoing.
 
-**If your website generates just 2 extra clients per month at $200 average:**
-- Monthly additional revenue: $400
-- Annual additional revenue: $4,800
-- **ROI: 172% in Year 1**
+**If your website generates just 2 extra clients per month at $200 average, that's $4,800 a year:**
+- Year 1 (setup + care): roughly break-even
+- Year 2 onward (just $1,788/year on a site that's already paid for): a **168% return, every year**
 
-And that's conservative. Most of our salon, tradie, and consultant clients see 5-10 extra bookings per month from their website.
+And that's conservative. Most of our salon, tradie, and consultant clients see 5-10 extra bookings per month from their website, which pays the whole thing off in the first couple of months.
 
 ## The Middle Ground: Infrastructure + Warmth
 
@@ -239,21 +238,21 @@ You usually have two choices when getting a website built:
 - Clean, efficient code (no bloat)
 
 **Service Model:**
-- $995 NZD + GST setup fee (gets you a professional site in 5-7 days)
-- $149-$249/month NZD + GST "caretaker" fee (hosting, security, updates, annual refresh)
+- $3,800 NZD + GST setup fee (gets you a professional site in about 1 to 2 weeks)
+- $149-$299/month NZD + GST "caretaker" fee (hosting, security, updates, included dev time)
 
 **What You Get:**
 - We build it (using your voice interview, no endless meetings)
 - We host it (high-speed Vercel hosting, not cheap shared hosting)
 - We fix it when it breaks (real humans, based in Whangārei)
-- We refresh it annually (so you never look outdated)
+- Optional Design Refresh add-on when you want a new look (never a forced rebuild)
 - **You own it** (your domain, your content, your data)
 
 ### Why This Works:
 
-**Faster than DIY:** 5-7 days vs 60-80 hours of your time
+**Faster to live than DIY:** about 1 to 2 weeks, hands-off, vs 60-80 hours of your own time
 
-**Cheaper than agencies:** $995 NZD + GST vs $8,000-$30,000
+**A fraction of agency cost:** $3,800 NZD + GST vs $8,000-$30,000
 
 **Better performance:** 2-second load times vs 6-8 seconds
 
@@ -287,7 +286,7 @@ Building a DIY website typically takes 60-80 hours when you account for learning
 
 **Is Wix actually cheaper than hiring a professional?**
 
-No. Wix costs $945 over 2 years in direct costs, plus 60-80 hours of your time. At $80/hour, that's $4,800-$6,400 in opportunity cost, totaling $5,745-$7,345. A professional build at YourHQ costs $995 NZD + GST + $149/month NZD + GST (24 months) = $4,571 NZD + GST, saving you $1,000-$2,500+ and giving you a faster, more professional site.
+In raw dollars, yes. But raw dollars miss the biggest cost. Wix is $945 over 2 years in direct costs, plus 60-80 hours of your time, which at $80/hour is $4,800-$6,400 in opportunity cost, for a true cost of $5,745-$7,345. A professional build at YourHQ is $3,800 NZD + GST + $149/month NZD + GST (24 months) = $7,376 NZD + GST. Once you count your time, the all-in numbers are roughly comparable, but you spend 2-3 hours instead of 60-80, and you end up with a faster, custom, properly optimised site that's looked after for you, not a slow template you have to maintain yourself.
 
 **How much slower are DIY website builders compared to professional sites?**
 

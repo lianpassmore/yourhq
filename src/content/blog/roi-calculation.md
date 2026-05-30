@@ -1,14 +1,14 @@
 ---
 title: "How Long Does a Tradie Website Actually Take to Pay Off?"
 description: "A tradie website pays for itself in 2-4 weeks. Here's the ROI maths for plumbers, electricians, and builders in NZ."
-pubDate: 2026-02-11
+pubDate: 2026-05-30
 author: "Lian"
 image: "/roi-graph.webp"
 tags: ["Tradies", "ROI"]
 featured: false
 ---
 
-You're thinking about getting a website. But $995 is real money.
+You're thinking about getting a website. But $3,800 is real money.
 
 Will it actually make you money back? Or is it just another expense?
 
@@ -19,20 +19,20 @@ Here is the long answer, with the maths.
 ## The Payback Calculation
 
 **Cost of Website:**
-*   Setup: $995
+*   Setup: $3,800
 *   Monthly: $149
-*   **Year 1 Total:** ~$2,783
+*   **Year 1 Total:** ~$5,588
 
 **Value of One Job:**
 Let's be conservative. Average tradie job: **$2,500**.
 
 **The Maths:**
-$995 setup ÷ $2,500 job = **0.4 jobs.**
+$3,800 setup ÷ $2,500 job = **1.5 jobs.**
 
-**One job pays off the setup twice over.**
-Two jobs pay for the entire first year.
+**Two jobs pay off the setup.**
+Three jobs pay for the entire first year.
 
-If your website brings in just **2 jobs in 12 months**, you have made a profit.
+If your website brings in just **3 jobs in 12 months**, you have made a profit.
 
 ## Where the Leads Come From
 
@@ -47,7 +47,7 @@ If your website brings in just **2 jobs in 12 months**, you have made a profit.
 
 **6 jobs × $2,500 = $15,000/month in additional revenue.**
 
-Your website cost $995. You paid it off by lunchtime on Day 3.
+Your website cost $3,800. You paid it off in the first week.
 
 ## The Three Ways It Pays Off
 

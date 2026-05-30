@@ -1,7 +1,7 @@
 ---
 title: "Web Design Prices in NZ: What Should You Actually Pay?"
 description: "From $500 to $15,000, why is website pricing so confusing? We break down the costs."
-pubDate: 2025-12-12
+pubDate: 2026-05-30
 author: "Lian"
 image: "/calculator.webp"
 tags: ["Business", "Money"]
@@ -77,9 +77,9 @@ This is the "old way" of building websites. Big teams. Long timelines. Expensive
 
 **Who this doesn't work for:** Small businesses that need results fast without spending their entire marketing budget on a website.
 
-### Tier 3: The Modern Disruptor ($695 - $1,495 NZD + GST setup + monthly)
+### Tier 3: The Modern Disruptor ($3,800 NZD + GST setup + monthly care)
 
-This is where YourHQ sits. **Same quality. Faster delivery. Lower price.**
+This is where YourHQ sits. **Same quality. Faster delivery. A fraction of the agency price.**
 
 How? By using modern tools that traditional agencies refuse to adopt.
 
@@ -102,41 +102,32 @@ Traditional agencies need multiple meetings, brand workshops, and approval stage
 
 ## What You Actually Get at YourHQ
 
-### The Starter ($695 NZD + GST + $49/month NZD + GST)
+One build. One price. No starter tier to outgrow, no features locked behind an upgrade.
 
-Perfect for "I just need something online."
+### The Build ($3,800 NZD + GST, one-time)
 
-- One-page professional scroll site
-- Gets you found on Google
-- Domain & hosting included
-- No content updates (pay-as-you-go for changes)
+Every client gets the same build, because anything less isn't worth putting my name on.
 
-**Who this works for:** Absolute minimum online presence. You're testing an idea or need a digital business card.
+- Up to 8 pages, hand-coded (no template, no page builder)
+- Drive-Home Interview + market and audience research (we write your content from what you tell us)
+- Conversion-first copywriting in your voice
+- Blog and resources architecture, portfolio and case study layouts, media and press section
+- Socials embed (Instagram, Facebook, Threads, X, LinkedIn)
+- Google Business Profile setup, enquiry form, email capture (CSV you own)
+- SEO and AI search optimised (get found on Google and in ChatGPT, Perplexity, and other AI tools)
+- Domain, hosting, SSL, backups, security
 
-### The Launch ($995 NZD + GST + $149/month NZD + GST)
+**Who this works for:** Electricians, plumbers, builders, accountants, physios, salons, coaches, consultants, anyone established who needs a professional site that generates leads.
 
-This is our bread and butter for tradies, retailers, and service businesses.
+### Monthly Care (from $149/month NZD + GST)
 
-- 5-page professional website
-- Voice interview (we write your content based on what you tell us)
-- Domain & high-speed hosting
-- **Unlimited text/photo updates** (text us, we do it)
-- **Annual design refresh** (so you never look outdated)
-- SEO-optimised and mobile-responsive
+This isn't just hosting. It's a real person who knows your site, watching it, updating it, keeping it secure. The level scales with what your site is doing:
 
-**Who this works for:** Electricians, plumbers, builders, accountants, physios, anyone who needs a professional site that generates leads.
+- **Sorted, $149/month** — your credibility-anchor site. Hosting, security, backups, 30 minutes of dev time a month, on-demand updates.
+- **Connected, $199/month** — when your site is doing active work (bookings, email list). Everything in Sorted, plus 1 hour of dev time and monitoring of your integrations.
+- **Building, $299/month** — when your site is an active revenue channel. Everything in Connected, plus 2 hours of dev time and payment-flow monitoring.
 
-### The Growth ($1,495 NZD + GST + $249/month NZD + GST)
-
-For salons, consultants, and businesses that need booking systems.
-
-- Everything in Launch, plus:
-- **Booking system integration** (Fresha, Timely, Calendly)
-- Blog/news section for SEO
-- Instagram feed integration
-- Priority 24-hour support
-
-**Who this works for:** Salons, consultants, coaches, wellness businesses, anyone who books appointments or needs ongoing content.
+Need a booking tool, email platform, or Stripe wired in? Those are fixed-price Add-Ons. You only pay for what you actually use.
 
 ## Why Monthly Instead of a Big Lump Sum?
 
@@ -177,9 +168,9 @@ Think of it like Body Corporate rates for your digital property:
 - Domain name renewal
 
 **Human Support:**
-- Unlimited text/photo updates (Launch & Growth packages)
+- On-demand text/photo updates (included dev time on every Caretaker tier)
 - Tech fixes when things break
-- **Annual design refresh** (worth $2,000+ on its own)
+- **Optional Design Refresh add-on** (a fraction of an agency rebuild, whenever you want one)
 - Real humans, based in Whangārei
 
 ## The Cost Comparison Over 3 Years
@@ -196,16 +187,16 @@ Let's do the actual maths:
 
 **Total 3-year cost:** $17,400
 
-### YourHQ Launch Model:
-- **Setup:** $995 NZD + GST
+### YourHQ Model:
+- **Setup:** $3,800 NZD + GST
 - **Monthly fee:** $149/month NZD + GST × 36 months = $5,364 NZD + GST
-- **Annual refresh included:** $0
+- **Design Refresh (optional, only if you want one):** $0
 - **Emergency fixes:** $0
 - **Updates:** $0
 
-**Total 3-year cost:** $6,359
+**Total 3-year cost:** $9,164
 
-**You save $11,041 over 3 years.** Plus you get ongoing support, annual refreshes, and peace of mind.
+**You save $8,236 over 3 years.** Plus you get ongoing support, on-demand updates, and peace of mind.
 
 ## Why Traditional Agencies Charge So Much
 
@@ -271,20 +262,10 @@ Get a clear maintenance agreement upfront. Surprise invoices are the worst.
 
 ## What You Should Actually Pay (Our Honest Recommendation)
 
-### If You Just Need Something Online Fast:
-**Budget:** $695 NZD + GST setup + $49/month NZD + GST
-**Get:** [The Starter](/pricing)  
-**Best for:** Testing ideas, bare minimum presence
-
 ### If You Need a Professional Site That Generates Leads:
-**Budget:** $995 NZD + GST setup + $149/month NZD + GST
-**Get:** [The Launch](/pricing)  
-**Best for:** Tradies, consultants, retailers, service businesses
-
-### If You Need Booking Systems or Regular Content:
-**Budget:** $1,495 NZD + GST setup + $249/month NZD + GST
-**Get:** [The Growth](/pricing)  
-**Best for:** Salons, coaches, consultants, wellness businesses
+**Budget:** $3,800 NZD + GST setup + from $149/month NZD + GST
+**Get:** [The Build](/pricing)  
+**Best for:** Tradies, consultants, retailers, salons, coaches, wellness businesses, anyone established
 
 ### If You're a Large Corporate or Need Complex Custom Development:
 **Budget:** $20,000-$75,000+  
@@ -309,11 +290,11 @@ It's your 24/7 salesperson. Your portfolio. Your booking system. Your credibilit
 
 Traditional agencies will charge you $8,000-$30,000 and take 12 weeks because their process is stuck in 2015.
 
-We charge $995-$1,495 NZD + GST and deliver in 7 days because we've embraced modern tools that make us faster without sacrificing quality.
+We charge $3,800 NZD + GST and deliver in about 1 to 2 weeks because we've embraced modern tools that make us faster without sacrificing quality.
 
 **A well-maintained website can generate 100% ROI within 12 months**. But only if it's professional, fast, secure, and kept up-to-date.
 
-That's why we include maintenance, updates, and annual refreshes in the monthly fee. Because a $995 NZD + GST website that gets abandoned and hacked 2 years later isn't an asset. It's a liability.
+That's why we include maintenance and updates in the monthly fee. Because a website that gets abandoned and hacked 2 years later isn't an asset. It's a liability.
 
 **[View Our Transparent Pricing](/pricing)**
 
@@ -327,7 +308,7 @@ We're not cheaper because we cut corners, we're more efficient. Traditional agen
 
 **What happens if I cancel my monthly subscription?**
 
-You own your domain, we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$249/month NZD + GST for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
+You own your domain, we transfer it to you. Your content is yours. You can take it and host elsewhere (though you'll need to find someone to maintain it). Most clients don't cancel because $149-$299/month NZD + GST for a maintained, secure, professional website that generates leads is one of the best ROI investments you can make. But there's no lock-in contract.
 
 **How is this different from Wix or Squarespace?**
 
@@ -337,9 +318,9 @@ DIY platforms like Wix cost $20-$50/month but require you to build and maintain 
 
 Yes. We do a voice interview with you (30-45 minutes), use AI to help structure content efficiently, and build on Astro which is inherently faster than traditional CMS platforms. Traditional agencies take 6-12 weeks because they have inefficient approval processes, manual coding, and large teams. We've streamlined the entire workflow. You get the same quality in a fraction of the time.
 
-**What's included in the annual design refresh?**
+**How does the Design Refresh work?**
 
-Every 12 months, we update your site's design to keep it looking current, new layouts, updated colour schemes, modern typography, refreshed imagery. This alone is worth $2,000+ if you paid an agency separately. It's included in your monthly fee because we never want your site to look outdated. Your competitor got a new website last year? We'll make sure yours still looks just as good.
+When you want a new look, the Design Refresh is an optional add-on, not something forced on a schedule. We update your site's design to keep it looking current: new layouts, updated colour schemes, modern typography, refreshed imagery. It's a fraction of what an agency charges for a rebuild, and you only pay for it when you actually want one. Your competitor got a new website last year? Order a refresh and yours looks just as good, without starting from scratch.
 
 ---
 

@@ -1,0 +1,108 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import AuditIntakeForm from '../components/AuditIntakeForm.jsx';
+
+const questions = [
+  'What is your website URL?',
+  'What is the main thing you want your website to do right now?',
+  'Who is your ideal client?',
+  'What work do you want more of that you are not currently getting enough of?',
+  'What do you want to move away from?',
+  'What is the number one reason people do not buy from you or do not follow through after making contact?',
+  'What do you like about your current site? Anything you want to keep?',
+  'How do you want people to feel when they land on your site?',
+  'Any words, phrases, or tones you absolutely do not want on your site?',
+];
+---
+
+<Layout
+  title="Your Audit Intake | YourHQ"
+  description="Eight questions and your Website Audit is underway. Answer honestly and specifically, takes about ten minutes."
+  noindex={true}
+>
+  <Fragment slot="head">
+    <script is:inline>
+      // Reveal the "payment confirmed" banner only when arriving from checkout.
+      document.addEventListener('DOMContentLoaded', function () {
+        var confirmed = new URLSearchParams(window.location.search).get('order') === 'confirmed';
+        if (confirmed) {
+          var b = document.getElementById('order-banner');
+          if (b) b.classList.remove('hidden');
+        }
+      });
+    </script>
+  </Fragment>
+
+  <Navbar client:load />
+
+  <main class="bg-bone text-carbon min-h-screen font-sans selection:bg-deepGreen selection:text-white">
+
+    <!-- HERO -->
+    <section class="pt-32 pb-12 px-6 lg:px-12 border-b border-carbon/10">
+      <div class="max-w-3xl mx-auto">
+
+        <!-- Payment confirmed banner (hidden until ?order=confirmed) -->
+        <div id="order-banner" class="hidden mb-10 bg-surface border-l-4 border-terracotta rounded-xl p-5 shadow-subtle">
+          <p class="font-sans text-ui text-carbon">
+            Payment confirmed. Fill in your answers below and you are all set.
+          </p>
+        </div>
+
+        <p class="font-mono text-badge text-terracotta mb-6">Your Audit Intake</p>
+
+        <h1 class="font-display text-display font-bold text-carbon mb-6">
+          Eight Questions.<br/>That Is All I Need.
+        </h1>
+
+        <p class="font-sans text-body text-softGrey max-w-2xl mb-4">
+          Answer these honestly and specifically. The more you tell me, the more useful your audit will be. Takes about ten minutes. There are no wrong answers.
+        </p>
+        <p class="font-sans text-ui text-softGrey max-w-2xl">
+          If you would rather email your answers, send them to
+          <a href="mailto:lian@yourhq.co.nz?subject=Website%20Audit" class="text-signal border-b border-signal/30 hover:border-signal transition-colors">lian@yourhq.co.nz</a>
+          with "Website Audit" in the subject line. The questions are listed at the bottom of this page to copy and paste.
+        </p>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="py-16 px-6 lg:px-12">
+      <div class="max-w-3xl mx-auto">
+        <AuditIntakeForm client:load />
+
+        <!-- Skip / email fallbacks -->
+        <div class="mt-10 text-center space-y-4">
+          <p>
+            <a href="/next-steps-web-audit?status=skipped" class="font-sans text-ui text-softGrey underline underline-offset-4 hover:text-carbon transition-colors">
+              I will do this later, take me to next steps
+            </a>
+          </p>
+          <p class="font-sans text-ui text-softGrey/80 max-w-xl mx-auto">
+            You can also email your answers directly to
+            <a href="mailto:lian@yourhq.co.nz?subject=Website%20Audit" class="text-signal hover:underline">lian@yourhq.co.nz</a>
+            with "Website Audit" in the subject line.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COPY & PASTE QUESTIONS -->
+    <section class="py-16 px-6 lg:px-12 border-t border-carbon/10">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display text-headline font-bold text-carbon mb-8">Your questions to copy and paste.</h2>
+        <ol class="space-y-4">
+          {questions.map((q, i) => (
+            <li class="flex gap-4 items-start border-b border-carbon/10 pb-4">
+              <span class="font-mono text-badge text-softGrey mt-1">{String(i + 1).padStart(2, '0')}</span>
+              <span class="font-sans text-body text-carbon">{q}</span>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

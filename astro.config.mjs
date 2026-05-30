@@ -15,7 +15,9 @@ export default defineConfig({
       filter: (page) =>
         !page.includes('/agent-test') &&
         !page.includes('/confirmation') &&
-        !page.includes('/admin'),
+        !page.includes('/admin') &&
+        !page.includes('/audit-intake') &&
+        !page.includes('/next-steps-web-audit'),
       changefreq: 'weekly',
       priority: 0.7,
     }),
