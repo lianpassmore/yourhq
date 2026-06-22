@@ -122,7 +122,7 @@ export default function NetworkSignupForm() {
           </div>
           <div className="space-y-2">
             <label htmlFor="phone" className={labelCls}>Phone <span className="font-normal normal-case text-softGrey/70">(optional)</span></label>
-            <input type="tel" id="phone" name="phone" className={inputCls} placeholder="022 172 5793" />
+            <input type="tel" id="phone" name="phone" className={inputCls} placeholder="027 566 8803" />
           </div>
         </div>
 

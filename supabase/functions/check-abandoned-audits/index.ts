@@ -20,12 +20,12 @@ const supabase = createClient(
   { auth: { persistSession: false } },
 );
 
-const FROM = 'YourHQ <hello@yourhq.co.nz>';
+const FROM = 'YourHQ <lian@yourhq.co.nz>';
 const SUBJECT = 'One last thing for your audit';
 const BODY =
   'You are all paid up but I am still missing your answers before I can get started. ' +
   'Fill them in here when you are ready: https://yourhq.co.nz/audit-intake?order=confirmed. ' +
-  'Any questions, text me on 022 172 5793. Lian.';
+  'Any questions, text me on 027 566 8803. Lian.';
 
 Deno.serve(async () => {
   const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString();

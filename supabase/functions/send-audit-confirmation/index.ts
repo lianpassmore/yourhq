@@ -24,11 +24,11 @@ const supabase = createClient(
   { auth: { persistSession: false } },
 );
 
-const FROM = 'YourHQ <hello@yourhq.co.nz>';
+const FROM = 'YourHQ <lian@yourhq.co.nz>';
 const SUBJECT = 'Your audit is underway';
 const BODY =
   'Your answers are in and I am on it. Your audit document will be in your inbox within five working days. ' +
-  'If anything comes up in the meantime, text or email directly. 022 172 5793 or hello@yourhq.co.nz';
+  'If anything comes up in the meantime, text or email directly. 027 566 8803 or lian@yourhq.co.nz';
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });

@@ -95,7 +95,7 @@ export default function ContactForm() {
         </div>
         <div className="space-y-2">
           <label htmlFor="phone" className={labelCls}>Phone <span className="font-normal normal-case text-softGrey/70">(optional)</span></label>
-          <input type="tel" id="phone" name="phone" className={inputCls} placeholder="022 172 5793" />
+          <input type="tel" id="phone" name="phone" className={inputCls} placeholder="027 566 8803" />
         </div>
       </div>
 
@@ -125,7 +125,7 @@ export default function ContactForm() {
       </button>
 
       {status === 'error' && (
-        <p className="text-sm text-terracotta text-center">Something went wrong. Please try again, or text 022 172 5793.</p>
+        <p className="text-sm text-terracotta text-center">Something went wrong. Please try again, or text 027 566 8803.</p>
       )}
     </form>
   );

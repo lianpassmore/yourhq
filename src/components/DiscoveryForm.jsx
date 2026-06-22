@@ -165,7 +165,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         <p className="text-body text-softGrey max-w-md mx-auto">
           We've received your details and we'll get started. Keep an eye on your inbox - we'll be in touch within 1–2 business days.
         </p>
-        <p className="text-sm text-softGrey/70">Questions? Text us: 022 172 5793</p>
+        <p className="text-sm text-softGrey/70">Questions? Text us: 027 566 8803</p>
       </div>
     );
   }
@@ -317,7 +317,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
 
           <div className="grid md:grid-cols-2 gap-5">
             <div>
-              <label className={LABEL} htmlFor="df-logo">Logo? <span className="normal-case font-normal">(send to hello@yourhq.co.nz)</span></label>
+              <label className={LABEL} htmlFor="df-logo">Logo? <span className="normal-case font-normal">(send to lian@yourhq.co.nz)</span></label>
               <input
                 type="text" id="df-logo" name="Logo status"
                 placeholder="Yes / No / In progress / Starting fresh"
@@ -523,7 +523,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
             </div>
             <div className="space-y-6">
               <div>
-                <label className={LABEL}>Got brand guidelines or a style guide? <span className="normal-case font-normal">(send to hello@yourhq.co.nz)</span></label>
+                <label className={LABEL}>Got brand guidelines or a style guide? <span className="normal-case font-normal">(send to lian@yourhq.co.nz)</span></label>
                 <input
                   type="text" name="Brand guidelines"
                   placeholder="Yes / No / Just a logo and some colours"
@@ -888,7 +888,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         {status === 'error' && (
           <p className="text-sm text-terracotta text-center">
             Something went wrong. Please try again or text us on{' '}
-            <a href="sms:0221725793" className="underline">022 172 5793</a>.
+            <a href="sms:0275668803" className="underline">027 566 8803</a>.
           </p>
         )}
 
