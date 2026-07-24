@@ -7,10 +7,10 @@ import HomepageFAQSchema from '../components/HomepageFAQSchema.astro';
 import { BOOKING_URL, PHONE } from '../lib/site.js';
 
 const portfolio = [
-  { name: 'Rumours On Rust', screenshot: '/rumoursonrust-site.webp', meta: 'Café · Whangārei' },
-  { name: 'Carve Earthworks',  screenshot: '/carve-earthworks-site.webp', meta: 'Earthworks · Northland' },
-  { name: 'Ember & Ice',       screenshot: '/emberandice-site.webp',    meta: 'Wellness · Northland' },
-  { name: 'Johnson & Sons',    screenshot: '/johnsonandsons-site.webp',  meta: 'Commercial Builder · Northland' },
+  { name: 'Cathy Sommerville',     screenshot: '/portfolio/cathysommerville-site.webp',   meta: 'Coaching · San Francisco' },
+  { name: 'Obi Studios',           screenshot: '/portfolio/obistudios-site.webp',         meta: 'Content Marketing · Auckland' },
+  { name: 'Pathways to Wellbeing', screenshot: '/portfolio/pathwaystowellbeing-site.webp', meta: 'Wellbeing Training · NZ' },
+  { name: 'Rumours On Rust',       screenshot: '/portfolio/rumoursonrust-site.webp',       meta: 'Café · Whangārei' },
 ];
 
 const relief = [
@@ -49,31 +49,24 @@ const testimonials = [
          01 · HERO
     ============================================================ -->
     <section class="relative bg-bone pt-20 md:pt-28 pb-24 md:pb-32 px-4 sm:px-6 lg:px-8 border-b border-carbon/10">
-      <div class="max-w-screen-xl mx-auto relative z-10 flex flex-col md:flex-row md:items-start justify-between gap-12">
+      <div class="max-w-screen-xl mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
 
         <!-- Left: Copy -->
-        <div class="max-w-3xl flex-grow">
+        <div class="lg:col-span-7 hero-rise">
           <div class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-deepGreen mb-8 font-medium flex items-center gap-3">
-            <span class="w-8 h-[1px] bg-deepGreen shrink-0"></span> Limited builds each month · Every site looked after for good
+            <span class="w-8 h-[1px] bg-deepGreen shrink-0"></span> Limited builds each month · Looked after for good
           </div>
 
-          <h1 class="text-[clamp(2.5rem,6.5vw,5.75rem)] leading-[1] tracking-tight text-carbon">
-            <span class="block font-display font-bold uppercase">Too good to look</span>
-            <span class="block font-serif italic text-terracotta normal-case mt-1 text-[clamp(1.75rem,4.5vw,3.75rem)] leading-tight">average online.</span>
-            <span class="block font-display font-bold uppercase mt-4">Too busy to</span>
-            <span class="block font-serif italic text-softGrey normal-case mt-1 text-[clamp(1.75rem,4.5vw,3.75rem)] leading-tight">fix it yourself.</span>
+          <h1 class="text-carbon">
+            <span class="block font-display font-bold uppercase text-[clamp(2.5rem,6vw,5rem)] leading-[1.02] tracking-tight">Too good to look average online.</span>
+            <span class="block font-serif italic text-terracotta normal-case text-[clamp(1.75rem,4vw,3.25rem)] leading-tight mt-3">Too busy to fix it yourself.</span>
           </h1>
 
-          <p class="font-sans text-lg md:text-xl text-carbon/80 max-w-xl leading-relaxed mt-10">
-            One conversation. I write your website, build it, host it, and answer your texts.<br class="hidden md:block"/>
-            You run the business. I look after the home.
+          <p class="font-sans text-lg md:text-xl text-carbon/80 max-w-xl leading-relaxed mt-9">
+            One conversation. I write your website, build it, host it, and update when you need it. You run the business. I look after the home.
           </p>
 
-          <p class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-deepGreen mt-6 font-medium">
-            Websites from $3,800 + GST · Care from $149 a month + GST
-          </p>
-
-          <div class="mt-10 flex flex-col sm:flex-row gap-4 font-sans">
+          <div class="mt-9 flex flex-col sm:flex-row gap-4 font-sans">
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="bg-carbon text-white px-8 py-3.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 text-center shadow-subtle">
               Book a Website Chat
             </a>
@@ -82,27 +75,34 @@ const testimonials = [
             </a>
           </div>
 
-          <p class="font-sans text-sm text-softGrey mt-6 max-w-md leading-relaxed">
-            Rather not talk it through? <a href="/contact" class="underline decoration-carbon/30 underline-offset-4 hover:decoration-carbon text-carbon">The contact form</a> works just as well, some people think better in writing. Or just message me: {PHONE}.
+          <p class="font-mono text-[10px] md:text-xs uppercase tracking-[0.15em] text-softGrey mt-8 font-medium">
+            Websites from $3,800 + GST · Care from $149 a month + GST
+          </p>
+
+          <p class="font-sans text-sm text-softGrey mt-4 max-w-md leading-relaxed">
+            Rather write than talk? <a href="/contact" class="underline decoration-carbon/30 underline-offset-4 hover:decoration-carbon text-carbon">The contact form</a> works just as well. Or just message me: {PHONE}.
           </p>
         </div>
 
-        <!-- Right: Pull Quote & Badge -->
-        <div class="md:max-w-[320px] flex flex-col items-start md:items-end md:text-right mt-4 md:mt-0">
-          <div class="w-24 h-24 border border-carbon/20 rounded-full hidden md:flex items-center justify-center p-2 hover:rotate-180 transition-transform duration-[1500ms] ease-in-out cursor-pointer mb-12">
-            <span class="font-mono text-[9px] uppercase tracking-widest text-carbon text-center leading-relaxed">
-              Perm&shy;anent<br/><span class="text-terracotta">Digital</span><br/>Home
-            </span>
-          </div>
+        <!-- Right: Image + floating review -->
+        <div class="lg:col-span-5 relative mt-6 lg:mt-0">
+          <div class="relative max-w-md mx-auto lg:mr-0 hero-rise hero-rise-late">
+            <!-- offset backdrop for depth (mirrors the Meet Lian treatment) -->
+            <div class="absolute inset-0 bg-surface rounded-[1.75rem] border border-carbon/5 translate-x-4 translate-y-4"></div>
+            <div class="relative z-10 aspect-[4/5] rounded-[1.75rem] overflow-hidden border border-carbon/10 shadow-elegant bg-white">
+              <img src="/calm-handled.webp" alt="A laptop and notebook set down — a website project, handled" width="1600" height="1067" fetchpriority="high" decoding="async" class="w-full h-full object-cover" />
+            </div>
 
-          <figure class="border-t border-carbon/10 pt-6">
-            <blockquote class="font-serif italic text-xl leading-snug text-carbon/80">
-              &ldquo;If you don&rsquo;t want the stress of building a website, this is the way to go.&rdquo;
-            </blockquote>
-            <figcaption class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-4">
-              Ross · Google review
-            </figcaption>
-          </figure>
+            <!-- floating review chip -->
+            <figure class="hero-float absolute z-20 -bottom-5 left-4 lg:-left-6 max-w-[15rem] bg-white rounded-2xl border border-carbon/10 shadow-elegant p-5">
+              <blockquote class="font-serif italic text-base leading-snug text-carbon/85">
+                &ldquo;If you don&rsquo;t want the stress of building a website, this is the way to go.&rdquo;
+              </blockquote>
+              <figcaption class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-3">
+                Ross · Google review
+              </figcaption>
+            </figure>
+          </div>
         </div>
 
       </div>
@@ -368,6 +368,9 @@ const testimonials = [
             <a href="/pricing" class="inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border border-carbon/20 rounded-full px-8 py-3.5 hover:border-carbon transition-colors">
               How pricing works &rarr;
             </a>
+            <div class="mt-12 hidden lg:block rounded-2xl overflow-hidden border border-carbon/10 shadow-subtle aspect-[4/5] bg-white max-w-xs">
+              <img src="/planning-numbers.webp" alt="Coffee, a notebook of figures and a laptop — planning a small business" width="1600" height="2400" loading="lazy" decoding="async" class="w-full h-full object-cover" />
+            </div>
           </div>
 
           <div class="lg:col-span-7 flex flex-col gap-6">
@@ -547,6 +550,34 @@ const testimonials = [
       @keyframes marquee {
         0% { transform: translateX(0); }
         100% { transform: translateX(-50%); }
+      }
+
+      /* Gentle continuous bob on the hero review chip */
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-9px); }
+      }
+      .hero-float {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      /* Soft rise-in for the hero as the page loads */
+      @keyframes rise {
+        from { opacity: 0; transform: translateY(18px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .hero-rise {
+        animation: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+      }
+      .hero-rise-late {
+        animation-delay: 0.15s;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .hero-float,
+        .hero-rise {
+          animation: none;
+        }
       }
     </style>
 

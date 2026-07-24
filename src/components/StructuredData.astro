@@ -1,5 +1,8 @@
 ---
 // Structured Data (JSON-LD) for SEO and AEO
+// Contact details come from site.js so the schema can't drift from the visible site.
+import { PHONE_INTL, EMAIL } from '../lib/site.js';
+
 const founderSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -50,9 +53,9 @@ const organizationSchema = {
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+64-22-172-5793",
+    "telephone": PHONE_INTL,
     "contactType": "Customer Service",
-    "email": "lian@yourhq.co.nz",
+    "email": EMAIL,
     "availableLanguage": "English",
     "areaServed": ["NZ", "AU", "GB", "US"]
   },
@@ -73,8 +76,8 @@ const localBusinessSchema = {
   "name": "YourHQ",
   "image": "https://yourhq.co.nz/og-image.jpg",
   "priceRange": "NZD 3,800–$299/mo",
-  "telephone": "+64-22-172-5793",
-  "email": "lian@yourhq.co.nz",
+  "telephone": PHONE_INTL,
+  "email": EMAIL,
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Whangārei",

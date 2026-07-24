@@ -1,0 +1,101 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import { BOOKING_EMBED_URL, PHONE, EMAIL } from '../lib/site.js';
+
+const whatHappens = [
+  { s: 'Step 1', h: 'You pick a time above', b: 'Twenty minutes, free. No prep, no pitch, no homework.' },
+  { s: 'Step 2', h: 'I look before we talk', b: 'If you’ve already got a site, I’ll have a proper look first so we don’t waste your twenty minutes on things I can see for myself.' },
+  { s: 'Step 3', h: 'You leave knowing your next step', b: 'Whether or not it’s with me. If I’m not the right fit, I’ll tell you straight and point you somewhere better.' },
+];
+---
+
+<Layout
+  title="Book a Free 20-Minute Website Chat | YourHQ Whangārei"
+  description="Pick a time and book your free 20-minute website chat with Lian at YourHQ, right here. No prep, no pitch. Based in Whangārei, working with clients worldwide."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white overflow-hidden">
+
+    <!-- HERO -->
+    <section class="pt-24 md:pt-32 pb-12 md:pb-16 border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> Book a Chat
+          </span>
+          <h1 class="font-display font-bold text-hero leading-none tracking-tight mb-8 text-carbon uppercase">
+            Let&rsquo;s Talk.<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">The first twenty minutes are on me.</span>
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-2xl">
+            A relaxed chat about your website, or the one you don&rsquo;t have yet. No prep, no pitch, no homework. Pick a time below and you&rsquo;re booked, no back-and-forth.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING EMBED -->
+    <section class="py-14 md:py-20">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+
+          <!-- LEFT: THE CALENDAR -->
+          <div class="lg:col-span-8">
+            <div class="bg-white rounded-3xl p-3 sm:p-4 border border-carbon/5 shadow-elegant">
+              <iframe
+                src={BOOKING_EMBED_URL}
+                title="Book a free 20-minute website chat with YourHQ"
+                class="w-full rounded-2xl border-0 h-[720px] md:h-[760px]"
+                loading="lazy"
+              ></iframe>
+            </div>
+            <p class="font-sans text-sm text-softGrey mt-4 text-center lg:text-left">
+              Calendar not loading? Text me on
+              <a href="sms:0275668803" class="text-carbon underline underline-offset-4 hover:text-terracotta transition-colors">{PHONE}</a>
+              and I&rsquo;ll sort a time.
+            </p>
+          </div>
+
+          <!-- RIGHT: REASSURANCE -->
+          <aside class="lg:col-span-4">
+            <div class="bg-carbon text-bone rounded-3xl p-8 md:p-10 shadow-elegant">
+              <p class="font-mono text-badge uppercase text-softGrey mb-6">What Happens Next</p>
+              <div class="space-y-6">
+                {whatHappens.map((step) => (
+                  <div class="border-l border-white/20 pl-6">
+                    <p class="font-mono text-badge uppercase text-terracotta mb-2">{step.s}</p>
+                    <p class="font-sans text-body font-medium text-white mb-1">{step.h}</p>
+                    <p class="font-sans text-ui text-bone/70">{step.b}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div class="border-t border-white/10 mt-10 pt-8">
+                <p class="font-sans text-sm text-bone/70 mb-4">Not a phone person? Totally fine.</p>
+                <a href="/request-a-quote" class="block w-full text-center bg-bone text-carbon px-6 py-3.5 rounded-full font-medium text-sm hover:bg-terracotta hover:text-white transition-colors duration-300 mb-3">
+                  Get a quote without a call &rarr;
+                </a>
+                <a href="/contact" class="block w-full text-center border border-white/20 text-bone px-6 py-3.5 rounded-full font-medium text-sm hover:border-white transition-colors duration-300">
+                  Rather write it down?
+                </a>
+              </div>
+
+              <div class="border-t border-white/10 mt-8 pt-8 space-y-3">
+                <a href="sms:0275668803" class="block font-sans text-ui font-medium text-white hover:text-terracotta transition-colors">Text: {PHONE}</a>
+                <a href={`mailto:${EMAIL}`} class="block font-sans text-ui font-medium text-white hover:text-terracotta transition-colors">Email: {EMAIL}</a>
+                <p class="font-sans text-ui text-bone/50 pt-2">Based in Whangārei, Aotearoa New Zealand. Working with clients worldwide.</p>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Layout>

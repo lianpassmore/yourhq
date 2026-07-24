@@ -7,9 +7,42 @@ import { BOOKING_URL } from '../lib/site.js';
 const projects = [
   {
     n: '01',
+    name: 'Cathy Sommerville',
+    meta: 'Coaching & Real Estate · San Francisco, USA',
+    screenshot: '/portfolio/cathysommerville-site.webp',
+    link: 'https://cathysommerville.org',
+    story: 'Cathy runs one-to-one coaching and small-group gatherings for women, built on three decades of real estate and a lot of lived experience. She’s in San Francisco, which made hers our first build outside New Zealand. One conversation, a raid of everything she’d already written, and she had a home that carries the same warmth she brings to the room.',
+    quote: 'She knows so much more than I do, yet she did not talk down to me or make me feel at a loss for content. Her questions and prep work made everything easy and quick.',
+    attr: 'Cathy, Founder · San Francisco',
+    badges: ['Story-Led', 'Built Overseas', 'Zero Homework'],
+  },
+  {
+    n: '02',
+    name: 'Obi Studios',
+    meta: 'Content Marketing · Auckland, NZ',
+    screenshot: '/portfolio/obistudios-site.webp',
+    link: 'https://obistudios.co.nz',
+    story: 'Ethan shoots cinematic content for trade and construction businesses across New Zealand. He had the eye and the client list; what he didn’t have was an online presence that matched the footage. We built him one that looks as premium as the work he puts out, and gives the right clients a reason to call.',
+    quote: '',
+    attr: '',
+    badges: ['Premium Build', 'Content Raid', 'Still Looked After'],
+  },
+  {
+    n: '03',
+    name: 'Pathways to Wellbeing',
+    meta: 'Wellbeing Training · New Zealand',
+    screenshot: '/portfolio/pathwaystowellbeing-site.webp',
+    link: 'https://pathwaystowellbeing.co.nz',
+    story: 'Sharon delivers mental health first aid and wellbeing training to workplaces, communities and whānau across the country, built on decades of lived experience. The work was serious; her old presence didn’t say so. We gave her a site with the calm and the backbone the work deserves, so the right organisations can find her and trust her before the first call.',
+    quote: '',
+    attr: '',
+    badges: ['Trust-Builder', 'Story-Led', 'Credibility Build'],
+  },
+  {
+    n: '04',
     name: 'Rumours On Rust',
     meta: 'Café & Hospitality · Whangārei, NZ',
-    screenshot: '/rumoursonrust-site.webp',
+    screenshot: '/portfolio/rumoursonrust-site.webp',
     link: 'https://rumours-on-rust.site',
     story: 'Katie was launching a café during one of the busiest seasons of her life. She needed a site that matched the warmth she’d put into the physical space, without it becoming another thing on an impossible list. We captured her story, raided her existing content, and built something that feels as good as the coffee tastes.',
     quote: 'The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can’t believe how good it is.',
@@ -17,10 +50,10 @@ const projects = [
     badges: ['Story-Led', 'Fast Build', 'Mobile-First'],
   },
   {
-    n: '02',
+    n: '05',
     name: 'Carve Earthworks',
     meta: 'Earthworks & Civil · Northland, NZ',
-    screenshot: '/carve-earthworks-site.webp',
+    screenshot: '/portfolio/carve-earthworks-site.webp',
     link: 'https://www.carveearthworks.co.nz',
     story: 'Brad runs a tight, professional operation. The kind of business that wins work on reputation and quality. His online presence didn’t reflect that, so we fixed it. Six months on, he still sends through tweaks and they’re live the same day. That’s the model working.',
     quote: 'The whole process was smooth, easy and stress free with a clean professional outcome that compliments our business.',
@@ -28,10 +61,10 @@ const projects = [
     badges: ['Zero Homework', 'Credibility Build', 'Still Looked After'],
   },
   {
-    n: '03',
+    n: '06',
     name: 'Ember & Ice',
     meta: 'Wellness Studio · Northland, NZ',
-    screenshot: '/emberandice-site.webp',
+    screenshot: '/portfolio/emberandice-site.webp',
     link: 'https://emberandice.co.nz',
     story: 'Nicolette had built something genuinely special. A wellness space with a clear vision and a growing reputation, but an online presence that said "just an Instagram." The site we built says something different entirely.',
     quote: 'You helped me take that next step and build my dream. That was my barrier to market.',
@@ -39,10 +72,10 @@ const projects = [
     badges: ['Premium Build', 'Trust-Builder', 'Digital Ownership'],
   },
   {
-    n: '04',
+    n: '07',
     name: 'Johnson & Sons',
     meta: 'Commercial Services · Northland, NZ',
-    screenshot: '/johnsonandsons-site.webp',
+    screenshot: '/portfolio/johnsonandsons-site.webp',
     link: 'https://johnsonandsonsltd.site',
     story: 'Reuben needed to look legitimate online, fast, without getting stuck in file uploads, copy briefs, or platform headaches. I went through his Facebook, pulled what I needed, and had a draft site ready in under a day.',
     quote: 'I hadn’t even figured out how to add photos to the Google Drive. Lian had already got photos off our Facebook page and had a draft site ready. I recommend Lian to any business out there looking for a great value website that you can call your own.',
@@ -104,8 +137,8 @@ const standards = [
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-20">
-          Four Businesses.<br/>
-          Four Stories.<br/>
+          Seven Businesses.<br/>
+          Seven Stories.<br/>
           <span class="font-serif italic text-terracotta normal-case font-normal">One Standard.</span>
         </h2>
 
@@ -124,10 +157,12 @@ const standards = [
                 <h3 class="font-display font-bold text-headline uppercase tracking-tight text-carbon mb-2">{p.name}</h3>
                 <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mb-6">{p.meta}</p>
                 <p class="font-sans text-body text-softGrey leading-relaxed mb-8 max-w-xl">{p.story}</p>
-                <figure class="border-l-2 border-terracotta pl-6 mb-8">
-                  <blockquote class="font-serif italic text-lg leading-snug text-carbon/85">&ldquo;{p.quote}&rdquo;</blockquote>
-                  <figcaption class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-3">{p.attr}</figcaption>
-                </figure>
+                {p.quote && (
+                  <figure class="border-l-2 border-terracotta pl-6 mb-8">
+                    <blockquote class="font-serif italic text-lg leading-snug text-carbon/85">&ldquo;{p.quote}&rdquo;</blockquote>
+                    <figcaption class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-3">{p.attr}</figcaption>
+                  </figure>
+                )}
                 <div class="flex flex-wrap gap-2">
                   {p.badges.map((b) => (
                     <span class="font-mono text-[9px] uppercase tracking-[0.15em] text-carbon border border-carbon/15 px-3.5 py-1.5 rounded-full">{b}</span>
@@ -163,7 +198,7 @@ const standards = [
         </div>
         <div class="md:col-span-6">
           <a href="https://www.dreamstorm.org" target="_blank" rel="noopener noreferrer" class="block bg-surface rounded-2xl border border-carbon/5 shadow-elegant relative overflow-hidden group hover:shadow-float transition-all duration-500">
-            <img src="/dreamstorm-site.webp" alt="DreamStorm website" loading="lazy" decoding="async" class="w-full h-[500px] object-cover object-top group-hover:object-bottom transition-all duration-[6000ms] ease-in-out" />
+            <img src="/portfolio/dreamstorm-site.webp" alt="DreamStorm website" loading="lazy" decoding="async" class="w-full h-[500px] object-cover object-top group-hover:object-bottom transition-all duration-[6000ms] ease-in-out" />
           </a>
         </div>
       </div>
