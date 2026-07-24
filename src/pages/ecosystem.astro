@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 
-const buildLink = "/start-build";
+import { BOOKING_URL } from '../lib/site.js';
 
 const faqs = [
   { q: 'Does my website replace my social media presence?', a: 'No. Social is where you show up and reach new people. The website is where you send them when they want the full picture. Both matter. The difference is one is rented, one is owned.' },
@@ -53,7 +53,7 @@ const techStack = [
             <span class="font-serif italic text-terracotta normal-case font-normal">Everything Else You're Doing Online.</span>
           </h1>
           <p class="font-sans text-subhead text-softGrey max-w-3xl">
-            A plain-English guide to the digital landscape. Every diagram in one place: website types, the tech stack, the one-inbox model, pricing, and target ICP.
+            A plain-English guide to the digital landscape in 2026. What changed with AI search, why the website matters more now, not less, and every YourHQ diagram in one place.
           </p>
         </div>
       </div>
@@ -62,34 +62,37 @@ const techStack = [
     <!-- THE NUMBERS (From Astro) -->
     <section class="py-24 bg-white border-b border-carbon/5">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="font-display font-bold text-display uppercase tracking-tight mb-12 text-carbon text-center md:text-left">
-          Where Things <br/>
-          <span class="font-serif italic text-softGrey normal-case font-normal">Actually Stand.</span>
-        </h2>
-
-        <div class="grid md:grid-cols-3 gap-6 mb-12">
-          <div class="bg-surface rounded-2xl p-10 border border-carbon/5 shadow-subtle">
-            <p class="font-display font-bold text-[4rem] leading-none tracking-tight text-carbon mb-4">47<span class="text-3xl text-terracotta">%</span></p>
-            <p class="font-sans text-body text-softGrey">of New Zealand businesses don't have a website. Adoption hasn't moved since 2022.</p>
-          </div>
-          <div class="bg-surface rounded-2xl p-10 border border-carbon/5 shadow-subtle">
-            <p class="font-display font-bold text-[4rem] leading-none tracking-tight text-carbon mb-4">74<span class="text-3xl text-terracotta">%</span></p>
-            <p class="font-sans text-body text-softGrey">of consumers say a website is their most important tool for engaging with a business.</p>
-          </div>
-          <div class="bg-surface rounded-2xl p-10 border border-carbon/5 shadow-subtle">
-            <p class="font-display font-bold text-[4rem] leading-none tracking-tight text-carbon mb-4">53<span class="text-3xl text-terracotta">%</span></p>
-            <p class="font-sans text-body text-softGrey">of purchase journeys start with online research.</p>
+        <div class="max-w-3xl mb-12">
+          <span class="font-mono text-badge uppercase text-terracotta mb-4 block">The 2026 Shift</span>
+          <h2 class="font-display font-bold text-display uppercase tracking-tight mb-8 text-carbon">
+            The website's job changed. <br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">Most sites haven't noticed.</span>
+          </h2>
+          <div class="space-y-6 font-sans text-body text-softGrey">
+            <p>For twenty years the website was a destination. You did things to get people to it, and more visitors meant more business.</p>
+            <p>That era is ending. Around 60% of Google searches now finish without a click, and when an AI answer sits at the top of the page, that figure climbs past 80%. Some industries lost 40 to 70% of their search traffic in a single year. Services, consulting and training sit squarely in the impact zone.</p>
+            <p>So is the website dead? The opposite. The clicks that survive convert around 23% better, because the people who still arrive are further along, closer to spending, and judging harder. And the AI answers themselves have to come from somewhere. They're built from real websites, and they favour the ones that are clear, current, well-structured and straight to the point.</p>
+            <p class="font-medium text-carbon">The website stopped being a traffic machine and became two things: the source AI pulls from, and the place where trust is finally decided. Fewer visitors, higher stakes, and a much lower tolerance for a site that's out of date.</p>
           </div>
         </div>
 
-        <div class="max-w-3xl">
-          <p class="font-sans text-subhead text-softGrey mb-3">
-            The gap between what people expect to find and what they actually find is widening every year.
-          </p>
-          <p class="font-sans text-subhead font-medium text-carbon">
-            That's not a technology problem. It's a priority problem.
-          </p>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-surface rounded-2xl p-10 border border-carbon/5 shadow-subtle">
+            <p class="font-display font-bold text-[4rem] leading-none tracking-tight text-carbon mb-4">41<span class="text-3xl text-terracotta">%</span></p>
+            <p class="font-sans text-body text-softGrey">more trustworthy. How consumers rate a business that has a website, second only to reviews.</p>
+          </div>
+          <div class="bg-surface rounded-2xl p-10 border border-carbon/5 shadow-subtle">
+            <p class="font-display font-bold text-[4rem] leading-none tracking-tight text-carbon mb-4">58<span class="text-3xl text-terracotta">%</span></p>
+            <p class="font-sans text-body text-softGrey">check a business's website to verify what they saw on social media or in an AI recommendation.</p>
+          </div>
+          <div class="bg-surface rounded-2xl p-10 border border-carbon/5 shadow-subtle">
+            <p class="font-display font-bold text-[4rem] leading-none tracking-tight text-carbon mb-4">60<span class="text-3xl text-terracotta">%</span></p>
+            <p class="font-sans text-body text-softGrey">say an outdated-looking website damages how they rate a business's quality.</p>
+          </div>
         </div>
+        <p class="font-sans text-xs text-softGrey/70 mt-6 max-w-3xl">
+          Consumer figures: DreamHost Local Business Trust Index, November 2025, US sample. AI search figures: 2026 SEO industry reporting, directional.
+        </p>
       </div>
     </section>
 
@@ -140,11 +143,11 @@ const techStack = [
             <h3 class="font-display font-bold text-headline uppercase text-carbon mb-2">Business site</h3>
             <p class="font-serif italic text-accent text-softGrey mb-8">The business exists separately from the person: tradie, clinic, café, salon, studio.</p>
             <ul class="space-y-3 font-sans text-ui text-carbon">
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Homepage: what we do + who for</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Social proof: client results</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Primary CTA: call / form / quote</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Credibility signals: quals, certs</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Google search: service keywords</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Homepage: what we do + who for</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Social proof: client results</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Primary CTA: call / form / quote</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Credibility signals: quals, certs</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Google search: service keywords</li>
             </ul>
           </div>
 
@@ -153,11 +156,11 @@ const techStack = [
             <h3 class="font-display font-bold text-headline uppercase text-carbon mb-2">Personal brand</h3>
             <p class="font-serif italic text-accent text-softGrey mb-8">The person IS the business: coach, speaker, consultant, creator, author.</p>
             <ul class="space-y-3 font-sans text-ui text-carbon">
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Homepage: who I am + what I believe</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Social proof: media, talks, publications</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Primary CTA: work with me / join / buy</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Multiple audience routing</li>
-              <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic leading-none mt-0.5">Y</span> Google search: name + topic keywords</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Homepage: who I am + what I believe</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Social proof: media, talks, publications</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Primary CTA: work with me / join / buy</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Multiple audience routing</li>
+              <li class="flex items-start gap-3"><span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span> Google search: name + topic keywords</li>
             </ul>
           </div>
         </div>
@@ -506,84 +509,42 @@ const techStack = [
         <div class="mb-16">
           <span class="font-mono text-badge uppercase text-terracotta mb-4 block">Diagram 06</span>
           <h2 class="font-display font-bold text-display uppercase tracking-tight mb-4 text-carbon">
-            Pricing <span class="font-serif italic text-softGrey normal-case font-normal">Structure.</span>
+            How pricing <span class="font-serif italic text-softGrey normal-case font-normal">works.</span>
           </h2>
           <p class="font-sans text-body text-softGrey max-w-2xl">
-            One build fee. Add-Ons for third-party integrations. Monthly care that scales with what the site does.
+            One build fee, one monthly care number, both stated in a written proposal before anything starts.
           </p>
         </div>
 
-        <div class="bg-carbon text-bone rounded-3xl p-8 md:p-12 shadow-elegant mb-16 flex flex-col md:flex-row gap-8 items-center justify-between">
-          <div class="max-w-xl">
-            <p class="font-mono text-badge uppercase text-terracotta mb-3">The build · one-time setup fee</p>
-            <h3 class="font-display font-bold text-headline text-white mb-4">The Permanent Digital Home</h3>
-            <p class="font-sans text-ui text-bone/70 leading-relaxed">
-              Everything needed to exist properly, look credible, and be found. Drive-Home Interview, market research, full copywriting, content raid, up to 8 pages hand-coded, blog, portfolio, media and press, socials embed, Google Business Profile, forms, SEO and AI search optimised, domain, hosting, on-demand updates forever.
+        <div class="grid md:grid-cols-3 gap-6">
+
+          <!-- The Build -->
+          <div class="bg-surface rounded-3xl p-8 md:p-10 border border-carbon/5 shadow-subtle flex flex-col">
+            <p class="font-mono text-badge uppercase text-deepGreen mb-4">The Build · from</p>
+            <p class="font-display font-bold text-[3.5rem] leading-none text-carbon mb-1">$3,800</p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-softGrey mb-6">NZD + GST · one-time</p>
+            <p class="font-sans text-sm text-softGrey leading-relaxed">
+              Everything a business needs to be credible and found, as standard. Story captured in one conversation, market research, every page written in your voice, content raid, up to 8 pages built by hand, blog and resources, Google Business Profile, forms and email capture, found on Google and cited by AI tools, domain in your name.
             </p>
           </div>
-          <div class="text-left md:text-right w-full md:w-auto border-t border-white/10 pt-6 md:border-none md:pt-0">
-            <p class="font-display font-bold text-[4rem] text-white leading-none">$3,800</p>
-            <p class="font-mono text-xs text-bone/50 uppercase tracking-widest mt-2">NZD + GST · one-time</p>
-          </div>
-        </div>
 
-        <div class="grid lg:grid-cols-2 gap-12">
-          
-          <!-- Power Ups -->
-          <div>
-            <h3 class="font-mono text-badge text-carbon uppercase mb-6 pb-4 border-b border-carbon/10">Add-Ons (Third-party systems) <span class="text-softGrey normal-case">· NZD</span></h3>
-            <div class="space-y-4">
-              <div class="flex justify-between items-center p-5 bg-surface rounded-xl border border-carbon/5 shadow-sm">
-                <div><p class="font-sans font-bold text-sm text-carbon mb-1">Bookings embed</p><p class="font-sans text-xs text-softGrey">Calendly, Timely, Acuity</p></div>
-                <div class="font-mono text-sm font-bold text-deepGreen">+$100</div>
-              </div>
-              <div class="flex justify-between items-center p-5 bg-surface rounded-xl border border-carbon/5 shadow-sm">
-                <div><p class="font-sans font-bold text-sm text-carbon mb-1">Email platform + lead magnet</p><p class="font-sans text-xs text-softGrey">ConvertKit/Mailchimp connected</p></div>
-                <div class="font-mono text-sm font-bold text-deepGreen">+$250</div>
-              </div>
-              <div class="flex justify-between items-center p-5 bg-surface rounded-xl border border-carbon/5 shadow-sm">
-                <div><p class="font-sans font-bold text-sm text-carbon mb-1">Stripe: Services / products</p><p class="font-sans text-xs text-softGrey">Deposits, PDFs · up to 5 items</p></div>
-                <div class="font-mono text-sm font-bold text-deepGreen">+$350</div>
-              </div>
-              <div class="flex justify-between items-center p-5 bg-surface rounded-xl border border-carbon/5 shadow-sm">
-                <div><p class="font-sans font-bold text-sm text-carbon mb-1">Stripe: Course delivery</p><p class="font-sans text-xs text-softGrey">Structured course with modules</p></div>
-                <div class="font-mono text-sm font-bold text-deepGreen">+$600</div>
-              </div>
-            </div>
+          <!-- Monthly Care -->
+          <div class="bg-surface rounded-3xl p-8 md:p-10 border border-carbon/5 shadow-subtle flex flex-col">
+            <p class="font-mono text-badge uppercase text-terracotta mb-4">Monthly Care · from</p>
+            <p class="font-display font-bold text-[3.5rem] leading-none text-carbon mb-1">$149<span class="text-2xl text-softGrey">/mo</span></p>
+            <p class="font-mono text-[10px] uppercase tracking-widest text-softGrey mb-6">NZD + GST</p>
+            <p class="font-sans text-sm text-softGrey leading-relaxed">
+              Hosting, security, backups, and the message-me service. Scales with what the site actually does. A simple credibility site costs less to look after than one running bookings and payments.
+            </p>
           </div>
 
-          <!-- Monthly -->
-          <div>
-            <h3 class="font-mono text-badge text-carbon uppercase mb-6 pb-4 border-b border-carbon/10">Monthly Caretaker (Scales with complexity) <span class="text-softGrey normal-case">· NZD</span></h3>
-            <div class="space-y-4">
-              <div class="p-6 bg-surface rounded-xl border border-deepGreen/20 shadow-sm relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-1 h-full bg-deepGreen"></div>
-                <div class="flex justify-between items-start mb-2">
-                  <p class="font-mono text-[10px] uppercase tracking-widest text-deepGreen font-bold">Level 1 · Sorted</p>
-                  <p class="font-display font-bold text-2xl text-carbon">$149/mo</p>
-                </div>
-                <p class="font-sans text-xs text-carbon mb-1">Site is your credibility anchor. You message when something changes.</p>
-                <p class="font-sans text-[11px] text-softGrey">30 minutes included &middot; hosting &middot; security &middot; on-demand updates</p>
-              </div>
-              <div class="p-6 bg-surface rounded-xl border border-carbon/10 shadow-sm relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-1 h-full bg-signal"></div>
-                <div class="flex justify-between items-start mb-2">
-                  <p class="font-mono text-[10px] uppercase tracking-widest text-signal font-bold">Level 2 · Connected</p>
-                  <p class="font-display font-bold text-2xl text-carbon">$199/mo</p>
-                </div>
-                <p class="font-sans text-xs text-carbon mb-1">Site is doing active work. Booking systems running, email list growing.</p>
-                <p class="font-sans text-[11px] text-softGrey">1 hour included &middot; more moving parts &middot; more regular updates</p>
-              </div>
-              <div class="p-6 bg-surface rounded-xl border border-carbon/10 shadow-sm relative overflow-hidden">
-                <div class="absolute top-0 left-0 w-1 h-full bg-terracotta"></div>
-                <div class="flex justify-between items-start mb-2">
-                  <p class="font-mono text-[10px] uppercase tracking-widest text-terracotta font-bold">Level 3 · Building</p>
-                  <p class="font-display font-bold text-2xl text-carbon">$299/mo</p>
-                </div>
-                <p class="font-sans text-xs text-carbon mb-1">Site is an active revenue channel. Adding products, running campaigns, pushing harder.</p>
-                <p class="font-sans text-[11px] text-softGrey">2 hours included &middot; payment flow monitoring &middot; highest care level</p>
-              </div>
-            </div>
+          <!-- The Proposal -->
+          <div class="bg-carbon text-bone rounded-3xl p-8 md:p-10 shadow-elegant flex flex-col">
+            <p class="font-mono text-badge uppercase text-terracotta mb-4">The Proposal</p>
+            <p class="font-display font-bold text-headline text-white leading-none mb-6">Your exact<br/>numbers live here.</p>
+            <p class="font-sans text-sm text-bone/75 leading-relaxed">
+              After the chat (or the form), you get one page in writing: your site, what it includes, your build price, your care number. Extras like bookings, payments, or the Learning Hub appear as fixed-price line items only if your business needs them.
+            </p>
           </div>
 
         </div>
@@ -671,11 +632,11 @@ const techStack = [
           Ready to Build the <span class="font-serif italic text-bone/60 normal-case font-normal">Source?</span>
         </h2>
         <p class="font-sans text-subhead text-bone/80 mb-12 max-w-2xl mx-auto">
-          One conversation. Your story captured. Your permanent digital home, built, owned, looked after forever.
+          One conversation, or one form if you&rsquo;d rather write. Your story captured. Your permanent digital home, built, owned, looked after for good.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href={buildLink} class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
-            Start Your Build
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-terracotta hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
+            Book a Website Chat
           </a>
           <a href="/how-it-works" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
             See How It Works

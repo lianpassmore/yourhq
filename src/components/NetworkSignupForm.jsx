@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { notifyNtfy } from '../lib/notify';
+import { notifyNtfy, notifyOwner } from '../lib/notify';
 
 const INTEREST_OPTIONS = [
   'Referring clients to YourHQ',
@@ -63,6 +63,22 @@ export default function NetworkSignupForm() {
         `${payload.name} (${payload.firm}) joined the YourHQ Network.`,
         'New Network Partner'
       );
+      notifyOwner({
+        subject: `Network partner — ${payload.company || payload.name}`,
+        intro: `${payload.name} (${payload.company}) joined the YourHQ Network.`,
+        fields: [
+          { label: 'Name', value: payload.name },
+          { label: 'Firm', value: payload.company },
+          { label: 'Role', value: payload.role },
+          { label: 'Region', value: payload.where_based || '—' },
+          { label: 'Email', value: payload.email },
+          { label: 'Phone', value: payload.phone || '—' },
+          { label: 'Keen to explore', value: (payload.tags || []).join(', ') || '—' },
+          { label: 'Notes', value: payload.notes || '—' },
+        ],
+        replyTo: payload.email,
+        source: 'network',
+      });
     }
   }
 
@@ -70,7 +86,7 @@ export default function NetworkSignupForm() {
     return (
       <div className="bg-bone text-carbon p-10 md:p-14 max-w-xl mx-auto rounded-2xl text-center shadow-elegant border border-carbon">
         <h3 className="font-display font-bold text-headline uppercase text-carbon mb-4">Welcome aboard.</h3>
-        <p className="font-sans text-body text-softGrey">Nic will be in touch within one business day with your welcome kit and referral tools.</p>
+        <p className="font-sans text-body text-softGrey">Lian will be in touch within one business day with your welcome kit and referral tools.</p>
       </div>
     );
   }
@@ -168,7 +184,7 @@ export default function NetworkSignupForm() {
         </button>
 
         {status === 'error' && (
-          <p className="text-sm text-terracotta text-center">Something went wrong. Please try again, or email nic@yourhq.co.nz.</p>
+          <p className="text-sm text-terracotta text-center">Something went wrong. Please try again, or email lian@yourhq.co.nz.</p>
         )}
       </form>
     </div>

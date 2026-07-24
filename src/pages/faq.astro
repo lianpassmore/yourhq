@@ -3,110 +3,75 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import { BOOKING_URL, PHONE, EMAIL } from '../lib/site.js';
 
-const buildLink = "/start-build";
-
-// The data remains identical. I have removed the old brutalist colors (hibiscus, frangipani) from the display logic below to enforce your strict 80/15/5 palette rule.
 const sections = [
   {
-    id: 'process',
-    title: 'The Process',
+    id: 'getting-started',
+    title: 'Getting Started',
     qs: [
-      { q: 'How do I get started?', a: 'Fill in the contact form or text me directly on 027 566 8803. I\'ll get back to you within one business day and book your Drive-Home Interview from there.' },
-      { q: 'What is the Drive-Home Interview?', a: 'A voice call with my AI assistant. On your terms, whenever suits. Car, couch, between meetings. No forms, no typing, no Zoom. You just talk. Most people take about 20 minutes.' },
-      { q: 'Do I have to write anything at all?', a: 'Nothing. I write every word. From your interview, your existing content, and one round of your feedback.' },
-      { q: 'What is the copy review page?', a: 'Before I build anything, you get a private page showing every section of your site copy. Clearly laid out, with a comment field next to each block. You read it, give feedback, I refine. Nothing gets built until you\'ve signed off on every word.' },
-      { q: 'What is the content raid?', a: 'I go through your existing digital footprint. Instagram, LinkedIn, Facebook, Google Reviews, your existing site, anywhere you already show up. I pull photos, testimonials, media mentions, business details. You send me nothing.' },
-      { q: 'How long does it take from my end?', a: 'One interview call. One round of copy feedback. Less than 30 minutes total.' },
-      { q: 'How long does the full build take?', a: 'Most clients go from interview to live site within 1 to 2 weeks.' }
-    ]
+      { q: 'How do I get started?', a: 'Book a free 20-minute Website Chat, send the contact form if you’d rather write, or text me on 027 566 8803. I’ll get back to you within one business day.' },
+      { q: 'What happens on the Website Chat?', a: 'Twenty minutes, free, no prep. You tell me what’s going on, I look at whatever you’ve already got beforehand, and I tell you honestly what I’d do in your shoes. If we’re a fit, you get a written proposal within days. If we’re not, I’ll point you somewhere better.' },
+      { q: 'I don’t like phone calls. Is that a problem?', a: 'Not at all, it’s not for everyone. The contact form gets you the same straight answer and the same proposal, and there’s a written version of the Drive-Home Interview too. You can go from first hello to live website without a single phone call if that suits you better.' },
+      { q: 'What is the Drive-Home Interview?', a: 'A voice call with my AI assistant, whenever suits you. Car, couch, between meetings. No forms, no Zoom, you just talk, and most people take about 20 minutes. Prefer writing? There’s a written version you fill in at your own pace.' },
+      { q: 'Do I have to write anything at all?', a: 'Nothing. I write every word, from your interview, your existing content, and one round of your feedback. You see every section on a private review page before anything gets built.' },
+      { q: 'How long does it take?', a: 'Most clients go from saying yes to live site within 1 to 2 weeks, and spend less than 30 minutes of their own time across the whole thing.' },
+      { q: 'Why do you limit builds each month?', a: 'Because every site I build, I keep: hosting it, updating it, answering the texts. The cap means every build gets done properly and the clients already on my books never wait because I’m chasing the next job. If the month is full, I’ll hold your spot in the next one.' },
+    ],
   },
   {
-    id: 'build',
+    id: 'the-build',
     title: 'The Build',
     qs: [
-      { q: "What's included in every build?", a: 'Drive-Home Interview, market and audience research, full copywriting, content raid, copy review page, up to 8 pages hand-coded, blog and resources architecture, portfolio and case study layouts, media and press section, socials embed (Instagram, Facebook, Threads, X, LinkedIn), Google Business Profile setup or optimisation, enquiry form direct to your inbox, email capture (CSV you own), SEO optimised for Google, AI search optimised for ChatGPT and Perplexity, stock photos if needed or your existing photos optimised, domain, hosting, SSL, backups, security, on-demand updates forever.' },
-      { q: 'What are Add-Ons?', a: 'Optional extras for connecting your site to third-party systems or adding capacity. Booking platforms, email tools, Stripe payments, Content Autopilot, Design Refresh, and more. The base build is complete as it stands. Add-Ons are for when your site needs to do something more.' },
-      { q: 'Can I get a Website Audit instead of a full build?', a: 'Yes. The Website Audit is a standalone $997 NZD + GST one-time service. I give your current site a full professional read: every page scored out of 50, what\'s working and what\'s holding you back, a recommended new structure, page-by-page copy rewritten in your voice, plus SEO and AEO guidance and a clear next step. One document in your inbox within five working days. It works on any platform, for sites up to eight pages. You answer eight questions by email and everything else is handled. If you decide to build afterwards, it\'s the perfect head start.' },
-      { q: 'Is this a template or a custom build?', a: "Every site is hand-coded specifically for you. That's why our sites load under a second, look distinctive, and don't become obsolete when a platform updates." },
-      { q: 'What does "hand-coded" mean in practice?', a: 'Every line of code written for your site specifically. No bloat, no plugins, no platform layer that can break. Faster, more secure, more future-proof than anything built on WordPress or a page builder.' },
-      { q: 'What is AEO and why does it matter?', a: 'AEO, Answer Engine Optimisation, is how your site shows up in AI-generated answers, like when someone asks ChatGPT a question. We build for both SEO and AEO.' },
-      { q: 'Will my site work on mobile?', a: 'Yes. Mobile-first is non-negotiable.' }
-    ]
+      { q: 'What’s included in every build?', a: 'Everything a business needs to be credible and found, as standard. Your story captured in one conversation, market research, every page written in your voice, your content pulled from everything you’ve already made, up to 8 pages built by hand, a blog, your Google Business Profile sorted, an enquiry form to your inbox, email capture you own, and a site built to be found on Google and cited by AI tools. Domain, hosting, security and updates included. Nothing on that list costs extra.' },
+      { q: 'Is this a template?', a: 'No. Every line is built specifically for your site. That’s why it loads in under a second, looks like nobody else’s, and has no plugins waiting to break.' },
+      { q: 'I already have a website. Is this a rebuild?', a: 'Yes, and that’s most of my clients. You’ve grown past what you have; I start fresh, in your voice, to where you are now. If you want the evidence before deciding, start with the Website Audit.' },
+      { q: 'Can my site have a course platform or members area?', a: 'Yes. The Learning Hub is a full course platform on your own subdomain, with student logins, per-course access, and Stripe checkout. It works with a YourHQ site or standalone alongside a website that lives elsewhere. See the Learning Hub page for the full story.' },
+      { q: 'What if my business needs something unusual?', a: 'Then we talk about it, and it goes in your proposal with a fixed price if it’s needed. The one thing I’ll always refer out is physical products with inventory and shipping. That’s a Shopify job, and I’ll point you to someone good.' },
+      { q: 'Will my site work on mobile?', a: 'Yes. Mobile-first is non-negotiable.' },
+      { q: 'What is AEO and why does it matter?', a: 'AEO, answer engine optimisation, is how your site shows up in AI-generated answers, like when someone asks ChatGPT for a recommendation. In 2026, a growing share of your customers meet you there first. Every build is structured for Google and AI answers both.' },
+    ],
   },
   {
     id: 'ownership',
-    title: 'Ownership and Portability',
+    title: 'Ownership and Leaving',
     qs: [
-      { q: 'Do I own my website?', a: 'Completely. Your domain, your content, your design. All yours from day one. If you ever leave, I provide a full static export. Nothing held hostage. Ever.' },
-      { q: 'Who registers the domain?', a: "I register it in your name, not mine. It's yours unconditionally from the moment it's created." },
-      { q: 'What if I want to move my site somewhere else?', a: '30 days notice. I export everything and hand it over. Your new host or developer gets a complete, clean codebase.' },
-      { q: 'What about my data?', a: "Your site collects only what it needs. Enquiry form submissions go direct to your inbox, email capture is exported as a CSV you own. I don't harvest your client data or use it for anything. Ever." }
-    ]
+      { q: 'Do I own my website?', a: 'Completely. Your domain is registered in your name from day one, and your content, design and data are yours unconditionally. Nothing held hostage. Ever.' },
+      { q: 'What if I want to leave?', a: '30 days notice. You get a full, clean export of everything, and your next developer gets a complete codebase. I’m not going to hold you back to keep you as a client.' },
+      { q: 'Can I pause?', a: 'Yes. Your site stays live and secure, no penalty.' },
+      { q: 'What about my data?', a: 'Your site collects only what it needs. Enquiries go straight to your inbox, email signups export as a file you own. I don’t harvest your client data or use it for anything. Ever.' },
+    ],
   },
   {
     id: 'pricing',
-    title: 'Pricing and Commitment',
+    title: 'Pricing',
     qs: [
-      { q: 'What does this actually cost?', a: "$3,800 NZD + GST setup. Monthly Caretaker fee from $149/mo NZD. Add-Ons priced separately. You'll know the full cost before anything starts." },
-      { q: 'How much is the Website Audit?', a: '$997 NZD + GST, one-time. A full professional read of your existing site, scored and written up in a single document within five working days. Works on any platform, for sites up to eight pages. A lower-commitment way to start, and a head start if you go on to build.' },
-      { q: 'Why is there a monthly fee?', a: 'Because a website needs to run, stay secure, and keep up with you as you grow. The monthly fee means you never have to think about any of that.' },
-      { q: 'Can I cancel?', a: 'Yes. 30 days notice. Full static export when you leave.' },
-      { q: 'Can I pause?', a: 'Yes. Site stays live. No penalty.' },
-      { q: "What if I don't love the site?", a: 'Full refund of your setup fee, minus Stripe processing (~3%) and domain costs. Love it or leave it.' },
-      { q: 'What currency do international clients pay in?', a: 'New Zealand dollars. Your bank handles the conversion.' }
-    ]
-  },
-  {
-    id: 'working',
-    title: 'Working With Lian',
-    qs: [
-      { q: 'Who builds my site?', a: 'Lian. The founder. Every build is done by her personally. Strategy, copy, design, code, infrastructure. No handoffs. No outsourcing.' },
-      { q: 'Who is Nic?', a: "Nic is YourHQ's connector. She finds people who'd be a good fit and helps them take the first step. Once your build starts, Lian takes over completely." },
-      { q: "What's Lian's background?", a: "Lian holds a Master of Technological Futures and built YourHQ from a genuine obsession with digital ownership and storytelling. She's also gone deep on conversational AI. The Drive-Home Interview is built on technology she developed as part of her research." },
-      { q: 'How do I communicate during the build?', a: 'Text, email, or through the copy review page. No project management platforms. No weekly calls. No learning new tools.' },
-      { q: "Will you be honest if we're not a good fit?", a: "Always. If what you need is outside our scope, I'll tell you and point you somewhere better." },
-      { q: "I'm worried about saying the wrong thing professionally. Making claims I shouldn't, compliance issues.", a: "I write carefully. I don't make clinical claims, guarantee outcomes, or use language that could create regulatory issues for professional services businesses. If you have specific advertising guidelines from your professional body, share them. I'll write to them. This is a conversation I have with almost every professional services client." }
-    ]
-  },
-  {
-    id: 'global',
-    title: 'Global Clients',
-    qs: [
-      { q: 'Do you work with clients outside New Zealand?', a: 'Yes. My first client outside New Zealand came from San Francisco. I work globally. The whole process happens remotely.' },
-      { q: 'Does the time zone difference matter?', a: "Not really. The interview is booked at a time that suits you. Communication is asynchronous. Texts and emails. So time zones don't create delays." },
-      { q: "Can you set up my Google Business Profile if I'm not in New Zealand?", a: 'Yes. Set up for your location, wherever you are.' }
-    ]
+      { q: 'What does this actually cost?', a: 'Websites from $3,800 + GST to build. Care from $149 a month + GST. Where yours lands depends on what we’re building, and you’ll have your exact numbers in a written proposal before anything starts.' },
+      { q: 'Why don’t you list exact prices?', a: 'Because exact prices belong to exact sites. I’d rather price your actual job than sell you a package that half fits. The proposal is free, it’s specific to you, and it’s yours even if you take it elsewhere.' },
+      { q: 'How much is the Website Audit?', a: '$997 + GST, one-time, delivered within five working days. And if you build with me within 90 days, the full $997 comes off your build price.' },
+      { q: 'Why is there a monthly fee?', a: 'Because a website isn’t a thing you buy once, it’s a thing that runs. The monthly means it stays fast, secure, accurate and current, and that the person watching it is me.' },
+      { q: 'What if I don’t love the site?', a: 'Full refund of your setup fee, minus card processing (about 3%) and domain costs. You see the complete finished site before the subscription starts. Love it or leave it.' },
+      { q: 'What currency do international clients pay in?', a: 'New Zealand dollars. Your bank handles the conversion.' },
+    ],
   },
   {
     id: 'honest',
     title: 'The Honest Ones',
     qs: [
-      { q: "I've been burned by a web designer before. How is this different?", a: "The YourHQ model is structurally different. You see the complete site before the subscription starts. If you don't love it, you get a refund. I stay on as Caretaker after launch. Every site is built by me personally. That doesn't mean everything will be perfect. But it means you're not alone if it isn't." },
-      { q: 'What if my business changes after the site is built?', a: "Message me. That's what the Caretaker model is for. New service, new direction, new name. I update it." },
-      { q: 'What if I outgrow what you offer?', a: "Then I'll tell you. If your business gets to the point where you need a custom web app or a full e-commerce platform, I'll point you in the right direction. I'm not going to hold you back to keep you as a client." },
-      { q: 'What if I just want to ask a question first?', a: 'Text me on 027 566 8803 or fill in the contact form. No commitment. No pitch. Just a straight answer.' }
-    ]
-  }
+      { q: 'I’ve been burned by a web designer before. How is this different?', a: 'Structurally, not just in spirit. You see the complete site before you commit to the subscription, and if you don’t love it, you get a refund. Every site is built by me personally, and I stay on after launch as the person who looks after it. That doesn’t mean everything will be perfect. It means you’re not alone if it isn’t.' },
+      { q: 'How do I know you won’t disappear like the last one?', a: 'Because disappearing would break my whole business, not just your website. My revenue is monthly care, not one-off builds, which means I only do well if your site is looked after for years. The industry’s build-and-disappear model is exactly what YourHQ was designed against.' },
+      { q: 'What if my business changes after the site is built?', a: 'Message me. New service, new direction, new name. That’s what the care fee is for.' },
+      { q: 'What if my photos and content aren’t very good?', a: 'I’ll tell you, honestly and early, and we’ll work out what’s needed. I won’t build something that undersells you just to fill space.' },
+      { q: 'I’m worried about compliance. Professional claims, advertising rules.', a: 'I write carefully. No clinical claims, no guaranteed outcomes, no language that creates regulatory issues for professional services. If your professional body has advertising guidelines, share them and I’ll write to them. I have this conversation with almost every professional services client.' },
+      { q: 'What if I just want to ask a question first?', a: 'Text 027 566 8803, email lian@yourhq.co.nz, or use the form. No commitment, no pitch. Just a straight answer.' },
+    ],
+  },
 ];
-
-// Build FAQPage JSON-LD from the same sections data so AEO and on-page content stay in sync.
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": sections.flatMap((s) =>
-    s.qs.map(({ q, a }) => ({
-      "@type": "Question",
-      "name": q,
-      "acceptedAnswer": { "@type": "Answer", "text": a }
-    }))
-  )
-};
 ---
 
 <Layout
-  title="FAQ | YourHQ"
-  description="Honest answers about the process, the build, ownership, pricing, and working with Lian. If your question isn't here, just message me."
+  title="FAQ | Straight Answers | YourHQ"
+  description="Everything you want to know before you say yes. Process, pricing, ownership, the guarantee, and the honest answers most web designers won't give you."
 >
   <BreadcrumbSchema
     slot="head"
@@ -115,100 +80,77 @@ const faqSchema = {
       { name: 'FAQ', url: 'https://yourhq.co.nz/faq' }
     ]}
   />
-  <script slot="head" is:inline type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <Navbar client:load />
 
-  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white overflow-hidden">
 
     <!-- HERO -->
-    <section class="pt-24 md:pt-32 pb-20 border-b border-carbon/5">
+    <section class="pt-24 md:pt-32 pb-16 md:pb-20 border-b border-carbon/10">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl">
           <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
             <span class="w-8 h-[1px] bg-deepGreen"></span> FAQ
           </span>
-          <h1 class="font-display font-bold text-hero uppercase tracking-tight leading-none mb-8 text-carbon">
-            Everything You Want to Know <br/>
-            <span class="font-serif italic text-terracotta normal-case font-normal">Before You Say Yes.</span>
+          <h1 class="font-display font-bold text-hero uppercase leading-none tracking-tight mb-8 text-carbon">
+            Everything You Want to Know
+            <span class="font-serif italic text-terracotta normal-case font-normal block mt-2">Before You Say Yes.</span>
           </h1>
-          <p class="font-sans text-subhead text-softGrey max-w-3xl">
-            Honest answers. No jargon. If your question isn't here, just message me.
+          <p class="font-sans text-subhead text-softGrey max-w-2xl">
+            Honest answers, in plain English. If your question isn&rsquo;t here, just message me.
           </p>
         </div>
-      </div>
-    </section>
-
-    <!-- JUMP LINKS -->
-    <section class="py-6 bg-white/90 backdrop-blur-md border-b border-carbon/5 sticky top-0 z-40">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-wrap gap-2 md:gap-3 justify-center items-center">
+        <nav class="flex flex-wrap gap-3 mt-12">
           {sections.map((s) => (
-            <a href={`#${s.id}`} class="px-5 py-2.5 rounded-full bg-surface border border-carbon/10 hover:border-carbon/30 hover:shadow-subtle transition-all duration-300 font-sans text-ui font-medium text-carbon text-center">
-              {s.title}
-            </a>
+            <a href={`#${s.id}`} class="font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border border-carbon/15 px-4 py-2 rounded-full hover:border-carbon hover:bg-white transition-colors">{s.title}</a>
           ))}
-        </div>
+        </nav>
       </div>
     </section>
 
     <!-- SECTIONS -->
-    {sections.map((s, idx) => (
-      <section id={s.id} class={`py-24 md:py-32 ${idx % 2 === 0 ? 'bg-bone' : 'bg-surface'} border-b border-carbon/5 scroll-mt-24`}>
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <div class="mb-12 text-center md:text-left">
-            <span class="font-mono text-badge uppercase text-terracotta mb-4 block">Section 0{idx + 1}</span>
-            <h2 class="font-display font-bold text-display uppercase tracking-tight text-carbon">
-              {s.title}
+    {sections.map((section, idx) => (
+      <section id={section.id} class={`py-20 md:py-28 px-4 sm:px-6 lg:px-8 border-b border-carbon/10 scroll-mt-24 ${idx % 2 === 1 ? 'bg-white' : 'bg-bone'}`}>
+        <div class="max-w-screen-xl mx-auto grid md:grid-cols-12 gap-10 md:gap-16 items-start">
+          <div class="md:col-span-4">
+            <h2 class="font-display font-bold text-headline uppercase tracking-tight text-carbon md:sticky md:top-28">
+              {section.title}
             </h2>
           </div>
-
-          <div class="space-y-6">
-            {s.qs.map((item) => (
-              <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-subtle hover:shadow-elegant transition-all duration-300">
-                <h3 class="font-display font-bold text-subhead mb-3 text-carbon">{item.q}</h3>
-                <p class="font-sans text-body text-softGrey leading-relaxed">{item.a}</p>
-              </div>
-            ))}
+          <div class="md:col-span-8 max-w-3xl">
+            <div class="divide-y divide-carbon/10 border-t border-carbon/10">
+              {section.qs.map((item) => (
+                <div class="py-6">
+                  <h3 class="font-sans font-medium text-carbon mb-2">{item.q}</h3>
+                  <p class="font-sans text-sm text-softGrey leading-relaxed">{item.a}</p>
+                </div>
+              ))}
+            </div>
           </div>
-
         </div>
       </section>
     ))}
 
-    <!-- STILL HAVE A QUESTION -->
-    <section class="bg-carbon text-bone py-32 text-center px-4">
-      <div class="max-w-4xl mx-auto">
-        <span class="font-mono text-badge uppercase text-terracotta block mb-6">The Next Step</span>
-        <h2 class="font-display font-bold text-display uppercase tracking-tight mb-8 text-white">
-          Still Have <br/>
-          <span class="font-serif italic text-bone/60 normal-case font-normal">a Question?</span>
+    <!-- FINAL CTA -->
+    <section class="py-24 md:py-32 bg-surface text-center px-4">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight mb-6 text-carbon">
+          Still have <span class="font-serif italic text-terracotta normal-case font-normal">a question?</span>
         </h2>
-        
-        <p class="font-sans text-subhead text-bone/80 mb-12 max-w-2xl mx-auto">
-          Didn't find what you were looking for?
+        <p class="font-sans text-body text-softGrey mb-10">
+          Text {PHONE} · <a href={`mailto:${EMAIL}`} class="underline decoration-carbon/30 underline-offset-4 hover:decoration-carbon text-carbon">{EMAIL}</a>
         </p>
-
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-          <a href="sms:0275668803" class="inline-flex justify-center items-center bg-surface text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-white transition-all duration-300 shadow-elegant hover:shadow-float">
-            Text 027 566 8803
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-carbon text-white px-10 py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 shadow-subtle">
+            Book a Website Chat
           </a>
-          <a href="mailto:lian@yourhq.co.nz" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
-            Email lian@yourhq.co.nz
-          </a>
-        </div>
-
-        <div class="border-t border-white/10 pt-16 flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href={buildLink} class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
-            Start Your Build
-          </a>
-          <a href="/pricing" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
-            See Pricing
+          <a href="/contact" class="inline-block bg-transparent text-carbon border border-carbon/20 px-10 py-4 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300">
+            Or send the form
           </a>
         </div>
       </div>
     </section>
 
   </main>
+
   <Footer />
 </Layout>

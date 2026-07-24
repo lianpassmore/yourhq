@@ -3,17 +3,23 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import ContactForm from '../components/ContactForm.jsx';
+import { BOOKING_URL, PHONE, EMAIL } from '../lib/site.js';
 
-const buildLink = "/start-build";
+const whatHappens = [
+  { s: 'Step 1', h: 'You book the chat or send the form', b: 'Two minutes, either way.' },
+  { s: 'Step 2', h: 'I get back to you', b: 'I’ll text or email you within one business day. Not an automated reply. Me.' },
+  { s: 'Step 3', h: 'You get a proposal', b: 'If we’re a fit, one page in writing within a couple of days: your site, what it includes, your numbers. No surprises, no obligation.' },
+  { s: 'Step 4', h: 'You decide', b: 'Take your time. I take on a limited number of builds each month, so if the month is full I’ll hold your spot in the next one.' },
+];
 ---
 
 <Layout
-  title="Contact YourHQ"
-  description="Ready to hand this over? One conversation is all it takes. Text 027 566 8803 or send a message and Lian or Nic will be in touch within one business day."
+  title="Book a Free 20-Minute Website Chat | YourHQ Whangārei"
+  description="Book a free 20-minute chat about your website with Lian at YourHQ, or send the form if you'd rather write. Based in Whangārei, working with clients worldwide."
 >
   <Navbar client:load />
 
-  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white overflow-hidden">
 
     <!-- HERO -->
     <section class="pt-24 md:pt-32 pb-16 md:pb-24 border-b border-carbon/5">
@@ -23,10 +29,11 @@ const buildLink = "/start-build";
             <span class="w-8 h-[1px] bg-deepGreen"></span> Get in Touch
           </span>
           <h1 class="font-display font-bold text-hero leading-none tracking-tight mb-8 text-carbon uppercase">
-            Ready to Hand This Over?
+            Two Ways In.<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">Both Easy.</span>
           </h1>
           <p class="font-sans text-subhead text-softGrey max-w-2xl">
-            One conversation is all it takes. Tell me a bit about yourself and I'll take it from there.
+            Book a free 20-minute chat, or send the form if you&rsquo;d rather do this in writing. Same honesty, same outcome, no prep either way.
           </p>
         </div>
       </div>
@@ -37,81 +44,70 @@ const buildLink = "/start-build";
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-12 gap-8 md:gap-16 items-start">
 
-            <!-- LEFT: WHAT HAPPENS / CONTACT -->
+            <!-- LEFT: THE CHAT -->
             <div class="md:col-span-5 bg-carbon text-bone rounded-3xl p-8 md:p-12 shadow-elegant">
-                <h2 class="font-display font-bold text-headline uppercase mb-10 text-white">
-                  Here's What Happens<br/>
-                  <span class="font-serif italic text-bone/60 normal-case font-normal">When You Reach Out.</span>
+                <h2 class="font-display font-bold text-headline uppercase mb-4 text-white">
+                  The Website Chat.<br/>
+                  <span class="font-serif italic text-bone/60 normal-case font-normal">Twenty minutes, free.</span>
                 </h2>
-
-                <div class="space-y-8 mb-12">
-                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
-                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 1</p>
-                    <p class="font-sans text-body font-medium text-white mb-1">You send this form</p>
-                    <p class="font-sans text-ui text-bone/70">Takes two minutes.</p>
-                  </div>
-                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
-                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 2</p>
-                    <p class="font-sans text-body font-medium text-white mb-1">I get back to you</p>
-                    <p class="font-sans text-ui text-bone/70">Lian or Nic will text you within one business day. Not an automated reply. A real person.</p>
-                  </div>
-                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
-                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 3</p>
-                    <p class="font-sans text-body font-medium text-white mb-1">We book your Drive-Home Interview</p>
-                    <p class="font-sans text-ui text-bone/70">A quick call at a time that suits you. Car, couch, between meetings.</p>
-                  </div>
-                  <div class="border-l border-white/20 pl-6 group transition-colors hover:border-terracotta/50">
-                    <p class="font-mono text-badge uppercase text-terracotta mb-2">Step 4</p>
-                    <p class="font-sans text-body font-medium text-white mb-1">I handle the rest</p>
-                    <p class="font-sans text-ui text-bone/70">Copy, content raid, build, preview. You approve. We go live.</p>
-                  </div>
+                <div class="font-sans text-body text-bone/80 space-y-4 mb-8">
+                  <p>A relaxed chat about your website, or the one you don&rsquo;t have yet. No prep, no pitch, no homework. If you&rsquo;ve got an existing site, I&rsquo;ll look at it before we talk so we don&rsquo;t waste your twenty minutes on things I can see for myself.</p>
+                  <p>You&rsquo;ll leave knowing your next step, whether or not it&rsquo;s with me. If I&rsquo;m not the right fit, I&rsquo;ll tell you straight and point you somewhere better.</p>
                 </div>
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-sm hover:bg-terracotta hover:text-white transition-colors duration-300 mb-4">
+                  Book a Website Chat
+                </a>
+                <p class="font-sans text-sm text-bone/60 text-center mb-3">Not a phone person? Totally fine. The form does the same job. &rarr;</p>
+                <p class="font-sans text-sm text-bone/60 text-center mb-12">
+                  Or answer seven quick questions and
+                  <a href="/request-a-quote" class="text-bone underline underline-offset-4 hover:text-terracotta transition-colors">get a quote without a call &rarr;</a>
+                </p>
 
                 <div class="border-t border-white/10 pt-10 mb-10">
                   <p class="font-mono text-badge uppercase text-softGrey mb-6">Contact Details</p>
                   <div class="space-y-4">
-                    <a href="sms:0275668803" class="block font-sans text-subhead font-medium text-white hover:text-signal transition-colors">Text: 027 566 8803</a>
-                    <a href="mailto:lian@yourhq.co.nz" class="block font-sans text-subhead font-medium text-white hover:text-signal transition-colors">Email: lian@yourhq.co.nz</a>
+                    <a href="sms:0275668803" class="block font-sans text-subhead font-medium text-white hover:text-terracotta transition-colors">Text: {PHONE}</a>
+                    <a href={`mailto:${EMAIL}`} class="block font-sans text-subhead font-medium text-white hover:text-terracotta transition-colors">Email: {EMAIL}</a>
                   </div>
                   <p class="font-sans text-ui text-bone/50 mt-8">
                     Based in Whangārei, Aotearoa New Zealand. Working with clients worldwide.
                   </p>
                 </div>
 
-                <div class="border border-white/10 rounded-2xl p-8 bg-white/5">
-                  <p class="font-sans text-body font-medium text-white mb-3">Not quite ready?</p>
-                  <p class="font-sans text-ui text-bone/70 leading-relaxed">
-                    That's fine. Use the form to ask a question. No commitment, no pressure. If I'm not the right fit, I'll tell you honestly and point you somewhere better.
-                  </p>
+                <div class="border-t border-white/10 pt-10">
+                  <p class="font-mono text-badge uppercase text-softGrey mb-6">What Happens Next</p>
+                  <div class="space-y-6">
+                    {whatHappens.map((step) => (
+                      <div class="border-l border-white/20 pl-6">
+                        <p class="font-mono text-badge uppercase text-terracotta mb-2">{step.s}</p>
+                        <p class="font-sans text-body font-medium text-white mb-1">{step.h}</p>
+                        <p class="font-sans text-ui text-bone/70">{step.b}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
             </div>
 
-            <!-- RIGHT: FORM -->
+            <!-- RIGHT: THE FORM -->
             <div class="md:col-span-7 bg-white rounded-3xl p-8 md:p-16 border border-carbon/5 shadow-subtle flex flex-col justify-center">
 
-                <h2 class="font-display font-bold text-display uppercase text-carbon mb-2">Tell Me About You</h2>
-                <p class="font-serif italic text-accent text-softGrey mb-12">Five minutes. That's all this takes.</p>
+                <h2 class="font-display font-bold text-display uppercase text-carbon mb-2">Rather Write It Down?</h2>
+                <p class="font-serif italic text-accent text-softGrey mb-12">Some people think better in writing. This form gets you the same straight answer and the same proposal as the call.</p>
 
-                <!-- Ensure ContactForm has internal styling that matches or inherits from the page -->
                 <ContactForm client:load />
+
+                <div class="mt-12 border-t border-carbon/10 pt-8">
+                  <p class="font-sans text-body font-medium text-carbon mb-2">Already have a site? Want the full evidence first?</p>
+                  <p class="font-sans text-ui text-softGrey leading-relaxed mb-4">
+                    The Website Audit scores every page, rewrites your copy, and hands you the complete rebuild brief. $997 + GST, and it comes off your build price if you go ahead within 90 days.
+                  </p>
+                  <a href="/website-audit" class="font-mono text-[10px] uppercase tracking-[0.15em] text-carbon border-b border-carbon/20 pb-1 hover:border-carbon transition-colors">
+                    See the Website Audit &rarr;
+                  </a>
+                </div>
 
             </div>
         </div>
-      </div>
-    </section>
-
-    <!-- SKIP TO BUILD -->
-    <section class="py-24 md:py-32 bg-surface border-t border-carbon/5">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="font-display font-bold text-display uppercase mb-6 text-carbon">
-          Ready to Skip Straight to It?
-        </h2>
-        <p class="font-sans text-body text-softGrey mb-12">
-          Lock in your build and I'll text you a private link to your Drive-Home Interview.
-        </p>
-        <a href={buildLink} class="inline-flex justify-center items-center bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-all duration-300 shadow-elegant hover:shadow-float">
-          Start Your Build &rarr;
-        </a>
       </div>
     </section>
 

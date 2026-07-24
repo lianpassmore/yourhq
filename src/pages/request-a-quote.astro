@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import QuoteForm from '../components/QuoteForm.jsx';
+import { BOOKING_URL, PHONE, EMAIL } from '../lib/site.js';
+---
+
+<Layout
+  title="Request a Website Quote | No Call Needed | YourHQ"
+  description="Answer seven quick questions and I'll send you a personal quote for your website. No call, no jargon, no obligation. Websites from $3,800 + GST."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white overflow-hidden">
+
+    <!-- HERO -->
+    <section class="pt-24 md:pt-32 pb-12 md:pb-16 border-b border-carbon/5">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+          <span class="w-8 h-[1px] bg-deepGreen"></span> Request a Quote
+        </span>
+        <h1 class="font-display font-bold text-hero leading-none tracking-tight mb-8 text-carbon uppercase">
+          Too Busy<br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">for a Call?</span>
+        </h1>
+        <p class="font-sans text-subhead text-softGrey max-w-2xl">
+          Fill in this form and I&rsquo;ll send you a quote. Takes about three minutes, any time of day.
+          If you&rsquo;re not sure about something, guess or skip it. That&rsquo;s what the quote is for.
+        </p>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="py-14 md:py-20">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <QuoteForm client:load />
+
+        <!-- Soft alternatives — never a loud third door. -->
+        <div class="mt-12 border-t border-carbon/10 pt-8">
+          <p class="font-mono text-badge uppercase text-softGrey mb-4">Rather Not Do It In Writing?</p>
+          <div class="font-sans text-ui text-softGrey leading-relaxed space-y-2">
+            <p>
+              Prefer to talk it through?
+              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="text-carbon border-b border-carbon/30 hover:border-carbon transition-colors">Book a free 20-minute chat &rarr;</a>
+            </p>
+            <p>
+              Or just email me directly:
+              <a href={`mailto:${EMAIL}`} class="text-carbon border-b border-carbon/30 hover:border-carbon transition-colors">{EMAIL}</a>,
+              or text <a href="sms:0275668803" class="text-carbon border-b border-carbon/30 hover:border-carbon transition-colors">{PHONE}</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Layout>

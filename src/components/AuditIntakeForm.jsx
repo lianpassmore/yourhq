@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { notifyNtfy } from '../lib/notify';
+import { notifyNtfy, notifyOwner } from '../lib/notify';
 
 // Shared, single-source-of-truth audit intake form.
 // Used by both /audit-intake and /next-steps-web-audit (skipped version).
@@ -222,6 +222,22 @@ export default function AuditIntakeForm() {
       'New Audit Intake',
       'yourhq-web-audit-questions',
     );
+
+    notifyOwner({
+      subject: `Audit intake — ${row.business_name || row.name || 'someone'}`,
+      intro: `${row.name || 'Someone'} submitted their Website Audit answers (full answers in the dashboard).`,
+      fields: [
+        { label: 'Name', value: row.name },
+        { label: 'Business', value: row.business_name },
+        { label: 'Website', value: row.website_url },
+        { label: 'Email', value: row.email },
+        { label: 'Main goal', value: row.primary_goal },
+        { label: 'Ideal client', value: row.ideal_client },
+        { label: 'Biggest objection', value: row.big_objection },
+      ],
+      replyTo: row.email,
+      source: 'audit-intake',
+    });
 
     // Send the confirmation email + mark any matching audit_payment as submitted.
     // Handled server-side (Resend secret) so this is best-effort and non-blocking.

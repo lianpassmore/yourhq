@@ -4,23 +4,63 @@ import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
 import HowToSchema from '../components/HowToSchema.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
+import { BOOKING_URL, PHONE } from '../lib/site.js';
 
-const buildLink = "/start-build";
+const buildIncludes = [
+  'Up to 8 pages, built by hand',
+  'Blog and resources, as standard',
+  'Portfolio and case study layouts',
+  'Media and press section',
+  'Socials embedded (Instagram, Facebook, Threads, X, LinkedIn)',
+  'Google Business Profile set up or optimised',
+  'Enquiry form direct to your inbox',
+  'Email capture you own (CSV)',
+  'Found on Google, cited by AI tools',
+  'Stock photos if needed, or your photos optimised',
+];
 
-const faqsHowItWorks = [
+const valueStack = [
+  { h: 'Your story and copy, written for you.', b: 'A professional copywriter for an 8-page site typically runs $1,500 to $3,000, and you’d still have to brief them. Here it comes from one conversation, in your voice, and you approve every word.' },
+  { h: 'Market and audience research.', b: 'Done properly, $500 to $1,500 from a marketing consultant. Included, before a word of your copy is written.' },
+  { h: 'The site itself, built by hand.', b: 'An agency build for a custom 8-page site runs $5,000 to $15,000 in NZ, and you’d manage the project. Yours is built page by page, loads in under a second, and you spend zero time on it.' },
+  { h: 'A blog, ready to go.', b: 'Usually a $500 to $1,000 add-on, if it’s offered at all. Included, because businesses that publish get found and sites that never change get buried.' },
+  { h: 'Google Business Profile, set up properly.', b: 'Typically $300 to $500 from a local SEO person. Included, because it’s where local search happens.' },
+  { h: 'Found on Google, cited by AI tools.', b: 'On-page SEO setup alone is commonly $500 to $1,500. Included and built in from the first line, not bolted on after.' },
+  { h: 'The unglamorous plumbing.', b: 'Enquiry form, email capture you own, socials embedded, domain in your name, hosting, security. The pieces everyone else itemises. Included.' },
+];
+
+const iNeed = [
+  'One 20-minute Website Chat',
+  'One Drive-Home Interview call',
+  'Your business name and contact details',
+  'One round of copy feedback',
+  'Any logos or specific photos you want included (optional, I’ll find what I need otherwise)',
+];
+
+const iDontNeed = [
+  'You writing a single word of copy',
+  'You briefing a designer',
+  'Weekly check-in meetings',
+  'A "website project" taking over your calendar',
+  'You learning anything new',
+];
+
+const faqs = [
   { q: 'Do I have to write anything at all?', a: 'Nothing. I write every word, from your interview, your existing content, and one round of your feedback.' },
-  { q: 'I already have a website. Is this a rebuild?', a: 'Yes, and that\'s most of my clients. You\'ve grown past what you have. I start fresh, in your voice, to where you are now.' },
-  { q: 'Is this for a business or a personal brand?', a: 'Both. Same standard. The difference is what\'s at the centre. Your business, or you.' },
-  { q: 'What if I don\'t love the site?', a: 'Full refund of your setup fee, minus Stripe processing (~3%) and domain costs. You see the complete finished site before the subscription starts.' },
-  { q: 'How much time does this take from my end?', a: 'One interview call. One round of copy feedback. Less than 30 minutes total across the whole process.' },
-  { q: 'Do you work with clients outside New Zealand?', a: 'Yes. I\'m based in Whangārei, Aotearoa, and I work globally. Everything happens remotely.' },
-  { q: 'What if my existing photos and content aren\'t very good?', a: 'I\'ll tell you. Honestly and early. The content raid pulls everything I can find, but I won\'t use low-quality photos or outdated content just to fill space. If what\'s there isn\'t up to standard, I\'ll flag it before we build and we\'ll work out what\'s needed. That might mean commissioning a photographer, using stock in the short term, or waiting until you have something worth putting on the site. I\'d rather have that conversation upfront than build something that doesn\'t represent you properly.' }
+  { q: 'I already have a website. Is this a rebuild?', a: 'Yes, and that’s most of my clients. You’ve grown past what you have. I start fresh, in your voice, to where you are now. If you want the evidence before deciding, start with the Website Audit.' },
+  { q: 'Is this for a business or a personal brand?', a: 'Both. Same standard. The difference is what’s at the centre: your business, or you.' },
+  { q: 'What happens on the Website Chat?', a: 'Twenty minutes, free, no prep. You tell me what’s going on, I tell you honestly what I’d do, and if we’re a fit you get a written proposal within days. If we’re not, I’ll point you somewhere better.' },
+  { q: 'What if I don’t love the site?', a: 'Full refund of your setup fee, minus card processing (about 3%) and domain costs. You see the complete finished site before the subscription starts.' },
+  { q: 'How much time does this take from my end?', a: 'One chat, one interview call, one round of copy feedback. Less than an hour all up, and most of that is you talking about your favourite subject.' },
+  { q: 'Why do you limit builds each month?', a: 'Because every site I build, I keep. Hosting it, updating it, answering the texts, for good. The cap means every build gets done properly and the people already on my books never wait because I’m chasing the next job.' },
+  { q: 'Do you work with clients outside New Zealand?', a: 'Yes. Based in Whangārei, Aotearoa, working globally. Everything happens remotely.' },
+  { q: 'What if my existing photos and content aren’t very good?', a: 'I’ll tell you, honestly and early. The content raid pulls everything I can find, but I won’t use low-quality photos or outdated content just to fill space. If what’s there isn’t up to standard, we’ll work out what’s needed. That might mean a photographer, stock in the short term, or waiting until you have something worth putting up. I’d rather have that conversation upfront than build something that doesn’t represent you.' },
 ];
 ---
 
 <Layout
-  title="How It Works | YourHQ"
-  description="One conversation. I handle everything else. Hand-coded websites, written in your voice, looked after forever. Most clients are live within 1 to 2 weeks."
+  title="How It Works | One Conversation Websites | YourHQ"
+  description="From a free 20-minute chat to a live website in 1 to 2 weeks. No copy to write, no platform to learn, no project to manage. The full YourHQ process."
 >
   <HowToSchema slot="head" />
   <BreadcrumbSchema
@@ -32,7 +72,7 @@ const faqsHowItWorks = [
   />
   <Navbar client:load />
 
-  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white">
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white overflow-hidden">
 
     <!-- ============================================================
          HERO
@@ -49,8 +89,36 @@ const faqsHowItWorks = [
           </h1>
           <p class="font-sans text-subhead text-softGrey max-w-2xl">
             No copy to write. No designer to brief. No platform to learn. No project to manage.<br/>
-            You talk. I build your digital home. Most clients are live within 1 to 2 weeks.
+            You talk. I build your digital home. Most clients are live within 1 to 2 weeks of saying yes.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOW IT STARTS
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-12 gap-12 md:gap-16 items-start">
+        <div class="md:col-span-5">
+          <h2 class="font-display font-bold text-display uppercase text-carbon leading-[1.05]">
+            It starts with a chat.<br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">Not a contract.</span>
+          </h2>
+        </div>
+        <div class="md:col-span-7 space-y-6 font-sans text-body text-softGrey max-w-2xl">
+          <p>Book a free 20-minute Website Chat. No prep, no pitch, no homework. You tell me what&rsquo;s going on, I look at whatever you&rsquo;ve already got before we talk, and I tell you honestly what I&rsquo;d do in your shoes. If I&rsquo;m not the right fit, I&rsquo;ll say so and point you somewhere better.</p>
+          <p>Not a phone person? Completely fine, it&rsquo;s not for everyone. Fill in the contact form instead and we&rsquo;ll do the whole thing in writing. Same honesty, same proposal, no call required.</p>
+          <p>If we&rsquo;re a fit, you get a proposal within a couple of days. One page. Your site, what it includes, what it costs to build, what the monthly care number is. In writing, no surprises, no obligation.</p>
+          <p>Say yes, and I book you in. I take on a limited number of builds each month, so every site gets done properly and nobody already on my books waits for support. If the month is full, I&rsquo;ll tell you straight and hold your spot in the next one.</p>
+          <div class="flex flex-col sm:flex-row gap-4 pt-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-carbon text-white px-8 py-3.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 text-center shadow-subtle">
+              Book a Website Chat
+            </a>
+            <a href="/contact" class="inline-block bg-transparent text-carbon border border-carbon/20 px-8 py-3.5 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300 text-center">
+              Or start with the form instead
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -58,26 +126,26 @@ const faqsHowItWorks = [
     <!-- ============================================================
          THE PROMISE
     ============================================================ -->
-    <section class="py-24 md:py-32 bg-white border-b border-carbon/5 shadow-subtle">
+    <section class="py-24 md:py-32 bg-bone border-b border-carbon/5">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center md:text-left">
           <h2 class="font-display font-bold text-display uppercase mb-10 text-carbon">
-            You don't become<br/>
+            You don&rsquo;t become<br/>
             the project manager.<br/>
             <span class="font-serif italic text-softGrey normal-case font-normal">Not even close.</span>
           </h2>
           <div class="space-y-6 md:border-l border-carbon/10 md:pl-8">
             <p class="font-sans text-body text-softGrey">
-              You're not here to manage a build. You're here because you want this off your plate. Permanently, properly, by someone who actually knows what they're doing.
+              You&rsquo;re not here to manage a build. You&rsquo;re here because you want this off your plate. Permanently, properly, by someone who knows what they&rsquo;re doing.
             </p>
             <p class="font-sans text-body text-softGrey">
-              So here's the deal. You talk once, you give feedback once, and then you don't hear from me until there's something worth seeing.
+              So here&rsquo;s the deal. You talk once, you give feedback once, and then you don&rsquo;t hear from me until there&rsquo;s something worth seeing.
             </p>
             <p class="font-sans text-body font-medium text-carbon">
-              Most clients spend less than 30 minutes on their end. Start to live site.
+              Most clients spend less than 30 minutes on their end, start to live site.
             </p>
             <p class="font-serif italic text-accent text-terracotta">
-              That's not a selling point. That's just how this should work.
+              That&rsquo;s not a selling point. That&rsquo;s just how this should work.
             </p>
           </div>
         </div>
@@ -85,13 +153,12 @@ const faqsHowItWorks = [
     </section>
 
     <!-- ============================================================
-         THE PROCESS (TIMELINE)
+         THE BUILD PROCESS (TIMELINE)
     ============================================================ -->
     <section class="py-24 md:py-32 bg-surface border-b border-carbon/5">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div class="relative">
-            <!-- Elegant Timeline Line -->
             <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-[1px] bg-carbon/5 md:-ml-[0.5px]"></div>
 
             <!-- STEP 1 -->
@@ -103,20 +170,22 @@ const faqsHowItWorks = [
                     <p class="font-sans text-body text-softGrey mb-4">
                         Call my AI assistant whenever suits. In the car on the way home, between meetings, on the couch. No forms, no typing, no scheduled Zoom. You just talk.
                     </p>
+                    <p class="font-sans text-body text-softGrey mb-4">
+                        It asks the questions that pull out your story. Your work, your clients, the things that make you unmistakably you. Most people are surprised by what comes out. The best website copy lives in conversation, not in a brief.
+                    </p>
                     <p class="font-sans text-body text-softGrey mb-6">
-                        I ask the questions that pull out your story. Your work, your clients, your vision, the things that make you unmistakably you. Most people are surprised by what comes out. The best website copy lives in conversation, not in a brief.
+                        Prefer writing to talking? There&rsquo;s a written version of the interview you can fill in at your own pace instead. Same questions, same result, no talking required.
                     </p>
                     <p class="font-serif italic text-accent text-softGrey">
-                        You don't fill in a form. You don't write a brief. You don't prepare anything. <strong class="font-sans font-medium text-carbon not-italic text-body">You just talk.</strong>
+                        You don&rsquo;t fill in a form. You don&rsquo;t write a brief. You don&rsquo;t prepare anything. <strong class="font-sans font-medium text-carbon not-italic text-body">You just talk.</strong>
                     </p>
                 </div>
-                <!-- Timeline Dot -->
                 <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
                 <div class="pl-20 md:pl-16 order-3 relative">
                     <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 left-12 select-none z-0">01</span>
                     <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm">
                         <strong class="block font-mono text-badge uppercase text-softGrey mb-3">Time Required</strong>
-                        <p class="font-display font-bold text-subhead text-carbon mb-1">15 Minutes</p>
+                        <p class="font-display font-bold text-subhead text-carbon mb-1">15 to 20 Minutes</p>
                         <p class="font-sans text-ui text-softGrey">One conversation.</p>
                     </div>
                 </div>
@@ -140,10 +209,10 @@ const faqsHowItWorks = [
                         I turn your interview into full website copy. Written in your voice, reviewed by me personally. You get a private page showing every section clearly laid out, with a comment field next to each block.
                     </p>
                     <p class="font-sans text-body text-softGrey mb-6">
-                        Read it. Tell me what feels right and what doesn't. One round of changes. Nothing gets built until you've signed off on every word.
+                        Read it. Tell me what feels right and what doesn&rsquo;t. One round of changes. Nothing gets built until you&rsquo;ve signed off on every word.
                     </p>
                     <p class="font-serif italic text-accent text-softGrey">
-                        You don't write a word. You don't stare at a blank page. You don't guess at what your site should say. <strong class="font-sans font-medium text-carbon not-italic text-body">You just tell me what feels right.</strong>
+                        You don&rsquo;t write a word. You don&rsquo;t stare at a blank page. You don&rsquo;t guess at what your site should say. <strong class="font-sans font-medium text-carbon not-italic text-body">You just tell me what feels right.</strong>
                     </p>
                 </div>
             </div>
@@ -155,13 +224,13 @@ const faqsHowItWorks = [
                     <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">The Content Raid</h3>
                     <p class="font-mono text-badge uppercase text-terracotta mb-6 pb-4 border-b border-carbon/5 inline-block md:block md:ml-auto">Your time: zero</p>
                     <p class="font-sans text-body text-softGrey mb-4">
-                        While you're getting on with your life, I go through your existing digital footprint. Instagram, LinkedIn, Facebook, Google Reviews, Substack, your existing site, anywhere you already show up.
+                        While you&rsquo;re getting on with your life, I go through your existing digital footprint. Instagram, LinkedIn, Facebook, Google Reviews, your existing site, anywhere you already show up.
                     </p>
                     <p class="font-sans text-body text-softGrey mb-6">
-                        I pull photos, testimonials, media mentions, business details. The good stuff you've probably forgotten you have. You don't send me a thing.
+                        I pull photos, testimonials, media mentions, business details. The good stuff you&rsquo;ve probably forgotten you have. You don&rsquo;t send me a thing.
                     </p>
                     <p class="font-serif italic text-accent text-softGrey">
-                        You don't dig through your camera roll. You don't compile a folder. You don't send me anything. <strong class="font-sans font-medium text-carbon not-italic text-body">I find it.</strong>
+                        You don&rsquo;t dig through your camera roll. You don&rsquo;t compile a folder. You don&rsquo;t send me anything. <strong class="font-sans font-medium text-carbon not-italic text-body">I find it.</strong>
                     </p>
                 </div>
                 <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
@@ -170,7 +239,7 @@ const faqsHowItWorks = [
                     <div class="bg-bone rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm">
                         <strong class="block font-mono text-badge uppercase text-carbon mb-3">Honest Note</strong>
                         <p class="font-sans text-ui text-softGrey">
-                          I work with what's actually there. If your existing content is strong, I'll use it. If it's thin or low quality, I'll tell you honestly before we build, and we'll talk about what we need to get the site to the standard it deserves. I won't build something that undersells you just because we're working around bad source material.
+                          I work with what&rsquo;s actually there. If your existing content is strong, I&rsquo;ll use it. If it&rsquo;s thin or low quality, I&rsquo;ll tell you honestly before we build, and we&rsquo;ll talk about what&rsquo;s needed to get the site to the standard it deserves. I won&rsquo;t build something that undersells you just because we&rsquo;re working around bad source material.
                         </p>
                     </div>
                 </div>
@@ -183,17 +252,9 @@ const faqsHowItWorks = [
                     <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm ml-auto text-left">
                       <strong class="block font-mono text-badge uppercase text-deepGreen mb-4 pb-3 border-b border-carbon/5">Every Build Includes</strong>
                       <ul class="space-y-3 font-sans text-ui text-softGrey">
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Up to 8 pages, hand-coded</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Blog and resources architecture</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Portfolio and case study layouts</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Media and press section</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Socials embed (Instagram, Facebook, Threads, X, LinkedIn)</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Google Business Profile setup or optimisation</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Enquiry form direct to your inbox</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Basic email capture (CSV you own)</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> SEO optimised, get found on Google</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> AI search optimised, get found when people ask ChatGPT, Perplexity, and other AI tools</li>
-                        <li class="flex gap-3"><span class="text-terracotta font-serif italic text-lg leading-none">Y</span> Stock photos if needed, or your existing photos AI-optimised</li>
+                        {buildIncludes.map((item) => (
+                          <li class="flex gap-3"><span class="text-terracotta shrink-0" aria-hidden="true">&#10003;</span> {item}</li>
+                        ))}
                       </ul>
                     </div>
                 </div>
@@ -203,13 +264,13 @@ const faqsHowItWorks = [
                     <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">The Build</h3>
                     <p class="font-mono text-badge uppercase text-deepGreen mb-6 pb-4 border-b border-carbon/5 inline-block">Your time: zero</p>
                     <p class="font-sans text-body text-softGrey mb-4">
-                        Hand-coded in Astro. Under a second to load. Mobile-first. Built for standard search and AI-generated answers. Future-ready.
+                        Every line built specifically for your site. No templates, no page builders, no plugins waiting to break. What that means for you: the site loads in under a second, nothing needs updating on your end, ever, and it&rsquo;s built to be found on Google and cited when people ask AI tools a question.
                     </p>
                     <p class="font-sans text-body text-softGrey mb-6">
-                        Not a template. Not a theme with your logo dropped in. Built from your approved copy, to your visual brand, one page at a time.
+                        Your blog is part of the build, not an extra, because businesses that publish get found and businesses that never change get buried. Same goes for your Google Business Profile, your enquiry form, and email capture you own. The standard build is everything you need to be credible and found. That&rsquo;s the point of it.
                     </p>
                     <p class="font-serif italic text-accent text-softGrey">
-                        You don't check in. You don't approve mock-ups in rounds. You don't lose a weekend to this. <strong class="font-sans font-medium text-carbon not-italic text-body">I build it.</strong>
+                        You don&rsquo;t check in. You don&rsquo;t approve mock-ups in rounds. You don&rsquo;t lose a weekend to this. <strong class="font-sans font-medium text-carbon not-italic text-body">I build it.</strong>
                     </p>
                 </div>
             </div>
@@ -224,9 +285,9 @@ const faqsHowItWorks = [
                         Private staging link. View it on your phone. Share it with whoever you want a second opinion from.
                     </p>
                     <p class="font-sans text-body text-softGrey mb-6">
-                        Love it. We go live.<br/>
-                        Want changes. I sort them.<br/>
-                        Don't love it. Full refund of your setup fee, minus Stripe processing (~3%) and domain costs.
+                        Love it, we go live.<br/>
+                        Want changes, I sort them.<br/>
+                        Don&rsquo;t love it, full refund of your setup fee, minus card processing (about 3%) and domain costs.
                     </p>
                     <p class="font-serif italic text-accent text-softGrey">
                         You see the finished thing. Not a wireframe. Not a concept. The actual site. <strong class="font-sans font-medium text-carbon not-italic text-body">Love it or leave it. That simple.</strong>
@@ -246,7 +307,7 @@ const faqsHowItWorks = [
             <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 mb-24 items-center group">
                 <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-3 md:order-1 relative">
                     <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 right-12 select-none z-0">06</span>
-                    <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm ml-auto text-left md:text-right">
+                    <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant group-hover:shadow-float transition-all duration-500 relative z-10 max-w-sm ml-auto">
                         <strong class="block font-mono text-badge uppercase text-softGrey mb-3">Result</strong>
                         <p class="font-display font-bold text-subhead text-carbon mb-1">Permanent Address</p>
                         <p class="font-sans text-ui text-softGrey">Within 24 hours.</p>
@@ -261,7 +322,7 @@ const faqsHowItWorks = [
                         Domain connected within 24 hours of your approval. Google notified. Your permanent address on the internet is set.
                     </p>
                     <p class="font-serif italic text-accent text-softGrey">
-                        You don't touch a thing. Domain connected. Google notified. <strong class="font-sans font-medium text-carbon not-italic text-body">You're live.</strong>
+                        You don&rsquo;t touch a thing. <strong class="font-sans font-medium text-carbon not-italic text-body">You&rsquo;re live.</strong>
                     </p>
                 </div>
             </div>
@@ -270,30 +331,32 @@ const faqsHowItWorks = [
             <div class="relative grid md:grid-cols-2 gap-8 md:gap-16 items-center group">
                 <div class="pl-20 md:pl-0 md:text-right md:pr-16 order-1 relative">
                     <span class="font-serif italic text-headline text-terracotta md:hidden mb-4 block">07</span>
-                    <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">The Caretakers Take Over</h3>
-                    <p class="font-mono text-badge uppercase text-carbon mb-6 pb-4 border-b border-carbon/5 inline-block md:block md:ml-auto">Your time: a text, when you need me</p>
+                    <h3 class="font-display font-bold text-headline uppercase mb-2 text-carbon">I Stay</h3>
+                    <p class="font-mono text-badge uppercase text-terracotta mb-6 pb-4 border-b border-carbon/5 inline-block md:block md:ml-auto">Your time: a text, when you need me</p>
                     <p class="font-sans text-body text-softGrey mb-4">
-                        This is where most web designers stop. I don't.
+                        This is where most web designers stop. I don&rsquo;t.
+                    </p>
+                    <p class="font-sans text-body text-softGrey mb-4">
+                        Hosting, security, backups, all running quietly in the background. Updates on demand. Just message me.
                     </p>
                     <p class="font-sans text-body text-softGrey mb-6">
-                        Hosting, security, SSL, backups. Running quietly in the background. Updates on demand. Just message me.
+                        New service? Message me.<br/>
+                        Media mention? Message me.<br/>
+                        Big pivot? Message me.<br/>
+                        Something broke? I&rsquo;m on it.
                     </p>
-                    <ul class="space-y-3 font-sans text-ui text-softGrey mb-6 border-l border-carbon/20 pl-6 text-left md:text-right md:border-l-0 md:border-r md:pr-6 md:pl-0 inline-block">
-                      <li>New service? <span class="font-medium text-carbon">Message me.</span></li>
-                      <li>Media mention? <span class="font-medium text-carbon">Message me.</span></li>
-                      <li>Big pivot? <span class="font-medium text-carbon">Message me.</span></li>
-                      <li>Something broke? <span class="font-medium text-carbon">I'm on it.</span></li>
-                    </ul>
                     <p class="font-serif italic text-accent text-softGrey">
-                        Message me when something changes. That's the whole ongoing relationship. <strong class="font-sans font-medium text-carbon not-italic text-body">You evolve. I keep up.</strong>
+                        Message me when something changes. That&rsquo;s the whole ongoing relationship. <strong class="font-sans font-medium text-carbon not-italic text-body">You evolve. I keep up.</strong>
                     </p>
                 </div>
-                <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-white rounded-full border border-carbon/20 ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2 transition-colors group-hover:bg-deepGreen group-hover:border-deepGreen"></div>
+                <div class="absolute left-6 md:left-1/2 w-3 h-3 bg-deepGreen rounded-full border border-deepGreen ring-4 ring-surface transform -translate-x-1/2 z-10 top-6 md:top-1/2 mt-1.5 md:mt-0 order-2"></div>
                 <div class="pl-20 md:pl-16 order-3 relative">
                     <span class="hidden md:block font-serif italic text-hero text-terracotta/10 absolute -top-12 left-12 select-none z-0">07</span>
-                    <a href={buildLink} class="inline-block bg-carbon text-white px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen transition-all duration-300 shadow-elegant hover:shadow-float relative z-10">
-                        Start Your Build
-                    </a>
+                    <div class="relative z-10">
+                      <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-carbon text-white px-8 py-3.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 shadow-subtle">
+                        Book a Website Chat
+                      </a>
+                    </div>
                 </div>
             </div>
 
@@ -302,100 +365,123 @@ const faqsHowItWorks = [
     </section>
 
     <!-- ============================================================
-         WHAT I NEED FROM YOU
+         WHAT'S ACTUALLY IN THE BUILD
     ============================================================ -->
     <section class="py-24 md:py-32 bg-white border-b border-carbon/5">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-16">
-            <h2 class="font-display font-bold text-display uppercase text-carbon">
-              What I Need.<br/>
-              <span class="font-serif italic normal-case text-softGrey font-normal">And What I Don't.</span>
-            </h2>
-          </div>
+        <div class="max-w-3xl mb-16">
+          <h2 class="font-display font-bold text-display uppercase text-carbon leading-[1.05] mb-6">
+            Everything below exists so you
+            <span class="font-serif italic text-terracotta normal-case font-normal block mt-2">never think about your website again.</span>
+          </h2>
+          <p class="font-sans text-body text-softGrey">
+            That&rsquo;s the real product. But since you&rsquo;re weighing this up, here&rsquo;s what&rsquo;s inside the build, and what each piece usually costs when you buy it separately from different people.
+          </p>
+        </div>
 
-          <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-surface rounded-2xl p-8 border border-carbon/5 shadow-elegant">
-              <h3 class="font-mono text-badge uppercase text-deepGreen mb-8 border-b border-carbon/5 pb-4">What I Need</h3>
-              <ul class="space-y-4 font-sans text-body text-softGrey">
-                <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic text-lg leading-none mt-0.5">Y</span> One Drive-Home Interview call</li>
-                <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic text-lg leading-none mt-0.5">Y</span> Your business name and contact details</li>
-                <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic text-lg leading-none mt-0.5">Y</span> One round of copy feedback</li>
-                <li class="flex items-start gap-3"><span class="text-terracotta font-serif italic text-lg leading-none mt-0.5">Y</span> Any logos or specific photos you want included (optional, I'll find what I need otherwise)</li>
-              </ul>
+        <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-5xl">
+          {valueStack.map((item) => (
+            <div class="border-t border-carbon/10 pt-6">
+              <h3 class="font-sans font-medium text-carbon mb-2">{item.h}</h3>
+              <p class="font-sans text-sm text-softGrey leading-relaxed">{item.b}</p>
             </div>
+          ))}
+        </div>
 
-            <div class="bg-white rounded-2xl p-8 border border-carbon/5 shadow-elegant">
-              <h3 class="font-mono text-badge uppercase text-terracotta mb-8 border-b border-carbon/5 pb-4">What I Don't Need</h3>
-              <ul class="space-y-4 font-sans text-body text-softGrey">
-                <li class="flex items-start gap-3"><span class="text-softGrey font-mono text-xs mt-1 leading-none">+</span> You writing a single word of copy</li>
-                <li class="flex items-start gap-3"><span class="text-softGrey font-mono text-xs mt-1 leading-none">+</span> You briefing a designer</li>
-                <li class="flex items-start gap-3"><span class="text-softGrey font-mono text-xs mt-1 leading-none">+</span> Weekly check-in meetings</li>
-                <li class="flex items-start gap-3"><span class="text-softGrey font-mono text-xs mt-1 leading-none">+</span> A "website project" taking over your calendar</li>
-                <li class="flex items-start gap-3"><span class="text-softGrey font-mono text-xs mt-1 leading-none">+</span> You learning anything new</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="mt-12 bg-deepGreen text-bone rounded-2xl p-8 md:p-12 text-center shadow-elegant border border-carbon/5">
-            <p class="font-serif italic text-headline text-bone">You run the business. <span class="font-display font-bold uppercase text-white">I build and look after the home.</span></p>
-          </div>
+        <div class="mt-16 bg-deepGreen text-bone rounded-3xl p-10 md:p-12 max-w-5xl">
+          <p class="font-sans text-bone/85 leading-relaxed max-w-3xl mb-6">
+            Bought separately, that stack lands somewhere between $8,000 and $20,000, plus weeks of you playing project manager between five different people.
+          </p>
+          <p class="font-sans text-white font-medium leading-relaxed max-w-3xl mb-8">
+            The build is one price, from $3,800 + GST, because it&rsquo;s one job, done by one person, in one conversation. That&rsquo;s not a discount. It&rsquo;s what happens when nobody&rsquo;s invoicing anybody else in the middle.
+          </p>
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-bone text-carbon px-8 py-3.5 rounded-full font-medium text-sm hover:bg-terracotta hover:text-white transition-colors duration-300">
+            Book a Website Chat
+          </a>
         </div>
       </div>
     </section>
 
     <!-- ============================================================
-         I STAY (CARETAKER MODEL)
+         WHAT I NEED / WHAT I DON'T
     ============================================================ -->
     <section class="py-24 md:py-32 bg-bone border-b border-carbon/5">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div class="text-center md:text-left mb-12">
-          <h2 class="font-display font-bold text-display uppercase mb-8 text-carbon">
-            I Stay.<br/>
-            <span class="font-serif italic text-terracotta normal-case font-normal">That's the Whole Point.</span>
-          </h2>
-          <div class="space-y-6 md:border-l border-carbon/10 md:pl-8">
-            <p class="font-sans text-body text-softGrey">
-              Most web designers build your site, send the invoice, and move on. Three years later your site looks dated, something breaks, and you're starting from scratch with someone new.
-            </p>
-            <p class="font-sans text-body text-softGrey">
-              I designed YourHQ around the opposite model.
-            </p>
-            <p class="font-sans text-body text-softGrey">
-              The monthly Caretaker fee isn't hosting. It's the ongoing relationship. A real person who knows your site, who you can message when something changes, who keeps it fast, secure and current the whole time you're with me.
-            </p>
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase text-carbon leading-[1.05] mb-16 text-center">
+          What I Need.
+          <span class="font-serif italic text-softGrey normal-case font-normal block mt-2">And What I Don&rsquo;t.</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div class="bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
+            <p class="font-mono text-badge uppercase text-deepGreen mb-6">What I Need</p>
+            <ul class="divide-y divide-carbon/5">
+              {iNeed.map((item) => (
+                <li class="py-3.5 font-sans text-sm text-carbon/80 flex items-start gap-4">
+                  <span class="text-deepGreen shrink-0 mt-0.5" aria-hidden="true">&#10003;</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
+            <p class="font-mono text-badge uppercase text-terracotta mb-6">What I Don&rsquo;t Need</p>
+            <ul class="divide-y divide-carbon/5">
+              {iDontNeed.map((item) => (
+                <li class="py-3.5 font-sans text-sm text-carbon/80 flex items-start gap-4">
+                  <span class="font-mono text-[10px] text-terracotta mt-1 shrink-0">&times;</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
+        <p class="font-serif italic text-accent text-carbon/80 text-center mt-12">
+          You run the business. <strong class="font-sans font-medium text-carbon not-italic text-body">I build and look after the home.</strong>
+        </p>
+      </div>
+    </section>
 
-        <div class="grid md:grid-cols-2 gap-6 mt-16">
-          <div class="bg-white rounded-2xl border border-carbon/5 p-8 shadow-subtle hover:shadow-elegant transition-all duration-300">
-            <p class="font-mono text-badge uppercase text-softGrey mb-4 border-b border-carbon/5 pb-3">Most Agencies</p>
-            <p class="font-sans text-softGrey text-ui">Build it &middot; Invoice it &middot; Disappear</p>
-          </div>
-          <div class="bg-carbon text-bone rounded-2xl border border-carbon/5 p-8 shadow-elegant hover:shadow-float transition-all duration-300">
-            <p class="font-mono text-badge uppercase text-terracotta mb-4 border-b border-white/10 pb-3">YourHQ</p>
-            <p class="font-sans text-bone/90 text-ui">Build it &middot; Host it &middot; Update it &middot; Stay.</p>
+    <!-- ============================================================
+         THE CARETAKER MODEL
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-carbon text-bone border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-12 gap-12 md:gap-16 items-start">
+        <div class="md:col-span-5">
+          <h2 class="font-display font-bold text-display uppercase leading-[1.05] text-white">
+            Nobody stayed.<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">I stay.</span>
+          </h2>
+        </div>
+        <div class="md:col-span-7 space-y-6 font-sans text-body text-bone/80 max-w-2xl">
+          <p>Most web designers build your site, send the invoice, and move on. Three years later your site looks dated, your prices are wrong, something breaks, and you&rsquo;re starting from scratch with someone new. If that&rsquo;s the exact position you&rsquo;re in right now, you&rsquo;re not unlucky. You&rsquo;re the standard result of how this industry sells websites.</p>
+          <p>I designed YourHQ around the opposite model. The monthly fee isn&rsquo;t hosting. It&rsquo;s a real person who knows your site, who you can message when something changes, and who keeps it fast, secure and current the whole time you&rsquo;re with me.</p>
+          <div class="grid sm:grid-cols-2 gap-6 pt-4">
+            <div class="border-t border-white/10 pt-5">
+              <p class="font-mono text-badge uppercase text-bone/50 mb-3">Most agencies</p>
+              <p class="font-display font-bold uppercase tracking-tight text-bone/50 leading-snug">Build it · Invoice it · Disappear</p>
+            </div>
+            <div class="border-t border-terracotta pt-5">
+              <p class="font-mono text-badge uppercase text-terracotta mb-3">YourHQ</p>
+              <p class="font-display font-bold uppercase tracking-tight text-white leading-snug">Build it · Host it · Update it · Stay</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ============================================================
-         FAQ - HOW IT WORKS
+         FAQ
     ============================================================ -->
-    <section class="py-24 md:py-32 bg-white border-b border-carbon/5 shadow-subtle">
-      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <h2 class="font-display font-bold text-display uppercase mb-16 text-center text-carbon">
-          Common <span class="font-serif italic text-softGrey normal-case font-normal">Questions</span>
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/5">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase text-carbon leading-[1.05] mb-16">
+          Common <span class="font-serif italic text-terracotta normal-case font-normal">questions.</span>
         </h2>
-        
-        <div class="space-y-8 divide-y divide-carbon/5">
-          {faqsHowItWorks.map((item) => (
-            <div class="pt-8 first:pt-0">
-              <h3 class="font-display font-bold text-subhead uppercase mb-3 text-carbon">{item.q}</h3>
-              <p class="font-sans text-body text-softGrey">{item.a}</p>
+        <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-5xl">
+          {faqs.map((f) => (
+            <div class="border-t border-carbon/10 pt-6">
+              <h3 class="font-sans font-medium text-carbon mb-2">{f.q}</h3>
+              <p class="font-sans text-sm text-softGrey leading-relaxed">{f.a}</p>
             </div>
           ))}
         </div>
@@ -403,32 +489,32 @@ const faqsHowItWorks = [
     </section>
 
     <!-- ============================================================
-         CTA
+         FINAL CTA
     ============================================================ -->
-    <section class="bg-carbon text-bone py-32 text-center px-4">
+    <section class="py-24 md:py-32 bg-bone text-center px-4">
       <div class="max-w-3xl mx-auto">
-        <span class="font-mono text-badge uppercase text-terracotta block mb-6">The Next Step</span>
-        <h2 class="font-display font-bold text-display uppercase mb-8 text-white">
-          Ready to Hand <br/>
-          <span class="font-serif italic text-bone/60 normal-case font-normal">This Over?</span>
+        <span class="font-mono text-badge uppercase text-softGrey block mb-6">The Next Step</span>
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight mb-8 text-carbon">
+          Ready to Hand<br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">This Over?</span>
         </h2>
-        
-        <p class="font-sans text-subhead text-bone/80 mb-12 max-w-2xl mx-auto">
+        <p class="font-sans text-body text-softGrey max-w-lg mx-auto mb-10">
           One conversation. Everything handled.<br/>
-          Your permanently owned digital home, looked after forever.
+          Your permanently owned digital home, looked after for good.
         </p>
-        
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href={buildLink} class="inline-flex justify-center items-center bg-bone text-carbon px-8 py-4 rounded-full font-medium text-ui hover:bg-deepGreen hover:text-white transition-all duration-300 shadow-elegant hover:shadow-float">
-            Start Your Build
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-carbon text-white px-10 py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 shadow-subtle">
+            Book a Website Chat
           </a>
-          <a href="/pricing" class="inline-flex justify-center items-center bg-transparent text-bone border border-bone/30 px-8 py-4 rounded-full font-medium text-ui hover:border-bone transition-colors duration-300">
+          <a href="/pricing" class="inline-block bg-transparent text-carbon border border-carbon/20 px-10 py-4 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300">
             See Pricing
           </a>
         </div>
+        <p class="font-sans text-sm text-softGrey mt-6">Or just message me: {PHONE}.</p>
       </div>
     </section>
 
   </main>
+
   <Footer />
 </Layout>

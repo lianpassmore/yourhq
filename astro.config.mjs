@@ -8,6 +8,10 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://yourhq.co.nz',
+  redirects: {
+    '/portfolio': '/the-work',
+    '/our-story': '/the-work',
+  },
   integrations: [
     react(),
     tailwind(),

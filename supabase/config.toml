@@ -332,6 +332,13 @@ deno_version = 2
 [functions.stripe-webhook]
 verify_jwt = false
 
+# Public form-notification functions (invoked by the website with the anon key).
+[functions.notify-owner]
+verify_jwt = false
+
+[functions.send-quote-confirmation]
+verify_jwt = false
+
 [analytics]
 enabled = true
 port = 54327

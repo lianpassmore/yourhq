@@ -1,7 +1,8 @@
 # YourHQ — Website Copy
-# Full Site · Synced to live site 31 May 2026
-# (Pricing model updated: Build $3,800 + GST · Care from $149/mo · tiers Sorted/Connected/Building · annual refresh now a paid Design Refresh Add-On)
-# (NEW: The Website Audit — standalone $997 + GST product. Pages 10–12 below: public sales page + post-payment intake + next-steps. Pages 11 & 12 are noindex/transactional.)
+# Full Site · Synced to live site 24 July 2026
+# Pricing model: Build $3,800 + GST · Care from $149/mo · tiers Sorted/Connected/Building · Design Refresh is a paid Add-On (available 12 months after launch).
+# The Website Audit — standalone $997 + GST product. Pages 10–12 below: public sales page + post-payment intake + next-steps. Pages 11 & 12 are noindex/transactional.
+# CONTACT DETAILS (updated since last sync): email is now lian@yourhq.co.nz (was hello@) · phone/text is now 027 566 8803 (was 022 172 5793).
 # Filter lens — every page assumes the reader already knows they need a website.
 # The site's job: show them how I work and whether we're the right fit.
 # Ecosystem page is the only education/SEO page.
@@ -17,29 +18,24 @@
 ## Nav Links
 - How It Works
 - Pricing
+- Website Audit
 - Who We Build For
-- Your Digital Ecosystem
 - Portfolio
 - Our Story
-- Website Audit
 
 ## Nav CTA
 Start Your Build
 
 ## Footer
-Founded in Aotearoa New Zealand · Clients Worldwide
-hello@yourhq.co.nz · 022 172 5793 · yourhq.co.nz
-# Footer also carries a direct link: "Website Audit — $997"
+Founder-led websites for Kiwi small businesses. Built in Whangārei, servicing NZ-wide.
+lian@yourhq.co.nz · 027 566 8803 · Based in Whangārei, servicing NZ-wide
+Fast builds. Long-term care.
+# Footer also carries a direct link: "Website Audit - $997"
 
 ---
 
 # PAGE 01 — HOMEPAGE
 # index.astro
-
-## Announcement Bar
-[REMOVE — Founding Member offer expired. No replacement needed.]
-
----
 
 ## Hero Badge
 Founded in NZ · Clients Worldwide
@@ -55,15 +51,16 @@ This is where it gets handled.
 ## Hero Price Line
 From $3,800 NZD + GST · from $149/mo NZD ongoing
 
-## Hero Pull Quote
-"While I was still figuring out Google Drive, Lian had
-already pulled images from our Facebook and had a draft
-site ready."
-— Reuben · Johnson & Sons · Builder
-
 ## Hero CTAs
 - Start Your Build
 - Just Say Hello
+
+## Hero Spinning Badge
+Permanent Digital Home
+
+## Hero Pull Quote
+"While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready."
+— Reuben · Johnson & Sons · Builder
 
 ---
 
@@ -75,14 +72,13 @@ site ready."
 What I've Built
 
 ### Headline
-Here's What This Actually Looks Like.
+Here's what this actually looks like.
 
 ⬛ DIAGRAM REQUIRED: Portfolio thumbnail strip
-— 4 project cards displayed horizontally
-— Each card: project screenshot/photo, client name, industry, location
-— Cards: Rumours on Rust (Café, Whangārei) / Carve Earthworks (Northland) / Ember & Ice (Wellness, Northland) / Johnson & Sons (Commercial, Northland)
-— Each card links through to full portfolio page
-— Reference: use actual site screenshots once live
+— 4 project cards displayed in a row (portrait 3:4 screenshots)
+— Each card: site screenshot, project name, category · location
+— Cards: Rumours On Rust (Café · Whangārei) / Carve Earthworks (Earthworks · Northland) / Ember & Ice (Wellness · Northland) / Johnson & Sons (Commercial Builder · Northland)
+— Each card links through to the full portfolio page
 
 ### CTA
 [See all projects →] — links to /portfolio
@@ -97,59 +93,72 @@ Here's What This Actually Looks Like.
 Who You're Working With
 
 ### Headline
-Every Site Is Built
-by Me, Personally.
+Every site is built
+by me, personally.
 
 ### Body
-I'm Lian — founder, builder, and the person who'll answer your texts.
+I'm Lian. Founder, builder, and the person who'll answer your texts.
 
 I hold a Master of Technological Futures and built YourHQ from a genuine obsession with two things: storytelling and digital ownership. Every site I build is hand-coded by me, written in your voice, and looked after by me long after it goes live.
 
 No handoffs. No junior staff. No templates with your name dropped in.
 
-When you work with YourHQ, you're working with the person who cares most about getting it right — because my name is on every single thing that goes out.
+When you work with YourHQ, you're working with the person who cares most about getting it right, because my name is on every single thing that goes out.
 
 ### Callout
 Based in Whangārei, Aotearoa.
 Building for clients worldwide.
 
 ⬛ DIAGRAM REQUIRED: Founder photo
-— Professional photo of Lian
-— Warm, not corporate — studio or WOTSO environment preferred
-— Sits alongside or above the body copy in this section
+— Professional photo of Lian, warm not corporate
+— Framed in an arched (rounded-top) crop, sits alongside the body copy
 
 ---
 
 ## SECTION: Two Kinds of Build
 
+### Label
+Two Kinds of Build
+
 ### Headline
-Business Brand
-or Personal Brand —
-Same Standard, Different Story.
+Business brand or personal brand,
+same standard, different story.
 
 ### Business Brand Card
-**The business exists beyond you.**
-Clinic. Studio. Practice. Firm. Trade business.
+**Business Brand**
+The business exists beyond you.
+Clinic · Studio · Practice · Firm · Trade
 
-Your site becomes the permanent, credible face of what you've built — written in your voice, owned by you unconditionally.
+Your site becomes the permanent, credible face of what you've built. Written in your voice, owned by you unconditionally.
 
-*The feeling: my business finally looks as good as the work we actually do.*
+*"My business finally looks as good as the work we actually do."*
 
 ### Personal Brand Card
-**You are the business.**
-Coach. Consultant. Speaker. Creator. Expert.
+**Personal Brand**
+You are the business.
+Coach · Consultant · Speaker · Creator
 
-Your site becomes a permanent record of who you are, what you believe, and the work that proves it — impossible to mistake for anyone else.
+Your site becomes a permanent record of who you are, what you believe, and the work that proves it. Impossible to mistake for anyone else.
 
-*The feeling: there's finally one place on the internet that's completely, specifically me.*
+*"There's finally one place on the internet that's completely, specifically me."*
 
 ### Closing
 Both are owned by you. Both are looked after by me.
 Both become the place every digital path leads.
 
+### Built For (vertical entry points)
+Built for
+- Tradies & Builders — links to /tradies
+- Professional Services — links to /professionals
+- Cafés, Studios & Creatives — links to /creatives
+- [See all →] — links to /who-we-build-for
+
 ---
 
 ## SECTION: How I Work
+
+### Label
+How I Work
 
 ### Headline
 I handle the thinking
@@ -160,54 +169,57 @@ it's needed.
 You talk once.
 Everything else is mine to figure out.
 
-Your story captured — in your actual voice, not a brief.
-Your content pulled from everything you've already built.
-Your site written, built, and previewed — before you commit to a thing.
-And then I stay. Hosting, updates.
-You just message me when something changes.
+- Your story captured, in your actual voice, not a brief.
+- Your content pulled from everything you've already built.
+- Your site written, built, and previewed, before you commit to a thing.
+- And then I stay. Hosting, updates. You just message me when something changes.
 
 ### Callout
 Not a template. Not AI copy dropped into a theme.
 Not a project you manage.
-Just — handled.
+Just handled.
 
+---
 
 ## SECTION: Is This For You?
 
+### Label
+The Fit
+
 ### Headline
-Is This For You?
+Is this for you?
 
 ### Body
-This works best for people who are established — who have something real to represent and are ready to hand the whole thing over.
+This works best for people who are established, who have something real to represent and are ready to hand the whole thing over.
 
 **You've outgrown what you have.**
-What worked when you were starting out doesn't represent where you are now. You're more established, more clear, more credible — and it's time your online presence caught up.
+What worked when you were starting out doesn't represent where you are now. You're more established, more clear, more credible, and it's time your online presence caught up.
 
 **You're tired of sounding like everyone else.**
 Generic is everywhere. You want something impossible to mistake for anyone but you.
 
 **You want it done without it becoming your project.**
-No months of briefing. No weekends writing copy. One conversation — I draw your story out and build while you get on with your work.
+No months of briefing. No weekends writing copy. One conversation. I draw your story out and build while you get on with your work.
 
 **You want to own what you build.**
 Permanent. Portable. Yours unconditionally. Updated whenever you need it. Nothing held hostage.
-
-### Closing
-**If that's you — keep reading.**
 
 ---
 
 ## SECTION: Who This Isn't For
 
+### Label
+The Honest Bit
+
 ### Headline
-And Who It Isn't.
+And who it isn't.
 
 **Not for you if:**
 - You want to be involved in the build
 - You're looking for the cheapest option
 - You want a template you can manage yourself
 - You need a full e-commerce store, course platform, or custom app
-- You haven't decided yet — and need convincing
+- You haven't decided yet and need convincing
 
 No hard feelings. I'll point you somewhere better.
 
@@ -215,9 +227,12 @@ No hard feelings. I'll point you somewhere better.
 
 ## SECTION: How It Works — Overview
 
+### Label
+How It Works
+
 ### Headline
-One Conversation.
-I Handle Everything Else.
+One conversation.
+I handle everything else.
 
 ### Subtitle
 No copy to write. No designer to brief. No platform to learn.
@@ -226,19 +241,19 @@ Most clients are live within 1–2 weeks and spend less than 30 minutes on their
 ### Steps (brief version for homepage)
 
 **01 — The Drive-Home Interview**
-You call whenever suits — car, couch, between meetings. I capture everything I need to write your site in your actual voice.
+You call whenever suits. Car, couch, between meetings. I capture everything I need to write your site in your actual voice.
 
 **02 — I Write Your Copy**
 Turned around in your voice, reviewed by me. You see every section before I build a thing. One round of feedback.
 
 **03 — The Content Raid**
-I go through your existing footprint — socials, Google, existing site, anywhere you show up. You send me nothing.
+I go through your existing footprint: socials, Google, existing site, anywhere you show up. You send me nothing.
 
 **04 — The Build**
 Hand-coded. Under a second to load. Mobile-first. Built for standard search and AI answers.
 
 **05 — Preview**
-Private link. Love it — we go live. Don't love it — full refund.
+Private link. Love it, we go live. Don't love it, full refund.
 
 **06 — Go Live**
 Domain connected. Google notified. Your permanent address is set.
@@ -253,17 +268,23 @@ Hosting, security, updates. I stay. That's the whole model.
 
 ## SECTION: Testimonials
 
+### Label
+In Their Words
+
 ### Headline
-Real People. Real Relief.
+Real people. Real relief.
 
 "Creating a website wasn't something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
-— Brad, Carve Earthworks
+— Brad
+Carve Earthworks
 
 "The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can't believe how good it is."
-— Katie, Rumours On Rust · Café, Whangārei
+— Katie
+Rumours On Rust · Café, Whangārei
 
 "You helped me take that next step and build my dream — that was my barrier to market."
-— Nicolette, Ember & Ice · Wellness Studio
+— Nicolette
+Ember & Ice · Wellness Studio
 
 # NOTE: Reuben's quote is used in the hero pull quote above — not repeated here.
 
@@ -271,19 +292,21 @@ Real People. Real Relief.
 
 ## SECTION: The Caretaker Model
 
-### Headline
-Not an Agency.
-Your Digital Caretakers.
+### Label
+The Model
 
-**Most agencies:**
+### Headline
+Not an agency.
+Your digital caretakers.
+
+**Most agencies**
 Build it. Invoice it. Move on.
 Three years later you're paying to start again.
 
-**YourHQ:**
-✓ Build it — in your voice, from one conversation
-✓ Host it — fast, secure, looked after
-✓ Update it — just text me
-✓ Refresh it — every year, included, no invoice
+**YourHQ**
+- Build it. In your voice, from one conversation
+- Host it. Fast, secure, looked after
+- Update it. Just message me
 
 Your story keeps growing. Your digital home should too.
 
@@ -291,47 +314,32 @@ Your story keeps growing. Your digital home should too.
 
 ## SECTION: Pricing Snapshot
 
+### Label
+Pricing Snapshot
+
 ### Headline
-What This Actually Costs.
+What this actually costs.
 
 ### Subtext
 One build. One price. Care that scales with what your site does.
 
-**The Build — $3,800 NZD + GST**
-One-time setup. Interview, market research, copywriting, content raid, up to 8 pages hand-coded, socials embed, Google Business Profile, SEO and AI search optimised, domain, hosting.
+**The Build — $3,800 NZD + GST** *(One-Time Setup)*
+Interview, market research, copywriting, content raid, up to 8 pages hand-coded, socials embed, Google Business Profile, SEO and AI search optimised, domain, hosting.
 
-**Monthly Care — from $149/mo NZD**
+**Monthly Care — from $149/mo NZD** *(Ongoing Caretaker)*
 Hosting, security, on-demand updates. Scales based on what your site does.
 
-**Love It or Leave It** *(Risk-Free Guarantee)*
-You see the complete site before the subscription starts.
-Don't love it — full refund of your setup fee.
+**Love it or leave it.** *(Risk-Free Guarantee)*
+You see the complete site before the subscription starts. Don't love it? Full refund of your setup fee.
 
 ### CTA
 [See full pricing →] — links to /pricing
 
 ---
 
-## SECTION: Forever Fresh
-# Label on live site: "The Caretaker Model"
-
-### Headline
-Built Once.
-Looked After Forever.
-
-Most agencies build it, invoice it, and move on. Three years later you're paying to start again.
-
-I stay. Hosting, security, on-demand updates. You message me when something changes. I handle the rest.
-
-**Nothing held hostage. Ever.**
-
-# MARQUEE (below this section): BUILT ONCE · LOOKED AFTER FOREVER ·
-
----
-
 ## SECTION: The Website Audit
 # Live label: section 11.5 — entry point for people who already have a site.
-# Links through to /website-audit (full sales page = Page 10).
+# Sits directly after Pricing Snapshot. Links through to /website-audit (full sales page = Page 10).
 
 ### Label
 Already Have a Site?
@@ -346,31 +354,58 @@ Not ready for a full build? Start with a full professional read of the site you 
 You answer eight questions by email. Everything else is handled. If you go on to build with me, it's the perfect head start.
 
 ### Price Card
-$997 NZD + GST · One-time · Delivered in five working days
+$997 — NZD + GST · One-time
+- A score out of 50, page by page
+- What's working, what's holding you back
+- A recommended new structure for your site
+- Page-by-page copy rewritten in your voice
+
+Works on any platform. Sites up to eight pages.
 
 ### CTA
 See the Website Audit
 
 ---
 
-## SECTION: Final CTA
+## SECTION: Forever Fresh
+# Label on live site: "The Caretaker Model"
 
 ### Headline
-Ready to Hand This Over?
+Built once.
+Looked after forever.
 
-Your permanently owned corner of the internet —
+Most agencies build it, invoice it, and move on. Three years later you're paying to start again.
+
+I stay. Hosting, security, on-demand updates. You message me when something changes. I handle the rest.
+
+**Nothing held hostage. Ever.**
+
+# MARQUEE (below this section): BUILT ONCE · LOOKED AFTER FOREVER ·
+
+---
+
+## SECTION: Final CTA
+
+### Label
+The Final Step
+
+### Headline
+Ready to hand this over?
+
+Your permanently owned corner of the internet,
 written in your voice, looked after forever.
 
 - Start Your Build
 - Just Say Hello
 
 ---
+---
 
 # PAGE 02 — HOW IT WORKS
 # how-it-works.astro
 
 ## Page Badge
-The Process
+THE PROCESS
 
 ## Page Headline
 One Conversation.
@@ -390,80 +425,64 @@ the project manager.
 Not even close.
 
 ### Body
-You're not here to manage a build.
-You're here because you want this off your plate —
-permanently, properly, by someone who actually knows what they're doing.
+You're not here to manage a build. You're here because you want this off your plate. Permanently, properly, by someone who actually knows what they're doing.
 
-So here's the deal: you talk once, you give feedback once,
-and then you don't hear from me until there's something
-worth seeing.
+So here's the deal. You talk once, you give feedback once, and then you don't hear from me until there's something worth seeing.
 
-Most clients spend less than 30 minutes on their end.
-Start to live site.
+Most clients spend less than 30 minutes on their end. Start to live site.
 
-That's not a selling point.
-That's just how this should work.
+*That's not a selling point. That's just how this should work.*
+
 ---
 
 ## SECTION: The Process
 
-⬛ DIAGRAM REQUIRED: Build Workflow diagram
-— Reference: Diagram 04 from YourHQ Visual Reference Maps HTML file
-— Shows all 8 steps with colour-coded responsibility tags (client / agent / Lian / live)
-— Place above or alongside the written steps below
-— The written steps below are the copy that accompanies the diagram
-
-## SECTION: The Process
-
-⬛ DIAGRAM REQUIRED: Build Workflow diagram
-— Reference: Diagram 04 from YourHQ Visual Reference Maps HTML file
-— Shows all 8 steps with colour-coded responsibility tags (client / agent / Lian / live)
-— Place above or alongside the written steps below
-— The written steps below are the copy that accompanies the diagram
+⬛ DIAGRAM REQUIRED: Build Workflow timeline
+— A vertical timeline running down the page, 7 numbered steps (01–07)
+— Each step alternates: narrative copy on one side, a small info card on the other
+— "Your time" responsibility tags are colour-coded (deepGreen / carbon / terracotta)
+— The written steps below are the copy that accompanies the timeline
 
 ### Step 01 — The Drive-Home Interview
 **Your time: one conversation**
 
-Call my AI assistant whenever suits — in the car on the way home, between meetings, on the couch. No forms, no typing, no scheduled Zoom. You just talk.
+Call my AI assistant whenever suits. In the car on the way home, between meetings, on the couch. No forms, no typing, no scheduled Zoom. You just talk.
 
-I ask the questions that pull out your story — your work, your clients, your vision, the things that make you unmistakably you. Most people are surprised by what comes out. The best website copy lives in conversation, not in a brief.
+I ask the questions that pull out your story. Your work, your clients, your vision, the things that make you unmistakably you. Most people are surprised by what comes out. The best website copy lives in conversation, not in a brief.
 
-You don't fill in a form. You don't write a brief. You don't prepare anything.
-*You just talk.*
+*You don't fill in a form. You don't write a brief. You don't prepare anything.* **You just talk.**
+
+Side card — **Time Required**
+- 15 Minutes
+- One conversation.
 
 ---
 
 ### Step 02 — I Write Your Copy
 **Your time: one round of feedback**
 
-I turn your interview into full website copy — written in your voice, reviewed by me personally. You get a private page showing every section clearly laid out, with a comment field next to each block.
+I turn your interview into full website copy. Written in your voice, reviewed by me personally. You get a private page showing every section clearly laid out, with a comment field next to each block.
 
 Read it. Tell me what feels right and what doesn't. One round of changes. Nothing gets built until you've signed off on every word.
 
-You don't write a word. You don't stare at a blank page. You don't guess at what your site should say.
-*You just tell me what feels right.*
+*You don't write a word. You don't stare at a blank page. You don't guess at what your site should say.* **You just tell me what feels right.**
+
+Side card — **Your Job:** One Round of Feedback
 
 ---
 
 ### Step 03 — The Content Raid
 **Your time: zero**
 
-While you're getting on with your life, I go through your existing digital footprint — Instagram, LinkedIn, Facebook, Google Reviews, Substack, your existing site, anywhere you already show up.
+While you're getting on with your life, I go through your existing digital footprint. Instagram, LinkedIn, Facebook, Google Reviews, Substack, your existing site, anywhere you already show up.
 
-I pull photos, testimonials, media mentions, business details — the good stuff you've probably forgotten you have. You don't send me a thing.
+I pull photos, testimonials, media mentions, business details. The good stuff you've probably forgotten you have. You don't send me a thing.
 
-You don't dig through your camera roll. You don't compile a folder. You don't send me anything.
-*I find it.*
+*You don't dig through your camera roll. You don't compile a folder. You don't send me anything.* **I find it.**
 
-One thing worth naming: I work with what's actually there.
-If your existing content is strong — great photos, solid reviews,
-a clear footprint — I'll use it. If it's thin or low quality,
-I'll tell you honestly before we build, and we'll talk about
-what we need to get the site to the standard it deserves.
+Side card — **Honest Note:**
+I work with what's actually there. If your existing content is strong, I'll use it. If it's thin or low quality, I'll tell you honestly before we build, and we'll talk about what we need to get the site to the standard it deserves. I won't build something that undersells you just because we're working around bad source material.
 
-Stock photography fills gaps in the meantime.
-But I won't build something that undersells you
-just because we're working around bad source material.
 ---
 
 ### Step 04 — The Build
@@ -473,7 +492,9 @@ Hand-coded in Astro. Under a second to load. Mobile-first. Built for standard se
 
 Not a template. Not a theme with your logo dropped in. Built from your approved copy, to your visual brand, one page at a time.
 
-**Every build includes:**
+*You don't check in. You don't approve mock-ups in rounds. You don't lose a weekend to this.* **I build it.**
+
+Side card — **Every Build Includes:**
 - Up to 8 pages, hand-coded
 - Blog and resources architecture
 - Portfolio and case study layouts
@@ -486,9 +507,6 @@ Not a template. Not a theme with your logo dropped in. Built from your approved 
 - AI search optimised, get found when people ask ChatGPT, Perplexity, and other AI tools
 - Stock photos if needed, or your existing photos AI-optimised
 
-You don't check in. You don't approve mock-ups in rounds. You don't lose a weekend to this.
-*I build it.*
-
 ---
 
 ### Step 05 — Preview
@@ -496,12 +514,13 @@ You don't check in. You don't approve mock-ups in rounds. You don't lose a weeke
 
 Private staging link. View it on your phone. Share it with whoever you want a second opinion from.
 
-Love it — we go live.
-Want changes — I sort them.
-Don't love it — full refund of your setup fee, minus Stripe processing (~3%) and domain costs.
+Love it. We go live.
+Want changes. I sort them.
+Don't love it. Full refund of your setup fee, minus Stripe processing (~3%) and domain costs.
 
-You see the finished thing. Not a wireframe. Not a concept. The actual site.
-*Love it or leave it. That simple.*
+*You see the finished thing. Not a wireframe. Not a concept. The actual site.* **Love it or leave it. That simple.**
+
+Side card — **Decision:** Love It or Leave It
 
 ---
 
@@ -510,8 +529,11 @@ You see the finished thing. Not a wireframe. Not a concept. The actual site.
 
 Domain connected within 24 hours of your approval. Google notified. Your permanent address on the internet is set.
 
-You don't touch a thing. Domain connected. Google notified.
-*You're live.*
+*You don't touch a thing. Domain connected. Google notified.* **You're live.**
+
+Side card — **Result**
+- Permanent Address
+- Within 24 hours.
 
 ---
 
@@ -520,16 +542,18 @@ You don't touch a thing. Domain connected. Google notified.
 
 This is where most web designers stop. I don't.
 
-Hosting, security, SSL, backups — running quietly in the background. Updates on demand — just text me. And every 12 months, a full design refresh so your site grows with you.
+Hosting, security, SSL, backups. Running quietly in the background. Updates on demand. Just message me.
 
-New service? Text me.
-Media mention? Text me.
-Big pivot? Text me.
+New service? Message me.
+Media mention? Message me.
+Big pivot? Message me.
 Something broke? I'm on it.
 
-This is where most web designers stop.
-I don't. Text me when something changes. That's the whole ongoing relationship.
-*You evolve. I keep up.*
+*Message me when something changes. That's the whole ongoing relationship.* **You evolve. I keep up.**
+
+CTA button: Start Your Build
+
+---
 
 ## SECTION: What I Need From You
 
@@ -537,20 +561,20 @@ I don't. Text me when something changes. That's the whole ongoing relationship.
 What I Need.
 And What I Don't.
 
-**What I need:**
+**What I Need:**
 ✓ One Drive-Home Interview call
 ✓ Your business name and contact details
 ✓ One round of copy feedback
-✓ Any logos or specific photos you want included — optional, I'll find what I need otherwise
+✓ Any logos or specific photos you want included (optional, I'll find what I need otherwise)
 
-**What I don't need:**
+**What I Don't Need:**
 ✗ You writing a single word of copy
 ✗ You briefing a designer
 ✗ Weekly check-in meetings
 ✗ A "website project" taking over your calendar
 ✗ You learning anything new
 
-**You run the business. I build and look after the home.**
+You run the business. **I build and look after the home.**
 
 ---
 
@@ -565,10 +589,10 @@ Most web designers build your site, send the invoice, and move on. Three years l
 
 I designed YourHQ around the opposite model.
 
-The monthly Caretaker fee isn't hosting. It's the ongoing relationship — a real person who knows your site, who you can message when something changes, who keeps it fast, secure and current the whole time you're with me.
+The monthly Caretaker fee isn't hosting. It's the ongoing relationship. A real person who knows your site, who you can message when something changes, who keeps it fast, secure and current the whole time you're with me.
 
-**Most agencies:** Build it · Invoice it · Disappear
-**YourHQ:** Build it · Host it · Update it · Stay
+**Most Agencies:** Build it · Invoice it · Disappear
+**YourHQ:** Build it · Host it · Update it · Stay.
 
 ---
 
@@ -576,13 +600,13 @@ The monthly Caretaker fee isn't hosting. It's the ongoing relationship — a rea
 # Headline on live site: "Common Questions"
 
 **Do I have to write anything at all?**
-Nothing. I write every word — from your interview, your existing content, and one round of your feedback.
+Nothing. I write every word, from your interview, your existing content, and one round of your feedback.
 
 **I already have a website. Is this a rebuild?**
-Yes — and that's most of my clients. You've grown past what you have. I start fresh, in your voice, to where you are now.
+Yes, and that's most of my clients. You've grown past what you have. I start fresh, in your voice, to where you are now.
 
 **Is this for a business or a personal brand?**
-Both. Same standard. The difference is what's at the centre — your business, or you.
+Both. Same standard. The difference is what's at the centre. Your business, or you.
 
 **What if I don't love the site?**
 Full refund of your setup fee, minus Stripe processing (~3%) and domain costs. You see the complete finished site before the subscription starts.
@@ -591,7 +615,7 @@ Full refund of your setup fee, minus Stripe processing (~3%) and domain costs. Y
 One interview call. One round of copy feedback. Less than 30 minutes total across the whole process.
 
 **Do you work with clients outside New Zealand?**
-Yes. I'm based in Whangārei, Aotearoa — and I work globally. Everything happens remotely.
+Yes. I'm based in Whangārei, Aotearoa, and I work globally. Everything happens remotely.
 
 **What if my existing photos and content aren't very good?**
 I'll tell you. Honestly and early. The content raid pulls everything I can find, but I won't use low-quality photos or outdated content just to fill space. If what's there isn't up to standard, I'll flag it before we build and we'll work out what's needed. That might mean commissioning a photographer, using stock in the short term, or waiting until you have something worth putting on the site. I'd rather have that conversation upfront than build something that doesn't represent you properly.
@@ -600,15 +624,20 @@ I'll tell you. Honestly and early. The content raid pulls everything I can find,
 
 ## Final CTA
 
+### Badge
+The Next Step
+
 ### Headline
-Ready to Hand This Over?
+Ready to Hand
+This Over?
 
 One conversation. Everything handled.
-Your permanently owned digital home — looked after forever.
+Your permanently owned digital home, looked after forever.
 
 - Start Your Build
 - See Pricing
 
+---
 ---
 
 # PAGE 03 — PRICING
@@ -633,9 +662,7 @@ One build.
 Every client.
 Same standard.
 
-There's no starter tier. No features you pay extra to unlock.
-Every client gets the same build — because anything less
-isn't worth putting my name on.
+There's no starter tier. No features you pay extra to unlock. Every client gets the same build because anything less isn't worth putting my name on.
 
 ### Price Block
 
@@ -645,12 +672,14 @@ isn't worth putting my name on.
 **$3,800 NZD + GST**
 One-time setup fee · The last setup fee you'll ever pay.
 
+Start Your Build
+
 ### What's Included in Every Build
 
 **Your Story, Captured**
-- The Drive-Home Interview, on your terms — talk to my AI voice agent anytime that suits (car, couch, between meetings), or fill in a written form at your own pace
-- Market and audience research — your buyer, your competitors, where the gap is. Your site is positioned before a word is written.
-- Conversion-first copywriting — written in your voice, built to move people from "just looking" to "getting in touch"
+- **The Drive-Home Interview, on your terms.** Talk to my AI voice agent anytime that suits — car, couch, between meetings. Or fill in a written form at your own pace.
+- **Market and audience research.** Your buyer, your competitors, where the gap is. Your site is positioned before a word is written.
+- **Conversion-first copywriting.** Written in your voice, built to move people from "just looking" to "getting in touch."
 - Content raid + shared drive for your photos and assets
 - Copy review page — you see every word, section by section, before anything gets built
 
@@ -671,8 +700,8 @@ One-time setup fee · The last setup fee you'll ever pay.
 - Domain, hosting, SSL, backups, security
 
 **Your Home, Kept Fresh**
-- On-demand updates, forever — new service? Photo from a project? New testimonial? Message me.
-- Caretaker relationship — I built it. I host it. I look after it. I know your site like I know my own.
+- **On-demand updates, forever.** New service? Photo from a project? New testimonial? Message me.
+- **Caretaker relationship.** I built it. I host it. I look after it. I know your site like I know my own.
 
 ### Callout
 **Not a template. Not a page builder.**
@@ -722,18 +751,18 @@ The build is complete as it stands. Add-Ons are for when your site needs to talk
 — Grid layout, 2 columns
 
 **Bookings Embed**
-Connect your existing booking tool — Calendly, Timely, Acuity — embedded and styled to match.
+Connect your existing booking tool. Calendly, Timely, Acuity. Embedded and styled to match.
 + $100 NZD
 
 **Email Platform + Lead Magnet**
-Your email platform connected. Welcome sequence — three emails. Lead magnet page built and wired.
+Your email platform connected. Welcome sequence, three emails. Lead magnet page built and wired.
 + $250 NZD
 
-**Stripe — Services or Digital Products**
+**Stripe. Services or Digital Products**
 Deposits, session packs, PDFs, recordings. Up to 5 products.
 + $350 NZD
 
-**Stripe — Course Delivery**
+**Stripe. Course Delivery**
 A structured course with modules. Checkout plus access delivery.
 + $600 NZD
 
@@ -742,15 +771,15 @@ Buy an hour of dev time when something bigger comes up. No commitment, no subscr
 + $175 NZD
 
 **Content Autopilot**
-Your social posts become blog articles. Fortnightly approval queue — one email, one tap, published.
+Your social posts become blog articles. Fortnightly approval queue. One email, one tap, published.
 + $200 NZD setup · $99/mo NZD ongoing
 
 **Design Refresh**
 On-demand visual update. Fonts, colours, layouts, hero sections refreshed to match current design trends. Available 12 months after launch. Order it when you want it.
 + $600 NZD
 
-**Concierge** *(bolts onto any tier — Sorted, Connected, or Building)*
-You jump the queue and get more time on the clock.
+**Concierge** *(Bolts onto any tier)*
+Add Concierge to Sorted, Connected, or Building. You jump the queue and get more time on the clock.
 - Priority queue position
 - 24-hour turnaround on weekdays
 - An extra 1.5 hours of dev time on top of your tier
@@ -806,6 +835,7 @@ Your site is your credibility anchor. Looked after, always current. You message 
 - Hosting, security & SSL, backups
 - On-demand updates via text or email
 - Annual uptime and performance review
+- Sorted Details →
 
 **Level 2 — Connected**
 $199 NZD / month
@@ -814,6 +844,7 @@ Your site is doing active work. Booking systems running, email list growing, mor
 - Everything in Sorted
 - Monitoring of third-party connections (booking tools, email platforms)
 - Priority response within 24 hours on weekdays
+- Connected Details →
 
 **Level 3 — Building**
 $299 NZD / month
@@ -822,6 +853,7 @@ Your site is an active revenue channel. Adding products, running campaigns, push
 - Everything in Connected
 - Payment flow monitoring
 - Priority response within 12 hours on weekdays
+- Building Details →
 
 ---
 
@@ -836,7 +868,7 @@ New team member? Message me.
 Press mention? Send me the link.
 
 **Included:** Text and content changes · Photo swaps · Service updates · Hours and contact details
-**Quoted separately:** New pages · New integrations · Major restructures
+**Quoted Separately:** New pages · New integrations · Major restructures
 
 ---
 
@@ -910,11 +942,11 @@ $3,800 NZD + GST setup. Monthly care from $149/mo NZD. Add-Ons available if you 
 **Is there a cheaper option?**
 A one-page digital business card is available by referral only starting at $1,950 NZD + GST. Most businesses find the full Build offers significantly better ROI for their growth.
 
-**Can I get an audit before committing to a build?**
-Yes. The Website Audit is a one-time $997 NZD + GST. You get a full professional read of your current site — scored out of 50 page by page, what's working and what's holding you back, a recommended new structure, and page-by-page copy rewritten in your voice — delivered as a single document within five working days. Works on any platform, for sites up to eight pages. If you go on to build with me, it's a head start.
-
 **What if I already have a website?**
 Most of my clients do. I start fresh, in your voice, to where you are now.
+
+**Can I get an audit before committing to a build?**
+Yes. The Website Audit is a one-time $997 NZD + GST. You get a full professional read of your current site — scored out of 50 page by page, what's working and what's holding you back, a recommended new structure, and page-by-page copy rewritten in your voice — delivered as a single document within five working days. Works on any platform, for sites up to eight pages. If you go on to build with me, it's a head start.
 
 **Can I add Add-Ons later?**
 Yes. Add-Ons can be added at build time or after launch. They're priced separately and don't automatically change your monthly tier. Your tier reflects how active your site is overall, though most clients move up a tier when their site starts doing more.
@@ -926,7 +958,7 @@ By default, no tier gets answered faster than another. The tiers are about how m
 Yes, 30 days notice, month-to-month. Full static export when you leave.
 
 **Can I pause?**
-Yes. Hosting and security continue. Annual refresh clock pauses. No penalty.
+Yes. Hosting and security continue. Your site stays live. No penalty.
 
 **Do you work with clients outside New Zealand?**
 Yes. Based in Aotearoa, working globally. Everything happens remotely.
@@ -938,6 +970,9 @@ Full refund of your setup fee, minus Stripe processing (~3%) and domain costs. L
 
 ## Final CTA
 
+### Label
+The Next Step
+
 ### Headline
 Ready to Own
 Your Digital Home?
@@ -947,6 +982,7 @@ One conversation. Everything handled. Looked after forever.
 - Start Your Build
 - Just Say Hello
 
+---
 ---
 
 # PAGE 04 — WHO WE BUILD FOR
@@ -958,11 +994,10 @@ Who This Is For
 
 ## Page Headline
 You Know What You Want.
-Here's Whether I'm
-the Right Person to Build It.
+Here's Whether I'm the Right Person to Build It.
 
 ## Page Subhead
-This page is for established people who've already built something real — and are ready to hand the online side of it to someone who can do it properly.
+This page is for established people who've already built something real, and are ready to hand the online side of it to someone who can do it properly.
 
 ---
 
@@ -970,17 +1005,16 @@ This page is for established people who've already built something real — and 
 
 ### Headline
 You're Already Showing Up.
-You Just Don't Have
-a Permanent Home for It Yet.
+You Just Don't Have a Permanent Home for It Yet.
 
 ### Body
-You're not starting out. You've put in the years — built a reputation, earned trust, figured out what you do and who you do it for.
+You're not starting out. You've put in the years. Built a reputation, earned trust, figured out what you do and who you do it for.
 
 Your presence is scattered across platforms you don't own. LinkedIn here. Instagram there. Google reviews somewhere else. Maybe a website that no longer represents where you are.
 
-When someone wants to properly understand who you are and what you do — there's no single place that tells the whole story.
+When someone wants to properly understand who you are and what you do, there's no single place that tells the whole story.
 
-That's what I build. The permanent, owned, specifically-you corner of the internet — the place every other digital path leads.
+That's what I build. The permanent, owned, specifically-you corner of the internet. The place every other digital path leads.
 
 ---
 
@@ -991,45 +1025,45 @@ Here's Who This
 Works Best For.
 
 **You've outgrown what you have.**
-More established, more focused, more clear — and your online presence needs to catch up.
+More established, more focused, more clear. Your online presence needs to catch up.
 
 **You'd rather have no website than a generic one.**
-A bad website doesn't just miss — it actively misrepresents you. You need something that captures the aesthetic, the feeling, the specific vibe of what you've built. Not a template. Not AI copy. Something that makes the right person feel like they've already met you before they walk through the door.
+A bad website doesn't just miss. It actively misrepresents you. You need something that captures the aesthetic, the feeling, the specific vibe of what you've built. Not a template. Not AI copy. Something that makes the right person feel like they've already met you before they walk through the door.
 
 **You want it done without it becoming your project.**
 One conversation. I draw your story out and build while you keep working.
 
 **You want to own what you build.**
-Permanent. Portable. Yours unconditionally. Updated with a text. Refreshed every year.
+Permanent. Portable. Yours unconditionally. Updated whenever you need it. Nothing held hostage.
 
 **You want to stand out, not blend in.**
 You know what generic looks like. You want something impossible to mistake for anyone else.
 
 ### Closing
-**If that's you — I'd love to work with you.**
+**If that's you. I'd love to work with you.**
 
 ---
 
 ## SECTION: Who I've Built For
 
 ### Headline
-Whatever You Do —
+Whatever You Do.
 Here's Whether I Understand Your World.
 
 ### Intro
-The mindset matters more than the industry. But if you want to know whether I've worked in your space:
+The mindset matters more than the industry. But if you want to know whether I've worked in your space.
 
-**Trades and construction**
+**Trades & Construction**
 Electricians · Builders · Earthworks · Plumbers · Painters · Landscapers · Concreters
 
 *You're brilliant at your trade. You shouldn't have to be brilliant at websites too.*
 
-**Professional services**
+**Professional Services**
 Physiotherapists · Accountants · Lawyers · Consultants · Financial advisers · Coaches · Real estate agents · Architects
 
-*When someone Googles you before they book — what do they find?*
+*When someone Googles you before they book. What do they find?*
 
-**Creatives, hospo and personal brands**
+**Creatives, Hospo & Personal Brands**
 Photographers · Café and restaurant owners · Designers · Speakers · Podcasters · Stylists · Writers · Anyone whose name is the brand
 
 *Your Instagram isn't your website. It's your signal. The website is the source.*
@@ -1050,7 +1084,12 @@ Who This Isn't For.
 - Businesses needing e-commerce, course platforms, or custom apps
 - Anyone who hasn't decided yet
 
-No hard feelings — I'll point you somewhere better.
+No hard feelings. I'll point you somewhere better.
+
+### Ecosystem Cross-Link
+Still figuring out where you fit? Ever wondered how a website actually slots in alongside your socials, your Google profile, your email list, and everything else?
+
+See how it all fits together → (/ecosystem)
 
 ---
 
@@ -1059,33 +1098,35 @@ No hard feelings — I'll point you somewhere better.
 ### Headline
 Different Worlds. Same Relief.
 
-"Creating a website wasn't something I was looking forward to — but the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
+"Creating a website wasn't something I was looking forward to. But the whole process was smooth, easy and stress-free. The outcome is clean, professional, and suits our business perfectly."
 — Brad, Carve Earthworks · Northland
 
 "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready. My mates reckon it's banging."
 — Reuben, Johnson & Sons · Commercial Builder
 
-"The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can't believe how good it is."
+"The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can't believe how good it is."
 — Katie, Rumours On Rust · Café, Whangārei
 
-"You helped me take that next step and build my dream — that was my barrier to market."
+"You helped me take that next step and build my dream. That was my barrier to market."
 — Nicolette, Ember & Ice · Wellness Studio
 
 ---
 
 ## Final CTA
 
-### Headline
-People Are Already
-Looking for You.
-Let's Build the Place
-They Actually Find.
+### Badge
+The Next Step
 
-Your permanently owned corner of the internet — written in your voice, looked after forever.
+### Headline
+People Are Already Looking for You.
+Let's Build the Place They Actually Find.
+
+Your permanently owned corner of the internet. Written in your voice, looked after forever.
 
 - Start Your Build
 - See How It Works
 
+---
 ---
 
 # PAGE 05 — YOUR DIGITAL ECOSYSTEM
@@ -1093,18 +1134,18 @@ Your permanently owned corner of the internet — written in your voice, looked 
 # THIS IS THE ONLY EDUCATION/SEO PAGE ON THE SITE.
 # Purpose: attract curious searchers, explain the digital landscape,
 # surface data. Not a sales page. Does not assume prior intent.
-# All diagrams from the YourHQ Visual Reference Maps HTML file are used here.
+# Seven diagrams in page order: website types, ecosystem, tech stack,
+# build workflow, one-inbox model, pricing, target ICP.
 
 ## Page Badge
 Visual Reference Maps & Ecosystem
 
 ## Page Headline
-How Your Website Fits
-Into Everything Else
-You're Doing Online.
+How Your Website Fits Into
+Everything Else You're Doing Online.
 
 ## Page Subhead
-A plain-English guide to the digital landscape — where your website sits, what surrounds it, and how it all connects.
+A plain-English guide to the digital landscape. Every diagram in one place: website types, the tech stack, the one-inbox model, pricing, and target ICP.
 
 ---
 
@@ -1113,7 +1154,9 @@ A plain-English guide to the digital landscape — where your website sits, what
 ### Headline
 Where Things Actually Stand.
 
-47% of New Zealand businesses don't have a website. Website adoption hasn't moved since 2022 — despite 74% of consumers saying a website is their most important tool for engaging with a business.
+47% of New Zealand businesses don't have a website. Adoption hasn't moved since 2022.
+
+74% of consumers say a website is their most important tool for engaging with a business.
 
 53% of purchase journeys start with online research.
 
@@ -1126,196 +1169,304 @@ That's not a technology problem. It's a priority problem.
 ## SECTION: Signals vs Source
 
 ### Headline
-Everything You Do Online
-Is a Signal.
-The Question Is —
+Everything You Do Online Is a Signal.
 Where Does It Lead?
 
 ### Body
 You post on LinkedIn. You show up on Instagram. You get mentioned in a podcast. Someone leaves a Google review.
 
-Every one of those is a signal — a small piece of evidence that you exist, that you're real, that you're worth paying attention to.
+Every one of those is a signal. A small piece of evidence that you exist, that you're real, that you're worth paying attention to.
 
-But signals need somewhere to point. A destination. A place that holds the whole story — permanently, completely, in your own words, on your own terms.
+But signals need somewhere to point. A destination. A place that holds the whole story. Permanently, completely, in your own words, on your own terms.
 
-Without that, signals scatter. People find fragments. They can't get the full picture. In the moment they're deciding whether to trust you — they hesitate.
+Without that, signals scatter. People find fragments. They can't get the full picture. In the moment they're deciding whether to trust you. They hesitate.
 
 ### Callout
 **Your profiles are signals. Your website is the source.**
 
-Every post, every review, every appearance — they should point somewhere permanent. Somewhere you own. Somewhere that says: this is who I am, this is what I stand for, and I'm not going anywhere.
+Every post, every review, every appearance. They should point somewhere permanent. Somewhere you own. Somewhere that says: this is who I am, this is what I stand for, and I'm not going anywhere.
 
 ---
 
-## SECTION: The Ecosystem Diagram
+## SECTION: Diagram 01 — Types of Websites We Build
+
+### Badge
+Diagram 01
 
 ### Headline
-Where Everything Sits.
+Types of websites we build.
 
-⬛ DIAGRAM REQUIRED: Digital Ecosystem diagram
-— Reference: Diagram 02 (The Digital Ecosystem) from YourHQ Visual Reference Maps HTML file
-— Shows traffic layer at top (Google, LinkedIn, Instagram, Podcast, Referral)
-— Website as the central source in the middle
-— YourHQ-built components below (forms, email capture, Stripe, blog)
-— Partner services (photographer, SEO, social media manager)
-— Refer-out services at bottom (Shopify, Kajabi, Circle, Substack, HubSpot, custom dev)
-— Legend: green = YourHQ builds / blue = partners / grey strikethrough = refer out
-
-**Traffic layer** — Google, LinkedIn, Instagram, podcasts, referrals. These bring people to you.
-
-**The source** — your website. The one place you own completely.
-
-**What YourHQ builds** — the website itself, plus any systems wired into it: forms, email capture, Stripe payments, blog and content autopilot.
-
-**Partners we work alongside** — photographers, brand designers, SEO specialists, social media managers.
-
-**What we refer out** — e-commerce, course platforms, custom apps, CRMs. If it's outside our scope, we'll tell you and point you somewhere better.
-
----
-
-## SECTION: Two Kinds of Site
-
-### Headline
-Business Site or
-Personal Brand —
-Here's the Difference.
+Two fundamental types, same stack. Architecture and copy angle differ based on whether the person is the brand.
 
 ⬛ DIAGRAM REQUIRED: Website Types diagram
-— Reference: Diagram 01 (Types of Website We Build) from YourHQ Visual Reference Maps HTML file
-— Two cards side by side: Business Site (green) / Personal Brand (pink)
-— Shows what each homepage answers, primary goal, and examples
-— Bottom strip showing what both types share (same stack, same process, same care)
+— Reference: Diagram 01 (Types of websites we build)
+— Two cards side by side: Business site (green) / Personal brand (pink)
+— Each card shows homepage focus, social proof, primary CTA, credibility/routing, Google search
+— "Both types" strip below the cards
+— Category tiles row: Presence / Authority / Community / Commerce (green) and E-commerce / App–Platform (refer out)
 
-**Business Site**
-The business exists beyond you — tradie, clinic, café, studio, practice.
-The homepage answers: *what do you do and why should I choose you?*
-Primary goal: credibility, findability, enquiry.
+**Type 01 — Business site**
+The business exists separately from the person: tradie, clinic, café, salon, studio.
+- Homepage: what we do + who for
+- Social proof: client results
+- Primary CTA: call / form / quote
+- Credibility signals: quals, certs
+- Google search: service keywords
 
-**Personal Brand Site**
-You are the business — coach, consultant, speaker, creator, author.
-The homepage answers: *who are you and why does your point of view matter?*
-Primary goal: trust, authority, multiple audience routing.
+**Type 02 — Personal brand**
+The person IS the business: coach, speaker, consultant, creator, author.
+- Homepage: who I am + what I believe
+- Social proof: media, talks, publications
+- Primary CTA: work with me / join / buy
+- Multiple audience routing
+- Google search: name + topic keywords
 
-**Both:** same Astro + Tailwind + Vercel stack. Same Drive-Home Interview. Same Caretaker model. Same annual refresh. Same unconditional ownership.
+**Both types:** same Astro + Tailwind + Vercel stack · same caretaker model · same Drive-Home Interview · same on-demand updates
+
+**Category tiles:**
+- Presence — Exist, look credible, get found
+- Authority — Portfolio, blog, thought leader hub
+- Community — Email capture, lead magnet
+- Commerce — Stripe services, digital products
+- E-commerce — Shopify → Refer out
+- App / Platform — Custom dev → Refer out
 
 ---
 
-## SECTION: The Tech Stack
+## SECTION: Diagram 02 — The Digital Ecosystem
+
+### Badge
+Diagram 02
 
 ### Headline
-Most Website Problems
-Live in Layers
-Nobody Talks About.
+The Digital Ecosystem.
 
-When a website is slow, breaks at the worst time, or gets hacked — it's almost never the design. It's the infrastructure underneath.
+Where YourHQ sits relative to every other type of web service.
+
+⬛ DIAGRAM REQUIRED: Digital Ecosystem diagram
+— Reference: Diagram 02 (The Digital Ecosystem)
+— Traffic layer at top → arrow down to the Source card → arrow down to YourHQ-built components
+— Bottom split: Partners (we work alongside) / Refer out (strikethrough, not our lane)
+
+**Traffic:** Google / SEO · Meta Ads · LinkedIn · Instagram · Podcast / Press · Referral / WOM
+
+**The Website. The Source.**
+Everything else is a signal. This is where it all leads. Owned, permanent, never disappears.
+
+**Build + Copy + Care · Forms + Capture · Stripe / Checkout · Blog + Autopilot**
+
+**Partners (We work alongside):** Copywriter · Photographer · Brand Designer · SEO Specialist · Social Media Mgr
+
+**Refer Out (Not our lane):** ~~Shopify~~ · ~~Kajabi / LMS~~ · ~~Circle / Community~~ · ~~Substack / Ghost~~ · ~~HubSpot / CRM~~ · ~~Custom Dev~~
+
+---
+
+## SECTION: Diagram 03 — The Technology Stack
+
+### Badge
+Diagram 03
+
+### Headline
+The Technology Stack.
+
+Six layers, bottom to top. Most people only see layer 6. Understanding the stack is why our sites are faster and more secure.
 
 ⬛ DIAGRAM REQUIRED: Tech Stack diagram
-— Reference: Diagram 03 (The Technology Stack) from YourHQ Visual Reference Maps HTML file
-— Six layered rows from bottom (Layer 1 Domain) to top (Layer 6 What visitor sees)
-— Each layer colour coded
-— House analogy strip at the bottom: street address / building / fitout / furnishings / what guests see / caretaker
+— Reference: Diagram 03 (The Technology Stack)
+— Six rows, layer 6 at top down to layer 1 at bottom, each with a tag chip on the right
 
-**Layer 1 — The street address (Domain)**
-Registered in your name from day one. The only part of the stack that is irreversibly yours regardless of anything else.
+**6 — What the visitor sees** *(The goal)*
+Pages, copy, design, photos, forms, CTAs. Fast, clear, credible. Under 1 second load time. The goal.
 
-**Layer 2 — The building (Hosting)**
-We use Vercel's global edge network — your site loads from a server near whoever's looking at it. Fast. Reliable.
+**5 — Content and copy** *(YourHQ + Client)*
+Written from the Drive-Home Interview, content raid on existing socials, and the client's footprint. Kept fresh via one-inbox updates.
 
-**Layer 3 — The fitout (Framework)**
-This is where most cheap website problems live. WordPress, Wix, page builders — bloat, security holes, "my site broke at 11pm Friday." We use Astro — clean static files. Nothing to hack. Under a second to load.
+**4 — Builder / framework** *(Astro + Tailwind)*
+How the site is constructed. The biggest quality gap. No page builders, no visual editors, no bloat. Pure hand-coded components.
 
-**Layer 4 — The furnishings (Content)**
-Written from your Drive-Home Interview. Kept fresh through the one-inbox model.
+**3 — Platform / CMS** *(None (Static))*
+Where WordPress plugin bloat, security holes, and 'my site broke' come from. Astro generates static files. No CMS layer needed.
 
-**Layer 5 — What your visitors see**
-Pages, design, photos, forms, calls to action. Fast, clear, credible.
+**2 — Hosting** *(Vercel Edge)*
+Invisible but critical. Determines speed, reliability, uptime. Vercel's global edge network means the site loads from a server near the visitor.
 
-**Layer 6 — The caretaker**
-Us. The part most web designers leave out.
-
-### Callout
-Most "cheap website" problems live in layers 2 and 3. Bad hosting. Bloated platforms. Security holes. Every YourHQ site uses static files on a global edge network — loads in under a second, essentially unhackable.
+**1 — Domain** *(Owned by client)*
+Their address. The only part of the stack that is irreversibly theirs from day one. Always registered in the client's name.
 
 ---
 
-## SECTION: The One-Inbox Model
+## SECTION: Diagram 04 — The Build Workflow
+
+### Badge
+Diagram 04
 
 ### Headline
-After You're Live —
-You Never Log In.
-You Just Text Me.
+The Build Workflow.
 
-After launch, most web designers disappear. I become your Caretaker — and the way we work together is deliberately simple.
+From Drive-Home Interview to live site. The caretaker relationship begins at launch.
+
+⬛ DIAGRAM REQUIRED: Build Workflow diagram
+— Reference: Diagram 04 (The Build Workflow)
+— Seven numbered steps on a continuous vertical line, each tagged by owner (Client / Automation / Lian / Ongoing)
+
+**1 — Client Action · Drive-Home Interview**
+Client calls the AI voice agent. On the couch, in the car, between jobs. Their own time, their own terms. No forms, no typing, no scheduled Zoom. Just talk.
+
+**2 — Automation · Agent drafts copy + content raid**
+The agent processes the transcript and raids the client's existing footprint. Pulls photos, testimonials, business info. Drafts all page copy. Time from client: zero.
+
+**3 — Lian Touchpoint · Lian reviews copy**
+Lian reads the agent's draft, refines the voice, flags anything needed, and approves it for client review. Quality control before the client sees it.
+
+**4 — Client Action · Client copy review**
+Client receives a private page showing all copy section by section. One round of changes allowed. Copy is approved before a single line of design code is written.
+
+**5 — Lian Builds · The Build & QA**
+Lian builds to the approved copy. Astro + Tailwind CSS. Mobile-first. SEO and AEO ready. Lian checks everything before the private staging link is sent.
+
+**6 — Client Decision · Accept, or full refund**
+Client loves it → subscription starts, goes live. Client hates it → full refund minus hard costs. One round of edits available before the refund decision.
+
+**7 — Ongoing · Live. Caretaker model begins**
+Domain connected within 24 hours. Google notified. Hosting, SSL, security running. One-inbox model is live. Text, email, Drive, link, we handle it all.
+
+---
+
+## SECTION: Diagram 05 — The One-Inbox Model
+
+### Badge
+Diagram 05
+
+### Headline
+The One-Inbox Model.
+
+After launch, clients never log in, never learn a system, never change how they operate. They send stuff. We handle it.
 
 ⬛ DIAGRAM REQUIRED: One-Inbox Model diagram
-— Reference: Diagram 05 (The One-Inbox Model) from YourHQ Visual Reference Maps HTML file
-— Shows 6 input channels at top (Text/WhatsApp, Email, Google Drive, Share a link, LinkedIn/Instagram, Client portal)
-— Arrow pointing down to Claude intelligence layer in the middle
-— Arrow pointing down to 4 outputs (Copy updated, Photos added, Blog article live, Media archived)
-— "What clients never have to do" strip at the bottom with strikethrough items
+— Reference: Diagram 05 (The One-Inbox Model)
+— Six input channels at top → arrow down to the YourHQ intelligence layer → arrow down to four outputs
+— "What you never have to do" strip at the bottom with strikethrough items
 
-**Text or WhatsApp** — "Can you swap my number to 021 456 789" → done within 24 hours.
-**Email** — "New bio attached — update the About page" → updated and live.
-**Share a link** — "I was on this podcast — can you add it" → fetched, formatted, published.
-**Drop photos in Google Drive** → formatted and added to your gallery.
-**Post normally on LinkedIn or Instagram** *(Content Autopilot Power-Up)* → your post becomes a permanently indexed blog article. No extra work.
+**Inputs:**
+- Text — "Swap my number"
+- Email — "New bio attached"
+- Drive — "Dropped new photos"
+- Link — "I was on this podcast"
+- Social — Post becomes blog
+- Portal — Optional dropzone
 
-**What you never have to do:**
-~~Log into a dashboard~~
-~~Learn a CMS~~
-~~Use a new app~~
-~~Write a brief~~
-~~Chase someone for updates~~
-~~Rebuild every three years~~
+**Received by YourHQ**
+Reviewed · Formatted · Approved by Lian · Published to your site
+
+**Outputs:**
+- Copy Updated — Live within 24 hours
+- Photos Added — Formatted and published
+- Blog Live — Indexed permanent article
+- Media Archived — Podcast/press formatted
+
+**What You Never Have to Do:**
+~~Log into a dashboard~~ · ~~Learn a CMS~~ · ~~Use a new app~~ · ~~Write a brief~~ · ~~Resize a photo~~ · ~~Chase someone for updates~~ · ~~Rebuild every 3 years~~
 
 ---
 
-## SECTION: What's Not Our Lane
+## SECTION: Diagram 06 — Pricing Structure
+
+### Badge
+Diagram 06
 
 ### Headline
-We Know What
-We're For.
+Pricing Structure.
 
-| If you need | We'll point you to |
-|---|---|
-| Physical products, inventory, shipping | A Shopify developer |
-| Full course platform and community | A Kajabi consultant |
-| Paid membership or community platform | Circle or Mighty Networks |
-| Newsletter as the primary product | Substack or Ghost |
-| Google or Meta Ads management | A PPC specialist |
-| SEO campaigns and link building | An SEO specialist |
-| CRM and sales pipeline | A HubSpot partner |
-| Custom web app or SaaS product | A dev agency |
+One build fee. Add-Ons for third-party integrations. Monthly care that scales with what the site does.
+
+⬛ DIAGRAM REQUIRED: Pricing diagram
+— Reference: Diagram 06 (Pricing Structure)
+— Feature build card at top, then two columns: Add-Ons / Monthly Caretaker
+
+**The build · one-time setup fee — The Permanent Digital Home**
+Everything needed to exist properly, look credible, and be found. Drive-Home Interview, market research, full copywriting, content raid, up to 8 pages hand-coded, blog, portfolio, media and press, socials embed, Google Business Profile, forms, SEO and AI search optimised, domain, hosting, on-demand updates forever.
+**$3,800** — NZD + GST · one-time
+
+**Add-Ons (Third-party systems) · NZD**
+- Bookings embed — Calendly, Timely, Acuity — +$100
+- Email platform + lead magnet — ConvertKit/Mailchimp connected — +$250
+- Stripe: Services / products — Deposits, PDFs · up to 5 items — +$350
+- Stripe: Course delivery — Structured course with modules — +$600
+
+**Monthly Caretaker (Scales with complexity) · NZD**
+- **Level 1 · Sorted — $149/mo** — Site is your credibility anchor. You message when something changes. 30 minutes included · hosting · security · on-demand updates
+- **Level 2 · Connected — $199/mo** — Site is doing active work. Booking systems running, email list growing. 1 hour included · more moving parts · more regular updates
+- **Level 3 · Building — $299/mo** — Site is an active revenue channel. Adding products, running campaigns, pushing harder. 2 hours included · payment flow monitoring · highest care level
+
+---
+
+## SECTION: Diagram 07 — The Target ICP
+
+### Badge
+Diagram 07
+
+### Headline
+The Target ICP.
+
+Not an industry. A mindset. Same psychological profile, three different outfits.
+
+⬛ DIAGRAM REQUIRED: Target ICP diagram
+— Reference: Diagram 07 (The Target ICP)
+— Shared mindset quote block, then three persona cards: Grant / Sarah / Kiri
+
+**The Shared Mindset**
+"Someone who has already built something real (a business, a reputation, an audience) but all of it lives on platforms they don't control. When people go looking for the proper version of them, there's nothing there that does them justice."
+
+**Grant — The tradie**
+- Who: Electrician, plumber, builder
+- Wants: Time back + credibility
+- Buys because: "This looks legit and I don't have to do anything."
+
+**Sarah — The professional**
+- Who: Physio, accountant, coach
+- Wants: Status + authority
+- Buys because: "This matches my professional standards."
+
+**Kiri — The creator**
+- Who: Salon, hospo, photographer
+- Wants: Ownership + independence
+- Buys because: "This feels like me and I finally own it."
 
 ---
 
 ## SECTION: FAQ — The Ecosystem Questions
 
+### Headline
+The Ecosystem Questions.
+
 **Does my website replace my social media presence?**
 No. Social is where you show up and reach new people. The website is where you send them when they want the full picture. Both matter. The difference is one is rented, one is owned.
 
 **What if the platforms I use change or disappear?**
-Your website is the one thing that doesn't depend on any platform's decisions. Your domain, content, design — owned unconditionally. If Instagram disappeared tomorrow, your website is still there.
+Your website is the one thing that doesn't depend on any platform's decisions. Your domain, content, design. Owned unconditionally. If Instagram disappeared tomorrow, your website is still there.
 
 **What's the difference between SEO and AEO?**
-SEO is how your site shows up in Google's traditional results. AEO — Answer Engine Optimisation — is how your site shows up in AI-generated answers, like when someone asks ChatGPT a question and it pulls from real websites. We build for both.
+SEO is how your site shows up in Google's traditional results. AEO, Answer Engine Optimisation, is how your site shows up in AI-generated answers, like when someone asks ChatGPT a question and it pulls from real websites. We build for both.
 
 **What does "hand-coded" actually mean?**
-Every line of code is written specifically for your site — not assembled from a template or generated by a page builder. Hand-coded sites are faster, cleaner, more secure, and more distinctive.
+Every line of code is written specifically for your site, not assembled from a template or generated by a page builder. Hand-coded sites are faster, cleaner, more secure, and more distinctive.
 
 ---
 
 ## Final CTA
 
-### Headline
-Ready to Build
-the Source?
+### Badge
+The Next Step
 
-One conversation. Your story captured. Your permanent digital home — built, owned, looked after forever.
+### Headline
+Ready to Build the Source?
+
+One conversation. Your story captured. Your permanent digital home, built, owned, looked after forever.
 
 - Start Your Build
 - See How It Works
 
+---
 ---
 
 # PAGE 06 — PORTFOLIO
@@ -1329,10 +1480,10 @@ Every Build Is Someone's
 Story, Finally Told Properly.
 
 ## Page Subhead
-Founded in Aotearoa New Zealand · Clients Worldwide
+Real people and real businesses. Each one with a reputation worth representing properly online.
 
-## Page Intro
-Real people and real businesses — each one with a reputation worth representing properly online.
+## Page Note
+Founded in Aotearoa New Zealand · Clients Worldwide
 
 ---
 
@@ -1342,25 +1493,27 @@ Real people and real businesses — each one with a reputation worth representin
 The Origin
 
 ### Headline
-This Is What Started Everything.
+This Is What
+Started Everything.
 
-Before YourHQ had a single client, it had one build — mine.
+Before YourHQ had a single client, it had one build. Mine.
 
-I was deep in my Master of Technological Futures, learning to code, obsessed with the intersection of storytelling and digital space, and quietly becoming convinced that owning your corner of the internet wasn't optional — it was essential.
+I was deep in my Master of Technological Futures, learning to code, obsessed with the intersection of storytelling and digital space, and quietly becoming convinced that owning your corner of the internet wasn't optional. It was essential.
 
-So I built my own. DreamStorm — a home for the brand story I'd been carrying around without anywhere to put it.
+So I built my own. DreamStorm. A home for the brand story I'd been carrying around without anywhere to put it.
 
 Something clicked.
 
-The process of translating a person, a vision, a set of values into a digital space that actually feels like them — I loved it. Not just the craft of it. The meaning of it. The way a well-built site can say: *this is real, this person is serious, this is worth your time.*
+The process of translating a person, a vision, a set of values into a digital space that actually feels like them. I loved it. Not just the craft of it. The meaning of it. The way a well-built site can say: *this is real, this person is serious, this is worth your time.*
 
 That feeling is what YourHQ is built on.
 
-**dreamstorm.org** — where the idea was proven, and the obsession began.
+Visit dreamstorm.org →
 
 ⬛ DIAGRAM REQUIRED: DreamStorm screenshot
 — Screenshot of dreamstorm.org homepage
 — Displayed as a device mockup (desktop or mobile) alongside or below the origin text
+— Image links to dreamstorm.org
 
 ---
 
@@ -1377,60 +1530,62 @@ One Standard.
 
 ---
 
-### Project 1: Rumours On Rust
+### Project 01: Rumours On Rust
 **Café & Hospitality · Whangārei, NZ**
 
 ⬛ DIAGRAM REQUIRED: Rumours On Rust site screenshot
 — Homepage screenshot in mobile device mockup
+— Image links to https://rumours-on-rust.site
 
-Katie was launching a café during one of the busiest seasons of her life. She needed a site that matched the warmth and intention she'd put into the physical space — without it becoming another thing on an impossible list.
+Katie was launching a café during one of the busiest seasons of her life. She needed a site that matched the warmth and intention she'd put into the physical space, without it becoming another thing on an impossible list. We captured her story, raided her existing content, and built something that feels as good as the coffee tastes.
 
-We captured her story, raided her existing content, and built something that feels as good as the coffee tastes.
-
-"The process was stress-free, quick, foolproof and fun. The website is sleek and professional — I can't believe how good it is."
+"The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can't believe how good it is."
 — Katie, Owner
 
 Badges: STORY-LED · FAST BUILD · MOBILE-FIRST
 
 ---
 
-### Project 2: Carve Earthworks
+### Project 02: Carve Earthworks
 **Earthworks & Civil · Northland, NZ**
 
 ⬛ DIAGRAM REQUIRED: Carve Earthworks site screenshot
 — Homepage screenshot in mobile device mockup
+— Image links to https://www.carveearthworks.co.nz
 
-Brad runs a tight, professional operation — the kind of business that wins work on reputation and quality. His online presence didn't reflect that. We fixed it.
+Brad runs a tight, professional operation. The kind of business that wins work on reputation and quality. His online presence didn't reflect that. We fixed it.
 
-"The whole process was smooth, easy and stress-free — with a clean professional outcome that suits our business perfectly."
+"The whole process was smooth, easy and stress-free. With a clean professional outcome that suits our business perfectly."
 — Brad, Owner
 
 Badges: ZERO HOMEWORK · CREDIBILITY BUILD · CARETAKER MODEL
 
 ---
 
-### Project 3: Ember & Ice
+### Project 03: Ember & Ice
 **Wellness Studio · Northland, NZ**
 
 ⬛ DIAGRAM REQUIRED: Ember & Ice site screenshot
 — Homepage screenshot in mobile device mockup
+— Image links to https://emberandice.co.nz
 
-Nicolette had built something genuinely special — a wellness space with a clear vision and a growing reputation. But the online presence said "just an Instagram." The site we built says something different entirely.
+Nicolette had built something genuinely special. A wellness space with a clear vision and a growing reputation. But the online presence said "just an Instagram." The site we built says something different entirely.
 
-"You helped me take that next step and build my dream — that was my barrier to market."
+"You helped me take that next step and build my dream. That was my barrier to market."
 — Nicolette, Founder
 
 Badges: PREMIUM BUILD · TRUST-BUILDER · DIGITAL OWNERSHIP
 
 ---
 
-### Project 4: Johnson & Sons
+### Project 04: Johnson & Sons
 **Commercial Services · Northland, NZ**
 
 ⬛ DIAGRAM REQUIRED: Johnson & Sons site screenshot
 — Homepage screenshot in mobile device mockup
+— Image links to https://johnsonandsonsltd.site
 
-Reuben needed to look legitimate online — fast — without getting stuck in file uploads, copy briefs, or platform headaches. We went through his Facebook, pulled what we needed, and had a draft ready before he'd figured out Google Drive.
+Reuben needed to look legitimate online, fast, without getting stuck in file uploads, copy briefs, or platform headaches. We went through his Facebook, pulled what we needed, and had a draft ready before he'd figured out Google Drive.
 
 "While I was still figuring out Google Drive, Lian had already pulled images from our Facebook and had a draft site ready. My mates reckon it's banging."
 — Reuben, Director
@@ -1446,29 +1601,34 @@ Different Industries.
 Same Standard.
 Every Time.
 
-**Built in your voice** — written from a real conversation, reviewed by me personally before a line of code is written.
+**Built in your voice.** Written from a real conversation, reviewed by me personally before a line of code is written.
 
-**Hand-coded, not assembled** — every site built in Astro. Under a second to load. No page builders. No shortcuts.
+**Hand-coded, not assembled.** Every site built in Astro. Under a second to load. No page builders. No shortcuts.
 
-**Owned by you, unconditionally** — your domain, your content, your design. From day one. If you ever leave, everything comes with you.
+**Owned by you, unconditionally.** Your domain, your content, your design. From day one. If you ever leave, everything comes with you.
 
-**Looked after forever** — hosting, security, annual refresh, on-demand updates. I don't build and disappear.
+**Looked after forever.** Hosting, security, on-demand updates. I don't build and disappear.
 
-**Built for where digital is going** — standard search, AI-generated answers, whatever comes next.
+**Built for where digital is going.** Standard search, AI-generated answers, whatever comes next.
 
 ---
 
 ## Final CTA
 
+### Label
+The Next Step
+
 ### Headline
 Want to See Your
 Story Here Next?
 
-One conversation. Your story captured. Your digital home built and looked after — forever.
+One conversation. Your story captured.
+Your digital home built and looked after. Forever.
 
 - Start Your Build
 - See How It Works
 
+---
 ---
 
 # PAGE 07 — OUR STORY
@@ -1479,16 +1639,15 @@ The Founder
 
 ## Page Headline
 I Build Digital Homes.
-It Turns Out I Was Born
-to Do This.
+It Turns Out I Was Born to Do This.
 
 ## Page Subhead
 Founded in Aotearoa New Zealand. Clients worldwide.
 
-⬛ DIAGRAM REQUIRED: Hero photo of Lian
-— Full-width or half-width header image
-— Warm, natural setting — not corporate
-— WOTSO co-working or similar preferred
+⬛ DIAGRAM REQUIRED: Hero headshot of Lian
+— Right-hand column, 4:5 portrait
+— alt: "Lian, Founder of YourHQ"
+— Warm, natural — not corporate
 
 ---
 
@@ -1501,9 +1660,9 @@ Origin
 It Started With
 My Own Website.
 
-I've always been obsessed with storytelling — with the way a person or a business can be translated from the physical world into something digital that actually feels like them. Not a brochure. Not a template. Something that carries the real story.
+I've always been obsessed with storytelling. With the way a person or a business can be translated from the physical world into something digital that actually feels like them. Not a brochure. Not a template. Something that carries the real story.
 
-When I started building my own website, two things happened. First, I realised I was actually pretty good at this. Second — and this is the part that hooked me — I realised how much I loved it.
+When I started building my own website, two things happened. First, I realised I was actually pretty good at this. Second, and this is the part that hooked me, I realised how much I loved it.
 
 Taking someone's story and crafting it into a digital presence. Making it feel frictionless. Getting the experience right so that the person on the other end feels something when they land on it.
 
@@ -1518,14 +1677,13 @@ Why This Matters
 
 ### Headline
 Everyone Deserves
-Their Own Slice of
-Digital Space.
+Their Own Slice of Digital Space.
 
 There's a strange idea floating around that websites are a thing of the past. That social media is enough. That a link in bio will do.
 
 I couldn't disagree more.
 
-A website is one of the most important things a person or business can own. Your permanent, unconditional corner of the internet — a space that belongs to you, not to a platform, not to an algorithm, not to a company that can change the rules overnight.
+A website is one of the most important things a person or business can own. Your permanent, unconditional corner of the internet. A space that belongs to you, not to a platform, not to an algorithm, not to a company that can change the rules overnight.
 
 Data sovereignty. Digital ownership. The right to exist online on your own terms.
 
@@ -1545,18 +1703,16 @@ The Lens
 
 ### Headline
 I Didn't Study to Build Websites.
-I Studied Because I Needed
-to Understand Where All
-of This Is Going.
+I Studied Because I Needed to Understand Where All of This Is Going.
 
-I completed a Master of Technological Futures because understanding AI and disruptive emerging technology wasn't optional — it was the most important thing I could do to stay useful in a rapidly shifting world.
+I completed a Master of Technological Futures because understanding AI and disruptive emerging technology wasn't optional. It was the most important thing I could do to stay useful in a rapidly shifting world.
 
-Building websites wasn't the focus. It happened almost by accident. And along the way I ended up going deep on conversational AI — becoming, quietly, something of an expert in it.
+Building websites wasn't the focus. It happened almost by accident. And along the way I ended up going deep on conversational AI. Becoming, quietly, something of an expert in it.
 
-What the Master's actually gave me wasn't a qualification. It was a way of thinking. Solving complex problems and making them simple. Building technology that's ethical and values-based. Asking — from the very beginning — how do we wield this well?
+What the Master's actually gave me wasn't a qualification. It was a way of thinking. Solving complex problems and making them simple. Building technology that's ethical and values-based. Asking, from the very beginning, how do we wield this well?
 
 ### Callout
-Every site I build is constructed for the present and future-proofed for what's coming — AI search, answer engines, the next shift we haven't named yet. You don't have to understand any of it. That's my job.
+Every site I build is constructed for the present and future-proofed for what's coming. AI search, answer engines, the next shift we haven't named yet. You don't have to understand any of it. That's my job.
 
 ---
 
@@ -1569,15 +1725,15 @@ Where It Gets Personal
 I Think About My Dad
 More Than I Let On.
 
-My dad worked for himself his whole life. Watching him was where my work ethic came from — that quiet pride in doing something well, on your own terms, without waiting for permission.
+My dad worked for himself his whole life. Watching him was where my work ethic came from. That quiet pride in doing something well, on your own terms, without waiting for permission.
 
-He never had a website. In his day, it wasn't the thing. But I think about it sometimes — what I would have built for him. How I would have translated his story, his craft, his reputation into something permanent and findable and his.
+He never had a website. In his day, it wasn't the thing. But I think about it sometimes. What I would have built for him. How I would have translated his story, his craft, his reputation into something permanent and findable and his.
 
 He probably would have shrugged and said he didn't need it.
 
 But I would have loved to have had the chance.
 
-That feeling is part of why I do this. The people I build for are people like him — good at what they do, built something real, deserving of a digital presence that finally matches it.
+That feeling is part of why I do this. The people I build for are people like him. Good at what they do, built something real, deserving of a digital presence that finally matches it.
 
 ---
 
@@ -1588,25 +1744,19 @@ What I Build
 
 ### Headline
 Founder. Builder.
-The Person Who
-Actually Makes It.
+The Person Who Actually Makes It.
 
 I'm the founder of YourHQ and I build every site personally.
 
-Strategy, copy, design, code, infrastructure, performance — that's all me. Every client gets my full attention. Every build is hand-coded, not templated. Every site is reviewed by me before it goes anywhere near a preview link.
+Strategy, copy, design, code, infrastructure, performance. That's all me. Every client gets my full attention. Every build is hand-coded, not templated. Every site is reviewed by me before it goes anywhere near a preview link.
 
 That's not a limitation. That's the point.
 
-When you work with YourHQ, you're working with the person who cares most about getting it right — because my name is on every single thing that goes out.
+When you work with YourHQ, you're working with the person who cares most about getting it right. My name is on every single thing that goes out.
 
 ### Callout
 **I'm a founder who builds, not a founder who manages.**
 Every client gets the real thing. No handoffs. No junior staff. No templates with your name dropped in.
-
-⬛ DIAGRAM REQUIRED: Photo of Lian working
-— At desk, laptop open, WOTSO or home studio setting
-— Natural, not posed — working photo not a portrait
-— Sits alongside or below the Founder section
 
 ---
 
@@ -1635,17 +1785,18 @@ One More Person Worth Knowing
 ### Headline
 Nic.
 
-**Nicolette Bates — Connector**
+**Nic Sheehan — Connector**
 
 Nic is the person who finds the people who need this and helps them take the first step.
 
-She's not a salesperson in the traditional sense. She's someone who understands the YourHQ model deeply, genuinely believes in it, and has a gift for recognising when someone is exactly the right fit — and making the introduction feel easy.
+She's not a salesperson in the traditional sense. She's someone who understands the YourHQ model deeply, genuinely believes in it, and has a gift for recognising when someone is exactly the right fit. And making the introduction feel easy.
 
 If Nic sent you here, you're in good hands. She doesn't send people who aren't.
 
 ⬛ DIAGRAM REQUIRED: Photo of Nic
+— 4:5 portrait alongside the Nic section text
+— alt: "Nic Sheehan, Connector"
 — Warm, approachable — not corporate headshot
-— Sits alongside the Nic section text
 
 ---
 
@@ -1655,13 +1806,14 @@ If Nic sent you here, you're in good hands. She doesn't send people who aren't.
 Values
 
 ### Headline
-This Is How I Work.
+This Is How
+I Work.
 
 **You own everything.** Your domain, your content, your design. From day one. If you ever leave, I hand it all over. Nothing held hostage.
 
-**I stay.** Most web designers build and disappear. I become your Caretaker — hosting, maintaining, refreshing, and answering your texts for as long as you're with me.
+**I stay.** Most web designers build and disappear. I become your Caretaker. Hosting, maintaining, refreshing, and answering your texts for as long as you're with me.
 
-**Technology should serve people.** Every decision in a YourHQ build is made with the human at the centre — not the algorithm, not the platform, not what's easiest for me.
+**Technology should serve people.** Every decision in a YourHQ build is made with the human at the centre. Not the algorithm, not the platform, not what's easiest for me.
 
 **Plain English. Always.** No jargon. No upselling things you don't understand.
 
@@ -1671,15 +1823,20 @@ This Is How I Work.
 
 ## Final CTA
 
+### Badge
+The Next Step
+
 ### Headline
 Ready to Work With Someone
 Who Actually Gives a Damn?
 
-One conversation. Your story captured. Your digital home built and looked after — forever.
+One conversation. Your story captured.
+Your digital home built and looked after. Forever.
 
 - Start Your Build
 - See How It Works
 
+---
 ---
 
 # PAGE 08 — CONTACT
@@ -1709,7 +1866,7 @@ Takes two minutes.
 Lian or Nic will text you within one business day. Not an automated reply. A real person.
 
 **Step 3 — We book your Drive-Home Interview**
-A quick call at a time that suits you — car, couch, between meetings.
+A quick call at a time that suits you. Car, couch, between meetings.
 
 **Step 4 — I handle the rest**
 Copy, content raid, build, preview. You approve. We go live.
@@ -1718,14 +1875,14 @@ Copy, content raid, build, preview. You approve. We go live.
 
 ### Contact Details
 
-Text: 022 172 5793
-Email: hello@yourhq.co.nz
-Based in Whangārei, Aotearoa New Zealand — working with clients worldwide
+Text: 027 566 8803
+Email: lian@yourhq.co.nz
+Based in Whangārei, Aotearoa New Zealand. Working with clients worldwide.
 
 ---
 
 ### Not quite ready?
-That's fine. Use the form to ask a question — no commitment, no pressure. If I'm not the right fit, I'll tell you honestly and point you somewhere better.
+That's fine. Use the form to ask a question. No commitment, no pressure. If I'm not the right fit, I'll tell you honestly and point you somewhere better.
 
 ---
 
@@ -1756,16 +1913,21 @@ Placeholder: e.g. Just Instagram / Old website from 2019 / Nothing yet
 Placeholder: jane@example.com
 
 **Phone** *(optional)*
-Placeholder: 022 172 5793
+Placeholder: 027 566 8803
 
 **Anything else you'd like to tell me?** *(optional)*
 Placeholder: Anything that helps me understand where you're at.
 
 **How did you hear about us?** *(optional)*
-Dropdown: Google / Search · Facebook / Instagram · Word of mouth · Network partner (accountant, bookkeeper, broker etc.) · Other
+Dropdown default: Select one
+Options: Google / Search · Facebook / Instagram · Word of mouth · Network partner (accountant, bookkeeper, broker etc.) · Other
 
 ### Submit Button
 Send It Through
+# Sending state: Sending...
+
+### Error Message
+Something went wrong. Please try again, or text 027 566 8803.
 
 ### After Submit Message
 **Got it.** Lian or Nic will be in touch within one business day. Keep an eye on your texts.
@@ -1777,6 +1939,7 @@ Send It Through
 Lock in your build and I'll text you a private link to your Drive-Home Interview.
 [Start Your Build →] — links to /start-build
 
+---
 ---
 
 # PAGE 09 — FAQ (STANDALONE)
@@ -1790,7 +1953,7 @@ Everything You Want to Know
 Before You Say Yes.
 
 ## Page Subhead
-Honest answers. No jargon. If your question isn't here — just text me.
+Honest answers. No jargon. If your question isn't here, just message me.
 
 ---
 
@@ -1808,25 +1971,25 @@ Honest answers. No jargon. If your question isn't here — just text me.
 ## The Process
 
 **How do I get started?**
-Fill in the contact form or text me directly on 022 172 5793. I'll get back to you within one business day and book your Drive-Home Interview from there.
+Fill in the contact form or text me directly on 027 566 8803. I'll get back to you within one business day and book your Drive-Home Interview from there.
 
 **What is the Drive-Home Interview?**
-A voice call with my AI assistant — on your terms, whenever suits. Car, couch, between meetings. No forms, no typing, no Zoom. You just talk. Most people take about 20 minutes.
+A voice call with my AI assistant. On your terms, whenever suits. Car, couch, between meetings. No forms, no typing, no Zoom. You just talk. Most people take about 20 minutes.
 
 **Do I have to write anything at all?**
-Nothing. I write every word — from your interview, your existing content, and one round of your feedback.
+Nothing. I write every word. From your interview, your existing content, and one round of your feedback.
 
 **What is the copy review page?**
-Before I build anything, you get a private page showing every section of your site copy — clearly laid out, with a comment field next to each block. You read it, give feedback, I refine. Nothing gets built until you've signed off on every word.
+Before I build anything, you get a private page showing every section of your site copy. Clearly laid out, with a comment field next to each block. You read it, give feedback, I refine. Nothing gets built until you've signed off on every word.
 
 **What is the content raid?**
-I go through your existing digital footprint — Instagram, LinkedIn, Facebook, Google Reviews, your existing site, anywhere you already show up. I pull photos, testimonials, media mentions, business details. You send me nothing.
+I go through your existing digital footprint. Instagram, LinkedIn, Facebook, Google Reviews, your existing site, anywhere you already show up. I pull photos, testimonials, media mentions, business details. You send me nothing.
 
 **How long does it take from my end?**
 One interview call. One round of copy feedback. Less than 30 minutes total.
 
 **How long does the full build take?**
-Most clients go from interview to live site within 1–2 weeks.
+Most clients go from interview to live site within 1 to 2 weeks.
 
 ---
 
@@ -1848,17 +2011,17 @@ Every site is hand-coded specifically for you. That's why our sites load under a
 Every line of code written for your site specifically. No bloat, no plugins, no platform layer that can break. Faster, more secure, more future-proof than anything built on WordPress or a page builder.
 
 **What is AEO and why does it matter?**
-AEO — Answer Engine Optimisation — is how your site shows up in AI-generated answers, like when someone asks ChatGPT a question. We build for both SEO and AEO.
+AEO, Answer Engine Optimisation, is how your site shows up in AI-generated answers, like when someone asks ChatGPT a question. We build for both SEO and AEO.
 
 **Will my site work on mobile?**
-Yes — mobile-first is non-negotiable.
+Yes. Mobile-first is non-negotiable.
 
 ---
 
 ## Ownership and Portability
 
 **Do I own my website?**
-Completely. Your domain, your content, your design — all yours from day one. If you ever leave, I provide a full static export. Nothing held hostage. Ever.
+Completely. Your domain, your content, your design. All yours from day one. If you ever leave, I provide a full static export. Nothing held hostage. Ever.
 
 **Who registers the domain?**
 I register it in your name, not mine. It's yours unconditionally from the moment it's created.
@@ -1867,14 +2030,14 @@ I register it in your name, not mine. It's yours unconditionally from the moment
 30 days notice. I export everything and hand it over. Your new host or developer gets a complete, clean codebase.
 
 **What about my data?**
-Your site collects only what it needs — enquiry form submissions go direct to your inbox, email capture is exported as a CSV you own. I don't harvest your client data or use it for anything. Ever.
+Your site collects only what it needs. Enquiry form submissions go direct to your inbox, email capture is exported as a CSV you own. I don't harvest your client data or use it for anything. Ever.
 
 ---
 
 ## Pricing and Commitment
 
 **What does this actually cost?**
-$3,800 NZD + GST setup. Monthly Caretaker fee from $149/mo NZD. Add-Ons priced separately — you'll know the full cost before anything starts.
+$3,800 NZD + GST setup. Monthly Caretaker fee from $149/mo NZD. Add-Ons priced separately. You'll know the full cost before anything starts.
 
 **How much is the Website Audit?**
 $997 NZD + GST, one-time. A full professional read of your existing site, scored and written up in a single document within five working days. Works on any platform, for sites up to eight pages. A lower-commitment way to start, and a head start if you go on to build.
@@ -1899,13 +2062,13 @@ New Zealand dollars. Your bank handles the conversion.
 ## Working With Lian
 
 **Who builds my site?**
-Lian — the founder. Every build is done by her personally. Strategy, copy, design, code, infrastructure. No handoffs. No outsourcing.
+Lian. The founder. Every build is done by her personally. Strategy, copy, design, code, infrastructure. No handoffs. No outsourcing.
 
 **Who is Nic?**
-Nic is YourHQ's connector — she finds people who'd be a good fit and helps them take the first step. Once your build starts, Lian takes over completely.
+Nic is YourHQ's connector. She finds people who'd be a good fit and helps them take the first step. Once your build starts, Lian takes over completely.
 
 **What's Lian's background?**
-Lian holds a Master of Technological Futures and built YourHQ from a genuine obsession with digital ownership and storytelling. She's also gone deep on conversational AI — the Drive-Home Interview is built on technology she developed as part of her research.
+Lian holds a Master of Technological Futures and built YourHQ from a genuine obsession with digital ownership and storytelling. She's also gone deep on conversational AI. The Drive-Home Interview is built on technology she developed as part of her research.
 
 **How do I communicate during the build?**
 Text, email, or through the copy review page. No project management platforms. No weekly calls. No learning new tools.
@@ -1913,50 +2076,53 @@ Text, email, or through the copy review page. No project management platforms. N
 **Will you be honest if we're not a good fit?**
 Always. If what you need is outside our scope, I'll tell you and point you somewhere better.
 
-**I'm worried about saying the wrong thing professionally — making claims I shouldn't, compliance issues.**
-I write carefully. I don't make clinical claims, guarantee outcomes, or use language that could create regulatory issues for professional services businesses. If you have specific advertising guidelines from your professional body, share them — I'll write to them. This is a conversation I have with almost every professional services client.
+**I'm worried about saying the wrong thing professionally. Making claims I shouldn't, compliance issues.**
+I write carefully. I don't make clinical claims, guarantee outcomes, or use language that could create regulatory issues for professional services businesses. If you have specific advertising guidelines from your professional body, share them. I'll write to them. This is a conversation I have with almost every professional services client.
 
 ---
 
 ## Global Clients
 
 **Do you work with clients outside New Zealand?**
-Yes. My first client outside New Zealand came from San Francisco. I work globally — the whole process happens remotely.
+Yes. My first client outside New Zealand came from San Francisco. I work globally. The whole process happens remotely.
 
 **Does the time zone difference matter?**
-Not really. The interview is booked at a time that suits you. Communication is asynchronous — texts and emails — so time zones don't create delays.
+Not really. The interview is booked at a time that suits you. Communication is asynchronous. Texts and emails. So time zones don't create delays.
 
 **Can you set up my Google Business Profile if I'm not in New Zealand?**
-Yes — set up for your location, wherever you are.
+Yes. Set up for your location, wherever you are.
 
 ---
 
 ## The Honest Ones
 
 **I've been burned by a web designer before. How is this different?**
-The YourHQ model is structurally different. You see the complete site before the subscription starts — if you don't love it, you get a refund. I stay on as Caretaker after launch. Every site is built by me personally. That doesn't mean everything will be perfect — but it means you're not alone if it isn't.
+The YourHQ model is structurally different. You see the complete site before the subscription starts. If you don't love it, you get a refund. I stay on as Caretaker after launch. Every site is built by me personally. That doesn't mean everything will be perfect. But it means you're not alone if it isn't.
 
 **What if my business changes after the site is built?**
-Message me. That's what the Caretaker model is for. New service, new direction, new name — I update it.
+Message me. That's what the Caretaker model is for. New service, new direction, new name. I update it.
 
 **What if I outgrow what you offer?**
 Then I'll tell you. If your business gets to the point where you need a custom web app or a full e-commerce platform, I'll point you in the right direction. I'm not going to hold you back to keep you as a client.
 
 **What if I just want to ask a question first?**
-Text me on 022 172 5793 or fill in the contact form. No commitment. No pitch. Just a straight answer.
+Text me on 027 566 8803 or fill in the contact form. No commitment. No pitch. Just a straight answer.
 
 ---
 
 ## Still Have a Question?
 
+# Badge: The Next Step
+
 Didn't find what you were looking for?
 
-Text: 022 172 5793
-Email: hello@yourhq.co.nz
+Text 027 566 8803
+Email lian@yourhq.co.nz
 
 - Start Your Build
 - See Pricing
 
+---
 ---
 
 # PAGE 10 — THE WEBSITE AUDIT
@@ -1967,7 +2133,8 @@ Email: hello@yourhq.co.nz
 
 ## Top Meta Row
 RC / Diagnostic · [current year]
-Any Platform · Up To Eight Pages
+Any Platform
+Up To Eight Pages
 
 ## Page Headline
 The
@@ -2035,7 +2202,7 @@ Direction for how the site should look, and one clear recommendation on what to 
 WordPress, Squarespace, Wix, Shopify, custom builds. Covers sites up to eight pages.
 
 ### Callout — Larger Sites
-More than eight pages, or something more complex? Email hello@yourhq.co.nz before purchasing.
+More than eight pages, or something more complex? Email lian@yourhq.co.nz before purchasing.
 
 ### Callout — Your Time Commitment
 Eight questions, answered by email. That's it. Everything else is handled.
@@ -2047,9 +2214,10 @@ Eight questions, answered by email. That's it. Everything else is handled.
 ### Headline
 Still have questions?
 
-Text 022 172 5793
-hello@yourhq.co.nz
+Text 027 566 8803
+lian@yourhq.co.nz
 
+---
 ---
 
 # PAGE 11 — AUDIT INTAKE
@@ -2078,6 +2246,7 @@ If you would rather email your answers, send them to lian@yourhq.co.nz with "Web
 
 ## SECTION: The Intake Form
 # Three steps, three questions each, then contact details. Progress bar across the top.
+# Progress label reads "Step 1 of 3", "Step 2 of 3", "Step 3 of 3" with the step title alongside.
 
 ### Step 1 — Your Business
 
@@ -2130,8 +2299,17 @@ Helper: This is where your audit document will be sent.
 **Your business or brand name** *(required)*
 Placeholder: Smith Consulting
 
-### Submit Button
+### Inline Validation Message (empty required field)
+This one is needed before we move on.
+
+### Submit Error Message
+Something went wrong sending that through. Please try again, or email your answers to lian@yourhq.co.nz.
+
+### Buttons
+Back
+Next
 Send My Answers Through
+# Submit button while sending: "Sending…"
 
 ### Skip Link
 I will do this later, take me to next steps
@@ -2160,6 +2338,7 @@ Your questions to copy and paste.
 # (the URL is question 01). Decide whether to renumber the headline to "Nine Questions"
 # or treat the URL as a given and drop it from the count. Currently inconsistent on the live page.
 
+---
 ---
 
 # PAGE 12 — NEXT STEPS · WEBSITE AUDIT
@@ -2196,8 +2375,12 @@ You are all paid up. I just need your answers before I can get started.
 ### Callout
 Fill in the form below or email your answers directly to lian@yourhq.co.nz with "Website Audit" in the subject line. Either way works.
 
-# (Skipped version re-shows the full intake form — see Page 11 — plus a "Prefer to email instead?"
-#  copy-and-paste list of the same nine questions.)
+# (Skipped version re-shows the full intake form — see Page 11.)
+
+### Prefer to email instead?
+Copy the questions below and send them to lian@yourhq.co.nz. Put "Website Audit" in the subject line.
+
+# (Followed by the same nine intake questions from Page 11, numbered 01–09.)
 
 ---
 
@@ -2264,60 +2447,10 @@ Questions?
 
 If anything comes up before your document arrives, reach out directly. Lian or Nic will get back to you within one business day.
 
-Text 022 172 5793
-hello@yourhq.co.nz
+Text 027 566 8803
+lian@yourhq.co.nz
 
 ## Final Line
 Keep an eye on your inbox. Talk soon.
-
 ---
 
-# DIAGRAM SUMMARY — FOR DEVELOPER
-# All diagrams referenced in this document come from the YourHQ Visual Reference Maps HTML file.
-# This file contains 8 interactive diagrams built in HTML/CSS.
-# Each diagram is labelled by number below with the page(s) it appears on.
-
-# DIAGRAM 01 — Types of Website We Build
-# Used on: Page 05 (Ecosystem), Section: Two Kinds of Site
-# Two cards: Business Site (green) / Personal Brand (pink/red)
-# Bottom strip showing shared stack
-
-# DIAGRAM 02 — The Digital Ecosystem
-# Used on: Page 05 (Ecosystem), Section: The Ecosystem Diagram
-# Full ecosystem map: traffic → website → YourHQ builds → partners → refer out
-# Legend: green = YourHQ / blue = partners / grey strikethrough = refer out
-
-# DIAGRAM 03 — The Technology Stack
-# Used on: Page 05 (Ecosystem), Section: The Tech Stack
-# Six layered rows + house analogy strip at bottom
-
-# DIAGRAM 04 — The Build Workflow
-# Used on: Page 02 (How It Works), Section: The Process
-# 8-step workflow with colour-coded responsibility tags
-# Client (pink) / Agent/automation (blue) / Lian (orange) / Live/ongoing (green)
-
-# DIAGRAM 05 — The One-Inbox Model
-# Used on: Page 05 (Ecosystem), Section: The One-Inbox Model
-# Input channels → intelligence layer → outputs → what clients never have to do
-
-# DIAGRAM 06 — Pricing Structure
-# Used on: Page 03 (Pricing), Sections: Power-Ups / Monthly Caretaker Fee / Comparison table
-# Power-Ups grid + three monthly level cards + pricing comparison table
-
-# DIAGRAM 07 — Running Costs (INTERNAL ONLY — do not publish)
-# Not used on any public page
-
-# DIAGRAM 08 — Target ICP (INTERNAL ONLY — do not publish)
-# Not used on any public page
-
-# PHOTOS REQUIRED (not diagrams — actual photography needed):
-# - Lian portrait (warm, natural) — used on: Homepage Meet Lian section, Our Story hero
-# - Lian working photo (desk, laptop) — used on: Our Story Founder section
-# - Nic photo (warm, approachable) — used on: Our Story Team section
-# - Site screenshots for each client project — used on: Portfolio page project cards
-#   · Rumours On Rust homepage
-#   · Carve Earthworks homepage
-#   · Ember & Ice homepage
-#   · Johnson & Sons homepage
-#   · DreamStorm homepage (dreamstorm.org)
-# - Portfolio thumbnail strip (4 images) — used on: Homepage portfolio strip section

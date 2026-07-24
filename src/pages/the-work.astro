@@ -1,0 +1,272 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import { BOOKING_URL } from '../lib/site.js';
+
+const projects = [
+  {
+    n: '01',
+    name: 'Rumours On Rust',
+    meta: 'Café & Hospitality · Whangārei, NZ',
+    screenshot: '/rumoursonrust-site.webp',
+    link: 'https://rumours-on-rust.site',
+    story: 'Katie was launching a café during one of the busiest seasons of her life. She needed a site that matched the warmth she’d put into the physical space, without it becoming another thing on an impossible list. We captured her story, raided her existing content, and built something that feels as good as the coffee tastes.',
+    quote: 'The process was stress-free, quick, foolproof and fun. The website is sleek and professional. I can’t believe how good it is.',
+    attr: 'Katie, Owner',
+    badges: ['Story-Led', 'Fast Build', 'Mobile-First'],
+  },
+  {
+    n: '02',
+    name: 'Carve Earthworks',
+    meta: 'Earthworks & Civil · Northland, NZ',
+    screenshot: '/carve-earthworks-site.webp',
+    link: 'https://www.carveearthworks.co.nz',
+    story: 'Brad runs a tight, professional operation. The kind of business that wins work on reputation and quality. His online presence didn’t reflect that, so we fixed it. Six months on, he still sends through tweaks and they’re live the same day. That’s the model working.',
+    quote: 'The whole process was smooth, easy and stress free with a clean professional outcome that compliments our business.',
+    attr: 'Brad, Owner · Google review',
+    badges: ['Zero Homework', 'Credibility Build', 'Still Looked After'],
+  },
+  {
+    n: '03',
+    name: 'Ember & Ice',
+    meta: 'Wellness Studio · Northland, NZ',
+    screenshot: '/emberandice-site.webp',
+    link: 'https://emberandice.co.nz',
+    story: 'Nicolette had built something genuinely special. A wellness space with a clear vision and a growing reputation, but an online presence that said "just an Instagram." The site we built says something different entirely.',
+    quote: 'You helped me take that next step and build my dream. That was my barrier to market.',
+    attr: 'Nicolette, Founder',
+    badges: ['Premium Build', 'Trust-Builder', 'Digital Ownership'],
+  },
+  {
+    n: '04',
+    name: 'Johnson & Sons',
+    meta: 'Commercial Services · Northland, NZ',
+    screenshot: '/johnsonandsons-site.webp',
+    link: 'https://johnsonandsonsltd.site',
+    story: 'Reuben needed to look legitimate online, fast, without getting stuck in file uploads, copy briefs, or platform headaches. I went through his Facebook, pulled what I needed, and had a draft site ready in under a day.',
+    quote: 'I hadn’t even figured out how to add photos to the Google Drive. Lian had already got photos off our Facebook page and had a draft site ready. I recommend Lian to any business out there looking for a great value website that you can call your own.',
+    attr: 'Reuben, Director · Google review',
+    badges: ['Zero Homework', 'Content Raid', 'Draft in a Day'],
+  },
+];
+
+const values = [
+  { h: 'You own everything.', b: 'Your domain, your content, your design, from day one. If you ever leave, I hand it all over. Nothing held hostage.' },
+  { h: 'I stay.', b: 'Most web designers build and disappear. I host, maintain, update, and answer your texts for as long as you’re with me.' },
+  { h: 'Plain English, always.', b: 'You’ll never be talked over your head, and you’ll never be sold something you don’t understand.' },
+  { h: 'Honest, early.', b: 'If your content isn’t up to standard, if we’re not a fit, if you’ve outgrown what I offer, I’ll tell you and point you somewhere better.' },
+  { h: 'Frictionless or I haven’t done my job.', b: 'If the process feels hard, I’ve failed.' },
+];
+
+const standards = [
+  { h: 'Built in your voice.', b: 'Written from a real conversation, and you approve every word before anything gets built.' },
+  { h: 'Built specifically for you.', b: 'No templates, no page builders, nothing waiting to break. Under a second to load.' },
+  { h: 'Owned by you, unconditionally.', b: 'Your domain, your content, your design, from day one. If you ever leave, everything comes with you.' },
+  { h: 'Looked after for good.', b: 'Hosting, security, on-demand updates. I don’t build and disappear.' },
+  { h: 'Built for where digital is going.', b: 'Found on Google, cited by AI tools, ready for whatever comes next.' },
+];
+---
+
+<Layout
+  title="Website Portfolio | NZ Small Business Sites | YourHQ"
+  description="Real websites for real NZ businesses: cafés, earthworks, wellness, construction. See the work, the process, and the person who builds every site."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white overflow-hidden">
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="pt-24 md:pt-32 pb-24 border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> The Work
+          </span>
+          <h1 class="font-display font-bold text-hero uppercase leading-none tracking-tight mb-8">
+            Every Build Is Someone&rsquo;s
+            <span class="font-serif italic text-terracotta normal-case font-normal block mt-2">Story, Finally Told Properly.</span>
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-2xl">
+            Real people, real businesses, and the person who builds every one of them.<br/>
+            Founded in Aotearoa New Zealand. Clients worldwide.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE CLIENT WORK
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-20">
+          Four Businesses.<br/>
+          Four Stories.<br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">One Standard.</span>
+        </h2>
+
+        <div class="space-y-24 md:space-y-32">
+          {projects.map((p, i) => (
+            <div class={`grid md:grid-cols-12 gap-10 md:gap-16 items-center ${i % 2 === 1 ? '' : ''}`}>
+              <div class={`md:col-span-6 ${i % 2 === 1 ? 'md:order-2' : ''}`}>
+                <a href={p.link} target="_blank" rel="noopener noreferrer" class="group block bg-white rounded-2xl p-2 border border-carbon/10 shadow-subtle hover:shadow-elegant transition-shadow duration-500">
+                  <div class="rounded-xl overflow-hidden aspect-[4/3] bg-bone">
+                    <img src={p.screenshot} alt={`${p.name} website`} loading="lazy" decoding="async" class="w-full h-full object-cover object-top group-hover:object-bottom transition-all duration-[6000ms] ease-in-out" />
+                  </div>
+                </a>
+              </div>
+              <div class={`md:col-span-6 ${i % 2 === 1 ? 'md:order-1' : ''}`}>
+                <span class="font-mono text-badge uppercase text-terracotta block mb-3">Project {p.n}</span>
+                <h3 class="font-display font-bold text-headline uppercase tracking-tight text-carbon mb-2">{p.name}</h3>
+                <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mb-6">{p.meta}</p>
+                <p class="font-sans text-body text-softGrey leading-relaxed mb-8 max-w-xl">{p.story}</p>
+                <figure class="border-l-2 border-terracotta pl-6 mb-8">
+                  <blockquote class="font-serif italic text-lg leading-snug text-carbon/85">&ldquo;{p.quote}&rdquo;</blockquote>
+                  <figcaption class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-3">{p.attr}</figcaption>
+                </figure>
+                <div class="flex flex-wrap gap-2">
+                  {p.badges.map((b) => (
+                    <span class="font-mono text-[9px] uppercase tracking-[0.15em] text-carbon border border-carbon/15 px-3.5 py-1.5 rounded-full">{b}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHERE IT STARTED
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-12 gap-12 md:gap-16 items-center">
+        <div class="md:col-span-6">
+          <span class="font-mono text-badge uppercase text-softGrey block mb-4">The Origin</span>
+          <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-8">
+            Before YourHQ had a single client,
+            <span class="font-serif italic text-terracotta normal-case font-normal block mt-2">it had one build. Mine.</span>
+          </h2>
+          <div class="font-sans text-body text-softGrey space-y-6 max-w-xl">
+            <p>I was deep in my Master of Technological Futures, learning to code, and quietly becoming convinced that owning your corner of the internet wasn&rsquo;t optional. So I built my own site, DreamStorm, a home for the brand story I&rsquo;d been carrying around with nowhere to put it.</p>
+            <p>Something clicked. The process of translating a person, their vision, their values into a digital space that actually feels like them. I loved it. Not just the craft of it, the meaning of it. The way a well-built site can say: this is real, this person is serious, this is worth your time.</p>
+            <p class="font-serif italic text-accent text-carbon/80">That feeling is what YourHQ is built on.</p>
+          </div>
+          <a href="https://www.dreamstorm.org" target="_blank" rel="noopener noreferrer" class="inline-block mt-8 font-sans font-medium text-ui text-carbon border-b border-carbon/20 pb-0.5 hover:border-carbon transition-colors">
+            Visit dreamstorm.org &rarr;
+          </a>
+        </div>
+        <div class="md:col-span-6">
+          <a href="https://www.dreamstorm.org" target="_blank" rel="noopener noreferrer" class="block bg-surface rounded-2xl border border-carbon/5 shadow-elegant relative overflow-hidden group hover:shadow-float transition-all duration-500">
+            <img src="/dreamstorm-site.webp" alt="DreamStorm website" loading="lazy" decoding="async" class="w-full h-[500px] object-cover object-top group-hover:object-bottom transition-all duration-[6000ms] ease-in-out" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE PERSON BEHIND IT
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-bone border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-12 gap-16 items-start">
+
+          <div class="md:col-span-5 relative">
+            <div class="absolute inset-0 bg-white rounded-t-[10rem] translate-x-4 translate-y-4 border border-carbon/5"></div>
+            <div class="w-full max-w-sm mx-auto aspect-[4/5] rounded-t-[10rem] overflow-hidden border border-carbon/10 shadow-elegant relative z-10 bg-surface">
+              <img src="/lian-headshot.webp" alt="Lian Passmore, founder of YourHQ — Whangārei, New Zealand" loading="lazy" decoding="async" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <div class="md:col-span-7 md:pl-8">
+            <span class="font-mono text-badge uppercase text-terracotta block mb-4">Who Builds This</span>
+            <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-8">
+              Every site, built by me.
+              <span class="font-serif italic text-softGrey normal-case font-normal block mt-2">Here&rsquo;s why that matters to you.</span>
+            </h2>
+            <div class="font-sans text-body text-softGrey space-y-6 leading-relaxed max-w-xl">
+              <p>I&rsquo;m Lian. I do the strategy, the copy, the design, the code, and the looking-after. When you message, I&rsquo;m the one who replies, and I&rsquo;m the one who makes the change. No handoffs, no juniors, no account manager translating between you and the person doing the work.</p>
+              <p>I studied a Master of Technological Futures because I needed to understand where all of this is going. AI, answer engines, the next shift we haven&rsquo;t named yet. What it gave me wasn&rsquo;t a qualification, it was a way of thinking: take complex problems, make them simple, and build technology that serves the human at the centre. Every site I build is constructed for the present and ready for what&rsquo;s coming. You don&rsquo;t have to understand any of it. That&rsquo;s my job.</p>
+              <p>And here&rsquo;s the personal bit. My dad worked for himself his whole life. Watching him is where my work ethic came from, that quiet pride in doing something well, on your own terms, without waiting for permission. He never had a website. In his day it wasn&rsquo;t the thing. But I think about what I would have built for him, how I would have made his craft and his reputation permanent and findable and his.</p>
+              <p class="text-carbon font-medium">The people I build for are people like him. Good at what they do, built something real, deserving of a digital presence that finally matches it. If that&rsquo;s you, this work is personal for me in a way no agency can fake.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOW I WORK (VALUES)
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-carbon text-bone border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-white mb-16">
+          This is how <span class="font-serif italic text-terracotta normal-case font-normal">I work.</span>
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-10">
+          {values.map((v) => (
+            <div class="border-t border-white/10 pt-6">
+              <h3 class="font-sans font-medium text-white mb-2">{v.h}</h3>
+              <p class="font-sans text-sm text-bone/70 leading-relaxed">{v.b}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHAT EVERY BUILD HAS IN COMMON
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-16">
+          Different Industries.<br/>
+          Same Standard.<br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">Every Time.</span>
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-10">
+          {standards.map((s) => (
+            <div class="border-t border-carbon/10 pt-6">
+              <h3 class="font-sans font-medium text-carbon mb-2">{s.h}</h3>
+              <p class="font-sans text-sm text-softGrey leading-relaxed">{s.b}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-bone text-center px-4">
+      <div class="max-w-3xl mx-auto">
+        <span class="font-mono text-badge uppercase text-softGrey block mb-6">The Next Step</span>
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight mb-8 text-carbon">
+          Want to See Your<br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">Story Here Next?</span>
+        </h2>
+        <p class="font-sans text-body text-softGrey max-w-lg mx-auto mb-10">
+          One conversation. Your story captured.<br/>
+          Your digital home built and looked after, for good.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-carbon text-white px-10 py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 shadow-subtle">
+            Book a Website Chat
+          </a>
+          <a href="/how-it-works" class="inline-block bg-transparent text-carbon border border-carbon/20 px-10 py-4 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300">
+            See How It Works
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Layout>

@@ -2,51 +2,56 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.astro';
+import { BOOKING_URL, PHONE, EMAIL } from '../lib/site.js';
 
 const stripeLink = "https://buy.stripe.com/aFadR825Y00oeclbiXdZ60j";
+
+const whatYouGet = [
+  { n: '01', t: 'The diagnosis', b: 'Every page scored out of 25 across clarity, audience, CTA, proof and messaging, rolled into a site score out of 50. The ten-second test on your homepage. Your path to purchase walked click by click. A trust check covering the signals customers actually look for. And every finding carries a risk tag: revenue-blocking now, brand risk, or backlog, so you know what to fix first and what can wait.' },
+  { n: '02', t: 'The market you’re selling into', b: 'Real research on your market with sources named. Your buyer segments profiled: who they are, what they fear, the exact words they type into Google at 11pm. And a competitor snapshot that finds the gap: what the others do well, where they’re weak, and the shelf that’s sitting empty for you.' },
+  { n: '03', t: 'The rebuild plan', b: 'Site sizing with a straight answer: pages to keep, pages to cut, pages to merge, pages to add. Then a new structure where every page has one job and one primary action.' },
+  { n: '04', t: 'The copy itself', b: 'Every page of the recommended structure written in full, in your voice, drawn from your own posts and pages. SEO title tags and meta descriptions included. Your weakest pages shown before and after, side by side. And AEO notes per page, so you’re the answer AI tools give when someone asks for what you do.' },
+  { n: '05', t: 'The practical layer', b: 'Design direction: what to keep, what to change, colour and photography guidance. Platform setup for your actual platform, down to the plugins. A prioritised action list that separates the free quick wins you can do this week from the work that needs budget. And the three or four numbers to watch for your first 90 days.' },
+  { n: '06', t: 'The options, laid out straight', b: 'The document ends with three ways forward: do it yourself, hand the brief to a professional you trust, or start fresh with me. No recommendation, no pressure. The brief works the same whichever you pick.' },
+];
 ---
 
 <Layout
-  title="The Website Audit | YourHQ"
-  description="A full professional read of your current website. Scored, diagnosed, and written up in a single document, delivered to your inbox within five working days."
+  title="Website Audit NZ | Full Site Review, $997 | YourHQ"
+  description="Every page of your site scored, diagnosed and rewritten in your voice, plus a complete rebuild brief. $997 + GST, five working days, credits toward a build."
 >
   <Navbar client:load />
 
-  <!-- Global: Bone background, Carbon text. The clean, breathing room of the new brand. -->
-  <main class="bg-bone text-carbon min-h-screen font-sans selection:bg-deepGreen selection:text-white">
+  <main class="bg-bone text-carbon min-h-screen font-sans selection:bg-deepGreen selection:text-white overflow-hidden">
 
-    <!-- 1. HERO: The Architectural Vibe -->
+    <!-- 1. HERO -->
     <section class="pt-32 pb-16 px-6 lg:px-12 border-b border-carbon/10">
       <div class="max-w-7xl mx-auto">
 
-        <!-- Top Meta Data Row -->
         <div class="flex justify-between items-start border-b border-carbon/10 pb-4 mb-16">
           <p class="font-mono text-badge text-softGrey">
-            RC / Diagnostic &middot; {new Date().getFullYear()}
+            Diagnostic &middot; {new Date().getFullYear()}
           </p>
           <p class="font-mono text-badge text-softGrey text-right">
             Any Platform<br/>Up To Eight Pages
           </p>
         </div>
 
-        <!-- Massive Decisive Headline (Agrandir Display) -->
         <div class="max-w-5xl">
           <h1 class="font-display text-hero font-bold text-carbon mb-6">
             The<br/>Website Audit.
           </h1>
 
           <div class="grid md:grid-cols-12 gap-8 items-end mt-12">
-            <div class="md:col-span-8">
-              <!-- The Whisper (Tension Technique) -->
+            <div class="md:col-span-7">
               <p class="font-serif italic text-headline text-terracotta">
-                A full professional read of your site. <br/>
-                <span class="text-carbon">Scored. Diagnosed. Written up.</span>
+                A full professional read of your site,<br/>
+                <span class="text-carbon">and the complete brief to fix it.</span>
               </p>
             </div>
-            <div class="md:col-span-4">
-              <!-- Clear, functional DM Sans Body -->
+            <div class="md:col-span-5">
               <p class="font-sans text-body text-softGrey">
-                One document in your inbox within five working days. You answer eight questions by email. Everything else is handled.
+                You already suspect what&rsquo;s wrong with your website. This tells you for certain, page by page, then hands you the whole fix: a new structure, every page rewritten in your voice, and a prioritised plan that starts with the things you can do this week for free. One document in your inbox within five working days. You answer a handful of questions by email. Everything else is handled.
               </p>
             </div>
           </div>
@@ -55,184 +60,152 @@ const stripeLink = "https://buy.stripe.com/aFadR825Y00oeclbiXdZ60j";
       </div>
     </section>
 
-    <!-- 2. THE SPLIT: Details & Pricing -->
+    <!-- 2. WHO THIS IS FOR -->
+    <section class="py-24 px-6 lg:px-12 bg-white border-b border-carbon/10">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-12 gap-12 items-start">
+        <div class="md:col-span-5">
+          <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon">
+            For the site<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">you wince at.</span>
+          </h2>
+        </div>
+        <div class="md:col-span-7 font-sans text-body text-softGrey space-y-6 max-w-2xl">
+          <p>You paid real money for your website. Three years ago, five, maybe eight. The person who built it has moved on, and the site has quietly gone stale. Old prices, old services, a photo that doesn&rsquo;t look like you anymore.</p>
+          <p>The question nagging you isn&rsquo;t &ldquo;do I need a website.&rdquo; You have one. The question is &ldquo;can this one be saved, or is it time to start again?&rdquo;</p>
+          <p>That&rsquo;s exactly what the audit answers. With evidence, not a sales pitch. Sometimes the honest answer is that your site needs a handful of fixes and a rewrite. Sometimes it&rsquo;s a rebuild. The document tells you which, and what I&rsquo;d do in your shoes is one page of a much bigger picture: what to keep, what to cut, and what every page should say.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. THE SPLIT: Price & What You Get -->
     <section class="py-24 px-6 lg:px-12">
       <div class="max-w-7xl mx-auto">
         <div class="grid lg:grid-cols-12 gap-y-16 lg:gap-x-16">
 
-          <!-- Left: The Price (Elevated Card) -->
+          <!-- Left: The Price -->
           <div class="lg:col-span-5">
             <div class="sticky top-32">
-
-              <!-- Refined White Card with High-End Shadow -->
               <div class="bg-white rounded-2xl p-8 md:p-12 shadow-elegant border border-carbon/5 relative">
-
                 <p class="font-mono text-badge text-softGrey mb-8 border-b border-carbon/10 pb-4">The Audit</p>
 
-                <p class="font-display text-price font-bold text-carbon mb-2">
-                  $997
-                </p>
+                <p class="font-display text-price font-bold text-carbon mb-2">$997</p>
 
-                <div class="flex items-center gap-3 mb-10">
-                  <span class="font-mono text-badge text-carbon">NZD + GST</span>
+                <div class="flex items-center gap-3 mb-8">
+                  <span class="font-mono text-badge text-carbon whitespace-nowrap">NZD + GST</span>
                   <span class="w-full h-[1px] bg-carbon/10"></span>
                 </div>
 
-                <p class="font-sans text-ui text-softGrey mb-10">
+                <p class="font-sans text-ui text-softGrey mb-8">
                   One-time payment. Delivered as a single written document within five working days. Afterpay available at checkout for eligible NZ customers.
                 </p>
 
-                <!-- Signal Blue CTA -->
-                <a href={stripeLink} class="block w-full bg-signal text-white rounded-full text-center px-8 py-4 text-ui font-medium hover:bg-carbon hover:shadow-float transition-all duration-300">
+                <div class="bg-bone rounded-xl p-6 mb-8 border border-carbon/5">
+                  <p class="font-sans text-sm text-carbon font-medium mb-2">Build with me within 90 days and the full $997 comes off your build price.</p>
+                  <p class="font-sans text-sm text-softGrey leading-relaxed">The audit pays for itself the moment you say yes. And if you don&rsquo;t build? The document is still yours, still complete, still useful with any developer you choose. No conditions either way.</p>
+                </div>
+
+                <a href={stripeLink} class="block w-full bg-carbon text-white text-center px-8 py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 shadow-subtle">
                   Order the Website Audit
                 </a>
               </div>
 
-              <!-- Functional Callout -->
-              <div class="mt-8 ml-4 md:ml-8 border-l-2 border-signal pl-6">
-                <p class="font-sans text-ui text-softGrey max-w-[250px]">
-                  After payment, we'll email you eight questions. Answer them and the work begins.
-                </p>
-              </div>
+              <p class="font-sans text-sm text-softGrey mt-6 border-l-2 border-carbon/20 pl-4 leading-relaxed">
+                After payment, I&rsquo;ll email you the intake questions. Answer them and the work begins. The clock on your five working days starts when your answers come through, and the 90-day credit window starts the day your document lands.
+              </p>
             </div>
           </div>
 
-          <!-- Right: What's Included -->
+          <!-- Right: What You Get -->
           <div class="lg:col-span-7">
-            <h2 class="font-display text-headline font-bold text-carbon mb-12">What You Get.</h2>
+            <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-6">
+              Half audit. Half rebuild brief.
+              <span class="font-serif italic text-terracotta normal-case font-normal block mt-1">All of it yours.</span>
+            </h2>
+            <p class="font-sans text-body text-softGrey mb-12 max-w-2xl">
+              This isn&rsquo;t a report card. It&rsquo;s the complete working document for fixing your site, written so it works whoever does the fixing: you, your current web person, or me. Recent audits have run past 25 pages. Here&rsquo;s what&rsquo;s inside.
+            </p>
 
-            <div class="border-t border-carbon/10">
-
-              <!-- Item 1 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">01</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">A score out of 50</p>
-                  <p class="font-sans text-body text-softGrey">Every page scored across five dimensions, plus the ten-second test on your homepage hero. You see exactly where you stand.</p>
+            <div class="space-y-10">
+              {whatYouGet.map((item) => (
+                <div class="grid grid-cols-12 gap-4 border-t border-carbon/10 pt-8">
+                  <span class="col-span-2 sm:col-span-1 font-mono text-badge text-softGrey pt-1.5">{item.n}</span>
+                  <div class="col-span-10 sm:col-span-11">
+                    <h3 class="font-sans font-medium text-lg text-carbon mb-2">{item.t}</h3>
+                    <p class="font-sans text-sm text-softGrey leading-relaxed">{item.b}</p>
+                  </div>
                 </div>
-              </div>
-
-              <!-- Item 2 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">02</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">What's working, what's holding you back</p>
-                  <p class="font-sans text-body text-softGrey">Every finding carries a risk tag, so you know what to fix first and what can wait.</p>
-                </div>
-              </div>
-
-              <!-- Item 3 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">03</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Path to purchase and trust check</p>
-                  <p class="font-sans text-body text-softGrey">How a visitor actually moves toward buying, and whether your site earns enough trust to let them.</p>
-                </div>
-              </div>
-
-              <!-- Item 4 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">04</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Site sizing and a new structure</p>
-                  <p class="font-sans text-body text-softGrey">Pages to keep, pages to cut, pages to add, and a recommended structure for the site you should have.</p>
-                </div>
-              </div>
-
-              <!-- Item 5 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">05</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Page-by-page copy in your voice</p>
-                  <p class="font-sans text-body text-softGrey">Written copy for the recommended new structure, in your voice, ready to use.</p>
-                </div>
-              </div>
-
-              <!-- Item 6 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">06</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Before-and-after comparisons</p>
-                  <p class="font-sans text-body text-softGrey">Your two or three weakest pages rewritten side by side, so the difference is plain to see.</p>
-                </div>
-              </div>
-
-              <!-- Item 7 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">07</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">SEO and AEO guidance per page</p>
-                  <p class="font-sans text-body text-softGrey">How to be found by search engines and answer engines alike, page by page.</p>
-                </div>
-              </div>
-
-              <!-- Item 8 -->
-              <div class="py-8 border-b border-carbon/10 grid grid-cols-12 gap-6 items-start group">
-                <span class="font-mono col-span-2 text-badge text-softGrey mt-1 group-hover:text-signal transition-colors">08</span>
-                <div class="col-span-10">
-                  <p class="font-sans font-semibold text-subhead text-carbon mb-2">Design direction and a clear next step</p>
-                  <p class="font-sans text-body text-softGrey">Direction for how the site should look, and one clear recommendation on what to do next.</p>
-                </div>
-              </div>
-
+              ))}
             </div>
 
-            <!-- Modern Editorial Callout Blocks -->
-            <div class="mt-16 grid sm:grid-cols-2 gap-4">
-              <!-- Deep Green Accent Block -->
-              <div class="bg-surface rounded-xl p-8 border-l-4 border-deepGreen shadow-subtle">
-                <p class="font-mono text-badge text-deepGreen mb-4">Works On Any Platform</p>
-                <p class="font-sans text-ui text-softGrey">
-                  WordPress, Squarespace, Wix, Shopify, custom builds. Covers sites up to eight pages.
-                </p>
-              </div>
+            <figure class="mt-16 bg-white rounded-2xl p-8 md:p-10 border border-carbon/5 shadow-subtle">
+              <blockquote class="font-serif italic text-xl leading-snug text-carbon/90">
+                &ldquo;It wasn&rsquo;t generic advice, it was specific to my business. She took the time to really understand what I do and who I&rsquo;m trying to reach. The structure, messaging and page by page copy she put together was spot on, way better than I could&rsquo;ve articulated myself.&rdquo;
+              </blockquote>
+              <figcaption class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mt-5">
+                Jess · Relish Nutrition · Google review
+              </figcaption>
+            </figure>
 
-              <!-- Terracotta Accent Block -->
-              <div class="bg-surface rounded-xl p-8 border-l-4 border-terracotta shadow-subtle">
-                <p class="font-mono text-badge text-terracotta mb-4">Larger Sites</p>
-                <p class="font-sans text-ui text-softGrey">
-                  More than eight pages, or something more complex? Email lian@yourhq.co.nz before purchasing.
-                </p>
+            <div class="grid sm:grid-cols-2 gap-6 mt-12">
+              <div class="border-l-2 border-deepGreen pl-5 py-1">
+                <p class="font-mono text-badge text-deepGreen mb-2">Works On Any Platform</p>
+                <p class="font-sans text-sm text-softGrey leading-relaxed">WordPress, Squarespace, Wix, Shopify, Rocketspark, custom builds. The platform guidance is written for whatever your site actually runs on. Covers sites up to eight pages.</p>
+              </div>
+              <div class="border-l-2 border-terracotta pl-5 py-1">
+                <p class="font-mono text-badge text-terracotta mb-2">Larger Sites</p>
+                <p class="font-sans text-sm text-softGrey leading-relaxed">More than eight pages, or something more complex? Email {EMAIL} before purchasing and I&rsquo;ll tell you straight whether the audit fits.</p>
+              </div>
+              <div class="border-l-2 border-carbon/30 pl-5 py-1 sm:col-span-2">
+                <p class="font-mono text-badge text-carbon mb-2">Your Time Commitment</p>
+                <p class="font-sans text-sm text-softGrey leading-relaxed">A handful of questions, answered by email. About ten minutes. Everything else is handled.</p>
               </div>
             </div>
-
-            <!-- Time Commitment Strip -->
-            <div class="mt-4 bg-white rounded-xl p-8 border-l-4 border-signal shadow-subtle">
-              <p class="font-mono text-badge text-signal mb-4">Your Time Commitment</p>
-              <p class="font-sans text-ui text-softGrey">
-                Eight questions, answered by email. That's it. Everything else is handled.
-              </p>
-            </div>
-
           </div>
 
         </div>
       </div>
     </section>
 
-    <!-- 3. HELP: High-end Sign-off -->
-    <section class="py-24 px-6 border-t border-carbon/10">
-      <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
-
-        <!-- Y Monogram Graphic -->
-        <div class="w-12 h-12 rounded-full bg-surface border border-carbon/10 flex items-center justify-center text-terracotta font-serif italic text-2xl mb-8 shadow-subtle">
-          Y
+    <!-- 4. NOT SURE? -->
+    <section class="py-24 md:py-32 px-6 lg:px-12 bg-carbon text-bone">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="font-mono text-badge uppercase text-terracotta block mb-6">Not sure the audit is the right first step?</span>
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-white mb-8">
+          Then don&rsquo;t<br/>
+          <span class="font-serif italic text-bone/70 normal-case font-normal">buy it yet.</span>
+        </h2>
+        <div class="font-sans text-body text-bone/80 space-y-6 max-w-xl mx-auto text-left mb-10">
+          <p>If you&rsquo;re not sure whether your site needs an audit, a rewrite, or a full rebuild, book the free 20-minute chat first. I&rsquo;ll look at your site before we talk, tell you honestly which path fits, and if the answer is &ldquo;just fix these three things,&rdquo; I&rsquo;ll say so and you&rsquo;ve spent nothing. Not a phone person? Send the contact form with your website link and I&rsquo;ll give you the same straight answer by email.</p>
+          <p>The audit is for when you want the full evidence in writing. The chat, or the form, is for when you want a straight answer fast. All fine places to start.</p>
         </div>
-
-        <h3 class="font-display text-headline font-bold text-carbon mb-12">Still have questions?</h3>
-
-        <div class="flex flex-col sm:flex-row justify-center items-center gap-8">
-          <a href="sms:0275668803" class="font-mono text-badge text-carbon border-b border-carbon/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
-            Text 027 566 8803
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-bone text-carbon px-8 py-3.5 rounded-full font-medium text-sm hover:bg-terracotta hover:text-white transition-colors duration-300">
+            Book a Website Chat
           </a>
-          <span class="hidden sm:block w-1.5 h-1.5 bg-carbon/20 rounded-full"></span>
-          <a href="mailto:lian@yourhq.co.nz" class="font-mono text-badge text-carbon border-b border-carbon/20 pb-1 hover:text-signal hover:border-signal transition-colors duration-200">
-            lian@yourhq.co.nz
+          <a href="/contact" class="inline-block bg-transparent text-bone border border-white/30 px-8 py-3.5 rounded-full font-medium text-sm hover:border-white transition-colors duration-300">
+            Or ask by form instead
+          </a>
+          <a href={stripeLink} class="inline-block bg-transparent text-bone border border-white/30 px-8 py-3.5 rounded-full font-medium text-sm hover:border-white transition-colors duration-300">
+            Order the Website Audit
           </a>
         </div>
+      </div>
+    </section>
+
+    <!-- 5. STILL HAVE QUESTIONS -->
+    <section class="py-24 px-6 lg:px-12 bg-bone text-center">
+      <div class="max-w-xl mx-auto">
+        <h2 class="font-display font-bold text-headline uppercase tracking-tight text-carbon mb-6">
+          Still have <span class="font-serif italic text-terracotta normal-case font-normal">questions?</span>
+        </h2>
+        <p class="font-sans text-body text-softGrey">
+          Text {PHONE}<br/>
+          <a href={`mailto:${EMAIL}`} class="underline decoration-carbon/30 underline-offset-4 hover:decoration-carbon text-carbon">{EMAIL}</a>
+        </p>
       </div>
     </section>
 
   </main>
+
   <Footer />
 </Layout>

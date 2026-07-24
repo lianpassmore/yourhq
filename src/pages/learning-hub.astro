@@ -1,0 +1,336 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.astro';
+import { BOOKING_URL } from '../lib/site.js';
+
+const forStudents = [
+  'Their own login, their own progress',
+  'Video lessons and downloadable workbooks',
+  'Only the courses they’re enrolled in. Nothing they’re not.',
+  'Works beautifully on a phone, installable like an app',
+];
+
+const forYou = [
+  'Add courses and modules yourself, anytime',
+  'Invite students, reset passwords, switch access on and off',
+  'See progress, logins, and completions at a glance',
+  'Sell with Stripe or keep it invite-only. Or both. It’s a toggle.',
+  'Lock modules in sequence, drip them weekly, or leave everything open',
+];
+
+const comparison = [
+  { k: 'Who owns it', them: 'Them', us: 'You' },
+  { k: 'Platform fee on sales', them: '0.5% to 10%', us: 'None. Just Stripe.' },
+  { k: 'Your domain', them: 'Sometimes, on upper tiers', us: 'Always' },
+  { k: 'Matches your website', them: 'Their templates', us: 'Built to match' },
+  { k: 'Price changes', them: 'Whenever they like', us: 'Fixed. In writing.' },
+  { k: 'Support', them: 'Ticket queue, chatbot', us: 'Message me' },
+];
+
+const faqs = [
+  { q: 'I’m already paying a monthly care fee. Am I paying for hosting twice?', a: 'No. Your care fee covers your website, same as always, and it doesn’t change. The hub monthly covers the hub: its own hosting, its own database, its own email. They’re separate systems doing separate jobs. Nothing overlaps and nothing is charged twice.' },
+  { q: 'Will this break my existing website?', a: 'No. Your website doesn’t change at all. The hub lives on a subdomain (learning.yourdomain.com) and your site links to it. Your current provider never even needs to know.' },
+  { q: 'Do I need you to add a course or a student?', a: 'No. The admin dashboard is yours. Add courses, upload workbooks, invite students, reset passwords, check progress. All self-serve. I’m here for the stuff beyond that.' },
+  { q: 'Can I sell my course and also give free access?', a: 'Yes. Each course can be paid through Stripe or invite-only. Sell one, gift another, run both at once.' },
+  { q: 'Can I make students finish module one before module two?', a: 'Yes. Each course can be fully open, sequential, or dripped weekly from enrolment. Your call, per course.' },
+  { q: 'Where do my videos live?', a: 'On your own YouTube (unlisted) or Vimeo account. You own them, you can swap them anytime, and upgrading to locked-down Vimeo hosting later is a paste-a-link job.' },
+  { q: 'What about community features?', a: 'The hub handles courses, content, and payments, and does them properly. If community becomes your main product, we’ll talk about the right way to do it, whether that’s something I build alongside your hub or a dedicated tool like Circle sitting next to it. Either way it’s a conversation, not a hard no.' },
+  { q: 'What if I leave?', a: 'Same deal as everything I build. Your domain, your content, your student data. Full export, clean handover. Nothing held hostage. Ever.' },
+];
+---
+
+<Layout
+  title="Course Platform NZ | On Your Own Domain | YourHQ"
+  description="The Learning Hub: a private course platform at learning.yourdomain.com. Your branding, your students, your Stripe, no platform tax. Built by a learning designer."
+>
+  <Navbar client:load />
+
+  <main class="bg-bone font-sans text-carbon min-h-screen selection:bg-terracotta selection:text-white overflow-hidden">
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="pt-24 md:pt-32 pb-24 border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+          <span class="font-mono text-badge uppercase text-deepGreen mb-6 flex items-center gap-3">
+            <span class="w-8 h-[1px] bg-deepGreen"></span> Learning Hub · An add-on for YourHQ sites, or standalone
+          </span>
+          <h1 class="font-display font-bold text-hero uppercase leading-none tracking-tight mb-8">
+            Your Course. Your Platform.<br/>
+            <span class="font-serif italic text-terracotta normal-case font-normal">Actually Yours.</span>
+          </h1>
+          <p class="font-sans text-subhead text-softGrey max-w-2xl">
+            A private course platform on your own domain. Your branding, your students, your Stripe. Built by someone who spent 15 years getting people to actually finish their training.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE PROBLEM
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-carbon text-bone border-b border-carbon">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-12 gap-12 md:gap-16 items-start">
+        <div class="md:col-span-5">
+          <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-white">
+            The course platforms have
+            <span class="font-serif italic text-terracotta normal-case font-normal block mt-2">a dirty secret.</span>
+          </h2>
+        </div>
+        <div class="md:col-span-7 font-sans text-body text-bone/80 space-y-6 max-w-2xl">
+          <p>Two, actually.</p>
+          <p>The first one is about money. Every course platform rents you a room in their house. Kajabi starts around $250 a month in real terms and raised prices on every plan in January 2026. Skool takes 10 percent of your sales on its cheap plan. Others clip 2 to 5 percent of everything you earn, forever. The moment your course succeeds, your platform bill grows with it. That is the platform tax, and you never stop paying it.</p>
+          <p>The second one is worse. Most online courses never get finished. The platforms don&rsquo;t talk about completion rates because hosting your course is their job, and whether anyone gets through it is your problem.</p>
+          <p class="font-medium text-white">I built the Learning Hub to fix both.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHAT IT IS
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-16">
+          <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-8">
+            A real course platform.<br/>
+            <span class="font-serif italic text-softGrey normal-case font-normal">On your domain. In your brand.</span>
+          </h2>
+          <div class="font-sans text-body text-softGrey space-y-6">
+            <p>The Learning Hub lives at learning.yourdomain.com and looks like the rest of your website, because I build it to match. Your students get their own login, see only the courses they&rsquo;ve bought or been given, watch your videos, download your workbooks, and tick off their progress as they go. They can even install it on their phone like an app.</p>
+            <p>You get an admin dashboard where you run the whole thing yourself. Add a course. Invite a student. Reset a password. See exactly who&rsquo;s logged in, how far they&rsquo;ve got, and who&rsquo;s gone quiet. No developer required for the day-to-day. That&rsquo;s the point.</p>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl">
+          <div class="bg-bone rounded-3xl p-8 md:p-10 border border-carbon/10">
+            <p class="font-mono text-badge uppercase text-deepGreen mb-6">For your students</p>
+            <ul class="divide-y divide-carbon/5">
+              {forStudents.map((item) => (
+                <li class="py-3.5 font-sans text-sm text-carbon/80 flex items-start gap-4">
+                  <span class="text-deepGreen shrink-0 mt-0.5" aria-hidden="true">&#10003;</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="bg-deepGreen text-bone rounded-3xl p-8 md:p-10">
+            <p class="font-mono text-badge uppercase text-terracotta mb-6">For you</p>
+            <ul class="divide-y divide-white/10">
+              {forYou.map((item) => (
+                <li class="py-3.5 font-sans text-sm text-bone/90 flex items-start gap-4">
+                  <span class="text-terracotta shrink-0 mt-0.5" aria-hidden="true">&#10003;</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE LEARNING DESIGNER DIFFERENCE
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-bone border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-12 gap-12 md:gap-16 items-start">
+        <div class="md:col-span-5">
+          <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon">
+            Built by a learning designer.
+            <span class="font-serif italic text-terracotta normal-case font-normal block mt-2">Not just a developer.</span>
+          </h2>
+        </div>
+        <div class="md:col-span-7 font-sans text-body text-softGrey space-y-6 max-w-2xl">
+          <p>Here&rsquo;s what nobody else on the comparison sites can say.</p>
+          <p>Before I built websites, I spent over 15 years designing and delivering learning. Systems training across 13 sites. Instructional design for a 1,400-person energy workforce. When I piloted a microlearning platform with operational field crews, we hit over 80 percent engagement. If you&rsquo;ve ever tried to get field crews excited about digital training, you know exactly what that number means.</p>
+          <p>So the Learning Hub isn&rsquo;t a shell you fill and hope. Sequential unlocking, weekly drip, progress tracking. Those aren&rsquo;t features I copied off a pricing page. They&rsquo;re how completion actually happens, and I chose them on purpose.</p>
+          <p class="font-serif italic text-accent text-carbon/80">Anyone can host your course. I&rsquo;ll help you build one people finish.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         COURSE SHAPE
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-12 gap-12 md:gap-16 items-center">
+        <div class="md:col-span-7">
+          <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-8">
+            Got the knowledge.
+            <span class="font-serif italic text-softGrey normal-case font-normal block mt-2">Not sure how to make it a course?</span>
+          </h2>
+          <div class="font-sans text-body text-softGrey space-y-6 max-w-2xl">
+            <p>This is the part most people get stuck on. You know your stuff cold. Turning it into modules that flow, hold attention, and get finished is a different skill. It happens to be the one I did professionally for 15 years.</p>
+            <p>Course Shape takes your raw expertise and turns it into a course structure ready to record. I map your content into modules with clear outcomes, sequence it so momentum builds, and script what each video needs to cover. You record in your own voice. I load it all in.</p>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="bg-bone rounded-3xl p-8 md:p-10 border border-carbon/10 max-w-sm md:ml-auto">
+            <p class="font-mono text-badge uppercase text-softGrey mb-4">Course Shape</p>
+            <p class="font-display font-bold text-3xl text-carbon leading-none mb-1">$1,200</p>
+            <p class="font-mono text-[9px] uppercase tracking-[0.15em] text-softGrey mb-6">NZD + GST per course</p>
+            <p class="font-sans text-sm text-softGrey leading-relaxed">Structure, sequencing, outcomes, video briefs. You record, I load.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PRICING
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-16 text-center">
+          Two ways in. <span class="font-serif italic text-terracotta normal-case font-normal">One platform.</span>
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+          <div class="bg-deepGreen text-bone rounded-3xl p-8 md:p-10 shadow-elegant">
+            <p class="font-mono text-badge uppercase text-terracotta mb-6">With a YourHQ Website</p>
+            <p class="font-display font-bold text-3xl text-white leading-none mb-1">$1,800 <span class="font-sans font-normal text-sm text-bone/70">NZD + GST setup</span></p>
+            <p class="font-sans text-sm text-bone/80 mb-6">+$99/mo NZD + GST on your care plan</p>
+            <p class="font-sans text-sm text-bone/85 leading-relaxed">
+              Your hub matches your site exactly, because I built both. Setup includes your branding, your subdomain, Stripe checkout, email from your domain, and your first course loaded.
+            </p>
+          </div>
+          <div class="bg-white rounded-3xl p-8 md:p-10 border border-carbon/10 shadow-subtle">
+            <p class="font-mono text-badge uppercase text-softGrey mb-6">Standalone · your website lives elsewhere</p>
+            <p class="font-display font-bold text-3xl text-carbon leading-none mb-1">$2,400 <span class="font-sans font-normal text-sm text-softGrey">NZD + GST setup</span></p>
+            <p class="font-sans text-sm text-softGrey mb-6">$179/mo NZD + GST</p>
+            <p class="font-sans text-sm text-softGrey leading-relaxed mb-6">
+              Your website stays exactly where it is. Rocketspark, Wix, Squarespace, wherever. I match your branding, connect the subdomain, and your current site just links to it. One DNS record. Nothing breaks, nobody&rsquo;s upset.
+            </p>
+            <p class="font-sans text-sm text-carbon leading-relaxed border-t border-carbon/10 pt-5">
+              <strong>Founding rate:</strong> the first five standalone clients lock in $149/mo. For life. When they&rsquo;re gone, they&rsquo;re gone.
+            </p>
+          </div>
+        </div>
+
+        <p class="font-sans text-sm text-softGrey text-center mb-16"><strong class="text-carbon">Annual option:</strong> pay for ten months, get twelve.</p>
+
+        <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-5xl mx-auto">
+          <div class="border-t border-carbon/10 pt-6">
+            <h3 class="font-sans font-medium text-carbon mb-3">Already a YourHQ client? Read this bit.</h3>
+            <p class="font-sans text-sm text-softGrey leading-relaxed">
+              Your monthly care fee doesn&rsquo;t change and you don&rsquo;t pay it twice. Care keeps covering your website, exactly like it does now. The $99 is for the hub only, because the hub is its own thing: its own hosting, its own private database holding your students and their progress, and its own email sending from your domain. Two systems, one bill, no overlap. Your website&rsquo;s hosting is never charged twice.
+            </p>
+          </div>
+          <div class="border-t border-carbon/10 pt-6">
+            <h3 class="font-sans font-medium text-carbon mb-3">What the hub monthly actually covers.</h3>
+            <p class="font-sans text-sm text-softGrey leading-relaxed">
+              Everything the hub needs to run, all in. Hub hosting. Your own private database, where your student accounts, enrolments, and progress live. Email sending from your domain, so welcome emails and password resets come from you, not some generic address. Security, backups, Stripe monitoring, platform updates. And me. When something needs doing, you message me. Same as always.
+            </p>
+            <p class="font-sans text-sm text-softGrey leading-relaxed mt-3">
+              That covers up to 250 active students. Past that, your hub is doing serious work and the database and email costs grow with it, so the monthly steps up by $50. You&rsquo;ll never find out from an invoice. I&rsquo;ll tell you before it happens.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THE COMPARISON
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-bone border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-12 gap-12 md:gap-16 items-start">
+          <div class="md:col-span-5">
+            <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-8">
+              The maths<br/>
+              <span class="font-serif italic text-terracotta normal-case font-normal">isn&rsquo;t subtle.</span>
+            </h2>
+            <div class="font-sans text-body text-softGrey space-y-6 max-w-md">
+              <p>Say your course earns $50,000 a year. On a platform taking 2 to 5 percent, that&rsquo;s $1,000 to $2,500 gone every year, on top of the subscription, forever. On the Learning Hub you pay Stripe&rsquo;s standard fee and nothing else. No platform tax. No per-student charges. No surprise restructure like the one Kajabi dropped on its customers in January 2026.</p>
+              <p>And if you&rsquo;re on Rocketspark: their members feature puts everyone behind one shared password with the same content. It cannot give buyer A course A and buyer B course B. The Learning Hub can. That&rsquo;s the whole difference between a password-protected page and a real course platform.</p>
+            </div>
+          </div>
+          <div class="md:col-span-7">
+            <div class="bg-white rounded-3xl border border-carbon/10 shadow-subtle overflow-x-auto">
+              <table class="w-full font-sans text-sm">
+                <thead>
+                  <tr class="border-b border-carbon/10">
+                    <th class="text-left font-mono text-badge uppercase text-softGrey font-medium p-5"></th>
+                    <th class="text-left font-mono text-badge uppercase text-softGrey font-medium p-5">Big-name platform</th>
+                    <th class="text-left font-mono text-badge uppercase text-deepGreen font-medium p-5">Learning Hub</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-carbon/5">
+                  {comparison.map((row) => (
+                    <tr>
+                      <td class="p-5 font-medium text-carbon">{row.k}</td>
+                      <td class="p-5 text-softGrey">{row.them}</td>
+                      <td class="p-5 font-medium text-carbon">{row.us}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHO IT'S FOR
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-white border-b border-carbon/10">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-8">
+          You&rsquo;ve already built<br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">something real.</span>
+        </h2>
+        <div class="font-sans text-body text-softGrey space-y-6">
+          <p>Maybe you&rsquo;re a coach, a consultant, a practitioner, or you train people in your trade. You&rsquo;ve got real expertise, an audience that trusts you, and a course that deserves better than a rented platform.</p>
+          <p>If you&rsquo;re still testing an idea, honestly, start on a cheap tool. No hard feelings. When you&rsquo;re ready to own it and stop handing over a slice of every sale, I&rsquo;ll be here.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-surface border-b border-carbon/10">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight text-carbon mb-16">
+          Learning Hub <span class="font-serif italic text-terracotta normal-case font-normal">FAQ.</span>
+        </h2>
+        <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 max-w-5xl">
+          {faqs.map((f) => (
+            <div class="border-t border-carbon/10 pt-6">
+              <h3 class="font-sans font-medium text-carbon mb-2">{f.q}</h3>
+              <p class="font-sans text-sm text-softGrey leading-relaxed">{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA
+    ============================================================ -->
+    <section class="py-24 md:py-32 bg-bone text-center px-4">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display font-bold text-display uppercase leading-[1.05] tracking-tight mb-8 text-carbon">
+          Ready to own your<br/>
+          <span class="font-serif italic text-terracotta normal-case font-normal">course platform?</span>
+        </h2>
+        <p class="font-sans text-body text-softGrey max-w-xl mx-auto mb-10">
+          It starts the same way everything here starts: a free 20-minute chat, or the contact form if you&rsquo;d rather write. Tell me about your course, and you&rsquo;ll get a written proposal for your hub. Your numbers, in writing, no surprises.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block bg-carbon text-white px-10 py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors duration-300 shadow-subtle">
+            Book a Website Chat
+          </a>
+          <a href="/contact" class="inline-block bg-transparent text-carbon border border-carbon/20 px-10 py-4 rounded-full font-medium text-sm hover:border-carbon transition-colors duration-300">
+            Or start with the form
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Layout>

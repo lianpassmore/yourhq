@@ -1,5 +1,6 @@
 ---
 import ContactInfo from './ContactInfo.astro';
+import { BOOKING_URL } from '../lib/site.js';
 ---
 
 <footer class="bg-carbon text-bone py-20 md:py-24 border-t-[3px] border-terracotta">
@@ -10,9 +11,12 @@ import ContactInfo from './ContactInfo.astro';
         <div class="col-span-1">
           <img src="/yourhq-logo-white.png" alt="YourHQ" loading="lazy" decoding="async" class="h-20 w-auto mb-6" />
           <p class="font-sans text-sm text-bone/70 leading-relaxed">
-            Founder-led websites for Kiwi small businesses.<br/>
-            Built in Whangārei, servicing NZ-wide.
+            Founder-built websites for established businesses.<br/>
+            Built in Whangārei, working worldwide.
           </p>
+          <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" class="inline-block mt-6 bg-bone text-carbon px-6 py-2.5 rounded-full font-sans font-medium text-sm hover:bg-terracotta hover:text-white transition-colors">
+            Book a Website Chat
+          </a>
           <div class="flex gap-5 mt-8">
             <a href="https://www.facebook.com/yourhqnz/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="text-softGrey hover:text-terracotta transition-colors duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -30,9 +34,8 @@ import ContactInfo from './ContactInfo.astro';
             <li><a href="/how-it-works" class="hover:text-white transition-colors duration-300 inline-block">How It Works</a></li>
             <li><a href="/pricing" class="hover:text-white transition-colors duration-300 inline-block">Pricing</a></li>
             <li><a href="/website-audit" class="hover:text-white transition-colors duration-300 inline-block">Website Audit <span class="text-terracotta/80 font-serif italic text-[15px] ml-1">- $997</span></a></li>
-            <li><a href="/who-we-build-for" class="hover:text-white transition-colors duration-300 inline-block">Who We Build For</a></li>
-            <li><a href="/portfolio" class="hover:text-white transition-colors duration-300 inline-block">Portfolio</a></li>
-            <li><a href="/our-story" class="hover:text-white transition-colors duration-300 inline-block">Our Story</a></li>
+            <li><a href="/learning-hub" class="hover:text-white transition-colors duration-300 inline-block">Learning Hub</a></li>
+            <li><a href="/the-work" class="hover:text-white transition-colors duration-300 inline-block">The Work</a></li>
             <li><a href="/network" class="hover:text-white transition-colors duration-300 inline-block">YourHQ Network</a></li>
             <li><a href="/refer" class="hover:text-white transition-colors duration-300 inline-block">Refer a Friend</a></li>
           </ul>
@@ -73,7 +76,7 @@ import ContactInfo from './ContactInfo.astro';
 
       <div class="border-t border-white/10 mt-20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
         <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">&copy; {new Date().getFullYear()} YourHQ Limited.</p>
-        <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">Fast builds. Long-term care.</p>
+        <p class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey">Built once. Looked after for good.</p>
         <a href="/admin" class="font-mono text-[10px] uppercase tracking-[0.15em] text-softGrey hover:text-terracotta transition-colors duration-300">Admin Login</a>
       </div>
     </div>

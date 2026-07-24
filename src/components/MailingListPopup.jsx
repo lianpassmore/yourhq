@@ -4,7 +4,7 @@ import { notifyNtfy } from '../lib/notify';
 
 const STORAGE_KEY = 'yourhq_popup_dismissed';
 const DISMISS_DAYS = 7;
-const DELAY_MS = 8000;
+const SCROLL_DEPTH = 0.6; // fire once the visitor has read 60% of the page
 
 /**
  * @param {{ excludePaths?: string[] }} props
@@ -25,8 +25,16 @@ export default function MailingListPopup({ excludePaths = [] }) {
       if (daysSince < DISMISS_DAYS) return;
     }
 
-    const timer = setTimeout(() => setVisible(true), DELAY_MS);
-    return () => clearTimeout(timer);
+    function onScroll() {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollable <= 0) return;
+      if (window.scrollY / scrollable >= SCROLL_DEPTH) {
+        setVisible(true);
+        window.removeEventListener('scroll', onScroll);
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   function dismiss() {
@@ -68,7 +76,7 @@ export default function MailingListPopup({ excludePaths = [] }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={dismiss}>
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-carbon/60 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-carbon/40" />
 
       {/* Modal */}
       <div className="relative bg-white rounded-3xl border border-carbon/10 shadow-elegant w-full max-w-md p-6 sm:p-8 max-h-[90vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
@@ -97,19 +105,19 @@ export default function MailingListPopup({ excludePaths = [] }) {
               <div className="space-y-2">
                 <label htmlFor="popup-name" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">Name</label>
                 <input type="text" name="name" id="popup-name" placeholder="e.g., Sarah" required
-                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors" />
+                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-deepGreen focus:outline-none transition-colors" />
               </div>
 
               <div className="space-y-2">
                 <label htmlFor="popup-email" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">Email</label>
                 <input type="email" name="email" id="popup-email" placeholder="e.g., sarah@email.com" required
-                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors" />
+                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-deepGreen focus:outline-none transition-colors" />
               </div>
 
               <div className="space-y-2">
                 <label htmlFor="popup-referral" className="text-xs font-mono font-medium uppercase tracking-[0.15em] text-softGrey">How did you find us? <span className="text-softGrey/70 normal-case font-normal">(optional)</span></label>
                 <select name="referral_source" id="popup-referral"
-                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-signal focus:outline-none transition-colors">
+                  className="w-full border border-carbon/10 bg-white p-3 rounded-xl text-carbon focus:border-deepGreen focus:outline-none transition-colors">
                   <option value="">Select an option...</option>
                   <option value="Google Search">Google Search</option>
                   <option value="Google Maps">Google Maps</option>

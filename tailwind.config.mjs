@@ -23,7 +23,7 @@ export default {
         logo: ['"Barlow Condensed"', 'sans-serif'],
       },
       fontSize: {
-        'hero': ['clamp(4.5rem, 6vw, 6rem)', { lineHeight: '1.05', letterSpacing: '-0.02em' }],
+        'hero': ['clamp(2.75rem, 6.5vw, 6rem)', { lineHeight: '1.05', letterSpacing: '-0.02em' }],
         'display': ['clamp(3.25rem, 5vw, 4.5rem)', { lineHeight: '1.05', letterSpacing: '-0.02em' }],
         'headline': ['clamp(2.25rem, 4vw, 3.25rem)', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
         'accent': ['clamp(1.125rem, 2.5vw, 1.75rem)', { lineHeight: '1.2' }],

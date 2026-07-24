@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { notifyNtfy } from '../lib/notify';
+import { notifyNtfy, notifyOwner } from '../lib/notify';
 
 // Maps form field `name` attributes → discovery_submissions table columns.
 // Keep in sync with supabase/migrations/discovery_submissions_table.sql
@@ -152,6 +152,19 @@ export default function DiscoveryForm({ tier = 'launch' }) {
         'Discovery Form Submitted',
         'yourhq-discovery'
       );
+      notifyOwner({
+        subject: `Discovery brief — ${row.business || name || 'someone'} (${tier})`,
+        intro: `${name || 'Someone'} completed the ${tier} discovery brief (full answers in the dashboard).`,
+        fields: [
+          { label: 'Name', value: row.name || '—' },
+          { label: 'Business', value: row.business || '—' },
+          { label: 'Email', value: row.email || '—' },
+          { label: 'Phone', value: row.phone || '—' },
+          { label: 'Tier', value: tier },
+        ],
+        replyTo: row.email || null,
+        source: `discovery-${tier}`,
+      });
     }
   }
 
@@ -210,7 +223,7 @@ export default function DiscoveryForm({ tier = 'launch' }) {
           <label className={LABEL} htmlFor="df-heard">How did you hear about YourHQ?</label>
           <input
             type="text" id="df-heard" name="How you heard about YourHQ"
-            placeholder="A friend / Instagram / Google / Nic..."
+            placeholder="A friend / Instagram / Google..."
             className={`${INPUT} ${a.focus}`}
           />
         </div>

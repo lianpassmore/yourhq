@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
+import { BOOKING_URL } from '../lib/site.js';
 
 const navLinks = [
   { href: '/how-it-works', label: 'How It Works' },
   { href: '/pricing', label: 'Pricing' },
   { href: '/website-audit', label: 'Website Audit' },
-  { href: '/who-we-build-for', label: 'Who We Build For' },
-  { href: '/portfolio', label: 'Portfolio' },
-  { href: '/our-story', label: 'Our Story' },
+  { href: '/the-work', label: 'The Work' },
+  { href: '/ecosystem', label: 'Ecosystem' },
 ];
-
-const buildLink = '/start-build';
 
 const grainBg = {
   backgroundImage:
@@ -46,10 +44,12 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href={buildLink}
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-carbon text-white px-6 py-2.5 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors shadow-subtle hover:shadow-elegant"
             >
-              Start Your Build
+              Book a Website Chat
             </a>
           </div>
 
@@ -86,11 +86,13 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={buildLink}
+            href={BOOKING_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
             className="block mt-6 bg-carbon text-white text-center py-4 rounded-full font-medium text-sm hover:bg-deepGreen transition-colors shadow-subtle"
           >
-            Start Your Build
+            Book a Website Chat
           </a>
         </div>
       </div>
